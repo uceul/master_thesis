@@ -1,0 +1,45 @@
+dataset_path: /home/kit/iti/lz5921/mof_synthesis/synthesis_paragraphs
+checkpoint_path: /pfs/work7/workspace/scratch/lz5921-chkpt/
+models:
+- model_name: LLaMa 7B
+  model_path: /pfs/work8/workspace/ffuc/scratch/lz5921-llms/llama.cpp/models/7B/
+  model_type: text-generation
+- model_name: LLaMa 2 7B
+  model_path: /pfs/work7/workspace/scratch/lz5921-llama/Llama-2-7b/
+  model_type: text-generation
+- model_name: Vicuna 7B
+  model_path: /pfs/work8/workspace/ffuc/scratch/lz5921-llms/vicuna-7b-1.1/
+  model_type: text-generation
+- model_name: Falcon 7B
+  model_path: /pfs/work8/workspace/ffuc/scratch/lz5921-llms/falcon-7b/
+  model_type: text-generation
+- model_name: Falcon 7B Instruct
+  model_path: /pfs/work8/workspace/ffuc/scratch/lz5921-llms/falcon-7b-instruct/
+  model_type: text-generation
+extract_config:
+  additive:
+    type: string
+    convert_funcs:
+    - ans2cid
+    dataset_cols:
+    - additive1
+  solvent:
+    type: string
+    convert_funcs:
+    - ans2cid
+    dataset_cols:
+    - solvent1
+  temperature:
+    type: number
+    unit: C
+    convert_funcs:
+    - ans2temperature
+    dataset_cols:
+    - temperature_Celsius
+  time:
+    type: number
+    unit: h
+    convert_funcs:
+    - ans2time
+    dataset_cols:
+    - time_h

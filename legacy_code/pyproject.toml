@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "mthesis"
+version = "0.1.0"
+description = "Code for using large language models for data extraction from scientific literature"
+authors = ["Felix Karg <f.karg10@gmail.com>"]
+license = "AGPLv3"
+readme = "../README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.9.0"
+rich = "^13.4.2"
+transformers = "^4.30.2"
+jsonformer = "^0.12.0"
+lightning = "^2.0.4"
+torch = "^2.0.1"
+lightning-bolts = "^0.6.0.post1"
+lightning-transformers = "^0.2.5"
+bitsandbytes = "^0.39.1"
+accelerate = "^0.20.3"
+einops = "^0.6.1"
+pydantic = "1.10"
+pubchempy = "^1.0.4"
+trl = "^0.7.1"
+numpy = "^1.25.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ipython = "^8.14.0"
+ruff = "^0.0.275"
+
+[tool.poetry.scripts]
+main = "mthesis.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+# Fixes differences in isort and ruff 1st and 3rd party imports
+src = ["src"]
+select = [
+    "E", # pycodestylye errors
+    "F", # Pyflakes
+    "D", # pydocstyle
+    "I", # isort
+    "N", # pep8-naming
+    "ERA", # eradicate
+    "SIM", # flake8-simplify
+    "PTH", # flake8-pathlib,
+    "T20", # flake8-no-print
+    "PD", # pandas-vet
+    "UP", # pyupgrade
+    "RUF", # Ruff-specific-rules
+    "TRY", # tryceratops
+]
+ignore = [
+    "D100", # docstring in public module
+    "D106", # docstring in public nested class
+]
+
