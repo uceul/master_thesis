@@ -77,7 +77,7 @@ def evaluate(
     log.info("Loading settings and stats")
 
     settings = load_yaml(settings)
-    stats = load_yaml(stats_path)
+    stats = []
     # run evaluation of models
 
     evaluated = frozenset(map(lambda s: (s["paragraph_id"], s["model_name"]), stats))
@@ -127,10 +127,13 @@ def evaluate(
             entry["answer"] = model(item["text"])  # forward the dataset text
             stats.append(entry)
             if count >= 20:
-                log.info(f"Saving progress to `{stats_path}`")
-                save_yaml(stats, stats_path)
-                save_yaml(stats, "backup/" + stats_path)
-                count = 0
+                try:
+                    log.info(f"Saving progress to `{stats_path}`")
+                    save_yaml(stats, stats_path)
+                    save_yaml(stats, "backup/" + stats_path)
+                    count = 0
+                except:
+                    log.warning("Failed to backup results. Continuiung...")   
         log.info(f"Saving progress to `{stats_path}`")
         save_yaml(stats, stats_path)
         save_yaml(stats, "backup/" + stats_path)
@@ -470,66 +473,76 @@ def analyse(
     confusion = Confusion()
 
     for evaluation in stats:
-        pid = evaluation["paragraph_id"]
-        model_name = evaluation["model_name"]
         try:
-            item = ds[pid]
-        except KeyError:
+            pid = evaluation["paragraph_id"]
+            model_name = evaluation["model_name"]
+            try:
+                item = ds[pid]
+            except KeyError:
+                print(f"KeyError for pid: {pid}")
+                continue
+            text, label = item["text"], item["label"]
+            answer = evaluation["answer"]
+            
+
+            
+            # time or temp: convert units, unify number type (float/int)
+            a_temp = ans2tempcelsius(a_full := f'{answer["temperature"]} {answer["temperature_unit"]}')
+            l_temp = ans2tempcelsius(l_full := f'{label["temperature"]} {label["temperature_unit"]}')
+            if a_temp != l_temp:
+                if ans2tempcelsius(f'{answer["temperature"]} C') == l_temp:
+                    confusion.wrong_unit(model_name, "temperature")
+                else:
+                    log.debug(f"temperature [{pid}] {a_temp} != {l_temp} | {a_full} != {l_full}")
+                confusion.wrong(model_name, "temperature")
+            else:
+                confusion.correct(model_name, "temperature")
+
+            a_time = ans2hours(a_full := f'{answer["time"]} {answer["time_unit"]}')
+            l_time = ans2hours(l_full := f'{label["time"]} {label["time_unit"]}')
+            if a_time != l_time:
+                if ans2hours(f'{answer["time"]} d') == l_time:
+                    confusion.wrong_unit(model_name, "time")
+                elif ans2hours(f'{answer["time"]} s') == l_time:
+                    confusion.wrong_unit(model_name, "time")
+                elif ans2hours(f'{answer["time"]} h') == l_time:
+                    confusion.wrong_unit(model_name, "time")
+                else:
+                    print(f"Processing: {pid}, {model_name}")
+                    print(f"Label: {label}")
+                    print(f"Answer: {answer}")
+                    print(f"duration [{pid}] {a_time} != {l_time} | {a_full} != {l_full}")
+                    log.debug(f"duration [{pid}] {a_time} != {l_time} | {a_full} != {l_full}")
+                confusion.wrong(model_name, "time")
+            else:
+                confusion.correct(model_name, "time")
+
+            # all models answered _something_, even if there was
+            # no additive. So when the label is empty,
+            # whatever the model says is just wrong.
+            if label["additive"] == "":
+                confusion.wrong(model_name, "additive") # TODO: fix this stupid stuff. What if the model said "None"? Idiot.
+            elif txt2cid(answer["additive"]) == []:
+                confusion.resolve_answer(model_name, "additive")
+                confusion.wrong(model_name, "additive")
+            elif set(txt2cid(answer["additive"])).isdisjoint(set(label["additive"])):
+                log.debug(f"adddiff [{pid}] {answer['additive']} != {label['additive']}")
+                confusion.wrong(model_name, "additive")
+            else:
+                confusion.correct(model_name, "additive")
+
+
+            if txt2cid(answer["solvent"]) == []:
+                confusion.resolve_answer(model_name, "solvent")
+                confusion.wrong(model_name, "solvent") # TODO: fix this stupid stuff. What if the model said "None"? Idiot.
+            elif set(txt2cid(answer["solvent"])).isdisjoint(set(label["solvent"])): # TODO: the txt2cid function needs to be improved
+                    log.debug(f"soldiff [{pid}] {answer['solvent']} != {label['solvent']}")
+                    confusion.wrong(model_name, "solvent")  
+            else:
+                confusion.correct(model_name, "solvent")
+        except Exception as e:
+            print(f"Error processing evaluation for {evaluation['paragraph_id']}, {evaluation['model_name']}: {str(e)}")
             continue
-        text, label = item["text"], item["label"]
-        answer = evaluation["answer"]
-
-        # time or temp: convert units, unify number type (float/int)
-        a_temp = ans2tempcelsius(a_full := f'{answer["temperature"]} {answer["temperature_unit"]}')
-        l_temp = ans2tempcelsius(l_full := f'{label["temperature"]} {label["temperature_unit"]}')
-        if a_temp != l_temp:
-            if ans2tempcelsius(f'{answer["temperature"]} C') == l_temp:
-                confusion.wrong_unit(model_name, "temperature")
-            else:
-                log.debug(f"temperature [{pid}] {a_temp} != {l_temp} | {a_full} != {l_full}")
-            confusion.wrong(model_name, "temperature")
-        else:
-            confusion.correct(model_name, "temperature")
-
-        a_time = ans2hours(a_full := f'{answer["time"]} {answer["time_unit"]}')
-        l_time = ans2hours(l_full := f'{label["time"]} {label["time_unit"]}')
-        if a_time != l_time:
-            if ans2hours(f'{answer["time"]} d') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            elif ans2hours(f'{answer["time"]} s') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            elif ans2hours(f'{answer["time"]} h') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            else:
-                log.debug(f"duration [{pid}] {a_time} != {l_time} | {a_full} != {l_full}")
-            confusion.wrong(model_name, "time")
-        else:
-            confusion.correct(model_name, "time")
-
-        # all models answered _something_, even if there was
-        # no additive. So when the label is empty,
-        # whatever the model says is just wrong.
-        if label["additive"] == "":
-            confusion.wrong(model_name, "additive")
-        elif txt2cid(answer["additive"]) == []:
-            confusion.resolve_answer(model_name, "additive")
-            confusion.wrong(model_name, "additive")
-        elif set(txt2cid(answer["additive"])).isdisjoint(set(label["additive_cid"])):
-            log.debug(f"adddiff [{pid}] {answer['additive']} != {label['additive']}")
-            confusion.wrong(model_name, "additive")
-        else:
-            confusion.correct(model_name, "additive")
-
-
-        if txt2cid(answer["solvent"]) == []:
-            confusion.resolve_answer(model_name, "solvent")
-            confusion.wrong(model_name, "solvent")
-        elif set(txt2cid(answer["solvent"])).isdisjoint(set(label["solvent_cid"])):
-            log.debug(f"soldiff [{pid}] {answer['solvent']} != {label['solvent']}")
-            confusion.wrong(model_name, "solvent")
-        else:
-            confusion.correct(model_name, "solvent")
-
     # log.info(f"{correct}/{uwrong}/{wrong}/{total}  correct/unit/wrong/total")
     # log.info(f"prop {correct / total:.2f}/{wrong / total:.2f} correct/wrong")
     # log.info(f"prop {uwrong / total:.2f} with unit wrong")

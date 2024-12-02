@@ -43,7 +43,7 @@ def ans2cid(answer: str, paragraph_id: str = None) -> int:
         log.warn(f'Found more than one cid: {cids} in "{answer}" for {paragraph_id}')
     return cids[0][0]
 
-
+# TODO: improve so that multiple cids can be returned or include multiple hardcoded answers like DMA/DMF
 @cache
 def txt2cid(txt: str) -> list[int]:
     if not txt:

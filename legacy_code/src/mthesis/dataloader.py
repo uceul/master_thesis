@@ -7,6 +7,7 @@ import torch
 from tqdm import tqdm
 
 import os
+import sys
 import csv
 import json
 import logging
@@ -118,8 +119,11 @@ class LabeledMOFDataset(MOFDataset):
         labels_path_A = os.path.join(dataset_path, "../results", "SynMOF_A_out.csv")
         labels_path_M = os.path.join(dataset_path, "../results", "SynMOF_M_out.csv")
 
-        labels_A = pd.read_csv(labels_path_A, sep=";")
-        labels_M = pd.read_csv(labels_path_M, sep=";")
+        print(labels_path_A)
+        print(labels_path_M)
+
+        labels_A = pd.read_csv(labels_path_A)
+        labels_M = pd.read_csv(labels_path_M)
 
         progress_bar = tqdm(self.paragraphs.keys(), file=open(os.devnull, "w"))
         progress_bar.set_postfix_str("Configuring Dataset Labels")

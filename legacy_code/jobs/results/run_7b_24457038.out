@@ -1,0 +1,59 @@
+# conda environments:
+#
+llm-extraction           /home/kit/iti/zn2950/.conda/envs/llm-extraction
+llm-extracton            /home/kit/iti/zn2950/.conda/envs/llm-extracton
+base                     /opt/bwhpc/common/devel/miniconda/23.9.0-py3.9.15
+
+run_7b
+GPU:1
+
+NVDIA-SMI OUTPUT
+Sat Oct 12 23:47:41 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-32GB           On  |   00000000:3A:00.0 Off |                    0 |
+| N/A   33C    P0             39W /  300W |      18MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      2634      G   /usr/libexec/Xorg                              17MiB |
++-----------------------------------------------------------------------------------------+
+  0%|          | 0/905 [00:00<?, ?it/s, LLaMa 2 7B]
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home/kit/iti/zn2950/.conda/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/libbitsandbytes_cuda118_nocublaslt.so
+CUDA SETUP: CUDA runtime path found: /opt/bwhpc/common/devel/cuda/11.8/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /home/kit/iti/zn2950/.conda/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/libbitsandbytes_cuda118_nocublaslt.so...
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n520
+Job ID: 24457038
+Cluster: uc2
+User/Group: zn2950/iti
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.01% of 05:01:30 core-walltime
+Job Wall-clock time: 00:30:09
+Memory Utilized: 2.69 GB
+Memory Efficiency: 2.93% of 91.80 GB

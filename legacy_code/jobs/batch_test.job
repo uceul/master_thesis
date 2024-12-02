@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --job-name=run_7b
+#SBATCH --output=results/run_7b_%j.out
+#SBATCH --error=results/run_7b_%j.err
+#SBATCH --partition=gpu_4_a100
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=120:00
+#SBATCH --nodes=1
+#SBATCH --mail-type=NONE
+#SBATCH --constraint=LSDF
+
+source ~/.bashrc
+module load devel/cuda/11.8
+module load devel/miniconda/23.9.0-py3.9.15
+conda info --envs
+conda activate llm-extraction
+
+echo "run_7b"
+echo "GPU:1"
+echo
+echo "NVDIA-SMI OUTPUT"
+nvidia-smi
+
+cd /home/kit/iti/zn2950/ws/src/master_thesis/legacy_code
+
+poetry run main evaluate --settings settings/settings_7b.yml --only-model "LLaMa 2 7B"

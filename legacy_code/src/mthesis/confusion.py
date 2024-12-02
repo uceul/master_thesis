@@ -16,11 +16,14 @@ def flatten_empty(d: dict) -> dict:
 
 def relative_proportion(d: dict) -> dict:
     def rel(w: dict) -> dict:
-        total = w['correct'] + w['wrong']
-        return {k: v / total for k, v in w.items()}
+        correct = w.get('correct', 0)
+        wrong = w.get('wrong', 0)
+        total = correct + wrong
+        if total == 0:
+            return {k: 0 for k in w.keys()}
+        return {k: v / total if total > 0 else 0 for k, v in w.items()}
 
     return {m: {p: rel(v) for p, v in e.items()} for m, e in d.items()}
-
 class Confusion:
     confusion = {
         "Total": {
