@@ -17,12 +17,13 @@ torch = "^2.4"
 lightning-bolts = "^0.6.0.post1"
 lightning-transformers = "^0.2.5"
 bitsandbytes = "^0.39.1"
-accelerate = "^0.20.3"
+accelerate = "^0.33.0"
 einops = "^0.6.1"
 pydantic = "1.10"
 pubchempy = "^1.0.4"
 trl = "^0.7.1"
 numpy = "^1.25.2"
+scipy = "^1.14.1"
 
 
 [tool.poetry.group.dev.dependencies]
