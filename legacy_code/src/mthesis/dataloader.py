@@ -103,6 +103,7 @@ class LabeledMOFDataset(MOFDataset):
         self.label_cols = label_cols
         if from_csv:
             try:
+                log.info("Loading dataset from CSV, path: " + from_csv)
                 self.paragraphs = dict()
                 self.paragraph_list = list()
                 self._from_csv(from_csv)
@@ -119,8 +120,8 @@ class LabeledMOFDataset(MOFDataset):
         labels_path_A = os.path.join(dataset_path, "../results", "SynMOF_A_out.csv")
         labels_path_M = os.path.join(dataset_path, "../results", "SynMOF_M_out.csv")
 
-        print(labels_path_A)
-        print(labels_path_M)
+        log.info("labels_path_A: " + str(labels_path_A))
+        log.info("labels_path_M: " + str(labels_path_M))
 
         labels_A = pd.read_csv(labels_path_A)
         labels_M = pd.read_csv(labels_path_M)
@@ -161,7 +162,7 @@ class LabeledMOFDataset(MOFDataset):
 
                 if answer_a and answer_m and answer_a != answer_m:
                     log.warning(
-                        f"Dataset: answer cids differ. a: {answer_a} m: {answer_m}. Continuing with answer [m]."
+                        f"Dataset: Paragraph {paragraph_id} - answer cids differ. a: {answer_a} m: {answer_m}. Continuing with answer [m]."
                     )
                 # if answer_a is None:
                 #     self.labels[paragraph_id][parameter] = None
@@ -172,25 +173,57 @@ class LabeledMOFDataset(MOFDataset):
                     continue
 
                 if parameter in ["additive", "solvent"]:
-                    synonyms = cid2syns(answer_m)
-                    found = False
-
-                    self.labels[paragraph_id][parameter + "_cid"] = answer_m
-
-                    for syn in synonyms:
-                        if syn.lower() in self.paragraphs[paragraph_id].lower():
-                            self.labels[paragraph_id][parameter] = syn
-                            found = True
+                    # Initialize lists to store valid synonyms and CIDs
+                    self.labels[paragraph_id][parameter] = []
+                    self.labels[paragraph_id][parameter + "_cid"] = []
+                    
+                    # Try solvent1, solvent2, etc. or additive1, additive2, etc.
+                    column_idx = 1
+                    while True:
+                        try:
+                            # Try to get next CID from column
+                            current_col = f"{parameter}{column_idx}"
+                            answer_m = labels_M.loc[labels_M["filename"] == paragraph_id][current_col].values[0]
+                            
+                            # Skip if no valid CID
+                            if pd.isna(answer_m) or answer_m == "":
+                                break
+                                
+                            answer_m = int(answer_m)  # Convert to int for CID
+                            
+                            # Get synonyms for this CID
+                            synonyms = cid2syns(answer_m)
+                            if answer_m == 12051: synonyms.append('def')
+                            if answer_m == 31374: synonyms.append('dma')
+                            if 's s' in synonyms:
+                                synonyms.remove('s s')
+                            found_in_text = False
+                            
+                            # Check if any synonym appears in text
+                            for syn in synonyms:
+                                if syn.lower() in self.paragraphs[paragraph_id].lower():
+                                    self.labels[paragraph_id][parameter].append(syn)
+                                    found_in_text = True
+                            
+                            # If no synonym found in text, add all synonyms as valid options
+                            if not found_in_text:
+                                self.labels[paragraph_id][parameter].extend(synonyms)
+                            
+                            # Store CID
+                            self.labels[paragraph_id][parameter + "_cid"].append(answer_m)
+                            
+                            column_idx += 1
+                            
+                        except (KeyError, IndexError):
+                            # No more columns to process
                             break
-                    if not found:
-                        log.error(f"Didn't find {parameter} synonym for {synonyms[0]} in text. Selecting it as default. Available: {len(synonyms)}")
-                        self.labels[paragraph_id][parameter] = synonyms[0]
+
                 elif parameter in ["time", "temperature"]:
                     self.labels[paragraph_id][parameter] = answer_m
             self.labels[paragraph_id]["temperature_unit"] = "C"
             self.labels[paragraph_id]["time_unit"] = "h"
 
-        # resulting output from Jsonformer:
+        # resulting output from Jsonformer: TODO: update this!
         # {'additive': 'water', 'solvent': 'water', 'temperature': 90.0, 'temperature_unit': 'C', 'time': 40.0, 'time_unit': 'h'}
 
     def to_csv(self, filename):
@@ -215,22 +248,43 @@ class LabeledMOFDataset(MOFDataset):
 
     def _from_csv(self, from_csv: str):
         log.info(f"[dataset]: Loading LabeledMofDataset from csv '{from_csv}'")
-        # need to reconstruct:
-        # - self.paragraphs: dict[paragraph_id -> context]
-        # - self.paragraph_list: list[(paragraph_id, context)]
-        # - self.labels: dict[paragraph_id, parameter -> str | float | None]
         with open(from_csv, newline="") as f:
             reader = csv.DictReader(f, delimiter=";")
             for row in reader:
                 idx = row["paragraph_id"]
                 self.paragraphs[idx] = row["context"]
-                self.labels[idx] = {k: row[k] for k in self.label_cols.keys()}
+                self.labels[idx] = {}
+                
+                # Handle each parameter type appropriately
+                for k in self.label_cols.keys():
+                    if k in ["solvent", "additive"]:
+                        # Convert string representation of list to actual list
+                        try:
+                            # Handle string representations of lists like "['DMF', 'H2O']"
+                            value = eval(row[k]) if row[k] else []
+                            self.labels[idx][k] = value
+                            # Also handle the CID lists
+                            cid_key = f"{k}_cid"
+                            if cid_key in row:
+                                self.labels[idx][cid_key] = eval(row[cid_key]) if row[cid_key] else []
+                        except (SyntaxError, ValueError):
+                            log.warning(f"Failed to parse list for {k} in paragraph {idx}: {row[k]}")
+                            self.labels[idx][k] = []
+                    else:
+                        # Handle numeric values for temperature and time
+                        try:
+                            self.labels[idx][k] = float(row[k]) if row[k] else None
+                        except ValueError:
+                            self.labels[idx][k] = None
+
+                # Set default units
                 if not self.labels[idx].get("temperature_unit"):
                     self.labels[idx]["temperature_unit"] = "C"
                 if not self.labels[idx].get("time_unit"):
                     self.labels[idx]["time_unit"] = "h"
-        self.paragraph_list = list(self.paragraphs.items())
-        log.info(f"[dataset]: Finished loading from csv. #Items: {len(self)}")
+
+            self.paragraph_list = list(self.paragraphs.items())
+            log.info(f"[dataset]: Finished loading from csv. #Items: {len(self)}")
 
     def __getitem__(self, idx: int | str) -> dict:
         # return item at position idx.

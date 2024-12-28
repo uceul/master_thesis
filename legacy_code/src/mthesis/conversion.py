@@ -1,13 +1,21 @@
 import re
 import time
+from urllib.error import URLError
 import pubchempy as pcp
 import logging
 import numpy as np
 from functools import cache
 
-p = logging.getLogger("pubchempy").setLevel(logging.WARNING)
-log = logging.getLogger(__name__)
+# Only suppress pubchempy logging
+logging.getLogger("pubchempy").setLevel(logging.WARNING)
 
+# Create a placeholder for the logger - will be set up by setup_logger()
+log = None
+
+def setup_logger(main_logger):
+    """Initialize the logger with the properly configured main logger"""
+    global log
+    log = main_logger
 
 def ans2cid(answer: str, paragraph_id: str = None) -> int:
     cids = []
@@ -53,7 +61,7 @@ def txt2cid(txt: str) -> list[int]:
     try:
         r = pcp.get_cids(txt.strip())
         if not r:
-            log.error(f"pcp: Could not find `cid` for [{txt}]")
+            log.unresolvable_chemical(f"pcp: Could not find `cid` for [{txt}]")
         return r
     except pcp.PubChemHTTPError as e:
         log.warning(e)
@@ -85,7 +93,7 @@ def ans2tempcelsius(answer: str, default_celsius: bool = True) -> int | None:
     degC, K = None, None
 
     degC_search = re.search(
-        "(\d)+.C|(\d)+.(\xB0C?)|(\d)+.(°C?)|(\d)+.(oC?)|(\d)+.h\W", answer + " "
+        "(\d)+.C|(\d)+.(\xB0C?)|(\d)+.(°C?)|(\d)+.(oC?)|(\d)+.deg|(\d)+.degC|(\d)+.celsius|(\d)+.degree[s]?\s*celsius", answer + " "
     )
     if degC_search != None:
         degC = int(re.search("(\d)+", degC_search.group()).group())
@@ -133,7 +141,7 @@ def ans2hours(answer: str) -> int:
     if min_search != None:
         minutes = int(re.search("(\d)+", min_search.group()).group())
 
-    hours_search = re.search("(\d)+.([hH]ours?)|(\d)+.h\W", answer + " ")
+    hours_search = re.search("(\d)+.([hH]r[s]?|[hH]ours?|h)\W", answer + " ")
     if hours_search != None:
         hours = int(re.search("(\d)+", hours_search.group()).group())
 

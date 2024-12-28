@@ -1,0 +1,282 @@
+Processing: PAFMUH_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '110', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(NO3)2', 'solvent': 'MeOH', 'temperature': 110000.0, 'temperature_unit': '°C', 'time': 300000.0, 'time_unit': 's'}
+duration [PAFMUH_clean] 83 != 72 | 300000.0 s != 72 h
+Processing: ELOZIQ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': '100', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2ipa', 'solvent': 'DMA=N,N-dimethy', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 3.0013, 'time_unit': 'days'}
+duration [ELOZIQ_clean] 72312 != 72 | 3.0013 days != 72 h
+Processing: CIFMIP_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '120', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'DMF', 'temperature': 393.05, 'temperature_unit': 'K', 'time': 2.0581, 'time_unit': 'd'}
+duration [CIFMIP_clean] 61944 != 48 | 2.0581 d != 48 h
+Processing: QUHMOX_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMSO', 'temperature': '140', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Gd2(SO4)3·8', 'solvent': 'HCOOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 680000.0, 'time_unit': 'h'}
+duration [QUHMOX_clean] 680000 != 48 | 680000.0 h != 48 h
+Processing: ZOZPUB_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '120', 'time': '36', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 60.0, 'time_unit': 'h'}
+duration [ZOZPUB_clean] 60 != 36 | 60.0 h != 36 h
+Processing: OHOLIH_clean, LLaMa 2 7B
+Label: {'additive': 'NEt3', 'solvent': 'DMF', 'temperature': '110', 'time': '20', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(2,7)', 'solvent': 'DMF', 'temperature': 110000.0, 'temperature_unit': '°C', 'time': 200000.0, 'time_unit': 'h'}
+duration [OHOLIH_clean] 200000 != 20 | 200000.0 h != 20 h
+Processing: WOXKOL_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '130', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'H2O/DMF', 'temperature': 130.0, 'temperature_unit': 'degree(C)', 'time': 1.4667, 'time_unit': 'hour'}
+duration [WOXKOL_clean] 4667 != 24 | 1.4667 hour != 24 h
+Processing: VOCCOH_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '160', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [VOCCOH_clean] 24 != 72 | 24.0 h != 72 h
+Processing: EXOZIB_clean, LLaMa 2 7B
+Label: {'additive': 'CH3ONa', 'solvent': 'H2O', 'temperature': '25', 'time': '504', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3tci', 'solvent': 'methanol', 'temperature': 20.067, 'temperature_unit': '°C', 'time': 21.554, 'time_unit': 'd'}
+duration [EXOZIB_clean] 13296 != 504 | 21.554 d != 504 h
+Processing: HOXRUJ_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'water', 'temperature': '120', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'K4pztc', 'solvent': 'H2O', 'temperature': 120.05, 'temperature_unit': '°C', 'time': 48.056, 'time_unit': 'h'}
+duration [HOXRUJ_clean] 4856 != 48 | 48.056 h != 48 h
+Processing: KAVGAQ_clean, LLaMa 2 7B
+Label: {'additive': 'Et3N', 'solvent': 'water', 'temperature': '160', 'time': '96', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2·6H2', 'solvent': 'distilled water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [KAVGAQ_clean] 48 != 96 | 48.0 h != 96 h
+Processing: ILEPEW_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'water', 'temperature': '160', 'time': '12', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ba(NO3)2', 'solvent': 'H2O and DMF', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [ILEPEW_clean] 72 != 12 | 72.0 h != 12 h
+Processing: ADASIJ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '115', 'time': '23', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASIJ_clean] 12 != 23 | 12.0 h != 23 h
+Processing: GEZRAG_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'MeOH', 'temperature': '120', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(Ac)2⋅4H2O', 'solvent': 'MeOH', 'temperature': 393.01, 'temperature_unit': 'K', 'time': 72.015, 'time_unit': 'h'}
+duration [GEZRAG_clean] 7215 != 72 | 72.015 h != 72 h
+Processing: SOGWIV_charged, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'C2H5OH', 'temperature': '165', 'time': '168', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'pyridine-2,4,6-', 'solvent': 'C2H5OH', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [SOGWIV_charged] 30 != 168 | 30.0 h != 168 h
+Processing: ADASUV_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '105', 'time': '23', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2⋅6 H2', 'solvent': 'DMF/NMP', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASUV_clean] 12 != 23 | 12.0 h != 23 h
+Processing: XOTSEG_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '90', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'DMF', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 800.0, 'time_unit': 'min'}
+duration [XOTSEG_clean] 13 != 48 | 800.0 min != 48 h
+Processing: EXOFIH_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'Dimethyl acetamide', 'temperature': '105', 'time': '36', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4btec', 'solvent': 'DMA', 'temperature': 358.53, 'temperature_unit': 'K', 'time': 21.066, 'time_unit': 'h'}
+duration [EXOFIH_clean] 2166 != 36 | 21.066 h != 36 h
+Processing: EBUREA_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'water', 'temperature': '65', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'aqueous solution', 'temperature': 65.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'h'}
+duration [EBUREA_clean] 7 != 48 | 7.0 h != 48 h
+Processing: NOQKUB_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '180', 'time': '144', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2⋅6 H2O', 'solvent': 'H2O/glycol (14:', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [NOQKUB_clean] 20 != 144 | 20.0 h != 144 h
+Processing: CUTBIE_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'DMF', 'temperature': '105', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 36.0, 'time_unit': 'h'}
+duration [CUTBIE_clean] 36 != 24 | 36.0 h != 24 h
+Processing: SUKMAO_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'DMF', 'temperature': '90', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/MeOH/H2O', 'temperature': 363000.0, 'temperature_unit': 'K', 'time': 48000.0, 'time_unit': 'h'}
+duration [SUKMAO_clean] 48000 != 48 | 48000.0 h != 48 h
+Processing: FIBFUS_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '160', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'timpt', 'solvent': 'water/ethanol (6:1,', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 15.0, 'time_unit': 'min'}
+duration [FIBFUS_clean] 0 != 72 | 15.0 min != 72 h
+Processing: EJOQUR_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '85', 'time': '16', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L2', 'solvent': 'DMF', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [EJOQUR_clean] 72 != 16 | 72.0 h != 16 h
+Processing: NOQKOV_clean, LLaMa 2 7B
+Label: {'additive': 'TRIETHYLAMINE', 'solvent': 'water', 'temperature': '160', 'time': '12', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2⋅6 H2O', 'solvent': 'deionized water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [NOQKOV_clean] 20 != 12 | 20.0 h != 12 h
+Processing: LEVNOQ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '110', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mg3(ndc)3(dm', 'solvent': 'dmf', 'temperature': 383.07, 'temperature_unit': 'K', 'time': 24.056, 'time_unit': 'h'}
+duration [LEVNOQ_clean] 2456 != 24 | 24.056 h != 24 h
+Processing: ORUKOD_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'DMF', 'temperature': '100', 'time': '60', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ba3L(DMF)(H2', 'solvent': 'DMF', 'temperature': 373000.0, 'temperature_unit': 'K', 'time': 60000.0, 'time_unit': 'h'}
+duration [ORUKOD_clean] 60000 != 60 | 60000.0 h != 60 h
+Processing: XUDYOM_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '130', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'In(NO3)3·xH2', 'solvent': 'DMF', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [XUDYOM_clean] 24 != 48 | 24.0 h != 48 h
+Processing: SUNLAP_clean, LLaMa 2 7B
+Label: {'additive': 'NH3', 'solvent': 'DMF', 'temperature': '80', 'time': '336', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'R-H4L', 'solvent': 'dmf/H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [SUNLAP_clean] 48 != 336 | 2.0 days != 336 h
+Processing: DINNIZ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '90', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Adipic acid', 'solvent': 'DMF and ethanol', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'h'}
+duration [DINNIZ_clean] 6 != 24 | 6.0 h != 24 h
+Processing: ZIKJOU_clean, LLaMa 2 7B
+Label: {'additive': 'HBF4', 'solvent': 'DMF', 'temperature': '75', 'time': '60', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'CH3OH', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [ZIKJOU_clean] 30 != 60 | 30.0 h != 60 h
+Processing: WUCRUH_clean, LLaMa 2 7B
+Label: {'additive': 'KOH', 'solvent': 'water', 'temperature': '180', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'iron powder (Riedel-de', 'solvent': 'H2O', 'temperature': 453000.0, 'temperature_unit': 'K', 'time': 4.0, 'time_unit': 'minutes'}
+duration [WUCRUH_clean] 0 != 48 | 4.0 minutes != 48 h
+Processing: ZOJWAY_clean, LLaMa 2 7B
+Label: {'additive': 'HBF4', 'solvent': 'DMF', 'temperature': '60', 'time': '4', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/H2O', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [ZOJWAY_clean] 24 != 4 | 24.0 h != 4 h
+Processing: COJGEO_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '100', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'DMF/H2O', 'temperature': 373000.0, 'temperature_unit': 'K', 'time': 240000.0, 'time_unit': 'h'}
+duration [COJGEO_clean] 240000 != 24 | 240000.0 h != 24 h
+Processing: GIQZIQ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '110', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mg3(ndc)3(dm', 'solvent': 'dmf', 'temperature': 383.05, 'temperature_unit': 'K', 'time': 24.096, 'time_unit': 'h'}
+duration [GIQZIQ_clean] 2496 != 24 | 24.096 h != 24 h
+Processing: PASNAA01_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '100', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'H6L', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [PASNAA01_clean] 24 != 48 | 24.0 h != 48 h
+Processing: GUJREK_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '140', 'time': '5', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2(Me–trz–mba)', 'solvent': 'H2O/MeCN (1:1', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 5.598, 'time_unit': 'h'}
+duration [GUJREK_clean] 598 != 5 | 5.598 h != 5 h
+Processing: DACSEI_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'DMF', 'temperature': '80', 'time': '36', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CuCl2·2H2O', 'solvent': 'DMF/methanol/water', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 36000.0, 'time_unit': 'h'}
+duration [DACSEI_clean] 36000 != 36 | 36000.0 h != 36 h
+Processing: YOPQEB_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '140', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H5bpbc', 'solvent': 'H2O/EtOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [YOPQEB_clean] 24 != 72 | 24.0 h != 72 h
+Processing: LEVDIB_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'DMF', 'temperature': '90', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF-C2H5OH-H', 'temperature': 363000.0, 'temperature_unit': 'K', 'time': 48000.0, 'time_unit': 'h'}
+duration [LEVDIB_clean] 48000 != 48 | 48000.0 h != 48 h
+Processing: KOQLUZ_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'water', 'temperature': '170', 'time': '96', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4[SiW12O40', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 13.0, 'time_unit': 'h'}
+duration [KOQLUZ_clean] 13 != 96 | 13.0 h != 96 h
+Processing: PAQMAY_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'Dimethylformamide', 'temperature': '105', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Tb(NO3)2⋅6 H', 'solvent': 'N,N-dimethylformamide', 'temperature': 105.72, 'temperature_unit': '°C', 'time': 72.693, 'time_unit': 'h'}
+duration [PAQMAY_clean] 693 != 72 | 72.693 h != 72 h
+Processing: ERIWAF_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'Dimethyl formamide', 'temperature': '80', 'time': '108', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/CH3OH/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 108000.0, 'time_unit': 'h'}
+duration [ERIWAF_clean] 108000 != 108 | 108000.0 h != 108 h
+Processing: GUVBOQ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '140', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)·6H2', 'solvent': 'H2O', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [GUVBOQ_clean] 12 != 72 | 12.0 h != 72 h
+Processing: COPXOV_clean, LLaMa 2 7B
+Label: {'additive': 'NaOH', 'solvent': 'H2O', 'temperature': '120', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '3', 'solvent': 'H2O', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [COPXOV_clean] 24 != 72 | 24.0 h != 72 h
+Processing: QEVKOS_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'CH3CN', 'temperature': '120', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Et4N', 'solvent': 'CH3CN', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [QEVKOS_clean] 48 != 24 | 2.0 days != 24 h
+Processing: KOMFUO_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'H2O', 'temperature': '25', 'time': '252', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'btr', 'solvent': 'H2O', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'h'}
+duration [KOMFUO_clean] 2 != 252 | 2.0 h != 252 h
+Processing: BAZFUF01_clean, LLaMa 2 7B
+Label: {'additive': 'benzoic acid', 'solvent': 'DMF', 'temperature': '80', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅3H', 'solvent': 'DMF/EtOH/pyridine', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 24000.0, 'time_unit': 'h'}
+duration [BAZFUF01_clean] 24000 != 24 | 24000.0 h != 24 h
+Processing: FIHRIZ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': '120', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ni(NO3)2·6H', 'solvent': 'N,N-dimethylacetam', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'minutes'}
+duration [FIHRIZ_clean] 0 != 72 | 30.0 minutes != 72 h
+Processing: SODQOT_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': '100', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'DMA', 'solvent': 'ethanol', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [SODQOT_clean] 20 != 48 | 20.0 h != 48 h
+Processing: HUSJUC_clean, LLaMa 2 7B
+Label: {'additive': 'hydrochloric acid', 'solvent': 'DMF', 'temperature': '120', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 18.0, 'time_unit': 'h'}
+duration [HUSJUC_clean] 18 != 24 | 18.0 h != 24 h
+Processing: FIHFAF_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '150', 'time': '60', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3btc', 'solvent': 'DMF-water', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 8.0, 'time_unit': 'h'}
+duration [FIHFAF_clean] 8 != 60 | 8.0 h != 60 h
+Processing: PEJMUO_clean, LLaMa 2 7B
+Label: {'additive': 'HNO3', 'solvent': 'H2O', 'temperature': '105', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3tzdc', 'solvent': 'CH3CN', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [PEJMUO_clean] 12 != 24 | 12.0 h != 24 h
+Processing: ADATIK_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '85', 'time': '12', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [ADATIK_clean] 20 != 12 | 20.0 h != 12 h
+Processing: BUPDOH_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'N,N-DIMETHYLFORMAMIDE', 'temperature': '80', 'time': '96', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF, ethanol, and H2', 'temperature': 353.03, 'temperature_unit': 'K', 'time': 96.016, 'time_unit': 'h'}
+duration [BUPDOH_clean] 9616 != 96 | 96.016 h != 96 h
+Processing: ZUDQUM_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '80', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(CH3COO)2·', 'solvent': 'DMF/H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'min'}
+duration [ZUDQUM_clean] 0 != 48 | 20.0 min != 48 h
+Processing: QOZWAF_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '170', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ni(CH3COO)2⋅', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 3.0012, 'time_unit': 'days'}
+duration [QOZWAF_clean] 72288 != 72 | 3.0012 days != 72 h
+Processing: RUFZOJ_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'DMF', 'temperature': '60', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)6·3H', 'solvent': 'DMF', 'temperature': 50.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [RUFZOJ_clean] 48 != 72 | 2.0 days != 72 h
+Processing: INOVEN_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'ethanol', 'temperature': '60', 'time': '168', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3ABTC', 'solvent': 'ethanol', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 1.0, 'time_unit': 'hours'}
+duration [INOVEN_clean] 1 != 168 | 1.0 hours != 168 h
+Processing: IZEWAN_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': '1,4-DIOXANE', 'temperature': '100', 'time': '48', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2·2H', 'solvent': '1,4-dioxane/H', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'h'}
+duration [IZEWAN_clean] 10 != 48 | 10.0 h != 48 h
+Processing: ALATAK_clean, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '60', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'calcium carbonate', 'solvent': 'water', 'temperature': 293.15, 'temperature_unit': 'Kelvin', 'time': 12.0, 'time_unit': 'hours'}
+duration [ALATAK_clean] 12 != 72 | 12.0 hours != 72 h
+Processing: NAHHOW_clean, LLaMa 2 7B
+Label: {'additive': 'HCl', 'solvent': 'DMF', 'temperature': '80', 'time': '72', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/CH3CN/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 72000.0, 'time_unit': 'h'}
+duration [NAHHOW_clean] 72000 != 72 | 72000.0 h != 72 h
+Processing: UTULUR_SL_part, LLaMa 2 7B
+Label: {'additive': '', 'solvent': 'water', 'temperature': '210', 'time': '24', 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'In', 'solvent': 'distilled water', 'temperature': 483000.0, 'temperature_unit': 'K', 'time': 24000.0, 'time_unit': 'h'}
+duration [UTULUR_SL_part] 24000 != 24 | 24000.0 h != 24 h
+{
+│   'Total': {
+│   │   'temperature': {'correct': 718, 'wrong': 187, 'unit': 9},
+│   │   'time': {'correct': 702, 'wrong': 203, 'unit': 140},
+│   │   'additive': {'wrong': 905, 'resolve_answer': 293},
+│   │   'solvent': {'wrong': 905, 'resolve_answer': 278}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 718, 'wrong': 187, 'unit': 9},
+│   │   'time': {'correct': 702, 'wrong': 203, 'unit': 140},
+│   │   'additive': {'wrong': 905, 'resolve_answer': 293},
+│   │   'solvent': {'wrong': 905, 'resolve_answer': 278}
+│   }
+}
+{'Total': {'temperature': {'correct': 718, 'wrong': 187, 'unit': 9}, 'time': {'correct': 702, 'wrong': 203, 'unit': 140}, 'additive': {'wrong': 905, 'resolve_answer': 293}, 'solvent': {'wrong': 905, 'resolve_answer': 278}}, 'LLaMa 2 7B': {'temperature': {'correct': 718, 'wrong': 187, 'unit': 9}, 'time': {'correct': 702, 'wrong': 203, 'unit': 140}, 'additive': {'wrong': 905, 'resolve_answer': 293}, 'solvent': {'wrong': 905, 'resolve_answer': 278}}}
+{
+│   'Total': {
+│   │   'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469},
+│   │   'time': {'correct': 0.7756906077348066, 'wrong': 0.22430939226519336, 'unit': 0.15469613259668508},
+│   │   'additive': {'wrong': 1.0, 'resolve_answer': 0.3237569060773481},
+│   │   'solvent': {'wrong': 1.0, 'resolve_answer': 0.30718232044198895}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469},
+│   │   'time': {'correct': 0.7756906077348066, 'wrong': 0.22430939226519336, 'unit': 0.15469613259668508},
+│   │   'additive': {'wrong': 1.0, 'resolve_answer': 0.3237569060773481},
+│   │   'solvent': {'wrong': 1.0, 'resolve_answer': 0.30718232044198895}
+│   }
+}
+{'Total': {'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469}, 'time': {'correct': 0.7756906077348066, 'wrong': 0.22430939226519336, 'unit': 0.15469613259668508}, 'additive': {'wrong': 1.0, 'resolve_answer': 0.3237569060773481}, 'solvent': {'wrong': 1.0, 'resolve_answer': 0.30718232044198895}}, 'LLaMa 2 7B': {'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469}, 'time': {'correct': 0.7756906077348066, 'wrong': 0.22430939226519336, 'unit': 0.15469613259668508}, 'additive': {'wrong': 1.0, 'resolve_answer': 0.3237569060773481}, 'solvent': {'wrong': 1.0, 'resolve_answer': 0.30718232044198895}}}
