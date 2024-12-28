@@ -1,0 +1,180 @@
+- answer:
+    additive: H4NPA
+    solvent: DMF/H2O
+    temperature: 70.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: LUSYEF_clean
+- answer:
+    additive: Hina
+    solvent: EtOH
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 96.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: LASMAV_neutral
+- answer:
+    additive: "CuSO4\xB75H2O"
+    solvent: EtOH/H2O
+    temperature: 180.0
+    temperature_unit: "\xB0C"
+    time: 12.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: DOKHOB_clean
+- answer:
+    additive: "FeC2O4\xB72H2O"
+    solvent: deionized water
+    temperature: 150.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: NAVFUM_clean
+- answer:
+    additive: dcdbp
+    solvent: 0.5 mL N,N'-dim
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: ADARAA_clean
+- answer:
+    additive: C25H37N3O1
+    solvent: DMF
+    temperature: 110.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: LUZJAT_clean
+- answer:
+    additive: indium
+    solvent: deionized water
+    temperature: 220.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: MAYJOM_clean
+- answer:
+    additive: "Mn(CH3COO)2\xB7"
+    solvent: DMF and H2O
+    temperature: 80.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: ZUDRAT_clean
+- answer:
+    additive: H8L
+    solvent: EtOH, DMF, HCl
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: GERWIL_charged
+- answer:
+    additive: H4BDDC
+    solvent: DMF
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 12.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: RUVKAV_clean
+- answer:
+    additive: "Tb(NO3)3\xB75H"
+    solvent: DMF
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 20.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: SONTIZ_clean
+- answer:
+    additive: Co(H2O)6][CoG
+    solvent: deionized water
+    temperature: 180.0
+    temperature_unit: "\xB0C"
+    time: 20.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: WEVQOD01_clean
+- answer:
+    additive: "Zn(OAc)2\xB72H"
+    solvent: H2O
+    temperature: 900000.0
+    temperature_unit: "\xB0C"
+    time: 720000.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: REYPES_clean
+- answer:
+    additive: Zn(NO3)2
+    solvent: DMA
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: MEJQID_clean
+- answer:
+    additive: "Cu(NO3)2\u20223H"
+    solvent: DMF/methanol/H2
+    temperature: 60.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: RUFZID_clean
+- answer:
+    additive: "Co(NO3)2\xB76H2"
+    solvent: H2O/CH3OH = 3
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 2.0
+    time_unit: d
+  model_name: LLaMa 2 7B
+  paragraph_id: NEFTUP_clean
+- answer:
+    additive: H5L
+    solvent: DMA
+    temperature: 105.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 2 7B
+  paragraph_id: NUCPIM_clean
+- answer:
+    additive: H3tzdc
+    solvent: water
+    temperature: 150.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: WARJAC_clean
+- answer:
+    additive: L
+    solvent: DMF
+    temperature: 80.0
+    temperature_unit: "\xB0C"
+    time: 2.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: FIHHOV_clean
+- answer:
+    additive: "Zn(NO3)2\xB76H"
+    solvent: DMA
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 4.0
+    time_unit: days
+  model_name: LLaMa 2 7B
+  paragraph_id: UWELIS_clean
