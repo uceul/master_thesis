@@ -39,7 +39,6 @@ def load_yaml(filename: str, root_dir: str = None) -> dict:
         except FileNotFoundError as e:
             log.warn(e)
     log.warn("Could not load '{}', creating it (empty)".format(filename))
-    input("Continue. [Enter]")
     save_yaml({}, root_dir + filename)
 
 

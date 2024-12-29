@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import re
 import sys
 import typer
 import torch
@@ -200,11 +201,17 @@ def evaluate(
         str,
         typer.Option(help="Specify only one specific model to evaluate, skip all others. Requires precise name."),
     ] = None,
+    prompt: Annotated[
+        str,
+        typer.Option(help="Prompt with general task information for the model."),
+    ] = "",
 ):
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     log.info("Loading settings and stats")
+
+    log.info(f"Using prompt: {prompt}")
 
     settings = load_yaml(settings)
     log.debug(f"Settings loaded. CSV path: {settings.get('csv_path')}")
@@ -280,7 +287,7 @@ def evaluate(
                 progress_bar.update(diff)
                 first = False
                 log.info(f"Loading Model [{model_name}]")
-                model = JsonformerModel(**model_settings)
+                model = JsonformerModel(prompt=prompt, **model_settings)
                 model.eval()  # set model to eval mode
 
             count += 1
@@ -580,6 +587,12 @@ def analyse(
             help="Fully re-calculate the dataset cache intermediaries.",
         ),
     ] = False,
+    multiple_chemicals_in_answers: Annotated[
+        bool,
+        typer.Option(
+            help="Allow for solvent/additive answers to contains multiple chemicals.",
+        ),
+    ] = False,
 ):
     """Analyse the results of previuos evaluation runs."""
     # TODO:
@@ -712,65 +725,154 @@ def analyse(
 
             # For additives
             if "additive" not in label or not isinstance(label["additive"], list):
-                if answer["additive"].lower() in ["none", "no additive", ""]:
+                raw_additive = answer["additive"].strip()
+                if raw_additive.lower() in ["none", "no additive", ""]:
                     confusion.correct(model_name, "additive")
                 else:
                     log.wrong_additive(
                         f"\nParagraph: {pid}\n"
                         f"Model: {model_name}\n"
                         f"Expected: none\n"
-                        f"Got: {answer['additive']}\n"
+                        f"Got: {raw_additive}\n"
                         f"Original text: {text}..."
                     )
                     confusion.wrong(model_name, "additive")
-            else:
-                if answer["additive"].lower() in [syn.lower() for syn in label["additive"]]:
+                return
+
+            raw_additive = answer["additive"].strip()
+            if not raw_additive:
+                confusion.wrong(model_name, "additive")
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got empty answer\n"
+                    f"Original text: {text}..."
+                )
+                return
+
+            if multiple_chemicals_in_answers:
+                delimiters = [',', '/', ' and ', ':', ';', '&']
+                pattern = '|'.join(map(re.escape, delimiters))
+                parts = [p.strip() for p in re.split(pattern, raw_additive) if p.strip()]
+                
+                if not parts:
+                    confusion.wrong(model_name, "additive")
+                    return
+                    
+                if any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts):
                     confusion.correct(model_name, "additive")
-                elif txt2cid(answer["additive"]) == []:
+                elif all(txt2cid(p) == [] for p in parts):
                     confusion.resolve_answer(model_name, "additive")
+                    confusion.wrong(model_name, "additive")
                     log.wrong_additive(
                         f"\nParagraph: {pid}\n"
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
-                        f"Got unresolvable: {answer['additive']}\n"
+                        f"Got unresolvable: {raw_additive}\n"
                         f"Original text: {text}..."
                     )
-                    confusion.wrong(model_name, "additive")
                 else:
+                    confusion.wrong(model_name, "additive")
                     log.wrong_additive(
                         f"\nParagraph: {pid}\n"
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
-                        f"Got: {answer['additive']}\n"
+                        f"Got: {raw_additive}\n"
                         f"Original text: {text}..."
                     )
+            else:
+                if raw_additive.lower() in [syn.lower() for syn in label["additive"]]:
+                    confusion.correct(model_name, "additive")
+                elif txt2cid(raw_additive) == []:
+                    confusion.resolve_answer(model_name, "additive")
                     confusion.wrong(model_name, "additive")
+                    log.wrong_additive(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['additive']}\n"
+                        f"Got unresolvable: {raw_additive}\n"
+                        f"Original text: {text}..."
+                    )
+                else:
+                    confusion.wrong(model_name, "additive")
+                    log.wrong_additive(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['additive']}\n"
+                        f"Got: {raw_additive}\n"
+                        f"Original text: {text}..."
+                    )
 
             # For solvents (similar logic) but raise error if no solvent in labels
             if "solvent" not in label or not isinstance(label["solvent"], list):
                 log.error(f"Missing required solvent data for paragraph {pid}")
                 raise ValueError(f"Paragraph {pid} is missing required solvent data")
-            if answer["solvent"].lower() in [syn.lower() for syn in label["solvent"]]:
-                confusion.correct(model_name, "solvent")
-            elif txt2cid(answer["solvent"]) == []:
-                confusion.resolve_answer(model_name, "solvent")
+            
+            raw_solvent = answer["solvent"].strip()
+            if not raw_solvent:
+                confusion.wrong(model_name, "solvent")
                 log.wrong_solvent(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['solvent']}\n"
-                    f"Got unresolvable: {answer['solvent']}\n"
+                    f"Got empty answer\n"
                     f"Original text: {text}..."
                 )
-                confusion.wrong(model_name, "solvent")
+                return
+
+            if multiple_chemicals_in_answers:
+                delimiters = [',', '/', ' and ', ':', ';', '&']
+                pattern = '|'.join(map(re.escape, delimiters))
+                parts = [p.strip() for p in re.split(pattern, raw_solvent) if p.strip()]
+                
+                if not parts:
+                    confusion.wrong(model_name, "solvent")
+                    return
+                    
+                if any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts):
+                    confusion.correct(model_name, "solvent")
+                elif all(txt2cid(p) == [] for p in parts):
+                    confusion.resolve_answer(model_name, "solvent")
+                    confusion.wrong(model_name, "solvent")
+                    log.wrong_solvent(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['solvent']}\n"
+                        f"Got unresolvable: {raw_solvent}\n"
+                        f"Original text: {text}..."
+                    )
+                else:
+                    confusion.wrong(model_name, "solvent")
+                    log.wrong_solvent(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['solvent']}\n"
+                        f"Got: {raw_solvent}\n"
+                        f"Original text: {text}..."
+                    )
             else:
-                log.wrong_solvent(
-                    f"\nParagraph: {pid}\n"
-                    f"Model: {model_name}\n"
-                    f"Expected one of: {label['solvent']}\n"
-                    f"Got: {answer['solvent']}\n"
-                    f"Original text: {text}..."
-                )
-                confusion.wrong(model_name, "solvent")
+                if raw_solvent.lower() in [syn.lower() for syn in label["solvent"]]:
+                    confusion.correct(model_name, "solvent")
+                elif txt2cid(raw_solvent) == []:
+                    confusion.resolve_answer(model_name, "solvent")
+                    confusion.wrong(model_name, "solvent")
+                    log.wrong_solvent(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['solvent']}\n"
+                        f"Got unresolvable: {raw_solvent}\n"
+                        f"Original text: {text}..."
+                    )
+                else:
+                    confusion.wrong(model_name, "solvent")
+                    log.wrong_solvent(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected one of: {label['solvent']}\n"
+                        f"Got: {raw_solvent}\n"
+                        f"Original text: {text}..."
+                    )
         except Exception as e:
             log.error(f"Error processing evaluation for {evaluation['paragraph_id']}, {evaluation['model_name']}: {str(e)}")
             continue

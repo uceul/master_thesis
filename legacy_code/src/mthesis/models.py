@@ -14,23 +14,13 @@ class JsonformerHFModel(PreTrainedModel):
     def __init__(self, **kwargs):
         super().__init__(self, **kwargs)
 
-
 class JsonformerModel(pl.LightningModule):
-    """Provides interface for a LLM wrapped with JsonFormer for material Science applications.
-
-    PARAMS:
-        model_path [str]: path to both model and tokenizer in pytorch / huggingface format.
-        load_params [bool]: if the model should load parameters. if they will be restored from a checkpoint anyways.
-
-    Use `JsonformerModel.load_from_checkpoint(PATH)`
-    to load from a checkpoint.
-    """
-
     def __init__(
         self,
         model_path: str | None = None,
         model_name: str | None = None,
         model_type: str | None = None,
+        prompt: str  = "",
         tokenizer_path: str | None = None,
         load_params: bool = True,
     ):
@@ -52,10 +42,9 @@ class JsonformerModel(pl.LightningModule):
             self.model = None
             self.tokenizer = None
             log.warning(
-                "JsonformerModel is initialized without underlying generative model or tokenizer."
+                "JsonformerModel initialized without underlying generative model or tokenizer."
             )
 
-        # self.prompt = "Generate the information of used parameters for the reaction based on the following schema:"
         self.schema = {
             "type": "object",
             "properties": {
@@ -67,10 +56,15 @@ class JsonformerModel(pl.LightningModule):
                 "time_unit": {"type": "string"},
             },
         }
-
+        self.instruction = prompt 
+        
     def forward(self, text: str) -> dict:
-        # https://github.com/1rgs/jsonformer/blob/main/jsonformer/main.py#L240C13-L240C13
-        return Jsonformer(self.model, self.tokenizer, self.schema, text)()
+        # Combine instruction with the actual text
+        full_prompt = f"{self.instruction}\n{text}"
+        
+        # Create Jsonformer instance and generate
+        jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt)
+        return jsonformer()
 
     def forward2(self, text: str):
         input_tokens = self.tokenizer.encode(text, return_tensors="pt").to(

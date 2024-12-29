@@ -195,6 +195,9 @@ class LabeledMOFDataset(MOFDataset):
                             synonyms = cid2syns(answer_m)
                             if answer_m == 12051: synonyms.append('def')
                             if answer_m == 31374: synonyms.append('dma')
+                            if answer_m == 962:
+                                synonyms.append('distilled h20')
+                                synonyms.append('doubly deionized water')
                             if 's s' in synonyms:
                                 synonyms.remove('s s')
                             found_in_text = False
