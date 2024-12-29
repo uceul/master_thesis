@@ -205,9 +205,18 @@ def evaluate(
         str,
         typer.Option(help="Prompt with general task information for the model."),
     ] = "",
+    description: Annotated[
+        str,
+        typer.Option(help="Description of task to be saved in log folder for later reference."),
+    ] = "",
 ):
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # Save description to log folder
+    if description:
+        with open(os.path.join(log_dir, "description.txt"), "w") as f:
+            f.write(description)
 
     log.info("Loading settings and stats")
 
@@ -593,6 +602,10 @@ def analyse(
             help="Allow for solvent/additive answers to contains multiple chemicals.",
         ),
     ] = False,
+    description: Annotated[
+        str,
+        typer.Option(help="Description of task to be saved in log folder for later reference."),
+    ] = "",
 ):
     """Analyse the results of previuos evaluation runs."""
     # TODO:
@@ -605,6 +618,10 @@ def analyse(
     # - [ ] for each model, for each entry, compare label with predicted, convert units when necessary
     settings = load_yaml(settings)
     stats = load_yaml(stats_path)  # :: [{str -> str}]
+    # Save description to log folder
+    if description:
+        with open(os.path.join(log_dir, "description.txt"), "w") as f:
+            f.write(description)
     log.info("analysing!")
     try:
         label_cols = {

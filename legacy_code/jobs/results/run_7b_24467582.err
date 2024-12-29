@@ -1,10 +1,0 @@
-The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
-/home/kit/iti/zn2950/.conda/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home/kit/iti/zn2950/.conda/envs/llm-extraction did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
-  warn(msg)
-/home/kit/iti/zn2950/.conda/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
-  warn(msg)
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
-Loading checkpoint shards:  50%|█████     | 1/2 [00:16<00:16, 16.86s/it][A
-Loading checkpoint shards: 100%|██████████| 2/2 [00:21<00:00,  9.63s/it][ALoading checkpoint shards: 100%|██████████| 2/2 [00:21<00:00, 10.71s/it]
-The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.

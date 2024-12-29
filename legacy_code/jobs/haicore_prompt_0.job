@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=prompt_0
+#SBATCH --output=results/prompt_0_%j.out
+#SBATCH --error=results/prompt_0_%j.err
+#SBATCH --partition=normal
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:full:1
+#SBATCH --time=90:00
+#SBATCH --nodes=1
+#SBATCH --mail-type=NONE
+#SBATCH --constraint=LSDF
+
+source ~/.bashrc
+module load devel/cuda/11.8
+conda info --envs
+conda activate llm-extraction
+
+echo "run llama 3.1 8B Instruct, no prompt"
+echo "GPU:1"
+echo
+echo "NVDIA-SMI OUTPUT"
+nvidia-smi
+
+cd /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_code
+
+poetry run main evaluate --settings settings/settings_llama_31.yml --only-model "LLaMa 3.1 8B Instruct" --stats-path stats_haicore_prompt_0.yml --description "Llama 3.1 8B evaluation run on Haicore with no prompt for comparison with bwc"

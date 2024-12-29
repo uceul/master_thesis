@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=haicore_prompt_2
+#SBATCH --output=results/haicore_prompt_2_%j.out
+#SBATCH --error=results/haicore_prompt_2_%j.err
+#SBATCH --partition=normal
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:full:1
+#SBATCH --time=90:00
+#SBATCH --nodes=1
+#SBATCH --mail-type=NONE
+#SBATCH --constraint=LSDF
+
+source ~/.bashrc
+module load devel/cuda/11.8
+conda info --envs
+conda activate llm-extraction
+
+echo "run llama 3.1 8B Instruct, prompt 2"
+echo "GPU:1"
+echo
+echo "NVDIA-SMI OUTPUT"
+nvidia-smi
+
+cd /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_code
+
+poetry run main evaluate --settings settings/settings_llama_31.yml --only-model "LLaMa 3.1 8B Instruct" --stats-path stats_haicore_prompt_2.yml --prompt "Extract synthesis conditions from the text in the following format: temperature (highest reaction temp, use 25°C if not specified), time (longest duration at highest temp), one solvent (if multiple present, choose one), and one additive (write 'None' if no additive present)."

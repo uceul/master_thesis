@@ -1,12 +1,12 @@
-dataset_path: /home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/datasets/synthesis_paragraphs
-csv_path: /home/kit/iti/zn2950/ws/src/scripts/tobias/SynMOF_M_out.csv
+dataset_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/synthesis_paragraphs
+csv_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
 #checkpoint_path: /pfs/work7/workspace/scratch/lz5921-chkpt/
 models:
 - model_name: LLaMa 3.1 8B
-  model_path: /home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/code/Llama-3.1-8B
+  model_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/llms/base_models/Llama-3.1-8B
   model_type: text-generation
 - model_name: LLaMa 3.1 8B Instruct
-  model_path: /home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/code/Llama-3.1-8B-Instruct
+  model_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/llms/base_models/Llama-3.1-8B-Instruct
   model_type: text-generation
 
 extract_config:
