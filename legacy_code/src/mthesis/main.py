@@ -674,7 +674,7 @@ def analyse(
                     f"Model: {model_name}\n"
                     f"Expected: {l_temp}°C ({l_full})\n"
                     f"Got: {a_temp}°C ({a_full}) - Wrong unit\n"
-                    f"Original text: {text}..."
+                    f"Original text: {text[:200]}..."
                     )
                 else:
                     log.wrong_temperature(
@@ -682,7 +682,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected: {l_temp}°C ({l_full})\n"
                         f"Got: {a_temp}°C ({a_full})\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 confusion.wrong(model_name, "temperature")
             else:
@@ -707,7 +707,7 @@ def analyse(
                             f"Model: {model_name}\n"
                             f"Expected: {l_time}h ({l_full})\n"
                             f"Got: {a_time}h ({a_full}) - Wrong unit ({unit_name})\n"
-                            f"Original text: {text}..."
+                            f"Original text: {text[:200]}..."
                         )
                         break
                 
@@ -717,7 +717,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected: {l_time}h ({l_full})\n"
                         f"Got: {a_time}h ({a_full})\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 confusion.wrong(model_name, "time")
             else:
@@ -734,7 +734,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected: none\n"
                         f"Got: {raw_additive}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                     confusion.wrong(model_name, "additive")
                 return
@@ -747,7 +747,7 @@ def analyse(
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['additive']}\n"
                     f"Got empty answer\n"
-                    f"Original text: {text}..."
+                    f"Original text: {text[:200]}..."
                 )
                 return
 
@@ -770,7 +770,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
                         f"Got unresolvable: {raw_additive}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 else:
                     confusion.wrong(model_name, "additive")
@@ -779,7 +779,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
                         f"Got: {raw_additive}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
             else:
                 if raw_additive.lower() in [syn.lower() for syn in label["additive"]]:
@@ -792,7 +792,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
                         f"Got unresolvable: {raw_additive}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 else:
                     confusion.wrong(model_name, "additive")
@@ -801,7 +801,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['additive']}\n"
                         f"Got: {raw_additive}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
 
             # For solvents (similar logic) but raise error if no solvent in labels
@@ -817,7 +817,7 @@ def analyse(
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['solvent']}\n"
                     f"Got empty answer\n"
-                    f"Original text: {text}..."
+                    f"Original text: {text[:200]}..."
                 )
                 return
 
@@ -840,7 +840,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['solvent']}\n"
                         f"Got unresolvable: {raw_solvent}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 else:
                     confusion.wrong(model_name, "solvent")
@@ -849,7 +849,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['solvent']}\n"
                         f"Got: {raw_solvent}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
             else:
                 if raw_solvent.lower() in [syn.lower() for syn in label["solvent"]]:
@@ -862,7 +862,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['solvent']}\n"
                         f"Got unresolvable: {raw_solvent}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
                 else:
                     confusion.wrong(model_name, "solvent")
@@ -871,7 +871,7 @@ def analyse(
                         f"Model: {model_name}\n"
                         f"Expected one of: {label['solvent']}\n"
                         f"Got: {raw_solvent}\n"
-                        f"Original text: {text}..."
+                        f"Original text: {text[:200]}..."
                     )
         except Exception as e:
             log.error(f"Error processing evaluation for {evaluation['paragraph_id']}, {evaluation['model_name']}: {str(e)}")
