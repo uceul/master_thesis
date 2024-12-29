@@ -21,18 +21,30 @@ class JsonformerModel(pl.LightningModule):
         model_name: str | None = None,
         model_type: str | None = None,
         prompt: str  = "",
+        temperature: float = 0.1,
         tokenizer_path: str | None = None,
         load_params: bool = True,
     ):
         super().__init__()
+        self.temperature = temperature
         if load_params and model_path is not None:
-            self.model = AutoModelForCausalLM.from_pretrained(
-                model_path,
-                torch_dtype=torch.float16,
-                load_in_8bit=True,
-                trust_remote_code=True,
-                device_map="auto",
-            )
+            if self.temperature > 0.0:
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    model_path,
+                    torch_dtype=torch.float16,
+                    load_in_8bit=True,
+                    trust_remote_code=True,
+                    device_map="auto",
+                )
+            else:
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    model_path,
+                    torch_dtype=torch.float16,
+                    load_in_8bit=True,
+                    trust_remote_code=True,
+                    device_map="auto",
+                    do_sample=True,
+                )
             self.tokenizer = AutoTokenizer.from_pretrained(
                 tokenizer_path if tokenizer_path else model_path,
                 use_fast=True,
@@ -63,7 +75,10 @@ class JsonformerModel(pl.LightningModule):
         full_prompt = f"{self.instruction}\n{text}"
         
         # Create Jsonformer instance and generate
-        jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt)
+        if self.temperature > 0.0:
+            jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt, temperature=self.temperature)
+        else:
+            jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt)
         return jsonformer()
 
     def forward2(self, text: str):

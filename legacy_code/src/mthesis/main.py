@@ -205,6 +205,10 @@ def evaluate(
         str,
         typer.Option(help="Prompt with general task information for the model."),
     ] = "",
+    temperature: Annotated[
+        float,
+        typer.Option(help="Temperature used to query the model."),
+    ] = 0.1,
     description: Annotated[
         str,
         typer.Option(help="Description of task to be saved in log folder for later reference."),
@@ -220,7 +224,7 @@ def evaluate(
 
     log.info("Loading settings and stats")
 
-    log.info(f"Using prompt: {prompt}")
+    log.info(f"Using prompt: {prompt}, temperature: {temperature}")
 
     settings = load_yaml(settings)
     log.debug(f"Settings loaded. CSV path: {settings.get('csv_path')}")
@@ -296,7 +300,7 @@ def evaluate(
                 progress_bar.update(diff)
                 first = False
                 log.info(f"Loading Model [{model_name}]")
-                model = JsonformerModel(prompt=prompt, **model_settings)
+                model = JsonformerModel(prompt=prompt, temperature=temperature, **model_settings)
                 model.eval()  # set model to eval mode
 
             count += 1
