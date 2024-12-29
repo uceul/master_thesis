@@ -1,0 +1,66 @@
+2024-12-29 02:59:54,325 - 
+Paragraph: EXOZIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 Celsius)
+Original text:   An aqueous solution (1 mL) of H3tci (0.02 mmol) was slowly added dropwise into a methanol solution (5 mL) of Cu(NO3)2·3H2O (0.02 mmol), and then mixed with 0.03 mol L−1methanol solution of CH3ONa (0.05 mL) to give a clear green solution. About three weeks later, good-quality green crystals were obtained from the resultant solution at room temperature. Yield: 24% (based on Cu). Anal. Calcd for C24H40Cu3N6O26 (1019.24): C, 28.26%; H, 3.92%; N, 8.24%. Found: C, 29.17%; H, 3.68%; N, 8.32%. IR (KBr, cm−1): 3430 m (–OH), 1696 s (–CO), 1427 s (–COO−), 1256 s (–C–N), 768 m (–C–C). ...
+2024-12-29 03:00:03,829 - 
+Paragraph: ADASIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 115°C (115.0 C)
+Got: 85°C (85.0 °C)
+Original text: rht‐MOF‐4 a: Cu(NO3)2⋅2.5 H2O (20 mg), H6tL1 (37 mg), DMF (1 mL), and H2O (1 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h, 115 °C/23 h to give green polyhedral crystals. Fm, a=41.479 Å. ...
+2024-12-29 03:00:14,061 - 
+Paragraph: CUXFUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 180°C (180.0 C)
+Got: 160°C (160.0 °C)
+Original text:     Method A: A mixture of CoCl2·6H2O (0.238 g, 1.0 mmol), dchtpy·4H2O (0.248 g, 0.5 mmol), oxalic acid (0.090 g, 1.0 mmol), NaOH (0.08 g, 2.0 mmol) and H2O (16 mL) was charged in a Parr Teflon-lined, stainless-steel vessel and heated at 180 °C for 72 h. Block purple-red crystals were collected and dried in air (yields: 10%). Method B: A mixture of CoCl2·6H2O (0.060 g, 0.25 mmol), 2-cyanopyrimidine (0.026 g, 0.25 mmol), dchtpy·4H2O (0.062 g, 0.125 mmol), ethanol (4 mL) and H2O (12 mL) was charged in a Parr Teflon-lined, stainless-steel vessel and heated at 160 °C for 48 h to yield block purple-red crystals (yield: 65%). A simulation of the powder X-ray diffraction pattern of 1·9H2O indicates that it is phase-pure. Anal. Calc. for C30H42Co2N4O19 1·9H2O: calcd. C 40.92, H 4.81, N 6.36; Found C: 41.23; H: 5.04, N: 6.45%. FTIR for 1·9H2O (KBr, cm−1): 3419(vs), 2925(w), 2366(w), 2343(w), 1679(vs), 1613(vs), 1559(w), 1502(m), 1422(s), 1355(w), 1314(m), 1225(m), 1129(w), 1071(m), 1025(m), 986(w), 881(w), 826(s), 798(s), 675(w), 558(m), 487(w), 421(w). ...
+2024-12-29 03:00:21,059 - 
+Paragraph: YILJAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: 120°C (120.0 C)
+Original text: [Zn4O(bpz)2(abdc)]⋅guest (1⋅g, MAF‐X11). A mixture of H2abdc (0.068 g, 0.375 mmol), H2bpz (0.143 g, 0.75 mmol), Zn(NO3)2⋅6 H2O (0.446 g, 1.5 mmol), N,N‐dimethylformamide (30 mL), and EtOH (20 mL) was placed in a Teflon‐lined stainless steel vessel (100 mL) and heated at 120 °C for 72 h, and then it was cooled to room temperature at a rate of 0.1 °C min−1. The resulting pale‐yellow block polycrystals (Figure S5) of 1⋅g were isolated by decanting and treated with ethanol and dried under vacuum (yield 203 mg, 45 %). Single crystals for X‐ray single‐crystal diffraction were prepared by heating a solution of H2abdc (0.009 g, 0.025 mmol), H2bpz (0.010 g, 0.05 mmol), and Zn(NO3)2⋅6 H2O (0.030 g, 0.10 mmol) in a mixed solvent of N,N‐dimethylformamide and EtOH (v/v=2/1, 3 mL) in a sealed glass tube (1.0 cm o.d.×10 cm length) at 130 °C for 72 h, and then the mixture was cooled to room temperature at a rate of 0.1 °C min−1 to give pale‐yellow block single crystals (25 mg, yield 84 %). Elemental analysis: Calcd for C29.2H34.6Zn4N9O6.6 ([Zn4O(bpz)2(abdc)]⋅H2O⋅0.6 EtOH): C 39.90, H 3.97, N 14.34. Found: C 39.92, H 3.85, N 14.26 %. IR (KBr): 3464m, 2925m, 1668vs, 1562s, 1495m, 1440s, 1385s, 1257m, 1095m, 1052s, 820w, 770m, 662w, 558w cm−1. ...
+2024-12-29 03:00:25,389 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (358.0 K)
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in DMF) and HNO3 (0.28 mL, 0.7 mol L−1 in DMF) was added to a 23 mL teflon reactor and stirred for 20 min in air. Then the reaction system was heated at 358 K for 21 h and warmed up to 378 K for 36 h, followed by cooling to room temperature at a rate of 5 K h−1. The resulting red block crystals of 1 were obtained. (30% yield, based on InCl3). Elemental analysis (%) calcd. for C10H6.6InO9.81: C, 30.15; H, 1.67. Found: C, 30.38; H, 1.78. Selected FTIR data (KBr, cm−1): 3467(s), 1629(s), 1512(s), 1389(s), 1336(m), 1258(s), 1138(s), 1021(s), 891(s), 849(s), 827(s). ...
+2024-12-29 03:00:35,452 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (85.0 °C)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at 85 °C for 36 hours, 105 °C for 24 hours, then cooled to room temperature. Colourless block-shaped crystals were collected by filtration with a 67% yield based on H3TAIP. CHN elemental analysis (%) for 2, C49H51La2N11O17: C, 43.80; H, 3.83; N, 11.47. Found: C, 42.02; H, 4.20; N, 11.33. IR (cm−1): 1634(m), 1582(m), 1552(w), 1402(s), 1367(s), 1050(w), 852(w), 782(s), 749(m), 714(s), 422(w). ...
+2024-12-29 03:01:11,444 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 °C)
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]2(PF6)2⋅H2O formed at the interface in 3 days in a 54% yield based on the silver(I) salt. m.p. 176 °C. Anal. Calcd. for C56H70N8OP2F12Si4Ag2: C, 45.16; H, 4.74; N, 7.52%. Found: C, 45.20; H, 4.66; N, 7.41%. IR (KBr pellet, cm−1): 1589(m), 1405(m), 1124(s), 844(s, PF...
+2024-12-29 03:01:22,528 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 20°C (20.0 °C)
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)](PF6)⋅H2O formed at the interface in 3 days in a 53% yield (2.3 mg) based on the silver(I) salt. m.p. 173 °C (dec.). Anal. Calcd for C27H34N4OPF6Si2Ag: C, 43.85; H, 4.63; N, 7.58%. Found: C, 44.10; H, 4.55; N, 7.61%. IR (KBr pellet, cm−1): 1583(w), 1405(m), 1124(m), 842(s, PF...
+2024-12-29 03:01:38,835 - 
+Paragraph: QIYBUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 °C)
+Original text: A methanol solution (2 mL) of L2 (27 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)2](PF6)⋅CH3OH formed at the interface in 4 days in a 59% yield based on the silver(I) salt. m.p. 171 °C (dec.). Anal. Calcd. for C27H36N4OPF6Si2Ag: C, 43.73; H, 4.89; N, 7.55%. Found: C, 43.50; H, 4.85; N, 7.50%. IR (KBr pellet, cm−1): 1589(s), 1405(m), 1124(m), 844(s, PF...
+2024-12-29 03:01:54,428 - 
+Paragraph: PEJMUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (85.0 °C)
+Original text: H3tzdc (0.017 g, 0.108 mmol), Cu(NO3)2·3H2O (0.024 g, 0.100 mmol), H2O (1 mL), CH3CN (1 mL), ETA (0.050 mL), and HNO3 (0.275 mL, 0.33 M in H2O) were added, respectively, to a 20 mL vial, which was sealed and heated to 85 °C, allowed to dwell for 12 h, then heated to 105 °C for 24 h, and then cooled to room temperature. The blue rhombododecahedral crystals were collected and air-dried, yielding 0.016 g of product (68% based on Cu(NO3)2·3H2O). The agreement between the experimental and simulated PXRD patterns indicated the phase purity of the as-synthesized product (see the Supporting Information, Figure S2). ICP and elemental analysis (wt %) for 2 Calcd: Cu, 31.5; C, 17.8; H, 1.37; N, 15.6. Found: Cu, 31.2; C, 17.2; H, 1.28; N, 14.9. FT-IR (4000–400 cm–1): 3399 (br), 3230 (br), 1673 (vs), 1395 (vs), 1342 (s), 1185 (w), 1138 (s), 1064 (w), 1010 (w), 853 (m), 784 (m), 703 (m), 553 (w), 485 (w) (Figure S3, Supporting Information)....
+2024-12-29 03:01:56,796 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 75°C (75.0 °C)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...

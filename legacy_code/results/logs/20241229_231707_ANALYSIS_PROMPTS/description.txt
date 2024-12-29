@@ -1,0 +1,1 @@
+Llama 3.1 8B analysis run on Haicore with prompt version 1 and multiple chemicals in answers

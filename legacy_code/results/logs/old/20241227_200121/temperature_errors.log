@@ -1,0 +1,126 @@
+2024-12-27 20:01:34,759 - 
+Paragraph: COXQUB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -153°C (120.0 deg) - Wrong unit
+Original text: The reaction of 4,4′-bipyridine with CdSO4·8/3H2O in water in 1:1 mole ratio in a sealed tube at 120°C gave 1 as pure crystalline product in 57% yield. A sample of 256 mg (1.0 mmol) CdSO4·8/3H2O and 1...
+2024-12-27 20:01:54,734 - 
+Paragraph: EXOZIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 Celsius)
+Original text:   An aqueous solution (1 mL) of H3tci (0.02 mmol) was slowly added dropwise into a methanol solution (5 mL) of Cu(NO3)2·3H2O (0.02 mmol), and then mixed with 0.03 mol L−1methanol solution of CH3ONa (0...
+2024-12-27 20:02:00,713 - 
+Paragraph: HOXSIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: -173°C (100.0 degree celsius) - Wrong unit
+Original text: A mixture of Zn(NO3)2·6H2O (0.2 mmol, 0.060 g), H3BPT (0.1 mmol, 0.026 g), DMA (3 mL), and H2O (2 mL) was sealed in a small vial, which was kept at 100 °C for 60 h and finally cooled to the room tempe...
+2024-12-27 20:02:05,655 - 
+Paragraph: ADASIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 115°C (115.0 C)
+Got: 85°C (85.0 °C)
+Original text: rht‐MOF‐4 a: Cu(NO3)2⋅2.5 H2O (20 mg), H6tL1 (37 mg), DMF (1 mL), and H2O (1 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h, 115 °C/23 h to give green polyhedral crystals. Fm, a=41.479 Å. ...
+2024-12-27 20:02:17,808 - 
+Paragraph: CUXFUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 180°C (180.0 C)
+Got: 160°C (160.0 °C)
+Original text:     Method A: A mixture of CoCl2·6H2O (0.238 g, 1.0 mmol), dchtpy·4H2O (0.248 g, 0.5 mmol), oxalic acid (0.090 g, 1.0 mmol), NaOH (0.08 g, 2.0 mmol) and H2O (16 mL) was charged in a Parr Teflon-lined,...
+2024-12-27 20:02:22,419 - 
+Paragraph: XOTSEG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 90°C (90.0 C)
+Got: -183°C (90.0 degree Celsius) - Wrong unit
+Original text: MnCl2·4H2O (3.0 mg, 0.015 mmol) and H3LMe (1.1 mg, 0.0020 mmol) were dissolved in DMF (1.0 mL) and then sealed and heated to 90 °C for 48 h. The reaction was cooled to room temperature in 800 min. Lig...
+2024-12-27 20:02:26,189 - 
+Paragraph: YILJAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: 120°C (120.0 C)
+Original text: [Zn4O(bpz)2(abdc)]⋅guest (1⋅g, MAF‐X11). A mixture of H2abdc (0.068 g, 0.375 mmol), H2bpz (0.143 g, 0.75 mmol), Zn(NO3)2⋅6 H2O (0.446 g, 1.5 mmol), N,N‐dimethylformamide (30 mL), and EtOH (20 mL) was ...
+2024-12-27 20:02:33,073 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (358.0 K)
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in D...
+2024-12-27 20:02:43,869 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (85.0 °C)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2024-12-27 20:02:55,383 - 
+Paragraph: EJOQUR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 100°C (100.0 °C)
+Original text: A mixture of CuCl2·2H2O (36.0 mg, 0.2 mmol), H4L2 (17.2 mg, 0.05 mmol), DMF (2 mL), and H2O (6 mL) was sealed in a 15 mL Teflon-lined reactor. The reactor was heated at 100 °C for 72 h (higher than in...
+2024-12-27 20:03:08,410 - 
+Paragraph: DINNIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 90°C (90.0 C)
+Got: -183°C (90.0 degree Celsius) - Wrong unit
+Original text: [Mn4(Adi)4(DMF)2]n (3). Adipic acid (1 mmol) and MnCl2·4H2O (0.5 mmol) were dissolved in 5 mL DMF and 5 mL ethanol solution, stirred for 5 min and transferred to 23 ml Teflon-lined autoclave and heate...
+2024-12-27 20:03:09,737 - 
+Paragraph: UQEGII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -153°C (120.0 degree Celsius) - Wrong unit
+Original text: A mixture of H3PMo12O40⋅x H2O (0.42 g, 0.23 mmol), NH4VO3 (0.44 g, 3.8 mmol), Na2SO3 (0.8 g, 6.4 mmol) was dissolved in 5 mL of distilled water at room temperature. The pH was acidified to 5.0 with di...
+2024-12-27 20:03:25,955 - 
+Paragraph: GUJTOV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -153°C (120.0 degC) - Wrong unit
+Original text: CuCl2·2H2O (63 mg, 0.37 mmol), MoO3 (53 mg, 0.37 mmol), and 4,4′-dpk (136 mg, 0.74 mmol) were added to 10 mL of distilled H2O in a 23 mL Teflon lined Parr acid digestion bomb. The bomb was sealed, hea...
+2024-12-27 20:03:33,258 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 °C)
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]...
+2024-12-27 20:03:47,969 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 20°C (20.0 °C)
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)]...
+2024-12-27 20:04:07,293 - 
+Paragraph: QIYBUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 0°C (0.0 °C)
+Original text: A methanol solution (2 mL) of L2 (27 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)2](PF6)⋅CH3OH formed at the interfac...
+2024-12-27 20:04:07,965 - 
+Paragraph: KOMFUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 100°C (100.0 °C)
+Original text: The mixture of btr (1.5 mmol, 0.54 g) and Cu(ClO4)2·6H2O (0.5 mmol, 0.173 g) was heated under reflux in 20 mL of H2O for 2 h and then the resulting solution was filtered. Blue single-crystals suitable...
+2024-12-27 20:04:32,178 - 
+Paragraph: PEJMUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 85°C (85.0 °C)
+Original text: H3tzdc (0.017 g, 0.108 mmol), Cu(NO3)2·3H2O (0.024 g, 0.100 mmol), H2O (1 mL), CH3CN (1 mL), ETA (0.050 mL), and HNO3 (0.275 mL, 0.33 M in H2O) were added, respectively, to a 20 mL vial, which was sea...
+2024-12-27 20:04:35,556 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 75°C (75.0 °C)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2024-12-27 20:04:42,129 - 
+Paragraph: RUFZOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60°C (60.0 C)
+Got: 50°C (50.0 °C)
+Original text: Cu(NO3)6·3H2O (0.3 mmol, 0.074g) was dissolved in 2 mL of DMF and then was added to the mixture of Hdmtrz (0.2 mmol, 0.021g) and H2bdc (0.2 mmol, 0.032 g) in 2 mL of DMF. The solution was sonicated fo...
+2024-12-27 20:05:14,191 - 
+Paragraph: SARMOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -153°C (120.0 celsius) - Wrong unit
+Original text:   A mixture of H2O (2 ml), aqueous NaOH (0.44 ml, 0.29 mmol), EuCl3·6H2O (0.037 g, 0.1 mmol), 1,4-naphthalenedicarboxylic acid (0.033 g, 0.15 mmol), NaAc·3H2O (0.01 g, 0.07 mmol), and 4,4′-bpy·2H2O (0...

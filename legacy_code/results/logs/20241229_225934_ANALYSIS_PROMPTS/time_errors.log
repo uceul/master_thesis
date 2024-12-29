@@ -1,0 +1,72 @@
+2024-12-29 22:59:47,855 - 
+Paragraph: ILEPEW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 72h (72.0 h)
+Original text: A mixture of Ba(NO3)2 (31.36 mg, 0.12 mmol), La(NO3)3·6H2O (8.6 mg, 0.02 mmol), and H3L (17.4 mg, 0.1 mmol) was vigorously stirred for half an hour in H2O (5 mL) and DMF (5 mL), and then HNO3 (30 μL, ...
+2024-12-29 22:59:57,307 - 
+Paragraph: ADASIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 23h (23.0 h)
+Got: 12h (12.0 h)
+Original text: rht‐MOF‐4 a: Cu(NO3)2⋅2.5 H2O (20 mg), H6tL1 (37 mg), DMF (1 mL), and H2O (1 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h, 115 °C/23 h to give green polyhedral crystals. Fm, a=41.479 Å. ...
+2024-12-29 23:00:11,905 - 
+Paragraph: ADASUV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 23h (23.0 h)
+Got: 12h (12.0 h)
+Original text: rht‐MOF‐4 c: Co(NO3)2⋅6 H2O (24 mg), H6tL1 (37 mg), DMF (1 mL), and NMP (0.5 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h to give a few red cube crystals. I4m, a=29.395 Å, c=41.638 Å. ...
+2024-12-29 23:00:20,868 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hour)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2024-12-29 23:02:17,100 - 
+Paragraph: GEZRAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 96h (96.0 h)
+Original text: Synthesis of TAF‐1: A solution of the crude 4‐thmpyH3 product (0.092 g, 0.5 mmol) in MeOH (15 mL) was added to a stirring solution of Co(Ac)2⋅4 H2O (0.125 g, 0.5 mmol) in MeOH (2 mL). Then, the result...
+2024-12-29 23:02:22,252 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2024-12-29 23:02:56,652 - 
+Paragraph: DINNIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 6h (6.0 h)
+Original text: [Mn4(Adi)4(DMF)2]n (3). Adipic acid (1 mmol) and MnCl2·4H2O (0.5 mmol) were dissolved in 5 mL DMF and 5 mL ethanol solution, stirred for 5 min and transferred to 23 ml Teflon-lined autoclave and heate...
+2024-12-29 23:03:01,814 - 
+Paragraph: HIFGIO_SL
+Model: LLaMa 3.1 8B Instruct
+Expected: 60h (60.0 h)
+Got: 1h (3600.0 s)
+Original text: A mixture containing Zn(NO3)2·6H2O (40 mg, 0.13 mmol), H2L (20 mg, 0.06 mmol), 0.1 mL of 1 M NaOH in 2 mL N,N-dimethylformamide (DMF) and 1 mL of EtOH were sealed in a Teflon-lined stainless steel aut...
+2024-12-29 23:03:07,866 - 
+Paragraph: GUJREK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 5h (5.0 h)
+Got: 6h (6.0 h)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...
+2024-12-29 23:03:18,421 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 days)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2024-12-29 23:03:31,882 - 
+Paragraph: PEJMUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 12h (12.0 h)
+Original text: H3tzdc (0.017 g, 0.108 mmol), Cu(NO3)2·3H2O (0.024 g, 0.100 mmol), H2O (1 mL), CH3CN (1 mL), ETA (0.050 mL), and HNO3 (0.275 mL, 0.33 M in H2O) were added, respectively, to a 20 mL vial, which was sea...
+2024-12-29 23:03:33,882 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 36h (36.0 h)
+Got: 21h (21.0 h)
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in D...

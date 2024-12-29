@@ -1,60 +1,0 @@
-
-The following have been reloaded with a version change:
-  1) devel/cuda/12.2 => devel/cuda/11.8
-
-2024-12-29 20:28:48,484 INFO     Loading settings and stats
-2024-12-29 20:28:48,485 INFO     Using prompt: 
-2024-12-29 20:28:48,489 WARNING  [Errno 2] No such file or directory: 'stats_haicore_prompt_0.yml'
-2024-12-29 20:28:48,489 WARNING  [Errno 2] No such file or directory: 'stats_haicore_prompt_0.yaml'
-2024-12-29 20:28:48,489 WARNING  Could not load 'stats_haicore_prompt_0.yml', creating it (empty)
-2024-12-29 20:28:48,494 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
-2024-12-29 20:28:48,516 INFO     Found 778 paragraphs with labels
-2024-12-29 20:28:48,516 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/synthesis_paragraphs
-2024-12-29 20:28:48,516 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/synthesis_paragraphs'
-2024-12-29 20:28:48,571 INFO     Dataset loaded with 905 items
-2024-12-29 20:28:48,572 INFO     Found 778 paragraphs that have labels
-2024-12-29 20:28:48,572 INFO     Processing model: LLaMa 3.1 8B
-2024-12-29 20:28:48,572 INFO     Skipping model [LLaMa 3.1 8B]
-2024-12-29 20:28:48,572 INFO     Processing model: LLaMa 3.1 8B Instruct
-2024-12-29 20:28:48,574 INFO       0%|          | 0/905 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
-2024-12-29 20:28:48,574 INFO     Loading Model [LLaMa 3.1 8B Instruct]
-The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
-/home/iti/zn2950/miniconda3/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home/iti/zn2950/miniconda3/envs/llm-extraction did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
-  warn(msg)
-2024-12-29 20:28:49,621 INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
-
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][A
-Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:24,  8.31s/it][A
-Loading checkpoint shards:  50%|█████     | 2/4 [00:18<00:18,  9.22s/it][A
-Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.76s/it][A
-Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  6.98s/it][ALoading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  7.82s/it]
-The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-2024-12-29 20:29:26,407 INFO       0%|          | 1/905 [00:37<9:30:01, 37.83s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:30,979 INFO       0%|          | 2/905 [00:42<4:34:55, 18.27s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:35,122 INFO       0%|          | 3/905 [00:46<2:57:39, 11.82s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:40,471 INFO       0%|          | 4/905 [00:51<2:19:06,  9.26s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:45,725 INFO       1%|          | 5/905 [00:57<1:57:16,  7.82s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:50,381 INFO       1%|          | 6/905 [01:01<1:41:01,  6.74s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:54,587 INFO       1%|          | 7/905 [01:06<1:28:30,  5.91s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:29:59,398 INFO       1%|          | 8/905 [01:10<1:23:09,  5.56s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:04,096 INFO       1%|          | 9/905 [01:15<1:19:01,  5.29s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:08,794 INFO       1%|          | 10/905 [01:20<1:16:12,  5.11s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:12,558 INFO       1%|          | 11/905 [01:23<1:09:59,  4.70s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:16,911 INFO       1%|▏         | 12/905 [01:28<1:08:21,  4.59s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:20,692 INFO       1%|▏         | 13/905 [01:32<1:04:37,  4.35s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:20,692 INFO       2%|▏         | 14/905 [01:32<1:04:32,  4.35s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:24,604 INFO       2%|▏         | 16/905 [01:36<38:56,  2.63s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:28,081 INFO       2%|▏         | 16/905 [01:39<38:56,  2.63s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:31,695 INFO       2%|▏         | 17/905 [01:43<52:53,  3.57s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:36,224 INFO       2%|▏         | 18/905 [01:47<56:07,  3.80s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:40,547 INFO       2%|▏         | 19/905 [01:51<57:59,  3.93s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:44,183 INFO       2%|▏         | 20/905 [01:55<56:48,  3.85s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:48,870 INFO     Saving progress to `stats_haicore_prompt_0.yml`
-2024-12-29 20:30:48,890 INFO       2%|▏         | 21/905 [02:00<1:00:10,  4.08s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:52,375 INFO       2%|▏         | 22/905 [02:03<57:38,  3.92s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:56,020 INFO       3%|▎         | 23/905 [02:07<56:25,  3.84s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:59,793 INFO       3%|▎         | 24/905 [02:11<56:05,  3.82s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:30:59,793 INFO       3%|▎         | 25/905 [02:11<56:01,  3.82s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:31:05,074 INFO       3%|▎         | 27/905 [02:16<39:11,  2.68s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:31:08,841 INFO       3%|▎         | 27/905 [02:20<39:11,  2.68s/it, LLaMa 3.1 8B Instruct]
-2024-12-29 20:31:12,608 INFO       3%|▎         | 28/905 [02:24<53:58,  3.69s/it, LLaMa 3.1 8B Instruct]
