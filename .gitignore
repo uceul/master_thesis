@@ -1,0 +1,5 @@
+# Python cache files
+legacy_code/src/mthesis/__pycache__/
+
+# Log files
+legacy_code/logs/
