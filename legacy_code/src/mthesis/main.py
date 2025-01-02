@@ -127,54 +127,8 @@ class UnresolvableChemicalFilter(logging.Filter):
 
 # Set the custom logger class
 logging.setLoggerClass(CustomLogger)
-
-# Get the root logger
-root_logger = logging.getLogger()
-
-# Remove any existing handlers (including those from basicConfig)
-for handler in root_logger.handlers[:]:
-    root_logger.removeHandler(handler)
-
 # Create our module's logger
 log = logging.getLogger(__name__)
-
-# Create and configure handlers for each type
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
-
-general_handler = logging.FileHandler(os.path.join(log_dir, 'general.log'))
-general_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
-general_handler.addFilter(GeneralFilter())
-
-temp_handler = logging.FileHandler(os.path.join(log_dir, 'temperature_errors.log'))
-temp_handler.addFilter(WrongTempFilter())
-temp_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
-
-time_handler = logging.FileHandler(os.path.join(log_dir, 'time_errors.log'))
-time_handler.addFilter(WrongTimeFilter())
-time_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
-
-solvent_handler = logging.FileHandler(os.path.join(log_dir, 'solvent_errors.log'))
-solvent_handler.addFilter(WrongSolventFilter())
-solvent_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
-
-additive_handler = logging.FileHandler(os.path.join(log_dir, 'additive_errors.log'))
-additive_handler.addFilter(WrongAdditiveFilter())
-additive_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
-
-chemical_handler = logging.FileHandler(os.path.join(log_dir, 'unresolvable_chemical_errors.log'))
-chemical_handler.addFilter(UnresolvableChemicalFilter())
-chemical_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
-
-# Add all handlers to root logger
-root_logger.addHandler(console_handler)
-root_logger.addHandler(general_handler)
-root_logger.addHandler(temp_handler)
-root_logger.addHandler(time_handler)
-root_logger.addHandler(solvent_handler)
-root_logger.addHandler(additive_handler)
-root_logger.addHandler(chemical_handler)
-
 app = typer.Typer()
 
 # late import because of logging setup
@@ -213,9 +167,26 @@ def evaluate(
         str,
         typer.Option(help="Description of task to be saved in log folder for later reference."),
     ] = "",
+    log_dir: Annotated[
+        str,
+        typer.Option(help="Custom directory name for logs. If not provided, timestamp will be used."),
+    ] = None,
+    model_path: Annotated[
+        str,
+        typer.Option(help="Can be used to override the model path given in the settings file"),
+    ] = None,
 ):
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    if log_dir is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_dir = os.path.join("logs", timestamp)
+    else:
+        log_dir = os.path.join("logs", log_dir)
+    os.makedirs(log_dir, exist_ok=True)
+
+    setup_handlers(log_dir)
 
     # Save description to log folder
     if description:
@@ -265,7 +236,8 @@ def evaluate(
     log.debug(f"First few overlapping IDs: {list(overlap)[:5]}")  # Debug print
 
     for model_settings in settings["models"]:
-        model_path = model_settings["model_path"]
+        if model_path is None:
+            model_path = model_settings["model_path"]
         model_name = model_settings["model_name"]
         log.info(f"Processing model: {model_name}")  # Debug print
         
@@ -610,6 +582,10 @@ def analyse(
         str,
         typer.Option(help="Description of task to be saved in log folder for later reference."),
     ] = "",
+    log_dir: Annotated[
+        str,
+        typer.Option(help="Custom directory name for logs. If not provided, timestamp will be used."),
+    ] = None,
 ):
     """Analyse the results of previuos evaluation runs."""
     # TODO:
@@ -622,6 +598,16 @@ def analyse(
     # - [ ] for each model, for each entry, compare label with predicted, convert units when necessary
     settings = load_yaml(settings)
     stats = load_yaml(stats_path)  # :: [{str -> str}]
+
+    if log_dir is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_dir = os.path.join("logs", timestamp)
+    else:
+        log_dir = os.path.join("logs", log_dir)
+    os.makedirs(log_dir, exist_ok=True)
+
+    setup_handlers(log_dir)
+
     # Save description to log folder
     if description:
         with open(os.path.join(log_dir, "description.txt"), "w") as f:
@@ -672,6 +658,7 @@ def analyse(
     # build confusion 'matrix'
     confusion = Confusion()
 
+    no_additive_amount = 0
     for evaluation in stats:
         try:
             pid = evaluation["paragraph_id"]
@@ -745,10 +732,14 @@ def analyse(
                 confusion.correct(model_name, "time")
 
             # For additives
-            if "additive" not in label or not isinstance(label["additive"], list):
-                raw_additive = answer["additive"].strip()
+            single_correct = False
+            raw_additive = answer["additive"].strip()
+            if "additive" not in label or not isinstance(label["additive"], list) or not label["additive"]:
+                no_additive_amount += 1
                 if raw_additive.lower() in ["none", "no additive", ""]:
                     confusion.correct(model_name, "additive")
+                    confusion.correct_multiple(model_name, "additive")  # Also correct for multiple
+                    confusion.correct_no_additive(model_name, "additive")  # Track correct prediction for no additive case
                 else:
                     log.wrong_additive(
                         f"\nParagraph: {pid}\n"
@@ -758,10 +749,7 @@ def analyse(
                         f"Original text: {text[:200]}..."
                     )
                     confusion.wrong(model_name, "additive")
-                return
-
-            raw_additive = answer["additive"].strip()
-            if not raw_additive:
+            elif not raw_additive:
                 confusion.wrong(model_name, "additive")
                 log.wrong_additive(
                     f"\nParagraph: {pid}\n"
@@ -770,66 +758,40 @@ def analyse(
                     f"Got empty answer\n"
                     f"Original text: {text[:200]}..."
                 )
-                return
-
-            if multiple_chemicals_in_answers:
-                delimiters = [',', '/', ' and ', ':', ';', '&']
-                pattern = '|'.join(map(re.escape, delimiters))
-                parts = [p.strip() for p in re.split(pattern, raw_additive) if p.strip()]
-                
-                if not parts:
-                    confusion.wrong(model_name, "additive")
-                    return
-                    
-                if any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts):
-                    confusion.correct(model_name, "additive")
-                elif all(txt2cid(p) == [] for p in parts):
-                    confusion.resolve_answer(model_name, "additive")
-                    confusion.wrong(model_name, "additive")
-                    log.wrong_additive(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['additive']}\n"
-                        f"Got unresolvable: {raw_additive}\n"
-                        f"Original text: {text[:200]}..."
-                    )
-                else:
-                    confusion.wrong(model_name, "additive")
-                    log.wrong_additive(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['additive']}\n"
-                        f"Got: {raw_additive}\n"
-                        f"Original text: {text[:200]}..."
-                    )
+            elif raw_additive.lower() in [syn.lower() for syn in label["additive"]]:
+                single_correct = True
+                confusion.correct(model_name, "additive")
+            elif txt2cid(raw_additive) == []:
+                confusion.resolve_answer(model_name, "additive")
+                confusion.wrong(model_name, "additive")
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got unresolvable: {raw_additive}\n"
+                    f"Original text: {text[:200]}..."
+                )
             else:
-                if raw_additive.lower() in [syn.lower() for syn in label["additive"]]:
-                    confusion.correct(model_name, "additive")
-                elif txt2cid(raw_additive) == []:
-                    confusion.resolve_answer(model_name, "additive")
-                    confusion.wrong(model_name, "additive")
-                    log.wrong_additive(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['additive']}\n"
-                        f"Got unresolvable: {raw_additive}\n"
-                        f"Original text: {text[:200]}..."
-                    )
-                else:
-                    confusion.wrong(model_name, "additive")
-                    log.wrong_additive(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['additive']}\n"
-                        f"Got: {raw_additive}\n"
-                        f"Original text: {text[:200]}..."
-                    )
+                confusion.wrong(model_name, "additive")
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got: {raw_additive}\n"
+                    f"Original text: {text[:200]}..."
+                )
 
-            # For solvents (similar logic) but raise error if no solvent in labels
-            if "solvent" not in label or not isinstance(label["solvent"], list):
+            # Now check multiple chemicals answer
+            parts = split_chemical_answer(raw_additive)
+            if parts and any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts) or single_correct:
+                single_correct = False
+                confusion.correct_multiple(model_name, "additive")                
+
+            # For solvents (similar logic)
+            if "solvent" not in label or not isinstance(label["solvent"], list) or not label["solvent"]:
                 log.error(f"Missing required solvent data for paragraph {pid}")
                 raise ValueError(f"Paragraph {pid} is missing required solvent data")
-            
+
             raw_solvent = answer["solvent"].strip()
             if not raw_solvent:
                 confusion.wrong(model_name, "solvent")
@@ -840,60 +802,37 @@ def analyse(
                     f"Got empty answer\n"
                     f"Original text: {text[:200]}..."
                 )
-                return
 
-            if multiple_chemicals_in_answers:
-                delimiters = [',', '/', ' and ', ':', ';', '&']
-                pattern = '|'.join(map(re.escape, delimiters))
-                parts = [p.strip() for p in re.split(pattern, raw_solvent) if p.strip()]
-                
-                if not parts:
-                    confusion.wrong(model_name, "solvent")
-                    return
-                    
-                if any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts):
-                    confusion.correct(model_name, "solvent")
-                elif all(txt2cid(p) == [] for p in parts):
-                    confusion.resolve_answer(model_name, "solvent")
-                    confusion.wrong(model_name, "solvent")
-                    log.wrong_solvent(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['solvent']}\n"
-                        f"Got unresolvable: {raw_solvent}\n"
-                        f"Original text: {text[:200]}..."
-                    )
-                else:
-                    confusion.wrong(model_name, "solvent")
-                    log.wrong_solvent(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['solvent']}\n"
-                        f"Got: {raw_solvent}\n"
-                        f"Original text: {text[:200]}..."
-                    )
+            single_correct = False
+            # Check single chemical answer first
+            if raw_solvent.lower() in [syn.lower() for syn in label["solvent"]]:
+                confusion.correct(model_name, "solvent")
+                single_correct = True
+            elif txt2cid(raw_solvent) == []:
+                confusion.resolve_answer(model_name, "solvent")
+                confusion.wrong(model_name, "solvent")
+                log.wrong_solvent(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['solvent']}\n"
+                    f"Got unresolvable: {raw_solvent}\n"
+                    f"Original text: {text[:200]}..."
+                )
             else:
-                if raw_solvent.lower() in [syn.lower() for syn in label["solvent"]]:
-                    confusion.correct(model_name, "solvent")
-                elif txt2cid(raw_solvent) == []:
-                    confusion.resolve_answer(model_name, "solvent")
-                    confusion.wrong(model_name, "solvent")
-                    log.wrong_solvent(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['solvent']}\n"
-                        f"Got unresolvable: {raw_solvent}\n"
-                        f"Original text: {text[:200]}..."
-                    )
-                else:
-                    confusion.wrong(model_name, "solvent")
-                    log.wrong_solvent(
-                        f"\nParagraph: {pid}\n"
-                        f"Model: {model_name}\n"
-                        f"Expected one of: {label['solvent']}\n"
-                        f"Got: {raw_solvent}\n"
-                        f"Original text: {text[:200]}..."
-                    )
+                confusion.wrong(model_name, "solvent")
+                log.wrong_solvent(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['solvent']}\n"
+                    f"Got: {raw_solvent}\n"
+                    f"Original text: {text[:200]}..."
+                )
+
+            # Now check multiple chemicals answer
+            parts = split_chemical_answer(raw_solvent)
+            if parts and any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts) or single_correct:
+                confusion.correct_multiple(model_name, "solvent")
+                single_correct = False
         except Exception as e:
             log.error(f"Error processing evaluation for {evaluation['paragraph_id']}, {evaluation['model_name']}: {str(e)}")
             continue
@@ -906,10 +845,62 @@ def analyse(
     # WONRUM02_clean, LLaMa 7B, True    , False  , True, 0          , False, 8
     confusion.print_stats()
     confusion.print_prop_stats()
+    print(f"Total no additives: {no_additive_amount}")
 
 def main():
     app()
 
+def setup_handlers(log_dir):
+    # Get the root logger
+    root_logger = logging.getLogger()
+
+    # Remove any existing handlers (including those from basicConfig)
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
+
+    general_handler = logging.FileHandler(os.path.join(log_dir, 'general.log'))
+    general_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
+    general_handler.addFilter(GeneralFilter())
+
+    temp_handler = logging.FileHandler(os.path.join(log_dir, 'temperature_errors.log'))
+    temp_handler.addFilter(WrongTempFilter())
+    temp_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    time_handler = logging.FileHandler(os.path.join(log_dir, 'time_errors.log'))
+    time_handler.addFilter(WrongTimeFilter())
+    time_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    solvent_handler = logging.FileHandler(os.path.join(log_dir, 'solvent_errors.log'))
+    solvent_handler.addFilter(WrongSolventFilter())
+    solvent_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    additive_handler = logging.FileHandler(os.path.join(log_dir, 'additive_errors.log'))
+    additive_handler.addFilter(WrongAdditiveFilter())
+    additive_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    chemical_handler = logging.FileHandler(os.path.join(log_dir, 'unresolvable_chemical_errors.log'))
+    chemical_handler.addFilter(UnresolvableChemicalFilter())
+    chemical_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    # Add all handlers to root logger
+    root_logger.addHandler(console_handler)
+    root_logger.addHandler(general_handler)
+    root_logger.addHandler(temp_handler)
+    root_logger.addHandler(time_handler)
+    root_logger.addHandler(solvent_handler)
+    root_logger.addHandler(additive_handler)
+    root_logger.addHandler(chemical_handler)
+
+    return root_logger
+
+# Helper function to split chemical string into parts
+def split_chemical_answer(raw_answer: str) -> list[str]:
+    delimiters = [',', '/', ' and ', ':', ';', '&']
+    pattern = '|'.join(map(re.escape, delimiters))
+    return [p.strip() for p in re.split(pattern, raw_answer) if p.strip()]
 
 if __name__ == "__main__":
     main()

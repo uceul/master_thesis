@@ -24,8 +24,8 @@ nvidia-smi
 cd /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_code
 
 echo "Run 1"
-poetry run main analyse --settings settings/settings_llama_31.yml --stats-path runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero"
 echo
 echo "Run 2"
-poetry run main analyse --settings settings/settings_llama_31.yml --stats-path runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_control_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero version 2"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_control_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero version 2"
 echo

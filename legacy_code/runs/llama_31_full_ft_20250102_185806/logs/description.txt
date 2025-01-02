@@ -1,0 +1,1 @@
+first run with full finetuned llama 31 8B no scheduler

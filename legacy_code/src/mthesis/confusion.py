@@ -41,6 +41,8 @@ class Confusion:
                 "correct": 0, "wrong": 0, "unit": 0,
                 "resolve_label": 0,
                 "resolve_answer": 0,
+                "correct_multiple": 0,
+                "correct_no_additive": 0
             }
 
         if self.confusion["Total"].get(parameter) is None:
@@ -48,6 +50,8 @@ class Confusion:
                 "correct": 0, "wrong": 0, "unit": 0,
                 "resolve_label": 0,
                 "resolve_answer": 0,
+                "correct_multiple": 0,
+                "correct_no_additive": 0
             }
 
     def wrong_unit(self, model_name, parameter):
@@ -64,6 +68,16 @@ class Confusion:
         self._ensure_dict(model_name, parameter)
         self.confusion[model_name][parameter]["correct"] += 1
         self.confusion["Total"][parameter]["correct"] += 1
+
+    def correct_multiple(self, model_name, parameter):
+        self._ensure_dict(model_name, parameter)
+        self.confusion[model_name][parameter]["correct_multiple"] += 1
+        self.confusion["Total"][parameter]["correct_multiple"] += 1
+
+    def correct_no_additive(self, model_name, parameter):
+        self._ensure_dict(model_name, parameter)
+        self.confusion[model_name][parameter]["correct_no_additive"] += 1
+        self.confusion["Total"][parameter]["correct_no_additive"] += 1
 
     def resolve_label(self, model_name, parameter):
         self._ensure_dict(model_name, parameter)
