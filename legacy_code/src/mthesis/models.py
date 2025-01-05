@@ -73,7 +73,6 @@ class JsonformerModel(pl.LightningModule):
     def forward(self, text: str) -> dict:
         # Combine instruction with the actual text
         full_prompt = f"{self.instruction}\n{text}"
-        
         # Create Jsonformer instance and generate
         if self.temperature > 0.0:
             jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt, temperature=self.temperature)

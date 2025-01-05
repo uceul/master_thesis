@@ -19,12 +19,12 @@ Usage: $0 --settings <path/to/settings.yml> [options]
 
 Required:
   --settings <path>   Path to the settings YAML file
-  --short_description <str>
+  --short-description <str>
                       Used as prefix for the run directory name
 
 Optional:
   --only-model <str>  Only evaluate a specific model by name
-  --model_path <str>  Model path passed to 'evaluate'
+  --model-path <str>  Model path passed to 'evaluate'
   --prompt <str>      Prompt passed to 'evaluate'
   --temperature <num> Temperature passed to 'evaluate' (default: 0.1)
   --description <str> Description for 'evaluate'
@@ -43,7 +43,7 @@ while [[ "$#" -gt 0 ]]; do
       ONLY_MODEL="$2"
       shift 2
       ;;
-    --model_path)
+    --model-path)
       MODEL_PATH="$2"
       shift 2
       ;;
@@ -59,7 +59,7 @@ while [[ "$#" -gt 0 ]]; do
       DESCRIPTION="$2"
       shift 2
       ;;
-    --short_description)
+    --short-description)
       SHORT_DESCRIPTION="$2"
       shift 2
       ;;
@@ -79,13 +79,14 @@ fi
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 RUN_NAME="${SHORT_DESCRIPTION}_${TIMESTAMP}"
 EVALUATE_OUT="${RUN_NAME}_evaluate_out.txt"
+LOG_DIR_NAME="$RUN_NAME"
 
 # Build and run the 'evaluate' command
 EVALUATE_CMD="LOG_LEVEL=DEBUG poetry run main evaluate \
   --settings \"$SETTINGS\" \
   --stats-path \"stats_${RUN_NAME}.yml\" \
   --temperature \"$TEMPERATURE\" \
-  --log-dir \"$RUN_NAME\""
+  --log-dir \"$LOG_DIR_NAME\""
 
 if [[ -n "$ONLY_MODEL" ]]; then
   EVALUATE_CMD+=" --only-model \"$ONLY_MODEL\""
@@ -109,7 +110,8 @@ mv "stats_${RUN_NAME}.yml" "runs/$RUN_NAME/"
 cp "$SETTINGS" "runs/$RUN_NAME/"
 mkdir -p "runs/$RUN_NAME/logs"
 if [[ -d "logs/$LOG_DIR_NAME" ]]; then
-    echo "Moving evaluation logs to runs/$RUN_NAME/logs"
+    echo "Moving evaluation logs (logs/$LOG_DIR_NAME) to runs/$RUN_NAME/logs"
+    mkdir -p "runs/$RUN_NAME/logs/"
     mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/logs/eval"
 fi
 

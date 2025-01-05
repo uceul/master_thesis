@@ -236,8 +236,9 @@ def evaluate(
     log.debug(f"First few overlapping IDs: {list(overlap)[:5]}")  # Debug print
 
     for model_settings in settings["models"]:
-        if model_path is None:
-            model_path = model_settings["model_path"]
+        if model_path and only_model:
+            # override model_path
+            model_settings["model_path"] = model_path
         model_name = model_settings["model_name"]
         log.info(f"Processing model: {model_name}")  # Debug print
         
@@ -271,7 +272,7 @@ def evaluate(
             if first:
                 progress_bar.update(diff)
                 first = False
-                log.info(f"Loading Model [{model_name}]")
+                log.info(f"Loading Model [{model_name}] from {model_settings['model_path']}")
                 model = JsonformerModel(prompt=prompt, temperature=temperature, **model_settings)
                 model.eval()  # set model to eval mode
 
@@ -291,7 +292,7 @@ def evaluate(
                     save_yaml(stats, "backup/" + stats_path)
                     count = 0
                 except:
-                    log.warning("Failed to backup results. Continuing...")   
+                    log.warning("Failed to backup results. Continuing...")
         log.info(f"Saving progress to `{stats_path}`")
         save_yaml(stats, stats_path)
         save_yaml(stats, "backup/" + stats_path)
@@ -684,6 +685,15 @@ def analyse(
                     f"Got: {a_temp}°C ({a_full}) - Wrong unit\n"
                     f"Original text: {text[:200]}..."
                     )
+                elif str(answer["temperature"]).lower().strip() in text.lower():
+                    confusion.found_in_text(model_name, "temperature")
+                    log.wrong_temperature(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_temp}°C ({l_full})\n"
+                        f"Got: {a_temp}°C ({a_full}) (Which appears in text!)\n"
+                        f"Original text: {text[:200]}..."
+                    )
                 else:
                     log.wrong_temperature(
                         f"\nParagraph: {pid}\n"
@@ -718,8 +728,16 @@ def analyse(
                             f"Original text: {text[:200]}..."
                         )
                         break
-                
-                if not wrong_unit:
+                if str(answer["time"]).lower().strip() in text.lower():
+                    confusion.found_in_text(model_name, "time")
+                    log.wrong_time(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_time}h ({l_full})\n"
+                        f"Got: {a_time}h ({a_full}) (Which appears in text!)\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                elif not wrong_unit:
                     log.wrong_time(
                         f"\nParagraph: {pid}\n"
                         f"Model: {model_name}\n"
@@ -738,7 +756,6 @@ def analyse(
                 no_additive_amount += 1
                 if raw_additive.lower() in ["none", "no additive", ""]:
                     confusion.correct(model_name, "additive")
-                    confusion.correct_multiple(model_name, "additive")  # Also correct for multiple
                     confusion.correct_no_additive(model_name, "additive")  # Track correct prediction for no additive case
                 else:
                     log.wrong_additive(
@@ -751,6 +768,7 @@ def analyse(
                     confusion.wrong(model_name, "additive")
             elif not raw_additive:
                 confusion.wrong(model_name, "additive")
+                confusion.wrong_no_additive(model_name, "additive")
                 log.wrong_additive(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
@@ -764,26 +782,34 @@ def analyse(
             elif txt2cid(raw_additive) == []:
                 confusion.resolve_answer(model_name, "additive")
                 confusion.wrong(model_name, "additive")
+                found_in_text_message = ""
+                if raw_additive.lower() in text.lower():
+                    confusion.found_in_text_unresolvable(model_name, "additive")
+                    found_in_text_message = "(Which appears in text!)"
                 log.wrong_additive(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['additive']}\n"
-                    f"Got unresolvable: {raw_additive}\n"
+                    f"Got unresolvable {found_in_text_message}: {raw_additive}\n"
                     f"Original text: {text[:200]}..."
                 )
             else:
                 confusion.wrong(model_name, "additive")
+                found_in_text_message = ""
+                if raw_additive.lower() in text.lower():
+                    confusion.found_in_text_unresolvable(model_name, "additive")
+                    found_in_text_message = "(Which appears in text!)"
                 log.wrong_additive(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['additive']}\n"
-                    f"Got: {raw_additive}\n"
+                    f"Got {found_in_text_message}: {raw_additive}\n"
                     f"Original text: {text[:200]}..."
                 )
 
             # Now check multiple chemicals answer
             parts = split_chemical_answer(raw_additive)
-            if parts and any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts) or single_correct:
+            if not single_correct and parts and any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts):
                 single_correct = False
                 confusion.correct_multiple(model_name, "additive")                
 
@@ -811,26 +837,34 @@ def analyse(
             elif txt2cid(raw_solvent) == []:
                 confusion.resolve_answer(model_name, "solvent")
                 confusion.wrong(model_name, "solvent")
+                found_in_text_message = ""
+                if raw_solvent.lower() in text.lower():
+                    confusion.found_in_text_unresolvable(model_name, "solvent")
+                    found_in_text_message = "(Which appears in text!)"
                 log.wrong_solvent(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['solvent']}\n"
-                    f"Got unresolvable: {raw_solvent}\n"
+                    f"Got unresolvable {found_in_text_message}: {raw_solvent}\n"
                     f"Original text: {text[:200]}..."
                 )
             else:
                 confusion.wrong(model_name, "solvent")
+                found_in_text_message = ""
+                if raw_solvent.lower() in text.lower():
+                    confusion.found_in_text(model_name, "solvent")
+                    found_in_text_message = "(Which appears in text!)"
                 log.wrong_solvent(
                     f"\nParagraph: {pid}\n"
                     f"Model: {model_name}\n"
                     f"Expected one of: {label['solvent']}\n"
-                    f"Got: {raw_solvent}\n"
+                    f"Got {found_in_text_message}: {raw_solvent}\n"
                     f"Original text: {text[:200]}..."
                 )
 
             # Now check multiple chemicals answer
             parts = split_chemical_answer(raw_solvent)
-            if parts and any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts) or single_correct:
+            if not single_correct and parts and any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts):
                 confusion.correct_multiple(model_name, "solvent")
                 single_correct = False
         except Exception as e:

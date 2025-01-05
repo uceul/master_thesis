@@ -38,20 +38,20 @@ class Confusion:
 
         if self.confusion[model_name].get(parameter) is None:
             self.confusion[model_name][parameter] = {
-                "correct": 0, "wrong": 0, "unit": 0,
-                "resolve_label": 0,
-                "resolve_answer": 0,
+                "correct": 0, "wrong": 0, "unit": 0, "found_in_text" : 0,
+                "resolve_answer": 0, "found_in_text_unresolvable": 0,
                 "correct_multiple": 0,
-                "correct_no_additive": 0
+                "correct_no_additive": 0,
+                "wrong_no_additive": 0
             }
 
         if self.confusion["Total"].get(parameter) is None:
             self.confusion["Total"][parameter] = {
-                "correct": 0, "wrong": 0, "unit": 0,
-                "resolve_label": 0,
-                "resolve_answer": 0,
+                "correct": 0, "wrong": 0, "unit": 0, "found_in_text" : 0, 
+                "resolve_answer": 0, "found_in_text_unresolvable": 0,
                 "correct_multiple": 0,
-                "correct_no_additive": 0
+                "correct_no_additive": 0,
+                "wrong_no_additive": 0
             }
 
     def wrong_unit(self, model_name, parameter):
@@ -69,6 +69,16 @@ class Confusion:
         self.confusion[model_name][parameter]["correct"] += 1
         self.confusion["Total"][parameter]["correct"] += 1
 
+    def found_in_text(self, model_name, parameter):
+        self._ensure_dict(model_name, parameter)
+        self.confusion[model_name][parameter]["found_in_text"] += 1
+        self.confusion["Total"][parameter]["found_in_text"] += 1
+
+    def found_in_text_unresolvable(self, model_name, parameter):
+        self._ensure_dict(model_name, parameter)
+        self.confusion[model_name][parameter]["found_in_text_unresolvable"] += 1
+        self.confusion["Total"][parameter]["found_in_text_unresolvable"] += 1
+
     def correct_multiple(self, model_name, parameter):
         self._ensure_dict(model_name, parameter)
         self.confusion[model_name][parameter]["correct_multiple"] += 1
@@ -79,10 +89,10 @@ class Confusion:
         self.confusion[model_name][parameter]["correct_no_additive"] += 1
         self.confusion["Total"][parameter]["correct_no_additive"] += 1
 
-    def resolve_label(self, model_name, parameter):
+    def wrong_no_additive(self, model_name, parameter):
         self._ensure_dict(model_name, parameter)
-        self.confusion[model_name][parameter]["resolve_label"] += 1
-        self.confusion["Total"][parameter]["resolve_label"] += 1
+        self.confusion[model_name][parameter]["wrong_no_additive"] += 1
+        self.confusion["Total"][parameter]["wrong_no_additive"] += 1
 
     def resolve_answer(self, model_name, parameter):
         self._ensure_dict(model_name, parameter)

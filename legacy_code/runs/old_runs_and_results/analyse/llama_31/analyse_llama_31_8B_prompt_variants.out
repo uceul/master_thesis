@@ -1,3 +1,13 @@
+Prompts used:
+
+    - 1: Extract MOF synthesis conditions from the text. Use these rules: 
+      - Temperature: Highest reaction temperature (25°C if unspecified) 
+      - Time: Longest duration maintained at highest temperature 
+      - Solvent: Choose one main solvent (no mixtures or ratios) 
+      - Additive: Choose one additive, or write 'None' if absent
+    
+    - 2: Extract synthesis conditions from the text in the following format: temperature (highest reaction temp, use 25°C if not specified), time (longest duration at highest temp), one solvent (if multiple present, choose one), and one additive (write 'None' if no additive present).
+
 # conda environments:
 #
 base                  *  /home/iti/zn2950/miniconda3

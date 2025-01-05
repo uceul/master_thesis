@@ -19,7 +19,7 @@ Usage: $0 [options]
 Required (one of):
   --run-dir <path>    Path to the directory containing results from the evaluate script
   AND
-  --short_description <str>
+  --short-description <str>
                       Used to prefix the output file (if using --run-dir)
                       else: Used as prefix for the run directory name and output files (if not using --run-dir)
   OR
@@ -52,7 +52,7 @@ while [[ "$#" -gt 0 ]]; do
       DESCRIPTION="$2"
       shift 2
       ;;
-    --short_description)
+    --short-description)
       SHORT_DESCRIPTION="$2"
       shift 2
       ;;
@@ -76,9 +76,11 @@ if [[ -n "$RUN_DIR" ]]; then
     exit 1
   fi
 
+  RUN_NAME="$(basename "$RUN_DIR")"
   SETTINGS=$(find "$RUN_DIR" -maxdepth 1 -name "settings*.yml" | head -n1)
   STATS_PATH=$(find "$RUN_DIR" -maxdepth 1 -name "stats*.yml" | head -n1)
-  ANALYSE_OUT="$RUN_DIR/$(basename "$RUN_DIR")_analyse_out.txt"
+  ANALYSE_OUT=""$RUN_NAME"_analyse_out.txt"
+  LOG_DIR=$RUN_NAME
 
   if [[ -z "$SETTINGS" ]]; then
   echo "Error: No settings*.yml file found in $RUN_DIR."
@@ -92,12 +94,13 @@ if [[ -n "$RUN_DIR" ]]; then
 else
   # Generate new names if --run-dir is not used
   if [[ -z "$SHORT_DESCRIPTION" ]]; then
-    echo "Error: --short_description is required when not using --run-dir."
-    usage
+    echo "No short description given, using 'analyse' as short description"
+    SHORT_DESCRIPTION="analyse"
   fi
 
   TIMESTAMP=$(date +%Y%m%d_%H%M%S)
   RUN_NAME="${SHORT_DESCRIPTION}_${TIMESTAMP}"
+  LOG_DIR="$RUN_NAME"
   ANALYSE_OUT="${RUN_NAME}_analyse_out.txt"
 fi
 
@@ -105,7 +108,7 @@ fi
 ANALYSE_CMD="LOG_LEVEL=DEBUG poetry run main analyse \
   --settings \"$SETTINGS\" \
   --stats-path \"$STATS_PATH\" \
-  --log-dir \"${RUN_NAME:-$(basename "$RUN_DIR")}\""
+  --log-dir \"$LOG_DIR\""
 
 if [[ -n "$DESCRIPTION" ]]; then
   ANALYSE_CMD+=" --description \"$DESCRIPTION\""
@@ -113,21 +116,23 @@ fi
 
 # Run the analyse command
 echo "Running ANALYSE..."
+echo $ANALYSE_CMD
 eval "$ANALYSE_CMD" 2>&1 | tee "$ANALYSE_OUT"
 
 # If not reusing run_dir, organize new output
 if [[ -z "$RUN_DIR" ]]; then
-  echo "Creating directory runs/$RUN_NAME and moving files..."
-  mkdir -p "runs/$RUN_NAME"
-  cp "$STATS_PATH" "runs/$RUN_NAME/"
-  cp "$SETTINGS" "runs/$RUN_NAME/"
+  RUN_DIR="runs/"$RUN_NAME"/"
+  echo "Creating directory "$RUN_DIR" and moving files..."
+  mkdir -p $RUN_DIR
+  cp "$STATS_PATH" "$RUN_DIR"
+  cp "$SETTINGS" "$RUN_DIR"
 fi
 
-mkdir -p "runs/$RUN_NAME/logs"
-if [[ -d "logs/$LOG_DIR_NAME" ]]; then
-    echo "Moving analyse logs to runs/$RUN_NAME/logs"
-    mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/logs/analyse"
-fi
-mv "$ANALYSE_OUT" "runs/$RUN_NAME/"
+echo "Moving analyse logs from logs/"$LOG_DIR" to "$RUN_DIR"logs/analyse"
+mkdir -p "$RUN_DIR/logs/"
+mv "logs/"$LOG_DIR"" ""$RUN_DIR"logs/analyse"
 
-echo "Analysis completed. Results saved in ${RUN_DIR:-runs/$RUN_NAME}"
+mv "$ANALYSE_OUT" "$RUN_DIR"
+python scripts/create_short_analyse_output.py "$RUN_DIR"/"$ANALYSE_OUT"
+
+echo "Analysis completed. Results saved in ${RUN_DIR:-runs/$RUN_DIR}"

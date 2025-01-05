@@ -3,16 +3,16 @@
 # Automates:
 #   1) main evaluate
 #   2) main analyse
-#   3) Collecting output into runs/<short_description>_<timestamp>/
+#   3) Collecting output into runs/<short-description>_<timestamp>/
 #
 # Example usage:
 #   ./run_all.sh --settings settings/settings_llama_31.yml \ 
 #       --only-model "LLaMa 3.1 8B Instruct" \
-#       --model_path <path>  Model path passed to 'evaluate'
+#       --model-path <path>  Model path passed to 'evaluate'
 #       --prompt "test prompt" \
 #       --temperature 0.2 \
 #       --description "Some run description" \
-#       --short_description "my_experiment"
+#       --short-description "my_experiment"
 #
 # After finishing, you'll have:
 #   runs/my_experiment_20230817_102015/
@@ -41,7 +41,7 @@ Usage: $0 --settings <path/to/settings.yml> [options]
 
 Required:
   --settings <path>   Path to the settings YAML file
-  --short_description <str>
+  --short-description <str>
                       Used as prefix for the run directory name
 
 Optional:
@@ -64,7 +64,7 @@ while [[ "$#" -gt 0 ]]; do
       ONLY_MODEL="$2"
       shift 2
       ;;
-    --model_path)
+    --model-path)
       MODEL_PATH="$2"
       shift 2
       ;;
@@ -80,7 +80,7 @@ while [[ "$#" -gt 0 ]]; do
       DESCRIPTION="$2"
       shift 2
       ;;
-    --short_description)
+    --short-description)
       SHORT_DESCRIPTION="$2"
       shift 2
       ;;
@@ -98,7 +98,7 @@ if [[ -z "$SETTINGS" ]]; then
 fi
 
 if [[ -z "$SHORT_DESCRIPTION" ]]; then
-  echo "Error: --short_description is required."
+  echo "Error: --short-description is required."
   usage
 fi
 
@@ -117,7 +117,7 @@ EVALUATE_CMD="LOG_LEVEL=DEBUG poetry run main evaluate \
   --settings \"$SETTINGS\" \
   --stats-path \"$STATS_PATH\" \
   --temperature \"$TEMPERATURE\" \
-  --log-dir \"$LOG_DIR_NAME\""
+  --log-dir \"$LOG_DIR_NAME\"_eval"
 
 if [[ -n "$ONLY_MODEL" ]]; then
   EVALUATE_CMD+=" --only-model \"$ONLY_MODEL\""
@@ -136,7 +136,7 @@ fi
 ANALYSE_CMD="LOG_LEVEL=DEBUG poetry run main analyse \
   --settings \"$SETTINGS\" \
   --stats-path \"$STATS_PATH\" \
-  --log-dir \"$LOG_DIR_NAME\""
+  --log-dir \"$LOG_DIR_NAME\"_analyse"
 
 if [[ -n "$DESCRIPTION" ]]; then
   ANALYSE_CMD+=" --description \"$DESCRIPTION\""
@@ -151,13 +151,6 @@ echo "===== EVALUATE COMMAND ====="
 echo "$EVALUATE_CMD"
 echo
 
-mkdir -p "runs/$RUN_NAME/logs"
-if [[ -d "logs/$LOG_DIR_NAME" ]]; then
-    echo "Moving evaluation logs to runs/$RUN_NAME/logs"
-    mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/logs/eval"
-fi
-
-
 echo "===== ANALYSE COMMAND ====="
 echo "$ANALYSE_CMD"
 echo
@@ -165,6 +158,13 @@ echo
 # Run evaluation
 echo "[1/2] Running EVALUATE..."
 eval "$EVALUATE_CMD" 2>&1 | tee "$EVALUATE_OUT"
+
+if [[ -d "logs/"$LOG_DIR_NAME"_eval" ]]; then
+    echo "Moving analyse logs to runs/$RUN_NAME/logs"
+    mkdir -p "runs/$RUN_NAME/logs/"
+    mv "logs/$LOG_DIR_NAME"_eval "runs/$RUN_NAME/logs/eval"
+fi
+
 
 # Run analysis
 echo "[2/2] Running ANALYSE..."
@@ -179,10 +179,12 @@ mv "$STATS_PATH" "runs/$RUN_NAME/"
 cp "$SETTINGS" "runs/$RUN_NAME/"
 
 # Move logs directory
-if [[ -d "logs/$LOG_DIR_NAME" ]]; then
+if [[ -d "logs/"$LOG_DIR_NAME"_analyse" ]]; then
     echo "Moving analyse logs to runs/$RUN_NAME/logs"
-    mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/logs/analyse"
+    mkdir -p "runs/$RUN_NAME/logs/"
+    mv "logs/$LOG_DIR_NAME"_analyse "runs/$RUN_NAME/logs/analyse"
 fi
+python scripts/create_short_analyse_output.py "runs/"$RUN_NAME/"$ANALYSE_OUT"
 
 echo
 echo "All done. Results saved in runs/$RUN_NAME"

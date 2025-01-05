@@ -1,0 +1,42 @@
+2025-01-05 00:21:46,285 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 h)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-05 00:21:48,399 - 
+Paragraph: BUXZAX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 12h (12.0 hour)
+Original text: For detailed experimental procedures including syntheses and characterization data, see the Supporting Information. Briefly, commercial HfOCl2·8H2O (123 mg, 0.3 mmol), benzoic acid (2.7 g, 22.1 mmol),...
+2025-01-05 00:21:50,862 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hours)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2025-01-05 00:21:51,912 - 
+Paragraph: ANUGIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 30h (30.0 h)
+Original text: Linker H43 (0.050 g, 0.10 mmol) was added to a solution of 0.005 M HCl in DMF/dioxane/H2O (4:1:1, 10 mL) in a 20-mL scintillation vial. To this mixture, Cu(NO3)2·2.5H2O (0.096 g, 0.41 mmol) was added,...
+2025-01-05 00:21:52,576 - 
+Paragraph: AZAWAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 16h (16.0 h)
+Got: 24h (24.0 hour)
+Original text: A 0.02 M stock solution of copper nitrate trihydrate in DEF (0.5 mL) was added to a 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water ...
+2025-01-05 00:22:05,962 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2025-01-05 00:22:14,698 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 day)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
