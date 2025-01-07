@@ -27,29 +27,44 @@ class JsonformerModel(pl.LightningModule):
     ):
         super().__init__()
         self.temperature = temperature
+        self.model_name = model_name
         if load_params and model_path is not None:
+            model_kwargs = {
+                "torch_dtype": torch.float16,
+                "load_in_8bit": False,
+                "trust_remote_code": True,
+                "device_map": "auto",
+            }
+
+            # Add the attn_implementation parameter conditionally
+            if self.model_name == "Phi 3 Mini 4k Instruct":
+                model_kwargs["attn_implementation"] = "flash_attention_2"
+
             if self.temperature > 0.0:
+                model_kwargs["do_sample"] = True
                 self.model = AutoModelForCausalLM.from_pretrained(
                     model_path,
-                    torch_dtype=torch.float16,
-                    load_in_8bit=True,
-                    trust_remote_code=True,
-                    device_map="auto",
+                    **model_kwargs
                 )
             else:
+                model_kwargs["do_sample"] = False
                 self.model = AutoModelForCausalLM.from_pretrained(
                     model_path,
-                    torch_dtype=torch.float16,
-                    load_in_8bit=True,
-                    trust_remote_code=True,
-                    device_map="auto",
-                    do_sample=True,
+                    **model_kwargs
                 )
+            print("model kwargs: " + str(model_kwargs))
+            self.model.eval()
             self.tokenizer = AutoTokenizer.from_pretrained(
                 tokenizer_path if tokenizer_path else model_path,
                 use_fast=True,
                 return_tensors="pt",
             )
+
+            if self.model_name == "Phi 3 Mini 4k Instruct":
+                # We have to use the max vocab size of 32064 for Phi 3 to work with JSONFormer
+                # For some reason only 32011 tokens are defined by default => Add 53 unused tokens 
+                for i in range(53):
+                    self.tokenizer.add_special_tokens({'additional_special_tokens': [f'[PAD{i}]']})
         else:
             self.model = None
             self.tokenizer = None
@@ -74,10 +89,11 @@ class JsonformerModel(pl.LightningModule):
         # Combine instruction with the actual text
         full_prompt = f"{self.instruction}\n{text}"
         # Create Jsonformer instance and generate
-        if self.temperature > 0.0:
-            jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt, temperature=self.temperature)
-        else:
-            jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt)
+        with torch.inference_mode():
+            if self.temperature > 0.0:
+                jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt, temperature=self.temperature)
+            else:
+                jsonformer = Jsonformer(self.model, self.tokenizer, self.schema, full_prompt)
         return jsonformer()
 
     def forward2(self, text: str):

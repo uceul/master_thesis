@@ -1,11 +1,13 @@
 import os
 import pandas as pd
+import json
 import re
 import sys
 import typer
 import torch
 import logging
 from datetime import datetime
+from torch.utils.data import DataLoader, Subset
 from typing_extensions import Annotated
 from tqdm import tqdm
 from transformers import (
@@ -175,6 +177,10 @@ def evaluate(
         str,
         typer.Option(help="Can be used to override the model path given in the settings file"),
     ] = None,
+    evaluation_set: Annotated[
+        bool,
+        typer.Option(help="Flag to evaluate only on paragraphs contained in the evaluation set."),
+    ] = False,
 ):
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -222,17 +228,25 @@ def evaluate(
         log.error(f"Error loading CSV file: {e}")
         return
 
+    dataset_path = ""
+    # Load the evaluation set
+    if evaluation_set:
+        log.info(f"Loading evaluation set instead of regular dataset.")
+        dataset_path = settings.get("eval_dataset_path")
+    else:
+        dataset_path = settings.get("dataset_path")
+
     evaluated = frozenset(map(lambda s: (s["paragraph_id"], s["model_name"]), stats))
     log.debug(f"Already evaluated: {len(evaluated)} items")  # Debug print
 
-    log.info(f"Loading Dataset from {settings['dataset_path']}")  # Debug print
-    dataset = MOFDataset(settings["dataset_path"])
+    log.info(f"Loading Dataset from {dataset_path}")  # Debug print
+    dataset = MOFDataset(dataset_path)
     log.info(f"Dataset loaded with {len(dataset)} items")  # Debug print
     
     # Debug: Check overlap between dataset and valid IDs
     dataset_ids = set(item["paragraph_id"] for item in dataset)
     overlap = dataset_ids.intersection(valid_paragraph_ids)
-    log.info(f"Found {len(overlap)} paragraphs that have labels")  # Debug print
+    log.info(f"Found {len(overlap)} paragraphs that have labels in dataset")  # Debug print
     log.debug(f"First few overlapping IDs: {list(overlap)[:5]}")  # Debug print
 
     for model_settings in settings["models"]:
@@ -253,16 +267,10 @@ def evaluate(
         first = True
         count = 0
 
-        for item in progress_bar:
+        for batch in progress_bar:
             log.info(str(progress_bar))
             print(str(progress_bar))
-            paragraph_id = item["paragraph_id"]
-
-            # Skip if no label exists for this paragraph
-            if paragraph_id not in valid_paragraph_ids:
-                log.debug(f"Skipping {paragraph_id}, no label found in CSV")
-                progress_bar.update()
-                continue
+            paragraph_id = batch["paragraph_id"]
 
             if (paragraph_id, model_name) in evaluated:
                 log.debug(f"Skipping {paragraph_id}, as it has been processed before.")
@@ -283,7 +291,7 @@ def evaluate(
                 "model_name": model_name,
             }
 
-            entry["answer"] = model(item["text"])  # forward the dataset text
+            entry["answer"] = model(batch["text"])  # forward the dataset text
             stats.append(entry)
             if count >= 20:
                 try:
@@ -797,7 +805,7 @@ def analyse(
                 confusion.wrong(model_name, "additive")
                 found_in_text_message = ""
                 if raw_additive.lower() in text.lower():
-                    confusion.found_in_text_unresolvable(model_name, "additive")
+                    confusion.found_in_text(model_name, "additive")
                     found_in_text_message = "(Which appears in text!)"
                 log.wrong_additive(
                     f"\nParagraph: {pid}\n"

@@ -44,7 +44,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: TAGVAB_clean
 - answer:
-    additive: Cd(NO3)2\u00b44H
+    additive: "Cd(NO3)2\xB74H2O"
     solvent: DMF/H2O (1:3)
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -108,7 +108,7 @@
   paragraph_id: NAGQET_clean
 - answer:
     additive: HNO3
-    solvent: 'DMA/H2O (3:1, '
+    solvent: DMA/H2O
     temperature: 373.0
     temperature_unit: K
     time: 72.0
@@ -134,7 +134,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LACJAC_clean
 - answer:
-    additive: CdCl2\u20262.5H2
+    additive: CdCl2\u20252.5H2
     solvent: H2O, MeCN
     temperature: 160.0
     temperature_unit: "\xB0C"
@@ -270,7 +270,7 @@
   paragraph_id: TIKMEH_clean
 - answer:
     additive: HF
-    solvent: deionized water
+    solvent: water
     temperature: 220.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -305,8 +305,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: PEWFII_clean
 - answer:
-    additive: HNO3
-    solvent: H2O and DMF
+    additive: Ba(NO3)2, La(NO3)
+    solvent: H2O, DMF
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 12.0
@@ -314,12 +314,12 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ILEPEW_clean
 - answer:
-    additive: H4L1
-    solvent: DMF
+    additive: ZnCl2
+    solvent: H2O, DMF
     temperature: 140.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: REYBAA_clean
 - answer:
@@ -404,8 +404,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: FONPUV_clean
 - answer:
-    additive: "Cu(NO3)2\xB73H2O"
-    solvent: DMF, ethanol, H2O
+    additive: H4BDPO (10.4 mg,
+    solvent: DMF (2 mL), ethanol (1.
     temperature: 75.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -444,8 +444,8 @@
     solvent: water
     temperature: 60.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ALATAK_clean
 - answer:
@@ -503,7 +503,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: FOJLOH_clean
 - answer:
-    additive: Cu(NO3)2
+    additive: Cu(NO3)2\u00b22.
     solvent: DMF/H2O
     temperature: 85.0
     temperature_unit: "\xB0C"
@@ -531,7 +531,7 @@
   paragraph_id: YEMJAC_clean
 - answer:
     additive: H3CMPEIP
-    solvent: 'DMA/methanol/H2O (5:'
+    solvent: DMA/methanol/H2O
     temperature: 80.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -543,8 +543,8 @@
     solvent: H2O
     temperature: 443.0
     temperature_unit: K
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: GURTIX_charged
 - answer:
@@ -584,8 +584,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QUQFOY_clean
 - answer:
-    additive: 1,4-naphthalenedicarbox
-    solvent: H2O
+    additive: EuCl3\u20226H2O,
+    solvent: 'H2O, aqueous NaOH, '
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -603,7 +603,7 @@
   paragraph_id: WEGKIE_clean
 - answer:
     additive: Zn(NO3)2\u20226H
-    solvent: DMF/EtOH/H2O
+    solvent: DMF, EtOH, H2O
     temperature: 70.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -638,7 +638,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LIJXEI_clean
 - answer:
-    additive: DMF
+    additive: 4,4\u2032-Bipy
     solvent: DMF
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -661,7 +661,7 @@
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 72.0
-    time_unit: h
+    time_unit: hours
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LATPIG_clean
 - answer:
@@ -674,8 +674,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XOTSIK_clean
 - answer:
-    additive: DMF
-    solvent: MeOH
+    additive: DMF and MeOH
+    solvent: DMF and MeOH
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -684,7 +684,7 @@
   paragraph_id: RUVBOB_clean
 - answer:
     additive: "HfOCl2\xB78H2O"
-    solvent: N,N-diethylformamide (DEF)
+    solvent: N,N-diethylformamide
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -791,7 +791,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: UZAFIL_clean
 - answer:
-    additive: pyrazine
+    additive: N,N-dimethylacetamide and methanol
     solvent: N,N-dimethylacetamide and methanol
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -890,7 +890,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ADASUV_clean
 - answer:
-    additive: 'Cd(NO3)2\u22c5 '
+    additive: H3TMBTC
     solvent: H2O/EtOH
     temperature: 180.0
     temperature_unit: "\xB0C"
@@ -944,8 +944,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ZEBMAW_clean
 - answer:
-    additive: NaOH
-    solvent: H2O/DMF
+    additive: H2O/DMF
+    solvent: 1 mL
     temperature: 130.0
     temperature_unit: "\xB0C"
     time: 24.0
@@ -1044,7 +1044,7 @@
   paragraph_id: PELRIJ_clean
 - answer:
     additive: "Zn(NO3)2\xB76H2"
-    solvent: DMF (2 mL) and MeOH (
+    solvent: DMF, MeOH
     temperature: 65.0
     temperature_unit: "\xB0C"
     time: 24.0
@@ -1106,8 +1106,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: USOXEH_clean
 - answer:
-    additive: H2O
-    solvent: water
+    additive: 2,2\u2032-bipy
+    solvent: H2O
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -1151,8 +1151,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: DOQKAW_charged
 - answer:
-    additive: CuCl2\u22c5 2H
-    solvent: H2O
+    additive: CuCl2\u20222H2O
+    solvent: distilled H2O
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 66.0
@@ -1160,7 +1160,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: GUJTOV_clean
 - answer:
-    additive: H4TADIP
+    additive: AcOH
     solvent: DMF
     temperature: 110.0
     temperature_unit: "\xB0C"
@@ -1205,7 +1205,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XIFLOP_clean
 - answer:
-    additive: NH3\u00b7H2O
+    additive: "NH3\xB7H2O"
     solvent: DMF
     temperature: 130.0
     temperature_unit: "\xB0C"
@@ -1223,8 +1223,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: WIPLOY_clean
 - answer:
-    additive: DMF
-    solvent: H2O
+    additive: HTPA
+    solvent: DMF/H2O
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 36.0
@@ -1269,7 +1269,7 @@
   paragraph_id: NUNZUT_clean
 - answer:
     additive: HCl
-    solvent: DMF/MeCN/H2O (10
+    solvent: DMF/MeCN/H2O
     temperature: 80.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -1286,7 +1286,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ILOTOT_clean
 - answer:
-    additive: triethylamine
+    additive: NaOH
     solvent: H2O
     temperature: 423.0
     temperature_unit: K
@@ -1422,7 +1422,7 @@
   paragraph_id: KIVSUF_clean
 - answer:
     additive: CsCl
-    solvent: DMF, EtOH, H2O
+    solvent: DMF
     temperature: 90.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -1506,8 +1506,8 @@
     solvent: DMF
     temperature: 393.0
     temperature_unit: K
-    time: 2.0
-    time_unit: days
+    time: 48.0
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: CIFMIP_clean
 - answer:
@@ -1566,7 +1566,7 @@
   paragraph_id: CAHQAG_clean
 - answer:
     additive: Linker H43
-    solvent: DMF/dioxane/H2O (4
+    solvent: DMF/dioxane/H2O
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 12.0
@@ -1601,8 +1601,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: TORPUN_clean
 - answer:
-    additive: H2BDC-F4
-    solvent: DMF/C2H5OH/H2O
+    additive: 'Er(NO3)3\u22c5 '
+    solvent: DMF, C2H5OH, H
     temperature: 80.0
     temperature_unit: "\xB0C"
     time: 24.0
@@ -1611,7 +1611,7 @@
   paragraph_id: RESWUI_clean
 - answer:
     additive: Zn(NO3)2\\u00b
-    solvent: DMF/acetonitrile
+    solvent: DMF/acetonitrile (3 mL,
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -1727,8 +1727,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: RIFGAQ_clean
 - answer:
-    additive: 'Cu(NO3)2\u22c5 '
-    solvent: DMF, C2H5OH, H
+    additive: DMF
+    solvent: C2H5OH
     temperature: 60.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -1763,7 +1763,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: SAMVEK_clean
 - answer:
-    additive: CuCl2\u202e2H2O
+    additive: CuCl2\u00b22H2O
     solvent: doubly deionized water
     temperature: 150.0
     temperature_unit: "\xB0C"
@@ -1872,7 +1872,7 @@
   paragraph_id: DUSHIK_clean
 - answer:
     additive: HCl
-    solvent: DMF/H2O
+    solvent: DMF and H2O
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -1925,8 +1925,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: FIHFAF_clean
 - answer:
-    additive: H4L
-    solvent: distilled water
+    additive: Sr(NO3)2
+    solvent: H2O/EtOH
     temperature: 150.0
     temperature_unit: "\xB0C"
     time: 4.0
@@ -1934,7 +1934,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: SOTTUR_clean
 - answer:
-    additive: Cu(NO3)2\u202e2.
+    additive: "Cu(NO3)2\xB72.5H"
     solvent: DMF/NMP/pyridine
     temperature: 85.0
     temperature_unit: "\xB0C"
@@ -1975,7 +1975,7 @@
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 24.0
-    time_unit: hours
+    time_unit: hour
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: OVEDAW_clean
 - answer:
@@ -2006,7 +2006,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: VAGBUD_clean
 - answer:
-    additive: NaOH aqueous solution
+    additive: NaOH
     solvent: distilled water
     temperature: 65.0
     temperature_unit: "\xB0C"
@@ -2150,8 +2150,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: NIYZIG_clean
 - answer:
-    additive: formic acid
-    solvent: DMF, NMP
+    additive: H3TBOT
+    solvent: DMF:NMP:H2CO
     temperature: 140.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -2186,7 +2186,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XACSIG_clean
 - answer:
-    additive: Cu(NO3)2\u22122.5
+    additive: Cu(NO3)2\u22c72
     solvent: DMF/H2O
     temperature: 85.0
     temperature_unit: "\xB0C"
@@ -2258,7 +2258,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: TOHMIO_clean
 - answer:
-    additive: Zn(NO3)2\\u20226
+    additive: Zn(NO3)2\u22c6
     solvent: DMA
     temperature: 95.0
     temperature_unit: "\xB0C"
@@ -2321,8 +2321,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: TETZEZ_clean
 - answer:
-    additive: DMF
-    solvent: DMF and H2O
+    additive: H3TPO
+    solvent: DMF/H2O
     temperature: 90.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -2331,7 +2331,7 @@
   paragraph_id: WUSLED_clean
 - answer:
     additive: DEF
-    solvent: H2O and ethanol
+    solvent: H2O
     temperature: 65.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -2375,7 +2375,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: IVUVIG_clean
 - answer:
-    additive: H2pdc, Na2MoO4
+    additive: H2pdc
     solvent: water
     temperature: 380.0
     temperature_unit: K
@@ -2394,7 +2394,7 @@
   paragraph_id: HUNBIB_clean
 - answer:
     additive: H3tci
-    solvent: DMF/H2O
+    solvent: DMF
     temperature: 110.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -2424,8 +2424,8 @@
     solvent: water-ethanol (1:4)
     temperature: 160.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: REKZIR_clean
 - answer:
@@ -2447,8 +2447,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QEVKOS_clean
 - answer:
-    additive: DMF
-    solvent: DMF, 1,4-dioxane
+    additive: DMF, 1,4-dioxane
+    solvent: DMF
     temperature: 130.0
     temperature_unit: "\xB0C"
     time: 24.0
@@ -2556,7 +2556,7 @@
   paragraph_id: AVAQIX_clean
 - answer:
     additive: "Cu(NO3)2\xB73H2O"
-    solvent: N,N\u2032-dimethylformamide
+    solvent: DMF, methanol, water
     temperature: 353.0
     temperature_unit: K
     time: 12.0
@@ -2618,7 +2618,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: VUQKAU01_clean
 - answer:
-    additive: "Tb(NO3)3\xB75H2"
+    additive: Tb(NO3)3
     solvent: DMF
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -2663,8 +2663,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: UXIQOJ_clean
 - answer:
-    additive: H4ATC (0.032 g,
-    solvent: H2O (1 mL), and aqueous
+    additive: H4ATC
+    solvent: H2O
     temperature: 180.0
     temperature_unit: "\xB0C"
     time: 40.0
@@ -2676,12 +2676,12 @@
     solvent: DMF
     temperature: 160.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ACUJOZ_manual
 - answer:
-    additive: Cd(NO3)2\u00b44H
+    additive: Cd(NO3)2\u00b43H
     solvent: DMF
     temperature: 100.0
     temperature_unit: "\xB0C"
@@ -2700,7 +2700,7 @@
   paragraph_id: OVUVIL_clean
 - answer:
     additive: N,N-dimethylformamide (DMF
-    solvent: sulfuric acid
+    solvent: concentrated sulfuric acid (98%)
     temperature: 180.0
     temperature_unit: "\xB0C"
     time: 6.0
@@ -2712,8 +2712,8 @@
     solvent: water
     temperature: 170.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: UZAFAD_clean
 - answer:
@@ -2726,7 +2726,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: HELDOT_clean
 - answer:
-    additive: HBF4
+    additive: H4bdfdpa
     solvent: DMF
     temperature: 85.0
     temperature_unit: "\xB0C"
@@ -2757,8 +2757,8 @@
     solvent: H2O
     temperature: 150.0
     temperature_unit: "\xB0C"
-    time: 3.0
-    time_unit: days
+    time: 72.0
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: PELXIP_clean
 - answer:
@@ -2979,7 +2979,7 @@
   paragraph_id: LAQZOV_clean
 - answer:
     additive: Gd(NO3)3, CuI,
-    solvent: H2O/ethanol
+    solvent: H2O/ethanol (v:v =
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -3069,7 +3069,7 @@
   paragraph_id: VAKNAZ_clean
 - answer:
     additive: HCl
-    solvent: DMF, EtOH, H2O
+    solvent: DMF:EtOH:H2O
     temperature: 363.0
     temperature_unit: K
     time: 5.0
@@ -3131,7 +3131,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: WEGDIX_charged
 - answer:
-    additive: Zn(NO3)2\u00b26
+    additive: Zn(NO3)2\u20226H
     solvent: DMF
     temperature: 110.0
     temperature_unit: "\xB0C"
@@ -3149,7 +3149,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: SIVWUR_clean
 - answer:
-    additive: Zn(Ac)2\u20242H
+    additive: Zn(Ac)2\u00b72
     solvent: 1,3-butanediol
     temperature: 170.0
     temperature_unit: "\xB0C"
@@ -3176,7 +3176,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: PUWDOA_clean
 - answer:
-    additive: Cd(NO3)2\u22c75H
+    additive: Cd(NO3)2\u22c74H
     solvent: H2O
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -3267,7 +3267,7 @@
   paragraph_id: ELOZIQ_clean
 - answer:
     additive: HCl
-    solvent: DMF:EtOH:H2O (1
+    solvent: DMF, ethanol and H2O
     temperature: 353.0
     temperature_unit: K
     time: 96.0
@@ -3284,7 +3284,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: DADXUE_clean
 - answer:
-    additive: "MnCl2\xB74H2O"
+    additive: H2IP
     solvent: DEF
     temperature: 150.0
     temperature_unit: "\xB0C"
@@ -3365,12 +3365,12 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: WOPHEQ_clean
 - answer:
-    additive: Co(OAc)2\u00b44 H
+    additive: Co(OAc)2\u22c75 H
     solvent: distilled water
     temperature: 130.0
     temperature_unit: "\xB0C"
-    time: 3.0
-    time_unit: days
+    time: 72.0
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: WOZGUP_clean
 - answer:
@@ -3401,7 +3401,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: IZIGUV_clean
 - answer:
-    additive: triethylamine
+    additive: triethylamine (TEA)
     solvent: distilled water
     temperature: 160.0
     temperature_unit: "\xB0C"
@@ -3482,7 +3482,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LIKGUJ_clean
 - answer:
-    additive: NaHCOO\u00b72 H
+    additive: "NaHCOO\xB72 H2O"
     solvent: water
     temperature: 150.0
     temperature_unit: "\xB0C"
@@ -3546,7 +3546,7 @@
   paragraph_id: IZEFEZ_charged
 - answer:
     additive: H2BDC
-    solvent: 'DMF/H2O (v/v = '
+    solvent: DMF/H2O
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 5.0
@@ -3563,8 +3563,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: REYMOZ_clean
 - answer:
-    additive: NaOH
-    solvent: methanol
+    additive: Cd(OAc)2\u22122H2
+    solvent: methanol, DMA
     temperature: 150.0
     temperature_unit: "\xB0C"
     time: 4.0
@@ -3590,17 +3590,17 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: BAZFUF01_clean
 - answer:
-    additive: CdCl2\u22ef2.5H
+    additive: CdCl2\u22c5 2.
     solvent: DMF and water
     temperature: 100.0
     temperature_unit: "\xB0C"
-    time: 3.0
-    time_unit: days
+    time: 72.0
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: OWUWOU_clean
 - answer:
     additive: btca
-    solvent: H2O
+    solvent: water
     temperature: 180.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -3635,7 +3635,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: DEMLAJ_clean
 - answer:
-    additive: CuCl2\u22c5H2O
+    additive: "CuCl2\xB72H2O"
     solvent: methanol-water
     temperature: 130.0
     temperature_unit: "\xB0C"
@@ -3644,7 +3644,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: TORXIJ_clean
 - answer:
-    additive: H2L (0.1148 g;
+    additive: H2L
     solvent: DMF/H2O (10:10,
     temperature: 80.0
     temperature_unit: "\xB0C"
@@ -3680,8 +3680,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: HOFSUS_clean
 - answer:
-    additive: BaCl2\u20262H2O
-    solvent: DMF
+    additive: BaCl2\u20222H2O
+    solvent: DMF, EtOH, water
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -3734,8 +3734,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: INIRII_clean
 - answer:
-    additive: Zn(NO3)2\u00b26
-    solvent: DMF and CH3CH2OH
+    additive: Hmtz
+    solvent: DMF
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 80.0
@@ -3770,7 +3770,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: YOKKIU_clean
 - answer:
-    additive: Cu(NO3)6\u20263H2
+    additive: Cu(NO3)6\u20223H2
     solvent: DMF
     temperature: 50.0
     temperature_unit: "\xB0C"
@@ -3798,7 +3798,7 @@
   paragraph_id: KAVGAQ_clean
 - answer:
     additive: "Cd(NO3)2\xB74H2O"
-    solvent: DMF (2 mL) and ethanol (1
+    solvent: DMF and ethanol
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -3942,7 +3942,7 @@
   paragraph_id: JEBCOJ_clean
 - answer:
     additive: HCl
-    solvent: MeCN
+    solvent: MeCN/H2O
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 24.0
@@ -3969,7 +3969,7 @@
   paragraph_id: XEYMAR_clean
 - answer:
     additive: HNO3
-    solvent: DMF/H2O
+    solvent: DMF
     temperature: 80.0
     temperature_unit: "\xB0C"
     time: 36.0
@@ -3986,8 +3986,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QOJKAB_clean
 - answer:
-    additive: DMF
-    solvent: EtOH
+    additive: H2btac
+    solvent: DMF/EtOH
     temperature: 473.0
     temperature_unit: K
     time: 72.0
@@ -4014,7 +4014,7 @@
   paragraph_id: HUCFAO_clean
 - answer:
     additive: HBF4
-    solvent: DMA
+    solvent: DMA, NMF
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -4040,7 +4040,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: SOJTOC_clean
 - answer:
-    additive: H4BPTC
+    additive: Cd(NO3)2\u00b74H
     solvent: DMA/H2O
     temperature: 100.0
     temperature_unit: "\xB0C"
@@ -4077,15 +4077,15 @@
   paragraph_id: WIJXEU_clean
 - answer:
     additive: H2O
-    solvent: water
+    solvent: H2O
     temperature: 180.0
     temperature_unit: "\xB0C"
     time: 72.0
-    time_unit: hours
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LEDCAA_clean
 - answer:
-    additive: Gd(NO3)3\u22ef6
+    additive: Gd(NO3)3\u20226H
     solvent: ethanol
     temperature: 60.0
     temperature_unit: "\xB0C"
@@ -4202,7 +4202,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XOTSEG_clean
 - answer:
-    additive: NH3.H2O
+    additive: NH3\u00b7H2O
     solvent: H2O
     temperature: 110.0
     temperature_unit: "\xB0C"
@@ -4215,8 +4215,8 @@
     solvent: DMA/H2O (1:1, v
     temperature: 95.0
     temperature_unit: "\xB0C"
-    time: 72.0
-    time_unit: h
+    time: 3.0
+    time_unit: days
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: HAFSOZ_clean
 - answer:
@@ -4238,7 +4238,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: HUYXUV_clean
 - answer:
-    additive: DABCO
+    additive: "Cu(NO3)2\xB73H2O"
     solvent: DMF, dioxane, H2O
     temperature: 358.0
     temperature_unit: K
@@ -4301,8 +4301,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: CAYQIE_clean
 - answer:
-    additive: "H4[SiW12O40]\xB7"
-    solvent: distilled water
+    additive: HCl
+    solvent: water
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -4328,8 +4328,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: AJAKON_clean
 - answer:
-    additive: DMF
-    solvent: C2H5OH
+    additive: DMF, C2H5OH, H
+    solvent: DMF, C2H5OH, H
     temperature: 60.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -4337,8 +4337,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: MOYYEF_clean
 - answer:
-    additive: Zn(NO3)2\u22c6
-    solvent: DEF/H2O
+    additive: Zn(NO3)2\u22ef6
+    solvent: DEF:H2O
     temperature: 80.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -4400,8 +4400,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QANSUV_clean
 - answer:
-    additive: Cd(NO3)2\u20244H2
-    solvent: H2O
+    additive: 'Cd(NO3)2\u22c6 '
+    solvent: distilled H2O
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 96.0
@@ -4446,7 +4446,7 @@
   paragraph_id: QIYCOS_clean
 - answer:
     additive: H3L
-    solvent: DMF:CH3OH
+    solvent: DMF/CH3OH
     temperature: 90.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -4490,7 +4490,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: IGINIX_clean
 - answer:
-    additive: Zn(NO3)2\u20226H
+    additive: Zn(NO3)2\u00b26
     solvent: DMF
     temperature: 95.0
     temperature_unit: "\xB0C"
@@ -4571,8 +4571,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: GEZRAG_clean
 - answer:
-    additive: DMF
-    solvent: acetonitrile
+    additive: acetonitrile
+    solvent: N,N\u2032-dimethylformamide
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -4635,7 +4635,7 @@
   paragraph_id: DEJCEB_clean
 - answer:
     additive: 4,4\u2032-bipyridine
-    solvent: DEF/EG/Toluene
+    solvent: DEF/EG/Toluene (molar ratio
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -4671,7 +4671,7 @@
   paragraph_id: XADDOX_clean
 - answer:
     additive: H2C2O4\u20262H
-    solvent: distilled water
+    solvent: water
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -4698,7 +4698,7 @@
   paragraph_id: KIYMIP_clean
 - answer:
     additive: "Co(NO3)\u22C56 H2"
-    solvent: N,N\u2032-dimethylformamide
+    solvent: 0.5 mL N,N\u2032\u
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -4733,7 +4733,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: ACALIB_clean
 - answer:
-    additive: Zn(CH3COO)2\u202
+    additive: "Zn(CH3COO)2\xB72"
     solvent: distilled water
     temperature: 160.0
     temperature_unit: "\xB0C"
@@ -4832,7 +4832,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XAXQEU_SL
 - answer:
-    additive: Cd(ClO4)2\u22126H
+    additive: Cd(ClO4)2\u00b26
     solvent: methanol
     temperature: 90.0
     temperature_unit: "\xB0C"
@@ -4859,8 +4859,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: BUSRUE_clean
 - answer:
-    additive: AgPF6
-    solvent: methanol
+    additive: methanol
+    solvent: water
     temperature: 178.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -4913,8 +4913,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XICDUI_charged
 - answer:
-    additive: H3btc
-    solvent: H2O
+    additive: btrb
+    solvent: DMF
     temperature: 110.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -5040,7 +5040,7 @@
   paragraph_id: XULDOZ_clean
 - answer:
     additive: HNO3
-    solvent: H2O/EtOH
+    solvent: H2O, EtOH
     temperature: 100.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -5103,7 +5103,7 @@
   paragraph_id: HAJDII_clean
 - answer:
     additive: HCl
-    solvent: DMF:ethanol:water
+    solvent: DMF, ethanol, water
     temperature: 373.0
     temperature_unit: K
     time: 60.0
@@ -5318,7 +5318,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: OHIHET_clean
 - answer:
-    additive: In(NO3)3\u22c75.
+    additive: "In(NO3)3\xB74.5H"
     solvent: DMF
     temperature: 100.0
     temperature_unit: "\xB0C"
@@ -5354,7 +5354,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: XUDYOM_clean
 - answer:
-    additive: Eu(NO3)3\u00b26H
+    additive: Eu(NO3)3\u00b66H
     solvent: DMF, CH3CH2OH, H
     temperature: 80.0
     temperature_unit: "\xB0C"
@@ -5435,8 +5435,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: SAMVIO_clean
 - answer:
-    additive: fum, form, H2O, DM
-    solvent: DMF
+    additive: fumaric acid
+    solvent: N,N-dimethylformamide
     temperature: 150.0
     temperature_unit: "\xB0C"
     time: 1.0
@@ -5462,7 +5462,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: DUSHEG_clean
 - answer:
-    additive: NiCl2\u20226H2O
+    additive: NiCl2\u22ef6H2O
     solvent: MeCN, MeOH
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -5525,8 +5525,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: GERWEH_clean
 - answer:
-    additive: "Dy(NO3)3\xB76H2"
-    solvent: DMF, DMSO, H2O
+    additive: 2,2\u2019-bipyridine
+    solvent: DMF:DMSO:H2O (7
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 4.0
@@ -5588,7 +5588,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: KETHEY02_clean
 - answer:
-    additive: NH4VO3
+    additive: bimb
     solvent: H2O
     temperature: 160.0
     temperature_unit: "\xB0C"
@@ -5634,7 +5634,7 @@
   paragraph_id: XUGWAZ_clean
 - answer:
     additive: dtb
-    solvent: acetonitrile
+    solvent: acetonitrile/H2O
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -5642,7 +5642,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: MUVROM_clean
 - answer:
-    additive: CdSO4\u00b88H2O
+    additive: 3CdSO4\u22c75H2
     solvent: DMF/CH3OH/H2O (
     temperature: 150.0
     temperature_unit: "\xB0C"
@@ -5651,8 +5651,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: FONKEA_clean
 - answer:
-    additive: 1,3,5-benzenetricar
-    solvent: N, N\u2032-dimethylform
+    additive: H3BTC
+    solvent: DMF and ethanol
     temperature: 160.0
     temperature_unit: "\xB0C"
     time: 5.0
@@ -5723,8 +5723,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QIPROY_clean
 - answer:
-    additive: DMF
-    solvent: C2H5OH
+    additive: H4MTB (0.020 g,
+    solvent: DMF (3 mL), C2H5
     temperature: 70.0
     temperature_unit: "\xB0C"
     time: 72.0
@@ -5849,7 +5849,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: DINNIZ_clean
 - answer:
-    additive: Dy(NO3)3\u20266
+    additive: Dy(NO3)3\u22ef6
     solvent: DMF
     temperature: 120.0
     temperature_unit: "\xB0C"
@@ -5877,7 +5877,7 @@
   paragraph_id: WAGQAY_clean
 - answer:
     additive: HCl
-    solvent: DMF:H2O
+    solvent: DMF
     temperature: 65.0
     temperature_unit: "\xB0C"
     time: 2.0
@@ -5885,8 +5885,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: LIKDOA_clean
 - answer:
-    additive: KOH
-    solvent: methanol and DMA
+    additive: Cd(OAc)2\u22122H2
+    solvent: methanol, DMA
     temperature: 150.0
     temperature_unit: "\xB0C"
     time: 4.0
@@ -6013,7 +6013,7 @@
 - answer:
     additive: AgPF6
     solvent: methanol
-    temperature: 25.0
+    temperature: 0.0
     temperature_unit: "\xB0C"
     time: 4.0
     time_unit: days
@@ -6065,7 +6065,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: QOSXOM_clean
 - answer:
-    additive: HCOONa\u00b2H2
+    additive: HCOONa\u00b72H2
     solvent: H2O
     temperature: 170.0
     temperature_unit: "\xB0C"
@@ -6120,7 +6120,7 @@
   paragraph_id: OWUWUA_clean
 - answer:
     additive: nitric acid
-    solvent: DMF
+    solvent: methanol
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 48.0
@@ -6137,8 +6137,8 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: PODXEN_clean
 - answer:
-    additive: CuCl2\u22c75H2O
-    solvent: H2O, methanol
+    additive: CuCl2\u22c5 2H
+    solvent: H2O and methanol
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 4.0
@@ -6236,11 +6236,11 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: PUWCEP_charged
 - answer:
-    additive: Zn(NO3)2\u00b26
+    additive: Zn(NO3)2\u22c6
     solvent: THF/H2O
     temperature: 120.0
     temperature_unit: "\xB0C"
-    time: 120.0
+    time: 96.0
     time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: NEVJOP_clean
@@ -6272,7 +6272,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: NIHVUX_clean
 - answer:
-    additive: "Mg(NO3)2\xB76H2"
+    additive: 2,6-naphthalenedicarbox
     solvent: dmf and CH3OH
     temperature: 383.0
     temperature_unit: K
@@ -6367,11 +6367,11 @@
     temperature: 120.0
     temperature_unit: "\xB0C"
     time: 72.0
-    time_unit: hours
+    time_unit: h
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: HAWGIX_charged
 - answer:
-    additive: Cd(NO3)2\u00b24H
+    additive: 'Cd(NO3)2\u22c7 '
     solvent: DMF/H2O (3:1,
     temperature: 90.0
     temperature_unit: "\xB0C"
@@ -6390,7 +6390,7 @@
   paragraph_id: WUDJAI_clean
 - answer:
     additive: TEA
-    solvent: DMF and ethanol
+    solvent: DMF
     temperature: 90.0
     temperature_unit: "\xB0C"
     time: 3.0
@@ -6489,7 +6489,7 @@
   paragraph_id: REDROI_clean
 - answer:
     additive: "Eu(NO3)3\xB7nH2O"
-    solvent: DMF
+    solvent: DMF, methanol
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 17.0
@@ -6669,7 +6669,7 @@
   paragraph_id: EKEKOW_clean
 - answer:
     additive: HCl
-    solvent: DMF/DMSO (1:1)
+    solvent: DMF/DMSO
     temperature: 85.0
     temperature_unit: "\xB0C"
     time: 18.0
@@ -6866,7 +6866,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: OKIZIT_clean
 - answer:
-    additive: 'Cd(NO3)2\u22c6 '
+    additive: H4btec
     solvent: DMF
     temperature: 130.0
     temperature_unit: "\xB0C"
@@ -6875,7 +6875,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: WONBAD_clean
 - answer:
-    additive: Zn(NO3)2\u00b26
+    additive: DMF
     solvent: DMF
     temperature: 100.0
     temperature_unit: "\xB0C"
@@ -6956,7 +6956,7 @@
   model_name: LLaMa 3.1 8B Instruct
   paragraph_id: FUTTIZ_clean
 - answer:
-    additive: H4BTEC
+    additive: ZnCl2
     solvent: DMF
     temperature: 110.0
     temperature_unit: "\xB0C"
