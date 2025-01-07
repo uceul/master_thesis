@@ -11,6 +11,8 @@ MODEL_PATH=""
 PROMPT=""
 DESCRIPTION=""
 SHORT_DESCRIPTION=""
+EVALUATION_SET=false
+EVALUATION_BOTH=false
 
 # Print usage
 usage() {
@@ -28,6 +30,7 @@ Optional:
   --prompt <str>      Prompt passed to 'evaluate'
   --temperature <num> Temperature passed to 'evaluate' (default: 0.1)
   --description <str> Description for 'evaluate'
+  --evaluation-set <str>   Evaluation set path passed to 'evaluate'
 EOF
   exit 1
 }
@@ -63,6 +66,14 @@ while [[ "$#" -gt 0 ]]; do
       SHORT_DESCRIPTION="$2"
       shift 2
       ;;
+    --evaluation-set)
+      EVALUATION_SET=true
+      shift 1
+      ;;
+    --evaluation-both)
+      EVALUATION_BOTH=true
+      shift 1
+      ;;
     *)
       echo "Error: Unknown argument: $1"
       usage
@@ -73,6 +84,13 @@ done
 # Check required parameters
 if [[ -z "$SETTINGS" || -z "$SHORT_DESCRIPTION" ]]; then
   usage
+fi
+
+if [[ "$EVALUATION_SET" == false ]]; then
+  if [[ "$EVALUATION_BOTH" == true ]]; then
+  echo "ERROR: --evaluation-set is required if --evaluation-both is set."
+  usage
+  fi
 fi
 
 # Generate timestamp and construct names
@@ -100,8 +118,13 @@ fi
 if [[ -n "$DESCRIPTION" ]]; then
   EVALUATE_CMD+=" --description \"$DESCRIPTION\""
 fi
-
+if [[ "$EVALUATION_SET" == true ]]; then
+  if [[ "$EVALUATION_BOTH" == false ]]; then
+    EVALUATE_CMD+=" --evaluation-set"
+  fi
+fi
 echo "Running EVALUATE..."
+echo "Command: $EVALUATE_CMD"
 eval "$EVALUATE_CMD" 2>&1 | tee "$EVALUATE_OUT"
 
 mkdir -p "runs/$RUN_NAME"
@@ -113,6 +136,23 @@ if [[ -d "logs/$LOG_DIR_NAME" ]]; then
     echo "Moving evaluation logs (logs/$LOG_DIR_NAME) to runs/$RUN_NAME/logs"
     mkdir -p "runs/$RUN_NAME/logs/"
     mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/logs/eval"
+fi
+
+if [[ "$EVALUATION_BOTH" == true ]]; then 
+    EVALUATE_CMD+=" --evaluation-set"
+    echo "Running EVALUATE..."
+    echo "Command: $EVALUATE_CMD"
+    eval "$EVALUATE_CMD" 2>&1 | tee "$EVALUATE_OUT"
+
+    mkdir -p "runs/$RUN_NAME/eval_set"
+    mv "$EVALUATE_OUT" "runs/$RUN_NAME/eval_set/"
+    mv "stats_${RUN_NAME}.yml" "runs/$RUN_NAME/eval_set/"
+    mkdir -p "runs/$RUN_NAME/eval_set/logs"
+    if [[ -d "logs/$LOG_DIR_NAME" ]]; then
+        echo "Moving evaluation logs (logs/$LOG_DIR_NAME) to runs/$RUN_NAME/eval_set/logs"
+        mkdir -p "runs/$RUN_NAME/eval_set/logs/"
+        mv "logs/$LOG_DIR_NAME" "runs/$RUN_NAME/eval_set/logs/eval"
+    fi
 fi
 
 echo "Evaluation completed. Results saved in runs/$RUN_NAME"

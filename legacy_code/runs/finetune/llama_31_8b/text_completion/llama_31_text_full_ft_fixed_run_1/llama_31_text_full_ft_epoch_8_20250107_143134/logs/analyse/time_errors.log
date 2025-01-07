@@ -1,0 +1,12 @@
+2025-01-07 14:34:05,713 - 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 48h (48.0 h)
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 14:34:07,733 - 
+Paragraph: RAHPAT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 18h (18.0 h)
+Got: 24h (24.0 h)
+Original text: Preparation of [Cu3(C36H13NO12)(H2O)3]⋅9 DMF⋅18 H2O (NOTT‐114): H6L (0.1 g, 0.15 mmol) and Cu(NO3)2⋅3 H2O (0.28 g, 1.2 mmol) were mixed and dispersed in DMF/H2O (60 mL, 5:1 v/v). HCl (2 M, 0.3 mL) was...

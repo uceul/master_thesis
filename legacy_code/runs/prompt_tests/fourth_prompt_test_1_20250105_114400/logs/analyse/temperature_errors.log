@@ -1,0 +1,78 @@
+2025-01-05 12:32:17,293 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60°C (60.0 C)
+Got: 80°C (80.0 °C)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-05 12:32:21,402 - 
+Paragraph: AZAWAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 180°C (180.0 °C)
+Original text: A 0.02 M stock solution of copper nitrate trihydrate in DEF (0.5 mL) was added to a 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water ...
+2025-01-05 12:32:24,909 - 
+Paragraph: AZAVUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 180°C (180.0 °C)
+Original text: A 0.165 M stock solution of copper nitrate trihydrate in DMF (0.5 mL) was added to an 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized wate...
+2025-01-05 12:32:26,397 - 
+Paragraph: QIYCEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 175°C (175.0 °C)
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L2 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L2)]...
+2025-01-05 12:32:27,377 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 176°C (176.0 °C)
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]...
+2025-01-05 12:32:29,824 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 173°C (173.0 °C)
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)]...
+2025-01-05 12:32:30,507 - 
+Paragraph: RESWOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 140°C (140.0 °C)
+Original text: Preparation of Er2(BDC)3(DMF)2(H2O)2·H2O (1). A mixture of Er(NO3)3·5H2O (0.0512 g, 0.115 mmol) and H2BDC (0.0290 g, 0.175 mmol) in a solution containing DMF (3 mL), C2H5OH (3 mL), and H2O (2 mL) in a...
+2025-01-05 12:32:31,184 - 
+Paragraph: QIYCAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 178°C (178.0 °C)
+Original text: A methanol solution (2 mL) of L3 (28 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L3)2](PF6)⋅CH3OH formed at the interfac...
+2025-01-05 12:32:32,513 - 
+Paragraph: OLEKUM_manual
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: 140°C (140.0 °C)
+Original text: H2(bdc-Cl2) (470 mg, 2.0 mmol), Zn(NO3)2·6H2O (595 mg, 2.0 mmol), and dabco (112 mg, 1.0 mmol) were mixed in DMF (30 mL) and homogenized by stirring for 5 min. The solution was heated to 120 °C in a T...
+2025-01-05 12:32:32,515 - 
+Paragraph: AZAVOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: 180°C (180.0 °C)
+Original text: A 0.5 M stock solution of magnesium nitrate hexahydrate in deionized water (0.12 mL) was added to an 8 mL vial, which was preloaded with H6CPB (8 mg, 0.01 mmol). This was followed by the addition of D...
+2025-01-05 12:32:32,838 - 
+Paragraph: VALVAI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 150°C (150.0 °C)
+Original text: [Yb2(BDC)3(DMF)2]⋅H2O was synthesised under solvothermal conditions (BDC=benzene‐1,4‐dicarboxylate and DMF=N,N‐dimethylformamide). Ytterbium(III) chloride hexahydrate (1 mmol) and benzene‐1,4‐dicarbox...
+2025-01-05 12:32:33,531 - 
+Paragraph: QIYBUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 171°C (171.0 °C)
+Original text: A methanol solution (2 mL) of L2 (27 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)2](PF6)⋅CH3OH formed at the interfac...
+2025-01-05 12:32:35,255 - 
+Paragraph: YILJAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: 120°C (120.0 °C)
+Original text: [Zn4O(bpz)2(abdc)]⋅guest (1⋅g, MAF‐X11). A mixture of H2abdc (0.068 g, 0.375 mmol), H2bpz (0.143 g, 0.75 mmol), Zn(NO3)2⋅6 H2O (0.446 g, 1.5 mmol), N,N‐dimethylformamide (30 mL), and EtOH (20 mL) was ...

@@ -1,0 +1,6 @@
+2025-01-07 18:15:38,552 - 
+Paragraph: NAWKII_clean
+Model: LLaMa 3.2 1B Instruct
+Expected one of: ['DMF', 'Dimethylforamide', 'water', 'H2O']
+Got : Dimethylformamide
+Original text: A typical synthesis involves a mixture of MgCl2·6H2O (0.2 mmol, 0.0406 g) and 2,6-naphthalenedicarboxylic acid (0.4 mmol, 0.0864g) dissolved in 10.0 mL of dimethylforamide and 2.0 mL of water and stir...

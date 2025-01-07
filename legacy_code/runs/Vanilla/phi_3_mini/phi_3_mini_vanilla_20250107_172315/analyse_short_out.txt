@@ -1,0 +1,15 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 0.8441988950276244, 'wrong': 0.1558011049723757},
+│   │   'time': {'correct': 0.7580110497237569, 'wrong': 0.2419889502762431, 'unit': 0.0033149171270718232, 'found_in_text': 0.0055248618784530384},
+│   │   'additive': {'correct': 0.036464088397790057, 'wrong': 0.96353591160221, 'found_in_text': 0.04861878453038674, 'resolve_answer': 0.2795580110497238, 'found_in_text_unresolvable': 0.27624309392265195},
+│   │   'solvent': {'correct': 0.712082262210797, 'wrong': 0.2879177377892031, 'found_in_text': 0.030848329048843187, 'resolve_answer': 0.2467866323907455, 'found_in_text_unresolvable': 0.16838046272493573, 'correct_multiple': 0.18508997429305912}
+│   },
+│   'Phi 3 Mini 4k Instruct': {
+│   │   'temperature': {'correct': 0.8441988950276244, 'wrong': 0.1558011049723757},
+│   │   'time': {'correct': 0.7580110497237569, 'wrong': 0.2419889502762431, 'unit': 0.0033149171270718232, 'found_in_text': 0.0055248618784530384},
+│   │   'additive': {'correct': 0.036464088397790057, 'wrong': 0.96353591160221, 'found_in_text': 0.04861878453038674, 'resolve_answer': 0.2795580110497238, 'found_in_text_unresolvable': 0.27624309392265195},
+│   │   'solvent': {'correct': 0.712082262210797, 'wrong': 0.2879177377892031, 'found_in_text': 0.030848329048843187, 'resolve_answer': 0.2467866323907455, 'found_in_text_unresolvable': 0.16838046272493573, 'correct_multiple': 0.18508997429305912}
+│   }
+}
+Total no additives: 571

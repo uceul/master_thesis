@@ -1,0 +1,78 @@
+2025-01-06 11:35:42,733 - 
+Paragraph: IQECIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120h (120.0 h)
+Got: 2880h (120.0 days) - Wrong unit (hours)
+Original text: CoSO4⋅7 H2O (0.029 g, 0.103 mmol), tpt (0.019 g, 0.061 mmol), and H3btb (0.021 g, 0.048 mmol) were added in the solvent mixture of N,N‐dimethylacetamide (DMA, 5 mL)/methanol (CH3OH, 5 mL)/1,4‐dioxane ...
+2025-01-06 11:35:43,074 - 
+Paragraph: NAWKII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 0h (72.0 AM) - Wrong unit (hours)
+Original text: A typical synthesis involves a mixture of MgCl2·6H2O (0.2 mmol, 0.0406 g) and 2,6-naphthalenedicarboxylic acid (0.4 mmol, 0.0864g) dissolved in 10.0 mL of dimethylforamide and 2.0 mL of water and stir...
+2025-01-06 11:35:44,726 - 
+Paragraph: LUMZEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 50h (50.0 h)
+Got: 300h (300.0 h)
+Original text:   A mixture of 1H-1,2,4-triazole (13.8 mg, 0.2 mmol), maleic acid (23.2 mg, 0.2 mmol) and Cu(OAc)2·H2O (60 mg, 0.3 mmol) was dissolved in 6 mL deionized water and stirred for 10 min at room temperatur...
+2025-01-06 11:35:46,189 - 
+Paragraph: BOPHIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 144h (144.0 h)
+Got: 0h (6.0 D) - Wrong unit (days)
+Original text: A mixture of CdBr2 (0.138 g, 0.4 mmol), H4tpta (0.041 g, 0.1 mmol), NH3·H2O (0.1 mL/5 M, 0.5 mmol), and DMF (3 mL) was stirred, then sealed in a 15 mL Teflon-lined stainless autoclave at 130 °C for 6 ...
+2025-01-06 11:35:46,189 - 
+Paragraph: BOPHIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 144h (144.0 h)
+Got: 0h (6.0 D) (Which appears in text!)
+Original text: A mixture of CdBr2 (0.138 g, 0.4 mmol), H4tpta (0.041 g, 0.1 mmol), NH3·H2O (0.1 mL/5 M, 0.5 mmol), and DMF (3 mL) was stirred, then sealed in a 15 mL Teflon-lined stainless autoclave at 130 °C for 6 ...
+2025-01-06 11:35:48,198 - 
+Paragraph: MAZSUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120h (120.0 h)
+Got: 0h (120.0 D) - Wrong unit (hours)
+Original text: Synthesis of Zn3(tz)2(bdc)2⋅x(DMF) (2): A mixture of Zn(NO3)2⋅6H2O (0.0800 g, 0.27 mmol), pyrazine(0.0150 g 0.19 mmol), 1,2,3–1H‐triazole (0.0400 g, 0.58 mmol), 1,4‐benzenedicarboxylic acid (0.0500 g ...
+2025-01-06 11:35:50,207 - 
+Paragraph: SONTIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 20h (20.0 h)
+Got: 0h (20.0 H) - Wrong unit (hours)
+Original text: Tb(NO3)3·5H2O (100 mg, 0.23 mmol) dissolved in DMF (10 mL) was added to a solution of N-H2BDC (61 mg, 0.34 mmol) in DMF (10 mL) in a glass tube (Duran culture tube, diameter 18 mm, height 180 mm). The...
+2025-01-06 11:35:50,875 - 
+Paragraph: BAZFUF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 0h (48.0 H) - Wrong unit (hours)
+Original text: A solid mixture of H3BTB (21 mg, 0.048 mmol), and Cu(NO3)2·2.5H2O (60 mg, 0.258 mmol) was dissolved in a mixture of DMF/NMP/pyridine (5.0/5.0/0.4 mL) in a 20 mL vial. The vial was capped and heated in...
+2025-01-06 11:35:52,265 - 
+Paragraph: ODEZAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 0h (72.0 H) - Wrong unit (hours)
+Original text:   In a 20 ml glass vial, the organic linker H4DTPD (10 mg, 0.0194 mmol) was dissolved in 12.85 mL of N,N-dimethyl formamide (DMF). Then, Cu(NO3)2·2.5H2O (20 mg, 0.086 mmol) and 2.15 mL of H2O were add...
+2025-01-06 11:35:53,595 - 
+Paragraph: GUJREK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 5h (5.0 h)
+Got: 168h (7.0 days)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...
+2025-01-06 11:35:53,960 - 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 0h (24.0 H) - Wrong unit (hours)
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-06 11:35:54,618 - 
+Paragraph: WISVEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 20h (20.0 h)
+Original text: Synthesis: A mixture of H4ABTC (8.95 mg, 0.025 mmol), Cd(NO3)2·4H2O (18.5 mg, 0.06 mmol), L‐glutamic acid (14.7 mg, 0.1 mmol), 0.5 mL H2O, a few drops of HNO3 (2.5 M), and 2 mL DMA was stirred for 20 ...
+2025-01-06 11:35:54,619 - 
+Paragraph: SAYKIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 168h (168.0 h)
+Got: 0h (7.0 D) - Wrong unit (days)
+Original text: To a 20-mL Teflon-lined stainless steel autoclave was added 0.1 M UO2(NO3)3 aqueous solution (1.0 mL, 0.10 mmol), H6L2 (60 mg, 0.062 mmol), and deionized water (5 mL, 278 mmol). The mixture was heated...

@@ -33,6 +33,8 @@ MODEL_PATH=""
 PROMPT=""
 DESCRIPTION=""
 SHORT_DESCRIPTION=""
+EVALUATION_SET=false
+EVALUATION_BOTH=false
 
 # Print usage
 usage() {
@@ -49,6 +51,7 @@ Optional:
   --prompt <str>      Prompt passed to 'evaluate'
   --temperature <num> Temperature passed to 'evaluate' (default: 0.1)
   --description <str> Description for both 'evaluate' and 'analyse'
+  --evaluation-set <str>   Evaluation set path passed to 'evaluate'
 EOF
   exit 1
 }
@@ -84,12 +87,27 @@ while [[ "$#" -gt 0 ]]; do
       SHORT_DESCRIPTION="$2"
       shift 2
       ;;
+    --evaluation-set)
+      EVALUATION_SET=true
+      shift 1
+      ;;
+    --evaluation-set)
+      EVALUATION_BOTH=true
+      shift 1
+      ;;
     *)
       echo "Error: Unknown argument: $1"
       usage
       ;;
   esac
 done
+
+if [[ "$EVALUATION_SET" == false ]]; then
+  if [[ "$EVALUATION_BOTH" == true ]]; then
+  echo "ERROR: --evaluation-set is required if --evaluation-both is set."
+  usage
+  fi
+fi
 
 # Check required parameters
 if [[ -z "$SETTINGS" ]]; then
@@ -131,6 +149,11 @@ fi
 if [[ -n "$DESCRIPTION" ]]; then
   EVALUATE_CMD+=" --description \"$DESCRIPTION\""
 fi
+if [[ "$EVALUATION_SET" == true ]]; then
+  if [[ "$EVALUATION_BOTH" == false ]]; then
+    EVALUATE_CMD+=" --evaluation-set"
+  fi
+fi
 
 # Build the 'analyse' command
 ANALYSE_CMD="LOG_LEVEL=DEBUG poetry run main analyse \
@@ -160,7 +183,7 @@ echo "[1/2] Running EVALUATE..."
 eval "$EVALUATE_CMD" 2>&1 | tee "$EVALUATE_OUT"
 
 if [[ -d "logs/"$LOG_DIR_NAME"_eval" ]]; then
-    echo "Moving analyse logs to runs/$RUN_NAME/logs"
+    echo "Moving eval logs to runs/$RUN_NAME/logs"
     mkdir -p "runs/$RUN_NAME/logs/"
     mv "logs/$LOG_DIR_NAME"_eval "runs/$RUN_NAME/logs/eval"
 fi
@@ -185,6 +208,44 @@ if [[ -d "logs/"$LOG_DIR_NAME"_analyse" ]]; then
     mv "logs/$LOG_DIR_NAME"_analyse "runs/$RUN_NAME/logs/analyse"
 fi
 python scripts/create_short_analyse_output.py "runs/"$RUN_NAME/"$ANALYSE_OUT"
+
+if [[ "$EVALUATION_BOTH" == true ]]; then
+    EVALUATE_CMD+=" --evaluation-set"
+    echo "Running EVALUATE..."
+    echo "Command: $EVALUATE_CMD"
+    eval "$EVALUATE_CMD" 2>&1 | tee "$EVALUATE_OUT"
+
+    mkdir -p "runs/$RUN_NAME/eval_set"
+    mv "$EVALUATE_OUT" "runs/$RUN_NAME/eval_set/"
+    mv "$STATS_PATH" "runs/$RUN_NAME/eval_set/"
+    mkdir -p "runs/$RUN_NAME/eval_set/logs"
+    if [[ -d "logs/$LOG_DIR_NAME" ]]; then
+        echo "Moving evaluation logs (logs/$LOG_DIR_NAME) to runs/$RUN_NAME/eval_set/logs"
+        mkdir -p "runs/$RUN_NAME/eval_set/logs/"
+        mv "logs/$LOG_DIR_NAME"_eval "runs/$RUN_NAME/eval_set/logs/eval"
+    fi
+
+    # Build the 'analyse' command
+    ANALYSE_CMD="LOG_LEVEL=DEBUG poetry run main analyse \
+      --settings \"$SETTINGS\" \
+      --stats-path \"runs/$RUN_NAME/eval_set/$STATS_PATH\" \
+      --log-dir \"$LOG_DIR_NAME\"_analyse"
+
+    if [[ -n "$DESCRIPTION" ]]; then
+      ANALYSE_CMD+=" --description \"$DESCRIPTION\""
+    fi
+    # Run analysis
+    echo "[2/2] Running ANALYSE..."
+    eval "$ANALYSE_CMD" 2>&1 | tee "$ANALYSE_OUT"
+    mv "$ANALYSE_OUT" "runs/$RUN_NAME/"
+
+    if [[ -d "logs/"$LOG_DIR_NAME"_analyse" ]]; then
+        echo "Moving analyse logs to runs/$RUN_NAME/eval_set/logs"
+        mkdir -p "runs/$RUN_NAME/eval_set/logs/"
+        mv "logs/$LOG_DIR_NAME"_analyse "runs/$RUN_NAME/eval_set/logs/analyse"
+    fi
+    python scripts/create_short_analyse_output.py "runs/"$RUN_NAME/eval_set/"$ANALYSE_OUT"
+fi
 
 echo
 echo "All done. Results saved in runs/$RUN_NAME"

@@ -1,0 +1,12 @@
+2025-01-07 15:57:18,463 - 
+Paragraph: IQECIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'DMA', 'methanol', 'CH3OH', 'Dioxane', 'Dioxan']
+Got (Which appears in text!): H2O
+Original text: CoSO4⋅7 H2O (0.029 g, 0.103 mmol), tpt (0.019 g, 0.061 mmol), and H3btb (0.021 g, 0.048 mmol) were added in the solvent mixture of N,N‐dimethylacetamide (DMA, 5 mL)/methanol (CH3OH, 5 mL)/1,4‐dioxane ...
+2025-01-07 15:57:19,717 - 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan', 'Cellosolve']
+Got (Which appears in text!): H2O
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...

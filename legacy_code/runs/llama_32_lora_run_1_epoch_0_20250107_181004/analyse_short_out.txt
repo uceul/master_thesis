@@ -1,0 +1,41 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 0.987012987012987, 'wrong': 0.012987012987012988},
+│   │   'additive': {
+│   │   │   'correct': 0.8311688311688312,
+│   │   │   'wrong': 0.16883116883116883,
+│   │   │   'found_in_text': 0.025974025974025976,
+│   │   │   'resolve_answer': 0.03896103896103896,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988,
+│   │   │   'correct_no_additive': 0.44155844155844154
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8961038961038961,
+│   │   │   'wrong': 0.1038961038961039,
+│   │   │   'found_in_text': 0.05194805194805195,
+│   │   │   'resolve_answer': 0.012987012987012988,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988
+│   │   }
+│   },
+│   'LLaMa 3.2 1B Instruct': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 0.987012987012987, 'wrong': 0.012987012987012988},
+│   │   'additive': {
+│   │   │   'correct': 0.8311688311688312,
+│   │   │   'wrong': 0.16883116883116883,
+│   │   │   'found_in_text': 0.025974025974025976,
+│   │   │   'resolve_answer': 0.03896103896103896,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988,
+│   │   │   'correct_no_additive': 0.44155844155844154
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8961038961038961,
+│   │   │   'wrong': 0.1038961038961039,
+│   │   │   'found_in_text': 0.05194805194805195,
+│   │   │   'resolve_answer': 0.012987012987012988,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988
+│   │   }
+│   }
+}
+Total no additives: 42

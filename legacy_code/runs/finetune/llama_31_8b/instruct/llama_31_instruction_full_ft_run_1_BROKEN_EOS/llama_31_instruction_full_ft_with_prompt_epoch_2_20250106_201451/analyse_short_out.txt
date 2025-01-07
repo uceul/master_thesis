@@ -1,0 +1,15 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 1.0},
+│   │   'additive': {'correct': 1.0},
+│   │   'solvent': {'correct': 1.0}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 1.0},
+│   │   'additive': {'correct': 1.0},
+│   │   'solvent': {'correct': 1.0}
+│   }
+}
+Total no additives: 0

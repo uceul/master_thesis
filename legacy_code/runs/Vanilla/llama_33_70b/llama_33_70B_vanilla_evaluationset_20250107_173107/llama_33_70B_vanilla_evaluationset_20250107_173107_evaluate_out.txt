@@ -1,0 +1,210 @@
+2025-01-07 17:31:17,174 INFO     Loading settings and stats
+2025-01-07 17:31:17,175 INFO     Using prompt: , temperature: 0.1
+2025-01-07 17:31:17,180 DEBUG    Settings loaded. CSV path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-07 17:31:17,180 WARNING  [Errno 2] No such file or directory: 'stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml'
+2025-01-07 17:31:17,180 WARNING  [Errno 2] No such file or directory: 'stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yaml'
+2025-01-07 17:31:17,180 WARNING  Could not load 'stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml', creating it (empty)
+2025-01-07 17:31:17,181 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-07 17:31:17,203 INFO     Found 778 paragraphs with labels
+2025-01-07 17:31:17,204 DEBUG    First few valid IDs: ['TEDSIG_clean', 'NORPIV_clean', 'ILIMUN_clean', 'IYAKIE_clean', 'KUKQAK_clean']
+2025-01-07 17:31:17,204 INFO     Loading evaluation set instead of regular dataset.
+2025-01-07 17:31:17,204 DEBUG    Already evaluated: 0 items
+2025-01-07 17:31:17,204 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs
+2025-01-07 17:31:17,204 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs'
+2025-01-07 17:31:17,352 INFO     Dataset loaded with 77 items
+2025-01-07 17:31:17,352 INFO     Found 77 paragraphs that have labels in dataset
+2025-01-07 17:31:17,353 DEBUG    First few overlapping IDs: ['KUKQAK_clean', 'SODQOT_clean', 'DEGPEL_charged', 'RUVKAV_clean', 'CAYQIE_clean']
+2025-01-07 17:31:17,353 INFO     Processing model: LLaMa 3.3 70B Instruct
+2025-01-07 17:31:17,355 INFO       0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.3 70B Instruct]
+2025-01-07 17:31:17,355 INFO     Loading Model [LLaMa 3.3 70B Instruct] from /home/iti/zn2950/home/haicore_ws/base_models/Llama-3.3-70B-Instruct
+  0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.3 70B Instruct]
+
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s][A
+Loading checkpoint shards:   3%|▎         | 1/30 [00:06<03:14,  6.71s/it][A
+Loading checkpoint shards:   7%|▋         | 2/30 [00:13<03:08,  6.72s/it][A
+Loading checkpoint shards:  10%|█         | 3/30 [00:20<03:08,  6.97s/it][A
+Loading checkpoint shards:  13%|█▎        | 4/30 [00:27<03:03,  7.05s/it][A
+Loading checkpoint shards:  17%|█▋        | 5/30 [00:34<02:53,  6.93s/it][A
+Loading checkpoint shards:  20%|██        | 6/30 [00:41<02:44,  6.86s/it][A
+Loading checkpoint shards:  23%|██▎       | 7/30 [00:48<02:37,  6.83s/it][A
+Loading checkpoint shards:  27%|██▋       | 8/30 [00:55<02:32,  6.95s/it][A
+Loading checkpoint shards:  30%|███       | 9/30 [01:02<02:26,  6.99s/it][A
+Loading checkpoint shards:  33%|███▎      | 10/30 [01:09<02:17,  6.89s/it][A
+Loading checkpoint shards:  37%|███▋      | 11/30 [01:15<02:09,  6.83s/it][A
+Loading checkpoint shards:  40%|████      | 12/30 [01:22<02:02,  6.81s/it][A
+Loading checkpoint shards:  43%|████▎     | 13/30 [01:29<01:57,  6.93s/it][A
+Loading checkpoint shards:  47%|████▋     | 14/30 [01:36<01:51,  6.99s/it][A
+Loading checkpoint shards:  50%|█████     | 15/30 [01:43<01:43,  6.92s/it][A
+Loading checkpoint shards:  53%|█████▎    | 16/30 [01:50<01:35,  6.84s/it][A
+Loading checkpoint shards:  57%|█████▋    | 17/30 [01:56<01:28,  6.79s/it][A
+Loading checkpoint shards:  60%|██████    | 18/30 [02:04<01:22,  6.91s/it][A
+Loading checkpoint shards:  63%|██████▎   | 19/30 [02:11<01:16,  6.98s/it][A
+Loading checkpoint shards:  67%|██████▋   | 20/30 [02:17<01:08,  6.88s/it][A
+Loading checkpoint shards:  70%|███████   | 21/30 [02:24<01:01,  6.84s/it][A
+Loading checkpoint shards:  73%|███████▎  | 22/30 [02:31<00:54,  6.80s/it][A
+Loading checkpoint shards:  77%|███████▋  | 23/30 [02:38<00:48,  6.90s/it][A
+Loading checkpoint shards:  80%|████████  | 24/30 [02:45<00:41,  6.97s/it][A
+Loading checkpoint shards:  83%|████████▎ | 25/30 [02:52<00:34,  6.88s/it][A
+Loading checkpoint shards:  87%|████████▋ | 26/30 [02:59<00:27,  6.83s/it][A
+Loading checkpoint shards:  90%|█████████ | 27/30 [03:05<00:20,  6.80s/it][A
+Loading checkpoint shards:  93%|█████████▎| 28/30 [03:12<00:13,  6.91s/it][A
+Loading checkpoint shards:  97%|█████████▋| 29/30 [03:20<00:06,  6.98s/it][A
+Loading checkpoint shards: 100%|██████████| 30/30 [03:23<00:00,  5.81s/it][ALoading checkpoint shards: 100%|██████████| 30/30 [03:23<00:00,  6.77s/it]
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2025-01-07 17:34:50,246 INFO       1%|▏         | 1/77 [03:32<4:29:39, 212.89s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:34:55,607 INFO       3%|▎         | 2/77 [03:38<1:53:31, 90.81s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:00,796 INFO       4%|▍         | 3/77 [03:43<1:03:46, 51.72s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:05,887 INFO       5%|▌         | 4/77 [03:48<40:31, 33.31s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:11,428 INFO       6%|▋         | 5/77 [03:54<27:57, 23.30s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:15,810 INFO       8%|▊         | 6/77 [03:58<19:57, 16.87s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:20,858 INFO       9%|▉         | 7/77 [04:03<15:10, 13.00s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:26,472 INFO      10%|█         | 8/77 [04:09<12:14, 10.65s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:31,289 INFO      12%|█▏        | 9/77 [04:13<10:00,  8.83s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:36,383 INFO      13%|█▎        | 10/77 [04:19<08:34,  7.67s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:41,967 INFO      14%|█▍        | 11/77 [04:24<07:44,  7.03s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:46,176 INFO      16%|█▌        | 12/77 [04:28<06:41,  6.17s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:51,827 INFO      17%|█▋        | 13/77 [04:34<06:25,  6.02s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:35:56,975 INFO      18%|█▊        | 14/77 [04:39<06:02,  5.75s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:02,342 INFO      19%|█▉        | 15/77 [04:44<05:49,  5.64s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:07,238 INFO      21%|██        | 16/77 [04:49<05:30,  5.41s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:11,856 INFO      22%|██▏       | 17/77 [04:54<05:10,  5.17s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:17,239 INFO      23%|██▎       | 18/77 [04:59<05:09,  5.24s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:22,749 INFO      25%|██▍       | 19/77 [05:05<05:08,  5.32s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:27,407 INFO     Saving progress to `stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml`
+2025-01-07 17:36:27,427 INFO      26%|██▌       | 20/77 [05:10<04:52,  5.13s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:32,967 INFO      27%|██▋       | 21/77 [05:15<04:54,  5.25s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:37,919 INFO      29%|██▊       | 22/77 [05:20<04:43,  5.16s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:43,477 INFO      30%|██▉       | 23/77 [05:26<04:45,  5.28s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:48,224 INFO      31%|███       | 24/77 [05:30<04:31,  5.12s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:54,231 INFO      32%|███▏      | 25/77 [05:36<04:40,  5.39s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:36:59,193 INFO      34%|███▍      | 26/77 [05:41<04:28,  5.26s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:04,883 INFO      35%|███▌      | 27/77 [05:47<04:29,  5.39s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:10,112 INFO      36%|███▋      | 28/77 [05:52<04:21,  5.34s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:15,191 INFO      38%|███▊      | 29/77 [05:57<04:12,  5.26s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:20,482 INFO      39%|███▉      | 30/77 [06:03<04:07,  5.27s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:25,370 INFO      40%|████      | 31/77 [06:08<03:57,  5.16s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:30,106 INFO      42%|████▏     | 32/77 [06:12<03:46,  5.03s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:35,422 INFO      43%|████▎     | 33/77 [06:18<03:45,  5.12s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:40,248 INFO      44%|████▍     | 34/77 [06:22<03:36,  5.03s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:45,046 INFO      45%|████▌     | 35/77 [06:27<03:28,  4.96s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:51,306 INFO      47%|████▋     | 36/77 [06:33<03:39,  5.35s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:37:57,631 INFO      48%|████▊     | 37/77 [06:40<03:45,  5.64s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:03,935 INFO      49%|████▉     | 38/77 [06:46<03:47,  5.84s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:08,724 INFO      51%|█████     | 39/77 [06:51<03:29,  5.53s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:13,228 INFO     Saving progress to `stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml`
+2025-01-07 17:38:14,112 INFO      52%|█████▏    | 40/77 [06:56<03:22,  5.48s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:19,843 INFO      53%|█████▎    | 41/77 [07:02<03:20,  5.56s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:25,314 INFO      55%|█████▍    | 42/77 [07:07<03:13,  5.53s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:30,028 INFO      56%|█████▌    | 43/77 [07:12<02:59,  5.29s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:34,546 INFO      57%|█████▋    | 44/77 [07:17<02:46,  5.06s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:40,014 INFO      58%|█████▊    | 45/77 [07:22<02:45,  5.18s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:45,630 INFO      60%|█████▉    | 46/77 [07:28<02:44,  5.31s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:50,301 INFO      61%|██████    | 47/77 [07:32<02:33,  5.12s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:38:55,258 INFO      62%|██████▏   | 48/77 [07:37<02:27,  5.07s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:00,672 INFO      64%|██████▎   | 49/77 [07:43<02:24,  5.17s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:07,157 INFO      65%|██████▍   | 50/77 [07:49<02:30,  5.57s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:12,331 INFO      66%|██████▌   | 51/77 [07:54<02:21,  5.45s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:18,167 INFO      68%|██████▊   | 52/77 [08:00<02:19,  5.57s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:24,614 INFO      69%|██████▉   | 53/77 [08:07<02:19,  5.83s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:30,114 INFO      70%|███████   | 54/77 [08:12<02:11,  5.73s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:34,850 INFO      71%|███████▏  | 55/77 [08:17<01:59,  5.43s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:40,617 INFO      73%|███████▎  | 56/77 [08:23<01:56,  5.53s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:46,146 INFO      74%|███████▍  | 57/77 [08:28<01:50,  5.53s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:51,388 INFO      75%|███████▌  | 58/77 [08:34<01:43,  5.44s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:39:57,215 INFO      77%|███████▋  | 59/77 [08:39<01:40,  5.56s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:02,164 INFO     Saving progress to `stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml`
+2025-01-07 17:40:02,199 INFO      78%|███████▊  | 60/77 [08:44<01:31,  5.39s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:07,616 INFO      79%|███████▉  | 61/77 [08:50<01:26,  5.40s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:14,152 INFO      81%|████████  | 62/77 [08:56<01:26,  5.74s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:19,901 INFO      82%|████████▏ | 63/77 [09:02<01:20,  5.74s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:25,380 INFO      83%|████████▎ | 64/77 [09:08<01:13,  5.66s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:30,905 INFO      84%|████████▍ | 65/77 [09:13<01:07,  5.62s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:35,450 INFO      86%|████████▌ | 66/77 [09:18<00:58,  5.30s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:41,123 INFO      87%|████████▋ | 67/77 [09:23<00:54,  5.41s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:47,018 INFO      88%|████████▊ | 68/77 [09:29<00:50,  5.56s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:52,417 INFO      90%|████████▉ | 69/77 [09:35<00:44,  5.51s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:40:58,062 INFO      91%|█████████ | 70/77 [09:40<00:38,  5.55s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:02,711 INFO      92%|█████████▏| 71/77 [09:45<00:31,  5.28s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:07,665 INFO      94%|█████████▎| 72/77 [09:50<00:25,  5.18s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:12,713 INFO      95%|█████████▍| 73/77 [09:55<00:20,  5.14s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:19,063 INFO      96%|█████████▌| 74/77 [10:01<00:16,  5.50s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:24,141 INFO      97%|█████████▋| 75/77 [10:06<00:10,  5.38s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:29,106 INFO      99%|█████████▊| 76/77 [10:11<00:05,  5.25s/it, LLaMa 3.3 70B Instruct]
+2025-01-07 17:41:34,358 INFO     Saving progress to `stats_llama_33_70B_vanilla_evaluationset_20250107_173107.yml`
+model kwargs: {'torch_dtype': torch.float16, 'load_in_8bit': False, 'trust_remote_code': True, 'device_map': 'auto', 'do_sample': True}
+  1%|▏         | 1/77 [03:32<4:29:39, 212.89s/it, LLaMa 3.3 70B Instruct]
+  3%|▎         | 2/77 [03:38<1:53:31, 90.81s/it, LLaMa 3.3 70B Instruct]
+  4%|▍         | 3/77 [03:43<1:03:46, 51.72s/it, LLaMa 3.3 70B Instruct]
+  5%|▌         | 4/77 [03:48<40:31, 33.31s/it, LLaMa 3.3 70B Instruct]
+  6%|▋         | 5/77 [03:54<27:57, 23.30s/it, LLaMa 3.3 70B Instruct]
+  8%|▊         | 6/77 [03:58<19:57, 16.87s/it, LLaMa 3.3 70B Instruct]
+  9%|▉         | 7/77 [04:03<15:10, 13.00s/it, LLaMa 3.3 70B Instruct]
+ 10%|█         | 8/77 [04:09<12:14, 10.65s/it, LLaMa 3.3 70B Instruct]
+ 12%|█▏        | 9/77 [04:13<10:00,  8.83s/it, LLaMa 3.3 70B Instruct]
+ 13%|█▎        | 10/77 [04:19<08:34,  7.67s/it, LLaMa 3.3 70B Instruct]
+ 14%|█▍        | 11/77 [04:24<07:44,  7.03s/it, LLaMa 3.3 70B Instruct]
+ 16%|█▌        | 12/77 [04:28<06:41,  6.17s/it, LLaMa 3.3 70B Instruct]
+ 17%|█▋        | 13/77 [04:34<06:25,  6.02s/it, LLaMa 3.3 70B Instruct]
+ 18%|█▊        | 14/77 [04:39<06:02,  5.75s/it, LLaMa 3.3 70B Instruct]
+ 19%|█▉        | 15/77 [04:44<05:49,  5.64s/it, LLaMa 3.3 70B Instruct]
+ 21%|██        | 16/77 [04:49<05:30,  5.41s/it, LLaMa 3.3 70B Instruct]
+ 22%|██▏       | 17/77 [04:54<05:10,  5.17s/it, LLaMa 3.3 70B Instruct]
+ 23%|██▎       | 18/77 [04:59<05:09,  5.24s/it, LLaMa 3.3 70B Instruct]
+ 25%|██▍       | 19/77 [05:05<05:08,  5.32s/it, LLaMa 3.3 70B Instruct]
+ 26%|██▌       | 20/77 [05:10<04:52,  5.13s/it, LLaMa 3.3 70B Instruct]
+ 27%|██▋       | 21/77 [05:15<04:54,  5.25s/it, LLaMa 3.3 70B Instruct]
+ 29%|██▊       | 22/77 [05:20<04:43,  5.16s/it, LLaMa 3.3 70B Instruct]
+ 30%|██▉       | 23/77 [05:26<04:45,  5.28s/it, LLaMa 3.3 70B Instruct]
+ 31%|███       | 24/77 [05:30<04:31,  5.12s/it, LLaMa 3.3 70B Instruct]
+ 32%|███▏      | 25/77 [05:36<04:40,  5.39s/it, LLaMa 3.3 70B Instruct]
+ 34%|███▍      | 26/77 [05:41<04:28,  5.26s/it, LLaMa 3.3 70B Instruct]
+ 35%|███▌      | 27/77 [05:47<04:29,  5.39s/it, LLaMa 3.3 70B Instruct]
+ 36%|███▋      | 28/77 [05:52<04:21,  5.34s/it, LLaMa 3.3 70B Instruct]
+ 38%|███▊      | 29/77 [05:57<04:12,  5.26s/it, LLaMa 3.3 70B Instruct]
+ 39%|███▉      | 30/77 [06:03<04:07,  5.27s/it, LLaMa 3.3 70B Instruct]
+ 40%|████      | 31/77 [06:08<03:57,  5.16s/it, LLaMa 3.3 70B Instruct]
+ 42%|████▏     | 32/77 [06:12<03:46,  5.03s/it, LLaMa 3.3 70B Instruct]
+ 43%|████▎     | 33/77 [06:18<03:45,  5.12s/it, LLaMa 3.3 70B Instruct]
+ 44%|████▍     | 34/77 [06:22<03:36,  5.03s/it, LLaMa 3.3 70B Instruct]
+ 45%|████▌     | 35/77 [06:27<03:28,  4.96s/it, LLaMa 3.3 70B Instruct]
+ 47%|████▋     | 36/77 [06:33<03:39,  5.35s/it, LLaMa 3.3 70B Instruct]
+ 48%|████▊     | 37/77 [06:40<03:45,  5.64s/it, LLaMa 3.3 70B Instruct]
+ 49%|████▉     | 38/77 [06:46<03:47,  5.84s/it, LLaMa 3.3 70B Instruct]
+ 51%|█████     | 39/77 [06:51<03:29,  5.53s/it, LLaMa 3.3 70B Instruct]
+ 52%|█████▏    | 40/77 [06:56<03:22,  5.48s/it, LLaMa 3.3 70B Instruct]
+ 53%|█████▎    | 41/77 [07:02<03:20,  5.56s/it, LLaMa 3.3 70B Instruct]
+ 55%|█████▍    | 42/77 [07:07<03:13,  5.53s/it, LLaMa 3.3 70B Instruct]
+ 56%|█████▌    | 43/77 [07:12<02:59,  5.29s/it, LLaMa 3.3 70B Instruct]
+ 57%|█████▋    | 44/77 [07:17<02:46,  5.06s/it, LLaMa 3.3 70B Instruct]
+ 58%|█████▊    | 45/77 [07:22<02:45,  5.18s/it, LLaMa 3.3 70B Instruct]
+ 60%|█████▉    | 46/77 [07:28<02:44,  5.31s/it, LLaMa 3.3 70B Instruct]
+ 61%|██████    | 47/77 [07:32<02:33,  5.12s/it, LLaMa 3.3 70B Instruct]
+ 62%|██████▏   | 48/77 [07:37<02:27,  5.07s/it, LLaMa 3.3 70B Instruct]
+ 64%|██████▎   | 49/77 [07:43<02:24,  5.17s/it, LLaMa 3.3 70B Instruct]
+ 65%|██████▍   | 50/77 [07:49<02:30,  5.57s/it, LLaMa 3.3 70B Instruct]
+ 66%|██████▌   | 51/77 [07:54<02:21,  5.45s/it, LLaMa 3.3 70B Instruct]
+ 68%|██████▊   | 52/77 [08:00<02:19,  5.57s/it, LLaMa 3.3 70B Instruct]
+ 69%|██████▉   | 53/77 [08:07<02:19,  5.83s/it, LLaMa 3.3 70B Instruct]
+ 70%|███████   | 54/77 [08:12<02:11,  5.73s/it, LLaMa 3.3 70B Instruct]
+ 71%|███████▏  | 55/77 [08:17<01:59,  5.43s/it, LLaMa 3.3 70B Instruct]
+ 73%|███████▎  | 56/77 [08:23<01:56,  5.53s/it, LLaMa 3.3 70B Instruct]
+ 74%|███████▍  | 57/77 [08:28<01:50,  5.53s/it, LLaMa 3.3 70B Instruct]
+ 75%|███████▌  | 58/77 [08:34<01:43,  5.44s/it, LLaMa 3.3 70B Instruct]
+ 77%|███████▋  | 59/77 [08:39<01:40,  5.56s/it, LLaMa 3.3 70B Instruct]
+ 78%|███████▊  | 60/77 [08:44<01:31,  5.39s/it, LLaMa 3.3 70B Instruct]
+ 79%|███████▉  | 61/77 [08:50<01:26,  5.40s/it, LLaMa 3.3 70B Instruct]
+ 81%|████████  | 62/77 [08:56<01:26,  5.74s/it, LLaMa 3.3 70B Instruct]
+ 82%|████████▏ | 63/77 [09:02<01:20,  5.74s/it, LLaMa 3.3 70B Instruct]
+ 83%|████████▎ | 64/77 [09:08<01:13,  5.66s/it, LLaMa 3.3 70B Instruct]
+ 84%|████████▍ | 65/77 [09:13<01:07,  5.62s/it, LLaMa 3.3 70B Instruct]
+ 86%|████████▌ | 66/77 [09:18<00:58,  5.30s/it, LLaMa 3.3 70B Instruct]
+ 87%|████████▋ | 67/77 [09:23<00:54,  5.41s/it, LLaMa 3.3 70B Instruct]
+ 88%|████████▊ | 68/77 [09:29<00:50,  5.56s/it, LLaMa 3.3 70B Instruct]
+ 90%|████████▉ | 69/77 [09:35<00:44,  5.51s/it, LLaMa 3.3 70B Instruct]
+ 91%|█████████ | 70/77 [09:40<00:38,  5.55s/it, LLaMa 3.3 70B Instruct]
+ 92%|█████████▏| 71/77 [09:45<00:31,  5.28s/it, LLaMa 3.3 70B Instruct]
+ 94%|█████████▎| 72/77 [09:50<00:25,  5.18s/it, LLaMa 3.3 70B Instruct]
+ 95%|█████████▍| 73/77 [09:55<00:20,  5.14s/it, LLaMa 3.3 70B Instruct]
+ 96%|█████████▌| 74/77 [10:01<00:16,  5.50s/it, LLaMa 3.3 70B Instruct]
+ 97%|█████████▋| 75/77 [10:06<00:10,  5.38s/it, LLaMa 3.3 70B Instruct]
+ 99%|█████████▊| 76/77 [10:11<00:05,  5.25s/it, LLaMa 3.3 70B Instruct]

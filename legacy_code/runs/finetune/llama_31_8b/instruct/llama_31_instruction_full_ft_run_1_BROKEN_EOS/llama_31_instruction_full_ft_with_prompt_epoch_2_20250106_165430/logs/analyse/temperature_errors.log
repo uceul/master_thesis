@@ -1,0 +1,1116 @@
+2025-01-06 17:23:20,273 - 
+Paragraph: AVEQID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 85838°C (85.0838 C)
+Original text:   A mixture of Zn(NO3)2·6H2O (15 mg, 0.05 mmol), H8TBCB (5 mg, 0.006 mmol), DMAc (3.5 mL), H2O (1 mL) and two drops of aqueous HNO3 solution (2.0 M) was sealed in a 20 mL capped vessel. The as-synthes...
+2025-01-06 17:23:23,218 - 
+Paragraph: HUCSEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: -273°C (0.0 K) (Which appears in text!)
+Original text: NPC-4 was synthesized by solvothermal reaction of TMBDI and Cu(NO3)2·3H2O in the solution of DMA and H2O with the addition of HNO3. TMBDI (0.092 g, 0.2 mmol) and Cu(NO3)2·3H2O (0.096 g, 0.4 mmol) were...
+2025-01-06 17:23:23,218 - 
+Paragraph: HULTEN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 0°C (0.0 C)
+Original text: A typical synthesis recipe was as follows: 3.86 g phosphoric acid (85 wt% in water) was placed in a glass beaker. 6.16 g tetramethylammonium hydroxide pentahydrate and 1.33 g zinc oxide were successiv...
+2025-01-06 17:23:24,658 - 
+Paragraph: QASTUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: 12052°C (120.052 C)
+Original text: A mixture of Mn(NO3)2·4H2O (0.3 mmol), Iptp (0.075 mmol), H2tpa (0.1 mmol) and 10 mL DMF were sealed in a Teflon-lined reactor, the reactor was heated at 120 °C for 72 h and then cooled to room temper...
+2025-01-06 17:23:25,446 - 
+Paragraph: MATHEV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\\n\\n }}\\\\\\nResult)
+Original text: The cobalt phosphite–oxalate, [C4N2H12][Co4(HPO3)2(C2O4)3], I, was synthesized under hydrothermal conditions starting from cobalt (II) oxalate. In a typical synthesis, 0.285 g of CoC2O4 was dispersed ...
+2025-01-06 17:23:30,378 - 
+Paragraph: KAHYEY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 130°C (130.0 C)
+Original text: The title compound was synthesized hydrothermally from a starting mixture of MnCl2, H2O2, H2C2O4, H3PO4, H2N(CH2)2NH(CH2)2NH2 and H2O in a molar ratio of 1.0:3.0–9.0:1.0:10:1.0:400. In a typical synth...
+2025-01-06 17:23:30,378 - 
+Paragraph: MAYJOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 220°C (220.0 C)
+Got: 200°C (200.0 C\n211.8)
+Original text: In a typical synthesis of 1, indium (0.114 g, 1 mmol), 1,4-benzene dicarboxylic acid (0.332 g, 2 mmol), HF (48%, Merck, 0.06 mL), and deionized water (10 mL) in the molar ratios of 1:2:1.5:560 were pl...
+2025-01-06 17:23:33,153 - 
+Paragraph: TOVJAP_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 200°C (200.0 C)
+Original text: Synthesis of [H3N(CH2)2NH3]2 [H3N(CH2)2NH2] [FeIII(H2O)2(VIVO)8(OH)4(HPO4)4(PO4)4]·4H2O (2). The synthesis was similar to the above described for solid 1. The hydrothermal reaction of V metal (0.0254 ...
+2025-01-06 17:23:33,153 - 
+Paragraph: VEGMIE01_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 102°C (102.0 C)
+Got: 0°C (0.0 C\\n\\n\\n 8O)
+Original text: The synthesis of the compound [Co3(C8H4O4)4]2−[C4H12N]+2·3C5H11NO (1) is a one-pot solvothermal reaction. A mixture of CoCl2·6H2O (0.294 g, 1 mmol) and DEF (2 mL) was added to a mixture of 1,4-benzene...
+2025-01-06 17:23:34,982 - 
+Paragraph: AQEFOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: A mixture of Na2MoO4·2H2O (0.48 g, 1.98 mmol), H3PO4 (1 mL, 7.96 mmol), CuCl2·2H2O (0.23 g, 1.35 mmol), pz (0.07 g, 0.87 mmol) and H2O (10 mL) was stirred for an hour. The pH was adjusted to 2.6 with ...
+2025-01-06 17:23:38,730 - 
+Paragraph: OHOLIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 110°C (110.0 C)
+Got: 150°C (150.0 C)
+Original text: Synthesis of [Zn(2,7‐ndc)] (1): To a solution of Zn(NO3)2·6H2O (0.119 g, 0.40 mmol) and 2,7‐ndcH2 (0.087 g, 0.40 mmol) dissolved in DMF (2.6 mL) was added NEt3 (0.222 mL, 0.40 mmol), and the solution ...
+2025-01-06 17:23:38,730 - 
+Paragraph: TANFEV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text:   A mixture of Na2MoO4·2H2O (0.121 g, 0.5 mmol), H3PO4 (0.28 mL, 4 mmol), CoCl2·6H2O (0.119 g, 0.5 mmol), bix (0.119 g, 0.5 mmol), and H2O (6 mL) was stirred for 0.5 h in air. The pH was then adjusted...
+2025-01-06 17:23:40,586 - 
+Paragraph: EBITAL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 16052°C (160.052 C)
+Original text: Synthesis of [H3N(CH2)3NH3]·[Be3(HPO3)4] 1. The reactants BeO (0.025 g, 1 mmol), H3PO3 (0.410 g, 5 mmol), H3BO3 (0.305 g, 5 mmol), and 1,3-diammonium propane (0.2 mL, 2.35 mmol) were added to 2 mL (11...
+2025-01-06 17:23:41,732 - 
+Paragraph: GURTIX_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 170°C (170.0 C)
+Got: 140°C (140.0 C)
+Original text: A mixture of In(NO3)3·5H2O (0.195 g, 0.5 mmol), 1,2,4-H3btc (0.32 g, 1.5 mmol), piperazine (0.388 g, 2 mmol ) and H2O (10 ml) was mixed in a 23 mL Teflon reactor, which was heated at 443 K for 3 days ...
+2025-01-06 17:23:42,114 - 
+Paragraph: LARPOL_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 150°C (150.0 C)
+Got: 150852°C (150.0852 C)
+Original text: The mixture of FeCl3 (0.2 mmol, 0.032 g), H3BTC (0.5 mmol, 0.2 g), TMAOH (0.7 mmol, 0.132 g) and DMF (10 mL) was sealed in a Teflon-lined autoclave and heated at 150 °C for 4 days, followed by slow co...
+2025-01-06 17:23:47,284 - 
+Paragraph: AJOTEY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 90°C (90.0 C)
+Original text: (CN3H6)2·(VO)3(H2O)3(HPO3)4·3H2O was prepared by combining 0.5 g H3PO3, 1.14 g VOSO4·nH2O and 0.71 g guanidinium carbonate in 10 ml water contained in a PTFE bottle, resulting in a deep blue solution ...
+2025-01-06 17:23:47,284 - 
+Paragraph: FORXAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 110°C (110.0 C\n)
+Original text: Zn(NO3)2·6H2O (0.290 g, 0.98 mmol) and H2(ip) (0.162 g, 0.98 mmol) were dissolved in dimethylformamide (DMF, 15 mL), and the resulting solution was heated to 110 °C for 14 h in a sealed vial. After fi...
+2025-01-06 17:23:47,284 - 
+Paragraph: TANLAX_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 160°C (160.0 C)
+Got: 291°C (291.0 C)
+Original text: The block crystal of compound 2 was prepared in the same way. 0.1066 g Tb4O7 (0.14 mmol) was dissolved into 7.0905 g (96.96 mmol) DMF and 1.5641 g (15.34 mmol) sulfuric acid under constant stirring fo...
+2025-01-06 17:23:47,697 - 
+Paragraph: ATOGEV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: Synthesis and Initial Characterization: FJ‐8 was hydrothermally synthesized under autogenous pressure. In a typical synthesis, a mixture of ZnO (0.093 g, 1.14 mmol), H3PO3 (0.3 mL, 50 wt %), Ni(en)3Cl...
+2025-01-06 17:23:50,046 - 
+Paragraph: WOBHOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 100°C (100.0 C)
+Original text:   A solution of L-proline (18.3 mg) in ethanol (0.5 mL) was added dropwise to IRMOF-3 (0.2 g), and stored overnight at room temperature. The samples were dried in vacuum at 30 °C to yield IRMOF-3–Pr(P...
+2025-01-06 17:23:50,814 - 
+Paragraph: ORUKET_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 291°C (291.0 C)
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Mg(NO3)2·6H2O (5.0 mg, 19.5 μmol) was dissolved in a mixed solvent of DMA (1.0 mL), ethanol (0.5 mL) and deionized water (0.5 mL) in a 20 mL vial. After...
+2025-01-06 17:23:50,814 - 
+Paragraph: LOMMIL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: 130439°C (130.0439 C)
+Original text: Single crystals of FPYEu were synthesized by mixing 0.0604 g (∼0.39 mmol) of H2fdc, 0.1140 g of YCl3·6H2O (∼0.38 mmol), 0.0129 g of EuCl3·6H2O (∼0.035 mmol) and 0.0755 g (∼0.38 mmol) of phen with ca. ...
+2025-01-06 17:23:54,924 - 
+Paragraph: QOBWEJ01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text: First, 0.5 g P2O5 was dissolved in 10 ml water contained in a 23-ml teflon pot (Caution! This reaction is extremely vigorous). Then, 0.285 g ZnO, 0.444 g oxalic acid dihydrate, and 0.522 g 1,3-diamino...
+2025-01-06 17:23:57,349 - 
+Paragraph: VEZQEX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), Trithylenetetramin...
+2025-01-06 17:24:01,131 - 
+Paragraph: LAVMAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C)
+Original text: Synthesis of single crystals of {Zn3(Atz)3(PO4)}⋅(H2O)3.5 (1⋅(H2O)3.5): Colorless crystals of 1⋅(H2O)3.5 in the shape of thick square plates were obtained from the reaction of a mixture containing ZnC...
+2025-01-06 17:24:02,683 - 
+Paragraph: OQETEK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 8°C (8.0 C)
+Original text: ‡ Synthesis of MOF 1: H3BPT (0.045 mmol, 13 mg), Yb(NO3)3·6H2O (0.045 mmol, 20 mg), DMF (2 mL), H2O (1.3 mL) and ethanol (2 mL) were placed in a 20 mL glass vial, which was sealed and heated to 80 °C ...
+2025-01-06 17:24:03,042 - 
+Paragraph: FIVQOR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The title compound MIL-90 or Ga5(PO4)4(C2O4)F2(OH)2·1.5N2C3H12 was prepared by hydrothermal method under autogenous pressure. The reactants were gallium oxide (Ga2O3, Aldrich, 99.99%+), phosphoric aci...
+2025-01-06 17:24:03,043 - 
+Paragraph: GUVBEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 175°C (175.0 C)
+Original text: A solution of Na3PO4 (5 mmol), Na2WO4·2H2O (10 mmol), NiCl2·6H2O (2 mmol) and en (0.33 mL) in H2O (20 mL) acidified by diluted HCl solution (pH 1.0), was refluxed for 8 h. The resulting reaction mixtu...
+2025-01-06 17:24:04,576 - 
+Paragraph: RIFQUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: A mixture of CoCl2·6H2O (1.0 mmol), H3PO3 (2.0 mmol), trans-1,4-diaminocyclohexane (2.7 mmol), and H2O (10 mL) was stirred overnight in a Teflon cup. It was then sealed in an acid digestion bomb and h...
+2025-01-06 17:24:04,576 - 
+Paragraph: UCAJUF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C\n\n 80.0\n\n )
+Original text: [Zn4(μ3‐OH)2(H2O)2(ZnTCPEP‐H)2(DABCO)2]·2DMF·10.5H2O (Zn4·ZnTCPEP·DABCO): A mixture of Zn(NO3)·6H2O (157 mg, 0.526 mmol), ZnTCPEP‐H4 (100 mg, 0.105 mmol), and DABCO (24 mg, 0.210 mmol) was dissolved i...
+2025-01-06 17:24:05,334 - 
+Paragraph: GEGDED_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60°C (60.0 C)
+Got: 6052°C (60.052 C)
+Original text: A mixture of H8TDM (0.05 g, 6.3 × 10–5 mol), CuBr2 (0.15 g, 6.7 × 10–4 mol), and 1 mL of tetrafluoroboric acid (HBF4, 48% min w/w aqueous solution) in 17 mL of dimethylformamide (DMF) was sealed in a ...
+2025-01-06 17:24:06,076 - 
+Paragraph: BURJOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 150°C (150.0 C)
+Got: 110°C (110.0 C)
+Original text:   A mixture of H3bidc (0.5 mmol), Co(NO3)2·6H2O (0.5 mmol), NaOH (1 mmol), bpt (0.5 mmol), triethylamine (0.1 mL) and H2O (10 mL) was placed in a Teflon-lined autoclave under autogenous pressure at 42...
+2025-01-06 17:24:06,076 - 
+Paragraph: LUZJAT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 110°C (110.0 C)
+Got: 107°C (107.0 C)
+Original text: A mixture of Zn(NO3)2·6H2O (0.450 g, 0.1 mmol), (4,4′-bis(pyrid-4-yl)biphenyl) (0.015 g, 0.04 mmol), and H3BTC (0.450 mg, 0.2 mmol) in DMF (4 mL) was placed in a screw-capped vial. Then five drops of ...
+2025-01-06 17:24:06,766 - 
+Paragraph: FEJDII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: Synthesis of [C3N2H5]2·[Zn3(HPO3)4] 2. Compound 2 was prepared from a mixture of ZnO (0.113 g), H3PO3 (0.74 mL, 50 wt %), imidazole (0.19 g), and H2O (2.5 mL) in a molar ratio of 1:4:2:100. The reacti...
+2025-01-06 17:24:08,619 - 
+Paragraph: CIXCOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 130°C (130.0 C)
+Original text: CoHPO-CJ2 was synthesized by a solvothermal reaction of CoCl2·6H2O, H3PO3, diethylenetriamine (DETA), ethylene glycol (EG), and H2O in a molar ratio of 1.0:1.0:0.734:115:66. Typically, CoCl2·6H2O (0.2...
+2025-01-06 17:24:08,999 - 
+Paragraph: LIXWEV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text: The iron phosphite, [C4N2H12][Fe4(H2O)3(HPO3)7]·(H2O)x x = 0.6 (1), was synthesized under hydrothermal conditions using ferric chloride hexahydrate as the source of iron. The FeCl3·6H2O (0.270 g, 1 mm...
+2025-01-06 17:24:09,000 - 
+Paragraph: NAVFUM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text: Synthesis and Initial Characterization. The iron oxalatophosphite, [C4N2H12][FeII4(HPO3)2(C2O4)3], I, was synthesized under  hydrothermal conditions using iron(II) oxalate dihydrate as the source of i...
+2025-01-06 17:24:09,808 - 
+Paragraph: WACKOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 175°C (175.0 C)
+Original text: The title compound 1 was hydrothermally synthesized under autogenous pressure. A mixture of CoCl2·6H2O (1.0 g), Na2MoO4·2H2O (1.8 g), H3PO4 (0.8 ml), and water (12 ml) was neutralized to pH 8.5 with e...
+2025-01-06 17:24:10,181 - 
+Paragraph: SASKIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: In a typical synthesis for [C2N2H10] · [(VO)3(H2O)(HPO3)4] · H2O, 0.091 g (0.5 mmol) of vanadium oxide (V2O5) were dissolved in 5.0 mL (166 mmol) of water, and then 0.410 g (5 mmol) of phosphorous aci...
+2025-01-06 17:24:10,552 - 
+Paragraph: IMIDZB10_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C)
+Original text: 350 mg of Zn(NO3)2·6H2O and 200 mg of 2-methylimidazole were placed in a 20 mL screw-top vial and dissolved in 15 mL of DMF. Three drops of HNO3 were added to a mixture with a Pasteur pipet, and compl...
+2025-01-06 17:24:10,552 - 
+Paragraph: FOXNIQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 170°C (170.0 C)
+Got: 291°C (291.0 C)
+Original text: Gd(NO3)3·6H2O (0.23 g, 0.5 mmol), CoCl2·6H2O (0.12 g, 0.5 mmol), H2pydc (0.17 g, 1 mmol), and triethylamine (0.03 g, 0.3 mmol) were added to water (10 g, 556 mmol). The mixture was added to a 15 mL Te...
+2025-01-06 17:24:10,552 - 
+Paragraph: CIFMIP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: 0°C (0.0 C) (Which appears in text!)
+Original text: A mixture of CoCl2·6H2O (0.238 g, about 1 mmol, pretreated under volume at 333 K for 1 h), H3BTC (0.066 g, 0.4 mmol), and phthalic acid (0.033 g, 0.2 mmol) in DMF (10 mL) was added into a Teflon vesse...
+2025-01-06 17:24:11,822 - 
+Paragraph: COJGEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 285°C (285.0 C)
+Original text: (M′MOF 1) A mixture of Zn(NO3)2·6H2O (1.2116 g, 4.07 mmol), H2BDC (0.6732 g, 4.06 mmol), and Cu(PyenH2)(NO3)2 (0.600 g, 1.24 mmol) was dissolved in a mixture of DMF (306 mL) and H2O (30.6 mL), and hea...
+2025-01-06 17:24:11,822 - 
+Paragraph: IWAHUK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C)
+Original text: Compound 2: [Zn(BDC‐OH)(TED)0.5]⋅1.5DMF⋅0.3H2O (2) was prepared by a solvothermal reaction of [Zn(NO3)]⋅6H2O (0.089 g, 0.3 mmol), BDC‐OH (0.055 g, 0.3 mmol), and TED (0.022 g, 0.2 mmol) in DMF (10 mL)...
+2025-01-06 17:24:12,607 - 
+Paragraph: NEZBOK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text:   The manganese phosphite–oxalate [C4N2H12][MnII2(HPO3)2(C2O4)], I, was synthesized under hydrothermal conditions using manganese oxalate as the source of manganese. In a typical synthesis, 0.277 g of...
+2025-01-06 17:24:12,608 - 
+Paragraph: TAPXIT01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text: Tb(NO3)3·6H2O (0.5 mmol), H2OBA (1.0 mmol), and NaCl (0.5 mmol) were added to a mixture of DMF (6.0 mL) and ethanol (6.0 mL). The mixture was heated in a 23 mL Teflon-lined autoclave at 150 °C for 3 d...
+2025-01-06 17:24:12,608 - 
+Paragraph: YICGOI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: -201°C (72.0 h,}}{C: 72.0)
+Original text: A mixture of Co(NO3)2·6H2O (29.1 mg, 0.1 mmol), TPPA (47.6 mg, 0.1 mmol), and benzene-p-dicarboxylic acid (33.2 mg, 0.2 mmol) was dissolved in 15 mL of DMF/MeCN/H2O (1:2:3). The final mixture was plac...
+2025-01-06 17:24:13,399 - 
+Paragraph: YABWOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: Vanadium(V) oxide (0.183 g, 0.97 mmol) was dissolved in HF (1 mL, 29.0 mmol) and stirred for 5 min before methylene diphosphonic acid (0.16 g, 0.909 mmol), tris(2-aminoethyl)amine (500 μL, 3.34 mmol),...
+2025-01-06 17:24:13,787 - 
+Paragraph: YONNAR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 90°C (90.0 C)
+Original text:   Crystals were grown from a solution of Zn(NO3)2·4H2O (885 mg, 3.39 mmol) and 1 (100 mg, 0.282 mmol) in DEF (11.3 mL), and additional water (1.04 g, 57.63 mmol) kept at 90 °C for 40 h, resulting in 1...
+2025-01-06 17:24:13,787 - 
+Paragraph: SUKKUG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: -265°C (8.0 0)
+Original text:   A mixture of the organic linker H4L2 (5.0 mg, 10.93 μmol) and CuCl2·2H2O (10.0 mg, 58.66 μmol) was dissolved in a mixed solvent of DMF, acetonitrile and H2O (1.5 mL/0.5 mL/0.08 mL) in a screw-capped...
+2025-01-06 17:24:14,938 - 
+Paragraph: VEHLEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C)
+Original text: B. [HN(CH3)3]2Zn3(HPO3)4. A total of 0.3750 g of zinc carbonate, 1.9388 g of water, 1.5198 g of ethylene glycol, 0.7569 g of phosphorous acid, 0.0611 g of hydrogen fluoride−pyridine, and 3.737 g of tr...
+2025-01-06 17:24:16,085 - 
+Paragraph: ECOLEP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 72°C (72.0 C\nResult: 72.0\n)
+Original text: A mixture of Co(Ac)2·4H2O (0.075 g, 0.30 mmol), H3BTT (0.028 g, 0.10 mmol), and DMA/methanol (1:1) was stirred for 10 min in air at room temperature. Then the mixture was transferred and sealed in a T...
+2025-01-06 17:24:16,511 - 
+Paragraph: IXEJOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 165°C (165.0 C)
+Original text: A mixture of Na2MoO4·2H2O (1.452 g, 6.00 mmol), Co(CH3COO)2·4H2O (0.480 g, 2.52 mmol), 4,4′-bipyridine (0.400 g, 2.70 mmol), H3PO4 (2 mL, 30 mmol), and pyridine (0.350 g, 4.42 mmol) was dissolved in 3...
+2025-01-06 17:24:16,512 - 
+Paragraph: SUXNIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: A reaction mixture of VOSO4 (1 mmol), H3BO3 (1.5 mmol), H3PO3 (6 mmol), cyclohexylamine (cha, 5 mmol), and H2O (5 mL) was placed in a Teflon-lined digestion bomb (internal volume = 23 mL) and heated a...
+2025-01-06 17:24:16,512 - 
+Paragraph: XEQGAC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: H2(PIP)[VIVO(H2O)VIII(OH)(O3PCH2CO2)2]·2.5H2O (2). A solution of VOSO4 (0.97 g, 0.6 mmol), triethyl phosphonoacetate (0.124 g, 0.54 mmol), piperazine (PIP) (0.115 g, 0.6 mmol), and H2O (7 mL) in the m...
+2025-01-06 17:24:19,920 - 
+Paragraph: GUCJAQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: Transparent colorless columnar crystals of NTHU‐8 were prepared from a reaction mixture containing Zn(NO3)2⋅6 H2O (0.2975 g, 1 mmol), H3PO4 (0.27 mL, 4 mmol), benzene‐1,2,4,5‐tetracarboxylic acid (H4b...
+2025-01-06 17:24:19,920 - 
+Paragraph: YIJCEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 90°C (90.0 C)
+Original text:   A 35 mL 19/22 flask was charged with 0.5 mmol (0.136 g) polymeric nickel cyanide hydrate Ni[Ni(CN)4]n(H2O)3 and made to dissolve through the sequential addition of 5 mL H2O, 5 mL concentrated ammoni...
+2025-01-06 17:24:22,060 - 
+Paragraph: ERIWAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 0°C (0.0 C)
+Original text:   A mixture of H4L (5.0 mg, 11.8 μmol), and CuCl2·2H2O (15.0 mg, 88.0 μmol) was dissolved in a mixed solvent of N,N-dimethyl formamide (DMF, 1.5 mL), CH3OH (0.5 mL) and H2O (0.1 mL). After addition of...
+2025-01-06 17:24:22,060 - 
+Paragraph: FIHFAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 150°C (150.0 C)
+Got: 100°C (100.0 C)
+Original text:   A mixture of Co(NO3)2·6H2O (1.0 mmol, 0.293 g), H3btc (1 mmol, 0.210 g) and Hatz (1 mmol, 0.084 g) in DMF (8 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heat...
+2025-01-06 17:24:23,258 - 
+Paragraph: UTULUR_SL_part
+Model: LLaMa 3.1 8B Instruct
+Expected: 210°C (210.0 C)
+Got: 180°C (180.0 C\\n\\n}}]}\\nResult)
+Original text: Indium pyromellitate or MIL-117 was hydrothermally synthesized under autogenous pressure from mixture of elemental indium (In, Aldrich, 99.99%), 1,2,4,5-benzenetetracarboxylic acid (C6H2(CO2H)4 or H4b...
+2025-01-06 17:24:24,448 - 
+Paragraph: IPIHIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 160°C (160.0 C)
+Got: 160255°C (160.0255 C}{)
+Original text:   A solution of H4btec (0.10 mmol) in 5 mL H2O was adjusted to pH 6 with a dilute NaOH solution. Then Cd(NO3)2·4H2O (0.20 mmol) in 5 mL H2O and obtz (0.20 mmol) in 5 mL MeOH were added with stirred. T...
+2025-01-06 17:24:25,486 - 
+Paragraph: OFIWIK_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: Typically, zinc acetate (0.22 g, 1 mmol), was first dissolved in the water (8 mL), and then cyclohexylamine (0.38–0.41 mL, 3.2–3.4 mmol) and phosphorous acid (0.205 g, 2.5 mmol, 85%) were added with s...
+2025-01-06 17:24:28,288 - 
+Paragraph: XAWBEE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C\\n. None.)
+Original text: All reagents were of analytical grade. Compound 1 was hydrothermally prepared from a starting mixture containing indium trichloride (InCl3), phosphorous acid (H3PO3), diethylenetriamine (DETA) and hyd...
+2025-01-06 17:24:29,055 - 
+Paragraph: AKEDIF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 110°C (110.0 C)
+Original text: A mixture of bpeb (20.1 mg, 0.070 mmol), H2bdc (11.6 mg, 0.070 mmol), and Zn(NO3)2·4H2O (18.4 mg, 0.070 mmol) dissolved in DEF (3 mL), H2O (1 mL), and DMSO (0.5 mL) was placed in a 10 mL glass tube, a...
+2025-01-06 17:24:29,895 - 
+Paragraph: FORXIU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 110°C (110.0 C)
+Original text: A DMF solution (15.0 mL) containing Zn(NO3)2·6H2O (0.297 g, 1.0 mmol) and H2(2,7-ndc) (0.217 g, 1.0 mmol) was heated to 110 °C for 32 h in a sealed vial. Afterward, the reaction mixture was filtered t...
+2025-01-06 17:24:37,797 - 
+Paragraph: EKUPEG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C)
+Original text: 2: A mixture of CuSO4⋅5H2O (25 mg, 0.1 mmol) and 1 (135 mg, 0.05 mmol) was placed in a small vial containing DMSO (1 mL), H2O (0.1 mL), and sBuOH (1 mL). The vial was sealed, heated at 80 °C for one d...
+2025-01-06 17:24:38,137 - 
+Paragraph: TEQVAO_manual
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 200°C (200.0 C\\n \\n)
+Original text:   A mixture of Zn(NO3)2·6H2O (2.0 mmol), NH3·H2O (9.0 mmol) and 5-methylisophthalic acid (4.0 mmol) in 20 mL H2O are stirred for 10 min at room temperature. The mixture is then transferred into a 40 m...
+2025-01-06 17:24:40,353 - 
+Paragraph: VEHRIL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 107°C (107.0 C)
+Got: 212047°C (212047.0 C)
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), Na2MoO4·2H2O (0.2500 mmol, 60.40 mg), Na2SiO3·9H2O (0.2500 mmol, 71.00 mg) and Sm2O3 (0.1250 mmol, 43.60 mg), with a starting p...
+2025-01-06 17:24:45,445 - 
+Paragraph: RORVAX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 60°C (60.0 C)
+Original text: In a scintillation vial, as-synthesized 1-Zn was washed with fresh DMF (3 × 5 mL) over 3 h and then washed with fresh MeOH (3 × 5 mL) over 3 h. The MeOH was decanted and a solution of Co(NO3)2 (30 mg,...
+2025-01-06 17:24:46,312 - 
+Paragraph: TACFIN01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: All chemicals were purchased from Aldrich (USA) and used without further purification. In a typical synthesis, the following reagents were used: zinc oxide (0.39 g, 4.76 mmol), cobalt(II)oxalate dihyd...
+2025-01-06 17:24:46,751 - 
+Paragraph: DACSAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 213°C (213.0 C)
+Original text:   A mixture of Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) and the organic ligand H4L1 (5.0 mg, 11.1 μmol) was dissolved in a mixed solvent consisting of N,N′-dimethylformamide (DMF, 1.5 mL), methanol (0.5 mL)...
+2025-01-06 17:24:46,751 - 
+Paragraph: WOWGUK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 90°C (90.0 C)
+Original text:   First, 4.4761 g Zn(NO3)2  (BDH Analar, 98%) was added to 30 ml of 1 M H3PO4  (made up from 85% BDH Analar H3PO4 solution) in a glass beaker. Once the Zn(NO3)2 had dissolved, 37.277 g of ethylene gly...
+2025-01-06 17:24:47,587 - 
+Paragraph: VUQKAU01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 161°C (161.0 C)
+Got: 0°C (0.0 C\\n\\n None None None\\n)
+Original text: A mixture of H2BPDC (0.250 g, 1 mmol) and dimethyl amide (DMA, 10 mL) was added to Mn(NO3)2·6H2O (0.293 g, 1 mmol) dissolved in DMA (2 mL). The mixture was kept at 434 K for 20 d, and the product form...
+2025-01-06 17:24:55,122 - 
+Paragraph: ILENOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text:   The title compound was synthesized hydrothermally using pyridine–HF as the solvent in the presence of diethyelenetriamine (DETA). In a typical synthesis 0.335 g indium sulfate was dissolved in 1 ml ...
+2025-01-06 17:24:55,930 - 
+Paragraph: IPICOA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: Synthesis of 1: a mixture of ZnO (1 mmol, 0.082 g), H3PO3 (4 mmol, 0.328 g), sec-butylammine (5 mmol, 0.505 ml), H2O (5 mL) and ethyleneglycol (5 mL) was heated at 160 °C in a Teflon-lined stainless s...
+2025-01-06 17:24:55,930 - 
+Paragraph: OMAMEU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 110439°C (110.0439 C)
+Original text: Synthesis: The title compound was prepared by means of a hydrothermal reaction between Zn(OAc)2⋅2 H2O, H3PO4, [Co(en)3]Cl3 and H2O in a molar ratio of 1:3:0.5:488. Typically, Zn(OAc)2⋅2 H2O (0.25 g) w...
+2025-01-06 17:24:58,405 - 
+Paragraph: MUVMOG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 165°C (165.0 C)
+Original text: In a typical synthesis, compound 1 was prepared under hydrothermal conditions. First, a mixture of GaOOH (0.1028 g) (prepared from direct reaction of metallic gallium with distilled water at 200 °C un...
+2025-01-06 17:25:03,168 - 
+Paragraph: LASMAV_neutral
+Model: LLaMa 3.1 8B Instruct
+Expected: 140°C (140.0 C)
+Got: 25°C (25.0 C)
+Original text:   A mixture of Co(NO3)2·6H2O (1 mmol, 0.291 g), Hina (1 mmol, 0.121 g), hmq (2-(hydroxymethyl)-quinolin-8-ol, 0.25 mmol, 0.044 g), triethylamine (0.20 mL) and EtOH (10 mL) was sealed in a 15 mL Teflon...
+2025-01-06 17:25:03,974 - 
+Paragraph: XIQHIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The title compound was synthesized from a gel containing ethylenediamine (en) as the structure-directing agent. In a typical synthesis, 0.464 g of FeCl3–6H2O and 0.169 g of MnCl2–4H2O was dispersed an...
+2025-01-06 17:25:03,975 - 
+Paragraph: ECODOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: The title compound was synthesized hydrothermally by a typical solution-mediated reaction: 0.05 g Ga2O3, 0.80 g H3PO3, 0.10 ml DETA, 0.40 ml HF and 8 ml of water were stirred for 30 min at room temper...
+2025-01-06 17:25:03,975 - 
+Paragraph: NIMPOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 85°C (85.0 C)
+Original text: 0.005 g (0.0065 mmol) H4pbtd-OEt and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-06 17:25:05,630 - 
+Paragraph: EKEMEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 90°C (90.0 C)
+Got: 100°C (100.0 C)
+Original text: A mixture of H8L (5.0 mg, 5.65 μmol) and CuCl2·2H2O (5.0 mg, 29.32 μmol) was placed in a 20 mL scintillation vial, and a mixed solvent of N,N-dimethylformamide (DMF; 1.5 mL), ethanol (EtOH, 0.5 mL), a...
+2025-01-06 17:25:07,643 - 
+Paragraph: NAHHOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 212°C (212.0 C)
+Original text:   A mixture of H4L3 (5.0 mg, 12.2 μmol), and Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) was dissolved in a mixed solvent of DMF (1.5 mL), CH3CN (0.5 mL), and H2O (0.08 mL) in a 20 mL glass vial. After the add...
+2025-01-06 17:25:08,807 - 
+Paragraph: EKEKIQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 100858°C (100.0858 C)
+Original text: A mixture of 2-propylimidazole (2-pim, 0.0150 g, 0.14 mmol), NH2–H3BTB (0.0150 g, 0.035 mmol), Zn(NO3)2·6H2O (0.0400 g, 0.14 mmol), tetramethylammonium bromide (0.0200 g, 0.13 mmol), and DMF/H2O (v/v ...
+2025-01-06 17:25:09,947 - 
+Paragraph: PETNOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The compound II was prepared from a reaction mixture of InCl3 · 4H2O, H3PO3, piperazine and water with a molar ratio of 0.5:17.1:4.0:666. A typical synthesis procedure begins with mixing 0.16 g InCl3,...
+2025-01-06 17:25:10,717 - 
+Paragraph: ESIDOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C\n211.0}},)
+Original text: [In(popha)(1,10‐phen)]⋅4 H2O (InPF‐21), CH synthesis: a mixture of H3popha (0.119 g, 0.343 mmol), 1,10‐phen (0.061 g, 0.343 mmol), and In(OAc)3 (0.100 g, 0.343 mmol) in distilled water (8 mL) was heat...
+2025-01-06 17:25:11,861 - 
+Paragraph: BUPDOH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 695°C (695.0 C)
+Original text:   A mixture of the organic linker H4L (5.0 mg, 10.77 μmol) and Cu(NO3)2·3H2O (15.0 mg, 62.10 μmol) was dissolved into a mixed solvent of N,N-dimethylformamide (DMF), ethanol and H2O (1.5 mL/0.5 mL/0.0...
+2025-01-06 17:25:12,911 - 
+Paragraph: POBJIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C\n\n)
+Original text: The title compound was synthesized hydrothermally under autogenous pressure. In a typical synthesis, a mixture of BeSO4·4H2O (0.179 g), H3PO3 (0.327 g), diethylenetriamine (dien, 0.16 mL), ethylene gl...
+2025-01-06 17:25:14,805 - 
+Paragraph: WODQUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 160°C (160.0 C)
+Got: 80°C (80.0 C)
+Original text: Method 1: A mixture of Sm(NO3)3·6H2O (8.89 mg, 0.02 mmol), H3pdc (15.61 mg, 0.1 mmol) and CuCO3·Cu(OH)2 (6.63 mg, 0.03 mmol) in water (10 mL) was stirred for 30 min in air, then sealed in a 25 mL Telf...
+2025-01-06 17:25:17,153 - 
+Paragraph: WONRUM02_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 190°C (190.0 C)
+Original text: Synthesis. Initially, the blue needle crystals of 1 were obtained occasionally as a minor product in an attempt to repeat the synthesis of the known compound [H3NC2H4NH3]0.5CoPO4 using a different cob...
+2025-01-06 17:25:19,483 - 
+Paragraph: NAGCAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 165°C (165.0 C)
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g, 6.00 mmol), ZnSO4·H2O (0.516 g, 2.88 mmol), H3PO4 (2 mL, 30 mmol), and 1,3-bis (4-pyridyl) propane (0.382 g, 2.6...
+2025-01-06 17:25:21,873 - 
+Paragraph: BAZFUF01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 120°C (120.0 C)
+Original text: Synthesis of DUT‐33: Cu(NO3)2⋅3H2O (0.241 g, 1.0 mmol), H3(btb) (0.109 g, 0.25 mmol), and benzoic acid (0.299 g, 2.5 mmol) were dissolved in a mixture of DMF (5 mL), EtOH (abs., 5 mL), and pyridine (0...
+2025-01-06 17:25:22,611 - 
+Paragraph: GARTUR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C\n\n\n HYDRO\n\n OR)
+Original text: Crystals of 1 and 2 were observed to form concurrently when a reaction mixture of zinc lactate (0.122 g, 0.5 mmol), Ga2O3 (0.047 g, 0.25 mmol), 5 m H3PO3 (0.6 mL, 3 mmol), DADD (0.4 g, 2 mmol), HF (40...
+2025-01-06 17:25:22,611 - 
+Paragraph: YORRII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: In a typical synthesis, a mixture of BeSO4·4H2O (0.27 g), H3PO3 (0.42 g), pyridine (3.00 mL) and H2O (2.00 mL) was sealed in a 25 mL Teflon-lined autoclave and heated at 160 °C for 6 days. After cooli...
+2025-01-06 17:25:22,994 - 
+Paragraph: KUDWAJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 100°C (100.0 C\n\n)
+Original text: An acetone solution (6 mL) containing Cu(NO3)2·6H2O (0.2 mmol) was layered upon an aqueous solution (4 mL) containing H3tci (0.1 mmol), 4,4′-bipy (0.1 mL) and triethylamine (60 μL) in a test tube; blu...
+2025-01-06 17:25:23,813 - 
+Paragraph: VEHLIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C)
+Original text: C. [H2N(CH3)2]2Zn3(HPO3)4. A total of 0.3748 g of zinc carbonate, 1.9383 g of water, 1.5193 g of ethylene glycol, 1.0351 g of phosphorous acid, 0.0610 g of hydrogen fluoride−pyridine, and 2.425 g of d...
+2025-01-06 17:25:25,906 - 
+Paragraph: LEVBAQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), 4,4′-bipyridine (4...
+2025-01-06 17:25:25,906 - 
+Paragraph: PIJDIX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 155°C (155.0 C)
+Original text:   A mixture of Zn(CH3COO)2·2H2O (0.22 g), H3PO3 (0.45 g), 2-methyl-piperazine (0.36 g), methanol (3 mL) and H2O (2 mL) in the molar ratio of 1:5.5:3.5:111:74 was sealed in a Teflon-lined autoclave and...
+2025-01-06 17:25:25,907 - 
+Paragraph: QESRAI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\\n.)
+Original text: The zinc phosphate, [C8N5H28][Zn5(PO4)5].H2O, I, is synthesized under hydrothermal conditions in the presence of TEPA. In a typical synthesis, 0.3 g of ZnO was dispersed in a mixture of 6.634 ml of de...
+2025-01-06 17:25:25,907 - 
+Paragraph: NIZNAN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 65°C (65.0 C)
+Original text: All compounds including the mixed-lanthanide ones were obtained by adopting an otherwise identical procedure except for the different starting lanthanide salts. The synthesis of [La(BTPCA)H2O]·2DMF·3H...
+2025-01-06 17:25:30,819 - 
+Paragraph: LADKIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 130°C (130.0 C\\n\\n\\n\\n\\)
+Original text: Compound 1 was prepared from a starting mixture containing indium chloride tetrahydrate (InCl3·4H2O) (Aladdin, 98%), phosphorous acid (H3PO3) (Sinopharm Chemical Reagent Beijing Co., Ltd, 99%), oxalic...
+2025-01-06 17:25:33,201 - 
+Paragraph: OLAGIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 130°C (130.0 C)
+Original text: 1: Zn(OAc)2⋅2 H2O (0.5 g) was dissolved in H2O (10 mL) and then H3PO4 (0.46 mL, 85 wt % in water) and [Co(dien)2]Cl3 (0.58 g) were subsequently added while stirring. Finally, Me4NOH (6.0 mL, 10 wt % a...
+2025-01-06 17:25:35,192 - 
+Paragraph: MUHPOV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: Compound 1 was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3·4H2O), oxalic acid (H2C2O4), hydrogen phosphite (H3PO3), 1,4-diazabicyclo[2.2.2]octane (dabco) and H2O with a molar ra...
+2025-01-06 17:25:35,193 - 
+Paragraph: HAWREE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 200°C (200.0 C)
+Got: 1°C (1.0 C)
+Original text: A reaction mixture of Mn(CH3COO)2·4H2O (0.5 mmol, 0.123 g), H2btac (0.4 mmol, 0.065 g), DMF (4 mL), and EtOH (4 mL) was stirred for 20 min in air, then transferred and sealed in a 18-mL Teflon-lined a...
+2025-01-06 17:25:35,193 - 
+Paragraph: ILOJEZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 150°C (150.0 C)
+Got: 72°C (72.0 C)
+Original text:   The mixture of Zn(NO3)2·6H2O (0.0297 g, 0.1 mmol), H4btec (0.0254 g, 0.1 mmol) and btmb (0.0316 g, 0.1 mmol) was dissolved in 12 mL of distilled water. The pH value was then adjusted to 6.0 with 1 M...
+2025-01-06 17:25:36,331 - 
+Paragraph: UGOFED_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: H2TCPP (90 mg, 0.11 mmol) and FeCl3·6H2O (90 mg, 0.33 mmol) were dissolved in 10 mL of DMF in a 45 mL Teflon-lined reactor. Pyrazine was added to the reaction mixture (20 mg, 0.25 mmol), and the solut...
+2025-01-06 17:25:36,331 - 
+Paragraph: WAVREQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 165°C (165.0 C)
+Original text: We sought to synthesize I in pure form by employing another route starting with a cobalt(II) tris amine complex. The amine complex was prepared using the standard inorganic synthesis procedures16 star...
+2025-01-06 17:25:36,331 - 
+Paragraph: HEZNUW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 168°C (168.0 C\\n\\n \\n buffer)
+Original text: The title compound was synthesized by hydrothermal method under autogenous pressure. In a typical synthesis, a mixture of ZnO (0.25 g), H3PO4 (0.43 ml, 85 wt.%), 1-(2-aminoethyl)piperazine (0.32 ml) a...
+2025-01-06 17:25:36,332 - 
+Paragraph: SOBZEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 100255°C (100.0255 C)
+Original text: A mixture of Cd(NO3)2·4H2O (0.060 g, 0.2 mmol), Ca(NO3)2·4H2O (0.048 g, 0.2 mmol), H4BPTC (0.032 g, 0.10 mmol), DMA (2 mL) and H2O (2 mL) was placed in a small vial. The resulting mixture was kept at ...
+2025-01-06 17:25:36,715 - 
+Paragraph: UVEXAV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 210°C (210.0 C\\n\\n\\n }})
+Original text: The second phase MIL-124 (Ga2(OH)4[C9O6H4]) was synthesized from a mixture of 0.6 g gallium nitrate (2.4 mmol), 0.37 g 1,2,4-btc (1.8 mmol) and 5 mL H2O (277.8 mmol), which was heated at 210 °C for 24...
+2025-01-06 17:25:37,876 - 
+Paragraph: WARXUL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 65°C (65.0 C)
+Got: 130°C (130.0 C)
+Original text:   The organic linker 5-methoxyl-1,3-bis(3,5-dicarboxylphenyl)-benzene (H4MBDPB) (Scheme 1) was readily synthesized according to ref. 6. 1H NMR (500 MHz, DMSO-d6): 13.31 (bs, 4H), 8.40 (s, 2H), 8.36 (s...
+2025-01-06 17:25:40,974 - 
+Paragraph: TEZKAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 85°C (85.0 C\n.I.C.I.A)
+Original text: [Zn3(bpdc)3(2,2′‐dmbpy)]⋅(DMF)x(H2O)y was synthesized by the reaction of a mixture of Zn(NO3)⋅6 H2O (0.089 g, 0.3 mmol), 2,2′‐dmbpy (0.019 g, 0.1 mmol), and bpdc (0.072 g, 0.3 mmol) in DMF (10 mL) in ...
+2025-01-06 17:25:40,975 - 
+Paragraph: GULCAS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: The title compound was synthesized by using mild solvothermal conditions under autogenous pressure. Typically, 0.27 g (1 mmol) FeCl3·6H2O was dissolved in a mixture of 6 mL H2O and 3 mL ethanol with s...
+2025-01-06 17:25:41,695 - 
+Paragraph: RUYZUH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g), MnSO4·H2O (0.676 g), ethylenediamine tetraacetic acid (EDTA) (0.744 g), H3PO4 (2 mL), HF (1 mL), ethylenediamin...
+2025-01-06 17:25:41,696 - 
+Paragraph: PUPHUE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 140°C (140.0 C)
+Original text: A mixture of Cd(CH3COO)2·2H2O (0.135 g, 0.5 mmol) and H2L (0.172 g, 0.5 mmol) were dissolved in water (12 ml) and ethanol (3 ml), the pH of the solution was adjusted to be about 6–7 with 0.2 mol L−1 a...
+2025-01-06 17:25:42,170 - 
+Paragraph: NIMPEG01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 85°C (85.0 C,)
+Original text: 0.005 g (0.0068 mmol) H4pbtd-OMe and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-06 17:25:44,753 - 
+Paragraph: UXISUR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 100°C (100.0 C\n\n\n\n }})
+Original text:   In a typical synthesis, the sodium salt of trimesic acid or benzene-1,3,5-tricarboxylic acid (BTC) (0.2 mmol, 46 mg) and Cu(NO3)2·3H2O (0.2 mmol, 48 mg) were dissolved separately in 10 mL DI water a...
+2025-01-06 17:25:44,754 - 
+Paragraph: LADWAR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 140°C (140.0 C)
+Original text: A mixture of CoSO4·7H2O (28.3 mg, 0.10 mmol), 5-phosphononicotinic acid (20.3 mg, 0.1 mmol), DABCO (16.8 mg, 0.15 mmol) and H2O (10 mL) was mixed and stirred for 20 min then transferred to a Teflon-li...
+2025-01-06 17:25:45,570 - 
+Paragraph: LEQVIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170853°C (170.0853 C)
+Original text: Synthesis and Characterization. (C5H18N3)[Fe3(HPO3)6]·3H2O has been synthesized using mild hydrothermal conditions and autogenous pressure. H3PO3 (12 mmol) and Fe(SO4)3·5H2O (0.16 mmol) were dissolved...
+2025-01-06 17:25:47,572 - 
+Paragraph: BOWSUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 140°C (140.0 C\n)
+Original text: Compound 2 was synthesized in the V2O5/H3PO3/DETA/NH4F/H2O reaction system with a molar ratio of 1/24/4/4/664. Typically, 0.046 g V2O5, 0.6 mL H3PO3, 0.11 mL DETA and 0.039 g NH4F were dissolved in 5 ...
+2025-01-06 17:25:47,573 - 
+Paragraph: DUXKEN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 170°C (170.0 C)
+Got: -103°C (170.0 c}},{) - Wrong unit
+Original text:   The title compound was synthesized from a mixture of NaVO3 (0.58 mmol), Ni(NO3)·6H2O (0.58 mmol), and 4,4′-bipyridyl (0.58 mmol) dissolved in 30 mL of distilled water. The pH of the solution was adj...
+2025-01-06 17:25:48,288 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 20°C (20.0 C)
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)]...
+2025-01-06 17:25:48,699 - 
+Paragraph: SERCEZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 0°C (0.0 C) (Which appears in text!)
+Original text: An amount of 0.025 g (0.097 mmol) of 2-hydroxybiphenyl-4,4′-dicarboxylic acid (H2(BPDC–OH)), 0.023 g (0.097 mmol) of biphenyl-4,4′-dicarboxylic acid (H2BPDC), and 0.181 g (0.5 mmol) of Zn(NO3)2·6H2O w...
+2025-01-06 17:25:50,006 - 
+Paragraph: IWAHIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 17552°C (175.052 C)
+Original text: [tmpip][Al6(PO4)6(HPO4)]·(H2O) (3) A mixture of Al(OH)3 (0.0796 g, 1 mmol), H3PO4 (0.33 mL, 5 mmol), 1-methylpiperazine (0.27 mL, 2.5 mmol), methanol (3.0 mL, 75 mmol) and H2O (2.0 mL, 111 mmol) was s...
+2025-01-06 17:25:50,435 - 
+Paragraph: PACZOK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: A mixture of V2O5 (0.3025 g), Zr(NO3)4·5H2O (0.7156 g), 1,6‐hexanediamine (0.7746 g), and H2O (9 mL) in molar ratio 1:1:4:100 was stirred for 2 h briefly in air, then was neutralized to pH = 4 with 50...
+2025-01-06 17:25:51,182 - 
+Paragraph: MIZKOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 170°C (170.0 C)
+Got: 170358°C (170.0358 C)
+Original text: Synthesis of 1,2: A mixture of La2(C2O4)3·9 H2O (0.298 g), CuCl2·2 H2O (0.034 g), H2pdc (0.167 g), H2O (10 ml), and CH3COOH (0.5 mmol) was sealed in a 30 ml Teflon-lined bomb at 170 °C for 7 d, then c...
+2025-01-06 17:25:51,584 - 
+Paragraph: QAJKAO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: To a solution of 0.070 g V2O5 in 8 mL H2O, was added 1.000 g H3PO3 with stirring, followed by the addtion of 0.777 g piperazine. The molar composition of the initial mixture was V2O5:H3PO3:piperazine:...
+2025-01-06 17:25:51,584 - 
+Paragraph: OREZUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C\\n\\n C\\n\\n)
+Original text: Zn3(BDC)2(HBDC)2·2DMA (1): A mixture of Zn(OAc)2·2H2O (82 mg), 9‐AC (55 mg), H2BDC (42 mg), methanol (1 mL), and DMA (4 mL) was sealed in a 25 mL, Teflon®‐lined, stainless‐steel autoclave and heated a...
+2025-01-06 17:25:51,585 - 
+Paragraph: GEZRAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -272°C (1.0 h)
+Original text: Synthesis of TAF‐1: A solution of the crude 4‐thmpyH3 product (0.092 g, 0.5 mmol) in MeOH (15 mL) was added to a stirring solution of Co(Ac)2⋅4 H2O (0.125 g, 0.5 mmol) in MeOH (2 mL). Then, the result...
+2025-01-06 17:25:51,970 - 
+Paragraph: DEKPUF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: In a typical synthesis of 1, a reaction mixture of ZnO (0.36 g) and NiCl2·6H2O (0.79 g) were first dissolved in H2O (10 mL), and then DACH (1.00 mL) was added with stirring under ambient conditions. F...
+2025-01-06 17:25:51,971 - 
+Paragraph: VEHLAW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: Synthesis. A. [N(CH3)4]2Zn3(HPO3)4. A total of 0.3759 g of zinc carbonate, 2.1342 g of water, 2.0302 g of ethylene glycol, 0.7546 g of phosphorous acid, 0.0414 g of hydrogen fluoride−pyridine, and 4.0...
+2025-01-06 17:25:53,158 - 
+Paragraph: FEJDEE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C)
+Original text: Synthesis of [H3N(CH2)4NH3]·[Zn3(HPO3)4]·H2O, 1. In a typical synthesis for compound 1, a mixture of ZnO (0.113 g), H3PO3 (0.55 mL, 50 wt %), 1,4-diaminobutane (0.14 mL), and H2O (2.5 mL) in a molar r...
+2025-01-06 17:25:53,159 - 
+Paragraph: QUDGED_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 105°C (105.0 C\\n{[34.0]}\)
+Original text: Synthesis of IRMOF‐1, IRMOF‐3, and MOF‐2: Both IRMOF‐1 and IRMOF‐3 were synthesized based on a modified procedure reported by Eddaoudi and co‐workers.13 For IRMOF‐1 synthesis, a solution comprised of ...
+2025-01-06 17:25:53,939 - 
+Paragraph: ICIVEW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: Synthesis and characterization: Typically, Zn(OAc)2⋅2 H2O (0.25 g) was first dissolved in H2O (10 mL), and then n‐butylamine (0.51 mL) was added while stirring. Finally, H3PO3 (0.280 g) was added to t...
+2025-01-06 17:25:54,333 - 
+Paragraph: VOXVEL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\n\n\n\n\n\n\n\n\\)
+Original text:   A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.144 g, 85 wt%), 4,4′-bipyridine (0.078 g), H2O (1.0 mL), and n-butanol (4.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °...
+2025-01-06 17:25:58,802 - 
+Paragraph: BOZFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C\n: {)
+Original text: Cd3L(L1)3(H2O) (1): A mixture of Cd(NO3)2·4H2O (0.05 mmol, 0.016 g), L (0.0125 mmol, 0.05 g), H2L1 (0.0375 mmol, 0.012 g), and DMF (8 mL) was heated at 150 °C in a Teflon®‐lined autoclave for 3 days; ...
+2025-01-06 17:25:59,206 - 
+Paragraph: GUSCIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 170°C (170.0 C)
+Got: 220°C (220.0 C)
+Original text: A mixture of Gd(NO3)3·6H2O (0.3 mmol, 0.14 g), CoCl2·6H2O (0.3 mmol, 0.07 g), pyridine-2,5-dicarboxylic acid (0.2 mmol, 0.03 g), K2(C2O4)·H2O (0.1 mmol, 0.02 g), NaOH (0.2 mmol, 0.01 g) and 10 mL deio...
+2025-01-06 17:25:59,980 - 
+Paragraph: CEYPUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 140°C (140.0 C)
+Original text:   A mixture of Co(NO3)2·6H2O (58.2 mg, 0.2 mmol) and HIN (24.6 mg, 0.2 mmol) was treated in DMF (10 mL) and deionized H2O (two drops) under ultrasonic irradiation to produce a clear solution. The resu...
+2025-01-06 17:26:02,665 - 
+Paragraph: DOGZIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 150°C (150.0 C)
+Got: 150853°C (150.0853 C)
+Original text: Zn(NO3)2.6H2O (0.165 g, 0.555 mmol), H2bdc (0.138 g, 0.833 mmol), bimx (0.082 g, 0.278 mmol), and distilled water (4 mL, 222 mmol) were mixed to yield a suspension with a pH value of 4. The suspension...
+2025-01-06 17:26:07,165 - 
+Paragraph: JESDIV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\\n}\\n{)
+Original text: The compound 1 was synthesized hydrothermally by a typical solution mediated reaction: 0.05 g Ga2O3, 0.80 ml H3PO3, 0.50 g piperazine, 0.60 ml HF and 2 ml of water was stirred for 30 min at room tempe...
+2025-01-06 17:26:07,166 - 
+Paragraph: PENZIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 130°C (130.0 C\n\n\n\n \n>)
+Original text: (4,4‘-(C5H4N)2(CH2)3)Zn3(HPO3)4, 1. Zinc acetate dihydrate (220 mg, 1.0 mmol), phosphorous acid (164 mg, 2.0 mmol), 4,4‘-(C5H4N)2(CH2)3 (300 mg, 1.5 mmol), and 6 mL of water were added to a heavy-wall...
+2025-01-06 17:26:07,563 - 
+Paragraph: XAJZOY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 200°C (200.0 C\\n\\n\\n\\n\\)
+Original text: AlPO-ERI was synthesized under hydrothermal conditions in the presence of TMHDA as template. Aluminum isopropoxide Al(OiPr)3 (98+%, Aldrich) and phosphoric acid (85 wt.% in water, Prolabo) were used a...
+2025-01-06 17:26:07,563 - 
+Paragraph: DEKPEP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 150°C (150.0 C)
+Original text: A sample of (C5H5NH)2[Ga4F2(O3PC2H4PO3)3] (II) was synthesized in a similar manner to compound I. Initially Ga2(SO4)3·18H2O (0.768 mmol) was dissolved in a solution of distilled water (111 mmol), pyri...
+2025-01-06 17:26:07,937 - 
+Paragraph: ECASAD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C\\n)
+Original text: All chemicals and solvents used in the syntheses were of reagent grade and used as purchased from Beijing without further purification. Compound 1 were prepared from a mixture of 5ZnO·2CO2·4H2O (0.567...
+2025-01-06 17:26:08,762 - 
+Paragraph: ORUKOD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 695°C (695.0 C)
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Ba(NO3)2 (5.0 mg, 19.1 μmol) was dissolved in a mixed solvent of DMF (1.0 mL), ethanol (0.5 mL) and water (0.5 mL) in a 20 mL vial. After 15 μL of 6 M H...
+2025-01-06 17:26:09,486 - 
+Paragraph: REKCUG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: The title compound was hydrothermally prepared from a mixture of ZnO, H3PO3, 3-dimethylamino-1-propylamine, and distilled water with a molar composition of 15:30:8:1110. Typically, 1.231 g H3PO3 was f...
+2025-01-06 17:26:09,486 - 
+Paragraph: PARSAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 100225°C (100.0225 C)
+Original text: In(NO3)3·4.5H2O (78.7 mg), CaCl2 (22.6 mg), H3BTC (42.4 mg), and N(n-C4H9)4Cl (28.7 mg) were dissolved in 8 mL of DMF in a 20 mL Teflon-lined stainless steel autoclave, and then the resulting solution...
+2025-01-06 17:26:12,144 - 
+Paragraph: PIHWOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text:   A mixture of Zn(CH3COO)2·2H2O (0.34 g), H3PO4 (0.26 mL), 3-(aminomethyl)pyridine (0.41 mL), methanol (4 mL) and H2O (1 mL) in the molar ratio of 1:3:2.6:65:36 was sealed in a Teflon-lined autoclave ...
+2025-01-06 17:26:14,994 - 
+Paragraph: BOWSOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C,)
+Original text: Compound 1 was prepared hydrothermally from a mixture of V2O5/H3PO3/Bipy/H2O with a molar ratio of 1/16/1/531. Typically, 0.023 g V2O5, 0.2 mL H3PO3 and 0.025 g Bipy were dissolved in 0.1 mL NH3 · H2O...
+2025-01-06 17:26:15,754 - 
+Paragraph: WOPGOZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 100351°C (100.0351 C)
+Original text: A mixture of Co(NO3)2·6H2O (58 mg, 0.20 mmol), H4L1 (23 mg, 0.05 mmol), 4-abpt (12 mg, 0.05 mmol), H2O (7.5 mL), and DMF (0.5 mL) was sealed in a 15 mL Teflon-lined reactor and heated at 100 °C for 72...
+2025-01-06 17:26:16,124 - 
+Paragraph: ORERAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\n\n\n 2.0\n}}</)
+Original text: First, 0.710 g P2O5 was dissolved in 10 ml water contained in a 23 ml teflon pot (this reaction is very vigorous). Then, 0.443 g BeSO4·4H2O and 0.186 g 1,3-diaminopropane were added sequentially (star...
+2025-01-06 17:26:16,554 - 
+Paragraph: KIRTOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: A mixture of Al2O3·3H2O (0.156 g), H3PO3 (0.164 g), terephthalic acid (0.166 g) and N,N-dimethylformamide (5.0 ml) was sealed in a Teflon-lined steel autoclave and heated at 170 °C for 5 days. After c...
+2025-01-06 17:26:16,962 - 
+Paragraph: FIBFUS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 160°C (160.0 C)
+Got: 160351°C (160.0351 C)
+Original text: A mixture of timpt (16.5 mg, 0.030 mmol) and Ni(ClO4)2 · 6H2O (11.9 mg, 0.032 mmol) in water/ethanol (6:1, v/v, 14 ml) was stirred for ≈15 min at room temperature. Then the mixture was transferred and...
+2025-01-06 17:26:18,601 - 
+Paragraph: DUSHEG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 140°C (140.0 C)
+Got: 100°C (100.0 C}}]\\n={48.0,)
+Original text:   A mixture of Ni(NO3)2·6H2O (1.740 g, 6.0 mmol), H2bdc (0.996 g, 6.0 mmol), Hna (0.738 g, 6.0 mmol), HBF4 (1.2 mL), and DMA (60.0 mL) was stirred for 30 min in air, then transferred into a 100 mL via...
+2025-01-06 17:26:19,004 - 
+Paragraph: CIMTEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C)
+Original text: A mixture of NdCl3·6H2O (0.01 mmol), H3L (0.005 mmol), and K2CO3 (0.005 mmol) was placed in a small vial containing THF (1.0 mL), DMF (0.5 mL), and EtOH (0.5 mL). The vial was sealed, heated at 80 °C ...
+2025-01-06 17:26:19,772 - 
+Paragraph: DACSEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: -265°C (8.0 0) (Which appears in text!)
+Original text:   A mixture of CuCl2·2H2O (15.0 mg, 88.0 μmol) and the organic linker H4L3 (5.0 mg, 9.8 μmol) was dispersed in a mixed solvent consisting of DMF (1.5 mL), methanol (0.5 mL) and water (0.08 mL) in a 20...
+2025-01-06 17:26:24,919 - 
+Paragraph: XUGWAZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 200°C (200.0 C)
+Got: 285°C (285.0 C)
+Original text: Synthesis of 1: It was prepared from a mixture of DyCl3·6H2O (0.1 mmol, 38 mg), H2TPPS (0.1 mmol, 94 mg), 10 mL distilled water in a 25 mL Teflon-lined autoclave under autogenous pressure at 473 K for...
+2025-01-06 17:26:26,511 - 
+Paragraph: WOQYUW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: The cobalt phosphate-oxalate, was synthesized under mild hydrothermal conditions starting from a gel containing piperazine as the structure-directing agent. In a typical synthesis, 0.487 g of cobalt c...
+2025-01-06 17:26:26,512 - 
+Paragraph: VAMQIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 120°C (120.0 C\n\n\n\n\n\n\\n\\)
+Original text: Synthesis. (CN3H6)2·(VO2)3(PO4)(HPO4) was prepared from a mixture of 0.875 g of guanidinium carbonate [(C(NH2)3)2CO3], 2.240 g of 85% H3PO4, 0.883 g of V2O5, 1.245 g of Mg(NO3)2, and 7 mL of deionized...
+2025-01-06 17:26:28,107 - 
+Paragraph: VOXTUZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text:   A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.115 g, 85 wt%), 4,4′-bipyridine (0.078 g), and methanol (4.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °C for 10 days. ...
+2025-01-06 17:26:28,107 - 
+Paragraph: TISKOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: A mixture of Zn(OAc)2·2H2O (0.22 g, 1.0 mmol), trz (0.11 g, 1.5 mmol), KSCN (0.049 g, 0.50 mmol), and H2O (10 mL) was heated at 180 °C for 5 days under autogenous pressure. The mixture was cooled to r...
+2025-01-06 17:26:28,108 - 
+Paragraph: YIZJEY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 85°C (85.0 C)
+Original text: Three drops of aqueous H3PO3 (50 %) were added to a mixture of Zn(NO3)2⋅6 H2O (0.12 g, 0.40 mmol) and HL (0.05 g, 0.60 mmol) in DMF (5 mL) with stirring. The mixture was heated at 85 °C for 72 h and t...
+2025-01-06 17:26:29,262 - 
+Paragraph: HIJMEU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text: The compound 1 was hydrothermally synthesized under autogenous pressure. A mixture of Mn(OAc)2 · 4H2O (0.1 g), Dy(OAc)3 · 10H2O (0.1 g), (NH4)6Mo7O24 · 4H2O (0.2 g), ethylenediamine (0. 3 ml), and wat...
+2025-01-06 17:26:29,262 - 
+Paragraph: AGIMOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: A mixture containing Mn(NO3)2 (53.7 mg, 0.3 mmol), Hatz (25.5 mg, 0.3 mmol) and H2ip (16.6 mg. 0.1 mmol) was dissolved in mixed water–ethanol solution (10.0 mL, v:v = 1:1), and the initial pH value of...
+2025-01-06 17:26:29,263 - 
+Paragraph: BASSOF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text:   A mixture of Ce(NO3)3·6H2O (0.2 mmol), AgNO3 (0.2 mmol), H3bidc (0.2 mmol), and water (10 mL) was sealed in a 23 mL Teflon reactor and was kept under autogenous pressure at 170 °C for 5 days, then c...
+2025-01-06 17:26:29,661 - 
+Paragraph: LEVDIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 90°C (90.0 C)
+Got: 580°C (580.0 C)
+Original text:   A mixture of the organic linker H4L (10.0 mg, 13.5 μmol) and Cu(NO3)2·2.5H2O (20.0 mg, 86.0 μmol, Aldrich) was dissolved into a mixed solvent (DMF–C2H5OH–H2O, 1.5/0.5/0.2 mL) in a screw-capped vial ...
+2025-01-06 17:26:31,996 - 
+Paragraph: LEVNOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 110°C (110.0 C)
+Got: 285°C (285.0 C)
+Original text: [Mg3(ndc)3(dmf)4] (2): A mixture of Mg(NO3)2·6H2O (1.5 g, 5.85 mmol) and 2,6‐naphthalenedicarboxylic acid (0.9 g, 4.16 mmol) in dmf (60 mL) was filled in a 250‐mL Teflon liner, placed in an autoclave,...
+2025-01-06 17:26:32,394 - 
+Paragraph: VOXVAH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C)
+Original text:   A mixture of BeSO4·4H2O (0.177 g), H3PO4 (0.230 g, 85 wt%), 4,4′-bipyridine (0.156 g), and ethanol (8.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °C for 9 days. Th...
+2025-01-06 17:26:33,933 - 
+Paragraph: UBIPAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 80°C (80.0 C)
+Original text: Synthesis of [Mn2L2(H2O)2]⋅3 H2O (1): Ligand H2L (10 mg, 0.037 mmol) and MnCl2⋅4 H2O (20 mg, 0.10 mmol) were dissolved in a mixture of DMF (10 mL) and H2O (16 mL). After the resulting yellow solution ...
+2025-01-06 17:26:34,734 - 
+Paragraph: INIXOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: Synthesis: The title compound was synthesized under mild hydrothermal conditions. MgCl2·6H2O (4.0662 g, 20 mmol) and B2O3 (2.7848 g, 40 mmol) were mixed in deionized water (40 mL) whilst stirring. H3P...
+2025-01-06 17:26:34,735 - 
+Paragraph: IRAYOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 170°C (170.0 C)
+Original text: V2O5 (0.09 g, 0.5 mmol) was added to deionized water (10 mL), resulting in a yellow turbid mixture. H3PO4 (1 mL) and ethanediamine (1.5 mL) were added to the mixture and it turned a light green color....
+2025-01-06 17:26:35,113 - 
+Paragraph: BOWRAH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 212°C (212.0 C,)
+Original text: (C3H12N2)FeIII 6(H2O)4[B4P8O32(OH)8] was prepared under mild hydrothermal conditions at 443 K. A mixture of 0.811 g FeCl3·6H2O (Alfa, 99.8%), 1.484 g H3BO3 (Alfa, 99.9%), 0.822 g C3H10N2 (1,3-diaminop...
+2025-01-06 17:26:37,057 - 
+Paragraph: FIVYEP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 0°C (0.0 C) (Which appears in text!)
+Original text: † Preparation of [K2Mg2{U2(C2O4)7}·2H2O];9H2O: K4U(C2O4)4 was synthesized in situ from U(C2O4)2·6H2O (0.2 g, 0.4 mmol) and K2(C2O4)·H2O (0.15 g, 0.8 mmol) in H2O (12 mL) at 80 °C. To the hot green sol...
+2025-01-06 17:26:37,057 - 
+Paragraph: YAVWUQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 70°C (70.0 C)
+Got: 2550°C (2550.0 C)
+Original text:   A mixture of H4L (5.0 mg, 12.6 μmol) and Cu(NO3)2·2.5H2O (15.0 mg, 64.5 μmol) was dissolved in a mixed solvent of N,N-dimethylformamide (DMF, 1.5 mL) and 6 M HCl (0.02 mL), and then the mixture was ...
+2025-01-06 17:26:37,799 - 
+Paragraph: WECBAJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\n\n}}aO{{DNone }})
+Original text: ‡ The synthesis of 1. Compound 1 was synthesized by solvo(hydro)thermal reaction of Zn(NO3)2(1 mmol), H3PO4 (6 mmol), 4,4′-bipyridine (6.4 mmol) in ethylene glycol (2 ml) and water (6 ml) mixed solven...
+2025-01-06 17:26:40,779 - 
+Paragraph: ENESOH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: 8552°C (85.052 C)
+Original text:   A mixture of CuCl2·2H2O (0.085 g, 0.5 mmol), TAAP (0.020 g, 0.1 mmol), (NH4)6Mo7O24·4H2O (0.124 g, 0.1 mmol), H2O (5 mL) and methanol (5 mL) was added into a 12 mL glass vial and heated at 85 °C for...
+2025-01-06 17:26:41,168 - 
+Paragraph: VEHROR_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 102°C (102.0 C)
+Got: 0°C (0.0 C) (Which appears in text!)
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), H3[PMo12O40]·nH2O (182.5 mg), LaCl3 (0.2500 mmol, 61.30 mg) and NaF (52.00 mg 0.1250 mmol), with a starting pH of 2.0 adjusted ...
+2025-01-06 17:26:42,025 - 
+Paragraph: FIGFOR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C\\n})
+Original text: Hydrothermal reactions were carried out in home-made Teflon-lined stainless-steel autoclaves with 8 mL capacity. 1 was prepared from starting mixtures of approximate molar compositions ZnCl2:H3BO3:H3P...
+2025-01-06 17:26:44,879 - 
+Paragraph: AHAMAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: [enH2]0.5Zn[(L)(H2O)]·H2O (1): A mixture of Zn(NO3)2·6H2O (0.30 g, 1.0 mmol), NaF (0.04g, 1.0 mmol), and H3L (0.5 mL, 2.0 mmol) in deionised water (10.0 mL), adjusted to pH ≈︁ 6 with ethylenediamine w...
+2025-01-06 17:26:47,166 - 
+Paragraph: KEVVIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 110°C (110.0 C)
+Got: 0°C (0.0 C}}]>\n100.0C\\) (Which appears in text!)
+Original text: The synthesis of complex [Co3(bpp)2(D-Hcam)2(fipbb)2(H2O)2]·2H2O (1):A mixture of Co(NO3)2·6H2O (0.5 mmol, 0.146 g), H2hfipbb (0.1 mmol, 0.039 g), D-(+)-H2cam (0.25 mmol, 0.05 g), bpp (0.25 mmol, 0.04...
+2025-01-06 17:26:49,902 - 
+Paragraph: EDOYOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\n\n\n\n\n\n\n\\n)
+Original text:   ZCP-THO was prepared by employing hydrothermal methods. Typically, ZnO (240 mg), 2CoCO3  ·3Co(OH)2·xH2O (600 mg), H3PO4 (85%, 0.6 ml) and 4 ml H2O were mixed together and stirred for about half an h...
+2025-01-06 17:26:54,181 - 
+Paragraph: WEVQOD01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180853°C (180.0853 C)
+Original text: [Co(H2O)6][CoGd(oda)3]2⋅3 H2O (2‐Co): A mixture of Co(CH3COO)2⋅6 H2O (0.18 g, 0.75 mmol), H2oda (0.012 g, 0.75 mmol), and Gd2O3 (0.09 g, 0.25 mmol) was added to 15 mL of deionized water and the mixtur...
+2025-01-06 17:26:54,946 - 
+Paragraph: QOCBUH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\\n}{)
+Original text: Hpy·Be3(OH)(HPO4)3 (2b): A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.144 g, 85 wt.‐%), pyridine (0.101 g), H2O (1.0 mL), and isopropyl alcohol (4.0 mL) was sealed in a 20 mL Teflon‐lined steel autocla...
+2025-01-06 17:27:01,819 - 
+Paragraph: GUGXOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 160°C (160.0 C)
+Original text: Synthesis of [H2ampy][Be3(HPO4)4] (2): A mixture of BeSO4·4H2O (0.170g), H3PO4 (0.30 mL), 3‐(aminomethyl)pyridine (0.20 mL), methanol (4.40 mL), and H2O (0.60 mL) was sealed in a 25 mL Teflon‐lined au...
+2025-01-06 17:27:10,114 - 
+Paragraph: QOBPEE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: None°C (None C)
+Got: 180°C (180.0 C\\n\\n MOF temperature units -)
+Original text: Him·Be3(OH)(HPO4)3 (2a): A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.115 g, 85 wt.‐%), imidazole (0.034 g), water (0.9 mL), and ethylene glycol (4.0 mL) was sealed in a 20 mL Teflon‐lined steel autocl...
+2025-01-06 17:27:10,491 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 105°C (105.0 C)
+Got: 1°C (0.1 C) (Which appears in text!)
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in D...

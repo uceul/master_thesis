@@ -1,0 +1,9 @@
+2025-01-06 11:41:07,363 INFO     analysing!
+2025-01-06 11:41:07,363 INFO     Loading dataset from CSV, path: mof_dataset_labeled_M.csv
+2025-01-06 11:41:07,363 INFO     [dataset]: Loading LabeledMofDataset from csv 'mof_dataset_labeled_M.csv'
+2025-01-06 11:41:07,406 INFO     [dataset]: Finished loading from csv. #Items: 905
+{}
+{}
+{}
+{}
+Total no additives: 0

@@ -1,0 +1,258 @@
+2025-01-07 17:42:49,556 INFO     analysing!
+2025-01-07 17:42:49,556 INFO     Loading dataset from CSV, path: mof_dataset_labeled_M.csv
+2025-01-07 17:42:49,556 INFO     [dataset]: Loading LabeledMofDataset from csv 'mof_dataset_labeled_M.csv'
+2025-01-07 17:42:49,585 INFO     [dataset]: Finished loading from csv. #Items: 905
+2025-01-07 17:42:53,688 ERROR    Missing required solvent data for paragraph HULTEN_clean
+2025-01-07 17:42:53,688 ERROR    Error processing evaluation for HULTEN_clean, Phi 3 Mini 4k Instruct: Paragraph HULTEN_clean is missing required solvent data
+2025-01-07 17:42:55,830 ERROR    Missing required solvent data for paragraph MATHEV_clean
+2025-01-07 17:42:55,830 ERROR    Error processing evaluation for MATHEV_clean, Phi 3 Mini 4k Instruct: Paragraph MATHEV_clean is missing required solvent data
+2025-01-07 17:42:57,511 ERROR    Missing required solvent data for paragraph KAHYEY_clean
+2025-01-07 17:42:57,511 ERROR    Error processing evaluation for KAHYEY_clean, Phi 3 Mini 4k Instruct: Paragraph KAHYEY_clean is missing required solvent data
+2025-01-07 17:42:58,223 ERROR    Missing required solvent data for paragraph TOVJAP_charged
+2025-01-07 17:42:58,223 ERROR    Error processing evaluation for TOVJAP_charged, Phi 3 Mini 4k Instruct: Paragraph TOVJAP_charged is missing required solvent data
+2025-01-07 17:42:58,562 ERROR    Missing required solvent data for paragraph AQEFOS_clean
+2025-01-07 17:42:58,563 ERROR    Error processing evaluation for AQEFOS_clean, Phi 3 Mini 4k Instruct: Paragraph AQEFOS_clean is missing required solvent data
+2025-01-07 17:42:59,908 ERROR    Missing required solvent data for paragraph TANFEV_clean
+2025-01-07 17:42:59,908 ERROR    Error processing evaluation for TANFEV_clean, Phi 3 Mini 4k Instruct: Paragraph TANFEV_clean is missing required solvent data
+2025-01-07 17:43:00,923 ERROR    Missing required solvent data for paragraph EBITAL_clean
+2025-01-07 17:43:00,923 ERROR    Error processing evaluation for EBITAL_clean, Phi 3 Mini 4k Instruct: Paragraph EBITAL_clean is missing required solvent data
+2025-01-07 17:43:05,222 ERROR    Missing required solvent data for paragraph AJOTEY_clean
+2025-01-07 17:43:05,222 ERROR    Error processing evaluation for AJOTEY_clean, Phi 3 Mini 4k Instruct: Paragraph AJOTEY_clean is missing required solvent data
+2025-01-07 17:43:05,222 ERROR    Missing required solvent data for paragraph FORXAM_clean
+2025-01-07 17:43:05,222 ERROR    Error processing evaluation for FORXAM_clean, Phi 3 Mini 4k Instruct: Paragraph FORXAM_clean is missing required solvent data
+2025-01-07 17:43:06,450 ERROR    Missing required solvent data for paragraph ATOGEV_clean
+2025-01-07 17:43:06,450 ERROR    Error processing evaluation for ATOGEV_clean, Phi 3 Mini 4k Instruct: Paragraph ATOGEV_clean is missing required solvent data
+2025-01-07 17:43:07,470 ERROR    Missing required solvent data for paragraph WOBHOM_clean
+2025-01-07 17:43:07,470 ERROR    Error processing evaluation for WOBHOM_clean, Phi 3 Mini 4k Instruct: Paragraph WOBHOM_clean is missing required solvent data
+2025-01-07 17:43:11,802 ERROR    Missing required solvent data for paragraph QOBWEJ01_clean
+2025-01-07 17:43:11,802 ERROR    Error processing evaluation for QOBWEJ01_clean, Phi 3 Mini 4k Instruct: Paragraph QOBWEJ01_clean is missing required solvent data
+2025-01-07 17:43:12,777 ERROR    Missing required solvent data for paragraph VEZQEX_clean
+2025-01-07 17:43:12,777 ERROR    Error processing evaluation for VEZQEX_clean, Phi 3 Mini 4k Instruct: Paragraph VEZQEX_clean is missing required solvent data
+2025-01-07 17:43:14,773 ERROR    Missing required solvent data for paragraph LAVMAY_clean
+2025-01-07 17:43:14,773 ERROR    Error processing evaluation for LAVMAY_clean, Phi 3 Mini 4k Instruct: Paragraph LAVMAY_clean is missing required solvent data
+2025-01-07 17:43:16,135 ERROR    Missing required solvent data for paragraph FIVQOR_clean
+2025-01-07 17:43:16,135 ERROR    Error processing evaluation for FIVQOR_clean, Phi 3 Mini 4k Instruct: Paragraph FIVQOR_clean is missing required solvent data
+2025-01-07 17:43:16,136 ERROR    Missing required solvent data for paragraph GUVBEF_clean
+2025-01-07 17:43:16,136 ERROR    Error processing evaluation for GUVBEF_clean, Phi 3 Mini 4k Instruct: Paragraph GUVBEF_clean is missing required solvent data
+2025-01-07 17:43:16,859 ERROR    Missing required solvent data for paragraph RIFQUT_clean
+2025-01-07 17:43:16,859 ERROR    Error processing evaluation for RIFQUT_clean, Phi 3 Mini 4k Instruct: Paragraph RIFQUT_clean is missing required solvent data
+2025-01-07 17:43:16,859 ERROR    Missing required solvent data for paragraph UCAJUF_clean
+2025-01-07 17:43:16,859 ERROR    Error processing evaluation for UCAJUF_clean, Phi 3 Mini 4k Instruct: Paragraph UCAJUF_clean is missing required solvent data
+2025-01-07 17:43:18,673 ERROR    Missing required solvent data for paragraph FEJDII_clean
+2025-01-07 17:43:18,673 ERROR    Error processing evaluation for FEJDII_clean, Phi 3 Mini 4k Instruct: Paragraph FEJDII_clean is missing required solvent data
+2025-01-07 17:43:20,490 ERROR    Missing required solvent data for paragraph CIXCOC_clean
+2025-01-07 17:43:20,490 ERROR    Error processing evaluation for CIXCOC_clean, Phi 3 Mini 4k Instruct: Paragraph CIXCOC_clean is missing required solvent data
+2025-01-07 17:43:20,490 ERROR    Missing required solvent data for paragraph LIXWEV_clean
+2025-01-07 17:43:20,490 ERROR    Error processing evaluation for LIXWEV_clean, Phi 3 Mini 4k Instruct: Paragraph LIXWEV_clean is missing required solvent data
+2025-01-07 17:43:20,491 ERROR    Missing required solvent data for paragraph NAVFUM_clean
+2025-01-07 17:43:20,491 ERROR    Error processing evaluation for NAVFUM_clean, Phi 3 Mini 4k Instruct: Paragraph NAVFUM_clean is missing required solvent data
+2025-01-07 17:43:20,808 ERROR    Missing required solvent data for paragraph WACKOB_clean
+2025-01-07 17:43:20,808 ERROR    Error processing evaluation for WACKOB_clean, Phi 3 Mini 4k Instruct: Paragraph WACKOB_clean is missing required solvent data
+2025-01-07 17:43:21,138 ERROR    Missing required solvent data for paragraph SASKIH_clean
+2025-01-07 17:43:21,138 ERROR    Error processing evaluation for SASKIH_clean, Phi 3 Mini 4k Instruct: Paragraph SASKIH_clean is missing required solvent data
+2025-01-07 17:43:21,783 ERROR    Missing required solvent data for paragraph IMIDZB10_clean
+2025-01-07 17:43:21,783 ERROR    Error processing evaluation for IMIDZB10_clean, Phi 3 Mini 4k Instruct: Paragraph IMIDZB10_clean is missing required solvent data
+2025-01-07 17:43:21,784 ERROR    Missing required solvent data for paragraph IWAHUK_clean
+2025-01-07 17:43:21,784 ERROR    Error processing evaluation for IWAHUK_clean, Phi 3 Mini 4k Instruct: Paragraph IWAHUK_clean is missing required solvent data
+2025-01-07 17:43:22,463 ERROR    Missing required solvent data for paragraph NEZBOK_clean
+2025-01-07 17:43:22,463 ERROR    Error processing evaluation for NEZBOK_clean, Phi 3 Mini 4k Instruct: Paragraph NEZBOK_clean is missing required solvent data
+2025-01-07 17:43:22,463 ERROR    Missing required solvent data for paragraph TAPXIT01_clean
+2025-01-07 17:43:22,463 ERROR    Error processing evaluation for TAPXIT01_clean, Phi 3 Mini 4k Instruct: Paragraph TAPXIT01_clean is missing required solvent data
+2025-01-07 17:43:22,826 ERROR    Missing required solvent data for paragraph YABWOP_clean
+2025-01-07 17:43:22,826 ERROR    Error processing evaluation for YABWOP_clean, Phi 3 Mini 4k Instruct: Paragraph YABWOP_clean is missing required solvent data
+2025-01-07 17:43:23,162 ERROR    Missing required solvent data for paragraph YONNAR_clean
+2025-01-07 17:43:23,162 ERROR    Error processing evaluation for YONNAR_clean, Phi 3 Mini 4k Instruct: Paragraph YONNAR_clean is missing required solvent data
+2025-01-07 17:43:24,217 ERROR    Missing required solvent data for paragraph VEHLEA_clean
+2025-01-07 17:43:24,217 ERROR    Error processing evaluation for VEHLEA_clean, Phi 3 Mini 4k Instruct: Paragraph VEHLEA_clean is missing required solvent data
+2025-01-07 17:43:25,278 ERROR    Missing required solvent data for paragraph IXEJOL_clean
+2025-01-07 17:43:25,278 ERROR    Error processing evaluation for IXEJOL_clean, Phi 3 Mini 4k Instruct: Paragraph IXEJOL_clean is missing required solvent data
+2025-01-07 17:43:25,278 ERROR    Missing required solvent data for paragraph SUXNIJ_clean
+2025-01-07 17:43:25,278 ERROR    Error processing evaluation for SUXNIJ_clean, Phi 3 Mini 4k Instruct: Paragraph SUXNIJ_clean is missing required solvent data
+2025-01-07 17:43:25,278 ERROR    Missing required solvent data for paragraph XEQGAC_clean
+2025-01-07 17:43:25,279 ERROR    Error processing evaluation for XEQGAC_clean, Phi 3 Mini 4k Instruct: Paragraph XEQGAC_clean is missing required solvent data
+2025-01-07 17:43:25,629 ERROR    Missing required solvent data for paragraph GUCJAQ_clean
+2025-01-07 17:43:25,629 ERROR    Error processing evaluation for GUCJAQ_clean, Phi 3 Mini 4k Instruct: Paragraph GUCJAQ_clean is missing required solvent data
+2025-01-07 17:43:25,629 ERROR    Missing required solvent data for paragraph YIJCEB_clean
+2025-01-07 17:43:25,629 ERROR    Error processing evaluation for YIJCEB_clean, Phi 3 Mini 4k Instruct: Paragraph YIJCEB_clean is missing required solvent data
+2025-01-07 17:43:27,978 ERROR    Missing required solvent data for paragraph OFIWIK_charged
+2025-01-07 17:43:27,978 ERROR    Error processing evaluation for OFIWIK_charged, Phi 3 Mini 4k Instruct: Paragraph OFIWIK_charged is missing required solvent data
+2025-01-07 17:43:28,972 ERROR    Missing required solvent data for paragraph XAWBEE_clean
+2025-01-07 17:43:28,972 ERROR    Error processing evaluation for XAWBEE_clean, Phi 3 Mini 4k Instruct: Paragraph XAWBEE_clean is missing required solvent data
+2025-01-07 17:43:29,678 ERROR    Missing required solvent data for paragraph AKEDIF_clean
+2025-01-07 17:43:29,678 ERROR    Error processing evaluation for AKEDIF_clean, Phi 3 Mini 4k Instruct: Paragraph AKEDIF_clean is missing required solvent data
+2025-01-07 17:43:30,026 ERROR    Missing required solvent data for paragraph FORXIU_clean
+2025-01-07 17:43:30,026 ERROR    Error processing evaluation for FORXIU_clean, Phi 3 Mini 4k Instruct: Paragraph FORXIU_clean is missing required solvent data
+2025-01-07 17:43:32,502 ERROR    Missing required solvent data for paragraph EKUPEG_clean
+2025-01-07 17:43:32,502 ERROR    Error processing evaluation for EKUPEG_clean, Phi 3 Mini 4k Instruct: Paragraph EKUPEG_clean is missing required solvent data
+2025-01-07 17:43:32,502 ERROR    Missing required solvent data for paragraph TEQVAO_manual
+2025-01-07 17:43:32,502 ERROR    Error processing evaluation for TEQVAO_manual, Phi 3 Mini 4k Instruct: Paragraph TEQVAO_manual is missing required solvent data
+2025-01-07 17:43:35,572 ERROR    Missing required solvent data for paragraph RORVAX_clean
+2025-01-07 17:43:35,572 ERROR    Error processing evaluation for RORVAX_clean, Phi 3 Mini 4k Instruct: Paragraph RORVAX_clean is missing required solvent data
+2025-01-07 17:43:36,238 ERROR    Missing required solvent data for paragraph TACFIN01_clean
+2025-01-07 17:43:36,238 ERROR    Error processing evaluation for TACFIN01_clean, Phi 3 Mini 4k Instruct: Paragraph TACFIN01_clean is missing required solvent data
+2025-01-07 17:43:36,556 ERROR    Missing required solvent data for paragraph WOWGUK_clean
+2025-01-07 17:43:36,556 ERROR    Error processing evaluation for WOWGUK_clean, Phi 3 Mini 4k Instruct: Paragraph WOWGUK_clean is missing required solvent data
+2025-01-07 17:43:39,756 ERROR    Missing required solvent data for paragraph ILENOC_clean
+2025-01-07 17:43:39,756 ERROR    Error processing evaluation for ILENOC_clean, Phi 3 Mini 4k Instruct: Paragraph ILENOC_clean is missing required solvent data
+2025-01-07 17:43:41,282 ERROR    Missing required solvent data for paragraph IPICOA_clean
+2025-01-07 17:43:41,282 ERROR    Error processing evaluation for IPICOA_clean, Phi 3 Mini 4k Instruct: Paragraph IPICOA_clean is missing required solvent data
+2025-01-07 17:43:41,283 ERROR    Missing required solvent data for paragraph OMAMEU_clean
+2025-01-07 17:43:41,283 ERROR    Error processing evaluation for OMAMEU_clean, Phi 3 Mini 4k Instruct: Paragraph OMAMEU_clean is missing required solvent data
+2025-01-07 17:43:42,072 ERROR    Missing required solvent data for paragraph MUVMOG_clean
+2025-01-07 17:43:42,072 ERROR    Error processing evaluation for MUVMOG_clean, Phi 3 Mini 4k Instruct: Paragraph MUVMOG_clean is missing required solvent data
+2025-01-07 17:43:45,273 ERROR    Missing required solvent data for paragraph XIQHIO_clean
+2025-01-07 17:43:45,274 ERROR    Error processing evaluation for XIQHIO_clean, Phi 3 Mini 4k Instruct: Paragraph XIQHIO_clean is missing required solvent data
+2025-01-07 17:43:45,274 ERROR    Missing required solvent data for paragraph ECODOQ_clean
+2025-01-07 17:43:45,274 ERROR    Error processing evaluation for ECODOQ_clean, Phi 3 Mini 4k Instruct: Paragraph ECODOQ_clean is missing required solvent data
+2025-01-07 17:43:45,274 ERROR    Missing required solvent data for paragraph NIMPOQ_clean
+2025-01-07 17:43:45,274 ERROR    Error processing evaluation for NIMPOQ_clean, Phi 3 Mini 4k Instruct: Paragraph NIMPOQ_clean is missing required solvent data
+2025-01-07 17:43:46,552 ERROR    Missing required solvent data for paragraph PETNOS_clean
+2025-01-07 17:43:46,552 ERROR    Error processing evaluation for PETNOS_clean, Phi 3 Mini 4k Instruct: Paragraph PETNOS_clean is missing required solvent data
+2025-01-07 17:43:47,593 ERROR    Missing required solvent data for paragraph ESIDOB_clean
+2025-01-07 17:43:47,593 ERROR    Error processing evaluation for ESIDOB_clean, Phi 3 Mini 4k Instruct: Paragraph ESIDOB_clean is missing required solvent data
+2025-01-07 17:43:47,917 ERROR    Missing required solvent data for paragraph POBJIB_clean
+2025-01-07 17:43:47,917 ERROR    Error processing evaluation for POBJIB_clean, Phi 3 Mini 4k Instruct: Paragraph POBJIB_clean is missing required solvent data
+2025-01-07 17:43:49,247 ERROR    Missing required solvent data for paragraph WONRUM02_clean
+2025-01-07 17:43:49,247 ERROR    Error processing evaluation for WONRUM02_clean, Phi 3 Mini 4k Instruct: Paragraph WONRUM02_clean is missing required solvent data
+2025-01-07 17:43:50,911 ERROR    Missing required solvent data for paragraph NAGCAB_clean
+2025-01-07 17:43:50,911 ERROR    Error processing evaluation for NAGCAB_clean, Phi 3 Mini 4k Instruct: Paragraph NAGCAB_clean is missing required solvent data
+2025-01-07 17:43:52,337 ERROR    Missing required solvent data for paragraph GARTUR_clean
+2025-01-07 17:43:52,337 ERROR    Error processing evaluation for GARTUR_clean, Phi 3 Mini 4k Instruct: Paragraph GARTUR_clean is missing required solvent data
+2025-01-07 17:43:52,338 ERROR    Missing required solvent data for paragraph YORRII_clean
+2025-01-07 17:43:52,338 ERROR    Error processing evaluation for YORRII_clean, Phi 3 Mini 4k Instruct: Paragraph YORRII_clean is missing required solvent data
+2025-01-07 17:43:52,791 ERROR    Missing required solvent data for paragraph KUDWAJ_clean
+2025-01-07 17:43:52,791 ERROR    Error processing evaluation for KUDWAJ_clean, Phi 3 Mini 4k Instruct: Paragraph KUDWAJ_clean is missing required solvent data
+2025-01-07 17:43:53,135 ERROR    Missing required solvent data for paragraph VEHLIE_clean
+2025-01-07 17:43:53,135 ERROR    Error processing evaluation for VEHLIE_clean, Phi 3 Mini 4k Instruct: Paragraph VEHLIE_clean is missing required solvent data
+2025-01-07 17:43:54,188 ERROR    Missing required solvent data for paragraph LEVBAQ_clean
+2025-01-07 17:43:54,188 ERROR    Error processing evaluation for LEVBAQ_clean, Phi 3 Mini 4k Instruct: Paragraph LEVBAQ_clean is missing required solvent data
+2025-01-07 17:43:54,189 ERROR    Missing required solvent data for paragraph PIJDIX_clean
+2025-01-07 17:43:54,189 ERROR    Error processing evaluation for PIJDIX_clean, Phi 3 Mini 4k Instruct: Paragraph PIJDIX_clean is missing required solvent data
+2025-01-07 17:43:54,513 ERROR    Missing required solvent data for paragraph QESRAI_clean
+2025-01-07 17:43:54,513 ERROR    Error processing evaluation for QESRAI_clean, Phi 3 Mini 4k Instruct: Paragraph QESRAI_clean is missing required solvent data
+2025-01-07 17:43:54,513 ERROR    Missing required solvent data for paragraph NIZNAN_clean
+2025-01-07 17:43:54,514 ERROR    Error processing evaluation for NIZNAN_clean, Phi 3 Mini 4k Instruct: Paragraph NIZNAN_clean is missing required solvent data
+2025-01-07 17:43:58,562 ERROR    Missing required solvent data for paragraph LADKIN_clean
+2025-01-07 17:43:58,562 ERROR    Error processing evaluation for LADKIN_clean, Phi 3 Mini 4k Instruct: Paragraph LADKIN_clean is missing required solvent data
+2025-01-07 17:43:59,238 ERROR    Missing required solvent data for paragraph OLAGIR_clean
+2025-01-07 17:43:59,238 ERROR    Error processing evaluation for OLAGIR_clean, Phi 3 Mini 4k Instruct: Paragraph OLAGIR_clean is missing required solvent data
+2025-01-07 17:43:59,239 ERROR    Missing required solvent data for paragraph MUHPOV_clean
+2025-01-07 17:43:59,239 ERROR    Error processing evaluation for MUHPOV_clean, Phi 3 Mini 4k Instruct: Paragraph MUHPOV_clean is missing required solvent data
+2025-01-07 17:43:59,240 ERROR    Missing required solvent data for paragraph UGOFED_clean
+2025-01-07 17:43:59,240 ERROR    Error processing evaluation for UGOFED_clean, Phi 3 Mini 4k Instruct: Paragraph UGOFED_clean is missing required solvent data
+2025-01-07 17:43:59,579 ERROR    Missing required solvent data for paragraph WAVREQ_clean
+2025-01-07 17:43:59,580 ERROR    Error processing evaluation for WAVREQ_clean, Phi 3 Mini 4k Instruct: Paragraph WAVREQ_clean is missing required solvent data
+2025-01-07 17:43:59,580 ERROR    Missing required solvent data for paragraph HEZNUW_clean
+2025-01-07 17:43:59,580 ERROR    Error processing evaluation for HEZNUW_clean, Phi 3 Mini 4k Instruct: Paragraph HEZNUW_clean is missing required solvent data
+2025-01-07 17:43:59,580 ERROR    Missing required solvent data for paragraph UVEXAV_clean
+2025-01-07 17:43:59,581 ERROR    Error processing evaluation for UVEXAV_clean, Phi 3 Mini 4k Instruct: Paragraph UVEXAV_clean is missing required solvent data
+2025-01-07 17:44:02,135 ERROR    Missing required solvent data for paragraph TEZKAM_clean
+2025-01-07 17:44:02,135 ERROR    Error processing evaluation for TEZKAM_clean, Phi 3 Mini 4k Instruct: Paragraph TEZKAM_clean is missing required solvent data
+2025-01-07 17:44:02,136 ERROR    Missing required solvent data for paragraph GULCAS_clean
+2025-01-07 17:44:02,136 ERROR    Error processing evaluation for GULCAS_clean, Phi 3 Mini 4k Instruct: Paragraph GULCAS_clean is missing required solvent data
+2025-01-07 17:44:02,469 ERROR    Missing required solvent data for paragraph RUYZUH_clean
+2025-01-07 17:44:02,469 ERROR    Error processing evaluation for RUYZUH_clean, Phi 3 Mini 4k Instruct: Paragraph RUYZUH_clean is missing required solvent data
+2025-01-07 17:44:02,469 ERROR    Missing required solvent data for paragraph PUPHUE_clean
+2025-01-07 17:44:02,469 ERROR    Error processing evaluation for PUPHUE_clean, Phi 3 Mini 4k Instruct: Paragraph PUPHUE_clean is missing required solvent data
+2025-01-07 17:44:02,470 ERROR    Missing required solvent data for paragraph NIMPEG01_clean
+2025-01-07 17:44:02,470 ERROR    Error processing evaluation for NIMPEG01_clean, Phi 3 Mini 4k Instruct: Paragraph NIMPEG01_clean is missing required solvent data
+2025-01-07 17:44:05,495 ERROR    Missing required solvent data for paragraph UXISUR_clean
+2025-01-07 17:44:05,496 ERROR    Error processing evaluation for UXISUR_clean, Phi 3 Mini 4k Instruct: Paragraph UXISUR_clean is missing required solvent data
+2025-01-07 17:44:05,496 ERROR    Missing required solvent data for paragraph LADWAR_clean
+2025-01-07 17:44:05,496 ERROR    Error processing evaluation for LADWAR_clean, Phi 3 Mini 4k Instruct: Paragraph LADWAR_clean is missing required solvent data
+2025-01-07 17:44:05,866 ERROR    Missing required solvent data for paragraph LEQVIN_clean
+2025-01-07 17:44:05,866 ERROR    Error processing evaluation for LEQVIN_clean, Phi 3 Mini 4k Instruct: Paragraph LEQVIN_clean is missing required solvent data
+2025-01-07 17:44:07,630 ERROR    Missing required solvent data for paragraph BOWSUC_clean
+2025-01-07 17:44:07,630 ERROR    Error processing evaluation for BOWSUC_clean, Phi 3 Mini 4k Instruct: Paragraph BOWSUC_clean is missing required solvent data
+2025-01-07 17:44:07,977 ERROR    Missing required solvent data for paragraph SERCEZ_clean
+2025-01-07 17:44:07,977 ERROR    Error processing evaluation for SERCEZ_clean, Phi 3 Mini 4k Instruct: Paragraph SERCEZ_clean is missing required solvent data
+2025-01-07 17:44:07,977 ERROR    Missing required solvent data for paragraph IWAHIZ_clean
+2025-01-07 17:44:07,977 ERROR    Error processing evaluation for IWAHIZ_clean, Phi 3 Mini 4k Instruct: Paragraph IWAHIZ_clean is missing required solvent data
+2025-01-07 17:44:07,978 ERROR    Missing required solvent data for paragraph PACZOK_clean
+2025-01-07 17:44:07,978 ERROR    Error processing evaluation for PACZOK_clean, Phi 3 Mini 4k Instruct: Paragraph PACZOK_clean is missing required solvent data
+2025-01-07 17:44:08,935 ERROR    Missing required solvent data for paragraph QAJKAO_clean
+2025-01-07 17:44:08,936 ERROR    Error processing evaluation for QAJKAO_clean, Phi 3 Mini 4k Instruct: Paragraph QAJKAO_clean is missing required solvent data
+2025-01-07 17:44:08,936 ERROR    Missing required solvent data for paragraph OREZUI_clean
+2025-01-07 17:44:08,936 ERROR    Error processing evaluation for OREZUI_clean, Phi 3 Mini 4k Instruct: Paragraph OREZUI_clean is missing required solvent data
+2025-01-07 17:44:08,936 ERROR    Missing required solvent data for paragraph DEKPUF_clean
+2025-01-07 17:44:08,936 ERROR    Error processing evaluation for DEKPUF_clean, Phi 3 Mini 4k Instruct: Paragraph DEKPUF_clean is missing required solvent data
+2025-01-07 17:44:09,312 ERROR    Missing required solvent data for paragraph VEHLAW_clean
+2025-01-07 17:44:09,312 ERROR    Error processing evaluation for VEHLAW_clean, Phi 3 Mini 4k Instruct: Paragraph VEHLAW_clean is missing required solvent data
+2025-01-07 17:44:09,649 ERROR    Missing required solvent data for paragraph FEJDEE_clean
+2025-01-07 17:44:09,649 ERROR    Error processing evaluation for FEJDEE_clean, Phi 3 Mini 4k Instruct: Paragraph FEJDEE_clean is missing required solvent data
+2025-01-07 17:44:09,971 ERROR    Missing required solvent data for paragraph QUDGED_clean
+2025-01-07 17:44:09,971 ERROR    Error processing evaluation for QUDGED_clean, Phi 3 Mini 4k Instruct: Paragraph QUDGED_clean is missing required solvent data
+2025-01-07 17:44:10,979 ERROR    Missing required solvent data for paragraph ICIVEW_clean
+2025-01-07 17:44:10,979 ERROR    Error processing evaluation for ICIVEW_clean, Phi 3 Mini 4k Instruct: Paragraph ICIVEW_clean is missing required solvent data
+2025-01-07 17:44:11,316 ERROR    Missing required solvent data for paragraph VOXVEL_clean
+2025-01-07 17:44:11,316 ERROR    Error processing evaluation for VOXVEL_clean, Phi 3 Mini 4k Instruct: Paragraph VOXVEL_clean is missing required solvent data
+2025-01-07 17:44:12,664 ERROR    Missing required solvent data for paragraph BOZFIH_clean
+2025-01-07 17:44:12,664 ERROR    Error processing evaluation for BOZFIH_clean, Phi 3 Mini 4k Instruct: Paragraph BOZFIH_clean is missing required solvent data
+2025-01-07 17:44:13,685 ERROR    Missing required solvent data for paragraph CEYPUT_clean
+2025-01-07 17:44:13,685 ERROR    Error processing evaluation for CEYPUT_clean, Phi 3 Mini 4k Instruct: Paragraph CEYPUT_clean is missing required solvent data
+2025-01-07 17:44:15,728 ERROR    Missing required solvent data for paragraph JESDIV_clean
+2025-01-07 17:44:15,728 ERROR    Error processing evaluation for JESDIV_clean, Phi 3 Mini 4k Instruct: Paragraph JESDIV_clean is missing required solvent data
+2025-01-07 17:44:15,728 ERROR    Missing required solvent data for paragraph PENZIS_clean
+2025-01-07 17:44:15,728 ERROR    Error processing evaluation for PENZIS_clean, Phi 3 Mini 4k Instruct: Paragraph PENZIS_clean is missing required solvent data
+2025-01-07 17:44:15,729 ERROR    Missing required solvent data for paragraph XAJZOY_clean
+2025-01-07 17:44:15,729 ERROR    Error processing evaluation for XAJZOY_clean, Phi 3 Mini 4k Instruct: Paragraph XAJZOY_clean is missing required solvent data
+2025-01-07 17:44:15,729 ERROR    Missing required solvent data for paragraph DEKPEP_clean
+2025-01-07 17:44:15,729 ERROR    Error processing evaluation for DEKPEP_clean, Phi 3 Mini 4k Instruct: Paragraph DEKPEP_clean is missing required solvent data
+2025-01-07 17:44:15,730 ERROR    Missing required solvent data for paragraph ECASAD_clean
+2025-01-07 17:44:15,730 ERROR    Error processing evaluation for ECASAD_clean, Phi 3 Mini 4k Instruct: Paragraph ECASAD_clean is missing required solvent data
+2025-01-07 17:44:17,018 ERROR    Missing required solvent data for paragraph REKCUG_clean
+2025-01-07 17:44:17,018 ERROR    Error processing evaluation for REKCUG_clean, Phi 3 Mini 4k Instruct: Paragraph REKCUG_clean is missing required solvent data
+2025-01-07 17:44:17,685 ERROR    Missing required solvent data for paragraph PIHWOU_clean
+2025-01-07 17:44:17,685 ERROR    Error processing evaluation for PIHWOU_clean, Phi 3 Mini 4k Instruct: Paragraph PIHWOU_clean is missing required solvent data
+2025-01-07 17:44:19,458 ERROR    Missing required solvent data for paragraph BOWSOW_clean
+2025-01-07 17:44:19,458 ERROR    Error processing evaluation for BOWSOW_clean, Phi 3 Mini 4k Instruct: Paragraph BOWSOW_clean is missing required solvent data
+2025-01-07 17:44:20,172 ERROR    Missing required solvent data for paragraph ORERAG_clean
+2025-01-07 17:44:20,172 ERROR    Error processing evaluation for ORERAG_clean, Phi 3 Mini 4k Instruct: Paragraph ORERAG_clean is missing required solvent data
+2025-01-07 17:44:20,172 ERROR    Missing required solvent data for paragraph KIRTOW_clean
+2025-01-07 17:44:20,172 ERROR    Error processing evaluation for KIRTOW_clean, Phi 3 Mini 4k Instruct: Paragraph KIRTOW_clean is missing required solvent data
+2025-01-07 17:44:22,648 ERROR    Missing required solvent data for paragraph CIMTEZ_charged
+2025-01-07 17:44:22,648 ERROR    Error processing evaluation for CIMTEZ_charged, Phi 3 Mini 4k Instruct: Paragraph CIMTEZ_charged is missing required solvent data
+2025-01-07 17:44:25,058 ERROR    Missing required solvent data for paragraph WOQYUW_clean
+2025-01-07 17:44:25,058 ERROR    Error processing evaluation for WOQYUW_clean, Phi 3 Mini 4k Instruct: Paragraph WOQYUW_clean is missing required solvent data
+2025-01-07 17:44:25,058 ERROR    Missing required solvent data for paragraph VAMQIJ_clean
+2025-01-07 17:44:25,058 ERROR    Error processing evaluation for VAMQIJ_clean, Phi 3 Mini 4k Instruct: Paragraph VAMQIJ_clean is missing required solvent data
+2025-01-07 17:44:25,401 ERROR    Missing required solvent data for paragraph VOXTUZ_clean
+2025-01-07 17:44:25,401 ERROR    Error processing evaluation for VOXTUZ_clean, Phi 3 Mini 4k Instruct: Paragraph VOXTUZ_clean is missing required solvent data
+2025-01-07 17:44:25,401 ERROR    Missing required solvent data for paragraph TISKOW_clean
+2025-01-07 17:44:25,401 ERROR    Error processing evaluation for TISKOW_clean, Phi 3 Mini 4k Instruct: Paragraph TISKOW_clean is missing required solvent data
+2025-01-07 17:44:25,401 ERROR    Missing required solvent data for paragraph YIZJEY_clean
+2025-01-07 17:44:25,401 ERROR    Error processing evaluation for YIZJEY_clean, Phi 3 Mini 4k Instruct: Paragraph YIZJEY_clean is missing required solvent data
+2025-01-07 17:44:25,402 ERROR    Missing required solvent data for paragraph HIJMEU_clean
+2025-01-07 17:44:25,402 ERROR    Error processing evaluation for HIJMEU_clean, Phi 3 Mini 4k Instruct: Paragraph HIJMEU_clean is missing required solvent data
+2025-01-07 17:44:25,402 ERROR    Missing required solvent data for paragraph AGIMOU_clean
+2025-01-07 17:44:25,402 ERROR    Error processing evaluation for AGIMOU_clean, Phi 3 Mini 4k Instruct: Paragraph AGIMOU_clean is missing required solvent data
+2025-01-07 17:44:25,403 ERROR    Missing required solvent data for paragraph BASSOF_clean
+2025-01-07 17:44:25,403 ERROR    Error processing evaluation for BASSOF_clean, Phi 3 Mini 4k Instruct: Paragraph BASSOF_clean is missing required solvent data
+2025-01-07 17:44:28,163 ERROR    Missing required solvent data for paragraph VOXVAH_clean
+2025-01-07 17:44:28,163 ERROR    Error processing evaluation for VOXVAH_clean, Phi 3 Mini 4k Instruct: Paragraph VOXVAH_clean is missing required solvent data
+2025-01-07 17:44:28,513 ERROR    Missing required solvent data for paragraph UBIPAY_clean
+2025-01-07 17:44:28,514 ERROR    Error processing evaluation for UBIPAY_clean, Phi 3 Mini 4k Instruct: Paragraph UBIPAY_clean is missing required solvent data
+2025-01-07 17:44:29,514 ERROR    Missing required solvent data for paragraph INIXOT_clean
+2025-01-07 17:44:29,515 ERROR    Error processing evaluation for INIXOT_clean, Phi 3 Mini 4k Instruct: Paragraph INIXOT_clean is missing required solvent data
+2025-01-07 17:44:29,841 ERROR    Missing required solvent data for paragraph IRAYOQ_clean
+2025-01-07 17:44:29,842 ERROR    Error processing evaluation for IRAYOQ_clean, Phi 3 Mini 4k Instruct: Paragraph IRAYOQ_clean is missing required solvent data
+2025-01-07 17:44:29,842 ERROR    Missing required solvent data for paragraph BOWRAH_clean
+2025-01-07 17:44:29,842 ERROR    Error processing evaluation for BOWRAH_clean, Phi 3 Mini 4k Instruct: Paragraph BOWRAH_clean is missing required solvent data
+2025-01-07 17:44:30,480 ERROR    Missing required solvent data for paragraph FIVYEP_clean
+2025-01-07 17:44:30,480 ERROR    Error processing evaluation for FIVYEP_clean, Phi 3 Mini 4k Instruct: Paragraph FIVYEP_clean is missing required solvent data
+2025-01-07 17:44:31,170 ERROR    Missing required solvent data for paragraph WECBAJ_clean
+2025-01-07 17:44:31,171 ERROR    Error processing evaluation for WECBAJ_clean, Phi 3 Mini 4k Instruct: Paragraph WECBAJ_clean is missing required solvent data
+2025-01-07 17:44:33,493 ERROR    Missing required solvent data for paragraph FIGFOR_clean
+2025-01-07 17:44:33,493 ERROR    Error processing evaluation for FIGFOR_clean, Phi 3 Mini 4k Instruct: Paragraph FIGFOR_clean is missing required solvent data
+2025-01-07 17:44:34,186 ERROR    Missing required solvent data for paragraph AHAMAY_clean
+2025-01-07 17:44:34,186 ERROR    Error processing evaluation for AHAMAY_clean, Phi 3 Mini 4k Instruct: Paragraph AHAMAY_clean is missing required solvent data
+2025-01-07 17:44:34,864 ERROR    Missing required solvent data for paragraph EDOYOL_clean
+2025-01-07 17:44:34,864 ERROR    Error processing evaluation for EDOYOL_clean, Phi 3 Mini 4k Instruct: Paragraph EDOYOL_clean is missing required solvent data
+2025-01-07 17:44:37,674 ERROR    Missing required solvent data for paragraph WEVQOD01_clean
+2025-01-07 17:44:37,674 ERROR    Error processing evaluation for WEVQOD01_clean, Phi 3 Mini 4k Instruct: Paragraph WEVQOD01_clean is missing required solvent data
+2025-01-07 17:44:37,674 ERROR    Missing required solvent data for paragraph QOCBUH_clean
+2025-01-07 17:44:37,674 ERROR    Error processing evaluation for QOCBUH_clean, Phi 3 Mini 4k Instruct: Paragraph QOCBUH_clean is missing required solvent data
+2025-01-07 17:44:41,057 ERROR    Missing required solvent data for paragraph GUGXOX_clean
+2025-01-07 17:44:41,057 ERROR    Error processing evaluation for GUGXOX_clean, Phi 3 Mini 4k Instruct: Paragraph GUGXOX_clean is missing required solvent data
+2025-01-07 17:44:45,355 ERROR    Missing required solvent data for paragraph QOBPEE_clean
+2025-01-07 17:44:45,355 ERROR    Error processing evaluation for QOBPEE_clean, Phi 3 Mini 4k Instruct: Paragraph QOBPEE_clean is missing required solvent data

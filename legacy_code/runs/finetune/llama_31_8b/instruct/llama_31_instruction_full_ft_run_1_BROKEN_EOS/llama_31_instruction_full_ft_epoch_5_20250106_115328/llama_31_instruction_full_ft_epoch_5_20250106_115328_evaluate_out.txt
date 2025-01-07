@@ -1,0 +1,202 @@
+2025-01-06 11:53:32,456 INFO     Loading settings and stats
+2025-01-06 11:53:32,456 INFO     Using prompt: , temperature: 0.1
+2025-01-06 11:53:32,459 DEBUG    Settings loaded. CSV path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 11:53:32,459 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml'
+2025-01-06 11:53:32,459 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yaml'
+2025-01-06 11:53:32,459 WARNING  Could not load 'stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml', creating it (empty)
+2025-01-06 11:53:32,462 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 11:53:32,467 INFO     Found 778 paragraphs with labels
+2025-01-06 11:53:32,467 DEBUG    First few valid IDs: ['YIJYUN_clean', 'EXOTUH_SL', 'SOTTUR_clean', 'QIYCEI_clean', 'DACSAE_clean']
+2025-01-06 11:53:32,467 INFO     Loading evaluation set instead of regular dataset.
+2025-01-06 11:53:32,467 DEBUG    Already evaluated: 0 items
+2025-01-06 11:53:32,467 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs
+2025-01-06 11:53:32,467 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs'
+2025-01-06 11:53:32,471 INFO     Dataset loaded with 77 items
+2025-01-06 11:53:32,471 INFO     Found 77 paragraphs that have labels in dataset
+2025-01-06 11:53:32,472 DEBUG    First few overlapping IDs: ['KUKQAK_clean', 'SODQOT_clean', 'SONTIZ_clean', 'TORXIJ_clean', 'DOKHOB_clean']
+2025-01-06 11:53:32,472 INFO     Processing model: LLaMa 3.1 8B
+2025-01-06 11:53:32,472 INFO     Skipping model [LLaMa 3.1 8B]
+2025-01-06 11:53:32,472 INFO     Processing model: LLaMa 3.1 8B Instruct
+2025-01-06 11:53:32,473 INFO       0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+2025-01-06 11:53:32,473 INFO     Loading Model [LLaMa 3.1 8B Instruct] from /home/iti/zn2950/home/haicore_ws/tunes/llama31_8b/instruction_full_ft/run_1_1736114112/epoch_5
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+/home/iti/zn2950/miniconda3/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home/iti/zn2950/miniconda3/envs/llm-extraction did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+2025-01-06 11:53:33,565 INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+  0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home/iti/zn2950/miniconda3/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
+CUDA SETUP: CUDA runtime path found: /software/all/devel/cuda/11.8/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.0
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /home/iti/zn2950/miniconda3/envs/llm-extraction/lib/python3.11/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][A
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:22,  7.63s/it][A
+Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.45s/it][A
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:22<00:07,  7.32s/it][A
+Loading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  5.13s/it][ALoading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  5.97s/it]
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2025-01-06 11:54:01,477 INFO       1%|▏         | 1/77 [00:29<36:44, 29.00s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:07,653 INFO       3%|▎         | 2/77 [00:35<19:28, 15.58s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:15,166 INFO       4%|▍         | 3/77 [00:42<14:40, 11.89s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:18,928 INFO       5%|▌         | 4/77 [00:46<10:33,  8.68s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:27,706 INFO       6%|▋         | 5/77 [00:55<10:27,  8.72s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:32,834 INFO       8%|▊         | 6/77 [01:00<08:52,  7.50s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:39,663 INFO       9%|▉         | 7/77 [01:07<08:29,  7.28s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:47,241 INFO      10%|█         | 8/77 [01:14<08:28,  7.37s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:54:56,289 INFO      12%|█▏        | 9/77 [01:23<08:57,  7.90s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:04,137 INFO      13%|█▎        | 10/77 [01:31<08:48,  7.88s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:11,246 INFO      14%|█▍        | 11/77 [01:38<08:24,  7.65s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:15,186 INFO      16%|█▌        | 12/77 [01:42<07:03,  6.52s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:22,663 INFO      17%|█▋        | 13/77 [01:50<07:15,  6.81s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:26,309 INFO      18%|█▊        | 14/77 [01:53<06:08,  5.85s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:30,364 INFO      19%|█▉        | 15/77 [01:57<05:29,  5.31s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:39,397 INFO      21%|██        | 16/77 [02:06<06:32,  6.43s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:46,726 INFO      22%|██▏       | 17/77 [02:14<06:42,  6.70s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:50,359 INFO      23%|██▎       | 18/77 [02:17<05:40,  5.78s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:55:57,039 INFO      25%|██▍       | 19/77 [02:24<05:50,  6.05s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:04,628 INFO     Saving progress to `stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml`
+2025-01-06 11:56:04,642 INFO      26%|██▌       | 20/77 [02:32<06:11,  6.52s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:11,033 INFO      27%|██▋       | 21/77 [02:38<06:02,  6.48s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:14,784 INFO      29%|██▊       | 22/77 [02:42<05:11,  5.66s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:20,253 INFO      30%|██▉       | 23/77 [02:47<05:02,  5.60s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:25,939 INFO      31%|███       | 24/77 [02:53<04:58,  5.63s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:30,573 INFO      32%|███▏      | 25/77 [02:58<04:37,  5.33s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:34,388 INFO      34%|███▍      | 26/77 [03:01<04:08,  4.88s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:39,610 INFO      35%|███▌      | 27/77 [03:07<04:08,  4.98s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:45,550 INFO      36%|███▋      | 28/77 [03:13<04:18,  5.27s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:56:54,597 INFO      38%|███▊      | 29/77 [03:22<05:07,  6.40s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:02,548 INFO      39%|███▉      | 30/77 [03:30<05:22,  6.87s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:07,115 INFO      40%|████      | 31/77 [03:34<04:44,  6.18s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:14,532 INFO      42%|████▏     | 32/77 [03:42<04:54,  6.55s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:22,071 INFO      43%|████▎     | 33/77 [03:49<05:01,  6.85s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:28,191 INFO      44%|████▍     | 34/77 [03:55<04:45,  6.63s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:37,152 INFO      45%|████▌     | 35/77 [04:04<05:07,  7.33s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:41,761 INFO      47%|████▋     | 36/77 [04:09<04:27,  6.51s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:50,573 INFO      48%|████▊     | 37/77 [04:18<04:48,  7.20s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:57:59,643 INFO      49%|████▉     | 38/77 [04:27<05:02,  7.76s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:05,729 INFO      51%|█████     | 39/77 [04:33<04:35,  7.26s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:13,421 INFO     Saving progress to `stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml`
+2025-01-06 11:58:13,450 INFO      52%|█████▏    | 40/77 [04:40<04:33,  7.40s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:17,083 INFO      53%|█████▎    | 41/77 [04:44<03:45,  6.27s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:24,307 INFO      55%|█████▍    | 42/77 [04:51<03:49,  6.56s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:33,274 INFO      56%|█████▌    | 43/77 [05:00<04:07,  7.28s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:40,309 INFO      57%|█████▋    | 44/77 [05:07<03:57,  7.21s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:47,246 INFO      58%|█████▊    | 45/77 [05:14<03:47,  7.12s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:58:51,633 INFO      60%|█████▉    | 46/77 [05:19<03:15,  6.30s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:00,414 INFO      61%|██████    | 47/77 [05:27<03:31,  7.05s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:04,399 INFO      62%|██████▏   | 48/77 [05:31<02:57,  6.13s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:13,320 INFO      64%|██████▎   | 49/77 [05:40<03:15,  6.97s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:16,907 INFO      65%|██████▍   | 50/77 [05:44<02:40,  5.95s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:24,240 INFO      66%|██████▌   | 51/77 [05:51<02:45,  6.37s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:31,581 INFO      68%|██████▊   | 52/77 [05:59<02:46,  6.66s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:37,139 INFO      69%|██████▉   | 53/77 [06:04<02:31,  6.33s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:42,638 INFO      70%|███████   | 54/77 [06:10<02:19,  6.08s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:47,667 INFO      71%|███████▏  | 55/77 [06:15<02:06,  5.76s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 11:59:56,798 INFO      73%|███████▎  | 56/77 [06:24<02:22,  6.77s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:05,221 INFO      74%|███████▍  | 57/77 [06:32<02:25,  7.27s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:08,976 INFO      75%|███████▌  | 58/77 [06:36<01:58,  6.22s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:12,410 INFO      77%|███████▋  | 59/77 [06:39<01:36,  5.38s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:19,922 INFO     Saving progress to `stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml`
+2025-01-06 12:00:19,957 INFO      78%|███████▊  | 60/77 [06:47<01:42,  6.03s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:28,970 INFO      79%|███████▉  | 61/77 [06:56<01:50,  6.93s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:33,063 INFO      81%|████████  | 62/77 [07:00<01:31,  6.08s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:41,129 INFO      82%|████████▏ | 63/77 [07:08<01:33,  6.67s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:45,103 INFO      83%|████████▎ | 64/77 [07:12<01:16,  5.86s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:52,526 INFO      84%|████████▍ | 65/77 [07:20<01:15,  6.33s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:00:56,190 INFO      86%|████████▌ | 66/77 [07:23<01:00,  5.53s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:01,612 INFO      87%|████████▋ | 67/77 [07:29<00:54,  5.50s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:09,002 INFO      88%|████████▊ | 68/77 [07:36<00:54,  6.07s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:13,074 INFO      90%|████████▉ | 69/77 [07:40<00:43,  5.47s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:19,510 INFO      91%|█████████ | 70/77 [07:47<00:40,  5.76s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:23,139 INFO      92%|█████████▏| 71/77 [07:50<00:30,  5.12s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:31,952 INFO      94%|█████████▎| 72/77 [07:59<00:31,  6.23s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:35,755 INFO      95%|█████████▍| 73/77 [08:03<00:21,  5.50s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:43,696 INFO      96%|█████████▌| 74/77 [08:11<00:18,  6.23s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:51,240 INFO      97%|█████████▋| 75/77 [08:18<00:13,  6.63s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:01:57,732 INFO      99%|█████████▊| 76/77 [08:25<00:06,  6.59s/it, LLaMa 3.1 8B Instruct]
+2025-01-06 12:02:04,541 INFO     Saving progress to `stats_llama_31_instruction_full_ft_epoch_5_20250106_115328.yml`
+  1%|▏         | 1/77 [00:29<36:44, 29.00s/it, LLaMa 3.1 8B Instruct]
+  3%|▎         | 2/77 [00:35<19:28, 15.58s/it, LLaMa 3.1 8B Instruct]
+  4%|▍         | 3/77 [00:42<14:40, 11.89s/it, LLaMa 3.1 8B Instruct]
+  5%|▌         | 4/77 [00:46<10:33,  8.68s/it, LLaMa 3.1 8B Instruct]
+  6%|▋         | 5/77 [00:55<10:27,  8.72s/it, LLaMa 3.1 8B Instruct]
+  8%|▊         | 6/77 [01:00<08:52,  7.50s/it, LLaMa 3.1 8B Instruct]
+  9%|▉         | 7/77 [01:07<08:29,  7.28s/it, LLaMa 3.1 8B Instruct]
+ 10%|█         | 8/77 [01:14<08:28,  7.37s/it, LLaMa 3.1 8B Instruct]
+ 12%|█▏        | 9/77 [01:23<08:57,  7.90s/it, LLaMa 3.1 8B Instruct]
+ 13%|█▎        | 10/77 [01:31<08:48,  7.88s/it, LLaMa 3.1 8B Instruct]
+ 14%|█▍        | 11/77 [01:38<08:24,  7.65s/it, LLaMa 3.1 8B Instruct]
+ 16%|█▌        | 12/77 [01:42<07:03,  6.52s/it, LLaMa 3.1 8B Instruct]
+ 17%|█▋        | 13/77 [01:50<07:15,  6.81s/it, LLaMa 3.1 8B Instruct]
+ 18%|█▊        | 14/77 [01:53<06:08,  5.85s/it, LLaMa 3.1 8B Instruct]
+ 19%|█▉        | 15/77 [01:57<05:29,  5.31s/it, LLaMa 3.1 8B Instruct]
+ 21%|██        | 16/77 [02:06<06:32,  6.43s/it, LLaMa 3.1 8B Instruct]
+ 22%|██▏       | 17/77 [02:14<06:42,  6.70s/it, LLaMa 3.1 8B Instruct]
+ 23%|██▎       | 18/77 [02:17<05:40,  5.78s/it, LLaMa 3.1 8B Instruct]
+ 25%|██▍       | 19/77 [02:24<05:50,  6.05s/it, LLaMa 3.1 8B Instruct]
+ 26%|██▌       | 20/77 [02:32<06:11,  6.52s/it, LLaMa 3.1 8B Instruct]
+ 27%|██▋       | 21/77 [02:38<06:02,  6.48s/it, LLaMa 3.1 8B Instruct]
+ 29%|██▊       | 22/77 [02:42<05:11,  5.66s/it, LLaMa 3.1 8B Instruct]
+ 30%|██▉       | 23/77 [02:47<05:02,  5.60s/it, LLaMa 3.1 8B Instruct]
+ 31%|███       | 24/77 [02:53<04:58,  5.63s/it, LLaMa 3.1 8B Instruct]
+ 32%|███▏      | 25/77 [02:58<04:37,  5.33s/it, LLaMa 3.1 8B Instruct]
+ 34%|███▍      | 26/77 [03:01<04:08,  4.88s/it, LLaMa 3.1 8B Instruct]
+ 35%|███▌      | 27/77 [03:07<04:08,  4.98s/it, LLaMa 3.1 8B Instruct]
+ 36%|███▋      | 28/77 [03:13<04:18,  5.27s/it, LLaMa 3.1 8B Instruct]
+ 38%|███▊      | 29/77 [03:22<05:07,  6.40s/it, LLaMa 3.1 8B Instruct]
+ 39%|███▉      | 30/77 [03:30<05:22,  6.87s/it, LLaMa 3.1 8B Instruct]
+ 40%|████      | 31/77 [03:34<04:44,  6.18s/it, LLaMa 3.1 8B Instruct]
+ 42%|████▏     | 32/77 [03:42<04:54,  6.55s/it, LLaMa 3.1 8B Instruct]
+ 43%|████▎     | 33/77 [03:49<05:01,  6.85s/it, LLaMa 3.1 8B Instruct]
+ 44%|████▍     | 34/77 [03:55<04:45,  6.63s/it, LLaMa 3.1 8B Instruct]
+ 45%|████▌     | 35/77 [04:04<05:07,  7.33s/it, LLaMa 3.1 8B Instruct]
+ 47%|████▋     | 36/77 [04:09<04:27,  6.51s/it, LLaMa 3.1 8B Instruct]
+ 48%|████▊     | 37/77 [04:18<04:48,  7.20s/it, LLaMa 3.1 8B Instruct]
+ 49%|████▉     | 38/77 [04:27<05:02,  7.76s/it, LLaMa 3.1 8B Instruct]
+ 51%|█████     | 39/77 [04:33<04:35,  7.26s/it, LLaMa 3.1 8B Instruct]
+ 52%|█████▏    | 40/77 [04:40<04:33,  7.40s/it, LLaMa 3.1 8B Instruct]
+ 53%|█████▎    | 41/77 [04:44<03:45,  6.27s/it, LLaMa 3.1 8B Instruct]
+ 55%|█████▍    | 42/77 [04:51<03:49,  6.56s/it, LLaMa 3.1 8B Instruct]
+ 56%|█████▌    | 43/77 [05:00<04:07,  7.28s/it, LLaMa 3.1 8B Instruct]
+ 57%|█████▋    | 44/77 [05:07<03:57,  7.21s/it, LLaMa 3.1 8B Instruct]
+ 58%|█████▊    | 45/77 [05:14<03:47,  7.12s/it, LLaMa 3.1 8B Instruct]
+ 60%|█████▉    | 46/77 [05:19<03:15,  6.30s/it, LLaMa 3.1 8B Instruct]
+ 61%|██████    | 47/77 [05:27<03:31,  7.05s/it, LLaMa 3.1 8B Instruct]
+ 62%|██████▏   | 48/77 [05:31<02:57,  6.13s/it, LLaMa 3.1 8B Instruct]
+ 64%|██████▎   | 49/77 [05:40<03:15,  6.97s/it, LLaMa 3.1 8B Instruct]
+ 65%|██████▍   | 50/77 [05:44<02:40,  5.95s/it, LLaMa 3.1 8B Instruct]
+ 66%|██████▌   | 51/77 [05:51<02:45,  6.37s/it, LLaMa 3.1 8B Instruct]
+ 68%|██████▊   | 52/77 [05:59<02:46,  6.66s/it, LLaMa 3.1 8B Instruct]
+ 69%|██████▉   | 53/77 [06:04<02:31,  6.33s/it, LLaMa 3.1 8B Instruct]
+ 70%|███████   | 54/77 [06:10<02:19,  6.08s/it, LLaMa 3.1 8B Instruct]
+ 71%|███████▏  | 55/77 [06:15<02:06,  5.76s/it, LLaMa 3.1 8B Instruct]
+ 73%|███████▎  | 56/77 [06:24<02:22,  6.77s/it, LLaMa 3.1 8B Instruct]
+ 74%|███████▍  | 57/77 [06:32<02:25,  7.27s/it, LLaMa 3.1 8B Instruct]
+ 75%|███████▌  | 58/77 [06:36<01:58,  6.22s/it, LLaMa 3.1 8B Instruct]
+ 77%|███████▋  | 59/77 [06:39<01:36,  5.38s/it, LLaMa 3.1 8B Instruct]
+ 78%|███████▊  | 60/77 [06:47<01:42,  6.03s/it, LLaMa 3.1 8B Instruct]
+ 79%|███████▉  | 61/77 [06:56<01:50,  6.93s/it, LLaMa 3.1 8B Instruct]
+ 81%|████████  | 62/77 [07:00<01:31,  6.08s/it, LLaMa 3.1 8B Instruct]
+ 82%|████████▏ | 63/77 [07:08<01:33,  6.67s/it, LLaMa 3.1 8B Instruct]
+ 83%|████████▎ | 64/77 [07:12<01:16,  5.86s/it, LLaMa 3.1 8B Instruct]
+ 84%|████████▍ | 65/77 [07:20<01:15,  6.33s/it, LLaMa 3.1 8B Instruct]
+ 86%|████████▌ | 66/77 [07:23<01:00,  5.53s/it, LLaMa 3.1 8B Instruct]
+ 87%|████████▋ | 67/77 [07:29<00:54,  5.50s/it, LLaMa 3.1 8B Instruct]
+ 88%|████████▊ | 68/77 [07:36<00:54,  6.07s/it, LLaMa 3.1 8B Instruct]
+ 90%|████████▉ | 69/77 [07:40<00:43,  5.47s/it, LLaMa 3.1 8B Instruct]
+ 91%|█████████ | 70/77 [07:47<00:40,  5.76s/it, LLaMa 3.1 8B Instruct]
+ 92%|█████████▏| 71/77 [07:50<00:30,  5.12s/it, LLaMa 3.1 8B Instruct]
+ 94%|█████████▎| 72/77 [07:59<00:31,  6.23s/it, LLaMa 3.1 8B Instruct]
+ 95%|█████████▍| 73/77 [08:03<00:21,  5.50s/it, LLaMa 3.1 8B Instruct]
+ 96%|█████████▌| 74/77 [08:11<00:18,  6.23s/it, LLaMa 3.1 8B Instruct]
+ 97%|█████████▋| 75/77 [08:18<00:13,  6.63s/it, LLaMa 3.1 8B Instruct]
+ 99%|█████████▊| 76/77 [08:25<00:06,  6.59s/it, LLaMa 3.1 8B Instruct]
