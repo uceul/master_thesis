@@ -13,6 +13,6 @@ output_dir_with_timestamp="/hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/l
 
 mkdir -p "$output_dir_with_timestamp/logs"
 # Play the tune!
-tune run full_finetune_single_device --config config.yaml output_dir="$output_dir_with_timestamp" -diag-disable=10441 2>&1 | tee output.log
+tune run full_finetune_single_device --config config.yaml output_dir="$output_dir_with_timestamp" 2>&1 | tee output.log
 cp config.yaml "$output_dir_with_timestamp/"
 mv output.log "$output_dir_with_timestamp/logs/"

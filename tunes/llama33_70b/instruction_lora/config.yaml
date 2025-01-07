@@ -39,11 +39,11 @@ save_adapter_weights_only: True # Set to false to save the whole model + adapter
 
 # Dataset and Sampler
 dataset:
-  _component_: torchtune.datasets.text_completion_dataset
-  source: text
-  data_files: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/finetune/text_completion/dataset.txt
+  _component_: torchtune.datasets.instruct_dataset
+  source: json
+  data_files: /home/iti/zn2950/home/ws/data/finetune/instruction/train2.json
   split: train
-  packed: True 
+  packed: True
 shuffle: True
 batch_size: 1
 seed: 42
