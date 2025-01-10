@@ -14,7 +14,7 @@ output_dir: /hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/llama33_70b/text
 model:
   _component_: torchtune.models.llama3_3.lora_llama3_3_70b
   lora_attn_modules: ['q_proj', 'k_proj', 'v_proj', 'output_proj']  # Remove 'output_proj' 
-  apply_lora_to_mlp: False #TODO!
+  apply_lora_to_mlp: True #TODO!
   apply_lora_to_output: False
   lora_rank: 32  # higher increases accuracy and memory (try 8 later)
   lora_alpha: 64  # usually alpha=2*rank
@@ -45,7 +45,7 @@ dataset:
   split: train
   packed: True 
 shuffle: True
-batch_size: 1
+batch_size: 2
 seed: 42
 
 # Optimizer and Scheduler

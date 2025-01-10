@@ -1,0 +1,1 @@
+A mixture of H2CPNA (0.008 g, 0.032 mmol), CuI (0.016 g, 0.084 mmol), HBF4 (50 μL), and DMF (1 mL) was sealed in a 20 mL vial and kept in an oven at 85 °C for 12 h, and then cooled to room temperature. The green block crystals were collected and air-dried (71% yield based on CuI). Anal. Calcd for Cu7I4C60H79O23.5N10: C 31.76; H 3.51; N 6.17%; found: C 29.14; H 2.69; N 4.57%.

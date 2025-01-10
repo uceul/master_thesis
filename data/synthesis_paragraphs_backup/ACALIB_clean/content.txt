@@ -1,0 +1,2 @@
+
+Er(NO3)3·6H2O (44 mg, 0.1 mmol), H4TADIP (40 mg, 0.1 mmol), H2O (4 mL) and H2C2O4 (6 mg) were mixed in a vial and heated at 95 °C for 3 days and then cooled to room temperature. After filtration, the colorless block crystals were washed with H2O (3 × 20 mL), and dried at ambient temperature. Anal. Calcd for C18H18ErN3O13: C, 33.18; H, 2.78; N, 6.45. Found: C, 32.65; H, 2.70; N, 6.19. IR (KBr, cm−1): 3372(br), 3114(w), 3079(w), 2391(br), 1905(w), 1860(w), 1633(s), 1589(m), 1454(w), 1430(w), 1407(w), 1374(w), 1272(w), 1238(w), 1114(w), 1058(w), 1002(w), 921(w).

@@ -1,0 +1,2 @@
+
+CoSO4·7H2O (0.028 g, 0.1 mmol) and H2pzbtz (0.011 g, 0.05 mmol) were mixed in H2O (8 mL) in a 25 mL vessel. The mixture was sealed and heated at 105 °C for 72 h and then cooled to room temperature at a rate of 0.1 °C min−1. Yellow sheet crystals of 4 were obtained in 69% yield (based on H2pzbtz). Anal. Calcd for C16H14CoN16O2: C, 36.86; H, 2.71; N, 42.99%. Found: C, 36.79; H, 2.77; N, 42.94%. IR (KBr, cm−1): 3388 m, 3120 s, 2917 m, 1644 m, 1510 s, 1423 vs, 1311 w, 1277 m, 1174 m, 1093 m, 1036 m, 1014 w, 960 w, 764 w, 631 w.

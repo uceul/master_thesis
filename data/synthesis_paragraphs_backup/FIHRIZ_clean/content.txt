@@ -1,0 +1,2 @@
+
+A mixture of Ni(NO3)2·6H2O (0.1500 g, 0.5 mmol), H2bdc (0.0730 g, 0.5 mmol), pyrazine (0.040 g, 0.5 mmol), N,N-dimethylacetamide (5 mL) and methanol (2.5 mL) was sealed in a 25 mL Teflon-lined stainless steel autoclave. It was stirred for 30 min at room temperature, and then the mixture was sealed in a Parr autoclave and kept at 120 °C for three days. After the reaction was cooled to room temperature, green block crystals of 1 were formed (yield: 80%, based on Ni). Anal. calc. for C44H47Ni3N7O17: C,47.12%; H, 4.19%; N, 8.74%. Found: C, 47.15%; H, 4.17%; N, 8.75%.

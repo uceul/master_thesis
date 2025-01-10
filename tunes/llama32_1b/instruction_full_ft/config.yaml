@@ -37,7 +37,9 @@ dataset:
   source: json
   data_files: /home/iti/zn2950/home/ws/data/finetune/instruction/train.json
   split: train
-  packed: False #TODO
+  packed: True #TODO
+seed: 42
+shuffle: True
 
 checkpointer:
   _component_: torchtune.training.FullModelHFCheckpointer
@@ -51,12 +53,12 @@ checkpointer:
 resume_from_checkpoint: False
 
 # Fine-tuning arguments
-batch_size: 16
-epochs: 5
+batch_size: 8
+epochs: 7
 optimizer:
   _component_: bitsandbytes.optim.PagedAdamW8bit
   lr: 5e-5
-  #weight_decay: 0.001 # TODO
+  weight_decay: 0.0015
 loss:
   _component_: torchtune.modules.loss.CEWithChunkedOutputLoss
 max_steps_per_epoch: null

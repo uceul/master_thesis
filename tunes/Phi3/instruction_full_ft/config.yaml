@@ -29,7 +29,7 @@ model:
 tokenizer:
   _component_: torchtune.models.phi3.phi3_mini_tokenizer
   path: /home/iti/zn2950/home/haicore_ws/base_models/Phi-3-mini-4k-instruct/tokenizer.model
-  max_seq_len: null
+  max_seq_len: 2048
 
 # Checkpointer
 checkpointer:
@@ -50,23 +50,22 @@ dataset:
   source: json
   data_files: /home/iti/zn2950/home/ws/data/finetune/instruction/train.json
   split: train
-  packed: True
+  packed: False
 seed: 42
 shuffle: True
 
 # Fine-tuning arguments
-epochs: 8
+epochs: 10
 max_steps_per_epoch: null
 batch_size: 8
 gradient_accumulation_steps: 1  # Use to increase effective batch size
 optimizer:
   _component_: bitsandbytes.optim.PagedAdamW
-  lr: 1e-5
+  lr: 2e-5
 optimizer_in_bwd: True  # True saves memory. Requires gradient_accumulation_steps=1
 loss:
   _component_: torchtune.modules.loss.CEWithChunkedOutputLoss
 compile: True  # torch.compile the model + loss, True increases speed + decreases memory
-optimizer_in_bwd: True  # True saves memory. Requires gradient_accumulation_steps=1
 
 # Training env
 device: cuda

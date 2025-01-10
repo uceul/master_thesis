@@ -50,7 +50,7 @@ dataset:
   source: text
   data_files: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/finetune/text_completion/dataset.txt
   split: train
-  packed: True 
+  packed: False 
 seed: 42
 shuffle: True
 
@@ -66,7 +66,6 @@ optimizer_in_bwd: True  # True saves memory. Requires gradient_accumulation_step
 loss:
   _component_: torchtune.modules.loss.CEWithChunkedOutputLoss
 compile: True  # torch.compile the model + loss, True increases speed + decreases memory
-optimizer_in_bwd: True  # True saves memory. Requires gradient_accumulation_steps=1
 
 # Training env
 device: cuda

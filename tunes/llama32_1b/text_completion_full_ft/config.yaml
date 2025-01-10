@@ -39,6 +39,7 @@ dataset:
   split: train
   packed: True 
 shuffle: True
+seed: 42
 
 checkpointer:
   _component_: torchtune.training.FullModelHFCheckpointer
@@ -52,11 +53,11 @@ checkpointer:
 resume_from_checkpoint: False
 
 # Fine-tuning arguments
-batch_size: 16
-epochs: 8
+batch_size: 8
+epochs: 12
 optimizer:
   _component_: bitsandbytes.optim.PagedAdamW8bit
-  lr: 5e-5
+  lr: 2e-5
   #weight_decay: 0.001 # TODO
 loss:
   _component_: torchtune.modules.loss.CEWithChunkedOutputLoss
@@ -85,7 +86,7 @@ log_peak_memory_stats: True
 # Add warmup steps
 lr_scheduler:
   _component_: torchtune.training.lr_schedulers.get_cosine_schedule_with_warmup  
-  num_warmup_steps: 20
+  num_warmup_steps: 10
 
 # Profiler (disabled)
 profiler:
