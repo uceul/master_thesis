@@ -272,6 +272,11 @@ def evaluate(
             print(str(progress_bar))
             paragraph_id = batch["paragraph_id"]
 
+            if paragraph_id not in valid_paragraph_ids:
+                log.debug(f"Skipping {paragraph_id}, as it has no labels.")
+                progress_bar.update()
+                continue
+
             if (paragraph_id, model_name) in evaluated:
                 log.debug(f"Skipping {paragraph_id}, as it has been processed before.")
                 progress_bar.update()
@@ -774,7 +779,7 @@ def analyse(
                         f"Original text: {text[:200]}..."
                     )
                     confusion.wrong(model_name, "additive")
-            elif not raw_additive:
+            elif raw_additive.lower() in ["none", "no additive", ""]:
                 confusion.wrong(model_name, "additive")
                 confusion.wrong_no_additive(model_name, "additive")
                 log.wrong_additive(
