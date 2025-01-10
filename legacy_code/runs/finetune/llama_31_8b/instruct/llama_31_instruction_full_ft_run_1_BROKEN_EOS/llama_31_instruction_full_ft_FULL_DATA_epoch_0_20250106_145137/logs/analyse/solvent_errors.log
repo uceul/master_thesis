@@ -1,0 +1,1152 @@
+2025-01-06 15:34:43,368 - 
+Paragraph: LELROL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH']
+Got unresolvable (Which appears in text!): DMF:MeOH
+Original text:   Anhydrous MnCl2 (398 mg, 3.16 mmol) and H4L1·6.5H2O (225 mg, 0.27 mmol), were dissolved in a mixture of DMF (22.5 mL) and MeOH (22.5 mL) inside a 50 mL glass vial sealed with a Teflon lined screw ca...
+2025-01-06 15:34:44,037 - 
+Paragraph: TAGVAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DIETHANOLAMINE', '111-42-2', "2,2'-Iminodiethanol", 'Diolamine', 'Iminodiethanol', 'Bis(2-hydroxyethyl)amine', 'Diethylolamine', '2-(2-Hydroxyethylamino)ethanol', "2,2'-Dihydroxydiethylamine", 'N,N-Diethanolamine', 'Diethanolamin', "Ethanol, 2,2'-iminobis-", "2,2'-Azanediyldiethanol", "2,2'-Iminobisethanol", 'Di(2-hydroxyethyl)amine', "N,N'-Iminodiethanol", 'Niax DEOA-LF', 'Diaethanolamin', 'Bis(hydroxyethyl)amine', 'Dabco DEOA-LF', '2-[(2-hydroxyethyl)amino]ethan-1-ol', 'N,N-Bis(2-hydroxyethyl)amine', "2,2'-Iminodi-1-ethanol", 'N,N-Di(hydroxyethyl)amine', 'H2dea', 'NCI-C55174', 'Di(beta-hydroxyethyl)amine', 'Bis-2-hydroxyethylamine', 'MFCD00002843', "Diethylamine, 2,2'-dihydroxy-", 'Diolamine [INN]', 'Tegoamin deoa 85', "Ethanol, 2,2'-iminodi-", 'NSC 4959', "2,2'Iminobisethanol", 'CCRIS 5906', 'HSDB 924', 'UNII-AZE05TDV2V', "2,2'-Iminobis[ethanol]", 'AZE05TDV2V', '2-[(2-Hydroxyethyl)amino]ethanol', 'NSC-4959', 'EINECS 203-868-0', 'bis-(2-hydroxy-ethyl)-amine', 'BRN 0605315', 'Diethanolamine (NF)', 'Diethanolamine [NF]', 'DTXSID3021932', 'CHEBI:28123', 'AI3-15335', 'DTXCID601932', 'EC 203-868-0', '2-((2-Hydroxyethyl)amino)ethanol', '4-04-00-01514 (Beilstein Handbook Reference)', "2,2'-iminobis(ethanol)", 'DIOLAMINE (MART.)', 'DIOLAMINE [MART.]', 'DIETHANOLAMINE (II)', 'DIETHANOLAMINE [II]', 'Diolamine (VAN)', 'DIETHANOLAMINE (IARC)', 'DIETHANOLAMINE [IARC]', "AMINE,DIETHYL,2,2'-DIHYDROXY   DIETHANOLAMINE", 'DIETHANOLAMINE (USP-RS)', 'DIETHANOLAMINE [USP-RS]', 'Diethanolamin [Czech]', 'Diaethanolamin [German]', 'CAS-111-42-2', 'TROLAMINE IMPURITY B (EP IMPURITY)', 'TROLAMINE IMPURITY B [EP IMPURITY]', 'ethane, 1-hydroxy-2-(2-hydroxyethyl)amino-', "2,2'-Dihydroxydiethyamine", 'diethanolarnine', 'diethanol amine', 'Aliphatic amine', "2,2'-Iminobis", 'Diethanolamine, 99%', "Ethanol,2'-iminodi-", 'N, N-diethanol amine', "Ethanol,2'-iminobis-", 'bis-(2-hydroxyethyl)amine', 'bmse000371', "Diethanol, 2,2'-imino-", 'DIETHANOLAMINE [MI]', "Diethylamine,2'-dihydroxy-", 'SCHEMBL2324', 'bis-(2-hydroxyethyl)-amine', 'NCIOpen2_008991', 'WLN: Q2M2Q', '(HOCH2 CH2)2NH', 'DIETHANOLAMINE [HSDB]', 'ghl.PD_Mitscher_leg0.542', 'bis-(2-hydroxy-ethyl) amine', 'MLS001065608', 'BIDD:GT0277', 'DIETHANOLAMINE [VANDF]', 'Diethanolamine, LR, >=98%', 'CHEMBL119604', 'SCHEMBL5200828', '2-(2-hydroxy-ethylamino)ethanol', '2-(2-hydroxyethylamino)-ethanol', 'Diethanolamine, Biochemical grade', 'DI(2-HYDROXYETHYL) AMINE', 'NSC4959', "2,2'-Azanediylbis(ethan-1-ol)", 'BIS-(2-HYDROXY)ETHYLAMINE', 'Diethanolamine, ACS reagent grade', '2-(2-hydroxy-ethylamino)-ethanol', 'Diethanolamine, analytical standard', 'Diethanolamine, puriss., 99.0%', 'HMS2269D18', 'STR03965', "2,2'-DIHYDROXYDIETHYL AMINE", 'Tox21_201701', 'Tox21_300034', 'Diethanolamine, BioXtra, >=98.5%', 'STL264122', "2,2'-Iminodiethanol (Diethanolamine)", 'AKOS000119884', '1ST9086', 'AMINE, DIETHYL, 2,2-DIHYDROXY-', 'Diethanolamine, ACS reagent, >=98.5%', 'NCGC00091478-01', 'NCGC00091478-02', 'NCGC00091478-03', 'NCGC00091478-04', 'NCGC00254061-01', 'NCGC00259250-01', 'BP-31238', 'Diethanolamine, reagent grade, >=98.0%', 'SMR000112130', 'Diethanolamine, BioUltra, >=99.5% (GC)', 'Diethanolamine, SAJ first grade, >=98.0%', 'I0008', 'NS00005053', 'S0376', 'Diethanolamine, JIS special grade, >=99.0%', 'EN300-19762', 'C06772', 'D02337', 'D92250', 'Q418437', 'J-506841', 'F2190-0311', 'Z104475196', 'BFC20619-2EDF-4764-8E91-830AA892BD39', 'Diethanolamine, puriss. p.a., ACS reagent, >=99.0% (GC)', 'InChI=1/C4H11NO2/c6-3-1-5-2-4-7/h5-7H,1-4H', 'Diethanolamine, United States Pharmacopeia (USP) Reference Standard', 'Trolamine impurity B, European Pharmacopoeia (EP) Reference Standard', 'Diethanolamine, Pharmaceutical Secondary Standard; Certified Reference Material', 'ethanol', 'Thanol', 'S S']
+Got : water
+Original text: In a 20 mL glass vial, 51.3 mg of Mg(NO3)2·6H2O and 33.2 mg of H2BDC were dissolved in 2.0 g of DEA and 1.0 g of ethanol. The vial was sealed and placed in a 120 °C oven for 5 days. Large pure block c...
+2025-01-06 15:34:44,383 - 
+Paragraph: VAQSEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of L1 (21.0 mg, 0.10 mmol), Cd(NO3)2·4H2O (61.6 mg, 0.20 mmol), H3BTB (43.8 mg, 0.10 mmol) and NaOH (12.0 mg, 0.3 mmol) in DMF/H2O (1:3) solution (10 ml) was sealed in a Teflon-lined stainle...
+2025-01-06 15:34:44,726 - 
+Paragraph: ZOFZOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): H2O
+Original text:   A mixture of Co(NO3)2·6H2O (10 mg, 0.034 mmol), H4TADIP (5 mg, 0.013 mmol) and AcOH (50 μL) in DEF (1 mL) was added to a 20 mL vial, then the solution was heated at 110 °C for 48 h to give colourles...
+2025-01-06 15:34:45,057 - 
+Paragraph: UYOFIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethanol', 'EtOH', 'Thanol', 'S S', 'water', 'H2O']
+Got unresolvable (Which appears in text!): EtOH/H2O
+Original text: Synthesis of 1: A mixture of Tb(NO3)3⋅6H2O (45.3 mg, 0.10 mmol), H3IDC (15.6 mg, 0.10 mmol), Et3N (0.1 mL) and EtOH/H2O (1:1, 4 mL) was sealed in a 10 mL Teflon-lined stainless-steel reactor and then ...
+2025-01-06 15:34:45,057 - 
+Paragraph: VIXTUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid']
+Got (Which appears in text!): H2O
+Original text: A mixture of muconic acid (28.4 mg, 0.2 mmol), Zn(NO3)2·6H2O (59.0 mg, 0.2 mmol), 1,2-bis(4-pyridyl)ethane (73.7 mg, 0.4 mmol), and dimethylformamide (20 mL) was placed in a Teflon-lined high pressure...
+2025-01-06 15:34:45,058 - 
+Paragraph: HUCSEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'H2O']
+Got (Which appears in text!): DMA/H2O
+Original text: NPC-4 was synthesized by solvothermal reaction of TMBDI and Cu(NO3)2·3H2O in the solution of DMA and H2O with the addition of HNO3. TMBDI (0.092 g, 0.2 mmol) and Cu(NO3)2·3H2O (0.096 g, 0.4 mmol) were...
+2025-01-06 15:34:45,384 - 
+Paragraph: HUYXOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O', 'ethanol', 'Thanol', 'C2H5OH', 'S S']
+Got unresolvable (Which appears in text!): DMF/H2O/C2H5OH
+Original text: The compound was synthesized by the solvothermal method. A suspension of Ni(NO3)2·6H2O (0.12 mmol, 35 mg) and L (0.1 mmol, 29 mg) in 10 mL of component solvent (DMF/H2O/C2H5OH = 4/3/3) was sealed in a...
+2025-01-06 15:34:46,056 - 
+Paragraph: LALFUB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable : Teflon-lined stainless-Steel-aut
+Original text:   A mixture of 5-methylpyrazine-2-carboxylic acid (0.138 g, 1 mmol), Eu2O3 (0.176 g, 0.5 mmol), HNO3 (0.16 mL), and H2O (10 mL) was heated to 150 °C for 24 h in a 23 mL Teflon-lined stainless-steel au...
+2025-01-06 15:34:46,697 - 
+Paragraph: MAYJOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water']
+Got (Which appears in text!): DMF
+Original text: In a typical synthesis of 1, indium (0.114 g, 1 mmol), 1,4-benzene dicarboxylic acid (0.332 g, 2 mmol), HF (48%, Merck, 0.06 mL), and deionized water (10 mL) in the molar ratios of 1:2:1.5:560 were pl...
+2025-01-06 15:34:47,068 - 
+Paragraph: VEGMIE01_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): H2O
+Original text: The synthesis of the compound [Co3(C8H4O4)4]2−[C4H12N]+2·3C5H11NO (1) is a one-pot solvothermal reaction. A mixture of CoCl2·6H2O (0.294 g, 1 mmol) and DEF (2 mL) was added to a mixture of 1,4-benzene...
+2025-01-06 15:34:47,715 - 
+Paragraph: LUYSOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got unresolvable : CH3COHHCl
+Original text:   In a typical synthesis procedure, a mixture of 1,4-benzenedicarboxylic acid (H2BDC) (0.1 g, 0.60 mmol), 1,4-diazabicyclo[2.2.2]octane (DABCO) (0.075 g, 0.67 mmol), and Co(NO3)2·6H2O (0.1 g, 0.34 mmo...
+2025-01-06 15:34:48,038 - 
+Paragraph: NAWKII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'Dimethylforamide', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF/water mixture
+Original text: A typical synthesis involves a mixture of MgCl2·6H2O (0.2 mmol, 0.0406 g) and 2,6-naphthalenedicarboxylic acid (0.4 mmol, 0.0864g) dissolved in 10.0 mL of dimethylforamide and 2.0 mL of water and stir...
+2025-01-06 15:34:48,366 - 
+Paragraph: OBIBOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'H2O']
+Got unresolvable (Which appears in text!): H3TCMTB
+Original text:   H3TCMTB (0.17 g, 0.30 mmol), Ba(NO3)2 (0.16 g, 0.60 mmol), N,N′-dimethylacetamide (7.5 g) and H2O (1.5 g) were mixed and homogenised for half an hour. The homogeneous mixture was then transferred in...
+2025-01-06 15:34:48,713 - 
+Paragraph: XOJWID_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got (Which appears in text!): H2O
+Original text: A mixture of Zn(Ac)2·2H2O (0.112 g, 0.511 mmol), H3pbc (0.095 g, 0.480 mmol), and N,N-dimethylformamide (DMF) (5.0 mL) was stirred for dissolution and then heated at 170 °C for 48 h in a Telflon-lined...
+2025-01-06 15:34:49,358 - 
+Paragraph: EXALAR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable (Which appears in text!): air
+Original text: A mixture of NiCl2·6H2O (0.12 g, 0.5 mmol), L1 (0.043 g, 0.2 mmol), H4SiW12O40·24H2O (0.2 g, 0.07 mmol), and H2O (10 mL) was stirred for 60 min in air, then transferred and sealed in a 23 mL Teflon re...
+2025-01-06 15:34:49,359 - 
+Paragraph: LIJXEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['CH3CH2OH', 'S S']
+Got (Which appears in text!): H2O
+Original text: Synthesis of 1: A mixture of Cd(OAc)2 · 2H2O (0.4 mmol), H2pam (0.10 mmol), NaOH (0.20 mmol), 4,4′-bpy (0.1 mmol) and CH3CH2OH (10 mL) was stirred for 30 min in air, then sealed in a 25 mL Telfon-line...
+2025-01-06 15:34:49,675 - 
+Paragraph: RUVBOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH']
+Got (Which appears in text!): EtOH
+Original text:   A mixture of Cd(NO3)2·4H2O (31 mg, 0.1 mmol), 4-Htba (19 mg, 0.1 mmol), 4,4′-bipyridine (16 mg, 0.1 mmol), DMF (4 mL) and MeOH (1 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and ...
+2025-01-06 15:34:49,676 - 
+Paragraph: BUXZAX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIETHYLFORMAMIDE', 'Diethylformamide', 'DEF']
+Got (Which appears in text!): DMF
+Original text: For detailed experimental procedures including syntheses and characterization data, see the Supporting Information. Briefly, commercial HfOCl2·8H2O (123 mg, 0.3 mmol), benzoic acid (2.7 g, 22.1 mmol),...
+2025-01-06 15:34:50,026 - 
+Paragraph: ANIDIL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol', 'S S']
+Got unresolvable (Which appears in text!): DMF/ethanol
+Original text: A mixture of Co(NO3)2·6H2O (41.6 mg, 0.14 mmol), isophthalic acid (20.1 mg, 0.12 mmol), 1,3-bis(4-pyridyl)propane (24.3 mg, 0.12 mmol), ammonium hydroxide (29.30 μL, 0.24 mmol) and DMF/ethanol (1/4, v...
+2025-01-06 15:34:50,027 - 
+Paragraph: AVESUR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Cd(NO3)2·4H2O (0.02 mmol, 6.1 mg), H5L1 (0.01 mmol, 4.5 mg), HCl (0.15 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 100 °C for ...
+2025-01-06 15:34:50,027 - 
+Paragraph: OKIPOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of Co(NO3)2·6H2O (29.1 mg, 0.1 mmol), H2bdc (16.6 mg, 0.1 mmol), and BIDPE (30.2 mg, 0.1 mmol) in 12 mL of DMF/H2O (3:1, v/v) was placed in a Parr Teflon-lined stainless steel vessel (15 mL)...
+2025-01-06 15:34:50,029 - 
+Paragraph: ADASUV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'NMP']
+Got (Which appears in text!): H2O
+Original text: rht‐MOF‐4 c: Co(NO3)2⋅6 H2O (24 mg), H6tL1 (37 mg), DMF (1 mL), and NMP (0.5 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h to give a few red cube crystals. I4m, a=29.395 Å, c=41.638 Å. ...
+2025-01-06 15:34:50,030 - 
+Paragraph: AQIXUV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A solvothermal reaction of H3L (30 mg, 0.05 mmol), bpe (18 mg, 0.1 mmol) and Ni(NO3)2·6H2O (24 mg, 0.1 mmol) in 6 mL DMF/H2O (4:2 vol ratio) was performed in a teflon-lined acid digestion bomb at 80 °...
+2025-01-06 15:34:50,376 - 
+Paragraph: HAVZIP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O', '8O', 'ethanol', 'Thanol']
+Got unresolvable : water,ethanol
+Original text: Synthesis of Co2(4,4′-bpy)3(ox)(As2W18O62)2(H2bpy)·2H2O (1): A mixture of K6As2W18O62 (0.5 g), C2H2O4 (0.001 g), Co(NO3)2 (0.058 g), and 4,4′-bipyridine (0.14 g), was dissolved in water (8 ml) and eth...
+2025-01-06 15:34:50,693 - 
+Paragraph: ZEBMAW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/H2O
+Original text: A solution of Ce(NO3)3·6H2O (20 mg, 45 μmol) and H4L (23 mg, 45 μmol) in a mixture of DMF (4 mL) and H2O (1.3 mL) in a capped 12 mL glass vial was heated to 80 °C in a sand bath for 24 h, affording rh...
+2025-01-06 15:34:51,038 - 
+Paragraph: WOXKOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'H20', 'DMF']
+Got unresolvable (Which appears in text!): H2O/DMF
+Original text:   A mixture of MnCl2·4H2O (0.015 mmol, 3.0 mg), H4qptc (0.005 mmol, 2.4 mg), 1,4-bib (0.01mmol, 2.1 mg), aqueous NaOH solution (0.02 mL, 0.5 mol L−1), and H2O/DMF (1 mL, v/v, 1/1) were heated at 130 °...
+2025-01-06 15:34:51,386 - 
+Paragraph: GERWIL_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['EtOH', 'S S', 'DMF']
+Got unresolvable : EtOH, DMF
+Original text: A mixture of Zn(NO3)2·6H2O (0.030 g, 0.1 mmol) and H8L (0.0138 g, 0.02 mmol) in 4 mL of EtOH, 1 mL of DMF and three drops of HCl (6 mol/L) was sealed in an autoclave equipped with a Teflon linear (25 ...
+2025-01-06 15:34:51,742 - 
+Paragraph: BAZGEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'NMP']
+Got unresolvable (Which appears in text!): DMF/NMP
+Original text: A solid mixture of H3BBC (30.4 mg, 0.046 mmol), and Cu(NO3)2·2.5H2O (33.3 mg, 0.143 mmol) was dissolved in a mixture of DMF/NMP (5.0/5.0 mL) in a 20 mL vial was heated in an isothermal oven at 85 °C f...
+2025-01-06 15:34:51,743 - 
+Paragraph: NOSJIQ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water', 'H2O']
+Got unresolvable (Which appears in text!): air
+Original text: A mixture of Dy2O3 (0.1895 g, 0.5 mmol), Cu(OAc)2⋅2 H2O (0.033 g, 0.3 mmol), nicotinic acid (0.2414 g, 2.0 mmol), HCOOH (27.6 mg, 0.60 mmol), and H2O (8 mL) was stirred for 12 h in air until all reage...
+2025-01-06 15:34:51,743 - 
+Paragraph: IYAKAW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'DMA']
+Got (Which appears in text!): H2O
+Original text:   A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), Mg(OH)2 (7 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and heated at ...
+2025-01-06 15:34:52,080 - 
+Paragraph: YOPQEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'EtOH', 'S S']
+Got unresolvable (Which appears in text!): H2O/EtOH
+Original text: A mixture of H5bpbc (0.05 mmol, 18.7 mg), 4,4′-bipy (0.1 mmol, 15.6 mg), Co(NO3)2·6H2O (0.1 mmol, 29.1 mg), NaOH (0.1 mmol, 4.0 mg), and H2O/EtOH (8 mL, v:v 1:1) was placed in a 25 mL Teflon-lined sta...
+2025-01-06 15:34:52,409 - 
+Paragraph: PENXUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable : CH2CH2CH2CH2CH2
+Original text: Synthesis of [H2N(CH2CH2)2NH2][V4O2F4(H2O)2{O3P(CH2)3PO3}2] (1). A mixture of NH4VO3 (0.219 g, 1.872 mmol), 1,3-propylenediphosphonic acid (0.192 g, 0.941 mmol), H2O (10.00 g, 556 mmol), piperazine (0...
+2025-01-06 15:34:52,755 - 
+Paragraph: USOXEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O', 'MeOH']
+Got unresolvable (Which appears in text!): DMF/water/MeOH
+Original text: A mixture of Zn(OAc)2·2H2O (0.052 g, 0.24 mmol) and [Cu(HIm)4](NO3)2 (0.092 g, 0.20 mmol) was dissolved using a solvent mixture of DMF/water/MeOH (2/1/1, v/v). The pH of the solution mixture was adjus...
+2025-01-06 15:34:53,433 - 
+Paragraph: MITGIF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got (Which appears in text!): Teflon
+Original text: Preparation of the Complexes. [{Yb(bbtec)1/4(dbtec)3/6(H2O)2}4· 6H2O]n (1). A mixture of YbCl3·6H2O (0.048 g, 0.125 mmol), 1,2,4,5-benzenetetracarboxylic dianhydride (0.05 g, 0.25 mmol), and H2O (16.0...
+2025-01-06 15:34:53,785 - 
+Paragraph: QIRWAR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable (Which appears in text!): Cu(NO3)2·3H2O
+Original text: Synthesis of 1: A mixture of Cu(NO3)2·3H2O (481 mg; 2 mmol), 3‐aminopyrazine‐2‐carboxylicacid (139 mg; 1 mmol), and H2O (9 mL) was sealed in a 15 mL Teflon‐lined reactor, which was heated in an oven t...
+2025-01-06 15:34:54,123 - 
+Paragraph: DOQKAW_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got (Which appears in text!): Et2O
+Original text: ‡ Synthesis: A DMA solution (5 mL) containing Cd(NO3)2·4H2O (92 mg, 0.3 mmol), H2bdc (41 mg, 0.25 mmol), Htrz (17 mg, 0.25 mmol), and Hbtrz (30 mg, 0.25 mmol) in a Teflon-lined steel bomb was heated a...
+2025-01-06 15:34:54,456 - 
+Paragraph: BEXVEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'water', 'H2O']
+Got (Which appears in text!): DMA–water
+Original text:   A mixture of Cu(NO3)2·2½H2O (11.6 mg, 0.05 mmol) and H4L (7.2 mg, 0.02 mmol) was dissolved in 8 ml of DMA–water (1:1). Then, 0.5 ml of 12(N) HNO3 was added. The mixture was heated for 48 h in a bath...
+2025-01-06 15:34:54,793 - 
+Paragraph: BOSHIC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeCN', 'H2O']
+Got unresolvable (Which appears in text!): DMF/MeCN/H2O
+Original text:   The organic linker H4L (Scheme 1) was readily synthesized according to ref. 5c. 1H NMR (500 MHz, DMSO-D6): δ = 8.60 (2, 2H), 8.27 (d, 4H), 7.84 (d, 2H), 7.65 (d, 2H), 7.62 (d, 2H). A mixture of H4L ...
+2025-01-06 15:34:55,470 - 
+Paragraph: DIMQIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3CN']
+Got unresolvable (Which appears in text!): DMF/CH3CN
+Original text: A mixture of Co(NO3)2·6H2O (43.8 mg, 0.15 mmol), DPNDI (21.3 mg, 0.05 mmol), and H2BDC (9.1 mg, 0.055 mmol) in DMF/CH3CN (8 mL; 3:1) solution was stirred for 1 h. The mixture was sealed in a 25 mL Tef...
+2025-01-06 15:34:55,470 - 
+Paragraph: AJAMEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'CH3CN', 'H2O']
+Got (Which appears in text!): DMA/CH3CN/H2O
+Original text:   A mixture of Co(NO3)2·6H2O (29 mg, 0.1 mmol), BPYPY (23 mg, 0.1 mmol) and trans-chdc (17.2 mg, 0.1 mmol) was dissolved in 5 mL of DMA/CH3CN/H2O (1:3:1, v/v/v). The final mixture was placed in a Parr...
+2025-01-06 15:34:55,784 - 
+Paragraph: PENYOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got (Which appears in text!): HF
+Original text: Synthesis of [H3O][V3F2(H2O)2{O3P(CH2)2PO3}2]·3.5H2O (5·3.5H2O). A mixture of VOSO4 (0.224 g, 1.37 mmol), 1,2-ethylenediphosphonic acid (0.174 g, 0.916 mmol), diethylene triamine (0.100 g, 0.969 mmol)...
+2025-01-06 15:34:55,785 - 
+Paragraph: UMIGAA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got (Which appears in text!): water
+Original text: Synthesis of [Me2NH2][Zn2Co(μ3‐OH)(BTC)2(H2O)]·2H2O (FJI‐6): A mixture of Zn(ClO4)2·6H2O (0.10 mmol, 38 mg), Co(ClO4)2·6H2O (0.05 mmol, 19 mg), H3BTC (0.10 mmol, 20 mg) in DMA (5.0 mL) with additional...
+2025-01-06 15:34:55,785 - 
+Paragraph: DEJCIF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH']
+Got (Which appears in text!): water
+Original text: Synthesis of [Zn2(3,4-PDC)2(DMF)2(py)]n,2 (usf-51). Zn(NO3)2·6H2O (11.9 mg, 0.04 mmol) and 3,4-H2PDC (6.68 mg, 0.04 mmol) were added to a 2 mL solution of DMF, EtOH, and pyridine (py) in a 20 mL scint...
+2025-01-06 15:34:55,786 - 
+Paragraph: RUGKOV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of Zn(NO3)2·6H2O (48.0 mg, 0.160 mmol), 4-H2pca (14.0 mg, 0.120 mmol), and Hade (13.0 mg, 0.100 mmol) was dissolved in DMF/H2O (10 mL, 9:1, v/v) in a screw-capped vial and heated to 120 °C f...
+2025-01-06 15:34:55,787 - 
+Paragraph: WIJXIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): H2O
+Original text: A mixture of Zn(NO3)2·6H2O (0.60 mmol, 0.15 g) and 2,7-H2CDC (0.10 mmol, 0.026 g) was dissolved in DEF (3.0 mL) in a glass vial (25 ml), heated at 85 °C for 16 h, and then cooled to room temperature. ...
+2025-01-06 15:34:55,787 - 
+Paragraph: ZIKJIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got (Which appears in text!): water
+Original text:   A mixture of Cu(NO3)2·3H2O (0.030 g, 0.12 mmol), H4L·H2O (0.010 g, 0.02 mmol), DMF (2 mL) and 3 drops HBF4 (40% in water) was sealed in a glass vial. The mixture was heated at 75 °C for 36 h, and th...
+2025-01-06 15:34:55,788 - 
+Paragraph: CAYQUQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/H2O
+Original text: A mixture of L3-H8 (1 mg, 0.82 μmol) and Cu(ClO4)2·6H2O (1.21 mg, 3.26 μmol) was dissolved in a solvent mixture of DMF (0.1 mL), H2O (0.025 mL), and 2 M HCl (10 μL) in a screw-capped vial. The resulti...
+2025-01-06 15:34:56,128 - 
+Paragraph: APAZOI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'methanol', 'H2O']
+Got unresolvable : H2O = water
+Original text:   A mixture of La(NO3)3·6H2O (12 mg), Qu-H3L (6 mg) and DMF/methanol/H2O = 4:2:0.5 (1 mL) was stirred for ca. 20 min in air, then transferred and sealed in a 4 ml Teflon-lined autoclave, which was hea...
+2025-01-06 15:34:57,492 - 
+Paragraph: ANUGIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'Dioxane', 'Dioxan', 'H2O']
+Got unresolvable : DMF/dixana/H2O
+Original text: Linker H43 (0.050 g, 0.10 mmol) was added to a solution of 0.005 M HCl in DMF/dioxane/H2O (4:1:1, 10 mL) in a 20-mL scintillation vial. To this mixture, Cu(NO3)2·2.5H2O (0.096 g, 0.41 mmol) was added,...
+2025-01-06 15:34:57,493 - 
+Paragraph: YICGOI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeCN', 'H2O']
+Got unresolvable (Which appears in text!): DMF/MeCN/H2O
+Original text: A mixture of Co(NO3)2·6H2O (29.1 mg, 0.1 mmol), TPPA (47.6 mg, 0.1 mmol), and benzene-p-dicarboxylic acid (33.2 mg, 0.2 mmol) was dissolved in 15 mL of DMF/MeCN/H2O (1:2:3). The final mixture was plac...
+2025-01-06 15:34:57,888 - 
+Paragraph: UXUYUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol']
+Got (Which appears in text!): hexane
+Original text: § Synthesis of [Li4(C5H4NO)4]·x(solv): the compound can be synthesized under a wide range of experimental conditions. Typically the synthesis was by injection of 0.5 ml tert-BuOLi (1.0 M solution in h...
+2025-01-06 15:34:58,229 - 
+Paragraph: WISTID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ethanol', 'Thanol', 'S S']
+Got unresolvable (Which appears in text!): water–ethanol
+Original text: A mixture of Zn(NO3)2·6H2O (0.059 g, 0.2 mmol) and H4bptc (0.033 g, 0.1 mmol) in water–ethanol (2:1 v/v) was stirred for 30 min, and then sealed in a 25 mL Teflon reactor and heated at 150 °C for 72 h...
+2025-01-06 15:34:58,573 - 
+Paragraph: SUKKUG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ACETONITRILE', 'Acetonitril', 'CH3CN', 'H2O']
+Got unresolvable : DMF, CH3CN, H2O
+Original text:   A mixture of the organic linker H4L2 (5.0 mg, 10.93 μmol) and CuCl2·2H2O (10.0 mg, 58.66 μmol) was dissolved in a mixed solvent of DMF, acetonitrile and H2O (1.5 mL/0.5 mL/0.08 mL) in a screw-capped...
+2025-01-06 15:34:58,573 - 
+Paragraph: AZAWAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF', 'water', 'Deionized water', 'H2O']
+Got (Which appears in text!): DMF
+Original text: A 0.02 M stock solution of copper nitrate trihydrate in DEF (0.5 mL) was added to a 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water ...
+2025-01-06 15:34:58,890 - 
+Paragraph: NAFGOR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got (Which appears in text!): ethanol
+Original text: [Co(im)2·0.5DMA]∞ (7). Co(Ac)2·4H2O (1.245 g, 5.0 mmol), imidazole (0.68 g, 10 mmol), and piperazine (0.68 g, 8 mmol) were added to DMA (25 mL). The reaction mixture was stirred at room temperature fo...
+2025-01-06 15:34:58,891 - 
+Paragraph: VOGPEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of H5DDCBA (4 mg, 0.0089 mmol) and Cu(NO3)2·2.5H2O (8.56 mg, 0.0356 mmol) was dissolved in DMF/H2O (6 mL, 9/1, v/v) in a screw-capped vial. After HNO3 (230 μL) were added to the mixture, t...
+2025-01-06 15:34:58,891 - 
+Paragraph: ECOLEP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'methanol']
+Got unresolvable (Which appears in text!): air
+Original text: A mixture of Co(Ac)2·4H2O (0.075 g, 0.30 mmol), H3BTT (0.028 g, 0.10 mmol), and DMA/methanol (1:1) was stirred for 10 min in air at room temperature. Then the mixture was transferred and sealed in a T...
+2025-01-06 15:34:59,252 - 
+Paragraph: YOZQAG_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/H2O
+Original text: Synthesis of UoC‐1: In a 20 mL vial, Zn(NO3)2⋅6 H2O (0.147 g, 0.49 mmol) and H2L2 (0.05 g, 0.16 mmol) were dissolved in a mixture of DMF (10 mL) and H2O (0.15 mL) at room temperature. The vial was pla...
+2025-01-06 15:34:59,604 - 
+Paragraph: QINSUD01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3OH']
+Got unresolvable : DMF,CH3OH,water
+Original text: A mixture of Mn(OAc)·4H2O (1.5 mmol), NH3·H2O (0.04 mL), DMF (10 mL), CH3OH (10 mL) was stirred for 30 min in air. The resulting solution was kept at 140 °C for 72 h in an oven, and then cooled down t...
+2025-01-06 15:34:59,604 - 
+Paragraph: DUSHIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got (Which appears in text!): H2O
+Original text:   A mixture of FeCl2·4H2O (1.193 g, 6.0 mmol), H2bdc (0.996 g, 6.0 mmol), Hna (0.738 g, 6.0 mmol), HBF4 (50 wt% in H2O, 0.4 mL), and DMA (60.0 mL) was stirred for 30 min in air, then transferred into ...
+2025-01-06 15:35:00,268 - 
+Paragraph: ERIWAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl formamide', 'DMF', 'N,N-Dimethyl formamide', 'dimethyl formamid', 'N,N-dimethyl formamid', 'MeOH', 'CH3OH', 'H2O', '8O']
+Got unresolvable : DMF, CH3OH, H2O
+Original text:   A mixture of H4L (5.0 mg, 11.8 μmol), and CuCl2·2H2O (15.0 mg, 88.0 μmol) was dissolved in a mixed solvent of N,N-dimethyl formamide (DMF, 1.5 mL), CH3OH (0.5 mL) and H2O (0.1 mL). After addition of...
+2025-01-06 15:35:00,762 - 
+Paragraph: FIHFAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF–H2O
+Original text:   A mixture of Co(NO3)2·6H2O (1.0 mmol, 0.293 g), H3btc (1 mmol, 0.210 g) and Hatz (1 mmol, 0.084 g) in DMF (8 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heat...
+2025-01-06 15:35:00,763 - 
+Paragraph: BAZGAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'NMP', 'PYRIDINE', 'Pyridin']
+Got unresolvable (Which appears in text!): DMF/NMP
+Original text: A solid mixture of H3TAPB (22.0 mg, 0.033 mmol) and Cu(NO3)2·2.5H2O (76.7 mg, 0.33 mmol) was dissolved in a mixture of DMF/NMP/pyridine (5.0/5.0/0.4 mL) in a 20 mL glass vial. The clear reaction solut...
+2025-01-06 15:35:01,656 - 
+Paragraph: VAGBUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', '1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan']
+Got unresolvable (Which appears in text!): H2O/1,4-dioxane
+Original text:   Gd(NO3)3 (0.045 g, 0.1 mmol), CuI (0.019 g, 0.1 mmol), KI (0.032 g, 0.2 mmol) and Hpba (0.030 g, 0.15 mmol) were placed in 5 mL of H2O/1,4-dioxane (v:v = 2:3) solution and stirred for a few hours, t...
+2025-01-06 15:35:02,298 - 
+Paragraph: MAZSUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got (Which appears in text!): pyrazine
+Original text: Synthesis of Zn3(tz)2(bdc)2⋅x(DMF) (2): A mixture of Zn(NO3)2⋅6H2O (0.0800 g, 0.27 mmol), pyrazine(0.0150 g 0.19 mmol), 1,2,3–1H‐triazole (0.0400 g, 0.58 mmol), 1,4‐benzenedicarboxylic acid (0.0500 g ...
+2025-01-06 15:35:03,282 - 
+Paragraph: MEJQID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'MeOH']
+Got unresolvable (Which appears in text!): water and ethanol
+Original text:   The mixture of Zn(NO3)2 (0.5 mmol, 0.150 g), adenine (0.5 mmol, 0.070 g), isonicotinic acid (0.5 mmol, 0.06 g), DMA (3 ml), dmurea (2 g) and MeOH (3 ml) was sealed in a 20 ml vial and heated to 120 ...
+2025-01-06 15:35:03,283 - 
+Paragraph: IBUBIT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Zn(NO3)2·6H2O (74 mg, 0.25 mmol), H2BDC (83 mg, 0.5 mmol), TRZ (17 mg, 0.25 mmol) and 8 mL DMF/H2O (v/v = 5:3) solution was stirred in a 20 mL closed vial at room temperature. The mixed...
+2025-01-06 15:35:03,639 - 
+Paragraph: NIYZIG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF', 'EtOH', 'H2O']
+Got unresolvable (Which appears in text!): DEF/EtOH/H2O
+Original text: A total of 0.20 mmol of Zn(NO3)2·6H2O (60 mg) and 0.10 mmol of H3TPO (41 mg) were dissolved in a mixed solvent of DEF/EtOH/H2O (8 mL, v/v/v = 1:2:1) and then sealed in a Teflon-lined autoclave (30 mL)...
+2025-01-06 15:35:03,640 - 
+Paragraph: SAJDIT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'N-Methyl-2-pyrrolidone', 'NMP', 'N-Methyl-2-pyrrolidon', 'methyl-2-pyrrolidone']
+Got (Which appears in text!): H2O
+Original text:   A mixture of Tb(NO3)3·6H2O (22.7 mg, 0.05 mmol), H3TBOT (17.1 mg, 0.03 mmol), N,N-dimethylformamide (DMF) (6 mL), N-methyl-2-pyrrolidone (NMP) (1 mL), and formic acid (0.4 mL) was sealed in a Teflon...
+2025-01-06 15:35:03,641 - 
+Paragraph: LAZJIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of Zn(NO3)2·6H2O (29.7 mg, 0.1 mmol), H4btc (25.4 mg, 0.1 mmol), and TPOM (22.2 mg, 0.05 mmol) was dissolved in 9 mL of DMF/H2O (1/2, v/v). The final mixture was heated at 100 °C for 2 days....
+2025-01-06 15:35:03,960 - 
+Paragraph: OFODET_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'glycol', 'H2O']
+Got unresolvable (Which appears in text!): DMF/glycol/H2O
+Original text: A mixture of MnCl2·(H2O)4 (40 mg, 0.2 mmol) and H4ABTC (11 mg, 0.03 mmol) was dissolved in DMF/glycol/H2O (8:2:1) at room temperature in a 25 mL beaker. Sufficient 2 M HCl was added until the mixture ...
+2025-01-06 15:35:03,961 - 
+Paragraph: WUSLED_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/H2O
+Original text:   H3TPO (40.0 mg, 0.1 mmol) and UO2(NO3)3·6H2O (50.2 mg, 0.1 mmol) were dissolved in a mixture of 3 mL DMF and 2 mL H2O. The resulting solution was sealed in a 20 mL glass vial and heated at 90 °C for...
+2025-01-06 15:35:04,626 - 
+Paragraph: REKZIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', '8O', 'ethanol', 'Thanol', 'S S']
+Got unresolvable (Which appears in text!): water−Ethanol
+Original text: Synthesis of [Cd6(MeCO2)4(bpy)2(H2bna)4]·3.5H2O (2). A mixture of Cd(MeCO2)2·2H2O (0.266 g, 1 mmol), H4bna (0.094 g, 0.25 mmol), bpy (0.040 g, 0.25 mmol), and NaOH (0.020 g, 0.50 mmol) in water−ethano...
+2025-01-06 15:35:04,963 - 
+Paragraph: AVETEC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Cd(NO3)2·4H2O (0.02 mmol, 6.1 mg), H6L2 (0.01 mmol, 4.8 mg), HCl (0.15 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 90 °C for 7...
+2025-01-06 15:35:06,331 - 
+Paragraph: DACSAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'methanol', 'water', 'H2O']
+Got unresolvable : DMF, methanol,water
+Original text:   A mixture of Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) and the organic ligand H4L1 (5.0 mg, 11.1 μmol) was dissolved in a mixed solvent consisting of N,N′-dimethylformamide (DMF, 1.5 mL), methanol (0.5 mL)...
+2025-01-06 15:35:06,332 - 
+Paragraph: XAVKIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A solution of Cu(NO3)2·3H2O (19.3 mg, 0.08 mmol), H4PANAD (9.98 mg, 0.012 mmol) and 0.05 ml of concentrated HCl was mixed in a solvent of DMF/H2O (v/v = 5/1) (2 ml). The mixture was sealed in a Pyre...
+2025-01-06 15:35:06,333 - 
+Paragraph: VUQLEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got (Which appears in text!): water
+Original text: ‡ A mixture of 0.2429 g Eu2O3, 0.1106 g (CH3)2NH (40%), 1.6130 g concentrated sulfuric acid (98%) and 6.6418 g N,N-dimethylformamide (DMF) in a 1:1.4:23:131 molar ratio was sealed in a 24 mL Teflon-li...
+2025-01-06 15:35:07,047 - 
+Paragraph: VOCCOH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got (Which appears in text!): NaOH
+Original text: Preparation of {[Ni(H2O)6][Ni4L2(μ3-OH)2(H2O)2]}n (1). A mixture of H4L (0.1 mmol, 33.0 mg), Ni(OAc)2 · 4H2O (0.2 mmol, 48.0 mg), NaOH (0.1 mmol, 4.0 mg) and H2O (15 mL) was placed in a Teflon-lined s...
+2025-01-06 15:35:07,385 - 
+Paragraph: APUPEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF', 'MeOH', 'Dimethylaniline']
+Got unresolvable (Which appears in text!): DEF/MeOH
+Original text:   Cu(NO3)2·3H2O (7.2 mg, 0.030 mmol) and (S)-1H2 (9.0 mg, 0.030 mmol) in a solvent mixture of DEF/MeOH (1.5/1.5 mL) were placed in a 4 mL vial. N,N′-dimethylaniline (1 mL) was placed in a 20 mL vial. ...
+2025-01-06 15:35:07,386 - 
+Paragraph: MEJQOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1-METHYL-2-PYRROLIDINONE', 'Methyl-2-pyrrolidinone', 'methanol']
+Got unresolvable (Which appears in text!): water and ethanol
+Original text:   The mixture of Zn(NO3)2 (0.5 mmol, 0.150 g), adenine (0.5 mmol, 0.070 g), isonicotinic acid (0.5 mmol, 0.06 g), 1-methyl-2-pyrrolidinone (3 ml), 1,3-dimethylurea (2 g) and methanol (3 ml) was sealed...
+2025-01-06 15:35:07,386 - 
+Paragraph: QUHMOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMSO']
+Got (Which appears in text!): H2O
+Original text: Complex 3 was obtained by the following hydrothermal method: A mixture of Gd2(SO4)3·8H2O (4 mmol), HCOOH (4 mL), and DMSO (4 mL) was sealed in a Teflon-lined autoclave and heated to 140 °C over 6 h. A...
+2025-01-06 15:35:07,739 - 
+Paragraph: BAZFUF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'NMP', 'PYRIDINE', 'Pyridin']
+Got unresolvable : DMF/N255ene/pyridine
+Original text: A solid mixture of H3BTB (21 mg, 0.048 mmol), and Cu(NO3)2·2.5H2O (60 mg, 0.258 mmol) was dissolved in a mixture of DMF/NMP/pyridine (5.0/5.0/0.4 mL) in a 20 mL vial. The vial was capped and heated in...
+2025-01-06 15:35:08,059 - 
+Paragraph: LUCKAX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3CH2OH', 'S S', 'water', 'Distilled water', 'H2O']
+Got unresolvable (Which appears in text!): DMF/CH3CH2OH/H2
+Original text: Cd(NO3)2·4H2O (25 mg, 0.26 mmol) was added to the DMF/CH3CH2OH/H2O (3:3:2, 4 ml) solution of H4L (15 mg, 0.45 mmol), and the mixture was stirred for ca. 20 min in air. Then it was heated at 75 °C for ...
+2025-01-06 15:35:08,732 - 
+Paragraph: VAGBOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'ethanol', 'Thanol']
+Got unresolvable (Which appears in text!): H2O/ethanol
+Original text:   Gd(NO3)3 (0.045 g, 0.1 mmol), CuI (0.019 g, 0.1 mmol), NaI (0.030 g, 0.2 mmol) and Hpba (0.030 g, 0.15 mmol) were placed in 5 mL of H2O/ethanol (v:v = 2:3) solution and stirred for a few hours, then...
+2025-01-06 15:35:09,465 - 
+Paragraph: EKEMEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'ethanol', 'EtOH', 'Thanol', 'water', 'H2O']
+Got unresolvable : DMF/EtOH/H2O
+Original text: A mixture of H8L (5.0 mg, 5.65 μmol) and CuCl2·2H2O (5.0 mg, 29.32 μmol) was placed in a 20 mL scintillation vial, and a mixed solvent of N,N-dimethylformamide (DMF; 1.5 mL), ethanol (EtOH, 0.5 mL), a...
+2025-01-06 15:35:09,818 - 
+Paragraph: NAHHOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3CN', 'H2O']
+Got unresolvable : DMF, CH3CN, H2O
+Original text:   A mixture of H4L3 (5.0 mg, 12.2 μmol), and Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) was dissolved in a mixed solvent of DMF (1.5 mL), CH3CN (0.5 mL), and H2O (0.08 mL) in a 20 mL glass vial. After the add...
+2025-01-06 15:35:10,141 - 
+Paragraph: EKEKIQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF and water
+Original text: A mixture of 2-propylimidazole (2-pim, 0.0150 g, 0.14 mmol), NH2–H3BTB (0.0150 g, 0.035 mmol), Zn(NO3)2·6H2O (0.0400 g, 0.14 mmol), tetramethylammonium bromide (0.0200 g, 0.13 mmol), and DMF/H2O (v/v ...
+2025-01-06 15:35:10,143 - 
+Paragraph: ATIBOU02_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got (Which appears in text!): water
+Original text: Synthesis of the compound [Mn3(HCOO)6]·DMF (1): The mixture of 50% Mn(NO3)2 water solution (0.5 mmol, 0.178 g), 4,5-Imidazoledicarboxylic acid (0.5 mmol, 0.078 g) and 5 ml DMF was sealed in a 20 ml vi...
+2025-01-06 15:35:10,479 - 
+Paragraph: BUPDOH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'ethanol', 'EtOH', 'Thanol', 'H2O']
+Got unresolvable : DMF, ethanol and H2O
+Original text:   A mixture of the organic linker H4L (5.0 mg, 10.77 μmol) and Cu(NO3)2·3H2O (15.0 mg, 62.10 μmol) was dissolved into a mixed solvent of N,N-dimethylformamide (DMF), ethanol and H2O (1.5 mL/0.5 mL/0.0...
+2025-01-06 15:35:10,479 - 
+Paragraph: DADXUE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMAc', 'DMA', 'MeOH']
+Got (Which appears in text!): H2O
+Original text: Cd(NO3)2·4H2O (0.10 mmol), 2,6-H2ndc (0.050 mmol), di(3-pyridylmethyl)amine (0.025 mmol), DMAc (5 mL), and MeOH (0.5 mL) were mixed in an acid digestion bomb at 120 °C for 72 h and then cooled to 30 °...
+2025-01-06 15:35:10,480 - 
+Paragraph: GOVWOF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): H2O
+Original text:   The intermediate hexakis(bromomethyl)benzene and H12L were prepared according to the procedures reported previously. A mixture of MnCl2·4H2O (0.020 g, 0.1 mmol), H12L (0.021 g, 0.017 mmol) and DEF (...
+2025-01-06 15:35:10,480 - 
+Paragraph: AROFAP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of H4X (0.05 mmol, 30.8 mg) and Cd(NO3)2·6H2O (0.11 mmol, 28.2 mg) was dissolved in 6 mL of DMF/H2O (2:1) in a 20 mL vial. The reaction vial was capped tightly and placed in an oven at 85 °C...
+2025-01-06 15:35:10,817 - 
+Paragraph: BOWZUK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF and water
+Original text: A mixture of Tipa (0.0225 g, 0.05 mmol), l-proline (0.0115 g, 0.10 mmol), Zn(NO3)2·6H2O (0.0560 g, 0.2 mmol), and DMF/MeOH/H2O (5 mL, v:v:v 3:1:1) was placed in a 20 mL scintillation vial at 100 °C fo...
+2025-01-06 15:35:10,817 - 
+Paragraph: IBUBAL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Cd(NO3)2·4H2O (154 mg, 0.5 mmol), H2BDC (42 mg, 0.25 mmol), DATRZ (25 mg, 0.25 mmol) and 6 mL DMF/H2O (v/v = 2:1) solution was stirred in a 20 mL closed vial at room temperature. The mi...
+2025-01-06 15:35:11,174 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'H2O', '8O']
+Got (Which appears in text!): AgPF6
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]...
+2025-01-06 15:35:11,175 - 
+Paragraph: DEMLAJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ACETONITRILE', 'Acetonitril']
+Got (Which appears in text!): H2O
+Original text: Preparation of Complex 1: A mixture of Cu(NO3)2·3H2O (0.241 g, 1.0 mmol), NaN3 (0.065 g, 1.0 mmol), 2, 2′‐bipyridine (0.156 g, 1.0 mmol), and acetonitrile (5.0 mL) was stirred for 10 min in air, and t...
+2025-01-06 15:35:11,517 - 
+Paragraph: TORXIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'water', 'H2O', 'Water solution']
+Got unresolvable (Which appears in text!): methanol–water
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adj...
+2025-01-06 15:35:11,517 - 
+Paragraph: LAWHOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'H2O', 'EtOH']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: H2L (0.1148 g; 0.5 mmol) and CdCl2 (0.2284 g, 1 mmol) were dissolved separately in dimethylformamide (DMF)/H2O (10:10, v/v) solution. Meanwhile, 10 mL of adenine (0.0405 mol L–1) DMF solution was also...
+2025-01-06 15:35:11,844 - 
+Paragraph: HEKTUO01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got unresolvable (Which appears in text!): Teflon‐lined stainless Steel Vessel
+Original text: A mixture of Cd(NO3)2·4H2O (0.030 g, 0.10 mmol), H3bpt (0.014 g, 0.05 mmol), and DMA (3 mL) was sealed into a 23 mL Teflon‐lined stainless steel vessel and heated at 120 °C for 4 d. After being slowly...
+2025-01-06 15:35:12,178 - 
+Paragraph: RUFZID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'methanol', 'H2O']
+Got unresolvable : DMF, methanol, H2O
+Original text: Cu(NO3)2·3H2O (0.073 g, 0.3 mmol), H2m-bdc (0.033 g, 0.2 mmol), and Hdmtrz (0.020 g, 0.2 mmol) were added to the mixed solvent of DMF, methanol, and H2O in a volume ratio of 1:1:1 (9 mL). The mixture ...
+2025-01-06 15:35:12,179 - 
+Paragraph: OQUCOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'H2O']
+Got : DMA(3ml)
+Original text: The mixture of Cd(CH3COO)2·2H2O (0.2 mmol, 0.053 g), (R)-H3CIA (0.026 g, 0.1 mmol), 1, 4-DIB (0.15 mmol, 0.032 g), DMA(3 ml) and H2O (1 ml) was sealed in a 20 ml vial and heated to 100 °C for three da...
+2025-01-06 15:35:12,500 - 
+Paragraph: LAHTUM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol']
+Got unresolvable : DMF/ethanol
+Original text: A mixture containing H4L (20 mg, 0.05 mmol), L1 (7.68 mg, 0.05 mmol), and Cd(NO3)2·4H2O (30 mg, 0.1 mmol) in DMF (2 mL) and ethanol (1 mL) was heated at 100 °C under autogenous pressure in a Teflon-li...
+2025-01-06 15:35:12,989 - 
+Paragraph: BINROH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Diethylformamide', 'DEF', 'H2O', 'H20']
+Got unresolvable : DEF; H2O
+Original text: A mixture of H3BTN (8.3 mg, 14.2 μmol) and Cu(NO3)2·2.5H2O (14.5 mg, 62.3 μmol, Aldrich) was dissolved in a mixed solvent of N,N′-diethylformamide (DEF; 1.0 mL) and H2O (0.1 mL) in a disposable scinti...
+2025-01-06 15:35:13,359 - 
+Paragraph: HAWREE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'S S']
+Got unresolvable : DMF, EtOH
+Original text: A reaction mixture of Mn(CH3COO)2·4H2O (0.5 mmol, 0.123 g), H2btac (0.4 mmol, 0.065 g), DMF (4 mL), and EtOH (4 mL) was stirred for 20 min in air, then transferred and sealed in a 18-mL Teflon-lined a...
+2025-01-06 15:35:13,359 - 
+Paragraph: KUZZAI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'NMF']
+Got (Which appears in text!): H2O
+Original text: A mixture of bpydbH2 (0.040 g, 0.1 mmol), Zn(NO3)2·6H2O (0.060 g, 0.2 mmol), HATZ (0.017 g, 0.2 mmol), DMA (2 mL), NMF (2 mL), and HBF4 (0.5 mL, 37% aq) was sealed into a vial (5 mL) and heated at 120...
+2025-01-06 15:35:13,361 - 
+Paragraph: SOJTOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ethanol', 'Thanol', 'Care', 'S S']
+Got unresolvable (Which appears in text!): water–ethanol
+Original text: [{(H2O)2Zn(μ-TMBTA)Zn·K}·2H2O]∝TMBTA-Zn(II) was synthesized under solvothermal condition from a water–ethanol solution of a mixture of potassium salt of TMBTA (60 mg, 0.1468 mmol), ZnCl2 (57 mg, 0.42 ...
+2025-01-06 15:35:13,361 - 
+Paragraph: QAMHAQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF and water
+Original text:   A mixture of 2-nitroimidazole (2-nim, 0.0156 g, 0.14 mmol), NH2-H3BTB (0.0156 g, 0.036 mmol), Zn(NO3)2·6H2O (0.0416 g, 0.14 mmol), tetraethylammonium bromide (0.075 mmol, 0.0156 g), which was used t...
+2025-01-06 15:35:13,362 - 
+Paragraph: WARXUL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   The organic linker 5-methoxyl-1,3-bis(3,5-dicarboxylphenyl)-benzene (H4MBDPB) (Scheme 1) was readily synthesized according to ref. 6. 1H NMR (500 MHz, DMSO-d6): 13.31 (bs, 4H), 8.40 (s, 2H), 8.36 (s...
+2025-01-06 15:35:13,679 - 
+Paragraph: LIDSIC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ethanol', 'Thanol', 'S S', 'water', 'H2O']
+Got unresolvable : DMF\u2013ethanol and water
+Original text:   A mixture of 5-(pyridin-4-yl)isophthalic (H2pyip, 0.030 g, 0.05 mmol) and Co(NO3)2·6H2O (0.0437 g, 0.15 mmol) in N,N′-dimethylformamide (DMF) (3 mL), ethanol (3 mL) and water (2 mL) was placed in a ...
+2025-01-06 15:35:13,995 - 
+Paragraph: KUKPUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'CH3CN']
+Got : Toluene
+Original text:   A mixture of CuCl2·2H2O (0.034 g, 0.2 mmol), Hcpt (0.020 g, 0.1 mmol), H2O (4 mL) and CH3CN (2 mL) was added into a 25 mL Teflon-lined stainless steel reactor, and then heated at 120 °C for 3 days u...
+2025-01-06 15:35:13,995 - 
+Paragraph: NOHQEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): ethanol
+Original text: Ligand H3TATB (0.6 mmol), In(NO3)3⋅x H2O (0.4 mmol) and tetraethylammonium chloride (0.4 mmol) were dissolved in DEF (6 mL). The mixture was placed in a 20 mL vial and heated at 120 °C for 3 days and ...
+2025-01-06 15:35:14,326 - 
+Paragraph: MICDEJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: Compound 5 was prepared by using Mn(NO3)2·6H2O (29.1 mg, 0.1 mmol) and H3BCPBA (39.4 mg, 0.1 mmol) containing 4′,4-bipy (15.6 mg, 0.1 mmol) in 8 mL of DMF/H2O (3:1, v/v). The final mixture was placed ...
+2025-01-06 15:35:14,326 - 
+Paragraph: HUYXUV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O', '8O', 'ethanol', 'Thanol', 'C2H5OH', 'S S']
+Got unresolvable (Which appears in text!): DMF/H2O/C2H5OH
+Original text: Single crystals of 2 suitable for X-ray analysis were obtained by a modified method of that described above for 1. A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg) and L (0.1 mmol, 29 mg) was suspended i...
+2025-01-06 15:35:14,666 - 
+Paragraph: OFOCUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol', 'H2O']
+Got unresolvable (Which appears in text!): DMF/ethanol/H2O
+Original text: A mixture of Cu(NO3)2·(H2O)2.5 (24 mg, 0.1 mmol) and H4ABTC (18 mg, 0.05 mmol) was dissolved in DMF/ethanol/H2O (5:3:1) at room temperature in a 25 mL beaker. Sufficient 2 M HNO3 was added until the m...
+2025-01-06 15:35:14,667 - 
+Paragraph: VAJQOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['EtOH', 'S S', 'H2O']
+Got (Which appears in text!): DMF
+Original text: A mixture of 0.37 g Co(CH3COO)2·4H2O (1.2 mmol), 0.25 g (1.5 mmol) pyridine-3,4-dicarboxylic acid, 0.27 g 1,2-bis(4-pyridyl)ethylene (1.2 mmol), 0.035 g (1.5 mmol) LiOH and 35 mL of EtOH/H2O (1:1) was...
+2025-01-06 15:35:15,037 - 
+Paragraph: VIDJID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'water', 'H2O']
+Got unresolvable : DMF, EtOH, water
+Original text:   A mixture of Hcpt (5.3 mg, 0.028 mmol) and Co(NO3)2·6H2O (220 mg, 0.75 mmol) was placed in a scintillation vial (20 mL) along with a mixture of solvents composed of DMF (10 mL), EtOH (99%, 3 mL) and...
+2025-01-06 15:35:15,705 - 
+Paragraph: AJAKON_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA', 'EtOH', 'S S', 'H2O']
+Got unresolvable (Which appears in text!): EtOH/H2O
+Original text:   A mixture of H3TCA (0.05 mol), Cd(NO3)2·4H2O (0.25 mmol)) and HBF4 (40% aqueous, 2 drops) in the DMA/EtOH/H2O mixed solvent (DMA 2 mL; EtOH 1 mL; H2O 1 mL) was fully stirred at room temperature for ...
+2025-01-06 15:35:15,706 - 
+Paragraph: ZOJWAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of the organic linker H4L (8.0 mg, 0.015 mmol) and Cu(NO3)2·2.5H2O (20.0 mg, 0.086 mmol) was dissolved in 3.5 mL of mixed solvent (DMF/H2O, 3 mL/0.5 mL) in a screw-capped vial (20 mL), to ...
+2025-01-06 15:35:15,707 - 
+Paragraph: PEWKOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['CH3CN', 'water', 'Distilled water', 'H2O']
+Got (Which appears in text!): Teflon
+Original text: A mixture of Cd(NO3)2·4H2O (14.6 mg, 0.05 mmol), p-BrPhH3IDC (15.6 mg, 0.05 mmol), Et3N (0.056 mL, 0.4 mmol), 4,4′-bipy (7.8 mg, 0.05 mmol), and CH3CN/H2O (3/4, 7 mL) were sealed in 25 mL Teflon-lined...
+2025-01-06 15:35:15,707 - 
+Paragraph: LAWHUP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'H2O']
+Got unresolvable (Which appears in text!): DMF/EtOH/H2O
+Original text: A mixture containing Cd(NO3)2·4H2O (0.0308 g, 0.1 mmol) and H2L (0.0224 g, 0.1 mmol) was dissolved in 5 mL of DMF/EtOH/H2O (1:2:2, v/v/v). The mixture was heated at 120 °C in a 20 mL Teflon-lined auto...
+2025-01-06 15:35:15,707 - 
+Paragraph: SUKMAO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'methanol', 'MeOH', 'H2O']
+Got unresolvable : DMF, methanol, H2O
+Original text:   A mixture of the organic linker H4L3 (5.0 mg, 10.91 μmol) and Cu(NO3)2·3H2O (15.0 mg, 62.10 μmol) was dissolved in a mixed solvent of DMF, methanol and H2O (1.5 mL/0.5 mL/0.08 mL) in a screw-capped ...
+2025-01-06 15:35:15,708 - 
+Paragraph: FUWQIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of the organic link H4L (15 mg, 0.0356 mmol) and Cu(NO3)2·2.5H2O (30 mg, 0.0645 mmol) was dissolved into 8 mL mixed DMF/H2O solvent (3/1, v/v) in a 20 mL screw-capped vial, then 100 μL HCl...
+2025-01-06 15:35:15,708 - 
+Paragraph: FURFIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got : water
+Original text: A mixture of Cd(NO3)·4H2O (0.06 g, 0.2 mmmol), H2tdc (0.034 g, 0.2 mmol), bpp (0.038 g, 0.2 mmol) and DMA (3 mL) was seal in a Teflon–lined stainless steel reactor under autogenous pressure at 120 °C ...
+2025-01-06 15:35:15,709 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'H2O']
+Got (Which appears in text!): AgPF6
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)]...
+2025-01-06 15:35:15,711 - 
+Paragraph: AVETAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Zn(NO3)2·6H2O (0.045 mmol, 13.4 mg), H6L2 (0.018 mmol, 8.7 mg), HCl (0.20 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 90 °C fo...
+2025-01-06 15:35:15,712 - 
+Paragraph: HAPGIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ACETONITRILE', 'Acetonitril']
+Got unresolvable (Which appears in text!): air
+Original text: Synthesis of [Mn3(btca)2(HCOO)(μ3‐OH)(H2O)2]·2DMF (1): A mixture of Mn(Ac)2·4H2O (0.20 mmol, 49.0 mg), H2btac (0.1 mmol, 16.3 mg), N,N′‐dimethylformamide (4 mL), and acetonitrile (1 mL) was stirred fo...
+2025-01-06 15:35:16,378 - 
+Paragraph: XUBGUY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable : DMF and formic acid
+Original text:   TCPS (6.40 mg, 0.0125 mmol), and ZrOCl2·8H2O (16.10 mg, 0.0500 mmol) were ultrasonically dissolved in a solvent mixture of DMF (2 mL) and formic (1.2 mL) acid. The mixture was then heated at 130 °C ...
+2025-01-06 15:35:16,378 - 
+Paragraph: XUKHUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'Dimethylacetamide', 'Dimethylacetamid', 'N, N-dimethylacetamide', 'n-dimethylacetamide', 'DMA']
+Got unresolvable (Which appears in text!): H4L
+Original text: A mixture of ZnSO4·7H2O (0.043 g, 0.15 mmol), H4L (0.069 g, 0.15 mmol), H2O (2 ml), N, N-dimethylacetamide (DMA) (2 ml), the solution was placed in the Teflon-lined stainless steel vessel (25 ml), the...
+2025-01-06 15:35:16,709 - 
+Paragraph: KOLWEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF', 'ETHYLENE GLYCOL', 'Ethane-1,2-diol', '1,2-ethanediol', '107-21-1', 'glycol', 'monoethylene glycol', '1,2-Dihydroxyethane', '2-hydroxyethanol', 'Glycol alcohol', 'Ethylene alcohol', 'Macrogol', 'Fridex', 'Tescol', 'Ethylene dihydrate', 'Norkool', 'Macrogol 400 BPC', 'Dowtherm SR 1', 'Zerex', 'Ucar 17', 'Lutrol-9', 'ethanediol', 'ethyleneglycol', 'Aethylenglykol', 'Glycol, ethylene-', '1,2-Ethandiol', '1,2-ethylene glycol', 'Caswell No. 441', '146AR', 'MFCD00002885', 'NSC 93876', 'Athylenglykol', 'CCRIS 3744', 'ethylen glycol', 'DTXSID8020597', 'HSDB 5012', 'M.e.g.', 'NCI-C00920', 'UNII-FC72KVT52F', 'EINECS 203-473-3', 'FC72KVT52F', 'Lutrol 9', 'EPA Pesticide Chemical Code 042203', 'NANOSILVER+EG', 'PEG', 'CHEBI:30742', 'AI3-03050', 'HOCH2CH2OH', 'NSC-93876', 'LOWENOL T-163A', 'DTXCID40597', 'EC 203-473-3', '1,2-Ethylene Glycol (Ethylene Glycol)', 'Kollisolv PEG 300', 'ETHYLENE GLYCOL (II)', 'ETHYLENE GLYCOL [II]', 'Poly(ethylene Glycol) ~200', 'Poly(ethylene Glycol) ~400', 'Poly(ethylene Glycol) ~600', 'Poly(ethylene Glycol) ~1000', 'Poly(ethylene Glycol) ~2000', 'Poly(ethylene Glycol) ~4000', 'Poly(ethylene Glycol) ~6000', 'Poly(ethylene Glycol) ~9000', 'ETHYLENE GLYCOL (MART.)', 'ETHYLENE GLYCOL [MART.]', 'Poly(ethylene Glycol) ~20000', 'Ethylenglycol', 'Aethylenglykol [German]', 'ethylene-glycol', 'Poly(ethylene Glycol) ~30,000', 'Poly(ethylene Glycol) ~40,000', '2 Hydroxyethanol', 'Glycol, Ethylene', 'PEG 1000', 'CAS-107-21-1', 'GLYCEROL IMPURITY B (EP IMPURITY)', 'GLYCEROL IMPURITY B [EP IMPURITY]', 'Macrogol 400', 'Glycol, Monoethylene', 'Dowtherm 4000', '1,2-dihydroxy ethane', 'WLN: Q2Q', 'ethyleneglycole', 'ehtylene glycol', 'etylene glycol', '2-ethanediol', 'Ilexan E', 'MEG 100', 'Solbanon (TN)', '1,2-ethane diol', '1,2-ethane-diol', 'ethane-1.2-diol', 'GXT', 'Hydroxyethyl Salicylate Imp. B (EP); Ethylene Glycol; Propan-1,2-diol; Glycerol Impurity B; Hydroxyethyl Salicylate Impurity B', '1,2-ethyleneglycol', 'ethan-1,2-diol', 'mono-ethylene glycol', 'Ethane-1,2-diol (Ethylene Glycol)', 'Mono Ethylene Glycol', '1,2-ethylene-glycol', 'Lutrol E (TN)', 'Ethylene glycol,98%', 'DuPont Zonyl FSO Fluorinated Surfactants', 'Ethylene glycol, aerosol', 'Macrogol 400 (TN)', 'Ethylene glycol 1000 microg/mL in Methanol', 'Macrogol 1500 (TN)', 'Macrogol 4000 (TN)', 'Macrogol ointment (JP17)', 'HO-CH2-CH2-OH', 'HO(CH2)2OH', 'NCIOpen2_001979', 'NCIOpen2_002019', 'NCIOpen2_002100', 'Macrogol 400 (JP17)', 'ETHYLENE GLYCOL [MI]', 'MLS002454404', 'BIDD:ER0283', 'Macrogol 1500 (JP17)', 'Macrogol 4000 (JP17)', 'ETHYLENE GLYCOL [HSDB]', 'CHEMBL457299', 'Ethylene glycol, AR, >=99%', 'Ethylene glycol, LR, >=99%', 'Macrogol 20000 (JP17)', 'CHEBI:46793', 'ETHYLENE GLYCOL [USP-RS]', 'ETHYLENE GLYCOL [WHO-DD]', 'PEG1000', 'HMS2267F07', 'Ethylene glycol, p.a., 99.5%', 'Poly(ethylene Glycol) (~2000)', '1,2-ETHANEDIOL  (GLYCOL)', 'Ethylene Glycol Blank Standard in Multi-grade Diesel Engine Oil', 'HY-Y0338', 'NSC32853', 'NSC32854', 'NSC57859', 'NSC93876', 'PEG 3600', 'PEG-1000', 'STR01171', 'Ethylene glycol, analytical standard', 'Tox21_202038', 'Tox21_300637', 'Ethylene glycol, anhydrous, 99.8%', 'NSC-32853', 'NSC-32854', 'NSC-57859', 'NSC152324', 'NSC152325', 'NSC155081', 'STL264188', '100 microg/g Ethylene Glycol Standard in Multi-grade Diesel Engine Oil', '1000 microg/g Ethylene Glycol Standard in Multi-grade Diesel Engine Oil', '2000 microg/g Ethylene Glycol Standard in Multi-grade Diesel Engine Oil', '500 microg/g Ethylene Glycol Standard in Multi-grade Diesel Engine Oil', 'AKOS000119039', 'NSC-152324', 'NSC-152325', 'NSC-155081', 'USEPA/OPP Pesticide Code: 042203', 'NCGC00091510-01', 'NCGC00091510-02', 'NCGC00091510-03', 'NCGC00254292-01', 'NCGC00259587-01', 'BP-13454', 'BP-31056', 'SMR001262244', 'Ethylene glycol, ReagentPlus(R), >=99%', '1ST000065', 'DuPont Zonyl FSE   Fluorinated Surfactants', 'Residual Solvent Class 2 - Ethylene Glycol', 'E0105', 'Ethylene glycol, puriss., >=99.5% (GC)', 'NS00003552', '1,2-Ethane-1,1,2,2-d4-diol-d2(9ci)', 'EN300-19312', 'Ethylene glycol, BioUltra, >=99.5% (GC)', 'Ethylene glycol, SAJ first grade, >=99.0%', 'C01380', 'D03370', 'D06418', 'D06419', 'D06420', 'D06421', 'D06423', 'Ethylene glycol, JIS special grade, >=99.5%', 'Ethylene glycol, anhydrous, ZerO2(TM), 99.8%', 'Ethylene glycol, Vetec(TM) reagent grade, 98%', 'A851234', 'Ethylene glycol, spectrophotometric grade, >=99%', 'Q194207', 'InChI=1/C2H6O2/c3-1-2-4/h3-4H,1-2H', 'J-001731', 'F0001-0142', '004143F9-240E-472F-9D5A-B1B13BBA2A18', 'Ethylene glycol, United States Pharmacopeia (USP) Reference Standard', '600 microg/g Ethylene Glycol QC Check Standard in Multi-grade Diesel Engine Oil', 'Ethylene glycol, Pharmaceutical Secondary Standard; Certified Reference Material', 'ethylene glycol;1,2-ethanediol;ethane-1,2-diol;glycolethylene glycol;ethanediol;ethylene glycol 1,2-ethanediol ethane-1,2-diol glycolethylene glycol ethanediol', 'Residual Solvent Class 2 - Ethylene Glycol, United States Pharmacopeia (USP) Reference Standard', 'toluene', 'Toluen']
+Got unresolvable : DEF/EtOH/water
+Original text:   A mixture of H3BTB (30 mg, 0.68 mmol), Ni(NO3)2·6H2O (30 mg, 1.02 mmol) and 4,4′-bipyridine (32 mg, 2.05 mmol) in 2 ml of a DEF/EG/Toluene (molar ratio 1.3:1.7:1.0) solvent mixture was placed in a 2...
+2025-01-06 15:35:16,711 - 
+Paragraph: XADDOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol']
+Got (Which appears in text!): Teflon
+Original text: [Co6(μ3‐OH)2(ipa)5(H2O)5]·8H2O (1): Solvothermal reaction of a mixture of Co(OAc)2·5H2O (0.060 g, 0.25 mmol), H2ipa (0.066 g, 0.40 mmol), and methanol (5 mL) in a 10 mL Teflon‐lined bomb at 160 °C for...
+2025-01-06 15:35:16,712 - 
+Paragraph: KEBDIG_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethanol', 'EtOH', 'Thanol', 'S S', 'H2O']
+Got unresolvable (Which appears in text!): EtOH/H2O
+Original text: A mixture of Co(NO3)2·6H2O (0.07 g, 0.24 mmol), DBIBN (0.04 g, 0.12 mmol), and conc. HCl (0.1 mL) in EtOH/H2O (3 mL, 2:1 v/v) were placed in a Teflon lined stainless steel autoclave and heated at 180 ...
+2025-01-06 15:35:17,056 - 
+Paragraph: XAXQEU_SL
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'CH3CN']
+Got unresolvable : H2O andCH3CN
+Original text: A mixture of trans-1,4-H2chdc (0.06 g, 0.35 mmol) and InCl3·4H2O (0.05 g, 0.17 mmol) was added to 4 ml of H2O and 2 ml CH3CN in a 23 ml Teflon-lined stainless steel vessel autoclave. The mixture was s...
+2025-01-06 15:35:17,057 - 
+Paragraph: QIYCAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'CH3OH', 'MeOH', 'water', 'H2O', 'water solution', 'aqueous solution']
+Got (Which appears in text!): AgPF6
+Original text: A methanol solution (2 mL) of L3 (28 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L3)2](PF6)⋅CH3OH formed at the interfac...
+2025-01-06 15:35:17,377 - 
+Paragraph: DOGZIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O']
+Got (Which appears in text!): DMF
+Original text: Zn(NO3)2.6H2O (0.165 g, 0.555 mmol), H2bdc (0.138 g, 0.833 mmol), bimx (0.082 g, 0.278 mmol), and distilled water (4 mL, 222 mmol) were mixed to yield a suspension with a pH value of 4. The suspension...
+2025-01-06 15:35:17,695 - 
+Paragraph: XICDUI_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['benzene', 'Benzen', 'CHCl3']
+Got unresolvable (Which appears in text!): MeCN)
+Original text: ‡ Preparation of compound 1. Solvothermal (1.5 ml benzene and 0.5 ml CHCl3) treatment of [Cu(I)(MeCN)4](BF4) (0.2 mmol) and LTZ (0.2 mmol) for three days at 100 °C afforded a colorless plate crystalli...
+2025-01-06 15:35:17,697 - 
+Paragraph: DARBUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['THF']
+Got : Toluene
+Original text: Preparation of [Me4N]2[Cu4(CN)5Cl] (2). A mixture of CuCN (81 mg, 0.9 mmol) and Me4NCl (99 mg, 0.9 mmol) in 10 mL of dry and distilled THF was sealed into a 25 mL poly(tetrafluoroethylene)-lined stain...
+2025-01-06 15:35:18,554 - 
+Paragraph: FECXES_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'EtOH', 'S S']
+Got unresolvable : H2O, EtOH
+Original text:   A mixture of Cu(NO3)2·4H2O (0.024 g, 0.1 mmol) and H8L (0.0158 g, 0.02 mmol) in 4 mL of H2O, 2 mL of EtOH and three drops of HNO3 (2 mol L−1) was sealed in an autoclave equipped with a Teflon linear...
+2025-01-06 15:35:18,555 - 
+Paragraph: RIPWEU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got : water
+Original text: A mixture of K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O (0.300 g, 0.037 mmol), Sm(NO3)3⋅6 H2O (0.070 g, 0.16 mmol), CuCl2⋅5 H2O (0.200 g, 0.88 mmol), and iminodiacetic acid (0.077 g, 0.58 mmol) in sodium ace...
+2025-01-06 15:35:18,555 - 
+Paragraph: ZEBMEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol', 'H2O']
+Got : EtOH
+Original text: A solution of Eu(NO3)3·5H2O (80 mg, 180 μmol) and H4L (23 mg, 45 μmol) in a mixture of DMF (2 mL), ethanol (2 mL), and H2O (1.3 mL) in a capped 12 mL glass vial was heated to 80 °C in a sand bath for ...
+2025-01-06 15:35:18,900 - 
+Paragraph: FURFOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got unresolvable (Which appears in text!): Teflon–lined stainless Steel reactor
+Original text: A mixture of Zn(NO3)2·6H2O (0.152 g, 0.5 mmol), H2tdc(0.085 g, 0.5 mmol), bib (0.095 g, 0.5 mmol) and DMA (3 mL) was sealed in a 23 mL Teflon–lined stainless steel reactor under autogenous pressure at...
+2025-01-06 15:35:19,238 - 
+Paragraph: ORUKOD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol', 'water', 'H2O']
+Got unresolvable : DMF, ethanol,water
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Ba(NO3)2 (5.0 mg, 19.1 μmol) was dissolved in a mixed solvent of DMF (1.0 mL), ethanol (0.5 mL) and water (0.5 mL) in a 20 mL vial. After 15 μL of 6 M H...
+2025-01-06 15:35:19,559 - 
+Paragraph: OPENUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF, H2O
+Original text: As a typical preparation procedure, a mixture of Eu(NO3)3·6H2O (134 mg, 0.3 mmol), 4,4′-bipyridine (10 mg, 0.06 mmol), and H2BDC (83 mg, 0.5 mmol) was dissolved in DMF (4 mL) and H2O (2 mL) at room te...
+2025-01-06 15:35:19,559 - 
+Paragraph: NORPIV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/H2O
+Original text:   Zn(NO3)2·6H2O (0.1 mmol, 29.8 mg), 1,2,4-triazole (0.025 mmol, 2 mg), 2-aminoterephthalic acid (0.025 mmol, 4.5 mg) were dissolved in a mixed solvent of DMF (2 ml) and H2O (0.5 ml), then 0.025 ml HN...
+2025-01-06 15:35:19,560 - 
+Paragraph: ANUGOG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NMP', 'Dioxane', 'Dioxan', 'H2O']
+Got (Which appears in text!): DMF
+Original text: Linker H43 (0.050 g, 0.10 mmol) was added to a solution of NMP/dioxane/H2O (4:1:1, 10 mL) in a 20-mL scintillation vial. To this mixture, Cu(NO3)2·2.5H2O (0.096 g, 0.41 mmol) was added, and the conten...
+2025-01-06 15:35:19,560 - 
+Paragraph: ZIKJOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3OH']
+Got (Which appears in text!): water
+Original text: A mixture of Cu(NO3)2·3H2O (0.030 g, 0.12 mmol), H4L·H2O (0.010 g, 0.02 mmol), DMF (1 mL), CH3OH (1 mL) and 3 drops HBF4 (40% in water) was sealed in a glass vial. The mixture was heated at 75 °C for ...
+2025-01-06 15:35:19,894 - 
+Paragraph: KIJRUS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: H4L was synthesized according to the reference procedure.(13) A mixture of H4L (5.00 mg, 0.0079 mmol) and CuCl2·2H2O (10.00 mg, 0.0587 mmol) was dissolved in DMF/H2O (2.4 mL, 5:1, v/v) in a screw-capp...
+2025-01-06 15:35:19,896 - 
+Paragraph: AZAVOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water', 'H2O', 'DEF', 'EtOH', 'Activa', 'S S']
+Got (Which appears in text!): DMF
+Original text: A 0.5 M stock solution of magnesium nitrate hexahydrate in deionized water (0.12 mL) was added to an 8 mL vial, which was preloaded with H6CPB (8 mg, 0.01 mmol). This was followed by the addition of D...
+2025-01-06 15:35:20,216 - 
+Paragraph: FIBFUS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ethanol', 'Thanol', 'S S']
+Got unresolvable (Which appears in text!): water/ethanol
+Original text: A mixture of timpt (16.5 mg, 0.030 mmol) and Ni(ClO4)2 · 6H2O (11.9 mg, 0.032 mmol) in water/ethanol (6:1, v/v, 14 ml) was stirred for ≈15 min at room temperature. Then the mixture was transferred and...
+2025-01-06 15:35:20,217 - 
+Paragraph: KADLOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3CN']
+Got (Which appears in text!): water
+Original text: CuI (4.76 mg, 0.025 mmol) and H2-4,5-pmbc (10 mg, 0.05 mmol) were added to a 3 mL solution of DMF and 1 mL of CH3CN in a 20 mL scintillation vial heated to 85 °C for 48 h and cooled to room temperatur...
+2025-01-06 15:35:20,217 - 
+Paragraph: DUSHEG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got unresolvable (Which appears in text!): air
+Original text:   A mixture of Ni(NO3)2·6H2O (1.740 g, 6.0 mmol), H2bdc (0.996 g, 6.0 mmol), Hna (0.738 g, 6.0 mmol), HBF4 (1.2 mL), and DMA (60.0 mL) was stirred for 30 min in air, then transferred into a 100 mL via...
+2025-01-06 15:35:20,218 - 
+Paragraph: ILIMUN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['MeCN', 'MeOH']
+Got (Which appears in text!): H2O
+Original text: A mixture of Hdpt24 (0.044 g, 0.2 mmol), NiCl2·6H2O (0.024g, 0.10 mmol), MeCN (3 mL), and MeOH (3 mL) was sealed in a 15 mL Teflon-lined solvothermal reactor, heated at 120 °C for 2 d, and then cooled...
+2025-01-06 15:35:20,218 - 
+Paragraph: DACSEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'methanol', 'water', 'H2O']
+Got unresolvable : DMF, methanol,water
+Original text:   A mixture of CuCl2·2H2O (15.0 mg, 88.0 μmol) and the organic linker H4L3 (5.0 mg, 9.8 μmol) was dispersed in a mixed solvent consisting of DMF (1.5 mL), methanol (0.5 mL) and water (0.08 mL) in a 20...
+2025-01-06 15:35:20,576 - 
+Paragraph: XASNUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMA']
+Got unresolvable (Which appears in text!): water)
+Original text: Synthesis of [Me2NH2]2[Zn9(μ3‐OH)2(BTC)6(H2O)3]·5DMA·6H2O (FJI‐4): A mixture of Zn(ClO4)2·6H2O (0.10 mmol, 30 mg), H3BTC (0.10 mmol, 20 mg,) in DMA (5 mL) with an additional HBF4 (0.4 mL, HBF4 40 % in...
+2025-01-06 15:35:20,576 - 
+Paragraph: TEJLOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got (Which appears in text!): H2O
+Original text: Synthesis of [Cd2(Ad)2(IN)2DMF]·DMF·H2O (1): The mixture of Cd(NO3)2·4H2O (0.5 mmol, 0.150 g), Adenine (Had, 0.5 mmol, 0.070 g), isonicotinic acid (HIN, 0.5 mmol, 0.06 g) and 3 ml N,N-dimethylformamid...
+2025-01-06 15:35:20,899 - 
+Paragraph: FONKEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3OH', 'H2O']
+Got unresolvable (Which appears in text!): DMF/CH3OH/H2O
+Original text:   A mixture of 3CdSO4·8H2O (23.08 mg, 0.03 mmol) and H3L (5.72 mg, 0.02 mmol) was dissolved in 4.5 mL of DMF/CH3OH/H2O (1:4:4, v/v/v). The final mixture was placed in a Teflon-lined stainless steel co...
+2025-01-06 15:35:20,900 - 
+Paragraph: LAZHUR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of Co(NO3)2·4H2O (29.1 mg, 0.1 mmol), H2bdc (16.6 mg, 0.1 mmol), and TPOM (22.2 mg, 0.05 mmol) was dissolved in 9 mL DMF/H2O (1/2, v/v). The final mixture was placed in a Parr Teflon-lined s...
+2025-01-06 15:35:21,243 - 
+Paragraph: LEVDIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'C2H5OH', 'H2O']
+Got unresolvable (Which appears in text!): DMF–C2H5OH–H
+Original text:   A mixture of the organic linker H4L (10.0 mg, 13.5 μmol) and Cu(NO3)2·2.5H2O (20.0 mg, 86.0 μmol, Aldrich) was dissolved into a mixed solvent (DMF–C2H5OH–H2O, 1.5/0.5/0.2 mL) in a screw-capped vial ...
+2025-01-06 15:35:21,244 - 
+Paragraph: WAGQAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DEF']
+Got (Which appears in text!): DMF
+Original text: The solvothermal synthesis of DUT‐9 can be performed in DMF as well as in DEF. The crystal structure of DUT‐9 was determined from a crystal grown in DMF. Further analytical investigations were perform...
+2025-01-06 15:35:21,566 - 
+Paragraph: AXOHIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O']
+Got unresolvable (Which appears in text!): water and absolute alcohol
+Original text: [{Cd4(bpa)4(bpy)6}·(bpy)0.5·7H2O]n (3): Similar to the synthesis of 1, the hydrothermal reaction of cadmium acetate dihydrate (1.5 mmol), H2bpa (1 mmol), bpy·2H2O (1 mmol), NaOC2H5 (4 mmol) and H2O (5...
+2025-01-06 15:35:21,566 - 
+Paragraph: LEVNOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got : water
+Original text: [Mg3(ndc)3(dmf)4] (2): A mixture of Mg(NO3)2·6H2O (1.5 g, 5.85 mmol) and 2,6‐naphthalenedicarboxylic acid (0.9 g, 4.16 mmol) in dmf (60 mL) was filled in a 250‐mL Teflon liner, placed in an autoclave,...
+2025-01-06 15:35:21,567 - 
+Paragraph: ISUGIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable (Which appears in text!): air
+Original text:   A mixture of Gd2O3 (0.25 mmol, 0.091 g), 2-mercaptonicotinic acid (0.25 mmol, 0.039 g) and 12 ml H2O was stirred in air for 30 min and then sealed in a 23 ml Teflon-lined autoclave. After being heat...
+2025-01-06 15:35:21,568 - 
+Paragraph: QEBKUF_SL
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of L-H8 (10 mg, 0.008 mmol) and Zn(NO3)2·6H2O (20 mg, 0.07 mmol) was dissolved in a solvent mixture of DMF/H2O (6 mL/2 mL) in a screw-capped vial. After addition of 0.1 mL of HCl (3 M, aq....
+2025-01-06 15:35:21,953 - 
+Paragraph: GUSJOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'methanol', 'MeOH']
+Got unresolvable (Which appears in text!): DMF/methanol
+Original text: Synthesis of [Mn2{(OOCC2H4Ge)4S6}(MeOH)(dmf)2] (1): H4PAGeS (0.01 g, 0.013 mmol) and MnCl2⋅4 H2O (0.004 g, 0.0195 mmol) were placed in a pyrex glass tube (10 mm diameter and 200 mm length) in a solven...
+2025-01-06 15:35:22,310 - 
+Paragraph: NEFTUP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'H20', 'CH3OH']
+Got unresolvable (Which appears in text!): H2O/CH3OH
+Original text: Synthesis of 1 (Solvothermal Method): A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg), NaN3 (0.2 mmol, 13 mg), and bib (0.1 mmol, 21 mg) was suspended in the solvent mixture (H2O/CH3OH = 3:4, 12 mL). Af...
+2025-01-06 15:35:22,310 - 
+Paragraph: QOSXOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['2-Amino-1-butanol', 'benzene', 'Benzen']
+Got (Which appears in text!): ethanol
+Original text: Zn(Ac)2·2H2O (117.8 mg, 0.5367mmol), 5-methylbenzimidazole (70.3 mg, 0.5320mmol), imidazole (44.2 mg, 0.6492mmol), (±)-2-amino-1-butanol (4.0 mL), and benzene (3.6 mL) are mixed in a Teflon-lined auto...
+2025-01-06 15:35:22,649 - 
+Paragraph: QUQHEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'methanol']
+Got unresolvable (Which appears in text!): water/methanol mixture
+Original text: Yellow crystals of 1 with pseudohexagonal external morphology were synthesized by stirring Zn carbonate basic (0.075 g, 0.219 mmol), l-aspartic acid (0.175 g, 1.32 mmol), and 4,4′-bipyridyl (0.103 g, ...
+2025-01-06 15:35:23,312 - 
+Paragraph: PODXEN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH', 'H2O', 'DMSO']
+Got unresolvable (Which appears in text!): DMF/MeOH/H2O/DM
+Original text: A mixture of Tipa (0.0225 g, 0.05 mmol), 4,4′-H2bpdc (0.0225 g, 0.08 mmol), Zn(NO3)2·6H2O (0.0560 g, 0.2 mmol), one drop of mineralization triethylamine, and DMF/MeOH/H2O/DMSO (v:v:v:v 4:1:1:2, 8 mL) ...
+2025-01-06 15:35:23,651 - 
+Paragraph: GUJREK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ACETONITRILE', 'Acetonitril', 'MeCN']
+Got unresolvable (Which appears in text!): H2O/MeCN
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...
+2025-01-06 15:35:24,003 - 
+Paragraph: OBIBEJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'H2O']
+Got (Which appears in text!): CaCl2
+Original text:   H3TCMTB (0.085 g, 0.15 mmol), CaCl2 (0.034 g, 0.30 mmol), N,N′-dimethylformamide (7.5 g) and H2O (1.5 g) were mixed and the mixture was stirred for half an hour. The resulting homogeneous mixture wa...
+2025-01-06 15:35:24,003 - 
+Paragraph: DIVSUY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'S S', 'H2O']
+Got unresolvable (Which appears in text!): DMF/EtOH/H2O
+Original text: Herein, we describe the solvothermal synthesis and X-ray crystal structure characterization of a new europium based MOF. Self-assembly of H3BPT and Eu3 + under solvothermal conditions generated a new ...
+2025-01-06 15:35:24,359 - 
+Paragraph: YILJAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'ethanol', 'EtOH', 'Thanol', 'S S']
+Got : N,N-dimethylformamide
+Original text: [Zn4O(bpz)2(abdc)]⋅guest (1⋅g, MAF‐X11). A mixture of H2abdc (0.068 g, 0.375 mmol), H2bpz (0.143 g, 0.75 mmol), Zn(NO3)2⋅6 H2O (0.446 g, 1.5 mmol), N,N‐dimethylformamide (30 mL), and EtOH (20 mL) was ...
+2025-01-06 15:35:24,741 - 
+Paragraph: QAWPIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got (Which appears in text!): CH3COOH
+Original text: ‡ A mixture of NaVO3  (244 mg, 2mmol), Na2TeO3  (110 mg, 0.5 mmol), Ni(CH3COO)2·4H2O (124 mg, 0.5 mmol), 4,4′-bpy (156 mg, 1 mmol), HCl (3 mol L−1, 0.2 ml) and H2O (10 ml) adjusted with CH3COOH (36%) ...
+2025-01-06 15:35:25,189 - 
+Paragraph: HAWGIX_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'water', 'H2O']
+Got unresolvable (Which appears in text!): methanol/water
+Original text: A mixture of Cd(CH3COO)2·3H2O (0.046 g, 0.20 mmol), H6L (0.144 g, 0.20 mmol), imidazole (0.013 g, 0.20 mmol), and methanol/water (V1:1, 10 mL) was placed in a Teflon reactor. The mixture was heated at...
+2025-01-06 15:35:25,189 - 
+Paragraph: OKIPUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O', '8O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: A mixture of Cd(NO3)2·4H2O (30.1 mg, 0.1 mmol), H2bdc (16.6 mg, 0.1 mmol), and BIDPE (30.2 mg, 0.1 mmol) was dissolved in 12 mL of DMF/H2O (3:1, v/v). The final mixture was placed in a Parr Teflon-lin...
+2025-01-06 15:35:25,189 - 
+Paragraph: LUSYEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   The H4NPA (4 mg, 0.0088 mmol) and Cu(NO3)2·2.5H2O (8.50 mg, 0.0352 mmol) were dissolved in DMF/H2O (3 mL, 4/1, v/v) in a screw-capped vial. After HNO3 (150 μL) was added to the mixture, the vial was...
+2025-01-06 15:35:25,548 - 
+Paragraph: XARPAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NMP']
+Got : N,N-DIMETHYLUREA
+Original text:   CuCl (102 mg, 1.05 mmol) and [H2L]Cl (120 mg, 0.349 mmol) were placed in a 20 ml vial and dissolved in 10.0 ml of NMP. The vial was placed in an oven at 120 °C for 20 h. Green rectangular crystals w...
+2025-01-06 15:35:26,581 - 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan', 'Cellosolve']
+Got unresolvable (Which appears in text!): 1.0 mL of Cellosolve
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-06 15:35:26,906 - 
+Paragraph: BEDYEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Diethylformamide']
+Got unresolvable (Which appears in text!): N,N‐diethylformamide
+Original text: Synthesis of PCN‐222: ZrCl4 (70 mg), FeTCPPCl (50 mg) and benzoic acid (2700 mg) in N,N‐diethylformamide (8 mL) were ultrasonically dissolved in a 20 mL Pyrex vial. The mixture was heated at 120 °C in...
+2025-01-06 15:35:27,244 - 
+Paragraph: NOMKUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O']
+Got unresolvable (Which appears in text!): air
+Original text: Syntheses: a mixture of H4SiW12O40·20H2O (0.081 g, 0.025 mmol), AgNO3 (0.017 g, 0.1 mmol), pz (0.012 g, 0.15 mmol) and H2O (8 mL) was stirred for 0.5 h in air. The pH value of the mixture was adjusted...
+2025-01-06 15:35:27,244 - 
+Paragraph: HEDTER_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeCN', 'H2O']
+Got unresolvable (Which appears in text!): DMF/MeCN/H2O
+Original text: A mixture of Ni(NO3)2·6H2O (30.0 mg, 0.1 mmol), TPPA (47.6 mg, 0.1 mmol), and trans-1,4-cyclohexanedicarboxylic acid (17.2 mg, 0.1 mmol) was dissolved in 15 mL of DMF/MeCN/H2O (1/1/2). The final mixtu...
+2025-01-06 15:35:27,570 - 
+Paragraph: LAHVAU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol']
+Got unresolvable : DMF, ethanol
+Original text: A mixture containing H4L (20 mg, 0.05 mmol), L2 (8.5 mg, 0.05 mmol), and Cd(NO3)2·4H2O (30 mg, 0.1 mmol) in DMF (2 mL) and ethanol (1 mL) was heated at 100 °C under autogenous pressure in a Teflon-lin...
+2025-01-06 15:35:27,570 - 
+Paragraph: EKEKOW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'water', 'H2O']
+Got unresolvable (Which appears in text!): DMF and water
+Original text: A mixture of 2-buthylimidazole (2-buim, 0.0150 g, 0.12 mmol), NH2–H3BTB (0.0180 g, 0.042 mmol), Zn(NO3)2·6H2O (0.0560 g, 0.2 mmol), tetramethylammonium bromide (0.0085 g, 0.055 mmol), and DMF/EtOH/H2O...
+2025-01-06 15:35:27,889 - 
+Paragraph: PEZCII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH', 'H2O']
+Got unresolvable (Which appears in text!): DMF/MeOH/H2O
+Original text: Synthesis of [La(BTB)H2O]·Guest (1·Guest): La(NO3)3·6H2O (17.6 mg, 0.040 mmol) and 1,3,5‐tris(4‐carboxyphenyl)benzene (H3BTB, 6 mg, 0.0136 mmol) were mixed with 2 mL of DMF/MeOH/H2O (3:3:0.5) in a gla...
+2025-01-06 15:35:28,215 - 
+Paragraph: KIKFIV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable : DMF/5ML of H2O
+Original text:   A solution of Eu(NO3)3·3H2O (0.030 g) in 1 mL of 2 mol L−1 HNO3 was mixed with ligand (H2L) (0.015 g ) in 10 mL of DMF/5 mL of H2O. The mixture was sealed in a Pyrex tube and heated to 85 °C for 4 d...
+2025-01-06 15:35:28,554 - 
+Paragraph: UKOLOV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol', 'C2H5OH', 'S S', 'H2O']
+Got unresolvable (Which appears in text!): DMF/ethanol mixture
+Original text: A mixture DMF/C2H5OH/H2O (1.00/0.25/0.25 mL) containing the acid form of TCA (H3TCA)17 (0.005 g, 1.32×10−5 mol) and Zn(NO3)2⋅6 H2O (0.017 g, 5.71×10−5 mol) was sealed under vacuum in a quartz tube (10...
+2025-01-06 15:35:28,554 - 
+Paragraph: OKIZIT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLACETAMIDE', 'Dimethylacetamide', 'Dimethylacetamid', 'n-dimethylacetamide', 'DMA', 'methanol', 'CH3OH']
+Got (Which appears in text!): water
+Original text: Synthesis of 1. Co(NO3)2·6H2O (0.058 g, 0.2 mmol), tpt (0.031 g, 0.1 mmol) and H2bpdc (0.024 g, 0.1 mmol) were added in the solvent mixture of N,N-dimethylacetamide (DMA, 5 mL)/methanol (CH3OH, 5 mL) ...
+2025-01-06 15:35:28,554 - 
+Paragraph: VAGBEN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'ethanol', 'Thanol']
+Got unresolvable (Which appears in text!): DMF/ethanol
+Original text:   Gd(NO3)3 (0.045 g, 0.1 mmol), CuI (0.038 g, 0.2 mmol), NaI (0.030 g, 0.2 mmol) and nicotinic acid (0.049 g, 0.4 mmol) were placed in 5 mL of DMF/ethanol (v:v = 2:3) solution and stirred for a few ho...
+2025-01-06 15:35:28,555 - 
+Paragraph: AVESOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text:   A mixture of Zn(NO3)2·6H2O (0.045 mmol, 13.4 mg), H5L1 (0.018 mmol, 8.1 mg), HCl (0.15 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 90 °C fo...
+2025-01-06 15:35:28,894 - 
+Paragraph: IYOQIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'H2O']
+Got unresolvable (Which appears in text!): DMF/EtOH/H2O
+Original text: A mixture of Cd(NO3)2·6H2O (0.06 mmol, 0.02 g), H3TZI (0.05 mmol, 0.012 g), and DMF/EtOH/H2O (4:2:1, 7 mL) was adjusted to pH about 4.0 with 2 M HNO3 and 0.5 M NaOH solution. It was then sealed in a 2...
+2025-01-06 15:35:28,895 - 
+Paragraph: RAHPAT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable (Which appears in text!): DMF/H2O
+Original text: Preparation of [Cu3(C36H13NO12)(H2O)3]⋅9 DMF⋅18 H2O (NOTT‐114): H6L (0.1 g, 0.15 mmol) and Cu(NO3)2⋅3 H2O (0.28 g, 1.2 mmol) were mixed and dispersed in DMF/H2O (60 mL, 5:1 v/v). HCl (2 M, 0.3 mL) was...
+2025-01-06 15:35:29,560 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl acetamide', 'DMA', 'C2H5OH']
+Got (Which appears in text!): DMF
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in D...

@@ -1,0 +1,732 @@
+2024-12-29 02:47:06,362 - 
+Paragraph: ADARAA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ethanol', 'Thanol', 'C2H5OH', 'S S', 'H2O']
+Got: N,N\u02b0-methylformamide
+Original text: Synthesis of MMPF‐3: A mixture of 5,15‐bis(3,5‐dicarboxyphenyl)‐10,20‐bis(2,6‐dibromophenyl)porphyrin (dcdbp) (2.0 mg), Co(NO3)⋅6 H2O (8.0 mg) and 1.2 mL mixed solvent (0.5 mL N,N′‐dimethylformamide (DMF), 0.5 mL ethanol, and 0.2 mL H2O) was sealed in a Pyrex tube under vacuum and heated at 85 °C for 48 h. The resulting dark red crystals were washed with DMF three times to give MMPF‐3 as pure crystals with formula of [Co2(μ2‐H2O)(H2O)4](Co‐dcdbp)⋅(H2O)6⋅(C2H5OH)12⋅(DMF)12 (yield: 70 % based on dcdbp). Elemental Analysis calcd (%) for MMPF‐3: C 44.65, H 6.87, N 7.71; found: C 45.99, H 6.58, N, 7.85. The reaction was amplified to hundreds of milligrams quantity using multiple tubes. ...
+2024-12-29 02:47:07,012 - 
+Paragraph: MAYJOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water']
+Got: DMF
+Original text: In a typical synthesis of 1, indium (0.114 g, 1 mmol), 1,4-benzene dicarboxylic acid (0.332 g, 2 mmol), HF (48%, Merck, 0.06 mL), and deionized water (10 mL) in the molar ratios of 1:2:1.5:560 were placed in a hydrothermal reaction vessel and heated at 220 °C for 3 days. After cooling at a rate of 0.5 °C/min to ambient, the product was filtered, washed with DMF to dissolve unreacted H2BDC, and dried at room temperature. The final product was a single phase containing single crystals of 1. The final solution pH was ∼1.5. ...
+2024-12-29 02:47:08,657 - 
+Paragraph: RUVKAV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'H2O']
+Got unresolvable: DMF (1 mL), EtOH (0
+Original text: Cu(NO3)2·3H2O (10 mg, 0.040 mmol), H4BDDC (5 mg, 0.013 mmol), DMF (1 mL), EtOH (0.5 mL), H2O (0.5 mL), and HNO3 (0.2 mL, 2.7 M in DMF) were added to a 20 mL vial; then the solution was heated to 85 °C for 12 h to give green, block-shaped crystals (5.7 mg, 64% yield based on H4BDDC). The agreement between the experimental and simulated powder X-ray diffraction patterns indicated the phase purity of the as-synthesized product (see Supporting Information Figure S2). Elemental analysis: found (wt%) C 41.25, H 3.09, N 2.26; calcd (wt%) C 41.57, H 3.49, N 2.11. IR spectrum (KBr, cm−1): 3065br, 2923br, 2212w, 1849w, 1625s, 1564s, 1501w, 1433s, 1366s, 1262 m, 1106s, 1056 m, 910 m, 860w, 767s, 722s, 673 m, 555w, 488 m....
+2024-12-29 02:47:13,227 - 
+Paragraph: XICDUI_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['benzene', 'Benzen', 'CHCl3']
+Got unresolvable: 1.5 ml benzene and 0.
+Original text: ‡ Preparation of compound 1. Solvothermal (1.5 ml benzene and 0.5 ml CHCl3) treatment of [Cu(I)(MeCN)4](BF4) (0.2 mmol) and LTZ (0.2 mmol) for three days at 100 °C afforded a colorless plate crystalline product (one pure phase). The yield of 1 was about 40% based on LTZ (found: C, 38.71; H, 2.21; N, 12.81. Calc.: C, 38.92; H, 2.16; N, 12.61%). IR (KBr, cm−1): 3500(w), 3100(vw), 2250(w), 1605(m), 1520(m), 1420(w), 1300(m), 1100(br, vs), 1027(br, vs), 890(w), 820(w), 796(w), 750(m), 650(w), 5279(m)....
+2024-12-29 02:47:13,562 - 
+Paragraph: YODRAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl formamide', 'DMF', 'N,N-Dimethyl formamide', 'dimethyl formamid', 'N,N-dimethyl formamid', 'ethanol', 'EtOH', 'Thanol', 'S S']
+Got: N,N-Dimethyl Formamide (DMF
+Original text: ‡ Synthesis of [Co9(int)18(H2O)4(H2O)2]·5.5DMF: The mixture of Co(NO3)2·6H2O (0.86 mmol, 0.250 g), isonicotinic acid (IN, 0.85 mmol, 0.104 g) and 4 ml N,N-dimethyl formamide (DMF) and 2 ml EtOH was sealed in a 20 ml vial and heated to 100 °C for 1 day, and then cooled to room-temperature. The light black crystals were obtained in pure phase, washed with DMF and ethanol, and dried at room temperature (yield: 88%). Anal. calcd for C124.5H122.5Co9N23.5O47.5(3238.33): C, 52.10; H, 4.30; N, 11.47. Found: C, 50.12; H, 3.91; N, 11.53....
+2024-12-29 02:47:14,903 - 
+Paragraph: COVYIX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water', 'H2O']
+Got unresolvable: doubly deionized water (8.
+Original text:   A mixture containing Hta (21.0 mg, 0.3 mmol), H2ip (16.6 mg, 0.1 mmol) and Cu(OAc)2·H2O (40.0 mg, 0.2 mmol) was dissolved in doubly deionized water (8.0 mL), and the initial pH value of the mixture was adjusted to ca. 6.0 by triethylamine. The resulting mixture was then transferred into a parr Teflon-lined stainless steel vessel (23.0 mL) and heated at 160 °C for 96 h under autogenous pressure. After the mixture was cooled to room temperature at a rate of 2.8 °C h−1, blue block-shaped crystals suitable for X-ray analysis were obtained directly, washed with water and dried in air (yield: 60.0% based on CuII salt). Anal. Calcd for C24H22Cu5N12O12: C, 29.17; H, 2.24; N, 17.01%. Found: C, 29.19; H, 2.21; N, 17.04%. FT-IR (KBr, cm−1): 3551 (s), 3474 (s), 3413 (s), 3237 (w), 1637 (s), 1617 (s), 1563 (m), 1541 (w), 1387 (s), 1332 (w), 1269 (w), 1133 (m), 979 (w), 818 (w), 801 (w), 749 (w), 727 (w), 710 (w), 617 (m), 479 (w). ...
+2024-12-29 02:47:15,959 - 
+Paragraph: COXQUB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Oxygen atom', 'H2O']
+Got: H
+Original text: The reaction of 4,4′-bipyridine with CdSO4·8/3H2O in water in 1:1 mole ratio in a sealed tube at 120°C gave 1 as pure crystalline product in 57% yield. A sample of 256 mg (1.0 mmol) CdSO4·8/3H2O and 156 mg (1.0 mmol) 4,4′-bipyridine was mixed thoroughly and loaded into a thick-walled Pyrex tube. After ∼1.0 ml H2O was added, the tube was frozen with liquid N2, evacuated under vacuum and sealed with a flame. The reaction was carried out at 120°C for 24 h to afford colorless single crystals of 1. The product was isolated by acetone washing in 57% yield. The compound is insoluble in common organic solvents such as THF, acetone, CH2Cl2, and CH3CN or water. The single crystal X-ray structure analysis showed that 1 crystallizes in the C-centered, noncentrosymmetric space group C2 (No. 5). Crystallographic data for 1, C20H28Cd2N4O14S2, monoclinic C2 (No. 5), a=24.624(1), b=9.7554(5), c=13.5956(7) Å, β=120.663(1)°, V=2809.2(2) Å3, Z=4, ρcalc=1.980 g cm−3, μ=1.740 mm−1, T=295 K, structure solution and refinement based on 5239 reflections including Friedel mates (3254 unique) with Io≥3.0σ(Io) converged at R=0.0342, Rw=0.0481 and goodness-of-fit=1.85. Data were collected on a Siemens SMART diffractometer using Mo Kα radiation (λ=0.71073 Å). An empirical absorption correction based on redundant reflections was applied to the data set. The absolute configuration was unambiguously assigned based on the analysis of the Bijovot pairs and the refinement of the Flack parameter. The absence of inversion center in the structure was also confirmed by MISYM. The refinement of Flack parameter for the chosen configuration gave 0.00020(9) with 5239 reflections where Fc(H) and Fc(–H) differ by more than 0.0001. The asymmetric unit contains two Cd2+ ions, two 4,4′-bipy ligands, two SO4 2− anions, and three coordinate and three crystallization water molecules. The metal centers are first linked by the SO4 2− anions to form the one-dimensional arrays of fused 12-membered rings containing three cadmium, three sulfur and six oxygen atoms (see Fig. 1). The arrays are drawn together by hydrogen bonding between the coordinate water molecules and the SO4 2− anions from the adjacent net. The two SO4 2− anions are split into μ2- and μ3-bridging ligands. Thus, Cd(1) is coordinated by a μ2-SO4 2−, a μ3-SO4 2− and two cis-H2O molecules while the Cd(2) is linked by a μ2-SO4 2−, two different μ3-SO4 2− anions and a water. The 4,4′-bipy ligands act as ‘posts’ that connect the cadmium centers to form the one-dimensional [Cd2(4,4′-bipy)2(H2O)3]n 4+ chains. The coordination of both Cd atoms can best be described as slightly distorted octahedral with four O atoms situated in the square plane and two N atoms occupying the axial positions. Fig. 2 depicts the coordination environments of the two Cd atoms. Rather than being parallel, these chains run across each other from two different directions. Thus, the compound forms three-dimensional interwoven networks as shown in Fig. 3. The most common coordination modes of the SO4 2− ion are monodentate, bidentate and μ2-bridging, while μ3-bridging is much less frequent [11]. The combination of both μ2- and μ3-bridging in the same structure is hitherto unreported. The fact that 1 crystallizes in a noncentrosymmetric space group can perhaps be attributed to this unusual combination of the two different bridging modes for the SO4 2− anion. We have noticed that the use of simple, weaker coordinating anions such as NO3 − and ClO4 − results in centrosymmetric more often than noncentrosymmetric crystal packing....
+2024-12-29 02:47:17,612 - 
+Paragraph: QIPROY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O', 'MeCN']
+Got unresolvable: water-ACN
+Original text: Synthesis of Cu(H2O)2(L1)(OAc)2 (3): Cu(OAc)2·H2O (0.05 mmol, 10 mg), L1 (0.025 mmol, 11 mg) and oxalic acid (0.1 mmol, 9 mg) in a mixed distilled water (4 mL)–MeCN (4 mL) solvent were placed in a 20 mL vial, and then sealed. The sample was heated at 85 °C for 24 h, and cooled to room temperature. After they were washed with distilled water, blue crystals were obtained. Yield: 14 mg (75% based on L1). Anal. calcd (%) for 3 C29H56CuN4O23 (Mr = 892.32): C, 39.03; H, 6.33; N, 6.28. Found: C, 38.75; H, 6.91; N, 6.40....
+2024-12-29 02:47:18,956 - 
+Paragraph: IYAJOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'methanol']
+Got: methanol (1 mL) and DMA (4
+Original text:     A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), NaOH (3 mg), KOH (4 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and heated at 150 °C for 4 days. The autoclave was subsequently cooled to room temperature. Colourless crystals were recovered by filtration, washed with DMA and ethanol, and finally dried at ambient temperature (35.6% yield based on H2BDC). CHN elemental analysis: anal. for 2: C 41.89 wt%, H 3.24 wt%, and N 2.64 wt%; calc. for 2: C 41.97 wt%, H 3.13 wt%, and N 2.72 wt%. IR (KBr, cm−1): 3422 (m), 1564 (s), 1502 (m), 1483 (m), 1396 (s), 1294 (m), 1148 (w), 1093 (m), 1015 (m), 948 (m), 833 (m), 746 (m), 520 (m). ...
+2024-12-29 02:47:20,328 - 
+Paragraph: SAMVEK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: MeOH
+Original text: Compound 1a: 0.137 g (0.53 mmol) of Mn(NO3)2·4H2O was dissolved in 3 mL of methanol and 2 mL of acetic acid was added to this. The solution was kept undisturbed for some time. Then 0.089 g (0.5 mmol) of terephthalic acid dissolved in 3 mL of DMA was added to it, and the mixture was sonicated for 5 min. The whole mixture was put into a closed glass vial and kept at 100 °C in the oven for 6 days. Colorless crystals were formed, washed with DMF many times, and dried under a vacuum for further use....
+2024-12-29 02:47:24,825 - 
+Paragraph: REYCEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'MeCN']
+Got: water and acetonitrile
+Original text:   A mixture of ZnCl2 (0.020 g, 0.15 mmol), H4L1 (0.023 g, 0.05 mmol), H2O (3 mL), MeCN (3 mL), and 3 drops of HCl (1 M) was sealed in a Teflon-lined stainless steel vessel (15 mL), which was heated at 120 °C for 1 day and then cooled to room temperature at a rate of 10 °C h−1. Colorless block crystals of 4 were collected in 69% yield (0.019 g, based on H4L1). Anal. Calcd for C76H60N2O32Zn2: C, 55.52; H, 3.68; N, 1.70%. Found: C, 55.36; H, 3.98; N, 1.34%. IR (KBr pellet, cm−1): 3094 w, 2871 w, 2321 m, 2295 w, 1694 s, 1592 s, 1571 s, 1458 s, 1410 s, 1377 s, 1271 s, 1040 m, 788 w, 762 m. ...
+2024-12-29 02:47:26,122 - 
+Paragraph: LAWHUP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH', 'H2O']
+Got unresolvable: DMF\\\\u202fEtOH\\\\u
+Original text: A mixture containing Cd(NO3)2·4H2O (0.0308 g, 0.1 mmol) and H2L (0.0224 g, 0.1 mmol) was dissolved in 5 mL of DMF/EtOH/H2O (1:2:2, v/v/v). The mixture was heated at 120 °C in a 20 mL Teflon-lined autoclave for 3 d. After the cooling treatment, reddish-brown crystals of 2 were separated and washed with mother liquor (yield: 80%, based on H2L ligand). Anal. Calcd for C48H24Cd6N12O30S7 (%): C, 26.82; H, 1.12; N, 7.82. Found (%): C, 26.50; H, 1.55; N, 7.71. IR data (KBr, ν/cm–1): 3316 (s), 1579 (s), 1542 (s), 1401 (s), 1386 (s), 1312 (s), 1221 (w), 1145 (w), 1031 (w), 871 (w), 834 (m), 779 (m), 624 (w), 570 (w), 476 (w)....
+2024-12-29 02:47:26,460 - 
+Paragraph: WOXKOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'H20', 'DMF']
+Got: water/DMF (1:1)
+Original text:   A mixture of MnCl2·4H2O (0.015 mmol, 3.0 mg), H4qptc (0.005 mmol, 2.4 mg), 1,4-bib (0.01mmol, 2.1 mg), aqueous NaOH solution (0.02 mL, 0.5 mol L−1), and H2O/DMF (1 mL, v/v, 1/1) were heated at 130 °C for 1 day in a sealed tube, and then cooled to room temperature at a rate of 1.4 °C h−1. The pale yellow, block-shaped crystals were obtained with a yield of 58% (based on Mn). Elemental analysis (%): calcd for C20H20MnN2O8: C, 50.97; H, 4.28; N, 5.94. Found (%): C, 50.82; H, 4.27; N, 5.91. IR (KBr pellet, cm−1): 3669 (vs), 3260 (vs), 1598 (vs), 1523 (vs), 1399 (vs), 1325 (vs), 1163 (s), 1126 (s), 1102 (m), 1064 (vs), 1003 (s), 940 (s), 866 (m), 841 (vs), 792 (vs), 7549 (w), 717 (vs), 680 (m), 655 (s), 531 (m), 469 (s). ...
+2024-12-29 02:47:27,467 - 
+Paragraph: MEJQOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1-METHYL-2-PYRROLIDINONE', 'Methyl-2-pyrrolidinone', 'methanol']
+Got unresolvable: 1-methyl-2-pyrrolidin
+Original text:   The mixture of Zn(NO3)2 (0.5 mmol, 0.150 g), adenine (0.5 mmol, 0.070 g), isonicotinic acid (0.5 mmol, 0.06 g), 1-methyl-2-pyrrolidinone (3 ml), 1,3-dimethylurea (2 g) and methanol (3 ml) was sealed in a 20 ml vial and heated to 120 °C for 3 days, and then cooled to room-temperature. The colorless crystals were obtained in pure phase, washed with water and ethanol, and dried at room temperature (yield: 75%). Anal. Calcd for C16H17N7O3Zn (420.74): C, 45.68; H, 4.07; N, 23.30. Found: C, 45.72; H, 3.95; N, 23.35%. IR (KBr cm−1): m = 3125 (s), 1610 (vs), 1580 (s), 1520 (m), 1375 (s), 1305 (s), 1070 (s), 960 (w), 780 (m), 660 (w). ...
+2024-12-29 02:47:29,812 - 
+Paragraph: SITFUY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'EtOH', 'S S']
+Got: N,N\u2019-dimethylformamide
+Original text: ‡ Preparation of JLU-Liu2: A mixture of H2TBA (0.0076 g, 0.04 mmol) and CuCl2·2H2O (0.0136 g, 0.08 mmol) in 1.0 ml N,N′-dimethylformamide (DMF) and 1.0 ml EtOH was sealed in a 20 mL vial, then heated at 65 °C for 3 d to give green truncated octahedron-shaped crystals (73% yield based on CuCl2·2H2O). Elemental analysis (wt%): Calcd for C38H47ClCu4N18O18: C 34.2, H 3.50, N 18.9. Found: C 33.7, H 3.42, N 18.1....
+2024-12-29 02:47:31,477 - 
+Paragraph: WUJPIC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'MeOH']
+Got: DMA (10 mL) and MeOH (2
+Original text:   A mixture of Co(NO3)2·6H2O (43.6 mg, 0.15 mmol), H2L (36.4 mg, 0.15 mmol), and NaOH (12 mg, 0.3 mmol) dissolved in DMA (10 mL) and MeOH (2.5 mL) was heated at 160 °C for 96 hours. After cooling the reaction system to RT at a rate of 5 °C h−1, purple block crystals of BUT-51 (22.3 mg, 17% yield based on H2L) were harvested, and then thoroughly washed with DMA. The as-synthesized material was determined to be insoluble in common organic solvents, such as DMSO, DMA, DMF, and acetone. IR (KBr, cm−1): 3399(m), 2967(w), 2257(m), 1619(s), 1573(s), 1445(w), 1358(s), 1296(w), 1221(w), 1109(w), 1076(w), 1026(w), 939(m), 840(w) 777(s), 723(s), and 640(s). The thermal stability and phase purity of the as-synthesized BUT-51 were checked by TGA (Fig. S2) and PXRD (Fig. 2a), respectively. ...
+2024-12-29 02:47:32,141 - 
+Paragraph: REKZIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', '8O', 'ethanol', 'Thanol', 'S S']
+Got unresolvable: water\u2013ethanol
+Original text: Synthesis of [Cd6(MeCO2)4(bpy)2(H2bna)4]·3.5H2O (2). A mixture of Cd(MeCO2)2·2H2O (0.266 g, 1 mmol), H4bna (0.094 g, 0.25 mmol), bpy (0.040 g, 0.25 mmol), and NaOH (0.020 g, 0.50 mmol) in water−ethanol (1:4) (10 mL) was heated for 3 days at 160 °C in a Parr Teflon-lined stainless steel vessel (23 mL), cooled to 100 °C at a rate of 5 °C h-1, and held for 10 h, followed by further cooling to room temperature. Colorless crystals of 2 were collected, washed with water, and dried in air (yield 60%). IR data (KBr, cm-1):  3407m, 3050m, 2963m, 2927m, 1947w, 1821w, 1639s, 1607m, 1548s, 1508m, 1460s, 1394s, 1338s, 1307s, 1249s, 1220m, 1151m, 1096m, 1044w, 1007m, 940m, 914w, 884m, 810s, 743s, 679m, 627m, 599m, 531w, 474w, 438w. Anal. Calcd (%) for C136H97Cd6N8O34.5:  C, 53.21; H, 3.18; N, 3.65. Found:  C, 53.01; H, 3.44; N, 3.58. ...
+2024-12-29 02:47:35,734 - 
+Paragraph: EHUTAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got: DMF (7.0 mL) and H
+Original text: H4LV (50 mg, 0.078 mmol) and Cu(NO3)2·2.5H2O (145 mg, 0.622 mmol) were dissolved in a mixture of DMF (7.0 mL) and H2O (1.0 mL) in a pressure tube (15 mL). Upon addition of 6 M HCl (20 μL), the tube was capped and heated in an oil bath at 85 °C for 48 h to afford blue crystals. The reaction mixture was allowed to cool to room temperature, and the crystals were washed with warm DMF and dried in air. Yield: 60.9 mg, 85% based on H4LV. FTIR (cm–1): 3399 (br, w), 2924 (w), 1656 (vs), 1625 (s), 1589 (m), 1489 (m), 1435 (w), 1417 (w), 1367 (vs), 1303 (w), 1254 (m), 1186 (w), 1094 (s), 1062 (m), 955 (w), 887 (m), 777 (s), 736 (m), 724 (s), 700 (w), 660 (s). Anal. Calcd (%) for C61H91Cu2N7O21: C, 52.88; H, 6.62; N, 7.08. Found (%): C, 52.48; H, 5.88; N, 7.45....
+2024-12-29 02:47:39,119 - 
+Paragraph: OMUSAS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3OH']
+Got unresolvable: DMF-CH3OH
+Original text: A mixture of Zn(NO3)2·4H2O (60 mg) and H3L (45 mg) were placed in a mixed solution of DMF (10 mL) and CH3OH (0.3 mL), with several glass slides in a screw-capped vial, and placed in a 90 °C oven for 2 days. The crystals grew on the glass slides and the slides with crystals were taken out of the solution and thoroughly washed with DMF and EtOH before other experiments....
+2024-12-29 02:47:39,666 - 
+Paragraph: HOXSIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'H2O']
+Got: water
+Original text: A mixture of Zn(NO3)2·6H2O (0.2 mmol, 0.060 g), H3BPT (0.1 mmol, 0.026 g), DMA (3 mL), and H2O (2 mL) was sealed in a small vial, which was kept at 100 °C for 60 h and finally cooled to the room temperature slowly. Colorless prism crystals yield in 43 % based on H3BPT. C34H31NO17Zn3: calcd. C 44.26; N 1.52; H 3.36 %; found C 44.23; N 1.48; H 3.35 %. IR (KBr):  = 3468 (s), 2916 (w), 1632 (m), 1542 (s), 1508 (vs), 1436 (m), 1395 (s), 1364 (s), 1296 (w), 1112 (w), 1034 (w), 855 (w), 774 (w), 726 (w) cm–1. ...
+2024-12-29 02:47:40,764 - 
+Paragraph: QOSXOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['2-Amino-1-butanol', 'benzene', 'Benzen']
+Got unresolvable: beneze
+Original text: Zn(Ac)2·2H2O (117.8 mg, 0.5367mmol), 5-methylbenzimidazole (70.3 mg, 0.5320mmol), imidazole (44.2 mg, 0.6492mmol), (±)-2-amino-1-butanol (4.0 mL), and benzene (3.6 mL) are mixed in a Teflon-lined autoclave and stirred for 0.5 h. The autoclave was then sealed and heated up at 150 °C for 5 days, followed by cooling down to room temperature. A large amount of small colorless crystalline materials were obtained with a yield of 35.4% (based on zinc salt). The crystals were washed using ethanol three times and dried in air for other measurements. Elemental analysis of as-synthesized sample: C, 49.22; H, 4.02; N, 20.98. Elemental analysis of sample dried at 300 °C: C, 47.93; H, 3.78; N, 20.78....
+2024-12-29 02:47:40,764 - 
+Paragraph: BEDYEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Diethylformamide']
+Got: N,N-diethylformamide
+Original text: Synthesis of PCN‐222: ZrCl4 (70 mg), FeTCPPCl (50 mg) and benzoic acid (2700 mg) in N,N‐diethylformamide (8 mL) were ultrasonically dissolved in a 20 mL Pyrex vial. The mixture was heated at 120 °C in an oven for 48 h. After cooling down to room temperature, dark brown needle‐shaped crystals were harvested by filtration (35 mg, 46 % yield). FTIR (KBr):=3381 (m), 2952 (w), 1705 (w), 1601 (s), 1549 (s), 1411 (vs), 1340 (s), 1182 (m), 1003 (s), 871 (w), 809 (m), 776 (m), 723 (s) cm‐1. Anal. calcd. (%) for PCN‐222(Fe): C, 44.84; H, 2.50; N, 4.36 %. Found: C, 45.59; H, 3.12; N, 4.89 %. PCN‐222 with other metalloporphyrin centers were similarly synthesized. ...
+2024-12-29 02:47:41,747 - 
+Paragraph: OQUCOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'H2O']
+Got: DMA(3 ml) and H2O (
+Original text: The mixture of Cd(CH3COO)2·2H2O (0.2 mmol, 0.053 g), (R)-H3CIA (0.026 g, 0.1 mmol), 1, 4-DIB (0.15 mmol, 0.032 g), DMA(3 ml) and H2O (1 ml) was sealed in a 20 ml vial and heated to 100 °C for three days. After cooling to room-temperature, the colourless block crystals 1-D were separated from the mixture by filtration (Yield: 35%). Elemental analysis (%) calcd for 1-D (C36H31Cd2.50N5O16.50): C 40.08, H 2.90, N 6.49; found: C 38.76, H 3.02, N 6.27. IR (solid KBr pellet, cm−1): 3426.5 s, 1612.1 s, 1569.2 s, 1528.5 s, 1451.8 m, 1381.4 s, 1305.1 m, 1257.7 m, 1132.1 m, 1070.3 m, 779.2 m, 725.1w....
+2024-12-29 02:47:47,088 - 
+Paragraph: VUQKAU01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: dimethyl amide (DMA)
+Original text: A mixture of H2BPDC (0.250 g, 1 mmol) and dimethyl amide (DMA, 10 mL) was added to Mn(NO3)2·6H2O (0.293 g, 1 mmol) dissolved in DMA (2 mL). The mixture was kept at 434 K for 20 d, and the product formed was not homogeneous. The crystals formed were both block‐shaped and needle‐like colorless crystals. A block‐shaped crystal of 3 was isolated; however, it was not possible to locate a single crystal of the phase with needle‐shaped crystals as these are very fragile. ...
+2024-12-29 02:47:47,737 - 
+Paragraph: QAGQEW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: dimethylacetamide (DMA)
+Original text:   Benzo-(1,2;3,4;5,6)-tris(thiophene-2′-carboxylic acid) (H3BTTC) (100 mg, 1.6 × 10−4 mol) and Cd(NO3)2·4H2O (300 mg, 1.3 × 10−3 mol) were dissolved in 15 mL of dimethylacetamide (DMA) with 20 drops of HBF4 (40%) in a vial. The vial was tightly capped and placed in a 100 °C oven for 72 h to yield 218 mg of pale yellow cubic crystals (yield: 76% based on H3BTTC). The crystal has a formula of Cd13(BTTC)8(OH)2(H2O)16·18DMA, which was derived from crystallographic data,elemental analysis (% calc/found: C 36.28/36.96, H 3.52/3.65, N 3.97/3.91), and TGA. ...
+2024-12-29 02:47:48,438 - 
+Paragraph: HUNBEX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1-butanol', 'butanol', 'Butan-1-ol', 'n-butanol', 'Butyl alcohol', '71-36-3', 'n-butyl alcohol', '1-hydroxybutane', 'Propylcarbinol', 'Butyl hydroxide', 'Methylolpropane', 'Propylmethanol', 'Hemostyp', 'n-Butan-1-ol', 'Butyric alcohol', '1-Butyl alcohol', 'Butanolo', 'Propyl carbinol', 'Alcool butylique', 'Butylowy alkohol', 'BuOH', 'Butanolen', 'Normal primary butyl alcohol', 'RCRA waste number U031', 'CCS 203', 'n-Butylalkohol', 'Alcohol, Butyl', 'Butyl alcohol (natural)', 'FEMA No. 2178', 'FEMA Number 2178', '1 Butanol', '35296-72-1', 'Butyric or normal primary butyl alcohol', 'n-BuOH', 'HSDB 48', 'NSC 62782', 'CCRIS 4321', 'butanol-1', 'EINECS 200-751-6', 'UNII-8PJ61P6TS3', 'MFCD00002964', '8PJ61P6TS3', 'Butyl alcohol (NF)', 'Butyl alcohol [NF]', 'ALCOHOL,BUTYL', 'DTXSID1021740', 'CHEBI:28885', 'AI3-00405', 'n-Butyl--d6 Alcohol', 'NSC-62782', '1219794-84-9', '64118-16-7', 'CHEMBL14245', 'DTXCID701740', '1-Butanol-4,4,4-d3', 'EC 200-751-6', 'NCGC00090961-02', 'Butanols', '1-BUTANOL-3,3,4,4,4-D5', 'BUTYL ALCOHOL (II)', 'BUTYL ALCOHOL [II]', 'n-Propyl carbinol', 'Butanol [French]', 'Butanolen [Dutch]', '1-butanol (n-butyl alcohol)', 'Butanolo [Italian]', '1-Butanol, analytical standard', 'BUTYL ALCOHOL (MART.)', 'BUTYL ALCOHOL [MART.]', 'VANADIUM TETRABUTOXIDE', 'n-Butanol, Butan-1-ol, 1-Butanol', '6167-45-9', 'n Butanol', 'n Butyl Alcohol', 'Alcool butylique [French]', 'Butylowy alkohol [Polish]', '1-Butanol, ACS reagent, >=99.4%', 'CAS-71-36-3', 'Alcohol, n-Butyl', '1BO', 'Butanol, 1-', 'TRIBUTYL ACETYLCITRATE IMPURITY D (EP IMPURITY)', 'TRIBUTYL ACETYLCITRATE IMPURITY D [EP IMPURITY]', 'RCRA waste no. U031', 'UNII-WB09NY83YA', 'butaneol', 'butylalcohol', 'butan-1-olate,vanadium(4+)', 'butyl-alcohol', 'n-butylalcohol', 'normal butanol', '1-butylalcohol', 'n-Propylcarbinol', 'n-Butanolbutanolen', 'nBuOH', '1 -butanol', '1- butanol', '1-n-Butanol', '1-Butanol, anhydrous', 'N-Butyl Alcohol,(S)', '1-Butanol, for HPLC', 'n-Butanol, HPLC grade', '1-Butanol, 99%', '1-Butanol, HPLC Grade', 'n-C4H9OH', 'bmse000447', '1-butanol (butyl alcohol)', '1-Butanol, 99.9%', 'BUTYL ALCOHOL [FCC]', 'WB09NY83YA', 'BUTYL ALCOHOL [FHFI]', 'BUTYL ALCOHOL [HSDB]', 'WLN: Q4', '1-BUTANOL [USP-RS]', 'ALCOHOL,BUTYL [VANDF]', 'BIDD:ER0611', 'N-BUTYL ALCOHOL [MI]', '1-Butanol, LR, >=99%', 'BDBM36173', '1-Butanol, anhydrous, 99.8%', 'DTXSID20172556', 'N-Butanol, ACS, 99.4+%', 'N-BUTYL ALCOHOL [WHO-DD]', '1-Butanol, AR, >=99.5%', '1-Butanol, for HPLC, 99.8%', 'Butyl alcohol, >=99.9%, FCC', 'HY-Y0340', 'NSC62782', 'Tox21_111046', 'Tox21_200741', 'LMFA05000109', 'STL264186', 'AKOS000249218', '1-Butanol 500 microg/mL in Methanol', '1-Butanol, for HPLC, >=99.7%', '1ST6708', 'DB02145', 'Butyl alcohol, >=99.9%, FCC, FG', 'NCGC00090961-01', 'NCGC00090961-03', 'NCGC00258295-01', 'BP-30034', '1-Butanol, SAJ first grade, >=99.0%', '1-Butanol, for molecular biology, >=99%', '1-Butanol, JIS special grade, >=99.0%', '1-Butanol, p.a., ACS reagent, 99.4%', '1-Butanol, for HPLC, >=99.8% (GC)', '1-Butanol, spectrophotometric grade, 99.5%', '1-Butanol, UV HPLC spectroscopic, 99.5%', 'B0228', 'B0704', 'B0944', 'NS00009227', '1-Butanol, anhydrous, ZerO2(TM), 99.8%', 'EN300-19305', '1-Butanol, Ultrapure, Spectrophotometric Grade', 'Butyl alcohol, natural, >=99.5%, FCC, FG', 'C06142', 'D03200', 'Q16391', 'F0001-1830', 'InChI=1/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H', '1-Butanol, puriss. p.a., ACS reagent, >=99.5% (GC)', 'BDBC6468-886D-4F6C-8746-734F2B63E6CE', '1-Butanol, ACS reagent, reag. ISO, reag. Ph. Eur., 99.5%', '1-Butanol, United States Pharmacopeia (USP) Reference Standard', '1-Butanol, Pharmaceutical Secondary Standard; Certified Reference Material', '1-Butanol, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=99.5% (GC)', 'water', 'Deionized water', 'H2O']
+Got unresolvable: n-C4H10OH
+Original text: The zinc oxalate, K[C6N2H13][Zn2(C2O4)3]2.4H2O, was synthesized under hydrothermal conditions in the presence of diazabicyclo[2,2,2]octane (DABCO). In a typical synthesis, 0.25 g of ZnO was dispersed in a mixture containing 2 ml n-C4H10OH and 4 ml of water. To this, 0.5 ml of HCl (35%) and 1.132 g of K2C2O4 was added under constant stirring. Finally, 0.26 ml of glacial acetic acid and 0.345 g of DABCO were added and the mixture stirred to homogeneity. The final mixture with a composition of ZnO:2HCl:2K2C2O4:C6N2H12:1.5CH3COOH:200H2O, was sealed in a 23 ml PTFE-lined stainless steel autoclave (Parr, USA) and heated at 150 °C for 72 h. The resulting product, a crop of plate-like transparent crystals, were filtered, washed with deionized water and dried at ambient conditions....
+2024-12-29 02:47:49,419 - 
+Paragraph: WUSLED_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'H2O']
+Got unresolvable: 3 mL DMF and 2 mL H2
+Original text:   H3TPO (40.0 mg, 0.1 mmol) and UO2(NO3)3·6H2O (50.2 mg, 0.1 mmol) were dissolved in a mixture of 3 mL DMF and 2 mL H2O. The resulting solution was sealed in a 20 mL glass vial and heated at 90 °C for 3 days. The reaction system was cooled slowly to room temperature. After filtration and washing with DMF and ethanol, light yellow plate like crystals suitable for X-ray structural analysis were collected. Yield: ca. 48.5% (based on UO2(NO3)2·6H2O). Anal. Calcd for C35H72O25N5PU: C, 34.09; H, 5.97; N, 5.69; Found: C, 33.77; H, 4.68; N, 5.70. ...
+2024-12-29 02:47:51,364 - 
+Paragraph: ITIPAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got: formic acid
+Original text: A mixture of 5 mL DMF, 0.23 mL formic acid, and 89.2 mg Zn(NO3)2·6H2O (0.3 mmol) were sealed in a 15 mL Teflon lined stainless steel container and heated at 160 °C for 4 days. After the mixture was cooled to room temperature, the colorless block crystals of {[Zn3(HCOO)6]·DMF}n were obtained in 63% yield (based on Zn). Anal. Calcd for C9H13NO13Zn3 (Mr: 539.37): C, 20.04; H, 2.43; N, 2.60%. Found: C, 20.06; H, 2.42; N, 2.59%....
+2024-12-29 02:47:52,029 - 
+Paragraph: FIGQUJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O']
+Got unresolvable: distilled H2O
+Original text: Cu(NO3)2·2.5H2O (43 mg, 0.185 mmol), glutaric acid (49 mg, 0.185 mmol) and 3-pna (37 mg, 0.185 mmol) were placed into 5 mL distilled H2O in a 15 mL screw-cap vial. The vial was sealed and heated in an oil bath at 90 °C for 24 h, and then cooled slowly to 25 °C. Blue blocks of 3 (31 mg, 39% yield based on Cu) were isolated after washing with distilled water and acetone, and drying in air. Anal. Calc. for C16H19CuN3O7 3: C, 44.81; H, 4.47; N, 9.80% Found: C, 44.87; H, 4.05; N, 9.62%. IR (cm–1): 3298 (m, br), 1689 (m), 1617 (m), 1555 (s), 1488 (m), 1458 (m), 1400 (s), 1333 (s), 1310 (s), 1289 (m), 1191 (w), 1164 (w), 1110 (m), 1057 (m), 929 (w), 903 (w), 843 (m), 810 (m), 723 (s), 692 (s)....
+2024-12-29 02:47:53,729 - 
+Paragraph: CUXFUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got: ethanol
+Original text:     Method A: A mixture of CoCl2·6H2O (0.238 g, 1.0 mmol), dchtpy·4H2O (0.248 g, 0.5 mmol), oxalic acid (0.090 g, 1.0 mmol), NaOH (0.08 g, 2.0 mmol) and H2O (16 mL) was charged in a Parr Teflon-lined, stainless-steel vessel and heated at 180 °C for 72 h. Block purple-red crystals were collected and dried in air (yields: 10%). Method B: A mixture of CoCl2·6H2O (0.060 g, 0.25 mmol), 2-cyanopyrimidine (0.026 g, 0.25 mmol), dchtpy·4H2O (0.062 g, 0.125 mmol), ethanol (4 mL) and H2O (12 mL) was charged in a Parr Teflon-lined, stainless-steel vessel and heated at 160 °C for 48 h to yield block purple-red crystals (yield: 65%). A simulation of the powder X-ray diffraction pattern of 1·9H2O indicates that it is phase-pure. Anal. Calc. for C30H42Co2N4O19 1·9H2O: calcd. C 40.92, H 4.81, N 6.36; Found C: 41.23; H: 5.04, N: 6.45%. FTIR for 1·9H2O (KBr, cm−1): 3419(vs), 2925(w), 2366(w), 2343(w), 1679(vs), 1613(vs), 1559(w), 1502(m), 1422(s), 1355(w), 1314(m), 1225(m), 1129(w), 1071(m), 1025(m), 986(w), 881(w), 826(s), 798(s), 675(w), 558(m), 487(w), 421(w). ...
+2024-12-29 02:47:57,097 - 
+Paragraph: DOKHIV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['EtOH', 'S S', 'water', 'H2O']
+Got unresolvable: EtOH (5 ml), H2O (
+Original text:   A mixture of CuSO4·5H2O (20 mg, 0.08 mmol), H3BTC (10 mg, 0.047 mmol) and 4,4′-bpy (10 mg, 0.06 mmol) was suspended in mixed solvents of EtOH (5 ml) and H2O (5 ml), and heated in a Teflon-lined steel bomb at 180 °C for 12 h. The green crystalline precipitate formed was collected, washed with water and dried in the air (yield: 30%). ...
+2024-12-29 02:47:57,432 - 
+Paragraph: OBIBOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'H2O']
+Got: N,N′-dimethylacetamide
+Original text:   H3TCMTB (0.17 g, 0.30 mmol), Ba(NO3)2 (0.16 g, 0.60 mmol), N,N′-dimethylacetamide (7.5 g) and H2O (1.5 g) were mixed and homogenised for half an hour. The homogeneous mixture was then transferred into a 25 mL Teflon-lined stainless steel autoclave and heated at 120 °C for 5 days. Needle-like colourless crystals were obtained upon cooling the mixture to room temperature at a cooling rate of 2 °C h−1. Yield: 0.085 g, 23% based on H3TCMTB used. Mp: >250 °C. Anal. calcd for C188H234Ba9N20O68: C, 44.29; H, 4.63; N, 5.50. Found: C, 44.02; H, 4.33; N, 5.95. FT-IR: 3401, 2968, 2921, 1603, 1534, 1394, 1240 cm−1. ...
+2024-12-29 02:48:02,351 - 
+Paragraph: FURFOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: DMA (3 mL)
+Original text: A mixture of Zn(NO3)2·6H2O (0.152 g, 0.5 mmol), H2tdc(0.085 g, 0.5 mmol), bib (0.095 g, 0.5 mmol) and DMA (3 mL) was sealed in a 23 mL Teflon–lined stainless steel reactor under autogenous pressure at 120 °C for 72 h and then cooled to room temperature slowly. Colorless block crystals of 2 were obtained in 54% yield based on Zn(NO3)2·6H2O. Elemental analyses for C40H50N10O10S2Zn2 (1025.80): Calcd. (%) C, 46.79; H, 4.87; N, 13.65. Found (%): C, 46.82; H, 4.85; N, 13.70....
+2024-12-29 02:48:03,355 - 
+Paragraph: ILAGUY_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O', '8O']
+Got unresolvable: 5 mL distilled H2O
+Original text: Cd(ClO4)2·6H2O (75 mg, 0.18 mmol), 3-bpmp (99 mg, 0.37 mmol) and diphenic acid (44 mg, 0.18 mmol) were placed into 5 mL distilled H2O in a 15 mL screw-cap vial. The vial was sealed and heated in an oil bath at 80 °C for 72 h, whereupon it was cooled slowly to 25 °C. Colorless plates of 2 (84 mg, 67% yield based on Cd) were isolated after washing with distilled water and acetone, and drying in air. Anal. Calc. for C88H93Cd3ClN8O29 2: C, 50.35; H, 4.46; N, 5.34. Found: C, 50.97; H, 4.16; N, 5.62%. IR (cm−1): 3407 (w, br), 2925 (w), 1577 (m), 1536 (s), 1470 (w), 1437 (m), 1397 (m), 1373 (s), 1299 (w), 1212 (w), 1192 (w), 1149 (w), 1084 (s), 1000 (w), 956 (w), 935 (w), 900 (w), 855 (m), 813 (m), 778 (m), 752 (s), 705 (s), 683 (m), 674 (m)....
+2024-12-29 02:48:04,662 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl acetamide', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'C2H5OH']
+Got: DMF
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in DMF) and HNO3 (0.28 mL, 0.7 mol L−1 in DMF) was added to a 23 mL teflon reactor and stirred for 20 min in air. Then the reaction system was heated at 358 K for 21 h and warmed up to 378 K for 36 h, followed by cooling to room temperature at a rate of 5 K h−1. The resulting red block crystals of 1 were obtained. (30% yield, based on InCl3). Elemental analysis (%) calcd. for C10H6.6InO9.81: C, 30.15; H, 1.67. Found: C, 30.38; H, 1.78. Selected FTIR data (KBr, cm−1): 3467(s), 1629(s), 1512(s), 1389(s), 1336(m), 1258(s), 1138(s), 1021(s), 891(s), 849(s), 827(s). ...
+2024-12-29 02:48:06,007 - 
+Paragraph: KUKQAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'MeOH', 'CH3CN']
+Got unresolvable: H2O (4 mL), MeOH (
+Original text:   A mixture of CuCl2·2H2O (0.034 g, 0.2 mmol), Hcpt (0.020 g, 0.1 mmol), H2O (4 mL), MeOH (2 mL) and CH3CN (2 mL) was added into a 25 mL Teflon-lined stainless steel reactor, and then heated at 120 °C for 3 days under autogenous pressure. After cooling to room temperature, green schistose crystals were obtained by filtration and washed with H2O and MeOH in sequence, and dried in air. The yield was 65% for 3 (based on Hcpt). Elemental analysis calcd (%) for 3 (C43H52Cl6Cu8N14O19): C 28.85, H 2.93, N 10.95; found: C 28.51, H 2.69, N 11.08. ...
+2024-12-29 02:48:10,307 - 
+Paragraph: EHUSUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'H2O']
+Got: DMF (6.0 mL) and H
+Original text: H4LIV (50 mg, 0.093 mmol) and Cu(NO3)2·2.5H2O (0.17 g, 0.72 mmol) were dissolved in a mixture of N,N′-dimethylformamide (DMF, 6.0 mL) and H2O (0.5 mL), and the solution was placed in a pressure tube (15 mL). Upon addition of 6 M HCl (15 μL), the tube was capped and heated at 90 °C for 16 h, and a large amount of microcrystalline product precipitated. The blue crystals were collected by filtration, washed with warm DMF, and dried in air. Yield: 58.6 mg (80% based on H4LIV). Selected FTIR (cm–1): 3404 (br, w), 2927 (w), 1657 (vs), 1626 (s), 1588 (m), 1494 (m), 1435 (m), 1417 (m), 1367 (vs), 1308 (w), 1284 (w), 1254 (m), 1187 (w), 1149 (w), 1094 (s), 1062 (m), 923 (w), 888 (w), 778 (m), 727 (s), 701 (w), 686 (w), 660 (s), 632 (w). Anal. Calcd (%) for C50H74Cu2N6O19: C, 50.46; H, 6.27; N, 7.06. Found (%): C, 50.38; H, 5.75; N, 7.70....
+2024-12-29 02:48:16,332 - 
+Paragraph: XOJWOJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O', '1,3-BUTANEDIOL']
+Got unresolvable: 5.0 mL
+Original text: A solution of Zn(Ac)2·2H2O (0.113 g, 0.516 mmol) in 2.5 mL water was carefully layered onto a solution of H3pbc (0.096 g, 0.485 mmol) and triethylene tetramine (0.139 g, 0.950 mmol) in 1,3-butanediol (5.0 mL) in a Telflon-lined stainless steel autoclave (33 mL). The resulting mixture was then heated at 170 °C for 48 h. The final product was obtained as transparent column crystals with the size of 0.18 × 0.15 × 0.10 mm3. The crystals were filtered, washed with distilled water, and dried at ambient temperature. The yield was about 44.6% (0.075 g) based on H3pbc. IR (cm−1): 3437 (m), 2919 (br), 1608 (s), 1552 (m), 1399 (s), 1137 (s), 1086 (m), 994 (s), 775 (w), 728 (m)....
+2024-12-29 02:48:19,012 - 
+Paragraph: FURFIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: DMA (3 mL)
+Original text: A mixture of Cd(NO3)·4H2O (0.06 g, 0.2 mmmol), H2tdc (0.034 g, 0.2 mmol), bpp (0.038 g, 0.2 mmol) and DMA (3 mL) was seal in a Teflon–lined stainless steel reactor under autogenous pressure at 120 °C for 72 h and then cooled to room temperature slowly. Colorless prism crystals of 1 were obtained in 43% yield based on Cd(NO3)·4H2O. Elemental analyses for C29H27N3O9S2Cd2 (850.48): Calcd. (%) C, 40.92; H, 3.17; N, 4.94. Found (%): C, 40.95; H, 3.23; N, 4.99%....
+2024-12-29 02:48:19,658 - 
+Paragraph: PUWCEP_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O']
+Got unresolvable: aqueous
+Original text: Cd(ATC)·[Cd(H2O)6](H2O)5, MOF-32. H4ATC (0.048 g, 0.15 mmol), Cd(NO3)2·4H2O (0.120 g, 0.39 mmol), and aqueous NaOH solution (3 mL, 6 × 10-4 mmol) were added respectively to a vessel, which was sealed and heated to 180 °C at a rate of 5 °C/min for 60 h and then cooled to room-temperature at a rate of 2 °C/min. Octahedral colorless crystals of the product were formed and collected by filtration, yielding 0.10 g (91% yield based on H4ATC). The product is stable in air and insoluble in water and common organic solvents such as ethanol, acetonitrile, acetone, chloroform, and DMF. Anal. Calcd for C14H34O19Cd2 = MOF-33:  C, 23.00; H, 4.65. Found:  C, 22.99; H, 4.50. FT-IR (KBr, 4000−400 cm-1):  3468 (br, s), 2954 (w), 1710 (w), 1559 (s), 1401 (m), 1348 (m), 1216 (w), 1118 (w), 723 (m). ...
+2024-12-29 02:48:20,023 - 
+Paragraph: ORUKET_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'ethanol', 'Thanol', 'water', 'Deionized water', 'H2O']
+Got: DMA (1.0 mL), ethanol (0
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Mg(NO3)2·6H2O (5.0 mg, 19.5 μmol) was dissolved in a mixed solvent of DMA (1.0 mL), ethanol (0.5 mL) and deionized water (0.5 mL) in a 20 mL vial. After 20 μL of 6 M HCl was added, the vial was capped and heated statically at 373 K for 8 days. Subsequently, the reaction mixture was allowed to cool to room temperature. The pure colorless block-shaped crystals that formed at the bottom of the vial were recovered by filtration and washed with DMA. The yield was approximately 31% based on the ligand. Based on single-crystal X-ray structure determination, TGA and microanalysis, the magnesium compound can be best formulated to be [Mg3L2(H2O)6]·6(Me2NH2)·DMA·H2O. Selected FTIR (KBr, cm−1): 1603, 1560, 1502, 1417, 1267, 1203, 1178, 1159, 1095, 1016, 952, 889, 868, 793, 760, 741, 700, 640, 623, 557, 507, 482; Anal. Calcd. for C100H119N13O44P6Mg3: C, 48.71; H, 4.86; N, 7.38. Found: C, 48.68; H, 4.71; N, 7.52....
+2024-12-29 02:48:23,064 - 
+Paragraph: DOKHUH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'EtOH', 'S S']
+Got: water ethanol
+Original text:   A mixture of Cd(NO3)2·4H2O (20 mg, 0.06 mmol), H3TMBTC (10 mg, 0.05 mmol) and 4,4′-bpy (10 mg, 0.06 mmol) was suspended in the mixed solution of H2O (8 ml) and EtOH (8 ml), and heated in a Teflon-lined steel bomb at 180 °C for 3 d. The colorless crystals of 3 were collected, washed with water and dried in the air (yield: 45%). Elemental analysis calcd (%) for 3: C 38.72, H 4.16, N 7.06; found: C 37.53, H 4.64, N 7.59%. ...
+2024-12-29 02:48:28,042 - 
+Paragraph: UWALEL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: DMF (5 mL)
+Original text:   A mixture of Cu(NO3)2·3H2O (24.2 mg, 0.1 mmol) and H4L (20.4 mg, 0.05 mmol) and two drops of HNO3 (0.1 M) in DMF (5 mL) was sealed in a 10 mL screw-capped vial. The vial was placed in an oven at 105 °C for 72 h, and gradually cooled to room temperature at a rate of 5 °C min−1. Blue rod crystals of 1 were collected by filtration and washed with DMF. The yield was ca. 33.3 mg (69.4%, based on H4L). Anal. Calcd for C41.5H63.5CuN8.5O13.5: C, 51.87; H, 6.66; N, 12.39. Found: C, 51.81; H, 6.73; N, 12.27. IR (KBr, cm−1): 3421m, 3016w, 2936m, 1948w, 1630s, 1557m, 1509m, 1402s, 1264m, 1189m, 1058w, 1017s, 963w, 868w, 773s, 744m, 697m, 595m, 524w, 478w. ...
+2024-12-29 02:48:28,043 - 
+Paragraph: LEDCAA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got: water
+Original text: Synthesis of 1. The mixture of L ligand (0.0213 g, 0.1 mmol) and CdCl2·2.5H2O (0.0228 g, 0.1 mmol), in the H2O (10 mL) solution were stirred for 30 min, and then transferred to a 23 mL Teflon container and sealed in an autoclave. The autoclave was heated to 180 ºC in a programmable oven, and this temperature was maintained for 3 days before it was cooled to room temperature (cooling rate 5 °C per min). The colorless crystals are obtained in the yield of 79%, based on Cd. Element Anal. Calc. for 1(%): C, 30.06; H, 2.52; N, 27.26. Found: C 29.89, H 2.79, N 27.17%. IR data (KBr pellet, cm− 1): 3087 (w), 1603 (m), 1555 (m), 1458 (m), 1432 (m), 1303 (s), 1279 (w), 1115 (s), 1081 (s), 998 (m), 798 (w), 722 (s), 654 (m)....
+2024-12-29 02:48:28,382 - 
+Paragraph: XUDYOM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: None
+Original text: A mixture of (COOH)2.2H2O (0.1 mmol, 12.6 mg), imidazole (0.2 mmol, 13.6 mg), In(NO3)3·xH2O (0.1 mmol, 30 mg), and DMF (8 mL) was placed in a 25 mL Teflon-lined stainless steel vessel, heated to 130 °C for 2 days, and then cooled to room temperature over 24 h. Colorless needle crystals of 1 were obtained. Yield: 19.54 mg (57% based on In). Elemental analysis (%): calcd for (C15H18In2N4O16): C 24.35, H 2.45, N 7.57; found: C 24.12, H 2.18, N 7.29. IR (cm− 1): 3433s, 1640s, 1626s, 1561s, 1442w, 1409w, 1369s, 1205w, 1117w, 776w, 723m, 555w, 478w. Crystallographic data for 1 (CCDC 1039314): C15H18In2N4O16, Mr = 739.97, orthorhombic, Pbca, a = 9.3366(14), b = 21.917(3), c = 24.057(4) Å, α = 90, V = 4922.8(13) Å3, Z = 8, ρcalcd = 1.997 g/cm3, μ = 1.957 mm− 1, S = 1.075, R1 = 0.0336 and wR2 = 0.0933....
+2024-12-29 02:48:31,341 - 
+Paragraph: VEHRIL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: aqueous mixture
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), Na2MoO4·2H2O (0.2500 mmol, 60.40 mg), Na2SiO3·9H2O (0.2500 mmol, 71.00 mg) and Sm2O3 (0.1250 mmol, 43.60 mg), with a starting pH of 2.0 adjusted with 1.0 mol L−1 HNO3, was sealed in a 23.0 mL Parr Teflon-lined stainless steel auto-clave, heated to 380 K in an oven for 2 d, and finally cooled naturally to room temperature. Yellow block crystals were obtained in 30% yield (based on Mo). Anal. calcd (%) for C28H48Mo12N4O74SiSm4 (Mr = 3405.52): C, 9.87; H, 1.41; N, 1.65; Mo, 33.8%. Found (%): C, 9.92; H, 1.38; N, 1.81; Mo, 32.3%. IR (KBr, cm−1) ν: 3460(s), 1607(s), 1567(s), 1447(s), 1391(s), 1286(m), 1195(w), 1077(m), 1023(w), 986(w), 948(s), 900(vs), 802(vs), 758(vs), 696(w), 663(w), 592(w), 534(w). ...
+2024-12-29 02:48:32,366 - 
+Paragraph: PELXIP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got: water
+Original text:   A mixture of CdCl2 (0.092 g, 0.5 mmol), 3-cyanobenzoic acid (0.074 g, 0.5 mmol), NaN3 (0.033 g, 0.5 mmol) and H2O (10 mL) was stirred for 30 min at room temperature and kept in a 23 mL Teflon-lined autoclave at 150 °C for 3 days. The mixtures were cooled to room temperature at 5 °C h−1. Colorless block single crystals of 1 were obtained (yield: 45% based on Cd). Elemental Anal. Calcd (%) for 1, C32H24Cd4N16O12: C, 30.16; H, 1.90; N, 17.59. Found: C, 30.10; H, 1.98; N, 17.50. IR data (KBr, cm−1): 3412 (br), 1609 (s), 1585 (s), 1508 (s), 1475 (s), 1457(s), 1408 (s), 1168 (m), 1082 (m), 885 (w), 745 (w), 683 (w). ...
+2024-12-29 02:48:35,696 - 
+Paragraph: QUQFOY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'EtOH']
+Got unresolvable: DMF (2 mL) and EtOH (
+Original text: A mixture of H6BHB (5.0 mg, 0.009 mmol) and Cd(NO3)2·4H2O (10.3 mg, 0.033 mmol) was dissolved in DMF (2 mL) and EtOH (1 mL) in a screw-capped vial. The vial was capped and placed in an oven at 65 °C for 24 h. The resulting polyhedral prism shaped single crystals were washed with DMF several times to produce MOF-3 (6.2 mg, yield: 57.2%)....
+2024-12-29 02:48:36,016 - 
+Paragraph: LIDSIC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ethanol', 'Thanol', 'S S', 'water', 'H2O']
+Got unresolvable: DMF--ethanol--water
+Original text:   A mixture of 5-(pyridin-4-yl)isophthalic (H2pyip, 0.030 g, 0.05 mmol) and Co(NO3)2·6H2O (0.0437 g, 0.15 mmol) in N,N′-dimethylformamide (DMF) (3 mL), ethanol (3 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (12 mL), heated at 80 °C for 72 h and then cooled to room temperature at a rate of 5 °C h−1. The resulting pink prism-like crystals of 1 were isolated by washing with DMF–ethanol and dried in vacuo. The yield was 30.2% based on H2pyip. Anal. calc. for C52H36Co4N4O22: C, 47.87; H, 2.78; N, 4.29. Found: C, 47.79; H, 2.83; N, 4.24%. IR (KBr, cm−1): 3419 m, 1619 s, 1577 m, 1439 m, 1370 s, 1297 w, 831 w, 780 w, 707 w, 643 w. ...
+2024-12-29 02:48:38,351 - 
+Paragraph: VAGBOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'ethanol', 'Thanol']
+Got: v:v =
+Original text:   Gd(NO3)3 (0.045 g, 0.1 mmol), CuI (0.019 g, 0.1 mmol), NaI (0.030 g, 0.2 mmol) and Hpba (0.030 g, 0.15 mmol) were placed in 5 mL of H2O/ethanol (v:v = 2:3) solution and stirred for a few hours, then transferred and sealed in a 15 mL Teflon-lined steel autoclave. The autoclave was kept in an oven at 100 °C for 3 days. After cooling to room temperature, light yellow block crystals were collected by filtration, washed with ethanol and dried in air (yield 37%). Elemental analysis calcd (%) for 3 (GdCu3I3C38H32N3O8): C 32.87, H 2.31, N 3.05; found: C 32.69, H 2.19, N 2.94. Selected IR peaks (cm−1): 3059, 2974, 1545, 1431, 1045, 773. ...
+2024-12-29 02:48:38,351 - 
+Paragraph: WIJXIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def']
+Got unresolvable: Zn(NO3)2·6H2
+Original text: A mixture of Zn(NO3)2·6H2O (0.60 mmol, 0.15 g) and 2,7-H2CDC (0.10 mmol, 0.026 g) was dissolved in DEF (3.0 mL) in a glass vial (25 ml), heated at 85 °C for 16 h, and then cooled to room temperature. A few yellow cubic crystals of 1 and a large amount of uncharacterized powder were obtained. The crystals were manually sorted out for crystallographic and IR measurements. Our efforts to obtain a pure phase of 1 turned out in vain. IR (KBr, cm−1): 3257 m, 2979 s, 1652vs, 1598 s, 1553 m, 1508 m, 1328 m, 1266 w, 1219 w, 1118 w, 775 s....
+2024-12-29 02:48:41,336 - 
+Paragraph: TETZEZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: 8 mL
+Original text:   A mixture of Zn(NO3)2·6H2O (0.075 mmol, 0.022 g), H22BPC (0.075 mmol, 0.018 g), L (0.05 mmol, 0.016 g) and DMF (8 mL) was heated at 120 °C in a Teflon-lined autoclave for 3 days, followed by slow cooling to room temperature. The resulting colorless prismatic crystals were filtered off (yield: ca. 58% based on Zn). Elemental Anal. Found: C, 57.54; H, 4.49; N, 8.56%. Calcd for C165H153N21O39Zn6: C, 57.50; H, 4.47; N, 8.53%. IR (KBr, cm−1): 3423(m), 2356(w), 1658(s), 1593(s), 1510(s), 1386(s), 1330(m), 1296(m), 1259(w), 1211(s), 1176(w), 1101(s), 1060(w), 1018(m), 887(w), 839(s), 773(s), 705(w), 678(w), 661(w), 603(w), 538(m), 428(w). ...
+2024-12-29 02:48:43,358 - 
+Paragraph: RIPWIY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: sodium acetate buffer
+Original text: A mixture of K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O (0.207 g, 0.026 mmol), Sm(NO3)3⋅6 H2O (0.062 g, 0.14 mmol), Mn(ClO4)2⋅6 H2O (0.300 g, 0.83 mmol), and glycolic acid (0.100 g, 1.3 mmol) in sodium acetate buffer (8 mL, 0.5 M, pH 5.5) was stirred for 30 min. The resulting mixture was sealed in a 35 mL stainless‐steel reactor with a Teflon liner and heated at 120 °C for 5 d, then cooled to room temperature. Light yellow block crystals of 1 were obtained. Yield: 38 % based on K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O. IR (solid KBr pellets): =3480 (w), 1619 (s), 1364 (w), 1165 (s), 1081 (w), 935 (s), 912 (s), 781 (s), 753 cm−1 (s); elemental analysis calcd (%) for 1: C 1.70, H 1.02, Na 1.86, K 0.40, Mn 0.55, Sm 9.14, P 1.57, W 55.70; found: C 2.03, H 1.10, Na 1.55, K 0.12, Mn 0.21, Sm 8.67, P 1.31, W 55.23. ...
+2024-12-29 02:48:45,315 - 
+Paragraph: MAZSUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got unresolvable: 7.5 mL
+Original text: Synthesis of Zn3(tz)2(bdc)2⋅x(DMF) (2): A mixture of Zn(NO3)2⋅6H2O (0.0800 g, 0.27 mmol), pyrazine(0.0150 g 0.19 mmol), 1,2,3–1H‐triazole (0.0400 g, 0.58 mmol), 1,4‐benzenedicarboxylic acid (0.0500 g 0.30 mmol), N,N‐dimethylformamide (7.5 mL) in a 23 mL Teflon‐lined stainless steel vessel was heated at 120 °C for 5 days, and then cooled to room temperature. Colorless transparent crystals were thus obtained (83 % yield based on zinc). ...
+2024-12-29 02:48:47,380 - 
+Paragraph: WISTID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ethanol', 'Thanol', 'S S']
+Got unresolvable: water\u2013ethanol (2:1
+Original text: A mixture of Zn(NO3)2·6H2O (0.059 g, 0.2 mmol) and H4bptc (0.033 g, 0.1 mmol) in water–ethanol (2:1 v/v) was stirred for 30 min, and then sealed in a 25 mL Teflon reactor and heated at 150 °C for 72 h. After the sample was gradually cooled to room temperature at a rate of 10 °C h−1, colorless block crystals were obtained. Yield: 65% based on Zn(II) salt. Anal. calcd for C18H16O11Zn2 (%): C, 40.10; H, 2.99. Found: C, 40.83; H, 2.57. IR (KBr, cm−1): 3745 (m), 3436 (m), 1622 (s), 1562 (m), 1429 (w), 1380 (m), 977 (s), 921 (s), 771 (s), 543 (m)....
+2024-12-29 02:48:47,716 - 
+Paragraph: VEHROR_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: aqueous mixture
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), H3[PMo12O40]·nH2O (182.5 mg), LaCl3 (0.2500 mmol, 61.30 mg) and NaF (52.00 mg 0.1250 mmol), with a starting pH of 2.0 adjusted with 1.0 mol L−1 HNO3, was sealed in a 23.0 mL Parr Teflon-lined stainless steel auto-clave, heated to 375 K in an oven for 2 d, and finally cooled naturally to room temperature. Yellow block crystals were obtained in 60% yield (based on Mo). Anal. calcd (%) for C28H44FLa4Mo12N4O72P (Mr = 3345.56): C, 10.0; H, 1.32; N, 1.67; Mo, 34.4%. Found (%): C, 9.95; H, 1.40; N, 1.75; Mo, 33.2%. IR (KBr, cm−1) ν: 3436(s), 1619(s), 1565(s), 1443(s), 1385(s), 1282(m), 1194(w), 1076(m), 1058(m), 1020(w), 952(s), 875(m), 802(vs), 765(vs), 698(w), 663(w), 586(w). ...
+2024-12-29 02:48:50,221 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'H2O', '8O']
+Got: water
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]2(PF6)2⋅H2O formed at the interface in 3 days in a 54% yield based on the silver(I) salt. m.p. 176 °C. Anal. Calcd. for C56H70N8OP2F12Si4Ag2: C, 45.16; H, 4.74; N, 7.52%. Found: C, 45.20; H, 4.66; N, 7.41%. IR (KBr pellet, cm−1): 1589(m), 1405(m), 1124(s), 844(s, PF...
+2024-12-29 02:48:51,587 - 
+Paragraph: XUGSID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'Distilled water', 'H2O', '8O']
+Got unresolvable: H4btec (0.1 mmol
+Original text: A mixture of Co(NO3)2·6H2O (0.1 mmol), H4btec (0.1 mmol), imb (0.2 mmol), DMF (1 mL), N(Et)3 (0.1 mL) and distilled water (8 mL) was sealed in a 25 mL Teflon-lined stainless steel container and heated at 100 °C for 72 hours. After the mixture cooled to room temperature at a rate of 5 °C/h, red crystals of {[Co(btec)0.5(imb)(H2O)]∙1.5H2O}n suitable for X-ray analysis were collected. Anal Calcd for C32H32Co2N8O13: C 44.98, H 3.77, N 13.11%. Found: C 45.23, H 3.54, N 13.42%. IR (KBr, cm− 1): 3412(m), 3146(w), 1662(w), 1569(s), 1490(m), 1436(m), 1386(s), 1280(m), 1104(s), 943(m), 871(m), 749(s)....
+2024-12-29 02:48:52,868 - 
+Paragraph: CABQEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'TETRAHYDROFURAN', 'Hydrofuran', 'THF']
+Got unresolvable: tetrahydrofuran (THF)
+Original text: Synthesis of Co5(OH)2(O2CCH3)8·2H2O (1). Pyrex tubes were each loaded with Co(acac)3 (0.20 g, 0.56 mmol), H2O (80 μL, 4.4 mmol), and tetrahydrofuran (THF, 2.0 mL). After subjection to two freeze−pump−thaw cycles on a vacuum line, the tubes were sealed at a length of 12 cm and internal volume of 5.8 mL. The tubes were then placed inside an autoclave and 2300 psi of Ar was introduced as counterpressure to prevent bursting during the reaction. After being heated at 255 °C for 5 days, the light tan crystalline product was filtered and washed with petroleum ether under a stream of argon (yield:  0.095 mmol, 85% based on Co). The identity of the bulk sample was confirmed by matching the powder diffraction pattern to that calculated from the single-crystal structure (vide infra). Since the compound decomposes in air over several days to an XRD amorphous pink powder, it was stored in an argon atmosphere drybox. The infrared spectrum consists of a series of very broad bands from 3700 to 2700 and 1600−600 cm-1. Anal. Calcd:  C, 22.96; H, 3.61. Found:  C, 23.01; H, 3.36. ...
+2024-12-29 02:48:53,542 - 
+Paragraph: DICKEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'water', 'H2O']
+Got: N,N-dimethylformamide (DMF
+Original text: PDEB (11.33 mg, 0.025 mmol) and CuCl2·2H2O (17 mg, 0.1 mmol) in 2 mL of N,N-dimethylformamide (DMF) with 0.1 mL of water and 50 μL of HBF4 were stirred for a few minutes in air, and the clear solution was transferred into a Teflon-lined stainless steel autoclave (20 mL). The autoclave was sealed and heated to 65 °C for 3 days and then cooled to room temperature at a rate 5 °C·h–1. Pale-green block crystals of NJU-Bai12 were obtained and then filtered and washed by DMF to yield 11.2 mg (yield: 73% based on the ligand). The crystals of NJU-Bai12 are stable for common organic solvents except for water; they become opaque after exposure to air for several minutes. Satisfactory microanalysis cannot be obtained because the extent of solvent molecules in the cavity may vary from exposure of the sample to air. Selected IR (KBr, cm–1): 3412 (br, s), 1667 (vs), 1551 (s), 1516 (m), 1406 (s), 1362 (m), 1280 (m), 1242 (m), 1106 (m), 826 (m), 760 (w), 720 (w), 600 (w)....
+2024-12-29 02:48:54,191 - 
+Paragraph: XUHVON_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ethanol', 'Thanol', 'S S']
+Got: N,N'-dimethylformamide (DMF
+Original text: Synthesis of compound 1: a mixture of 0.5 mmol Zn(NO3)2·6H2O, 0.5 mmol 5,5′-(1,4-phenylene)bis(1H-tetrazole) (H2BDT), 1 mmol 1,3,5-benzenetricarboxylic acid (H3BTC) in 4 mL N, N′-dimethylformamide (DMF) and 1 mL ethanol were sealed in a 20 mL Teflon-lined stainless steel autoclave, heated at 160 °C for 5 days under autogenous pressure. After the autoclave was cooled to room temperature, the products were washed by ethanol and air-dried, then the light yellow crystals were obtained (yield: 45%, based on Zn). Anal. Calc. for 1, C40H56O14N14Zn2: C, 44.17%; H, 5.19%; N, 18.03%. Found: C, 44.11%; H, 5.29%; N, 17.95%....
+2024-12-29 02:48:55,480 - 
+Paragraph: XUKHUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'Dimethylacetamide', 'Dimethylacetamid', 'N, N-dimethylacetamide', 'n-dimethylacetamide', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma']
+Got: N, N-dimethylacetamide (DMA
+Original text: A mixture of ZnSO4·7H2O (0.043 g, 0.15 mmol), H4L (0.069 g, 0.15 mmol), H2O (2 ml), N, N-dimethylacetamide (DMA) (2 ml), the solution was placed in the Teflon-lined stainless steel vessel (25 ml), then sealed and heated to 120 °C for 24 h. Cooling the vessel to room temperature gave purple block crystal (0.045 g). Yield: 78% (based on Zn). Anal. Calc. (%) for C16H17N2O5Zn (Mr = 382.69): C, 51.42; H, 5.54; N, 8.56. Found: C, 51.38; H, 5.52; N, 8.59. IR (KBr, cm− 1): 3432(s), 2925(w), 1626(s), 1511(s), 1430(s), 1344(s), 1284(w), 1260(w), 1200(w), 1143(w), 1107(w), 1082(w), 1020(w), 987(w), 922(w), 879(w), 831(w), 782(m),727(m), 626(s), 597(s), 541(s), 450(s)....
+2024-12-29 02:48:56,834 - 
+Paragraph: VOGTIV_clean_h
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['THF', 'water', 'H2O']
+Got unresolvable: water (3 mL)
+Original text: [Mg2(dhtp)(H2O)2]·8H2O (CPO‐27‐Mg): 2,5‐Dihydroxyterephthalic acid (0.149 g, 0.75 × 10–3 mol) was dissolved in THF (10 mL) in the Teflon inlet of an autoclave. An aqueous sodium hydroxide solution (3 mL, 1 mol L–1) was added to this solution while stirring. Magnesium nitrate hexahydrate (0.384 g, 1.5 × 10–3 mol) was dissolved in water (3 mL) and added to the Teflon inlet, upon which a yellow precipitate formed. The autoclave was sealed (filling level ca. 50 %) and the mixture allowed to react at 110 °C for 3 d. Filtration yielded a light yellow substance of small, needle‐shaped crystals (yield 0.200 g, 63 % based on Mg). C4H11MgO8 (211.43): calcd. C 22.72, H 5.24, Mg 11.50, O 60.54; found C 23.43, H 4.87, Mg 12.63, O 49.80. We ascribe the low value found for the O content to the formation of magnesium oxide from which the oxygen was not liberated for detection. ...
+2024-12-29 02:48:57,789 - 
+Paragraph: TORXAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water', 'H2O']
+Got unresolvable: doubly deionized water
+Original text:   A mixture containing Htz (21.0 mg, 0.3 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in doubly deionized water (10.0 mL). The initial pH value of the mixture was adjusted to ca. 6.0 using an aqueous NaOH solution (0.25 M). The resulting mixture was then transferred into a Parr Teflon-lined stainless steel vessel (23.0 mL) and heated at 150 °C for 72 h under autogenous pressure. After the mixture was cooled to room temperature at a rate of 2.5 °C h−1, blue block-shaped crystals suitable for X-ray analysis were obtained directly, washed with methanol, and dried in air (Yield: 30% based on Htz). Anal. Calcd for C3H5.67Cl0.33Cu1.67N12O1.33: C 10.33, H 1.64, N 48.17%. Found: C 10.18, H 1.57, N 48.06%. IR (KBr, cm−1): 3398(br), 3120(w), 2961(m), 2860(m), 1654(m), 1448(s), 1325(m), 1239(s), 1137(s), 1157(s), 1061(m), 1024(m), 888(w), 688(w), 495(w). ...
+2024-12-29 02:48:57,790 - 
+Paragraph: HAPGIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ACETONITRILE', 'Acetonitril']
+Got: N,N\\u2032-dimethylform
+Original text: Synthesis of [Mn3(btca)2(HCOO)(μ3‐OH)(H2O)2]·2DMF (1): A mixture of Mn(Ac)2·4H2O (0.20 mmol, 49.0 mg), H2btac (0.1 mmol, 16.3 mg), N,N′‐dimethylformamide (4 mL), and acetonitrile (1 mL) was stirred for 10 min in air, then transferred and sealed in a 23‐mL Teflon‐lined autoclave, which was heated in an oven to 120 °C for 72 h. The reaction mixture was slowly cooled to room temperature at a rate of 5 K·h–1, and the light yellow crystals were obtained about 28 % yield (10.2 mg based on H2btac). C21H26Mn3N8O11 (731.3): calcd. C 34.46; H 3.56; N 15.31 %; found: C, 34.37; H, 3.53; N, 15.27 %. IR (KBr): ν̃ = 3377 (s), 3262 (s), 3071 (w), 2945 (w), 2867 (w), 1659 (s), 1585 (s), 1550 (s), 1403 (s), 1290 (s), 1169 (m), 1097 (m), 899 (m), 794 (s), 758 (m), 691 (m) cm–1. ...
+2024-12-29 02:48:58,772 - 
+Paragraph: LEVDIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'C2H5OH', 'H2O']
+Got unresolvable: DMF-C2H5OH-H2O
+Original text:   A mixture of the organic linker H4L (10.0 mg, 13.5 μmol) and Cu(NO3)2·2.5H2O (20.0 mg, 86.0 μmol, Aldrich) was dissolved into a mixed solvent (DMF–C2H5OH–H2O, 1.5/0.5/0.2 mL) in a screw-capped vial (20 mL). 40 μL of 6 M HCl were then added. The vial was capped and heated at 363 K for 48 h. Greenish rhombic crystals were obtained in 45% yield. UTSA-40 can be best formulated as [Cu2L(H2O)2]·6DMF·2H2O on the basis of single-crystal X-ray structure determination, TGA and microanalysis. Selected FTIR (neat, cm−1): 1654, 1624, 1580, 1492, 1418, 1367, 1338, 1244, 1205, 1143, 1088, 1056, 1014, 915, 871, 817, 776, 729, 717, 659; TGA data for loss of 6DMF and 4H2O: calcd: 37.2%, found: 37.6%; anal. for C58H74Cl2Cu2N6O20: calcd: C 50.73, H 5.43, N 6.12, found: C 50.43, H 5.66, N 6.08%. ...
+2024-12-29 02:48:59,111 - 
+Paragraph: TIXVON_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'H2O']
+Got: N,N-Dimethylacetamide (DMA)
+Original text: A mixture Mg(NO3)2·6H2O (0.1848 g, 0.5 mmol), H2obb (0.1893 g, 0.5 mmol), NaOH (0.0412 g, 1 mmol) was dissolved in 5 mL of DMA or DMA/H2O(4:1) in a 20 mL vial. The reaction vial was capped tightly and heated at 120 °C for 48 h. Cool down to room temperature and washed by ethanol, colorless block crystals were obtained (63% yield). Elemental analysis (EA) for 1, C58H60N4O21Mg3 (1222.03): Calc. C, 57.01; H, 4.95; N, 4.58. Found: C, 57.34; H, 4.53; N, 4.51%....
+2024-12-29 02:49:00,421 - 
+Paragraph: AVEQID_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMAc', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'H2O']
+Got: DMAc+H2O
+Original text:   A mixture of Zn(NO3)2·6H2O (15 mg, 0.05 mmol), H8TBCB (5 mg, 0.006 mmol), DMAc (3.5 mL), H2O (1 mL) and two drops of aqueous HNO3 solution (2.0 M) was sealed in a 20 mL capped vessel. The as-synthesized brown crystals can be obtained at 85 °C for 3 days in an oven. The yield is about 62% (based on the ligand). Element analysis (%) calc. for C64H77O27N7Zn4: C, 46.97; H, 4.71; N, 5.99; found: C, 46.75; H, 4.79; N, 6.07. Selected FT-IR data (KBr pellet, cm−1): 2935 (br), 1619 (s), 1412 (s), 1356 (s), 1261 (s), 1186 (s), 1020 (s), 783 (s), 717 (s), 660 (s), 592 (s), 463 (s) (Fig. S1). ...
+2024-12-29 02:49:01,419 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'H2O']
+Got unresolvable: aqueous solution
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)](PF6)⋅H2O formed at the interface in 3 days in a 53% yield (2.3 mg) based on the silver(I) salt. m.p. 173 °C (dec.). Anal. Calcd for C27H34N4OPF6Si2Ag: C, 43.85; H, 4.63; N, 7.58%. Found: C, 44.10; H, 4.55; N, 7.61%. IR (KBr pellet, cm−1): 1583(w), 1405(m), 1124(m), 842(s, PF...
+2024-12-29 02:49:01,747 - 
+Paragraph: LIVLUZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: 10 mL
+Original text: Syntheses of two complexes [Zn(cpt)2]n (1) and [Cd(cpt)2 · 2DMF]n (2) [Hcpt = 1-(4-carboxy- phenyl)-1,2,4-triazole] are as follows: A mixture of MIICl2 (0.25 mmol) (M = Zn(1), Cd(2)), ligand Hcpt (0.5 mmol), and DMF (10 mL) was heated at room temperature to 150 °C for three days in a 25 mL Teflonlined stainless-steel autoclave and was then cooled to room temperature at 5 °C/h− 1 to obtain corresponding colorless block crystals 1–2 (yield: 53% for 1 and 49% for 2 based on MII). Anal.Calcd for 1 C18H12N6O4Zn (441.71): C, 48.90; H, 2.72; N, 19.02%. Found: C, 48.86; H, 2.75; N, 19.07%. IR frequencies (KBr, cm− 1): 3443 (w), 3131 (w), 1682 (s), 1608 (s), 1568 (m), 1542 (m), 1504 (m), 1492 (m), 1462 (w), 1427 (w), 1384 (s), 1297 (s), 1219 (m), 1142 (s), 1045 (s), 1068 (m), 1002 (w), 975 (m), 955 (m), 860 (m), 809 (w), 771 (m), 690 (w), 670 (m), 638 (w), 559 (w), 538 (w), 516 (w). Anal.Calcd for 2 C24H26O6N8Cd (634.94): C, 45.36; H, 4.09; N, 17.64%. Found: C, 45.35; H, 4.11; N, 17.69%. IR frequencies (KBr, cm− 1): 3425(mb), 2918(w), 1683(m), 1650(m), 1607(s), 1523(s), 1476(m), 1412(m), 1385(s), 1265(s), 1203(m), 1181(w), 1062(w), 858(m), 784(m), 722(w), 653(w), 619(w), 535(w), 524(w)....
+2024-12-29 02:49:03,091 - 
+Paragraph: KOQLUZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water']
+Got: H2O
+Original text:   A mixture of H4[SiW12O40] (300 mg), bib (80 mg), Cu(NO3)2 (160 mg) and (CH3)4NOH (4 mmol) was dissolved in 10 ml of distilled water at room temperature. The pH value was adjusted to about 2.8 with 2.0 M HCl and then the solution was kept at 170 °C for 4 days. The reactor was then slowly cooled to room temperature over a period of 13 h. Green block crystals of 3 were obtained (28% yield based on Cu). Elemental analysis found: C 8.46, H 0.81, N 3.27, Cu 1.87%; calc. for 1, C24H26N8CuSiW12O42 (3396.20): C 8.48, H 0.76, N 3.30, Cu 1.88%. ...
+2024-12-29 02:49:04,075 - 
+Paragraph: AZAVUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'Deionized water', 'H2O']
+Got: DMF (dimethylformamide)
+Original text: A 0.165 M stock solution of copper nitrate trihydrate in DMF (0.5 mL) was added to an 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water (4 mL) to the mixture, which was subsequently heated at 100 °C for 18 h to yield blue, block-shaped crystals. The crystals were then thoroughly washed with DMF (3 × 10 mL) per day for 3 days total. To yield guest-free material, DMF-washed MOF-890 was immersed in MeOH (3 × 10 mL) per day for a total of 4 days. The solvent-exchanged sample was activated under vacuum at ambient temperature for 24 h, followed by heating at 180 °C under vacuum for an additional 24 h. EA. Calcd for Cu3C48H33.40O16.70 ([Cu3(CPB)(DMF)0.5]·6H2O): C, 52.71; H, 3.53; N, 0.62. Found: C, 52.10; H, 2.71; N, 0.63. FT-IR (KBr, 3500–400 cm–1): 3429 (br), 1608 (s), 1540 (m), 1404 (br), 1277 (vw), 1180 (w), 1017 (m), 860 (m), 752 (m)....
+2024-12-29 02:49:06,194 - 
+Paragraph: CAHQAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O']
+Got unresolvable: H2O (10 mL)
+Original text:   A mixture of Mn(OAc)2·4H2O (73.5 mg, 0.3 mmol), H4L1 (20.3 mg, 0.05 mmol), bpfp (29.6 mg, 0.1 mmol) and H2O (10 mL) was sealed in a 23 mL Teflon-lined autoclave and heated at 150 °C for 3 days. After cooling to room temperature at a speed of 0.1 °C min−1, the colorless crystals of 1 (90.12 mg) were obtained and washed with distilled water. 61% yield based on Mn. Elemental analysis for C39H46Mn2N4O19, calcd (%): C, 47.53; H, 4.67; N, 5.68. Found (%): C, 47.48; H, 4.73; N, 5.62. IR data (KBr, cm−1): 3406 (s), 3011 (w), 1523 (s), 1441 (s), 1353 (s), 1262 (m), 1166 (w), 1084 (m), 912 (w), 890 (m), 832 (m), 801 (m), 767 (m), 680 (m), 576 (w), 527 (w). ...
+2024-12-29 02:49:07,537 - 
+Paragraph: PAQMAY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got: N,N\'-dimethylformamide (DM
+Original text: Single crystals of compound 1‐Tb were obtained through the solvothermal reaction of Tb(NO3)2⋅6 H2O (250 mg) and H4L (55 mg) in N,N‐dimethylformamide (DMF) (3 mL) with HNO3 (0.45 mL; 63 %, aq.) at 105 °C for 72 h. The mixture was then cooled to room temperature. Crystals were obtained and air‐dried (yield 25 %, based on Tb). Elemental analysis (%) calcd for 1‐Tb {[Ln3L2(OH) (DMF)0.22(H2O)5.78]⋅H2O⋅DMF}: C 33.08, H 2.50, N 6.59; found: C 33.29, H 2.60, N 5.50. The same synthetic method was used for 1‐Eu except that Eu(NO3)2⋅6 H2O was used instead of Tb(NO3)2⋅6 H2O (yield 55 %, based on Eu). The experimental PXRD pattern of 1‐Eu was in good agreement with the simulated one based on the single‐crystal X‐ray data for 1‐Tb, indicating isomorphism and phase purity (Figure S8 a). The PXRD pattern for activated 1‐Eu was a less perfect match (Figure S8 a), suggesting some decomposition and/or structural changes upon desolvation; similar changes were observed upon sorption of metal ions and Cr2O72− anions (Figure S8). ...
+2024-12-29 02:49:08,190 - 
+Paragraph: XOJWID_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got unresolvable: Zn(Ac)2\u20222
+Original text: A mixture of Zn(Ac)2·2H2O (0.112 g, 0.511 mmol), H3pbc (0.095 g, 0.480 mmol), and N,N-dimethylformamide (DMF) (5.0 mL) was stirred for dissolution and then heated at 170 °C for 48 h in a Telflon-lined stainless steel autoclave (33 mL). After slow cooling to ambient temperature, transparent stick crystals of 1, accompanied by the formation of unidentified white powder impurities, were obtained. A suitable single crystal of 1 with the size of 0.10 × 0.06 × 0.05 mm3 was selected for X-ray single-crystal characterization....
+2024-12-29 02:49:08,190 - 
+Paragraph: VAGTAA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide']
+Got: N,N-dimethylformamide (DMF
+Original text: ‡ Synthesis of [Mg(DHT)(DMF)2]n (1): A mixture of Mg(NO3)2·6H2O (0.128 g, 0.5 mmol), 2,5-dihydroxyterephthalic acid (0.099 g, 0.5 mmol) and 15 μL triethylamine and 8 mL N,N-dimethylformamide (DMF) were placed in a 23 mL Teflon bomb and the whole reaction mixture was stirred for 1 h. The Teflon bomb was subsequently placed in a steel autoclave and heated at 120 °C under autogenous pressure for 72 h and then cooled to ambient temperature. Light yellow colored, block shaped crystals were isolated by decanting the supernatant liquid and were washed thoroughly several times with DMF. (Yield 80%). IR (KBr cm−1); ν(O–H), 3468; νas(OCO), 1609; νs(OCO), 1455. Anal. Calcd. for C14H18MgN2O8: C, 45.82; H, 4.90; N, 7.63. Found: C, 45.21; H, 5.01; N, 7.49%....
+2024-12-29 02:49:09,172 - 
+Paragraph: ERIWAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl formamide', 'DMF', 'N,N-Dimethyl formamide', 'dimethyl formamid', 'N,N-dimethyl formamid', 'MeOH', 'CH3OH', 'H2O', '8O']
+Got: DMF (1.5 mL), CH3
+Original text:   A mixture of H4L (5.0 mg, 11.8 μmol), and CuCl2·2H2O (15.0 mg, 88.0 μmol) was dissolved in a mixed solvent of N,N-dimethyl formamide (DMF, 1.5 mL), CH3OH (0.5 mL) and H2O (0.1 mL). After addition of 100 μL of 6 mol L−1 HCl, the vial was capped and heated at 353 K for 108 h. After cooling to room temperature, blue hexagon-shaped crystals were obtained. Yield: 40% based on the organic ligands. The crystals are insoluble in common organic solvents such as DMF, N,N-dimethyl acetamide (DMA), acetone, THF, dioxane, MeOH, EtOH and chloroform. Based on single-crystal X-ray structural determination, TGA and microanalysis, ZJNU-54 can be best formulated to be [Cu2L(H2O)2]·5DMF·H2O. Selected FTIR (KBr, cm−1): 1655, 1560, 1439, 1371, 1254, 1209, 1103, 775, 729, 661, 652, 486; anal. for C35H50N8O16Cu2, calcd: C, 43.52%, H, 5.22%, N, 11.60%; found: C, 43.45%, H, 5.09%, N, 11.71%. ...
+2024-12-29 02:49:11,792 - 
+Paragraph: EXOTOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'water', 'H2O']
+Got unresolvable: 1:1 (v/v) mixture of meth
+Original text: Synthesis of [Ni(tpt)2/3(bpta)1/4(H2O)2(OH)]⋅solve (1). Ni(NO3)2⋅ 6H2O (58.2 mg, 0.2 mmol) was added to 18 mL 1:1 (v/v) mixture of methanol and water containing tpt (15.5 mg, 0.05 mmol) and H4bpta (16.5 mg,0.05 mmol) under stirring. The green suspension was then sealed in a 25 mL Teflon-lined stainless steel vessel and heated to 140 °C for 2 days. Upon cooling to room temperature, octahedron green crystals were obtained (ca. 40 mg, 50% yield based on Ni). Crystals of 1 were collected, washed with methanol, and dried in air. Anal. found: C, 42.24; H, 4.97; N, 8.66%....
+2024-12-29 02:49:12,821 - 
+Paragraph: TEJBOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', '8O']
+Got unresolvable: Teflon reactor
+Original text: A mixture of AgNO3 (0.102 g, 0.60 mmol), tptz (0.03 g, 0.10 mmol), (NH4)6Mo7O24·4H2O (0.037 g, 0.3 mmol) and water (8 mL) was placed in a Teflon reactor, and the pH value was adjusted to about 5. The mixture was heated at 130 °C for 3 days, and then it was gradually cooled to room temperature. Colorless crystals of 1 were obtained in a 27% yield. Anal. Calcd for C54H42Ag3Mo5N18O19.5 (Mr = 2058.37): C, 31.51; H, 2.06; N, 12.25%. Found: C, 31.46; H, 2.15; N, 12.13%. IR data (KBr, cm− 1): 3406 (w), 3115 (w), 1731 (w), 1619 (m), 1587 (w), 1523 (w), 1463 (m), 1426 (w), 1369 (w), 1278 (w), 1206 (m), 1129 (w), 1060 (w), 942 (s), 908 (s), 846 (s), 792 (m), 753 (s), 708 (s), 671 (s), 660 (s), 554 (w), 522 (w), 407 (w)....
+2024-12-29 02:49:13,153 - 
+Paragraph: UWOWAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'ethanol', 'Thanol', 'Anhydrous ethanol', 'S S']
+Got: N,N\u2032-dimethylformamide
+Original text: A mixture of MnCl2·4H2O (0.2 mmol, 0.0396 g), H2btdc (0.2 mmol, 0.0508 g) in N,N′-dimethylformamide (DMF; 7 mL), and anhydrous ethanol (8 mL) was stirred for 10 min in air to form a solution, the solution was placed in a Teflon-lined stainless steel vessel (40 mL), and then the vessel was sealed and heated at 100 °C for 2 days. After the mixture was slowly cooled to room temperature, the yellow crystals of 1 were collected by filtration and washed with DMF (yield: 60% based on Mn). Elem anal. Calcd for C42H40Mn3N4O16S6: C, 41.5; H, 3.29; N, 4.61. Found: C, 40.0; H, 3.04; N, 3.15. FT-IR spectrum (cm−1): 1544(s), 1514(s), 1433(s), 1386(s), 1130(w), 1044(w), 772(m)....
+2024-12-29 02:49:14,517 - 
+Paragraph: VIZQEC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['CH3OH', 'DMF']
+Got unresolvable: CH3OH DMF
+Original text:   A mixture of CoCl2·6H2O (0.028 g, 0.1 mmol), H2sdba (0.031 g, 0.1 mmol), CH3OH (5 mL) and DMF (5 mL) was placed in a 25 mL Teflon-lined stainless steel container. The mixture was sealed and heated at 160 °C for three days. After the mixture was cooled to ambient temperature at a rate of 5 °C h−1, purple crystals of 1 were obtained with a yield of 63% (based on Co). Anal. calcd for C51H49Co3N3O23S3: C, 45.55%; H, 3.67%; N, 3.12%. Found: C, 46.08%; H, 3.68%; N, 3.20%. IR (KBr, cm−1): 3076 (m), 2220 (vw), 1660 (s), 1514 (w), 1431 (w), 1205 (w), 1173 (m), 1088 (w), 878 (vw), 857 (vw), 721 (m), 667 (w), 488 (vw). ...
+2024-12-29 02:49:14,838 - 
+Paragraph: MAQJEW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: 10 mL aqueous solution
+Original text: Blue columnar crystals of 1 were obtained from a hydrothermal self-assembly of Ni(CH3COO)2·4H2O (10 mg, 0.04 mmol), N2H4·H2O (0.1 mL) and H2C2O4 (3 mg, 0.02 mmol) in a 10 mL aqueous solution (pH = 4, adjusted by H2C2O4) at 170 °C for 3 days. Yield: ca. 15% based on Ni(II). Anal. Calc. C2H6N2O5Ni (1): C 12.21, H 3.07, N 14.24. Found: C 12.63, H 2.81, N 14.45%. IR (cm−1): 3307 s, 3258 m, 1643 s, 1383 w,1341 m, 1204 w, 1170 m, 988 w, 802 m, 674 w, 618 w....
+2024-12-29 02:49:15,854 - 
+Paragraph: DOZCEC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Diethylformamide', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'methanol', 'CH3OH']
+Got: N,N\u2032-diethylformamide (
+Original text: A mixture of MnCl2·4H2O (0.03 g) and Mn(III)Cl-ttzpp (0.011 g) was dissolved in N,N′-diethylformamide (DEF, 2 mL) and methanol (2 mL) in a 20 mL screw-capped vial. After 6 M HCl (8 μL) had been added to the mixture, the vial was capped and placed in an oven at 75 °C for 48 h. After being cooled to room temperature, the oven was cut off, leading to the separation of perfect brownish red crystals suitable for X-ray diffraction by filtration with a yield of 0.013 g, 51% [based on Mn(III)Cl-ttzpp ligand]. It was formulated as {Mn(II)0.5[Mn(II)4Cl(Mn(III)Cl-ttzpp)2(H2O)4]}·(DEF)20·(CH3OH)18·(H2O)12 based on elemental microanalysis, thermogravimetric analysis (TGA), and single-crystal X-ray diffraction (XRD) studies, and the phase purity of the bulk material was independently confirmed by powder XRD (Figure S2, Supporting Information). Anal. Calcd for C214H372Cl3Mn6.5N60O54: C, 50.27; H, 7.33; N, 16.44. Found: C, 50.34; H, 7.30; N, 16.41....
+2024-12-29 02:49:15,855 - 
+Paragraph: UYAMIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', '1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan']
+Got: v/v = 2:1
+Original text: A mixture of Cd(NO3)2·4H2O (0.062 g, 0.2 mmol), H2BDC (0.033 g, 0.2 mmol), MTAZ (0.017 g, 0.4 mmol), and 6 mL DMF/1,4-dioxane (v/v = 2:1) in a 20 mL vial, while stirring at room temperature. After a few minutes, the mixed solution was sealed, heated at 100 °C for 6 days and then slowly cooled to room temperature. Light yellow block-shaped crystals of as-synthesized 1 were collected in 45% yield based on Cd(II). The phase purity of compound was checked by powder X-ray diffraction (Figure S1)....
+2024-12-29 02:49:16,531 - 
+Paragraph: QUQFIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH', 'water', 'H2O']
+Got unresolvable: DMF+MeOH
+Original text: A mixture of H6BHB (6.7 mg, 0.011 mmol) and Zn(NO3)2·6H2O (15.8 mg, 0.053 mmol) was dissolved in DMF (2 mL) and MeOH (1 mL) in a screw-capped vial. After two drops of water were added to the mixture, the vial was capped and placed in an oven at 65 °C for 24 h. The resulting hexagonal prism-shaped single crystals were washed with DMF for several times to produce MOF-2 (7.4 mg, yield: 59.2%). Elemental analysis: Calcd. for Zn3(BHB)(DMF)3(MeOH)1.5·(DMf) (C43.5H46N4O17.5Zn3): C, 47.37; H, 4.17; N, 5.08; Found: C, 47.48; H, 4.60; N, 5.49....
+2024-12-29 02:49:16,866 - 
+Paragraph: QEVKOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['CH3CN']
+Got: acetonitrile
+Original text: {[WS4Cu4(NCS)2(bix)3]·CH3CN}n(2). Method A. A mixture of [Et4N]2[WS4] (0.11 mmol, 62.99 mg), CuNCS (0.33 mmol, 40.14 mg), and bix (0.17 mmol, 40.51 mg) was placed in a glass tube, and 2 mL of CH3CN was added. The tube was sealed after evacuation and heated to 120 °C for 1 day. Upon slow cooling of the solution to room temperature over 2 days, red crystals of 2 were obtained in 25% yield (based on CuNCS). Anal. Calcd for C46H45Cu4N15S6W:  C, 38.38; H, 3.13; N, 14.60. Found:  C, 37.96; H, 3.17; N, 14.78. IR (KBr pellet, cm-1):  2086 vs (CN), 1638 m, 1518 s, 1508 s, 1235 m, 1108 s, 1086 s, 934 w, 828 w, 741 w, 717 w, 657 m, 430 w (W−S). ...
+2024-12-29 02:49:16,866 - 
+Paragraph: QIYBUX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'CH3OH', 'water', '7732-18-5', 'Distilled water', 'Dihydrogen oxide', 'Sterile water', 'Water, deionized', 'oxidane', 'Purified water', 'Water vapor', 'aqua', 'Water, purified', 'Dihydrogen Monoxide', 'Deionized water', 'DHMO', 'Oxygen atom', 'agua', 'steam', 'CCRIS 6115', 'Ultrex ii ultrapure', 'Water for injection', 'Sterile purified water', 'Water for hemodialysis', 'acqua', 'dihydridooxygen', 'Wasser', 'Water, purified sterile', 'Water, sterile purified', 'Water purified', 'Aqua Purificata', 'EINECS 231-791-2', 'H2O', 'Sterile water for inhalation', 'UNII-059QF0KO0R', 'Water for inhalation, sterile', 'NSC 147337', 'NSC-147337', 'Water, HPLC', 'Water, HPLC grade', 'AQUAFINA', '059QF0KO0R', 'CHEBI:15377', 'Water, DEPC-Treated', 'HSDB 8183', 'Deuterium Cdepleted water', 'MFCD00011332', 'Tritiotope', 'DTXSID6026296', 'Water, mineral', 'Water, for HPLC', 'HOH', 'Water; Dihydrogen oxide', 'NSC 147337; R 718', 'B1217', 'R-718', 'Water, sterile', 'Water, distilled', '(OH2)', '[OH2]', '1,3-epoxy-', 'Water, sterile-filtered, BioReagent, suitable for cell culture', 'Pur-wash', 'Sterile water for irrigation', 'MFCD00044636', 'MFCD00064503', 'Water (distilled)', 'eau', 'BOUND WATER', 'Sterile water in plastic container', 'Sterile water for injection', 'Water for injection, sterile', 'Adelheidsquelle', 'Eyewash', 'Ocufresh', 'Wiesbaden', 'Water for irrigation, sterile', 'Water,deionized', 'Water,distilled', 'Water,sanitized', 'Adelheid aqua', 'Aqua adelheid', 'Aqua wiesbaden', 'Water solution', 'Water,purified', 'Water,sterile', 'Wiesbaden aqua', 'Aqua wildbad', 'Dynamic Eyewash', 'Eye Irrigating', 'Water Additive', 'Wildbad aqua', 'Dorama-neo', 'Eyewash additive', 'Neutral-Eyes', 'Real Eyewash', 'Xpect Eyewash', 'BoutonEye Wash', 'Bio rock water', 'Eye Stream', 'Eyewash Solution', 'Rock Water', 'water-', 'AeroWash Eyewash', 'SalinaaxEye Wash', 'Eye Clean', 'DI water', 'Eye Wash', 'hydrogen hydroxide', 'Leader Eye Wash', 'Rugby Eye Wash', 'Boraqua Eye Wash', 'Bacteriostatic water for injection', 'Buffered Eye-lert', 'Eys Eye Wash', 'Firstep Firstflush', 'Sterile water for injection in plastic container', 'Fendall Pure Flow', 'gel relajante CBD', 'Scienceware Eyewash', 'Water for injection, bacteriostatic', 'Aqua pro injectione', 'Pure Water Density Standard, UKAS ISO/IEC17025 and ISO Guide 34 certified, density: 0.9982 g/mL at 20 C, density: 0.9970 g/mL at 25 C', 'Water,bacteriostatic', 'ECOLAB Eye Wash', 'A-Med', 'Water for injections', 'Eyesaline Concentrate', 'Water, ACS reagent', 'Water, HPLC Plus', 'Water, LCMS grade', 'Ionized Alkali Water', 'Plus Rinse Emergency', 'Water, PCR Reagent', 'Bacteriostatic water for injection in plastic container', 'Eyes Alive Eye Wash', 'Sterile water (TN)', 'Water, LC/MS', 'Haws Eyewash Additive', 'Family Care Eye Wash', 'Water, Endotoxin-free', 'Plum Emergency Eyewash', 'Crane Safety Eye Wash', 'Industrial Neutral-eyes', 'Physicianscare Eye Wash', 'WATER/EAU/AQUA', 'an unknown oxygen source', 'Quality Choice Eye Wash', 'WATER [VANDF]', 'Water, purified (USP)', 'H-OH', 'ddWater (endotoxin-free)', 'Eyewash Flushing Solution', 'Purified water (JP18)', 'Sperian Eyesaline Eyewash', 'Water (JP18/USP)', 'Water, for TOC analysis', 'OpticlearSterile Eye Wash', 'WATER [JAN]', 'WATER [WHO-DD]', 'Prinzing Eye Wash Station', 'WATER [MI]', 'Eyesaline Emergency Eyewash', 'Kollourion Eyesalve Eyewash', 'Plum Duo Emergency Eyewash', 'Distilled water, for HPLC', 'InChI=1/H2O/h1H2', 'Water, deionized (<2uS)', 'Water, RNase, DNase-free', 'Dynamic Eyewash with Eyecup', 'Pure Water Density Standard', 'Sterile water for injections', 'Thesafetydirector Aquapreserv', 'Water for irrigation,sterile', 'Water, HPLC gradient grade', 'Easy Care First Aid Eyewash', 'Plus Rinse Emergency Eyewash', 'Water, deionized (<10uS)', 'Water, demineralized, p.A.', 'very long chain fatty alcohol', 'very long-chain fatty alcohol', 'Water,bacteriostatic injection', 'Advanced Eye Relief Eye Wash', 'Fad First Aid Direct Eyewash', 'Water for injection (JP18)', 'Water, distilled, conductivity or of similar purity', 'Water, for ion chromatography', 'Water,Reagent(Deionizedwater)', 'B1217 [LANGUAL]', 'HYDROGEN OXIDE (H2O)', 'Density Standard 998 kg/m3', 'very long chain fatty alcohols', 'very long-chain fatty alcohols', 'Aqua sterilisata pro injectione', 'Water, ultrapure, HPLC Grade', 'DTXCID106296', 'Medi-first First Aid Eye Wash', 'Water, BioPerformance Certified', 'Aerowash Eyewash and Skin-rinse', 'PURIFIED WATER [MART.]', 'CHEMBL1098659', 'SalinaaxEye Wash and Skin Flush', 'Water, Molecular Biology Reagent', 'XLYOFNOQVPJJNP-UHFFFAOYSA-', 'diethylpyrocarbonate-treated Water', 'DTXSID00170378', 'Xpect First Aid Buffered Eyewash', 'CHEBI:197504', 'QVGXLLKOCUKJST-UHFFFAOYSA-N', 'TUJKJAMUKRIRHC-UHFFFAOYSA-N', 'Water, Reagent (Deionized water)', 'DTXSID901318744', 'Sperian Eyesaline Emergency Eyewash', 'Crackle Test Reference Standard: 0 wt% H2O in 10W30 Motor Oil', 'Medi-first Plus First Aid Eye Wash', 'Water, tested according to Ph.Eur.', 'Crackle Test Reference Standard: 0.1 wt% H2O in 10W30 Motor Oil', 'Crackle Test Reference Standard: 0.5 wt% H2O in 10W30 Motor Oil', 'Crackle Test Reference Standard: 1.0 wt% H2O in 10W30 Motor Oil', 'NSC147337', 'Well and Good Eye Rinse and Cleaner', 'Purified water in containers (JP18)', 'AKOS015950726', 'E-Toxate(TM) Water, endotoxin, free', 'Plum Emergency Eyewash Ph Neutralizing', 'Water with 0.1% trifluoroacetic acid', 'DB09145', 'Xpect First Aid Buffered Eye and Skin', 'Water, for UHPLC, for mass spectrometry', 'Distilled water, Laboratory reagent grade', 'Physicianscare Ophthalmic Solution Eyewash', 'Q283', 'SY001268', 'SY072812', 'T-27', 'A-med Brand First Aid Eye and Skin-rinse', 'Emergency Eye Wash, PW, SterileSter-Aide', 'Plum Duo Emergency Eyewash Ph Neutralizing', 'Water for injection in containers (JP18)', 'Water, ultrapure, Spectrophotometric Grade', 'Fad First Aid Direct Buffered Eye and Skin', 'NS00076359', 'Sterile purified water in containers (JP18)', 'Water, ACS reagent, for ultratrace analysis', 'Water, packaged for use in deposition systems', 'C00001', 'D00001', 'Water, deuterium-depleted, 99.99995 atom %', 'Q274959', 'Q427071', 'Water, deuterium-depleted, <=1 ppm (Deuterium oxide)', 'Water, for HPCE, for luminescence, for UV-spectroscopy', 'Density Standard 998 kg/m3, H&D Fitzgerald Ltd. Quality', 'Plum Emergency Eyewash/Eyewash DUO/Eyewash Shower ISS USA', 'Water, for molecular biology, DEPC-treated and sterile filtered', 'PhysiciansCare Ophthalmic Solution EyewashPurified Water, 98.3%', 'Water, 99.999%, contained in 50 ml Swagelok? cylinder for CVD/ALD', 'Water, deionized 18 megaohm ASTM Type I, suitable for trace metal analysis', 'Water, for cell biology, free of endotoxins, ultrafiltered and autoclaved', 'Plum pH Neutral Emergency Eyewash/Emergency Eyewash DUO/Emergency Eyewash Shower ISS USA', 'Water, for embryo transfer, sterile-filtered, BioXtra, suitable for mouse embryo', '8O', 'H20', 'OH2']
+Got unresolvable: aqueous
+Original text: A methanol solution (2 mL) of L2 (27 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)2](PF6)⋅CH3OH formed at the interface in 4 days in a 59% yield based on the silver(I) salt. m.p. 171 °C (dec.). Anal. Calcd. for C27H36N4OPF6Si2Ag: C, 43.73; H, 4.89; N, 7.55%. Found: C, 43.50; H, 4.85; N, 7.50%. IR (KBr pellet, cm−1): 1589(s), 1405(m), 1124(m), 844(s, PF...
+2024-12-29 02:49:18,209 - 
+Paragraph: QIYCEI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'CH3OH', '8O']
+Got unresolvable: aqueous solution of AgPF6
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L2 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L2)]2(PF6)2⋅CH3OH formed at the interface in 3 days in a 54% yield (2.3 mg) based on the silver(I) salt. m.p. 175 °C (dec.). Anal. Calcd. for C55H71N8OP2F12Si4Ag2: C, 44.69; H, 4.84; N, 7.58%. Found: C, 44.80; H, 4.60; N, 7.40%. IR (KBr pellet, cm−1): 1587(m), 1405(m), 1122(s), 1008(w), 844(s, PF...
+2024-12-29 02:49:18,873 - 
+Paragraph: EKEMEO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'ethanol', 'EtOH', 'Thanol', 'water', 'H2O']
+Got: N,N-dimethylformamide (DMF
+Original text: A mixture of H8L (5.0 mg, 5.65 μmol) and CuCl2·2H2O (5.0 mg, 29.32 μmol) was placed in a 20 mL scintillation vial, and a mixed solvent of N,N-dimethylformamide (DMF; 1.5 mL), ethanol (EtOH, 0.5 mL), and water (H2O; 0.1 mL) was added. After the addition of 6 M HCl (100 μL), the vial was capped and heated to 363 K for 5 days and then allowed to cool to room temperature. The small block-shaped crystals formed were filtered off and air-dried. The formula of ZJNU-80 can be best determined to be [Cu4L(H2O)4]·6DMF·2EtOH·H2O on the basis of single-crystal X-ray crystallography, TGA, and microanalysis. Elem anal. Calcd for C69H88N6O31Cu4: C, 47.31; H, 5.06; N, 4.80. Found: C, 47.22; H, 4.89; N, 4.92. Selected FTIR (KBr, cm–1): 1664, 1655, 1589, 1450, 1413, 1371, 1309, 1254, 1097, 777, 729, 663, 496....
+2024-12-29 02:49:19,511 - 
+Paragraph: BUXZAX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIETHYLFORMAMIDE', 'Diethylformamide', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def']
+Got: N,N-diethylformamide (DEF)
+Original text: For detailed experimental procedures including syntheses and characterization data, see the Supporting Information. Briefly, commercial HfOCl2·8H2O (123 mg, 0.3 mmol), benzoic acid (2.7 g, 22.1 mmol), and N,N-diethylformamide (DEF, 8 mL) were added to a 20 mL screw-necked glass vial, and the mixture was sonicated to create a fine dispersion. Commercially available meso-tetra(4-carboxyphenyl)porphyrin-Fe(III) chloride (FeTCP-Cl, 53 mg, 0.06 mmol) was added to give a dark-purple suspension. The mixture was placed in a 120 °C oven for 48 h. The reaction vial was removed from the oven and allowed to cool to room temperature. The supernatant was gently decanted, and then fresh N,N-dimethylformamide (DMF, 20 mL) was added to the vial and shaken. The suspension was transferred to a 50 mL centrifuge vial. The dark (orange under microscope) crystals were isolated by centrifugation, washed five times with fresh DMF (45 mL through repeated centrifugation), and then soaked in fresh DMF (45 mL) for 12 h at 50 °C to wash any unreacted species from the resulting MOF crystals. Then, the dark crystals were isolated by centrifugation, resuspended in acetone (45 mL), and washed five times with fresh acetone (45 mL). Finally, the crystals were soaked in acetone (45 mL) for 12 h for a final rinse. The solid was activated at room temperature under vacuum followed by 120 °C under vacuum for 12 h to yield needlelike crystals with hexagonal faces of Hf-2 (55 mg, 49% yield)....
+2024-12-29 02:49:23,858 - 
+Paragraph: YOYYUI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['N,N-DIMETHYLACETAMIDE', 'Dimethylacetamide', 'Dimethylacetamid', 'n-dimethylacetamide', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'water', 'H2O']
+Got: N,N-dimethylacetamide (DMA)
+Original text: The mixture of Zn(NO3)2·6H2O (1.0 mmol, 0.301 g), H-2-mbim (1.25 mmol, 0.163 g), H3btc (0.89 mmol, 0.184 g), N(CH3)4·Br (0.42 mmol, 0.065 g) in 6 mL of N,N-dimethylacetamide (DMA) and 2 mL of water was sealed in a 20 mL vial and heated to 120 °C for 2 days, and then cooled to room temperature. The light yellow crystals were obtained, washed with ethanol, and dried at room temperature (Yield: 28%). IR (KBr cm–1): νs (OH): 3400 cm–1; νs (C═C): 1620 cm–1; νs (C═C): 1570 cm–1; τ(C–H): 710 cm–1; τ(C–H): 760 cm–1; τ(CH3): 710 cm–1; ω(CH3):1370 cm–1. Elemental analysis (activated) C40H24N4O18Zn6 (1240.96): Calcd C, 38.72; H, 1.95; N, 4.39; Found C, 34.95; H, 3.21; N, 4.43....
+2024-12-29 02:49:24,857 - 
+Paragraph: ETEMEX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethanol', 'Thanol', 'H2O', 'DMF']
+Got unresolvable: 7.5 mL v/v = 1:
+Original text:   A mixture of H2nip (0.1 mmol), Co(NO3)2·6H2O (0.1 mmol) in 7.5 mL v/v = 1:1 ethanol/H2O solution and btrb (0.05 mmol) in 0.5 mL DMF was adjusted to pH = 7 with dilute NaOH solution. The mixture was added to a 25 mL Teflon-lined stainless autoclave and sealed and then heated at 130 °C for 4 days and then cooled to room temperature to give the dark red block crystals of 2·4H2O (yield: 0.068 g). Anal. calc. for C36H37Co4N9O27 (2·4H2O): C, 34.22; H, 2.95; N, 9.98%; found: C, 34.13; H, 3.03; N, 10.05%. IR (cm−1): 3376(w), 1624(m), 1560(m), 1533(m), 1458(w), 1432(w), 1374(m), 1350(m), 1194(w), 1103(w), 1078(w), 924(w), 886(w), 866(w), 788(w), 768(w), 733(m), 723(s), 687(w), 634(w). ...
+2024-12-29 02:49:25,189 - 
+Paragraph: RIPWEU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: sodium acetate buffer
+Original text: A mixture of K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O (0.300 g, 0.037 mmol), Sm(NO3)3⋅6 H2O (0.070 g, 0.16 mmol), CuCl2⋅5 H2O (0.200 g, 0.88 mmol), and iminodiacetic acid (0.077 g, 0.58 mmol) in sodium acetate buffer (8 mL, 0.5 M, pH 3.6) was stirred for 10 min. The resulting mixture was sealed in a 35 mL stainless‐steel reactor with a Teflon liner and heated at 120 °C for 5 d, then cooled to room temperature. Blue block crystals of 2 were obtained. The glycine ligand and oxalate ligand in the product were from the decomposition of iminodiacetic acid. Yield: 35 % based on K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O. IR (solid KBr pellets): =3412 (w), 1577 (s), 1466 (w), 1162 (s), 1082 (w), 935 (s), 915 (s), 781 (s), 741 cm−1 (s); elemental analyses calcd (%) for 2: C 0.76, H 1.12, N 0.29, Na 0.24, K 1.64, Cu 1.33, Sm 6.31, P 1.63, W 57.89; found: C 1.08, H 1.14, N 0.51, Na 0.10, K 1.23, Cu 1.04, Sm 6.00, P 1.31, W 57.36. ...
+2024-12-29 02:49:28,255 - 
+Paragraph: BINROH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Diethylformamide', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'def', 'H2O', 'H20']
+Got: N,N\u2019-diethylformamide (
+Original text: A mixture of H3BTN (8.3 mg, 14.2 μmol) and Cu(NO3)2·2.5H2O (14.5 mg, 62.3 μmol, Aldrich) was dissolved in a mixed solvent of N,N′-diethylformamide (DEF; 1.0 mL) and H2O (0.1 mL) in a disposable scintillation vial (20 mL). Upon the addition of 10 μL of 6 M HCl, the vial was capped and heated at 90 °C for 24 h. The polyhedral crystals were collected in 71% yield. UTSA-28-Cu was best formulated as [Cu3(BTN)2(H2O)3]·14DEF. Selected FTIR (neat, cm–1): 1653, 1616, 1614, 1482, 1439, 1400, 1398, 1379, 1363, 1309, 1263, 1261, 1216, 1214, 1109, 1107, 944, 922, 879, 822, 781, 764, 754, 705. TGA data. Calcd weight loss for 14DEF and 3H2O: 51.9. Found: 52.4. Anal. Calcd for C148H202N14O29Cu3: C, 62.77; H, 7.19; N, 6.92. Found: C, 63.01; H, 7.23; N, 6.77....
+2024-12-29 02:49:28,898 - 
+Paragraph: OBIBEJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'H2O']
+Got: DMF
+Original text:   H3TCMTB (0.085 g, 0.15 mmol), CaCl2 (0.034 g, 0.30 mmol), N,N′-dimethylformamide (7.5 g) and H2O (1.5 g) were mixed and the mixture was stirred for half an hour. The resulting homogeneous mixture was then transferred to a 25 mL Teflon-lined stainless steel autoclave and heated at 120 °C for 5 days. Needle-like colourless crystals were obtained upon cooling the mixture to room temperature as described above. Yield: 0.14 g, 82% based on H3TCMTB used. Mp: >250 °C. Anal. calcd for C72H79Ca4ClN2O26: C, 54.59; H, 5.03; N, 1.77. Found: C, 56.14; H, 4.33; N, 3.40. FT-IR: 3391, 2933, 1621, 1415, 1235, 1176, 987, 788 cm−1. ...
+2024-12-29 02:49:31,957 - 
+Paragraph: FIHFAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'water', 'H2O']
+Got: DMF water
+Original text:   A mixture of Co(NO3)2·6H2O (1.0 mmol, 0.293 g), H3btc (1 mmol, 0.210 g) and Hatz (1 mmol, 0.084 g) in DMF (8 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heated at 150 °C for 60 h, and then cooled to 100 °C at a rate of 5 °C min−1. It was kept constant at 100 °C for 8 hours, it was then cooled to room temperature at a rate of 5 °C min−1. The resulting deep purple block crystals of 1 were isolated by washing with DMF–H2O, and dried in air (yield: 83%, based on H3btc). Anal. Calcd for C24H33N15O9Co2.5: C, 35.03; H, 4.04; N, 25.53. Found: C, 34.85; H, 4.21; N, 25.62. ...
+2024-12-29 02:49:32,965 - 
+Paragraph: PENYOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: 10.00 g
+Original text: Synthesis of [H3O][V3F2(H2O)2{O3P(CH2)2PO3}2]·3.5H2O (5·3.5H2O). A mixture of VOSO4 (0.224 g, 1.37 mmol), 1,2-ethylenediphosphonic acid (0.174 g, 0.916 mmol), diethylene triamine (0.100 g, 0.969 mmol), H2O (10.00 g, 556 mmol), and HF (0.350 mL, 10.14 mmol) with the mole ratio of 1.50:1.00:607:1.06:11.1. The mixture was stirred briefly before heating to 100 °C for 48 h with an initial and final pH of 1.5 and 1.5, respectively. Black crystals of 5·3.5H2O suitable for X-ray diffraction were isolated in 75% yield. IR (KBr pellet, cm-1):  3400(b), 1637(m), 1509(m), 1459(w), 1420(w), 1196(m), 990(s), 750(m), 511(m). Anal. Calcd for C2H9FO9.25P2V1.5 (Found):  F, 5.61 (4.33). ...
+2024-12-29 02:49:36,340 - 
+Paragraph: QUNWAZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CHLOROBENZENE', 'Chlorobenzen']
+Got unresolvable: DMF (5 mL) and chlorobenz
+Original text:   A solution of 22H (0.0487 g, 0.0678 mmol), 4,4′-bipyridine (0.0135 g, 0.086 mmol), and Zn(NO3)2·6H2O (0.0679 g, 0.228 mmol) in DMF (5 mL) and chlorobenzene (5 mL) was prepared and transferred to a 23 mL Teflon-lined autoclave by filtering the solution through a puck of celite. The reaction vessel was sealed and heated to 110 °C for 72 hours. Programmed cooling (0.1 °C min−1 from 110 °C to 25 °C) afforded a clear, yellow solution containing a crystalline yellow solid, which was which was collected by vacuum filtration, washed with DMF and dried to give PMOF-3. Yield: 0.034 g (58%) ...
+2024-12-29 02:49:37,707 - 
+Paragraph: MITGIF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: 16.0 mL
+Original text: Preparation of the Complexes. [{Yb(bbtec)1/4(dbtec)3/6(H2O)2}4· 6H2O]n (1). A mixture of YbCl3·6H2O (0.048 g, 0.125 mmol), 1,2,4,5-benzenetetracarboxylic dianhydride (0.05 g, 0.25 mmol), and H2O (16.0 mL) with a mole ratio of 1:2:7100 was heated in a stainless steel reactor with Teflon liner at 170 °C for 36 h. After cooling, colorless plate crystals of 1 were obtained. Yield:  63%. Anal. Calcd for C30H34O38Yb4:  C, 21.25; H, 2.02. Found:  C, 20.75; H, 2.07. IR (KBr pellet, cm-1):  3649 (m), 3388 (vs), 1618 (vs), 1527 (vs), 1410 (vs), 1336 (s), 1146 (m), 850 (s), 519 (s). ...
+2024-12-29 02:49:40,011 - 
+Paragraph: TAGTIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'DMPU']
+Got: DMA + DMPU
+Original text: In a 20 mL glass vial, 102.6 mg of Mg(NO3)2·6H2O and 31.2 mg of H2FDC were dissolved in a mixture of 4.0 g of DMA and 2.0 g of DMPU. After addition of 28 μL of HFP, the vial was sealed and placed in a 100 °C oven for 5 days. Pure block colorless crystals were obtained after cooling to room temperature. The yield was about 80% based on Mg. Pure sample was obtained by filtering and washing the raw product with DMA....
+2024-12-29 02:49:41,351 - 
+Paragraph: SOJTOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'ethanol', 'Thanol', 'Care', 'S S']
+Got unresolvable: H2O-EtOH
+Original text: [{(H2O)2Zn(μ-TMBTA)Zn·K}·2H2O]∝TMBTA-Zn(II) was synthesized under solvothermal condition from a water–ethanol solution of a mixture of potassium salt of TMBTA (60 mg, 0.1468 mmol), ZnCl2 (57 mg, 0.42 mmol). The mixture was taken carefully in a 25 mL Teflon-coated autoclaved bomb, heated at 120 °C for 48 h, and allowed to cool slowly. After cooling, good-looking plate-shaped colorless crystals were obtained. The crystals were washed with ethanol–water and carefully characterized by SXRD, elemental analysis, PXRD, and FT-IR. Yield: ∼49% (50 mg, 0.1468 mmol). Elemental analysis calcd for C15H23KO10Zn (%): C, 38.51; H, 4.96. Found: C, 38.04; H, 4.88. FT-IR (KBr, cm–1): 3396, 3240, 1604, 1556s, 1384s, 2978brs, 1271s 1228m, 1188m, 1022m, 904m, 831m, 812m, 744m, 692s, 615m, 542m cm–1....
+2024-12-29 02:49:42,674 - 
+Paragraph: TOFLAD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl acetamide', 'water', 'Deionized water', 'H2O', '8O']
+Got: N,N-dimethyl acetamide : deion
+Original text: {[Cd2(L1)2(btc)(Ac)]·8H2O}n (3): A mixture of Cd(NO3)2·4H2O (0.09 g, 0.3 mmol), L1 (0.04 g, 0.1 mmol), and H3btc (0.042 g, 0.2 mmol) in 8 mL component solvent (N,N‐dimethyl acetamide : deionized water = 3:5) was sealed in a Teflon‐lined autoclave and heated to 150 °C for 4 d. After the autoclave was cooled to room temperature at 10 °C·h–1, pale yellow block crystals were collected by filtration, washed with 3 × 10 mL of methanol, and air‐dried. Yield 13 % based on L1. C51H50N8O16Cd2: calcd. C 48.78; H 4.01; N 8.92 %; found: C 48.86; H 3.92; N 9.07 %. IR (KBr):  = 3414 w, 1628 s, 1613 m, 1509 s, 1348 s, 1316 s, 1302 s, 1153 s, 1121 m, 1157 s, 1127 m, 1098 s, 10618 m, 1013 m, 861 m, 733 s, 604 s, 564 m cm–1. ...
+2024-12-29 02:49:44,038 - 
+Paragraph: RUVBOB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'MeOH']
+Got unresolvable: DMF (4 mL) and MeOH (
+Original text:   A mixture of Cd(NO3)2·4H2O (31 mg, 0.1 mmol), 4-Htba (19 mg, 0.1 mmol), 4,4′-bipyridine (16 mg, 0.1 mmol), DMF (4 mL) and MeOH (1 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heated at 120 °C for 3 days and then cooled to room temperature at a rate of 5 °C h−1. Colorless, block crystals were collected by filtration, washed with EtOH and dried in air to afford 8 mg (32% based on 4-Htba) of the product. Anal. calcd. for C18H12CdN6O4: C, 44.23; H, 2.47; N, 17.20. Found: C, 44.20; H, 2.51; N, 17.22. IR (cm−1, KBr): 3384(br, m), 3105(m), 1607(s), 1541(s), 1408(s), 1313(m), 1248(m), 1092(m), 1034(w), 856(m), 784(m), 696(w), 625(w), 510(m). ...
+2024-12-29 02:49:45,360 - 
+Paragraph: XIFLUV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethanol', 'Thanol', 'H C', 'water', 'Deionized water', 'H2O']
+Got: ethanol-water
+Original text:   A mixture of Cd(NO3)2·4H2O (0.1542 g, 0.5 mmol), H3EIMDC (0.0921 g, 0.5 mmol), ethanol (3 mL) and deionized water (3 mL) was adjusted to pH ca. 4 with 1 M sodium hydroxide and transferred into a 25 mL Teflon-lined reactor then sealed. This mixture was then heated to 180 °C for 5 days under autogenous pressure. After the mixture was cooled to room temperature at a rate of 4 °C h−1, colorless block crystals were collected in 53.6% yield. Anal. calcd for C7H9N2O6Cd (%): C, 25.49; H, 2.73; N, 8.50. Found (%): C, 25.34; H, 2.58; N, 8.42. IR data (solid KBr pellet cm−1): 3411(br), 2982(w), 1571(m), 1469(vs), 1387(m), 1354(m), 1283(w), 1119(m), 859(w), 810(w), 780(w), 654(w), 542(w), 488(w). ...
+2024-12-29 02:49:45,678 - 
+Paragraph: KETHEY02_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: 3 mL
+Original text:   A mixture of Cd(NO3)2·6H2O (30.8 mg, 0.10 mmol), H2L(24.3 mg, 0.10 mmol), 5-amino-benzene-1,2,3-tricarboxylic acid (22.5 mg, 0.10 mmol), and DMF (3 mL) was sealed in a parr Teflon-lined stainless steel vessel (25 cm3) and heated at 120 °C for 2 days. After slowly cooling to room temperature, light brown crystals of 1 were isolated (yield: 75% based on Cd). Anal. Calcd for C16H14CdN2O5: C, 45.04; H, 3.31; N, 6.57%; found: C, 45.08; H, 3.39; N, 6.51%. IR spectrum (cm−1): 3411m, 1658s, 1613s, 1566s, 1504w, 1443s, 1416s, 1368s, 1294w, 1102w, 1072w, 840w, 779m, 731s, 644m, 511w. ...
+2024-12-29 02:49:47,662 - 
+Paragraph: JELPAS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'H2O']
+Got unresolvable: millipore water
+Original text: III(HAsO4)6(AsO4)2(C2O4)3], I, was synthesized under hydrothermal conditions using iron (II) oxalate dihydrate as the source of iron. In a typical synthesis, 0.297 g of iron (II) oxalate dihydrate was dissolved in 4 mL of millipore water. Then, 1.249 g of H3AsO4 was added to the mixture. Finally 0.28 mL of 1,2-diaminopropane (1,2-DAP) (99%) was added and the mixture was homogenized for 30 min at room temperature. The final mixture with the composition, 1.5FeC2O4⋅2H2O : 8H3AsO4 : 3(1,2-DAP) : 200H2O, was transferred to a 23 mL acid-digestion bomb and heated at 150 °C for 3 days. The initial and final pH of the reaction mixture was ∼2 and there was no appreciable change in the pH during the reaction. The resulting colorless needle-like crystals were filtered and washed with distilled water and dried at ambient conditions. The yield of the product was ∼80% based on iron (II) oxalate. An EDAX analysis on many single crystals indicated an As : Fe ratio of 4 : 3, agreeing with the single crystal structure. C, H, N analysis, obsd. (calcd.): C = 10.10 (9.26), H = 2.78 (2.2), N = 4.35 (4.32)....
+2024-12-29 02:49:48,959 - 
+Paragraph: BEXVEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'water', 'H2O']
+Got: DMA-water (1:1)
+Original text:   A mixture of Cu(NO3)2·2½H2O (11.6 mg, 0.05 mmol) and H4L (7.2 mg, 0.02 mmol) was dissolved in 8 ml of DMA–water (1:1). Then, 0.5 ml of 12(N) HNO3 was added. The mixture was heated for 48 h in a bath-reactor at 80 °C and after cooling to room temperature, green crystals were obtained, separated by filtration, washed with water and DMA and then dried in air. The yield was 52% based on the metal salt. FT-IR (KBr, cm−1): 3369 (br, γO–H), 2988 (mb, γC–H), 1587 (s, γCO asymmetric), 1454 (s, γCC), 1366 (m, γCO symmetric), 1261 (s, γC–O), 1019 (w), 776 (s), 731 (w), 593 (m), 475 (w). ...
+2024-12-29 02:49:50,592 - 
+Paragraph: VOXQOQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'CH3CH2OH', 'S S']
+Got unresolvable: H2ntd, Hmtz
+Original text: A mixture of Zn(NO3)2⋅6H2O (0.2 mmol, 0.03 g), H2ntd (0.1 mmol, 0.022 g), Hmtz (0.1 mmol, 0.008), DMF (3 mL) and CH3CH2OH (2 mL) was sealed in a small vial, which was kept at 100 °C for 80 h and then cooled to the room temperature slowly. Colorless block crystals yield in 42%. Anal. Calcd. (%) for 1 C28H36N18O6Zn3: C, 36.64; N, 27.48; H, 3.93%. Found: C, 36.61; N, 27.43; H, 3.96%. IR (KBr, cm−1): 3237 (m), 2913 (w), 2842 (w), 1601 (vs), 1563 (m), 1504 (m), 1406 (s), 1244 (vs), 1170 (s), 1102 (m), 1032 (m), 843 (m), 762 (m), 731 (m)....
+2024-12-29 02:49:50,904 - 
+Paragraph: JUTCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'EtOH', 'H2O']
+Got: DMA-EtOH-H2O
+Original text: H2dnpdc (0.075 mmol, 0.025 g) and Cu(NO3)2 (0.1 mmol, 0.024 g) were dissolved in DMA (N,N′-dimethylacetamide)–EtOH–H2O (5 mL, v/v/v = 3/1/1) mixture with 0.2 mL ethyl glycol (EG) under stirring for 40 min at room temperature. The resulting mixture was then sealed in a capped vial and heated at 85 °C for 24 hours. After cooling to room temperature slowly, blue prism-shaped crystals of 1 were collected (yield: 76%). Elemental analysis calc. for (C30H48N6O15Cu, M = 796.29): C, 45.25; H, 6.08; N, 10.55. Found: C, 45.09; H, 6.01; N, 10.12%. IR (KBr, cm−1): 3431br, 3092w, 2939w, 1693s, 1614s, 1529s, 1483m, 1406s, 1353vs, 1326m, 1300m, 1268m, 1147w, 1080m, 928m, 901w, 828w, 785m, 723m....
+2024-12-29 02:49:51,554 - 
+Paragraph: MALWUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O']
+Got unresolvable: H4BTC (0.127 g,
+Original text:   A mixture of CdCO3 (0.217 g, 0.75 mmol), H4BTC (0.127 g, 0.5 mmol), Bpy (0.078 g, 0.5 mmol), and H2O (10 mL) was added into a 23 mL Teflon-lined autoclave and stirred for 2 h. The vessel was then sealed and heated at 180 °C for 7 d before cooling to room temperature naturally. Pale yellow prismatic crystals of 1 were obtained by filtering the solution, washed by water for several times and dried in air. The calculated content of water per molecule is ∼3.5%, closing the found weight loss of 3.8% from the TGA (Fig. S5, ESI). Yield: 41% (based on the H4BTC). Anal. calcd (%) for C30H18Cd3N2O18: C, 34.93; H, 1.76; N, 2.72. Found: C, 35.27; H, 1.76; N, 2.71. ...
+2024-12-29 02:49:52,572 - 
+Paragraph: TORXIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'water', 'H2O', 'Water solution']
+Got: methanol-water
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adjusted to ca. 6 using an aqueous NaOH solution (0.25 M). The resulting mixture was then transferred into a Parr Teflon-lined stainless steel vessel (23.0 mL) and heated to 130 °C for 72 h under autogenous pressure. After the mixture was cooled to room temperature at a rate of 2.3 °C h−1, blue block-shaped crystals suitable for X-ray analysis were obtained directly, washed with methanol, and dried in air (Yield: 40% based on Htz). Anal. Calcd for C5.40H9.60Cl2Cu3N16O1.40: C 11.13, H 1.66, N 38.47%. Found: C 10.06, H 1.68, N 38.25%. IR (KBr, cm−1): 3405(br), 3098(w), 1451(m), 1331(m), 1267(m), 1122(s), 1030(s), 926(m), 694(w). ...
+2024-12-29 02:49:56,504 - 
+Paragraph: RESWOC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'C2H5OH', 'H2O']
+Got: DMF (3 mL), C2H5
+Original text: Preparation of Er2(BDC)3(DMF)2(H2O)2·H2O (1). A mixture of Er(NO3)3·5H2O (0.0512 g, 0.115 mmol) and H2BDC (0.0290 g, 0.175 mmol) in a solution containing DMF (3 mL), C2H5OH (3 mL), and H2O (2 mL) in a sealed vial (20 mL) was heated at 80 °C for 24 h. Light-purple crystals of 1 were filtered, dried in air, and collected in ca. 65% yield [on the basis of Er(NO3)3·5H2O]. Anal. Calcd for 1, C30H32Er2N2O17:  C, 35.08; H, 3.14; N, 2.73. Found:  C, 34.90; H, 2.75; N, 2.48. Er2(BDC)3 (1a) was formed by heating compound 1 under vacuum at 140 °C overnight. Anal. Calcd for 1a, C24H12Er2O12:  C, 34.86; H, 1.46. Found:  C, 34.72; H, 1.81. ...
+2024-12-29 02:49:57,511 - 
+Paragraph: XUBGUY_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF']
+Got unresolvable: DMF+formic acid
+Original text:   TCPS (6.40 mg, 0.0125 mmol), and ZrOCl2·8H2O (16.10 mg, 0.0500 mmol) were ultrasonically dissolved in a solvent mixture of DMF (2 mL) and formic (1.2 mL) acid. The mixture was then heated at 130 °C for 2 days. After cooling to room temperature, colorless distorted-octahedron-shaped crystals were collected by filtration, and washed with DMF and dried in a 40 °C oven for 10 h (yield: 11 mg, 58% based on H4TCPS). The products are denoted as “as-synthesized”. Its purity was checked by PXRD. FTIR (KBr, ν/cm−−1): 3410 (m), 1668 (s), 1603 (m), 1534 (m), 1414 (m), 1104 (w), 775 (m), 726 (m), 653 (m), 472 (m). The sample was activated at 200 °C for 12 h before elemental analysis. Elemental analysis of Zr6O4OH4(COO)8(OH)4(H2O)4, calcd (%): C 35.21, H 2.51; Found (%): C 35.24, H 2.66. ...
+2024-12-29 02:49:58,187 - 
+Paragraph: NORJEL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'DMF']
+Got unresolvable: DMF+H2O
+Original text: A mixture of Cd(NO3)2⋅4H2O (0.062 g, 0.20 mmol), H2PAM (0.039 g, 0.10 mmol), dpe (0.036 g, 0.20 mmol), H2O (10 mL), and DMF (2 mL) was sealed in a 25 mL Teflon‐lined stainless steel autoclave and heated at 120 °C for 72 h. After cooling to RT, yellow crystals were obtained in a yield of 49 % based on Cd. IR (KBr): =3387 (w), 1643 (m), 1608 (m), 1558 (vs), 1499 (w), 1452 (m), 1390 (m), 1354 (m), 1201 (w), 1011 (w), 822 (s), 751 (w), 543 (w) cm−1; elemental analysis calcd (%) for C76H57N5O14Cd2 (1489.09): C 61.30, H 3.86, N 4.70; found: C 61.54, H 3.90, N 4.62. ...
+2024-12-29 02:49:58,503 - 
+Paragraph: OBIBAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylacetamide', 'Dimethylacetamid', 'water', 'H2O']
+Got: N,N\u2032-dimethylacetamide
+Original text:   H3TCMTB (0.17 g, 0.30 mmol), Mg(NO3)2·6H2O (0.15 g, 0.60 mmol), N,N′-dimethylacetamide (7.5 g) and water (1.5 g) were mixed and homogenised for half an hour. The homogenous mixture was then transferred to a 25 mL Teflon-lined stainless steel autoclave and heated at 120 °C for 5 days. Needle-like colourless crystals were obtained upon cooling the reaction mixture to room temperature (cooling rate: 2 °C h−1). Yield: 0.08 g, 35% based on H3TCMTB. Mp: >250 °C. Anal. calcd for C78H84Mg4N2O27: C, 59.34; H, 5.34; N, 1.74. Found: C, 59.42; H, 5.70; N, 1.04. FT-IR: 3425, 2962, 2922, 1604, 1547, 1417, 1240 cm−1. ...
+2024-12-29 02:49:59,190 - 
+Paragraph: ETEMIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O', 'DMF']
+Got unresolvable: 7.5 mL H2O
+Original text:   A mixture of H3btc (0.02 mmol), Co(NO3)2·6H2O (0.04 mmol) in 7.5 mL H2O and btrb (0.02 mmol) in 0.2 mL DMF was adjusted to pH = 7 with dilute NaOH solution. The mixture was added to a 25 mL Teflon-lined stainless autoclave and sealed and then heated at 110 °C for 3 days and then cooled to room temperature to give the violet red crystals of 3·9H2O (yield: 0.012 g). Anal. calc. for C30H42Co4N6O25 (3·9H2O): C, 32.10; H, 3.77; N, 7.49%; found: C, 31.97; H, 3.84; N, 7.41%. IR (cm−1): 3376(w), 1615(m), 1576(m), 1541(m), 1436(m), 1372(s), 1193(w), 1111.30(w), 1079(w), 1029(w), 1000(w), 936(w), 893(w), 866(w), 820(w), 770(m), 718(s), 636(m). ...
+2024-12-29 02:49:59,190 - 
+Paragraph: VIPXUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got: water
+Original text:   A mixture of Co(NO3)2·3H2O (0.1 mmol), TPB (0.05 mmol), H4PMA(0.1 mmol), NaOH (0.4 mmol) and H2O (6 mL) was heated at 120 °C for 3 d. After the mixture had been slowly cooled to room temperature, pink crystals of 3 were obtained (yield: 53% based on Co). Anal. Calcd for C17H18CoN2O7: C 48.42, H 4.23, N 6.49. Found: C 48.31, H 4.30, N 6.31%. IR (cm−1, KBr): 3424 (s), 1615 (s), 1585 (s), 1502 (m), 1445 (m), 1427 (s), 1381 (s), 1318 (s), 1227 (w), 1143 (w), 1070 (w), 1021 (w). ...
+2024-12-29 02:50:02,009 - 
+Paragraph: TAHYUZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got unresolvable: 10 ml
+Original text: Synthesis of 1: A mixture of Co(AC)2·4H2O (0.05 mmol, 12 mg), 4,5-bis(4′-carboxylphenyl)-phthalic acid (0.05 mmol, 20.3 mg) and H2O (10 ml) was placed in a Teflon-lined stainless steel vessel (25 ml), heated to 160 °C for 4 days, and then slowly cooled down to room temperature. Red block crystals were isolated in 20% yield (based on Co). C22H15O11Co2.5: Calc. C, 43.84; H, 2.51; O, 29.20; found C, 43.72; H, 2.23; O, 28.43. FT-IR (KBr pellet, cm-1): 3118.49(s), 2372.08(w), 1588.96(m), 1534.59(m), 1395.31(s), 1174.78(m), 1099.24(s), 1011.84(w), 918.97(w), 823.77(w), 787.10(w), 682.64(w), 468.97(w). ...
+2024-12-29 02:50:03,289 - 
+Paragraph: OJIDAN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF', 'TETRAHYDROFURAN', 'Hydrofuran', 'DICHLOROMETHANE', 'dichloromethan', 'water', 'H2O']
+Got unresolvable: dimethylformamide (3.0 mL),
+Original text: Synthesis of 2: Scandium trichloride hydrate (0.027 g, 0.135 mmol) and H3L (0.020 g, 0.045 mmol) were mixed and dispersed in a mixture of dimethylformamide (3.0 mL), tetrahydrofuran (4.0 mL), dichloromethane (3.0 mL), water (3.0 mL) and concentrated nitric acid (68 %, 3 drops). The reaction mixture was sealed and heated in a pressure tube to 120 °C for 48 h. The tube was cooled to room temperature over a period of 12 h. The colourless crystalline product was separated by filtration, washed with DMF (5.00 mL) and dried briefly in air (71 % yield based on the ligand). Elemental analytical data corresponds to {[Sc3O(L)2(H2O)3]OH(H2O)5(DMF)}∞: elemental analysis calcd (%) for Mr=1254.88: C 54.51; H 4.33; N 1.12; found: C 54.87; H 4.78; N 1.15 %. ...
+2024-12-29 02:50:09,265 - 
+Paragraph: TIKMEH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'H2O', 'glycol']
+Got unresolvable: 3 mL of water and 3 mL of gly
+Original text: A mixture of Cd(NO3)2·4H2O (0.102 g, 0.33 mmol), H3BTB (0.062 g, 0.25 mmol), bpy (0.039 g, 0.25 mmol), LiOH·H2O (0.021 g, 0.50 mmol), 3 mL of water and 3 mL of glycol was put into a 25 mL Teflon-lined Parr, heated to 160 °C for 3 days and then cooled to room temperature at a rate of 2 °C h−1. Colorless crystals were obtained. Elemental analysis (%) found (calcd.) for 2: C 41.11 (41.04), H 3.02 (2.95), N 5.08 (5.19); Yield: 44%. IR (KBr, cm−1): 3396 br, 1560 vs, 1460 s, 1380 vs, 1222 m, 1066 m, 941 w, 813 m, 772 m, 718 m, 631 m....
+2024-12-29 02:50:09,265 - 
+Paragraph: SARMOO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['H2O']
+Got: water
+Original text:   A mixture of H2O (2 ml), aqueous NaOH (0.44 ml, 0.29 mmol), EuCl3·6H2O (0.037 g, 0.1 mmol), 1,4-naphthalenedicarboxylic acid (0.033 g, 0.15 mmol), NaAc·3H2O (0.01 g, 0.07 mmol), and 4,4′-bpy·2H2O (0.02 g, 0.1 mmol) was sealed in a 25 ml stainless reactor with a Teflon liner and heated at 120 °C for 48 h. Yellow crystals of 3 were obtained in a yield of 0.029 g (47%). Anal calcd for C51H36Eu2N3O15 (1234.75): C, 49.61; H, 2.94; N, 3.40. Found: C, 50.13; H, 3.26; N, 3.10%. IR data: ν/cm−1 3418 s, 1601 s, 1573 s, 1532 s, 1463 s, 1422 s, 1366 s, 1264 m, 842 s, 799 m, 785 m, 576 m. ...
+2024-12-29 02:50:10,274 - 
+Paragraph: ONIXOZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got: N,N-dimethylformamide (DMF
+Original text: UTSA‐20 was synthesized by the solvothermal reaction of H6BHB (10 mg, 0.018 mmol) and Cu(NO3)2⋅2.5 H2O (20 mg, 0.086 mmol) in N,N‐dimethylformamide (DMF, 1.5 mL) with addition of two drops of HBF4 at 65 °C for 48 hours to give small green block‐shaped crystals (15.8 mg, 69 % yield based on H6BHB). The compound was formulated as [Cu3(BHB)(H2O)3]⋅(DMF)6(H2O)2.5 on the basis of elemental microanalysis.15...

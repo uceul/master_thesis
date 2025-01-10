@@ -1,0 +1,43 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 0.987146529562982, 'wrong': 0.012853470437017995},
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.596401028277635,
+│   │   │   'wrong': 0.40359897172236503,
+│   │   │   'resolve_answer': 0.13239074550128535,
+│   │   │   'found_in_text_unresolvable': 0.09383033419023136,
+│   │   │   'correct_multiple': 0.007712082262210797,
+│   │   │   'correct_no_additive': 0.3213367609254499
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.7712082262210797,
+│   │   │   'wrong': 0.22879177377892032,
+│   │   │   'found_in_text': 0.011568123393316195,
+│   │   │   'resolve_answer': 0.18766066838046272,
+│   │   │   'found_in_text_unresolvable': 0.11311053984575835,
+│   │   │   'correct_multiple': 0.14138817480719795
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 0.987146529562982, 'wrong': 0.012853470437017995},
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.596401028277635,
+│   │   │   'wrong': 0.40359897172236503,
+│   │   │   'resolve_answer': 0.13239074550128535,
+│   │   │   'found_in_text_unresolvable': 0.09383033419023136,
+│   │   │   'correct_multiple': 0.007712082262210797,
+│   │   │   'correct_no_additive': 0.3213367609254499
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.7712082262210797,
+│   │   │   'wrong': 0.22879177377892032,
+│   │   │   'found_in_text': 0.011568123393316195,
+│   │   │   'resolve_answer': 0.18766066838046272,
+│   │   │   'found_in_text_unresolvable': 0.11311053984575835,
+│   │   │   'correct_multiple': 0.14138817480719795
+│   │   }
+│   }
+}
+Total no additives: 444

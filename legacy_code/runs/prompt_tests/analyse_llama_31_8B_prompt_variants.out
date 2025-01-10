@@ -1,0 +1,499 @@
+Prompts used:
+
+    - 1: Extract MOF synthesis conditions from the text. Use these rules: 
+      - Temperature: Highest reaction temperature (25°C if unspecified) 
+      - Time: Longest duration maintained at highest temperature 
+      - Solvent: Choose one main solvent (no mixtures or ratios) 
+      - Additive: Choose one additive, or write 'None' if absent
+    
+    - 2: Extract synthesis conditions from the text in the following format: temperature (highest reaction temp, use 25°C if not specified), time (longest duration at highest temp), one solvent (if multiple present, choose one), and one additive (write 'None' if no additive present).
+
+# conda environments:
+#
+base                  *  /home/iti/zn2950/miniconda3
+llm-extraction           /home/iti/zn2950/miniconda3/envs/llm-extraction
+
+Run analysis on llama 3.1 8B Instruct runs with different prompts
+GPU:1
+
+NVDIA-SMI OUTPUT
+Sun Dec 29 22:59:30 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:31:00.0 Off |                    0 |
+| N/A   45C    P0             54W /  400W |      26MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A     12437      G   /usr/libexec/Xorg                              17MiB |
++-----------------------------------------------------------------------------------------+
+No prompt version 1
+{
+│   'Total': {
+│   │   'temperature': {'correct': 764, 'wrong': 14, 'unit': 1},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 137, 'wrong': 641, 'resolve_answer': 450},
+│   │   'solvent': {'correct': 405, 'wrong': 373, 'resolve_answer': 319}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 764, 'wrong': 14, 'unit': 1},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 137, 'wrong': 641, 'resolve_answer': 450},
+│   │   'solvent': {'correct': 405, 'wrong': 373, 'resolve_answer': 319}
+│   }
+}
+{'Total': {'temperature': {'correct': 764, 'wrong': 14, 'unit': 1}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 137, 'wrong': 641, 'resolve_answer': 450}, 'solvent': {'correct': 405, 'wrong': 373, 'resolve_answer': 319}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 764, 'wrong': 14, 'unit': 1}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 137, 'wrong': 641, 'resolve_answer': 450}, 'solvent': {'correct': 405, 'wrong': 373, 'resolve_answer': 319}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9820051413881749,
+│   │   │   'wrong': 0.017994858611825194,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.17609254498714652,
+│   │   │   'wrong': 0.8239074550128535,
+│   │   │   'resolve_answer': 0.5784061696658098
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.5205655526992288,
+│   │   │   'wrong': 0.4794344473007712,
+│   │   │   'resolve_answer': 0.41002570694087404
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9820051413881749,
+│   │   │   'wrong': 0.017994858611825194,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.17609254498714652,
+│   │   │   'wrong': 0.8239074550128535,
+│   │   │   'resolve_answer': 0.5784061696658098
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.5205655526992288,
+│   │   │   'wrong': 0.4794344473007712,
+│   │   │   'resolve_answer': 0.41002570694087404
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9820051413881749, 'wrong': 0.017994858611825194, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.17609254498714652, 'wrong': 0.8239074550128535, 'resolve_answer': 0.5784061696658098}, 'solvent': {'correct': 0.5205655526992288, 'wrong': 0.4794344473007712, 'resolve_answer': 0.41002570694087404}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9820051413881749, 'wrong': 0.017994858611825194, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.17609254498714652, 'wrong': 0.8239074550128535, 'resolve_answer': 0.5784061696658098}, 'solvent': {'correct': 0.5205655526992288, 'wrong': 0.4794344473007712, 'resolve_answer': 0.41002570694087404}}}
+
+No prompt version 2
+{
+│   'Total': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 128, 'wrong': 650, 'resolve_answer': 467},
+│   │   'solvent': {'correct': 425, 'wrong': 353, 'resolve_answer': 311}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 128, 'wrong': 650, 'resolve_answer': 467},
+│   │   'solvent': {'correct': 425, 'wrong': 353, 'resolve_answer': 311}
+│   }
+}
+{'Total': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 128, 'wrong': 650, 'resolve_answer': 467}, 'solvent': {'correct': 425, 'wrong': 353, 'resolve_answer': 311}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 128, 'wrong': 650, 'resolve_answer': 467}, 'solvent': {'correct': 425, 'wrong': 353, 'resolve_answer': 311}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.16452442159383032,
+│   │   │   'wrong': 0.8354755784061697,
+│   │   │   'resolve_answer': 0.6002570694087404
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.5462724935732648,
+│   │   │   'wrong': 0.4537275064267352,
+│   │   │   'resolve_answer': 0.39974293059125965
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.16452442159383032,
+│   │   │   'wrong': 0.8354755784061697,
+│   │   │   'resolve_answer': 0.6002570694087404
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.5462724935732648,
+│   │   │   'wrong': 0.4537275064267352,
+│   │   │   'resolve_answer': 0.39974293059125965
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.16452442159383032, 'wrong': 0.8354755784061697, 'resolve_answer': 0.6002570694087404}, 'solvent': {'correct': 0.5462724935732648, 'wrong': 0.4537275064267352, 'resolve_answer': 0.39974293059125965}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.16452442159383032, 'wrong': 0.8354755784061697, 'resolve_answer': 0.6002570694087404}, 'solvent': {'correct': 0.5462724935732648, 'wrong': 0.4537275064267352, 'resolve_answer': 0.39974293059125965}}}
+
+Prompt version 1
+{
+│   'Total': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 409},
+│   │   'solvent': {'correct': 707, 'wrong': 71, 'resolve_answer': 43}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 409},
+│   │   'solvent': {'correct': 707, 'wrong': 71, 'resolve_answer': 43}
+│   }
+}
+{'Total': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 409}, 'solvent': {'correct': 707, 'wrong': 71, 'resolve_answer': 43}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 409}, 'solvent': {'correct': 707, 'wrong': 71, 'resolve_answer': 43}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2596401028277635,
+│   │   │   'wrong': 0.7403598971722365,
+│   │   │   'resolve_answer': 0.525706940874036
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.9087403598971723,
+│   │   │   'wrong': 0.09125964010282776,
+│   │   │   'resolve_answer': 0.055269922879177376
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2596401028277635,
+│   │   │   'wrong': 0.7403598971722365,
+│   │   │   'resolve_answer': 0.525706940874036
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.9087403598971723,
+│   │   │   'wrong': 0.09125964010282776,
+│   │   │   'resolve_answer': 0.055269922879177376
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2596401028277635, 'wrong': 0.7403598971722365, 'resolve_answer': 0.525706940874036}, 'solvent': {'correct': 0.9087403598971723, 'wrong': 0.09125964010282776, 'resolve_answer': 0.055269922879177376}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2596401028277635, 'wrong': 0.7403598971722365, 'resolve_answer': 0.525706940874036}, 'solvent': {'correct': 0.9087403598971723, 'wrong': 0.09125964010282776, 'resolve_answer': 0.055269922879177376}}}
+
+Prompt version 2
+{
+│   'Total': {
+│   │   'temperature': {'correct': 770, 'wrong': 8, 'unit': 1},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 445},
+│   │   'solvent': {'correct': 623, 'wrong': 155, 'resolve_answer': 118}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 770, 'wrong': 8, 'unit': 1},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 445},
+│   │   'solvent': {'correct': 623, 'wrong': 155, 'resolve_answer': 118}
+│   }
+}
+{'Total': {'temperature': {'correct': 770, 'wrong': 8, 'unit': 1}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 445}, 'solvent': {'correct': 623, 'wrong': 155, 'resolve_answer': 118}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 770, 'wrong': 8, 'unit': 1}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 445}, 'solvent': {'correct': 623, 'wrong': 155, 'resolve_answer': 118}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9897172236503856,
+│   │   │   'wrong': 0.010282776349614395,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2776349614395887,
+│   │   │   'wrong': 0.7223650385604113,
+│   │   │   'resolve_answer': 0.5719794344473008
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.800771208226221,
+│   │   │   'wrong': 0.19922879177377892,
+│   │   │   'resolve_answer': 0.15167095115681234
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9897172236503856,
+│   │   │   'wrong': 0.010282776349614395,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2776349614395887,
+│   │   │   'wrong': 0.7223650385604113,
+│   │   │   'resolve_answer': 0.5719794344473008
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.800771208226221,
+│   │   │   'wrong': 0.19922879177377892,
+│   │   │   'resolve_answer': 0.15167095115681234
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9897172236503856, 'wrong': 0.010282776349614395, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2776349614395887, 'wrong': 0.7223650385604113, 'resolve_answer': 0.5719794344473008}, 'solvent': {'correct': 0.800771208226221, 'wrong': 0.19922879177377892, 'resolve_answer': 0.15167095115681234}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9897172236503856, 'wrong': 0.010282776349614395, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2776349614395887, 'wrong': 0.7223650385604113, 'resolve_answer': 0.5719794344473008}, 'solvent': {'correct': 0.800771208226221, 'wrong': 0.19922879177377892, 'resolve_answer': 0.15167095115681234}}}
+
+No prompt version 1, multiple chemicals in answers
+{
+│   'Total': {
+│   │   'temperature': {'correct': 764, 'wrong': 14, 'unit': 1},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 142, 'wrong': 636, 'resolve_answer': 409},
+│   │   'solvent': {'correct': 664, 'wrong': 114, 'resolve_answer': 57}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 764, 'wrong': 14, 'unit': 1},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 142, 'wrong': 636, 'resolve_answer': 409},
+│   │   'solvent': {'correct': 664, 'wrong': 114, 'resolve_answer': 57}
+│   }
+}
+{'Total': {'temperature': {'correct': 764, 'wrong': 14, 'unit': 1}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 142, 'wrong': 636, 'resolve_answer': 409}, 'solvent': {'correct': 664, 'wrong': 114, 'resolve_answer': 57}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 764, 'wrong': 14, 'unit': 1}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 142, 'wrong': 636, 'resolve_answer': 409}, 'solvent': {'correct': 664, 'wrong': 114, 'resolve_answer': 57}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9820051413881749,
+│   │   │   'wrong': 0.017994858611825194,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.18251928020565553,
+│   │   │   'wrong': 0.8174807197943444,
+│   │   │   'resolve_answer': 0.525706940874036
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8534704370179949,
+│   │   │   'wrong': 0.14652956298200515,
+│   │   │   'resolve_answer': 0.07326478149100257
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9820051413881749,
+│   │   │   'wrong': 0.017994858611825194,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.18251928020565553,
+│   │   │   'wrong': 0.8174807197943444,
+│   │   │   'resolve_answer': 0.525706940874036
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8534704370179949,
+│   │   │   'wrong': 0.14652956298200515,
+│   │   │   'resolve_answer': 0.07326478149100257
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9820051413881749, 'wrong': 0.017994858611825194, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.18251928020565553, 'wrong': 0.8174807197943444, 'resolve_answer': 0.525706940874036}, 'solvent': {'correct': 0.8534704370179949, 'wrong': 0.14652956298200515, 'resolve_answer': 0.07326478149100257}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9820051413881749, 'wrong': 0.017994858611825194, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.18251928020565553, 'wrong': 0.8174807197943444, 'resolve_answer': 0.525706940874036}, 'solvent': {'correct': 0.8534704370179949, 'wrong': 0.14652956298200515, 'resolve_answer': 0.07326478149100257}}}
+
+No prompt version 2, multiple chemicals in answers
+{
+│   'Total': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 129, 'wrong': 649, 'resolve_answer': 430},
+│   │   'solvent': {'correct': 662, 'wrong': 116, 'resolve_answer': 62}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 766, 'wrong': 12},
+│   │   'additive': {'correct': 129, 'wrong': 649, 'resolve_answer': 430},
+│   │   'solvent': {'correct': 662, 'wrong': 116, 'resolve_answer': 62}
+│   }
+}
+{'Total': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 129, 'wrong': 649, 'resolve_answer': 430}, 'solvent': {'correct': 662, 'wrong': 116, 'resolve_answer': 62}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 766, 'wrong': 12}, 'additive': {'correct': 129, 'wrong': 649, 'resolve_answer': 430}, 'solvent': {'correct': 662, 'wrong': 116, 'resolve_answer': 62}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.16580976863753213,
+│   │   │   'wrong': 0.8341902313624678,
+│   │   │   'resolve_answer': 0.5526992287917738
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8508997429305912,
+│   │   │   'wrong': 0.14910025706940874,
+│   │   │   'resolve_answer': 0.07969151670951156
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594},
+│   │   'additive': {
+│   │   │   'correct': 0.16580976863753213,
+│   │   │   'wrong': 0.8341902313624678,
+│   │   │   'resolve_answer': 0.5526992287917738
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.8508997429305912,
+│   │   │   'wrong': 0.14910025706940874,
+│   │   │   'resolve_answer': 0.07969151670951156
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.16580976863753213, 'wrong': 0.8341902313624678, 'resolve_answer': 0.5526992287917738}, 'solvent': {'correct': 0.8508997429305912, 'wrong': 0.14910025706940874, 'resolve_answer': 0.07969151670951156}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9845758354755784, 'wrong': 0.015424164524421594}, 'additive': {'correct': 0.16580976863753213, 'wrong': 0.8341902313624678, 'resolve_answer': 0.5526992287917738}, 'solvent': {'correct': 0.8508997429305912, 'wrong': 0.14910025706940874, 'resolve_answer': 0.07969151670951156}}}
+
+Prompt version 1, multiple chemicals in answers
+{
+│   'Total': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 405},
+│   │   'solvent': {'correct': 723, 'wrong': 55, 'resolve_answer': 14}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 767, 'wrong': 11},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 405},
+│   │   'solvent': {'correct': 723, 'wrong': 55, 'resolve_answer': 14}
+│   }
+}
+{'Total': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 405}, 'solvent': {'correct': 723, 'wrong': 55, 'resolve_answer': 14}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 767, 'wrong': 11}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 202, 'wrong': 576, 'resolve_answer': 405}, 'solvent': {'correct': 723, 'wrong': 55, 'resolve_answer': 14}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2596401028277635,
+│   │   │   'wrong': 0.7403598971722365,
+│   │   │   'resolve_answer': 0.5205655526992288
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.929305912596401,
+│   │   │   'wrong': 0.07069408740359898,
+│   │   │   'resolve_answer': 0.017994858611825194
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9858611825192802,
+│   │   │   'wrong': 0.014138817480719794
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2596401028277635,
+│   │   │   'wrong': 0.7403598971722365,
+│   │   │   'resolve_answer': 0.5205655526992288
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.929305912596401,
+│   │   │   'wrong': 0.07069408740359898,
+│   │   │   'resolve_answer': 0.017994858611825194
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2596401028277635, 'wrong': 0.7403598971722365, 'resolve_answer': 0.5205655526992288}, 'solvent': {'correct': 0.929305912596401, 'wrong': 0.07069408740359898, 'resolve_answer': 0.017994858611825194}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9858611825192802, 'wrong': 0.014138817480719794}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2596401028277635, 'wrong': 0.7403598971722365, 'resolve_answer': 0.5205655526992288}, 'solvent': {'correct': 0.929305912596401, 'wrong': 0.07069408740359898, 'resolve_answer': 0.017994858611825194}}}
+
+Prompt version 2, multiple chemicals in answers
+{
+│   'Total': {
+│   │   'temperature': {'correct': 770, 'wrong': 8, 'unit': 1},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 444},
+│   │   'solvent': {'correct': 709, 'wrong': 69, 'resolve_answer': 15}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 770, 'wrong': 8, 'unit': 1},
+│   │   'time': {'correct': 769, 'wrong': 9},
+│   │   'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 444},
+│   │   'solvent': {'correct': 709, 'wrong': 69, 'resolve_answer': 15}
+│   }
+}
+{'Total': {'temperature': {'correct': 770, 'wrong': 8, 'unit': 1}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 444}, 'solvent': {'correct': 709, 'wrong': 69, 'resolve_answer': 15}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 770, 'wrong': 8, 'unit': 1}, 'time': {'correct': 769, 'wrong': 9}, 'additive': {'correct': 216, 'wrong': 562, 'resolve_answer': 444}, 'solvent': {'correct': 709, 'wrong': 69, 'resolve_answer': 15}}}
+{
+│   'Total': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9897172236503856,
+│   │   │   'wrong': 0.010282776349614395,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2776349614395887,
+│   │   │   'wrong': 0.7223650385604113,
+│   │   │   'resolve_answer': 0.570694087403599
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.9113110539845758,
+│   │   │   'wrong': 0.08868894601542417,
+│   │   │   'resolve_answer': 0.019280205655526992
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {
+│   │   │   'correct': 0.9897172236503856,
+│   │   │   'wrong': 0.010282776349614395,
+│   │   │   'unit': 0.0012853470437017994
+│   │   },
+│   │   'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195},
+│   │   'additive': {
+│   │   │   'correct': 0.2776349614395887,
+│   │   │   'wrong': 0.7223650385604113,
+│   │   │   'resolve_answer': 0.570694087403599
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.9113110539845758,
+│   │   │   'wrong': 0.08868894601542417,
+│   │   │   'resolve_answer': 0.019280205655526992
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9897172236503856, 'wrong': 0.010282776349614395, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2776349614395887, 'wrong': 0.7223650385604113, 'resolve_answer': 0.570694087403599}, 'solvent': {'correct': 0.9113110539845758, 'wrong': 0.08868894601542417, 'resolve_answer': 0.019280205655526992}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 0.9897172236503856, 'wrong': 0.010282776349614395, 'unit': 0.0012853470437017994}, 'time': {'correct': 0.9884318766066839, 'wrong': 0.011568123393316195}, 'additive': {'correct': 0.2776349614395887, 'wrong': 0.7223650385604113, 'resolve_answer': 0.570694087403599}, 'solvent': {'correct': 0.9113110539845758, 'wrong': 0.08868894601542417, 'resolve_answer': 0.019280205655526992}}}
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 1489702
+Cluster: haic
+User/Group: zn2950/iti
+Account: iti
+State: COMPLETED (exit code 0)
+Partition: normal
+Nodes: 1
+Cores per node: 2
+Nodelist: haicn1706
+CPU Utilized: 00:01:58
+CPU Efficiency: 4.84% of 00:40:38 core-walltime
+Job Wall-clock time: 00:20:19
+Starttime: Sun Dec 29 22:59:18 2024
+Endtime: Sun Dec 29 23:19:37 2024
+Memory Utilized: 535.00 MB
+Memory Efficiency: 8.11% of 6.45 GB
+Energy Consumed: 788770 Joule / 219.102777777778 Watthours
+Average node power draw: 647.063166529943 Watt

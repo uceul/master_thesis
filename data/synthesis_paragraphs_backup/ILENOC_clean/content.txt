@@ -1,0 +1,4 @@
+
+The title compound was synthesized hydrothermally using pyridine–HF as the solvent in the presence of diethyelenetriamine (DETA). In a typical synthesis 0.335 g indium sulfate was dissolved in 1 ml of water. To this, 0.11 ml of phosphoric acid (85%,), 0.12 ml of HF (48%) and 1.68 ml of pyridine were added under continuous stirring. Finally, 0.07 ml of DETA was added and the mixture was homogenized for 30 min at room temperature. The reaction mixture with the composition, In2(SO4)3
+∶ 2.6H3PO4
+∶ 5.2HF ∶ 32.1pyridine ∶ 0.88DETA ∶ 85H2O, was transferred to a PTFE-lined stainless-steel pressure vessel (23 ml) and heated at 180 °C for 96 h under autogeneous pressure. The initial pH of the reaction mixture was ∼5 and the pH after the reaction was ∼4. The resulting product, a crop of fine needle-shaped crystals, was filtered off, washed with water and dried at room temperature (yield = 80% based on In). The product was characterized by powder XRD, TGA, IR and NMR studies.

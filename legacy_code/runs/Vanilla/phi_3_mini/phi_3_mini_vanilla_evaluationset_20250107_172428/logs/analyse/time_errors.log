@@ -1,0 +1,60 @@
+2025-01-07 17:26:24,418 - 
+Paragraph: CAHQAG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   A mixture of Mn(OAc)2·4H2O (73.5 mg, 0.3 mmol), H4L1 (20.3 mg, 0.05 mmol), bpfp (29.6 mg, 0.1 mmol) and H2O (10 mL) was sealed in a 23 mL Teflon-lined autoclave and heated at 150 °C for 3 days. Afte...
+2025-01-07 17:26:24,419 - 
+Paragraph: NEKMUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 3h (180.0 minutes)
+Original text: A mixture containing H3L2 (0.04 g, 0.13 mmol) and CoCl2·6H2O (0.15 g, 0.63 mmol) in 3 mL water and 0.2 mL of Et4NOH were sealed in a Teflon-lined autoclave and heated under autogenous pressure to 180 ...
+2025-01-07 17:26:25,858 - 
+Paragraph: TETZEZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   A mixture of Zn(NO3)2·6H2O (0.075 mmol, 0.022 g), H22BPC (0.075 mmol, 0.018 g), L (0.05 mmol, 0.016 g) and DMF (8 mL) was heated at 120 °C in a Teflon-lined autoclave for 3 days, followed by slow co...
+2025-01-07 17:26:27,271 - 
+Paragraph: ACUJOZ_manual
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text: A mixture of H4TSTC (0.0357 g, 0.1 mmol), CrCl2 (0.0123 g, 0.1 mmol), Cu(NO3)2·3H2O (0.0241 g, 0.1 mmol), NaOH (0.0160 g, 0.1 mmol), water (5 mL) and DMF (10 mL) was sealed in a 25 mL stainless steel ...
+2025-01-07 17:26:29,962 - 
+Paragraph: ODEZAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   In a 20 ml glass vial, the organic linker H4DTPD (10 mg, 0.0194 mmol) was dissolved in 12.85 mL of N,N-dimethyl formamide (DMF). Then, Cu(NO3)2·2.5H2O (20 mg, 0.086 mmol) and 2.15 mL of H2O were add...
+2025-01-07 17:26:30,303 - 
+Paragraph: ILOJEZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text:   The mixture of Zn(NO3)2·6H2O (0.0297 g, 0.1 mmol), H4btec (0.0254 g, 0.1 mmol) and btmb (0.0316 g, 0.1 mmol) was dissolved in 12 mL of distilled water. The pH value was then adjusted to 6.0 with 1 M...
+2025-01-07 17:26:31,086 - 
+Paragraph: HAFSOZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   Zn(NO3)2·6H2O (30 mg, 0.1 mmol), HO-H3BTC (11 mg, 0.05 mmol), and 4,4′-bipyridine (7.8 mg, 0.05 mmol) were dissolved in 4 mL of mixed solvent of DMA and H2O (1:1, v/v) in a 10 mL glass vial. After t...
+2025-01-07 17:26:31,086 - 
+Paragraph: CAYQIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 48h (48.0 h)
+Got: 24h (1440.0 minutes)
+Original text: A mixture of L1-H8 (1 mg, 0.91 μmol) and Cu(ClO4)2·6H2O (1.35 mg, 3.65 μmol) was dissolved in a solvent mixture of DEF (0.3 mL), H2O (0.025 mL), and 1 M HCl (10 μL) in a screw-capped vial. The resulti...
+2025-01-07 17:26:32,139 - 
+Paragraph: MATPUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text: A mixture of Tb(ClO4)3·6H2O (28.5 mg, 0.05 mmol), H2BPDC (24.4 mg, 0.1 mmol), CoCl2·6H2O (11.9 mg, 0.05 mmol), H2O (1 mL), and DMA (4 mL) were added to a 8 mL glass vial. The glass vessel was heated a...
+2025-01-07 17:26:33,132 - 
+Paragraph: NAYZUK_SL
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text: Preparation of In(OH)(1,4-NDC) 2H2O (1). Compound 1 was obtained by solvothermal reaction of mixture of 1.4-NDC (0.08 g, 0.37 mmol), InCl3·4H2O (0.05 g, 0.17 mmol), NaOH (0.3 ml, 1 mol/l), H2O (3 ml),...

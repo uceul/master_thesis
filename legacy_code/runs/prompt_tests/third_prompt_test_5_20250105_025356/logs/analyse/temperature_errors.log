@@ -1,0 +1,36 @@
+2025-01-05 03:42:38,502 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60°C (60.0 C)
+Got: 80°C (80.0 °C)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-05 03:42:54,779 - 
+Paragraph: QIYCIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 176°C (176.0 °C)
+Original text: A methanol solution (2 mL) of each L1 (15 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L1)(L3)]...
+2025-01-05 03:42:59,328 - 
+Paragraph: QIYCOS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 173°C (173.0 °C)
+Original text: A methanol solution (2 mL) of each L2 (14 mg, 0.06 mmol) and L3 (14 mg, 0.06 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L2)(L3)]...
+2025-01-05 03:43:00,681 - 
+Paragraph: QIYCAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 25°C (25.0 C)
+Got: 178°C (178.0 °C)
+Original text: A methanol solution (2 mL) of L3 (28 mg, 0.12 mmol) was carefully layered onto an aqueous solution (2 mL) of AgPF6 (15 mg, 0.06 mmol). Colorless crystals of [Ag(L3)2](PF6)⋅CH3OH formed at the interfac...
+2025-01-05 03:43:01,353 - 
+Paragraph: VALVAI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: 150°C (150.0 °C)
+Original text: [Yb2(BDC)3(DMF)2]⋅H2O was synthesised under solvothermal conditions (BDC=benzene‐1,4‐dicarboxylate and DMF=N,N‐dimethylformamide). Ytterbium(III) chloride hexahydrate (1 mmol) and benzene‐1,4‐dicarbox...
+2025-01-05 03:43:04,038 - 
+Paragraph: YILJAG_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: 120°C (120.0 °C)
+Original text: [Zn4O(bpz)2(abdc)]⋅guest (1⋅g, MAF‐X11). A mixture of H2abdc (0.068 g, 0.375 mmol), H2bpz (0.143 g, 0.75 mmol), Zn(NO3)2⋅6 H2O (0.446 g, 1.5 mmol), N,N‐dimethylformamide (30 mL), and EtOH (20 mL) was ...

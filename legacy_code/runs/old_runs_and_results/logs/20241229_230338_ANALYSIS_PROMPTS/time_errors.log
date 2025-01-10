@@ -1,0 +1,72 @@
+2024-12-29 23:03:49,918 - 
+Paragraph: ILEPEW_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 72h (72.0 h)
+Original text: A mixture of Ba(NO3)2 (31.36 mg, 0.12 mmol), La(NO3)3·6H2O (8.6 mg, 0.02 mmol), and H3L (17.4 mg, 0.1 mmol) was vigorously stirred for half an hour in H2O (5 mL) and DMF (5 mL), and then HNO3 (30 μL, ...
+2024-12-29 23:03:56,892 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 hours)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2024-12-29 23:03:59,521 - 
+Paragraph: ADASIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 23h (23.0 h)
+Got: 12h (12.0 h)
+Original text: rht‐MOF‐4 a: Cu(NO3)2⋅2.5 H2O (20 mg), H6tL1 (37 mg), DMF (1 mL), and H2O (1 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h, 115 °C/23 h to give green polyhedral crystals. Fm, a=41.479 Å. ...
+2024-12-29 23:04:20,597 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hours)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2024-12-29 23:04:50,349 - 
+Paragraph: EXOZIB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 504h (504.0 h)
+Got: 102864h (21.4286 d)
+Original text:   An aqueous solution (1 mL) of H3tci (0.02 mmol) was slowly added dropwise into a methanol solution (5 mL) of Cu(NO3)2·3H2O (0.02 mmol), and then mixed with 0.03 mol L−1methanol solution of CH3ONa (0...
+2024-12-29 23:05:26,276 - 
+Paragraph: QUHMOX_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 6h (6.0 hour)
+Original text: Complex 3 was obtained by the following hydrothermal method: A mixture of Gd2(SO4)3·8H2O (4 mmol), HCOOH (4 mL), and DMSO (4 mL) was sealed in a Teflon-lined autoclave and heated to 140 °C over 6 h. A...
+2024-12-29 23:06:30,624 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2024-12-29 23:07:05,246 - 
+Paragraph: AXOHIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 96h (96.0 h)
+Got: 144h (144.0 h)
+Original text: [{Cd4(bpa)4(bpy)6}·(bpy)0.5·7H2O]n (3): Similar to the synthesis of 1, the hydrothermal reaction of cadmium acetate dihydrate (1.5 mmol), H2bpa (1 mmol), bpy·2H2O (1 mmol), NaOC2H5 (4 mmol) and H2O (5...
+2024-12-29 23:07:16,760 - 
+Paragraph: NEVJOP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 96h (96.0 h)
+Got: 120h (120.0 hours)
+Original text:   Zn(NO3)2·6H2O (1 mmol, 297 mg), bpy (0.4 mmol, 60 mg), and THF (5 mL) were added into a solution of H4adtp (0.2 mmol, 60 mg) in H2O (5 mL) which was adjusted to the pH value at ca. 8.0 with 1 mol L−...
+2024-12-29 23:07:26,116 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 day(s))
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2024-12-29 23:07:39,410 - 
+Paragraph: PEJMUO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 12h (12.0 h)
+Original text: H3tzdc (0.017 g, 0.108 mmol), Cu(NO3)2·3H2O (0.024 g, 0.100 mmol), H2O (1 mL), CH3CN (1 mL), ETA (0.050 mL), and HNO3 (0.275 mL, 0.33 M in H2O) were added, respectively, to a 20 mL vial, which was sea...
+2024-12-29 23:07:41,059 - 
+Paragraph: EXOFIH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 36h (36.0 h)
+Got: 21h (21.0 h)
+Original text:   [H3O][In(btec)]·0.8H2O (1). The mixture of InCl3·4H2O (0.2 mmol, 0.059 g), H4btec (0.3 mmol, 0.076 g), DMA (3 mL) (DMA = N,N′-dimethyl acetamide), C2H5OH (2 mL), piperazine (0.1 mL, 0.9 mol L−1 in D...

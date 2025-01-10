@@ -1,0 +1,6 @@
+2025-01-06 11:28:53,501 - 
+Paragraph: ELOZIQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 1728h (72.0 days) - Wrong unit (hours)
+Original text: Isophthalic acid (H2ipa, 166 mg, 1 mmol), adenine (Had, 135 mg, 1 mmol), Cd(NO3)2·4H2O (462 mg, 1 mmol) and tetraethylammonium bromide (220 mg, 1 mmol) were added to 4 mL DMA (=N,N-dimethylacetamide) ...

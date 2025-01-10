@@ -1,0 +1,9 @@
+- answer:
+    additive: H4L1\u00b26.5
+    solvent: DMF:MeOH
+    temperature: 70.0
+    temperature_unit: "\xB0C"
+    time: 8.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LELROL_clean

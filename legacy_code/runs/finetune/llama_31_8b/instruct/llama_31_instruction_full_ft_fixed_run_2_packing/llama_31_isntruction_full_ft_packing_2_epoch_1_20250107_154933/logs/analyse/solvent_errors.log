@@ -1,0 +1,24 @@
+2025-01-07 15:52:07,194 - 
+Paragraph: YODRAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethyl formamide', 'DMF', 'N,N-Dimethyl formamide', 'dimethyl formamid', 'N,N-dimethyl formamid', 'ethanol', 'EtOH', 'Thanol', 'S S']
+Got (Which appears in text!): H2O
+Original text: ‡ Synthesis of [Co9(int)18(H2O)4(H2O)2]·5.5DMF: The mixture of Co(NO3)2·6H2O (0.86 mmol, 0.250 g), isonicotinic acid (IN, 0.85 mmol, 0.104 g) and 4 ml N,N-dimethyl formamide (DMF) and 2 ml EtOH was se...
+2025-01-07 15:52:07,548 - 
+Paragraph: MAZSUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got (Which appears in text!): DIM
+Original text: Synthesis of Zn3(tz)2(bdc)2⋅x(DMF) (2): A mixture of Zn(NO3)2⋅6H2O (0.0800 g, 0.27 mmol), pyrazine(0.0150 g 0.19 mmol), 1,2,3–1H‐triazole (0.0400 g, 0.58 mmol), 1,4‐benzenedicarboxylic acid (0.0500 g ...
+2025-01-07 15:52:07,551 - 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan', 'Cellosolve']
+Got (Which appears in text!): H2O
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-07 15:52:07,551 - 
+Paragraph: SAYKIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Deionized water']
+Got unresolvable : None
+Original text: To a 20-mL Teflon-lined stainless steel autoclave was added 0.1 M UO2(NO3)3 aqueous solution (1.0 mL, 0.10 mmol), H6L2 (60 mg, 0.062 mmol), and deionized water (5 mL, 278 mmol). The mixture was heated...

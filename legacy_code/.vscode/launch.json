@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Eval Debug on Llama 2 7B",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/mthesis/main.py",
+            "args": [
+                "evaluate",
+                "--settings",
+                "settings/settings_7b.yml",
+                "--only-model",
+                "LLaMa 2 7B"
+            ],
+            "console": "integratedTerminal",
+            "python": "/home/kit/iti/zn2950/.conda/envs/llm-extraction/bin/python",
+            "justMyCode": false
+        },
+        {
+            "name": "Analyse Debug on Llama 2 7B",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/mthesis/main.py",
+            "args": [
+                "evaluate",
+                "--settings",
+                "settings/settings_7b.yml",
+                "--only-model",
+                "LlaMa 2 7B"
+            ],
+            "console": "integratedTerminal",
+            "python": "/home/kit/iti/zn2950/.conda/envs/llm-extraction/bin/python"
+        }
+    ]
+}

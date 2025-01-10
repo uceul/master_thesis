@@ -1,0 +1,2 @@
+
+A mixture of Zn(NO3)2·6H2O (74 mg, 0.25 mmol), H2BDC (83 mg, 0.5 mmol), TRZ (17 mg, 0.25 mmol) and 8 mL DMF/H2O (v/v = 5:3) solution was stirred in a 20 mL closed vial at room temperature. The mixed solution was heated at 100 °C for 6 days and then it was slowly cooled to room temperature. Colorless needle-shaped crystals suitable for X-ray diffraction analysis were isolated in 53% yield based on Zn(II). IR data (KBr pellet, cm−1): 3450(b), 1667(s), 1596(s), 1509(m), 1342(s), 1390(s), 1280(m), 1153(m), 1091(m), 995(m), 894(w), 837(m), 744(s), 657(m), 578(w), 521(w).

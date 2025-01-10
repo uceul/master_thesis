@@ -1,0 +1,39 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 0.8701298701298701, 'wrong': 0.12987012987012986},
+│   │   'additive': {
+│   │   │   'correct': 0.06493506493506493,
+│   │   │   'wrong': 0.935064935064935,
+│   │   │   'found_in_text': 0.025974025974025976,
+│   │   │   'resolve_answer': 0.36363636363636365,
+│   │   │   'found_in_text_unresolvable': 0.35064935064935066
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.7012987012987013,
+│   │   │   'wrong': 0.2987012987012987,
+│   │   │   'resolve_answer': 0.2727272727272727,
+│   │   │   'found_in_text_unresolvable': 0.2077922077922078,
+│   │   │   'correct_multiple': 0.18181818181818182
+│   │   }
+│   },
+│   'Phi 3 Mini 4k Instruct': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {'correct': 0.8701298701298701, 'wrong': 0.12987012987012986},
+│   │   'additive': {
+│   │   │   'correct': 0.06493506493506493,
+│   │   │   'wrong': 0.935064935064935,
+│   │   │   'found_in_text': 0.025974025974025976,
+│   │   │   'resolve_answer': 0.36363636363636365,
+│   │   │   'found_in_text_unresolvable': 0.35064935064935066
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.7012987012987013,
+│   │   │   'wrong': 0.2987012987012987,
+│   │   │   'resolve_answer': 0.2727272727272727,
+│   │   │   'found_in_text_unresolvable': 0.2077922077922078,
+│   │   │   'correct_multiple': 0.18181818181818182
+│   │   }
+│   }
+}
+Total no additives: 42

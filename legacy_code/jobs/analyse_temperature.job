@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --job-name=temp_analysis
+#SBATCH --output=results/temp_analysis_%j.out
+#SBATCH --error=results/temp_analysis_%j.err
+#SBATCH --partition=normal
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:full:1
+#SBATCH --time=90:00
+#SBATCH --nodes=1
+#SBATCH --mail-type=NONE
+#SBATCH --constraint=LSDF
+
+source ~/.bashrc
+module load devel/cuda/11.8
+conda info --envs
+conda activate llm-extraction
+
+echo "Run analysis on llama 3.1 8B Instruct runs with zero temperature. Results should be identical."
+echo "GPU:1"
+echo
+echo "NVDIA-SMI OUTPUT"
+nvidia-smi
+
+cd /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_code
+
+echo "Run 1"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero"
+echo
+echo "Run 2"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/runs/temperature_test_llama_31/llama_31_8b_stats_no_prompt_zero_temp_control_241229.yml --description "Llama 3.1 8B analysis run for evaluation with temp zero version 2"
+echo

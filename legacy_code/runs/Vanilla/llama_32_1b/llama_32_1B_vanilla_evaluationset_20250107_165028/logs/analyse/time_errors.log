@@ -1,0 +1,36 @@
+2025-01-07 16:52:22,503 - 
+Paragraph: UZAFIL_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 72h (72.0 h)
+Got: 3h (3.0 h) - Wrong unit (days)
+Original text: A mixture of NiCO3 (11.9 mg, 0.10 mmol), H2adi (14.6 mg, 0.10 mmol), L (16.8 mg, 0.05 mmol), and water (10 mL) was placed in a Teflon reactor (15 mL) and heated at 170 °C for 3 days. After the mixture...
+2025-01-07 16:52:28,826 - 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.2 1B Instruct
+Expected: 24h (24.0 h)
+Got: 1h (1.0 h) - Wrong unit (days)
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 16:52:31,175 - 
+Paragraph: MATPUV_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 72h (72.0 h)
+Got: 3h (3.0 h) - Wrong unit (days)
+Original text: A mixture of Tb(ClO4)3·6H2O (28.5 mg, 0.05 mmol), H2BPDC (24.4 mg, 0.1 mmol), CoCl2·6H2O (11.9 mg, 0.05 mmol), H2O (1 mL), and DMA (4 mL) were added to a 8 mL glass vial. The glass vessel was heated a...
+2025-01-07 16:52:31,501 - 
+Paragraph: QUTDAM_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 120h (120.0 h)
+Got: 5h (5.0 h) - Wrong unit (days)
+Original text:   A mixture of Cu(NO3)2·2H2O (0.022 g, 0.12 mmol), H4L (0.016 g, 0.04 mmol) in DMF/EtOH/H2O (2:1:1 v/v/v, 15 mL) was sealed in a 25 mL Teflon-lined stainless steel container. The resulting blue-green ...
+2025-01-07 16:52:32,532 - 
+Paragraph: NEFTUP_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 48h (48.0 h)
+Got: 2h (2.0 h) - Wrong unit (days)
+Original text: Synthesis of 1 (Solvothermal Method): A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg), NaN3 (0.2 mmol, 13 mg), and bib (0.1 mmol, 21 mg) was suspended in the solvent mixture (H2O/CH3OH = 3:4, 12 mL). Af...
+2025-01-07 16:52:33,777 - 
+Paragraph: WISVEB_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 48h (48.0 h)
+Got: 2h (2.0 h) - Wrong unit (days)
+Original text: Synthesis: A mixture of H4ABTC (8.95 mg, 0.025 mmol), Cd(NO3)2·4H2O (18.5 mg, 0.06 mmol), L‐glutamic acid (14.7 mg, 0.1 mmol), 0.5 mL H2O, a few drops of HNO3 (2.5 M), and 2 mL DMA was stirred for 20 ...

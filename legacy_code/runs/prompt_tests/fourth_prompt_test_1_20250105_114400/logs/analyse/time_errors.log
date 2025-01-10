@@ -1,0 +1,84 @@
+2025-01-05 12:32:17,294 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 hour)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-05 12:32:19,391 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hour)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2025-01-05 12:32:21,403 - 
+Paragraph: AZAWAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 16h (16.0 h)
+Got: 24h (24.0 h)
+Original text: A 0.02 M stock solution of copper nitrate trihydrate in DEF (0.5 mL) was added to a 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water ...
+2025-01-05 12:32:21,404 - 
+Paragraph: FIHFAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60h (60.0 h)
+Got: 68h (68.0 h)
+Original text:   A mixture of Co(NO3)2·6H2O (1.0 mmol, 0.293 g), H3btc (1 mmol, 0.210 g) and Hatz (1 mmol, 0.084 g) in DMF (8 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heat...
+2025-01-05 12:32:24,068 - 
+Paragraph: REKZIR_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 10h (10.0 h)
+Original text: Synthesis of [Cd6(MeCO2)4(bpy)2(H2bna)4]·3.5H2O (2). A mixture of Cd(MeCO2)2·2H2O (0.266 g, 1 mmol), H4bna (0.094 g, 0.25 mmol), bpy (0.040 g, 0.25 mmol), and NaOH (0.020 g, 0.50 mmol) in water−ethano...
+2025-01-05 12:32:24,069 - 
+Paragraph: GOXMEN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 2h (8640.0 s)
+Original text: A mixture of Co(NO3)2·6H2O (0.082 g, 0.28 mmol), BIIBN (0.04 g, 0.14 mmol), and dilute sodium hydroxide (0.1 mL) in H2O (6 mL) was placed in a Teflon lined stainless steel autoclave and heated at 180 ...
+2025-01-05 12:32:24,909 - 
+Paragraph: AZAVUU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 18h (18.0 h)
+Got: 24h (24.0 hour)
+Original text: A 0.165 M stock solution of copper nitrate trihydrate in DMF (0.5 mL) was added to an 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized wate...
+2025-01-05 12:32:31,184 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2025-01-05 12:32:31,522 - 
+Paragraph: ZEZPAX01_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 144h (144.0 h)
+Got: 432h (432.0 h)
+Original text:   Metal–organic framework 2 was synthesised solvothermally as for 1. Dy(NO3)3·5H2O (0.4 mmol, 175.6 mg) and H2dcbpy (0.4 mmol, 97.9 mg) were dissolved in DMF (15 mL) with stirring in a glass vial. The...
+2025-01-05 12:32:32,513 - 
+Paragraph: OLEKUM_manual
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 1h (1.0 h) (Which appears in text!)
+Original text: H2(bdc-Cl2) (470 mg, 2.0 mmol), Zn(NO3)2·6H2O (595 mg, 2.0 mmol), and dabco (112 mg, 1.0 mmol) were mixed in DMF (30 mL) and homogenized by stirring for 5 min. The solution was heated to 120 °C in a T...
+2025-01-05 12:32:33,182 - 
+Paragraph: DINNIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 30h (30.0 h)
+Original text: [Mn4(Adi)4(DMF)2]n (3). Adipic acid (1 mmol) and MnCl2·4H2O (0.5 mmol) were dissolved in 5 mL DMF and 5 mL ethanol solution, stirred for 5 min and transferred to 23 ml Teflon-lined autoclave and heate...
+2025-01-05 12:32:33,861 - 
+Paragraph: QUQHEQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 8h (172.8 hours)
+Original text: Yellow crystals of 1 with pseudohexagonal external morphology were synthesized by stirring Zn carbonate basic (0.075 g, 0.219 mmol), l-aspartic acid (0.175 g, 1.32 mmol), and 4,4′-bipyridyl (0.103 g, ...
+2025-01-05 12:32:35,912 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 days)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2025-01-05 12:32:36,653 - 
+Paragraph: SOGWIV_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 168h (168.0 h)
+Got: 30h (30.0 h)
+Original text: All starting reagents were commercially available and used as received without further purification. Pyridine-2,4,6-tricarboxylic acid was synthesized by the oxidation of 2,4,6-trimethylpyridine by KM...

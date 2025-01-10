@@ -1,0 +1,2 @@
+
+An aqueous solution (1 mL) of H3tci (0.02 mmol) was slowly added dropwise into a methanol solution (5 mL) of Cu(NO3)2·3H2O (0.02 mmol), and then mixed with 0.03 mol L−1methanol solution of CH3ONa (0.05 mL) to give a clear green solution. About three weeks later, good-quality green crystals were obtained from the resultant solution at room temperature. Yield: 24% (based on Cu). Anal. Calcd for C24H40Cu3N6O26 (1019.24): C, 28.26%; H, 3.92%; N, 8.24%. Found: C, 29.17%; H, 3.68%; N, 8.32%. IR (KBr, cm−1): 3430 m (–OH), 1696 s (–CO), 1427 s (–COO−), 1256 s (–C–N), 768 m (–C–C).

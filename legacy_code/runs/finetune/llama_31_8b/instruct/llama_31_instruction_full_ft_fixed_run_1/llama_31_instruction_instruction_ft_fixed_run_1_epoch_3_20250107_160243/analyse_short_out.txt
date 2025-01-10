@@ -1,0 +1,33 @@
+{
+│   'Total': {
+│   │   'temperature': {'wrong': 1.0, 'found_in_text': 0.025974025974025976},
+│   │   'time': {
+│   │   │   'wrong': 1.0,
+│   │   │   'unit': 0.05194805194805195,
+│   │   │   'found_in_text': 0.03896103896103896
+│   │   },
+│   │   'additive': {
+│   │   │   'correct': 0.5454545454545454,
+│   │   │   'wrong': 0.45454545454545453,
+│   │   │   'correct_no_additive': 0.5454545454545454,
+│   │   │   'wrong_no_additive': 0.45454545454545453
+│   │   },
+│   │   'solvent': {'wrong': 1.0, 'found_in_text': 0.5}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'wrong': 1.0, 'found_in_text': 0.025974025974025976},
+│   │   'time': {
+│   │   │   'wrong': 1.0,
+│   │   │   'unit': 0.05194805194805195,
+│   │   │   'found_in_text': 0.03896103896103896
+│   │   },
+│   │   'additive': {
+│   │   │   'correct': 0.5454545454545454,
+│   │   │   'wrong': 0.45454545454545453,
+│   │   │   'correct_no_additive': 0.5454545454545454,
+│   │   │   'wrong_no_additive': 0.45454545454545453
+│   │   },
+│   │   'solvent': {'wrong': 1.0, 'found_in_text': 0.5}
+│   }
+}
+Total no additives: 42
