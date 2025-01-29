@@ -181,6 +181,10 @@ def evaluate(
         bool,
         typer.Option(help="Flag to evaluate only on paragraphs contained in the evaluation set."),
     ] = False,
+    no_labels: Annotated[
+        bool,
+        typer.Option(help="If this flag is set, even paragraphs without labels will be evaluated."),
+    ] = False,
 ):
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -272,7 +276,7 @@ def evaluate(
             print(str(progress_bar))
             paragraph_id = batch["paragraph_id"]
 
-            if paragraph_id not in valid_paragraph_ids:
+            if paragraph_id not in valid_paragraph_ids and not no_labels:
                 log.debug(f"Skipping {paragraph_id}, as it has no labels.")
                 progress_bar.update()
                 continue
