@@ -1,0 +1,72 @@
+Running FullFinetuneRecipeSingleDevice with resolved config:
+
+batch_size: 2
+checkpointer:
+  _component_: torchtune.training.FullModelHFCheckpointer
+  checkpoint_dir: /home/iti/zn2950/home/haicore_ws/base_models/phi-4
+  checkpoint_files:
+  - model-00001-of-00006.safetensors
+  - model-00002-of-00006.safetensors
+  - model-00003-of-00006.safetensors
+  - model-00004-of-00006.safetensors
+  - model-00005-of-00006.safetensors
+  - model-00006-of-00006.safetensors
+  model_type: PHI4
+  output_dir: /hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/phi4/instruction_full_ft/tune_mult_gpus_1_1742051088
+  recipe_checkpoint: null
+compile: true
+dataset:
+  _component_: torchtune.datasets.instruct_dataset
+  data_files: /home/iti/zn2950/home/ws/data/finetune/instruction/train.json
+  packed: true
+  source: json
+  split: train
+device: cuda
+dtype: bf16
+enable_activation_checkpointing: true
+enable_activation_offloading: false
+epochs: 12
+gradient_accumulation_steps: 8
+log_every_n_steps: 1
+log_peak_memory_stats: true
+loss:
+  _component_: torchtune.modules.loss.CEWithChunkedOutputLoss
+max_steps_per_epoch: null
+metric_logger:
+  _component_: torchtune.training.metric_logging.DiskLogger
+  log_dir: /hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/phi4/instruction_full_ft/tune_mult_gpus_1_1742051088/logs
+model:
+  _component_: torchtune.models.phi4.phi4_14b
+optimizer:
+  _component_: torch.optim.AdamW
+  fused: true
+  lr: 5.0e-06
+optimizer_in_bwd: false
+output_dir: /hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/phi4/instruction_full_ft/tune_mult_gpus_1_1742051088
+profiler:
+  _component_: torchtune.training.setup_torch_profiler
+  active_steps: 2
+  cpu: true
+  cuda: true
+  enabled: false
+  num_cycles: 1
+  output_dir: /hkfs/work/workspace_haic/scratch/zn2950-llms/tunes/phi4/instruction_full_ft/tune_mult_gpus_1_1742051088/profiling_outputs
+  profile_memory: false
+  record_shapes: true
+  wait_steps: 5
+  warmup_steps: 3
+  with_flops: false
+  with_stack: false
+resume_from_checkpoint: false
+seed: 42
+shuffle: true
+tokenizer:
+  _component_: torchtune.models.phi4.phi4_tokenizer
+  max_seq_len: 2048
+  merges_path: /home/iti/zn2950/home/haicore_ws/base_models/phi-4/merges.txt
+  vocab_path: /home/iti/zn2950/home/haicore_ws/base_models/phi-4/vocab.json
+
+Hint: enable_activation_checkpointing is True, but enable_activation_offloading isn't. Enabling activation offloading should reduce memory further.
+Setting manual seed to local seed 42. Local seed is seed + rank = 42 + 0
+Converting Phi weights from HF format.Note that conversion of adapter weights into PEFT format is not supported.
+Compiling model layers with torch.compile...
