@@ -27,7 +27,7 @@ model:
 
 # Tokenizer
 tokenizer:
-  _component_: torchtune.models.phi4.phi4_14b_tokenizer
+  _component_: torchtune.models.phi4.phi4_tokenizer
   vocab_path: /home/iti/zn2950/home/haicore_ws/base_models/phi-4/vocab.json
   merges_path: /home/iti/zn2950/home/haicore_ws/base_models/phi-4/merges.txt
   max_seq_len: 2048
@@ -46,7 +46,7 @@ checkpointer:
   ]
   recipe_checkpoint: null
   output_dir: ${output_dir}
-  model_type: PHI3_MINI
+  model_type: PHI4
 resume_from_checkpoint: False
 
 # Dataset
@@ -62,7 +62,7 @@ shuffle: True
 # Fine-tuning arguments
 epochs: 12
 max_steps_per_epoch: null
-batch_size: 2
+batch_size: 1
 gradient_accumulation_steps: 1  # Use to increase effective batch size
 optimizer:
   _component_: bitsandbytes.optim.PagedAdamW
