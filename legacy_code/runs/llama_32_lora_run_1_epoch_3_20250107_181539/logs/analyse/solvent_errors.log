@@ -1,0 +1,12 @@
+2025-01-07 18:17:29,261 - 
+Paragraph: YODRAM_clean
+Model: LLaMa 3.2 1B Instruct
+Expected one of: ['Dimethyl formamide', 'DMF', 'N,N-Dimethyl formamide', 'dimethyl formamid', 'N,N-dimethyl formamid', 'ethanol', 'EtOH', 'Thanol', 'S S']
+Got (Which appears in text!): H2O
+Original text: ‡ Synthesis of [Co9(int)18(H2O)4(H2O)2]·5.5DMF: The mixture of Co(NO3)2·6H2O (0.86 mmol, 0.250 g), isonicotinic acid (IN, 0.85 mmol, 0.104 g) and 4 ml N,N-dimethyl formamide (DMF) and 2 ml EtOH was se...
+2025-01-07 18:17:29,263 - 
+Paragraph: HAFSOZ_clean
+Model: LLaMa 3.2 1B Instruct
+Expected one of: ['DMA', 'H2O']
+Got (Which appears in text!): DMA and H2O
+Original text:   Zn(NO3)2·6H2O (30 mg, 0.1 mmol), HO-H3BTC (11 mg, 0.05 mmol), and 4,4′-bipyridine (7.8 mg, 0.05 mmol) were dissolved in 4 mL of mixed solvent of DMA and H2O (1:1, v/v) in a 10 mL glass vial. After t...

@@ -1,0 +1,54 @@
+2024-12-29 23:07:53,074 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 h)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2024-12-29 23:07:57,454 - 
+Paragraph: IZEWAN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 10h (10.0 hour)
+Original text:   Zn(OAc)2·2H2O (22 mg) and H6L (8 mg) were mixed with 2 ml of 1,4-dioxane/H2O (4:1) in a glass container and tightly capped with a Teflon vial and heated at 100 °C for two days. After cooling to room...
+2024-12-29 23:08:13,126 - 
+Paragraph: ANUGIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 30h (30.0 h)
+Original text: Linker H43 (0.050 g, 0.10 mmol) was added to a solution of 0.005 M HCl in DMF/dioxane/H2O (4:1:1, 10 mL) in a 20-mL scintillation vial. To this mixture, Cu(NO3)2·2.5H2O (0.096 g, 0.41 mmol) was added,...
+2024-12-29 23:08:13,812 - 
+Paragraph: AZAWAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 16h (16.0 h)
+Got: 24h (24.0 h)
+Original text: A 0.02 M stock solution of copper nitrate trihydrate in DEF (0.5 mL) was added to a 8 mL vial, which was preloaded with H6CPB (20 mg, 0.025 mmol). This was followed by the addition of deionized water ...
+2024-12-29 23:08:17,580 - 
+Paragraph: FIHFAF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 60h (60.0 h)
+Got: 68h (68.0 h)
+Original text:   A mixture of Co(NO3)2·6H2O (1.0 mmol, 0.293 g), H3btc (1 mmol, 0.210 g) and Hatz (1 mmol, 0.084 g) in DMF (8 mL) and water (2 mL) was placed in a Teflon-lined stainless steel vessel (15 mL) and heat...
+2024-12-29 23:08:23,577 - 
+Paragraph: UCOCUM_neutral
+Model: LLaMa 3.1 8B Instruct
+Expected: 16h (16.0 h)
+Got: 20h (20.0 h)
+Original text: To 10 mL of distilled water was added Cu(NO3)2·2.5H2O (480 mg, 2.50 mmol) and K5CuPW11O39 (400 mg, 0.14 mmol), and the resulting blue solution was stirred for 10 min. Trimesic acid (420 mg, 2.0 mmol) ...
+2024-12-29 23:08:53,163 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2024-12-29 23:09:12,789 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 days)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2024-12-29 23:09:14,483 - 
+Paragraph: SOGWIV_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 168h (168.0 h)
+Got: 30h (30.0 h)
+Original text: All starting reagents were commercially available and used as received without further purification. Pyridine-2,4,6-tricarboxylic acid was synthesized by the oxidation of 2,4,6-trimethylpyridine by KM...

@@ -1,0 +1,30 @@
+2025-01-06 11:28:42,693 - 
+Paragraph: DUKMON_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 130°C (130.0 C)
+Got: -143°C (130.0 K) - Wrong unit
+Original text: A mixture of Co(Ac)2·4H2O (0.0498 g, 0.1 mmol), L (0.0446 g, 0.1 mmol), pbib (0.0476 g, 0.1 mmol), NaOH (0.0160 g, 0.4 mmol), and H2O (8 mL) was placed in a 25 mL Teflon-lined stainless steel containe...
+2025-01-06 11:28:45,308 - 
+Paragraph: PUWXAH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 220°C (220.0 C)
+Got: -53°C (220.0 K) - Wrong unit
+Original text:   A mixture of H3btc (0.84 g, 4 mmol) and NaOH (0.48 g, 12 mmol) in 10 ml distilled water was stirred for 1 h, followed by addition of a solution of MnCl2·H20 (0.25 g, 1.26 mmol) in 5 ml H2O. The resu...
+2025-01-06 11:28:54,854 - 
+Paragraph: HUVNAP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 100°C (100.0 C)
+Got: -173°C (100.0 K) - Wrong unit
+Original text: BaCl2·2H2O (0.020 g, 0.12 mmol), H4L (0.013 g, 0.03 mmol), FeCl3·6H2O (0.009 g, 0.03 mmol), NaCl (0.004 g, 0.06 mmol), N,N-dimethylformamide (DMF) (1 mL), EtOH (4 mL), and water (2 mL) were mixed to o...
+2025-01-06 11:28:57,871 - 
+Paragraph: WEZCIO_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120°C (120.0 C)
+Got: -153°C (120.0 K) - Wrong unit
+Original text: La2O3 (98 mg, 0.3 mmol), Co(COOCH3)2 ·  4H2O (224 mg, 0.9 mmol) and 2,2′-oxydiacetic acid (322 mg, 2.4 mmol) were mixed in 30 mL water. The mixture was placed in a Teflon-lined 45 mL stainless steel a...
+2025-01-06 11:29:01,514 - 
+Paragraph: WISVEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 85°C (85.0 C)
+Got: -188°C (85.0 K) - Wrong unit
+Original text: Synthesis: A mixture of H4ABTC (8.95 mg, 0.025 mmol), Cd(NO3)2·4H2O (18.5 mg, 0.06 mmol), L‐glutamic acid (14.7 mg, 0.1 mmol), 0.5 mL H2O, a few drops of HNO3 (2.5 M), and 2 mL DMA was stirred for 20 ...

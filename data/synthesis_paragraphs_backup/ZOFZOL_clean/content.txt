@@ -1,0 +1,2 @@
+
+A mixture of Co(NO3)2·6H2O (10 mg, 0.034 mmol), H4TADIP (5 mg, 0.013 mmol) and AcOH (50 μL) in DEF (1 mL) was added to a 20 mL vial, then the solution was heated at 110 °C for 48 h to give colourless block-shaped crystals. Anal. Calcd for C35.5H45.5Co2N6.5O11.5: C, 49.28; H, 5.30; N, 10.52%. Found: C, 48.60; H, 5.759; N, 10.33%. IR spectrum (KBr, cm−1): 3405 (br), 3094 (w), 2977 (m), 2938 (w), 2884 (w), 1631 (s), 1592 (m), 1452 (s), 1382 (s), 1304 (w), 1265 (m), 1211 (m), 1118 (w), 1109 (w), 1051(w), 1028 (w), 998 (w).

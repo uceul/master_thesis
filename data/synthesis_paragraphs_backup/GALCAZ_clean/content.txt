@@ -1,0 +1,2 @@
+
+A mixture of Zn(NO3)2·6H2O (0.0208 g, 0.07 mmol), Hpnta (0.0201 g, 0.1 mmol), TEA (0.045 ml), DMF (2 ml) and ethanol (1 ml) was stirred for 10 min and transferred to a Teflon reactor (20 ml) and heated at 90 °C for 3 d. After cooling to room temperature, colorless crystals of 2 were obtained with 43% yield based on Hpnta. Anal. calcd for C39H36Zn2N8O9 (Mr = 891.50): C, 52.54; H, 4.07; N, 12.57%. Found: C, 52.65; H, 4.15; N, 12.52%. IR (cm−1): 3256(m), 2930(m), 1617(s), 1601(s), 1577(s), 1397(m), 1169(w), 1071(w), 1022(w), 843(w), 794(m), 770(m), 541(w), 476(w).

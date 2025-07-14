@@ -1,0 +1,12 @@
+2025-01-06 19:21:18,723 - 
+Paragraph: LUMZEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 50h (50.0 h)
+Got: 30h (30.0 h\\n\\n)
+Original text:   A mixture of 1H-1,2,4-triazole (13.8 mg, 0.2 mmol), maleic acid (23.2 mg, 0.2 mmol) and Cu(OAc)2·H2O (60 mg, 0.3 mmol) was dissolved in 6 mL deionized water and stirred for 10 min at room temperatur...
+2025-01-06 19:21:36,574 - 
+Paragraph: GUJREK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 5h (5.0 h)
+Got: 120h (120.0 h)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...

@@ -1,0 +1,2 @@
+
+A mixture of ZnCl2 (0.020 g, 0.15 mmol), H4L1 (0.023 g, 0.05 mmol), H2O (3 mL), and MeCN (3 mL) was sealed in a Teflon-lined stainless steel vessel (15 mL), which was heated at 120 °C for 3 days and then cooled to room temperature at a rate of 10 °C h−1. Colorless block crystals of 2 were collected in 65% yield (0.019 g, based on H4L1). Anal. Calcd for C24H22O13Zn: C, 49.37; H, 3.79%. Found: C, 49.43; H, 3.96%. IR (KBr pellet, cm−1): 3456 m, 3079 w, 2949 w, 2880 w, 1683 s, 1589 s, 1458 s, 1401 s, 1367 s, 1294 s, 1036 s, 763 s, 706 m.

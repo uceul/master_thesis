@@ -1,0 +1,23 @@
+2025-01-06 20:14:55,104 INFO     Loading settings and stats
+2025-01-06 20:14:55,104 INFO     Using prompt: Extract these synthesis conditions from the following Metal-Organic Framework (MOF) synthesis description: temperature (highest reaction temp, use 25°C if not specified), time (longest duration at highest temp), choose one main solvent (no mixtures or ratios), choose one chemical additive (write 'None' if no additive present). Never use JSON formatting like curly braces, escape characters, or newlines in your responses. Answers should be plain text values only., temperature: 0.0
+2025-01-06 20:14:55,107 DEBUG    Settings loaded. CSV path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 20:14:55,107 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201451.yml'
+2025-01-06 20:14:55,107 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201451.yaml'
+2025-01-06 20:14:55,108 WARNING  Could not load 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201451.yml', creating it (empty)
+2025-01-06 20:14:55,112 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 20:14:55,117 INFO     Found 778 paragraphs with labels
+2025-01-06 20:14:55,117 DEBUG    First few valid IDs: ['HUCFAO_clean', 'YOKKIU_clean', 'TEVHEJ_clean', 'JELPAS_clean', 'WIJXEU_clean']
+2025-01-06 20:14:55,117 INFO     Loading evaluation set instead of regular dataset.
+2025-01-06 20:14:55,117 DEBUG    Already evaluated: 0 items
+2025-01-06 20:14:55,117 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs
+2025-01-06 20:14:55,117 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs'
+2025-01-06 20:14:55,121 INFO     Dataset loaded with 77 items
+2025-01-06 20:14:55,121 INFO     Found 77 paragraphs that have labels in dataset
+2025-01-06 20:14:55,121 DEBUG    First few overlapping IDs: ['IVARUT_clean', 'TEVHEJ_clean', 'BAZFUF_clean', 'XUKNIC_clean', 'HOZFIN_clean']
+2025-01-06 20:14:55,121 INFO     Processing model: LLaMa 3.1 8B
+2025-01-06 20:14:55,121 INFO     Skipping model [LLaMa 3.1 8B]
+2025-01-06 20:14:55,121 INFO     Processing model: LLaMa 3.1 8B Instruct
+2025-01-06 20:14:55,123 INFO       0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+2025-01-06 20:14:55,123 INFO     Loading Model [LLaMa 3.1 8B Instruct] from /home/iti/zn2950/home/haicore_ws/tunes/llama31_8b/instruction_full_ft/run_1_1736114112/epoch_2
+2025-01-06 20:14:55,771 INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-01-06 20:15:11,463 INFO     Saving progress to `stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201451.yml`

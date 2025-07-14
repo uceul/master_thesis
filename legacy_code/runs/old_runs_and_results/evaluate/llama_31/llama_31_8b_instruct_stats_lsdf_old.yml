@@ -1,0 +1,180 @@
+- answer:
+    additive: HNO3
+    solvent: 'DMF/H2O (3 mL, '
+    temperature: 70.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LUSYEF_clean
+- answer:
+    additive: hmq (2-(hydroxymethyl)-
+    solvent: EtOH
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 96.0
+    time_unit: hours
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LASMAV_neutral
+- answer:
+    additive: H3TMBTC
+    solvent: EtOH/H2O
+    temperature: 180.0
+    temperature_unit: "\xB0C"
+    time: 12.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: DOKHOB_clean
+- answer:
+    additive: H3PO3, piperazine
+    solvent: deionized water
+    temperature: 150.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAVFUM_clean
+- answer:
+    additive: 'Co(NO3)\\u00b6 '
+    solvent: DMF, ethanol, H2O (0
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ADARAA_clean
+- answer:
+    additive: HNO3
+    solvent: DMF
+    temperature: 110.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LUZJAT_clean
+- answer:
+    additive: HF
+    solvent: water
+    temperature: 220.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: hours
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: MAYJOM_clean
+- answer:
+    additive: l-methionine
+    solvent: DMF
+    temperature: 80.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ZUDRAT_clean
+- answer:
+    additive: HCl
+    solvent: EtOH:DMF=4:1
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: GERWIL_charged
+- answer:
+    additive: HNO3
+    solvent: DMF:EtOH:H2O
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 12.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: RUVKAV_clean
+- answer:
+    additive: DMF
+    solvent: DMF
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 20.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: SONTIZ_clean
+- answer:
+    additive: "Co(CH3COO)2\u22C5"
+    solvent: water
+    temperature: 180.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: WEVQOD01_clean
+- answer:
+    additive: "Zn(OAc)2\xB72H2"
+    solvent: H2O
+    temperature: 90.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: REYPES_clean
+- answer:
+    additive: dmurea
+    solvent: DMA
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: MEJQID_clean
+- answer:
+    additive: Cu(NO3)2\u20073H2
+    solvent: 'DMF methanol H2O (1:'
+    temperature: 60.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: RUFZID_clean
+- answer:
+    additive: H2O/CH3OH
+    solvent: '1 (Solvothermal Method): A mixture of'
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NEFTUP_clean
+- answer:
+    additive: DMA
+    solvent: water
+    temperature: 105.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NUCPIM_clean
+- answer:
+    additive: H3tzdc
+    solvent: water
+    temperature: 150.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: WARJAC_clean
+- answer:
+    additive: HNO3 in EtOH
+    solvent: DMF
+    temperature: 80.0
+    temperature_unit: "\xB0C"
+    time: 2.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: FIHHOV_clean
+- answer:
+    additive: Zn(NO3)2\u22c66
+    solvent: DMA
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 4.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: UWELIS_clean

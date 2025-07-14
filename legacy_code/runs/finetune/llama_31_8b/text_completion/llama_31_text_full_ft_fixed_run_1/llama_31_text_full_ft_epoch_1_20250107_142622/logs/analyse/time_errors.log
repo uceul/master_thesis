@@ -1,0 +1,18 @@
+2025-01-07 14:28:53,986 - 
+Paragraph: LUMZEA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 50h (50.0 h)
+Got: 3h (180.0 min)
+Original text:   A mixture of 1H-1,2,4-triazole (13.8 mg, 0.2 mmol), maleic acid (23.2 mg, 0.2 mmol) and Cu(OAc)2·H2O (60 mg, 0.3 mmol) was dissolved in 6 mL deionized water and stirred for 10 min at room temperatur...
+2025-01-07 14:28:55,334 - 
+Paragraph: YODRAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 48h (2.0 days)
+Original text: ‡ Synthesis of [Co9(int)18(H2O)4(H2O)2]·5.5DMF: The mixture of Co(NO3)2·6H2O (0.86 mmol, 0.250 g), isonicotinic acid (IN, 0.85 mmol, 0.104 g) and 4 ml N,N-dimethyl formamide (DMF) and 2 ml EtOH was se...
+2025-01-07 14:28:57,699 - 
+Paragraph: DEGPEL_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 120h (120.0 h)
+Got: 288h (288.0 h)
+Original text: (c) [Cu2(μ3-trz)(μ3-Cl)2] (3). A mixture of CuCl2·2H2O (0.34 g, 1.0 mmol) and 1,2,4-triazole (0.069 g, 2.0 mmol) in 10 mL of H2O was introduced into a Parr Teflon-lined stainless steel vessel (25 cm3)...

@@ -1,0 +1,1869 @@
+
+
+/home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/datasets/synthesis_paragraphs/../results/SynMOF_A_out.csv
+/home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/datasets/synthesis_paragraphs/../results/SynMOF_M_out.csv
+  0%|          | 0/905 [00:00<?, ?it/s, Configuring Dataset Labels]
+  0%|          | 1/905 [00:02<31:29,  2.09s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:04<30:58,  2.06s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:04<30:58,  2.06s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:04<30:58,  2.06s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:04<30:58,  2.06s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:04<30:58,  2.06s/it, Configuring Dataset Labels]
+  1%|          | 7/905 [00:05<10:03,  1.49it/s, Configuring Dataset Labels]
+  1%|          | 7/905 [00:05<10:03,  1.49it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:06<09:08,  1.63it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:06<09:08,  1.63it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:06<09:08,  1.63it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:06<09:08,  1.63it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:06<09:08,  1.63it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:08<06:42,  2.22it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:08<06:42,  2.22it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:08<06:42,  2.22it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:08<06:42,  2.22it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:09<05:27,  2.71it/s, Configuring Dataset Labels]
+  3%|▎         | 25/905 [00:10<03:46,  3.88it/s, Configuring Dataset Labels]
+  3%|▎         | 25/905 [00:10<03:46,  3.88it/s, Configuring Dataset Labels]
+  3%|▎         | 27/905 [00:11<04:03,  3.61it/s, Configuring Dataset Labels]
+  3%|▎         | 27/905 [00:11<04:03,  3.61it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:11<04:21,  3.35it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:12<01:42,  8.41it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:12<01:42,  8.41it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:12<01:42,  8.41it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:12<01:42,  8.41it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:12<01:42,  8.41it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:13<01:49,  7.80it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  7%|▋         | 60/905 [00:14<01:51,  7.59it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:15<01:24,  9.83it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:16<01:18, 10.42it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:16<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:16<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:17<01:03, 12.71it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:17<01:05, 12.28it/s, Configuring Dataset Labels]
+ 13%|█▎        | 118/905 [00:18<01:02, 12.66it/s, Configuring Dataset Labels]
+ 13%|█▎        | 118/905 [00:19<01:02, 12.66it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:19<01:19,  9.82it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:20<00:41, 18.36it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 17%|█▋        | 157/905 [00:20<00:48, 15.41it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:21<00:47, 15.43it/s, Configuring Dataset Labels]
+ 21%|██        | 190/905 [00:22<00:37, 19.20it/s, Configuring Dataset Labels]
+ 21%|██        | 190/905 [00:22<00:37, 19.20it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:23<00:52, 13.56it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:24<00:53, 13.18it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:24<00:53, 13.18it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:24<00:53, 13.18it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:24<00:53, 13.18it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:24<00:53, 13.18it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:24<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:24<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:24<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:24<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:25<01:01, 11.29it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:25<00:16, 39.12it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 31%|███       | 282/905 [00:25<00:18, 33.46it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 36%|███▌      | 324/905 [00:26<00:14, 40.94it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:26<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 43%|████▎     | 386/905 [00:27<00:06, 75.40it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:27<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:28<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:28<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:28<00:08, 58.09it/s, Configuring Dataset Labels]
+ 46%|████▌     | 412/905 [00:28<00:08, 58.09it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:28<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 48%|████▊     | 432/905 [00:29<00:10, 44.50it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 49%|████▉     | 446/905 [00:29<00:12, 36.64it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 56%|█████▌    | 506/905 [00:29<00:05, 69.60it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 59%|█████▉    | 532/905 [00:29<00:06, 56.68it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:30<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:31<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:31<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:31<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:31<00:06, 54.41it/s, Configuring Dataset Labels]
+ 64%|██████▍   | 577/905 [00:31<00:06, 54.41it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 65%|██████▌   | 592/905 [00:31<00:07, 42.98it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:32<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:33<00:07, 38.49it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:33<00:07, 38.49it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 625/905 [00:33<00:09, 29.54it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:34<00:08, 30.63it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:35<00:08, 27.55it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:35<00:07, 27.89it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:35<00:07, 27.89it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:36<00:07, 27.89it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:36<00:07, 27.89it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:36<00:09, 22.21it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:37<00:04, 35.03it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 772/905 [00:38<00:04, 28.21it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 772/905 [00:39<00:04, 28.21it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 772/905 [00:39<00:04, 28.21it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 772/905 [00:40<00:04, 28.21it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 776/905 [00:40<00:07, 16.90it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 789/905 [00:41<00:07, 15.20it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [00:41<00:06, 15.62it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:42<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 90%|█████████ | 816/905 [00:43<00:06, 14.79it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [00:43<00:00, 38.37it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:44<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 896/905 [00:45<00:00, 24.28it/s, Configuring Dataset Labels]
+Processing: NAVFUM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'FeC2O4·2H2O', 'solvent': 'deionized water', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [NAVFUM_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for NAVFUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WEVQOD01_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(H2O)6][CoG', 'solvent': 'deionized water', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [WEVQOD01_clean] 20 != 1 | 20.0 h != None h
+Error processing evaluation for WEVQOD01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUCPIM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PAFMUH_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 110, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(NO3)2', 'solvent': 'MeOH', 'temperature': 110000.0, 'temperature_unit': '°C', 'time': 300000.0, 'time_unit': 's'}
+duration [PAFMUH_clean] 83 != 72 | 300000.0 s != 72 h
+Processing: TACFIN01_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'zinc oxide', 'solvent': 'doubly distilled water', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [TACFIN01_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for TACFIN01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for COXQUB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: DEKPEP_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ga2(SO4)3', 'solvent': 'distilled water', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'days'}
+duration [DEKPEP_clean] 288 != 1 | 12.0 days != None h
+Error processing evaluation for DEKPEP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WAVREQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(en)3Cl3·2H', 'solvent': 'deionized water', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 70.0, 'time_unit': 'h'}
+duration [WAVREQ_clean] 70 != 1 | 70.0 h != None h
+Error processing evaluation for WAVREQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ELOZIQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 31374, 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': 100, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2ipa', 'solvent': 'DMA=N,N-dimethy', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 3.0013, 'time_unit': 'days'}
+duration [ELOZIQ_clean] 72312 != 72 | 3.0013 days != 72 h
+Processing: XAJZOY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Al(OiPr)3', 'solvent': 'water', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 60.0, 'time_unit': 'h'}
+duration [XAJZOY_clean] 60 != 1 | 60.0 h != None h
+Error processing evaluation for XAJZOY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LEQVIN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'N-(2-aminoethyl)-1', 'solvent': 'butanol', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [LEQVIN_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for LEQVIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AZAWAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: CIFMIP_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 120, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'DMF', 'temperature': 393.05, 'temperature_unit': 'K', 'time': 2.0581, 'time_unit': 'd'}
+duration [CIFMIP_clean] 61944 != 48 | 2.0581 d != 48 h
+Processing: RUYZUH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Na2MoO4·2H2O', 'solvent': 'ethylene diamine tetraacetic acid', 'temperature': 180000.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [RUYZUH_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for RUYZUH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QUHMOX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 679, 'solvent': 'DMSO', 'temperature': 140, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Gd2(SO4)3·8', 'solvent': 'HCOOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 680000.0, 'time_unit': 'h'}
+duration [QUHMOX_clean] 680000 != 48 | 680000.0 h != 48 h
+Processing: VEHLEA_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'B. HN(CH3)3]', 'solvent': 'ethylene glycol', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [VEHLEA_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for VEHLEA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SOGXAP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUGXOX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeSO4·4H2O', 'solvent': 'methanol', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 9.0, 'time_unit': 'd'}
+duration [GUGXOX_clean] 216 != 1 | 9.0 d != None h
+Error processing evaluation for GUGXOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZOZPUB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 120, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 60.0, 'time_unit': 'h'}
+duration [ZOZPUB_clean] 60 != 36 | 60.0 h != 36 h
+Processing: OHOLIH_clean, LLaMa 2 7B
+Label: {'additive_cid': 8471, 'additive': 'NEt3', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 110, 'time': 20, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(2,7)', 'solvent': 'DMF', 'temperature': 110000.0, 'temperature_unit': '°C', 'time': 200000.0, 'time_unit': 'h'}
+duration [OHOLIH_clean] 200000 != 20 | 200000.0 h != 20 h
+Processing: WOXKOL_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 130, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'H2O/DMF', 'temperature': 130.0, 'temperature_unit': 'degree(C)', 'time': 1.4667, 'time_unit': 'hour'}
+duration [WOXKOL_clean] 4667 != 24 | 1.4667 hour != 24 h
+Processing: VOCCOH_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 160, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [VOCCOH_clean] 24 != 72 | 24.0 h != 72 h
+Processing: LADWAR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'C12H22N2O1', 'solvent': 'H2O', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [LADWAR_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for LADWAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FEYDET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LATPIG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EXOZIB_clean, LLaMa 2 7B
+Label: {'additive_cid': 10942334, 'additive': 'CH3ONa', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 25, 'time': 504, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3tci', 'solvent': 'methanol', 'temperature': 20.067, 'temperature_unit': '°C', 'time': 21.554, 'time_unit': 'd'}
+duration [EXOZIB_clean] 13296 != 504 | 21.554 d != 504 h
+Error processing evaluation for DUPJAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUNZUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: HOXRUJ_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 120, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'K4pztc', 'solvent': 'H2O', 'temperature': 120.05, 'temperature_unit': '°C', 'time': 48.056, 'time_unit': 'h'}
+duration [HOXRUJ_clean] 4856 != 48 | 48.056 h != 48 h
+Processing: KAVGAQ_clean, LLaMa 2 7B
+Label: {'additive_cid': 8471, 'additive': 'Et3N', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 160, 'time': 96, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2·6H2', 'solvent': 'distilled water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [KAVGAQ_clean] 48 != 96 | 48.0 h != 96 h
+Processing: WACKOB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'H3PO4', 'temperature': 175.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [WACKOB_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for WACKOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EKUPEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ILEPEW_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 160, 'time': 12, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ba(NO3)2', 'solvent': 'H2O and DMF', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [ILEPEW_clean] 72 != 12 | 72.0 h != 12 h
+Processing: UXISUR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'sodium salt of trimesic acid', 'solvent': 'DI water and EtOH', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [UXISUR_clean] 96 != 1 | 4.0 days != None h
+Processing: ADASIJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 115, 'time': 23, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASIJ_clean] 12 != 23 | 12.0 h != 23 h
+Error processing evaluation for ALIXOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VIDJID_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NEZBOK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnOx', 'solvent': 'deionized water', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [NEZBOK_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for NEZBOK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GEZRAG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 887, 'solvent': 'MeOH', 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(Ac)2⋅4H2O', 'solvent': 'MeOH', 'temperature': 393.01, 'temperature_unit': 'K', 'time': 72.015, 'time_unit': 'h'}
+duration [GEZRAG_clean] 7215 != 72 | 72.015 h != 72 h
+Error processing evaluation for WUSLED_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SOGWIV_charged, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 702, 'solvent': 'C2H5OH', 'temperature': 165, 'time': 168, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'pyridine-2,4,6-', 'solvent': 'C2H5OH', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [SOGWIV_charged] 30 != 168 | 30.0 h != 168 h
+Error processing evaluation for VIXTUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ADASUV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 105, 'time': 23, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2⋅6 H2', 'solvent': 'DMF/NMP', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASUV_clean] 12 != 23 | 12.0 h != 23 h
+Error processing evaluation for ITIPAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: RIFQUT_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [RIFQUT_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for RIFQUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUPXII01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUNBIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: OREZUI_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn3(BDC)2(H', 'solvent': 'methanol', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [OREZUI_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for OREZUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XOTSEG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 90, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'DMF', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 800.0, 'time_unit': 'min'}
+duration [XOTSEG_clean] 13 != 48 | 800.0 min != 48 h
+Error processing evaluation for FAHQIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KAKCAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NIMPEG01_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4pbtd-OMe', 'solvent': 'N,N-dimethylacetam', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [NIMPEG01_clean] 72 != 1 | 72.0 h != None h
+Processing: HULTEN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'phosphoric acid', 'solvent': 'tetramethylammonium hydrox', 'temperature': 463.0, 'temperature_unit': 'K', 'time': 4.0, 'time_unit': 'days'}
+duration [HULTEN_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for HULTEN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PENZIS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': "4,4'-(C5H4N", 'solvent': 'water', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'days'}
+duration [PENZIS_clean] 240 != 1 | 10.0 days != None h
+Error processing evaluation for PENZIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EXOFIH_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 31374, 'solvent': 'Dimethyl acetamide', 'temperature': 105, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4btec', 'solvent': 'DMA', 'temperature': 358.53, 'temperature_unit': 'K', 'time': 21.066, 'time_unit': 'h'}
+duration [EXOFIH_clean] 2166 != 36 | 21.066 h != 36 h
+Error processing evaluation for KUKQAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XADDOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EBUREA_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 65, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'aqueous solution', 'temperature': 65.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'h'}
+duration [EBUREA_clean] 7 != 48 | 7.0 h != 48 h
+Processing: FIVQOR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ga2O3', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [FIVQOR_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for FIVQOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NOQKUB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 180, 'time': 144, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2⋅6 H2O', 'solvent': 'H2O/glycol (14:', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [NOQKUB_clean] 20 != 144 | 20.0 h != 144 h
+Processing: IWAHUK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(BDC-OH)(TED', 'solvent': 'DMF', 'temperature': 373000.0, 'temperature_unit': 'K', 'time': 2.0, 'time_unit': 'd'}
+duration [IWAHUK_clean] 48 != 1 | 2.0 d != None h
+Error processing evaluation for IWAHUK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EDOYOL_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'H3PO4', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 14.0, 'time_unit': 'min'}
+duration [EDOYOL_clean] 0 != 1 | 14.0 min != None h
+Error processing evaluation for EDOYOL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: UBIPAY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2L', 'solvent': 'DMF/H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'days'}
+duration [UBIPAY_clean] 240 != 1 | 10.0 days != None h
+Processing: UCAJUF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)·6H2', 'solvent': 'DMF/EtOH/H2O', 'temperature': 80.0, 'temperature_unit': 'degreeCelsius', 'time': 48.0, 'time_unit': 'hour'}
+duration [UCAJUF_clean] 48 != 1 | 48.0 hour != None h
+Processing: CUTBIE_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 105, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 36.0, 'time_unit': 'h'}
+duration [CUTBIE_clean] 36 != 24 | 36.0 h != 24 h
+Processing: SUKMAO_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 90, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/MeOH/H2O', 'temperature': 363000.0, 'temperature_unit': 'K', 'time': 48000.0, 'time_unit': 'h'}
+duration [SUKMAO_clean] 48000 != 48 | 48000.0 h != 48 h
+Processing: HEZNUW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'H3PO4', 'temperature': 168.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [HEZNUW_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for HEZNUW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: IXEJOL_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'C50H100N10', 'solvent': 'water', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [IXEJOL_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for IXEJOL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ATIBOU02_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUFKIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: REKCUG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 120.0, 'time_unit': 'h'}
+duration [REKCUG_clean] 120 != 1 | 120.0 h != None h
+Error processing evaluation for REKCUG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: RORVAX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '1-Zn', 'solvent': 'MeOH', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 18.0, 'time_unit': 'h'}
+duration [RORVAX_clean] 18 != 1 | 18.0 h != None h
+Error processing evaluation for RORVAX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BASSOF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ce(NO3)3·6H', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [BASSOF_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for BASSOF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NIMPOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4pbtd-OEt', 'solvent': 'N,N-dimethylacetam', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [NIMPOQ_clean] 72 != 1 | 72.0 h != None h
+Processing: WOWGUK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2', 'solvent': '1 M H3PO4', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [WOWGUK_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for WOWGUK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIBFUS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 160, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'timpt', 'solvent': 'water/ethanol (6:1,', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 15.0, 'time_unit': 'min'}
+duration [FIBFUS_clean] 0 != 72 | 15.0 min != 72 h
+Processing: CEYPUT_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'HIN', 'solvent': 'DMF', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'd'}
+duration [CEYPUT_clean] 72 != 1 | 3.0 d != None h
+Error processing evaluation for CEYPUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EJOQUR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 85, 'time': 16, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L2', 'solvent': 'DMF', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [EJOQUR_clean] 72 != 16 | 72.0 h != 16 h
+Processing: OFIWIK_charged, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'cyclohexylamine', 'solvent': 'water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [OFIWIK_charged] 120 != 1 | 5.0 days != None h
+Error processing evaluation for OFIWIK_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: AHAMAY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3L', 'solvent': 'deionised water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [AHAMAY_clean] 72 != 1 | 3.0 days != None h
+Processing: CIXCOC_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'mixed solvent of H2O (1', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [CIXCOC_clean] 72 != 1 | 3.0 days != None h
+Processing: NOQKOV_clean, LLaMa 2 7B
+Label: {'additive_cid': 8471, 'additive': 'TRIETHYLAMINE', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 160, 'time': 12, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2⋅6 H2O', 'solvent': 'deionized water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [NOQKOV_clean] 20 != 12 | 20.0 h != 12 h
+Processing: PIHWOU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'III', 'solvent': 'methanol', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [PIHWOU_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for PIHWOU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DUFXOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SAMXUC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VOXTUZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Beryllium sulfate', 'solvent': 'methanol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'days'}
+duration [VOXTUZ_clean] 240 != 1 | 10.0 days != None h
+Error processing evaluation for VOXTUZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LEVBAQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Indium nitrate', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 8.0, 'time_unit': 'days'}
+duration [LEVBAQ_clean] 192 != 1 | 8.0 days != None h
+Error processing evaluation for LEVBAQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LAVMAY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnCO3⋅2 Zn(OH', 'solvent': 'methanol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [LAVMAY_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for LAVMAY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LEVNOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 110, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mg3(ndc)3(dm', 'solvent': 'dmf', 'temperature': 383.07, 'temperature_unit': 'K', 'time': 24.056, 'time_unit': 'h'}
+duration [LEVNOQ_clean] 2456 != 24 | 24.056 h != 24 h
+Processing: NAGCAB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Na2MoO4·2H2O', 'solvent': 'water', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [NAGCAB_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for NAGCAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ORUKOD_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 100, 'time': 60, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ba3L(DMF)(H2', 'solvent': 'DMF', 'temperature': 373000.0, 'temperature_unit': 'K', 'time': 60000.0, 'time_unit': 'h'}
+duration [ORUKOD_clean] 60000 != 60 | 60000.0 h != 60 h
+Processing: YIJCEB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'polymeric nickel cyanide hyd', 'solvent': 'DMSO', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [YIJCEB_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for YIJCEB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IKUTIT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XUDYOM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 130, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'In(NO3)3·xH2', 'solvent': 'DMF', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [XUDYOM_clean] 24 != 48 | 24.0 h != 48 h
+Error processing evaluation for TEVHEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VOXVEL_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeSO4·4H2O', 'solvent': 'n-butanol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [VOXVEL_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for VOXVEL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUZLAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: OMAMEU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2⋅2 H', 'solvent': 'H2O', 'temperature': 110.0, 'temperature_unit': '°C', 'time': 26.0, 'time_unit': 'h'}
+duration [OMAMEU_clean] 26 != 1 | 26.0 h != None h
+Error processing evaluation for OMAMEU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SUNLAP_clean, LLaMa 2 7B
+Label: {'additive_cid': 222, 'additive': 'NH3', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 80, 'time': 336, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'R-H4L', 'solvent': 'dmf/H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [SUNLAP_clean] 48 != 336 | 2.0 days != 336 h
+Processing: JESDIV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ga2O3', 'solvent': 'H3PO3', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'minutes'}
+duration [JESDIV_clean] 0 != 1 | 30.0 minutes != None h
+Error processing evaluation for JESDIV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WOBHOM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'L-proline', 'solvent': 'ethanol', 'temperature': 30.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [WOBHOM_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for WOBHOM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BOZFIH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(NO3)2·4H', 'solvent': 'DMF', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [BOZFIH_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for BOZFIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: DINNIZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 90, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Adipic acid', 'solvent': 'DMF and ethanol', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'h'}
+duration [DINNIZ_clean] 6 != 24 | 6.0 h != 24 h
+Error processing evaluation for DINNIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PELXIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VEHLIE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2N(CH3)2', 'solvent': 'HPO3', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [VEHLIE_clean] 120 != 1 | 5.0 days != None h
+Processing: TAPXIT01_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2OBA', 'solvent': 'DMF/Ethanol (6:6', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [TAPXIT01_clean] 72 != 1 | 3.0 days != None h
+Processing: WECBAJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2', 'solvent': 'ethylene glycol/water', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [WECBAJ_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for WECBAJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XAWBEE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'InCl3', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [XAWBEE_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for XAWBEE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZIKJOU_clean, LLaMa 2 7B
+Label: {'additive_cid': 28118, 'additive': 'HBF4', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 75, 'time': 60, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'CH3OH', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [ZIKJOU_clean] 30 != 60 | 30.0 h != 60 h
+Processing: UGOFED_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2TCPP', 'solvent': 'DMF', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 15.0, 'time_unit': 'h'}
+duration [UGOFED_clean] 15 != 1 | 15.0 h != None h
+Error processing evaluation for UGOFED_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: CIMTEZ_charged, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'NdCl3·6H2O', 'solvent': 'THF, DMF, EtOH', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [CIMTEZ_charged] 48 != 1 | 2.0 days != None h
+Error processing evaluation for UKOLOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WUCRUH_clean, LLaMa 2 7B
+Label: {'additive_cid': 14797, 'additive': 'KOH', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 180, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'iron powder (Riedel-de', 'solvent': 'H2O', 'temperature': 453000.0, 'temperature_unit': 'K', 'time': 4.0, 'time_unit': 'minutes'}
+duration [WUCRUH_clean] 0 != 48 | 4.0 minutes != 48 h
+Processing: ZOJWAY_clean, LLaMa 2 7B
+Label: {'additive_cid': 28118, 'additive': 'HBF4', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 60, 'time': 4, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/H2O', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [ZOJWAY_clean] 24 != 4 | 24.0 h != 4 h
+Processing: FORXIU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'CH3CN', 'temperature': 110.0, 'temperature_unit': '°C', 'time': 9.0, 'time_unit': 'days'}
+duration [FORXIU_clean] 216 != 1 | 9.0 days != None h
+Error processing evaluation for FORXIU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: YIZJEY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [YIZJEY_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for YIZJEY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: INIXOT_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MgCl2·6H2O', 'solvent': 'deionized water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [INIXOT_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for INIXOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BOWRAH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'FeCl3·6H2O', 'solvent': 'H2O', 'temperature': 443.07, 'temperature_unit': 'K', 'time': 8.0, 'time_unit': 'days'}
+duration [BOWRAH_clean] 192 != 1 | 8.0 days != None h
+Error processing evaluation for BOWRAH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: COJGEO_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 100, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'DMF/H2O', 'temperature': 373000.0, 'temperature_unit': 'K', 'time': 240000.0, 'time_unit': 'h'}
+duration [COJGEO_clean] 240000 != 24 | 240000.0 h != 24 h
+Processing: IRAYOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'V2O5', 'solvent': 'deionized water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [IRAYOQ_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for IRAYOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GIQZIQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 110, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mg3(ndc)3(dm', 'solvent': 'dmf', 'temperature': 383.05, 'temperature_unit': 'K', 'time': 24.096, 'time_unit': 'h'}
+duration [GIQZIQ_clean] 2496 != 24 | 24.096 h != 24 h
+Processing: BOWSUC_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'V2O5/H3PO3/', 'solvent': 'distilled water', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [BOWSUC_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for BOWSUC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: UVEXAV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ga2(OH)4[C9', 'solvent': 'H2O', 'temperature': 210.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [UVEXAV_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for UVEXAV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DARBUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QOCBUH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Hpy·Be3(OH)(HPO', 'solvent': 'pyridine and isopropyl alcohol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'd'}
+duration [QOCBUH_clean] 144 != 1 | 6.0 d != None h
+Processing: FEJDII_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'H3PO3', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [FEJDII_clean] 96 != 1 | 4.0 days != None h
+Processing: TEZKAM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)⋅6H2', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [TEZKAM_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for TEZKAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QESRAI_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'deionized water and 0.22', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 28.0, 'time_unit': 'h'}
+duration [QESRAI_clean] 28 != 1 | 28.0 h != None h
+Processing: PASNAA01_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 100, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'H6L', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [PASNAA01_clean] 24 != 48 | 24.0 h != 48 h
+Error processing evaluation for QIYCIM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIRMOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: AQEFOS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mo', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [AQEFOS_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for AQEFOS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PETNOS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'InCl3', 'solvent': 'H3PO3', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [PETNOS_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for PETNOS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CUYQIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SERCEZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2(BPDC–OH)', 'solvent': 'DMF', 'temperature': 368.0, 'temperature_unit': 'K', 'time': 16.0, 'time_unit': 'h'}
+duration [SERCEZ_clean] 16 != 1 | 16.0 h != None h
+Error processing evaluation for SERCEZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUJREK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 140, 'time': 5, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2(Me–trz–mba)', 'solvent': 'H2O/MeCN (1:1', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 5.598, 'time_unit': 'h'}
+duration [GUJREK_clean] 598 != 5 | 5.598 h != 5 h
+Processing: DACSEI_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 80, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CuCl2·2H2O', 'solvent': 'DMF/methanol/water', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 36000.0, 'time_unit': 'h'}
+duration [DACSEI_clean] 36000 != 36 | 36000.0 h != 36 h
+Error processing evaluation for CABQEB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: TEQVAO_manual, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn-mip', 'solvent': 'H2O', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [TEQVAO_manual] 120 != 1 | 5.0 days != None h
+Error processing evaluation for TEQVAO_manual, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ROTQIC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUHVON_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: YOPQEB_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 140, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H5bpbc', 'solvent': 'H2O/EtOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [YOPQEB_clean] 24 != 72 | 24.0 h != 72 h
+Processing: DEKPUF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'DACH', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [DEKPUF_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for DEKPUF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ICIVEW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2⋅2 H', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [ICIVEW_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for ICIVEW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ECODOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ga2O3', 'solvent': 'H3PO3', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [ECODOQ_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for ECODOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LEVDIB_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 90, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF-C2H5OH-H', 'temperature': 363000.0, 'temperature_unit': 'K', 'time': 48000.0, 'time_unit': 'h'}
+duration [LEVDIB_clean] 48000 != 48 | 48000.0 h != 48 h
+Processing: KAHYEY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2', 'solvent': 'deionized water', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [KAHYEY_clean] 48 != 1 | 48.0 h != None h
+Error processing evaluation for KAHYEY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AQIQAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FEJDEE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'H3PO3', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [FEJDEE_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for MEJQEZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: HIJMEU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(OAc)2 · 4', 'solvent': 'ethylenediamine', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [HIJMEU_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for HIJMEU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: AKEDIF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'bpeb', 'solvent': 'DEF', 'temperature': 110.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [AKEDIF_clean] 48 != 1 | 48.0 h != None h
+Error processing evaluation for AKEDIF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: MUHPOV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Indium nitrate', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'd'}
+duration [MUHPOV_clean] 72 != 1 | 3.0 d != None h
+Error processing evaluation for MUHPOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: KOQLUZ_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 962, 'solvent': 'water', 'temperature': 170, 'time': 96, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4[SiW12O40', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 13.0, 'time_unit': 'h'}
+duration [KOQLUZ_clean] 13 != 96 | 13.0 h != 96 h
+Error processing evaluation for AZAVUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PIGXAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OYIVIC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EKEKOW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VOXVAH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeSO4·4H2O', 'solvent': 'ethanol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 9.0, 'time_unit': 'days'}
+duration [VOXVAH_clean] 216 != 1 | 9.0 days != None h
+Error processing evaluation for VOXVAH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PAQMAY_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 6228, 'solvent': 'Dimethylformamide', 'temperature': 105, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Tb(NO3)2⋅6 H', 'solvent': 'N,N-dimethylformamide', 'temperature': 105.72, 'temperature_unit': '°C', 'time': 72.693, 'time_unit': 'h'}
+duration [PAQMAY_clean] 693 != 72 | 72.693 h != 72 h
+Processing: IMIDZB10_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [IMIDZB10_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for IMIDZB10_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ECASAD_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'distilled water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 120.0, 'time_unit': 'h'}
+duration [ECASAD_clean] 120 != 1 | 120.0 h != None h
+Error processing evaluation for ECASAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ERIWAF_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'Dimethyl formamide', 'temperature': 80, 'time': 108, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/CH3OH/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 108000.0, 'time_unit': 'h'}
+duration [ERIWAF_clean] 108000 != 108 | 108000.0 h != 108 h
+Processing: KIRTOW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Al2O3·3H2O', 'solvent': 'N,N-dimethylformamide', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [KIRTOW_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for KIRTOW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: POBJIB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeSO4·4H2O', 'solvent': 'ethylene glycol', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [POBJIB_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for POBJIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ATOGEV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [ATOGEV_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for ATOGEV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ORERAG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'P2O5', 'solvent': 'water', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [ORERAG_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for ORERAG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REDYEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEJBOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: IWAHIZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Al(OH)3', 'solvent': 'methanol', 'temperature': 175.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'days'}
+duration [IWAHIZ_clean] 144 != 1 | 6.0 days != None h
+Error processing evaluation for IWAHIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PUPHUE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(CH3COO)2·', 'solvent': 'water and ethanol', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [PUPHUE_clean] 72 != 1 | 72.0 h != None h
+Processing: FORXAM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'DMF', 'temperature': 110.0, 'temperature_unit': '°C', 'time': 14.0, 'time_unit': 'h'}
+duration [FORXAM_clean] 14 != 1 | 14.0 h != None h
+Error processing evaluation for FORXAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QAJKAO_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'H2O', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [QAJKAO_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for QAJKAO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUVBOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 140, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)·6H2', 'solvent': 'H2O', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [GUVBOQ_clean] 12 != 72 | 12.0 h != 72 h
+Processing: GARTUR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn', 'solvent': 'H3PO3', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [GARTUR_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for GARTUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: COPXOV_clean, LLaMa 2 7B
+Label: {'additive_cid': 14798, 'additive': 'NaOH', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '3', 'solvent': 'H2O', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [COPXOV_clean] 24 != 72 | 24.0 h != 72 h
+Processing: MUVMOG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'GaOOH', 'solvent': 'H3PO3', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 15.0, 'time_unit': 'days'}
+duration [MUVMOG_clean] 360 != 1 | 15.0 days != None h
+Processing: QEVKOS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6342, 'solvent': 'CH3CN', 'temperature': 120, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Et4N', 'solvent': 'CH3CN', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [QEVKOS_clean] 48 != 24 | 2.0 days != 24 h
+Processing: FIGFOR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO4', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [FIGFOR_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for FIGFOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: KOMFUO_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 25, 'time': 252, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'btr', 'solvent': 'H2O', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'h'}
+duration [KOMFUO_clean] 2 != 252 | 2.0 h != 252 h
+Error processing evaluation for KOMFUO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LARPOL_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QOBWEJ01_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'P2O5', 'solvent': 'water', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [QOBWEJ01_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for QOBWEJ01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QASTUC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VAMQIJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CN3H6', 'solvent': 'deionized water', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [VAMQIJ_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for VAMQIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BAZFUF01_clean, LLaMa 2 7B
+Label: {'additive_cid': 243, 'additive': 'benzoic acid', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 80, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅3H', 'solvent': 'DMF/EtOH/pyridine', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 24000.0, 'time_unit': 'h'}
+duration [BAZFUF01_clean] 24000 != 24 | 24000.0 h != 24 h
+Processing: FIHRIZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 31374, 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ni(NO3)2·6H', 'solvent': 'N,N-dimethylacetam', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'minutes'}
+duration [FIHRIZ_clean] 0 != 72 | 30.0 minutes != 72 h
+Error processing evaluation for GUCJAQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ORIBAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NIZNAN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'LaCl3', 'solvent': 'DMF', 'temperature': 65.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [NIZNAN_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for NIZNAN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LADKIN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'InCl3', 'solvent': 'water', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [LADKIN_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for LADKIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: AGIMOU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(NO3)2', 'solvent': 'mixed water-ethanol solution', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 4.0, 'time_unit': 'days'}
+duration [AGIMOU_clean] 96 != 1 | 4.0 days != None h
+Error processing evaluation for AGIMOU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BOWSOW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'V2O5/H3PO3/', 'solvent': 'NH3 · H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [BOWSOW_clean] 12 != 1 | 12.0 h != None h
+Processing: GULCAS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'FeCl3', 'solvent': 'H2O/ethanol', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [GULCAS_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for GULCAS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OYEBIE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: TOVJAP_charged, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3N(CH2)2NH', 'solvent': 'ethylenediamine', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [TOVJAP_charged] 48 != 1 | 48.0 h != None h
+Error processing evaluation for TOVJAP_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XIQHIO_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'en', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 64.0, 'time_unit': 'h'}
+duration [XIQHIO_clean] 64 != 1 | 64.0 h != None h
+Error processing evaluation for XIQHIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QUDGED_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'DMF', 'temperature': 105.0, 'temperature_unit': '°C', 'time': 18.0, 'time_unit': 'h'}
+duration [QUDGED_clean] 18 != 1 | 18.0 h != None h
+Error processing evaluation for QUDGED_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SASKIH_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ethylenediamine', 'solvent': 'water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 120.0, 'time_unit': 'h'}
+duration [SASKIH_clean] 120 != 1 | 120.0 h != None h
+Error processing evaluation for SASKIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SODQOT_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 31374, 'solvent': 'N,N-DIMETHYLACETAMIDE', 'temperature': 100, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'DMA', 'solvent': 'ethanol', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [SODQOT_clean] 20 != 48 | 20.0 h != 48 h
+Processing: ILENOC_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'pyridine', 'solvent': 'pyridine-HF', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 96.0, 'time_unit': 'h'}
+duration [ILENOC_clean] 96 != 1 | 96.0 h != None h
+Error processing evaluation for ILENOC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: HUSJUC_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'hydrochloric acid', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 120, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 18.0, 'time_unit': 'h'}
+duration [HUSJUC_clean] 18 != 24 | 18.0 h != 24 h
+Processing: WONRUM02_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co3(PO4)2·xH', 'solvent': 'Ethylenediamine', 'temperature': 190.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [WONRUM02_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for WONRUM02_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: OLAGIR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2⋅2 H', 'solvent': 'H2O', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'days'}
+duration [OLAGIR_clean] 144 != 1 | 6.0 days != None h
+Error processing evaluation for OLAGIR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EBITAL_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeO', 'solvent': 'water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 120.0, 'time_unit': 'h'}
+duration [EBITAL_clean] 120 != 1 | 120.0 h != None h
+Error processing evaluation for EBITAL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIHFAF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 150, 'time': 60, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3btc', 'solvent': 'DMF-water', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 8.0, 'time_unit': 'h'}
+duration [FIHFAF_clean] 8 != 60 | 8.0 h != 60 h
+Error processing evaluation for WIRKOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PEJMUO_clean, LLaMa 2 7B
+Label: {'additive_cid': 944, 'additive': 'HNO3', 'solvent_cid': 962, 'solvent': 'H2O', 'temperature': 105, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3tzdc', 'solvent': 'CH3CN', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [PEJMUO_clean] 12 != 24 | 12.0 h != 24 h
+Error processing evaluation for PENYOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PIJDIX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'I', 'solvent': 'methanol', 'temperature': 155.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [PIJDIX_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for PIJDIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XARPAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ADATIK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 85, 'time': 12, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [ADATIK_clean] 20 != 12 | 20.0 h != 12 h
+Processing: BUPDOH_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'N,N-DIMETHYLFORMAMIDE', 'temperature': 80, 'time': 96, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF, ethanol, and H2', 'temperature': 353.03, 'temperature_unit': 'K', 'time': 96.016, 'time_unit': 'h'}
+duration [BUPDOH_clean] 9616 != 96 | 96.016 h != 96 h
+Processing: YORRII_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'BeSO4·4H2O', 'solvent': 'pyridine', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'days'}
+duration [YORRII_clean] 144 != 1 | 6.0 days != None h
+Error processing evaluation for YORRII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUNWAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZUDQUM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 80, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(CH3COO)2·', 'solvent': 'DMF/H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'min'}
+duration [ZUDQUM_clean] 0 != 48 | 20.0 min != 48 h
+Error processing evaluation for MITGIF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WOQYUW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '0.516 g of oxalic', 'solvent': '3.6 ml of water and 0', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [WOQYUW_clean] 72 != 1 | 72.0 h != None h
+Processing: QOZWAF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 170, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ni(CH3COO)2⋅', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 3.0012, 'time_unit': 'days'}
+duration [QOZWAF_clean] 72288 != 72 | 3.0012 days != 72 h
+Processing: AJOTEY_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'water', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [AJOTEY_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for AJOTEY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WEZCIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SUXNIJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'VOSO4', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [SUXNIJ_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for SUXNIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: RUFZOJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 60, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)6·3H', 'solvent': 'DMF', 'temperature': 50.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [RUFZOJ_clean] 48 != 72 | 2.0 days != 72 h
+Error processing evaluation for XUDVAV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: TISKOW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2·2H', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'days'}
+duration [TISKOW_clean] 120 != 1 | 5.0 days != None h
+Error processing evaluation for TISKOW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: INOVEN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 702, 'solvent': 'ethanol', 'temperature': 60, 'time': 168, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3ABTC', 'solvent': 'ethanol', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 1.0, 'time_unit': 'hours'}
+duration [INOVEN_clean] 1 != 168 | 1.0 hours != 168 h
+Error processing evaluation for UXUYUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IKUTOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JELPAS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: IZEWAN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 31275, 'solvent': '1,4-DIOXANE', 'temperature': 100, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2·2H', 'solvent': '1,4-dioxane/H', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'h'}
+duration [IZEWAN_clean] 10 != 48 | 10.0 h != 48 h
+Error processing evaluation for IYAKIE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ALATAK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 60, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'calcium carbonate', 'solvent': 'water', 'temperature': 293.15, 'temperature_unit': 'Kelvin', 'time': 12.0, 'time_unit': 'hours'}
+duration [ALATAK_clean] 12 != 72 | 12.0 hours != 72 h
+Error processing evaluation for ALATAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: MATHEV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3PO3', 'solvent': 'deionized water', 'temperature': 150.0, 'temperature_unit': '°C', 'time': 96.0, 'time_unit': 'h'}
+duration [MATHEV_clean] 96 != 1 | 96.0 h != None h
+Error processing evaluation for MATHEV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIVYEP_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'K4U(C2O4)4', 'solvent': 'H2O', 'temperature': 80.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [FIVYEP_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for FIVYEP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LELROL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MALWUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QOBPEE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Him·Be3(OH)(HPO', 'solvent': 'ethylene glycol', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 8.0, 'time_unit': 'd'}
+duration [QOBPEE_clean] 192 != 1 | 8.0 d != None h
+Error processing evaluation for QOBPEE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: IPICOA_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'ZnO', 'solvent': 'ethyleneglycol', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 3.0, 'time_unit': 'days'}
+duration [IPICOA_clean] 72 != 1 | 3.0 days != None h
+Error processing evaluation for IPICOA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PACZOK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'V2O5', 'solvent': '1,6-hexanediamine', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'days'}
+duration [PACZOK_clean] 144 != 1 | 6.0 days != None h
+Error processing evaluation for PACZOK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: KUDWAJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2·6H', 'solvent': 'acetone', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [KUDWAJ_clean] 48 != 1 | 2.0 days != None h
+Error processing evaluation for KUDWAJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYCAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ESIDOB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3popha', 'solvent': 'distilled water', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [ESIDOB_clean] 72 != 1 | 72.0 h != None h
+Error processing evaluation for ESIDOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GERWEH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QOJKAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: YABWOP_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Vanadium(V) oxide', 'solvent': 'HF', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [YABWOP_clean] 24 != 1 | 24.0 h != None h
+Error processing evaluation for YABWOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUVBEF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '1', 'solvent': 'H2O', 'temperature': 175.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'days'}
+duration [GUVBEF_clean] 168 != 1 | 7.0 days != None h
+Error processing evaluation for GUVBEF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: LIXWEV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'FeCl3·6H2O', 'solvent': 'milli-Q water', 'temperature': 110.0, 'temperature_unit': '°C', 'time': 96.0, 'time_unit': 'h'}
+duration [LIXWEV_clean] 96 != 1 | 96.0 h != None h
+Processing: YONNAR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·4H', 'solvent': 'DEF', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 40.0, 'time_unit': 'h'}
+duration [YONNAR_clean] 40 != 1 | 40.0 h != None h
+Error processing evaluation for YONNAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NAHHOW_clean, LLaMa 2 7B
+Label: {'additive_cid': 313, 'additive': 'HCl', 'solvent_cid': 6228, 'solvent': 'DMF', 'temperature': 80, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/CH3CN/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 72000.0, 'time_unit': 'h'}
+duration [NAHHOW_clean] 72000 != 72 | 72000.0 h != 72 h
+Processing: VEHLAW_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'N(CH3)4', 'solvent': 'HPO3', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'days'}
+duration [VEHLAW_clean] 144 != 1 | 6.0 days != None h
+Processing: TANFEV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'C6H30Co3Mo4N', 'solvent': 'H3PO4', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 5.0, 'time_unit': 'd'}
+duration [TANFEV_clean] 120 != 1 | 5.0 d != None h
+Error processing evaluation for TANFEV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEMPAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EZIVAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VEZQEX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Indium nitrate', 'solvent': 'H2O', 'temperature': 180.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'days'}
+duration [VEZQEX_clean] 240 != 1 | 10.0 days != None h
+Error processing evaluation for VEZQEX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: UTULUR_SL_part, LLaMa 2 7B
+Label: {'additive': None, 'solvent_cid': 962, 'solvent': 'water', 'temperature': 210, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'In', 'solvent': 'distilled water', 'temperature': 483000.0, 'temperature_unit': 'K', 'time': 24000.0, 'time_unit': 'h'}
+duration [UTULUR_SL_part] 24000 != 24 | 24000.0 h != 24 h
+Error processing evaluation for UTULUR_SL_part, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WUTCET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUCPEI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XEQGAC_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': None, 'temperature': None, 'time': None, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'VOSO4', 'solvent': 'H2O', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 200.0, 'time_unit': 'h'}
+duration [XEQGAC_clean] 200 != 1 | 200.0 h != None h
+Error processing evaluation for XEQGAC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+{
+│   'Total': {
+│   │   'temperature': {'correct': 718, 'wrong': 187, 'unit': 9},
+│   │   'time': {'correct': 700, 'wrong': 205, 'unit': 17},
+│   │   'additive': {'wrong': 796, 'resolve_answer': 754},
+│   │   'solvent': {'wrong': 727, 'resolve_answer': 251}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 718, 'wrong': 187, 'unit': 9},
+│   │   'time': {'correct': 700, 'wrong': 205, 'unit': 17},
+│   │   'additive': {'wrong': 796, 'resolve_answer': 754},
+│   │   'solvent': {'wrong': 727, 'resolve_answer': 251}
+│   }
+}
+{'Total': {'temperature': {'correct': 718, 'wrong': 187, 'unit': 9}, 'time': {'correct': 700, 'wrong': 205, 'unit': 17}, 'additive': {'wrong': 796, 'resolve_answer': 754}, 'solvent': {'wrong': 727, 'resolve_answer': 251}}, 'LLaMa 2 7B': {'temperature': {'correct': 718, 'wrong': 187, 'unit': 9}, 'time': {'correct': 700, 'wrong': 205, 'unit': 17}, 'additive': {'wrong': 796, 'resolve_answer': 754}, 'solvent': {'wrong': 727, 'resolve_answer': 251}}}
+{
+│   'Total': {
+│   │   'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469},
+│   │   'time': {'correct': 0.7734806629834254, 'wrong': 0.2265193370165746, 'unit': 0.01878453038674033},
+│   │   'additive': {'wrong': 1.0, 'resolve_answer': 0.9472361809045227},
+│   │   'solvent': {'wrong': 1.0, 'resolve_answer': 0.3452544704264099}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469},
+│   │   'time': {'correct': 0.7734806629834254, 'wrong': 0.2265193370165746, 'unit': 0.01878453038674033},
+│   │   'additive': {'wrong': 1.0, 'resolve_answer': 0.9472361809045227},
+│   │   'solvent': {'wrong': 1.0, 'resolve_answer': 0.3452544704264099}
+│   }
+}
+{'Total': {'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469}, 'time': {'correct': 0.7734806629834254, 'wrong': 0.2265193370165746, 'unit': 0.01878453038674033}, 'additive': {'wrong': 1.0, 'resolve_answer': 0.9472361809045227}, 'solvent': {'wrong': 1.0, 'resolve_answer': 0.3452544704264099}}, 'LLaMa 2 7B': {'temperature': {'correct': 0.7933701657458564, 'wrong': 0.20662983425414364, 'unit': 0.009944751381215469}, 'time': {'correct': 0.7734806629834254, 'wrong': 0.2265193370165746, 'unit': 0.01878453038674033}, 'additive': {'wrong': 1.0, 'resolve_answer': 0.9472361809045227}, 'solvent': {'wrong': 1.0, 'resolve_answer': 0.3452544704264099}}}

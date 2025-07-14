@@ -1,0 +1,1052 @@
+2025-01-07 17:40:27,113 - 
+Paragraph: AVEQID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text:   A mixture of Zn(NO3)2·6H2O (15 mg, 0.05 mmol), H8TBCB (5 mg, 0.006 mmol), DMAc (3.5 mL), H2O (1 mL) and two drops of aqueous HNO3 solution (2.0 M) was sealed in a 20 mL capped vessel. The as-synthes...
+2025-01-07 17:40:28,548 - 
+Paragraph: HULTEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: A typical synthesis recipe was as follows: 3.86 g phosphoric acid (85 wt% in water) was placed in a glass beaker. 6.16 g tetramethylammonium hydroxide pentahydrate and 1.33 g zinc oxide were successiv...
+2025-01-07 17:40:28,548 - 
+Paragraph: AVESAW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: A mixture of CdCl2·2.5H2O (0.2 mmol, 0.0456 g), Htrz (0.2 mmol, 0.0140 g), DFH (0.2 mmol, 0.0176 g), H2O (4.0 mL), and MeCN (4.0 mL) was heated at 160 °C in a 15 mL capacity Teflon-lined reaction vess...
+2025-01-07 17:40:28,549 - 
+Paragraph: MATHEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: The cobalt phosphite–oxalate, [C4N2H12][Co4(HPO3)2(C2O4)3], I, was synthesized under hydrothermal conditions starting from cobalt (II) oxalate. In a typical synthesis, 0.285 g of CoC2O4 was dispersed ...
+2025-01-07 17:40:28,550 - 
+Paragraph: SUNLAP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 336h (336.0 h)
+Got: 34752h (14.048 days)
+Original text: 3: A mixture of (R)‐H4L (20 mg, 0.024 mmol) and Cu(NO3)2⋅2.5 H2O (40 mg, 0.17 mmol) was dissolved in a solvent mixture of dmf/H2O (3 mL/1 mL). Aqueous NH3 (3 m, 0.6 mL) was then added. The resulting s...
+2025-01-07 17:40:28,883 - 
+Paragraph: KAHYEY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: The title compound was synthesized hydrothermally from a starting mixture of MnCl2, H2O2, H2C2O4, H3PO4, H2N(CH2)2NH(CH2)2NH2 and H2O in a molar ratio of 1.0:3.0–9.0:1.0:10:1.0:400. In a typical synth...
+2025-01-07 17:40:28,884 - 
+Paragraph: MAYJOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: In a typical synthesis of 1, indium (0.114 g, 1 mmol), 1,4-benzene dicarboxylic acid (0.332 g, 2 mmol), HF (48%, Merck, 0.06 mL), and deionized water (10 mL) in the molar ratios of 1:2:1.5:560 were pl...
+2025-01-07 17:40:29,565 - 
+Paragraph: ILEPEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 12h (12.0 h)
+Got: 24h (24.0 h)
+Original text: A mixture of Ba(NO3)2 (31.36 mg, 0.12 mmol), La(NO3)3·6H2O (8.6 mg, 0.02 mmol), and H3L (17.4 mg, 0.1 mmol) was vigorously stirred for half an hour in H2O (5 mL) and DMF (5 mL), and then HNO3 (30 μL, ...
+2025-01-07 17:40:29,565 - 
+Paragraph: TOVJAP_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: Synthesis of [H3N(CH2)2NH3]2 [H3N(CH2)2NH2] [FeIII(H2O)2(VIVO)8(OH)4(HPO4)4(PO4)4]·4H2O (2). The synthesis was similar to the above described for solid 1. The hydrothermal reaction of V metal (0.0254 ...
+2025-01-07 17:40:29,566 - 
+Paragraph: AQEFOS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 hours)
+Original text: A mixture of Na2MoO4·2H2O (0.48 g, 1.98 mmol), H3PO4 (1 mL, 7.96 mmol), CuCl2·2H2O (0.23 g, 1.35 mmol), pz (0.07 g, 0.87 mmol) and H2O (10 mL) was stirred for an hour. The pH was adjusted to 2.6 with ...
+2025-01-07 17:40:29,909 - 
+Paragraph: ZUDQEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: A mixture of Cd(NO3)2·4H2O (0.1805 g, 0.6 mmol), H3BTC (0.0661 g, 0.3 mmol), d-Serine (0.0333 g, 0.3 mmol) and DBO (0.0347 g, 0.3 mmol) in 3 mL DMF and 2 mL H2O was placed in a vial. The sample was st...
+2025-01-07 17:40:29,909 - 
+Paragraph: ALATAK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 h)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-07 17:40:29,910 - 
+Paragraph: TANFEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 d)
+Original text:   A mixture of Na2MoO4·2H2O (0.121 g, 0.5 mmol), H3PO4 (0.28 mL, 4 mmol), CoCl2·6H2O (0.119 g, 0.5 mmol), bix (0.119 g, 0.5 mmol), and H2O (6 mL) was stirred for 0.5 h in air. The pH was then adjusted...
+2025-01-07 17:40:30,601 - 
+Paragraph: EBITAL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (120.0 h)
+Original text: Synthesis of [H3N(CH2)3NH3]·[Be3(HPO3)4] 1. The reactants BeO (0.025 g, 1 mmol), H3PO3 (0.410 g, 5 mmol), H3BO3 (0.305 g, 5 mmol), and 1,3-diammonium propane (0.2 mL, 2.35 mmol) were added to 2 mL (11...
+2025-01-07 17:40:31,272 - 
+Paragraph: AJOTEY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: (CN3H6)2·(VO)3(H2O)3(HPO3)4·3H2O was prepared by combining 0.5 g H3PO3, 1.14 g VOSO4·nH2O and 0.71 g guanidinium carbonate in 10 ml water contained in a PTFE bottle, resulting in a deep blue solution ...
+2025-01-07 17:40:31,272 - 
+Paragraph: FORXAM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 14h (14.0 h)
+Original text: Zn(NO3)2·6H2O (0.290 g, 0.98 mmol) and H2(ip) (0.162 g, 0.98 mmol) were dissolved in dimethylformamide (DMF, 15 mL), and the resulting solution was heated to 110 °C for 14 h in a sealed vial. After fi...
+2025-01-07 17:40:31,591 - 
+Paragraph: ATOGEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: Synthesis and Initial Characterization: FJ‐8 was hydrothermally synthesized under autogenous pressure. In a typical synthesis, a mixture of ZnO (0.093 g, 1.14 mmol), H3PO3 (0.3 mL, 50 wt %), Ni(en)3Cl...
+2025-01-07 17:40:32,255 - 
+Paragraph: FIHRIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text:   A mixture of Ni(NO3)2·6H2O (0.1500 g, 0.5 mmol), H2bdc (0.0730 g, 0.5 mmol), pyrazine (0.040 g, 0.5 mmol), N,N-dimethylacetamide (5 mL) and methanol (2.5 mL) was sealed in a 25 mL Teflon-lined stain...
+2025-01-07 17:40:32,618 - 
+Paragraph: WOBHOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text:   A solution of L-proline (18.3 mg) in ethanol (0.5 mL) was added dropwise to IRMOF-3 (0.2 g), and stored overnight at room temperature. The samples were dried in vacuum at 30 °C to yield IRMOF-3–Pr(P...
+2025-01-07 17:40:32,943 - 
+Paragraph: MAQJEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text: Blue columnar crystals of 1 were obtained from a hydrothermal self-assembly of Ni(CH3COO)2·4H2O (10 mg, 0.04 mmol), N2H4·H2O (0.1 mL) and H2C2O4 (3 mg, 0.02 mmol) in a 10 mL aqueous solution (pH = 4, ...
+2025-01-07 17:40:33,257 - 
+Paragraph: QOBWEJ01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: First, 0.5 g P2O5 was dissolved in 10 ml water contained in a 23-ml teflon pot (Caution! This reaction is extremely vigorous). Then, 0.285 g ZnO, 0.444 g oxalic acid dihydrate, and 0.522 g 1,3-diamino...
+2025-01-07 17:40:33,258 - 
+Paragraph: VEZQEX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 240h (10.0 days)
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), Trithylenetetramin...
+2025-01-07 17:40:33,259 - 
+Paragraph: CUTBIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hours)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2025-01-07 17:40:33,259 - 
+Paragraph: LAVMAY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (2.0 days)
+Original text: Synthesis of single crystals of {Zn3(Atz)3(PO4)}⋅(H2O)3.5 (1⋅(H2O)3.5): Colorless crystals of 1⋅(H2O)3.5 in the shape of thick square plates were obtained from the reaction of a mixture containing ZnC...
+2025-01-07 17:40:33,892 - 
+Paragraph: FIVQOR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: The title compound MIL-90 or Ga5(PO4)4(C2O4)F2(OH)2·1.5N2C3H12 was prepared by hydrothermal method under autogenous pressure. The reactants were gallium oxide (Ga2O3, Aldrich, 99.99%+), phosphoric aci...
+2025-01-07 17:40:33,893 - 
+Paragraph: GUVBEF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: A solution of Na3PO4 (5 mmol), Na2WO4·2H2O (10 mmol), NiCl2·6H2O (2 mmol) and en (0.33 mL) in H2O (20 mL) acidified by diluted HCl solution (pH 1.0), was refluxed for 8 h. The resulting reaction mixtu...
+2025-01-07 17:40:34,249 - 
+Paragraph: RIFQUT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: A mixture of CoCl2·6H2O (1.0 mmol), H3PO3 (2.0 mmol), trans-1,4-diaminocyclohexane (2.7 mmol), and H2O (10 mL) was stirred overnight in a Teflon cup. It was then sealed in an acid digestion bomb and h...
+2025-01-07 17:40:34,250 - 
+Paragraph: UCAJUF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: [Zn4(μ3‐OH)2(H2O)2(ZnTCPEP‐H)2(DABCO)2]·2DMF·10.5H2O (Zn4·ZnTCPEP·DABCO): A mixture of Zn(NO3)·6H2O (157 mg, 0.526 mmol), ZnTCPEP‐H4 (100 mg, 0.105 mmol), and DABCO (24 mg, 0.210 mmol) was dissolved i...
+2025-01-07 17:40:34,625 - 
+Paragraph: FEJDII_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: Synthesis of [C3N2H5]2·[Zn3(HPO3)4] 2. Compound 2 was prepared from a mixture of ZnO (0.113 g), H3PO3 (0.74 mL, 50 wt %), imidazole (0.19 g), and H2O (2.5 mL) in a molar ratio of 1:4:2:100. The reacti...
+2025-01-07 17:40:34,958 - 
+Paragraph: CIXCOC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: CoHPO-CJ2 was synthesized by a solvothermal reaction of CoCl2·6H2O, H3PO3, diethylenetriamine (DETA), ethylene glycol (EG), and H2O in a molar ratio of 1.0:1.0:0.734:115:66. Typically, CoCl2·6H2O (0.2...
+2025-01-07 17:40:34,959 - 
+Paragraph: LIXWEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (96.0 hours)
+Original text: The iron phosphite, [C4N2H12][Fe4(H2O)3(HPO3)7]·(H2O)x x = 0.6 (1), was synthesized under hydrothermal conditions using ferric chloride hexahydrate as the source of iron. The FeCl3·6H2O (0.270 g, 1 mm...
+2025-01-07 17:40:34,959 - 
+Paragraph: NAVFUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 hours)
+Original text: Synthesis and Initial Characterization. The iron oxalatophosphite, [C4N2H12][FeII4(HPO3)2(C2O4)3], I, was synthesized under  hydrothermal conditions using iron(II) oxalate dihydrate as the source of i...
+2025-01-07 17:40:34,960 - 
+Paragraph: WACKOB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: The title compound 1 was hydrothermally synthesized under autogenous pressure. A mixture of CoCl2·6H2O (1.0 g), Na2MoO4·2H2O (1.8 g), H3PO4 (0.8 ml), and water (12 ml) was neutralized to pH 8.5 with e...
+2025-01-07 17:40:35,402 - 
+Paragraph: SASKIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (120.0 h)
+Original text: In a typical synthesis for [C2N2H10] · [(VO)3(H2O)(HPO3)4] · H2O, 0.091 g (0.5 mmol) of vanadium oxide (V2O5) were dissolved in 5.0 mL (166 mmol) of water, and then 0.410 g (5 mmol) of phosphorous aci...
+2025-01-07 17:40:35,721 - 
+Paragraph: IMIDZB10_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: 350 mg of Zn(NO3)2·6H2O and 200 mg of 2-methylimidazole were placed in a 20 mL screw-top vial and dissolved in 15 mL of DMF. Three drops of HNO3 were added to a mixture with a Pasteur pipet, and compl...
+2025-01-07 17:40:35,722 - 
+Paragraph: IWAHUK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (2.0 d)
+Original text: Compound 2: [Zn(BDC‐OH)(TED)0.5]⋅1.5DMF⋅0.3H2O (2) was prepared by a solvothermal reaction of [Zn(NO3)]⋅6H2O (0.089 g, 0.3 mmol), BDC‐OH (0.055 g, 0.3 mmol), and TED (0.022 g, 0.2 mmol) in DMF (10 mL)...
+2025-01-07 17:40:35,722 - 
+Paragraph: CAHQAG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   A mixture of Mn(OAc)2·4H2O (73.5 mg, 0.3 mmol), H4L1 (20.3 mg, 0.05 mmol), bpfp (29.6 mg, 0.1 mmol) and H2O (10 mL) was sealed in a 23 mL Teflon-lined autoclave and heated at 150 °C for 3 days. Afte...
+2025-01-07 17:40:36,043 - 
+Paragraph: NEZBOK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text:   The manganese phosphite–oxalate [C4N2H12][MnII2(HPO3)2(C2O4)], I, was synthesized under hydrothermal conditions using manganese oxalate as the source of manganese. In a typical synthesis, 0.277 g of...
+2025-01-07 17:40:36,043 - 
+Paragraph: TAPXIT01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Tb(NO3)3·6H2O (0.5 mmol), H2OBA (1.0 mmol), and NaCl (0.5 mmol) were added to a mixture of DMF (6.0 mL) and ethanol (6.0 mL). The mixture was heated in a 23 mL Teflon-lined autoclave at 150 °C for 3 d...
+2025-01-07 17:40:36,379 - 
+Paragraph: YABWOP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: Vanadium(V) oxide (0.183 g, 0.97 mmol) was dissolved in HF (1 mL, 29.0 mmol) and stirred for 5 min before methylene diphosphonic acid (0.16 g, 0.909 mmol), tris(2-aminoethyl)amine (500 μL, 3.34 mmol),...
+2025-01-07 17:40:36,749 - 
+Paragraph: PUZLAZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: Compound 5: InCl3 (0.10 mmol) and TDC (0.10 mmol) were dissolved in 5 mL of DMF, sonicated for 5 minutes then transferred into a 20 mL glass vial then the glass vial was heated at 120 °C for three day...
+2025-01-07 17:40:36,749 - 
+Paragraph: YONNAR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 40h (40.0 h)
+Original text:   Crystals were grown from a solution of Zn(NO3)2·4H2O (885 mg, 3.39 mmol) and 1 (100 mg, 0.282 mmol) in DEF (11.3 mL), and additional water (1.04 g, 57.63 mmol) kept at 90 °C for 40 h, resulting in 1...
+2025-01-07 17:40:37,090 - 
+Paragraph: VEHLEA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: B. [HN(CH3)3]2Zn3(HPO3)4. A total of 0.3750 g of zinc carbonate, 1.9388 g of water, 1.5198 g of ethylene glycol, 0.7569 g of phosphorous acid, 0.0611 g of hydrogen fluoride−pyridine, and 3.737 g of tr...
+2025-01-07 17:40:37,091 - 
+Paragraph: SOGXAP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 120h (120.0 h)
+Got: 2880h (120.0 days) - Wrong unit (hours)
+Original text: A 25 mL Teflon-lined stainless-steel autoclave charged with 0.308 g (1.8 mmol) CeO2 and 0.304 g (2 mmol) meso-tartaric acid in 18 mL H2O was heated at 140 °C for 5 days and cooled to room temperature ...
+2025-01-07 17:40:37,091 - 
+Paragraph: NEKMUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text: A mixture containing H3L2 (0.04 g, 0.13 mmol) and CoCl2·6H2O (0.15 g, 0.63 mmol) in 3 mL water and 0.2 mL of Et4NOH were sealed in a Teflon-lined autoclave and heated under autogenous pressure to 180 ...
+2025-01-07 17:40:37,092 - 
+Paragraph: IXEJOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: A mixture of Na2MoO4·2H2O (1.452 g, 6.00 mmol), Co(CH3COO)2·4H2O (0.480 g, 2.52 mmol), 4,4′-bipyridine (0.400 g, 2.70 mmol), H3PO4 (2 mL, 30 mmol), and pyridine (0.350 g, 4.42 mmol) was dissolved in 3...
+2025-01-07 17:40:37,092 - 
+Paragraph: SUXNIJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: A reaction mixture of VOSO4 (1 mmol), H3BO3 (1.5 mmol), H3PO3 (6 mmol), cyclohexylamine (cha, 5 mmol), and H2O (5 mL) was placed in a Teflon-lined digestion bomb (internal volume = 23 mL) and heated a...
+2025-01-07 17:40:37,092 - 
+Paragraph: XEQGAC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 200h (200.0 h)
+Original text: H2(PIP)[VIVO(H2O)VIII(OH)(O3PCH2CO2)2]·2.5H2O (2). A solution of VOSO4 (0.97 g, 0.6 mmol), triethyl phosphonoacetate (0.124 g, 0.54 mmol), piperazine (PIP) (0.115 g, 0.6 mmol), and H2O (7 mL) in the m...
+2025-01-07 17:40:37,093 - 
+Paragraph: GUCJAQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (1.0 day) - Wrong unit (hours)
+Original text: Transparent colorless columnar crystals of NTHU‐8 were prepared from a reaction mixture containing Zn(NO3)2⋅6 H2O (0.2975 g, 1 mmol), H3PO4 (0.27 mL, 4 mmol), benzene‐1,2,4,5‐tetracarboxylic acid (H4b...
+2025-01-07 17:40:37,093 - 
+Paragraph: YIJCEB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text:   A 35 mL 19/22 flask was charged with 0.5 mmol (0.136 g) polymeric nickel cyanide hydrate Ni[Ni(CN)4]n(H2O)3 and made to dissolve through the sequential addition of 5 mL H2O, 5 mL concentrated ammoni...
+2025-01-07 17:40:37,470 - 
+Paragraph: LOXBEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text: ‡ Synthesis of [Cd9((R)-PIA)6(TIB)4(H2O)12]·3H2O (1-D): the mixture of Cd(CH3COO)2·2H2O (0.2 mmol, 0.053 g), (R)-H3PIA (0.032 g, 0.1 mmol), TIB (0.2 mmol, 0.055 g), DMF (3 ml) and H2O (1 ml) was seale...
+2025-01-07 17:40:39,237 - 
+Paragraph: OFIWIK_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: Typically, zinc acetate (0.22 g, 1 mmol), was first dissolved in the water (8 mL), and then cyclohexylamine (0.38–0.41 mL, 3.2–3.4 mmol) and phosphorous acid (0.205 g, 2.5 mmol, 85%) were added with s...
+2025-01-07 17:40:39,899 - 
+Paragraph: XAWBEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: All reagents were of analytical grade. Compound 1 was hydrothermally prepared from a starting mixture containing indium trichloride (InCl3), phosphorous acid (H3PO3), diethylenetriamine (DETA) and hyd...
+2025-01-07 17:40:39,899 - 
+Paragraph: AKEDIF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: A mixture of bpeb (20.1 mg, 0.070 mmol), H2bdc (11.6 mg, 0.070 mmol), and Zn(NO3)2·4H2O (18.4 mg, 0.070 mmol) dissolved in DEF (3 mL), H2O (1 mL), and DMSO (0.5 mL) was placed in a 10 mL glass tube, a...
+2025-01-07 17:40:40,239 - 
+Paragraph: FORXIU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 32h (32.0 h)
+Original text: A DMF solution (15.0 mL) containing Zn(NO3)2·6H2O (0.297 g, 1.0 mmol) and H2(2,7-ndc) (0.217 g, 1.0 mmol) was heated to 110 °C for 32 h in a sealed vial. Afterward, the reaction mixture was filtered t...
+2025-01-07 17:40:40,240 - 
+Paragraph: HUNFIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: A mixture of NiCl2·6H2O (0.050 g, 0.2 mmol), NH4VO3 (0.047 g, 0.4 mmol) and bpp (0.030 g, 0.15 mmol) was dissolved in 8 mL of distilled water at room temperature. Then the pH value of the mixture was ...
+2025-01-07 17:40:40,564 - 
+Paragraph: EKUPEG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (1.0 day) - Wrong unit (hours)
+Original text: 2: A mixture of CuSO4⋅5H2O (25 mg, 0.1 mmol) and 1 (135 mg, 0.05 mmol) was placed in a small vial containing DMSO (1 mL), H2O (0.1 mL), and sBuOH (1 mL). The vial was sealed, heated at 80 °C for one d...
+2025-01-07 17:40:40,565 - 
+Paragraph: TEQVAO_manual
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 2h (120.0 min)
+Original text:   A mixture of Zn(NO3)2·6H2O (2.0 mmol), NH3·H2O (9.0 mmol) and 5-methylisophthalic acid (4.0 mmol) in 20 mL H2O are stirred for 10 min at room temperature. The mixture is then transferred into a 40 m...
+2025-01-07 17:40:42,695 - 
+Paragraph: RORVAX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 18h (18.0 h)
+Original text: In a scintillation vial, as-synthesized 1-Zn was washed with fresh DMF (3 × 5 mL) over 3 h and then washed with fresh MeOH (3 × 5 mL) over 3 h. The MeOH was decanted and a solution of Co(NO3)2 (30 mg,...
+2025-01-07 17:40:42,696 - 
+Paragraph: SUWQEI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text:   CuCl2·2H2O (0.09 g, 0.54 mmol) and Na2WO4·2H2O (0.18 g, 0.54 mmol) were dissolved in 20 mL of distilled water under stirring at room temperature for 20 min. Then C6H5PO3H2 (0.10 g, 0.64 mmol) was ad...
+2025-01-07 17:40:43,010 - 
+Paragraph: TACFIN01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (96.0 h)
+Original text: All chemicals were purchased from Aldrich (USA) and used without further purification. In a typical synthesis, the following reagents were used: zinc oxide (0.39 g, 4.76 mmol), cobalt(II)oxalate dihyd...
+2025-01-07 17:40:43,011 - 
+Paragraph: AVAQIX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 504h (504.0 h)
+Got: 52032h (21.068 days)
+Original text: Synthesis 1: Cd(NO3)2·4H2O (0.25 mmol) and isonicotinic acid (1.25 mmol) were dissolved in 5 mL N,N-dimethylformamide (DMF), respectively. The two solutions were mixed and kept at 80 °C for 3 weeks. 0...
+2025-01-07 17:40:43,011 - 
+Paragraph: WOWGUK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text:   First, 4.4761 g Zn(NO3)2  (BDH Analar, 98%) was added to 30 ml of 1 M H3PO4  (made up from 85% BDH Analar H3PO4 solution) in a glass beaker. Once the Zn(NO3)2 had dissolved, 37.277 g of ethylene gly...
+2025-01-07 17:40:43,011 - 
+Paragraph: NOQKUB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 144h (144.0 h)
+Got: 24h (1440.0 min)
+Original text: A mixture of CoCl2⋅6 H2O (0.019 g, 0.008 mmol), H3imda (0.006 g, 0.004 mmol), and 4,4′‐dpbp (0.025 g, 0.008 mmol) was added to a solution of H2O/glycol (14:1; 15 mL) and stirred for 10 min. The result...
+2025-01-07 17:40:43,405 - 
+Paragraph: ZUDRAT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: A mixture of Mn(CH3COO)2·4H2O (0.1637 g, 0.6 mmol) and H3BTC (0.0597 g, 0.3 mmol), l-methionine (0.0599 g, 0.3 mmol) and DBO (0.0445 g, 0.3 mmol) in 3 mL DMF and 2 mL H2O was placed in a vial. The sam...
+2025-01-07 17:40:43,753 - 
+Paragraph: PELXIP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text:   A mixture of CdCl2 (0.092 g, 0.5 mmol), 3-cyanobenzoic acid (0.074 g, 0.5 mmol), NaN3 (0.033 g, 0.5 mmol) and H2O (10 mL) was stirred for 30 min at room temperature and kept in a 23 mL Teflon-lined ...
+2025-01-07 17:40:43,753 - 
+Paragraph: ILENOC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (96.0 h)
+Original text:   The title compound was synthesized hydrothermally using pyridine–HF as the solvent in the presence of diethyelenetriamine (DETA). In a typical synthesis 0.335 g indium sulfate was dissolved in 1 ml ...
+2025-01-07 17:40:44,420 - 
+Paragraph: IPICOA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 hours)
+Original text: Synthesis of 1: a mixture of ZnO (1 mmol, 0.082 g), H3PO3 (4 mmol, 0.328 g), sec-butylammine (5 mmol, 0.505 ml), H2O (5 mL) and ethyleneglycol (5 mL) was heated at 160 °C in a Teflon-lined stainless s...
+2025-01-07 17:40:44,420 - 
+Paragraph: OMAMEU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 26h (26.0 hours}
+
+Synthesis: The title)
+Original text: Synthesis: The title compound was prepared by means of a hydrothermal reaction between Zn(OAc)2⋅2 H2O, H3PO4, [Co(en)3]Cl3 and H2O in a molar ratio of 1:3:0.5:488. Typically, Zn(OAc)2⋅2 H2O (0.25 g) w...
+2025-01-07 17:40:44,779 - 
+Paragraph: QUHMOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 48h (48.0 h)
+Got: 6h (6.0 h)
+Original text: Complex 3 was obtained by the following hydrothermal method: A mixture of Gd2(SO4)3·8H2O (4 mmol), HCOOH (4 mL), and DMSO (4 mL) was sealed in a Teflon-lined autoclave and heated to 140 °C over 6 h. A...
+2025-01-07 17:40:45,209 - 
+Paragraph: MUVMOG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 360h (15.0 days)
+Original text: In a typical synthesis, compound 1 was prepared under hydrothermal conditions. First, a mixture of GaOOH (0.1028 g) (prepared from direct reaction of metallic gallium with distilled water at 200 °C un...
+2025-01-07 17:40:46,974 - 
+Paragraph: XIQHIO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 64h (64.0 h)
+Original text: The title compound was synthesized from a gel containing ethylenediamine (en) as the structure-directing agent. In a typical synthesis, 0.464 g of FeCl3–6H2O and 0.169 g of MnCl2–4H2O was dispersed an...
+2025-01-07 17:40:46,975 - 
+Paragraph: ECODOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 d)
+Original text: The title compound was synthesized hydrothermally by a typical solution-mediated reaction: 0.05 g Ga2O3, 0.80 g H3PO3, 0.10 ml DETA, 0.40 ml HF and 8 ml of water were stirred for 30 min at room temper...
+2025-01-07 17:40:46,975 - 
+Paragraph: NIMPOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: 0.005 g (0.0065 mmol) H4pbtd-OEt and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-07 17:40:47,314 - 
+Paragraph: ACAKUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours)
+Original text:   La(NO3)3·6H2O (43 mg, 0.1 mmol), H4TADIP (40 mg, 0.1 mmol), H2O (4 mL) and H2C2O4 (6 mg) were mixed in a vial and heated at 95 °C for 3 days, and then cooled to room temperature. After filtration, t...
+2025-01-07 17:40:47,315 - 
+Paragraph: PETNOS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 d)
+Original text: The compound II was prepared from a reaction mixture of InCl3 · 4H2O, H3PO3, piperazine and water with a molar ratio of 0.5:17.1:4.0:666. A typical synthesis procedure begins with mixing 0.16 g InCl3,...
+2025-01-07 17:40:47,315 - 
+Paragraph: ESIDOB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: [In(popha)(1,10‐phen)]⋅4 H2O (InPF‐21), CH synthesis: a mixture of H3popha (0.119 g, 0.343 mmol), 1,10‐phen (0.061 g, 0.343 mmol), and In(OAc)3 (0.100 g, 0.343 mmol) in distilled water (8 mL) was heat...
+2025-01-07 17:40:47,316 - 
+Paragraph: POBJIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: The title compound was synthesized hydrothermally under autogenous pressure. In a typical synthesis, a mixture of BeSO4·4H2O (0.179 g), H3PO3 (0.327 g), diethylenetriamine (dien, 0.16 mL), ethylene gl...
+2025-01-07 17:40:47,317 - 
+Paragraph: WONRUM02_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Synthesis. Initially, the blue needle crystals of 1 were obtained occasionally as a minor product in an attempt to repeat the synthesis of the known compound [H3NC2H4NH3]0.5CoPO4 using a different cob...
+2025-01-07 17:40:47,318 - 
+Paragraph: KUNMUD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 20h (20.0 h)
+Original text: ‡ Synthesis of Cd(II)-MOF (1). A MeOH (3 mL) solution of L (46.4 mg, 0.118 mmol) was added to an aqueous (2 mL) solution of Cd(BF4)2 (80 mg, 0.248 mmol). The resulting slurry was sealed in an autoclav...
+2025-01-07 17:40:47,318 - 
+Paragraph: KAVNIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text: A mixture of Co(NO3)·6H2O (29.1 mg, 0.1 mmol), tipb (50.4 mg, 0.1 mmol), H2adc (27.0 mg, 0.1 mmol), and 2 drops of pyridine in 5 mL of DMF was sealed in a 16 mL Teflon-lined stainless steel container ...
+2025-01-07 17:40:47,655 - 
+Paragraph: NAGCAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g, 6.00 mmol), ZnSO4·H2O (0.516 g, 2.88 mmol), H3PO4 (2 mL, 30 mmol), and 1,3-bis (4-pyridyl) propane (0.382 g, 2.6...
+2025-01-07 17:40:47,656 - 
+Paragraph: GARTUR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Crystals of 1 and 2 were observed to form concurrently when a reaction mixture of zinc lactate (0.122 g, 0.5 mmol), Ga2O3 (0.047 g, 0.25 mmol), 5 m H3PO3 (0.6 mL, 3 mmol), DADD (0.4 g, 2 mmol), HF (40...
+2025-01-07 17:40:47,656 - 
+Paragraph: YORRII_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 days)
+Original text: In a typical synthesis, a mixture of BeSO4·4H2O (0.27 g), H3PO3 (0.42 g), pyridine (3.00 mL) and H2O (2.00 mL) was sealed in a 25 mL Teflon-lined autoclave and heated at 160 °C for 6 days. After cooli...
+2025-01-07 17:40:47,657 - 
+Paragraph: KUDWAJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 336h (14.0 days)
+Original text: An acetone solution (6 mL) containing Cu(NO3)2·6H2O (0.2 mmol) was layered upon an aqueous solution (4 mL) containing H3tci (0.1 mmol), 4,4′-bipy (0.1 mL) and triethylamine (60 μL) in a test tube; blu...
+2025-01-07 17:40:47,991 - 
+Paragraph: VEHLIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: C. [H2N(CH3)2]2Zn3(HPO3)4. A total of 0.3748 g of zinc carbonate, 1.9383 g of water, 1.5193 g of ethylene glycol, 1.0351 g of phosphorous acid, 0.0610 g of hydrogen fluoride−pyridine, and 2.425 g of d...
+2025-01-07 17:40:47,991 - 
+Paragraph: ODEZAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text:   In a 20 ml glass vial, the organic linker H4DTPD (10 mg, 0.0194 mmol) was dissolved in 12.85 mL of N,N-dimethyl formamide (DMF). Then, Cu(NO3)2·2.5H2O (20 mg, 0.086 mmol) and 2.15 mL of H2O were add...
+2025-01-07 17:40:47,991 - 
+Paragraph: LEVBAQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 192h (8.0 days)
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), 4,4′-bipyridine (4...
+2025-01-07 17:40:47,992 - 
+Paragraph: PIJDIX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text:   A mixture of Zn(CH3COO)2·2H2O (0.22 g), H3PO3 (0.45 g), 2-methyl-piperazine (0.36 g), methanol (3 mL) and H2O (2 mL) in the molar ratio of 1:5.5:3.5:111:74 was sealed in a Teflon-lined autoclave and...
+2025-01-07 17:40:47,992 - 
+Paragraph: QESRAI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 28h (28.0 h)
+Original text: The zinc phosphate, [C8N5H28][Zn5(PO4)5].H2O, I, is synthesized under hydrothermal conditions in the presence of TEPA. In a typical synthesis, 0.3 g of ZnO was dispersed in a mixture of 6.634 ml of de...
+2025-01-07 17:40:48,326 - 
+Paragraph: NIZNAN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: All compounds including the mixed-lanthanide ones were obtained by adopting an otherwise identical procedure except for the different starting lanthanide salts. The synthesis of [La(BTPCA)H2O]·2DMF·3H...
+2025-01-07 17:40:48,327 - 
+Paragraph: TUGFAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 120h (120.0 h)
+Got: 168h (168.0 h)
+Original text: The polymer was synthesized by hydrothermal methods. A mixture of Ni(NO3)2·6 H2O (0.3 mmol), 1,4-H2NDC (0.1 mmol), 4,4′-dpdo (0.1 mmol), NaOH (0.2 mmol) and distilled water (15 mL) was stirred for 1 h...
+2025-01-07 17:40:48,667 - 
+Paragraph: LADKIN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 12h (720.0 minutes)
+Original text: Compound 1 was prepared from a starting mixture containing indium chloride tetrahydrate (InCl3·4H2O) (Aladdin, 98%), phosphorous acid (H3PO3) (Sinopharm Chemical Reagent Beijing Co., Ltd, 99%), oxalic...
+2025-01-07 17:40:49,029 - 
+Paragraph: OLAGIR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 days) (Which appears in text!)
+Original text: 1: Zn(OAc)2⋅2 H2O (0.5 g) was dissolved in H2O (10 mL) and then H3PO4 (0.46 mL, 85 wt % in water) and [Co(dien)2]Cl3 (0.58 g) were subsequently added while stirring. Finally, Me4NOH (6.0 mL, 10 wt % a...
+2025-01-07 17:40:49,030 - 
+Paragraph: MUHPOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Compound 1 was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3·4H2O), oxalic acid (H2C2O4), hydrogen phosphite (H3PO3), 1,4-diazabicyclo[2.2.2]octane (dabco) and H2O with a molar ra...
+2025-01-07 17:40:49,031 - 
+Paragraph: UGOFED_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 15h (15.0 hours)
+Original text: H2TCPP (90 mg, 0.11 mmol) and FeCl3·6H2O (90 mg, 0.33 mmol) were dissolved in 10 mL of DMF in a 45 mL Teflon-lined reactor. Pyrazine was added to the reaction mixture (20 mg, 0.25 mmol), and the solut...
+2025-01-07 17:40:49,031 - 
+Paragraph: WAVREQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 70h (70.0 h)
+Original text: We sought to synthesize I in pure form by employing another route starting with a cobalt(II) tris amine complex. The amine complex was prepared using the standard inorganic synthesis procedures16 star...
+2025-01-07 17:40:49,031 - 
+Paragraph: HEZNUW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: The title compound was synthesized by hydrothermal method under autogenous pressure. In a typical synthesis, a mixture of ZnO (0.25 g), H3PO4 (0.43 ml, 85 wt.%), 1-(2-aminoethyl)piperazine (0.32 ml) a...
+2025-01-07 17:40:49,032 - 
+Paragraph: UVEXAV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: The second phase MIL-124 (Ga2(OH)4[C9O6H4]) was synthesized from a mixture of 0.6 g gallium nitrate (2.4 mmol), 0.37 g 1,2,4-btc (1.8 mmol) and 5 mL H2O (277.8 mmol), which was heated at 210 °C for 24...
+2025-01-07 17:40:49,032 - 
+Paragraph: LEDCAA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text: Synthesis of 1. The mixture of L ligand (0.0213 g, 0.1 mmol) and CdCl2·2.5H2O (0.0228 g, 0.1 mmol), in the H2O (10 mL) solution were stirred for 30 min, and then transferred to a 23 mL Teflon containe...
+2025-01-07 17:40:49,032 - 
+Paragraph: INOVEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 168h (168.0 h)
+Got: 1h (1.0 h)
+Original text: Gd(NO3)3·6H2O (35 mg, 0.1 mmol) in ethanol (8 ml) was added to a solution of H3ABTC (14.7 mg, 0.05 mmol) in DMF (10 ml) at room temperature in a 25 ml beaker. The mixture was stirred for 1 h and then ...
+2025-01-07 17:40:49,359 - 
+Paragraph: TEZKAM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: [Zn3(bpdc)3(2,2′‐dmbpy)]⋅(DMF)x(H2O)y was synthesized by the reaction of a mixture of Zn(NO3)⋅6 H2O (0.089 g, 0.3 mmol), 2,2′‐dmbpy (0.019 g, 0.1 mmol), and bpdc (0.072 g, 0.3 mmol) in DMF (10 mL) in ...
+2025-01-07 17:40:49,359 - 
+Paragraph: XOTSEG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 48h (48.0 h)
+Got: 13h (800.0 min)
+Original text: MnCl2·4H2O (3.0 mg, 0.015 mmol) and H3LMe (1.1 mg, 0.0020 mmol) were dissolved in DMF (1.0 mL) and then sealed and heated to 90 °C for 48 h. The reaction was cooled to room temperature in 800 min. Lig...
+2025-01-07 17:40:49,359 - 
+Paragraph: GULCAS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: The title compound was synthesized by using mild solvothermal conditions under autogenous pressure. Typically, 0.27 g (1 mmol) FeCl3·6H2O was dissolved in a mixture of 6 mL H2O and 3 mL ethanol with s...
+2025-01-07 17:40:49,360 - 
+Paragraph: RUYZUH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g), MnSO4·H2O (0.676 g), ethylenediamine tetraacetic acid (EDTA) (0.744 g), H3PO4 (2 mL), HF (1 mL), ethylenediamin...
+2025-01-07 17:40:49,360 - 
+Paragraph: HAFSOZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   Zn(NO3)2·6H2O (30 mg, 0.1 mmol), HO-H3BTC (11 mg, 0.05 mmol), and 4,4′-bipyridine (7.8 mg, 0.05 mmol) were dissolved in 4 mL of mixed solvent of DMA and H2O (1:1, v/v) in a 10 mL glass vial. After t...
+2025-01-07 17:40:49,360 - 
+Paragraph: PUPHUE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: A mixture of Cd(CH3COO)2·2H2O (0.135 g, 0.5 mmol) and H2L (0.172 g, 0.5 mmol) were dissolved in water (12 ml) and ethanol (3 ml), the pH of the solution was adjusted to be about 6–7 with 0.2 mol L−1 a...
+2025-01-07 17:40:49,361 - 
+Paragraph: NIMPEG01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 hours)
+Original text: 0.005 g (0.0068 mmol) H4pbtd-OMe and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-07 17:40:50,666 - 
+Paragraph: UXISUR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text:   In a typical synthesis, the sodium salt of trimesic acid or benzene-1,3,5-tricarboxylic acid (BTC) (0.2 mmol, 46 mg) and Cu(NO3)2·3H2O (0.2 mmol, 48 mg) were dissolved separately in 10 mL DI water a...
+2025-01-07 17:40:50,667 - 
+Paragraph: LADWAR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (2.0 days)
+Original text: A mixture of CoSO4·7H2O (28.3 mg, 0.10 mmol), 5-phosphononicotinic acid (20.3 mg, 0.1 mmol), DABCO (16.8 mg, 0.15 mmol) and H2O (10 mL) was mixed and stirred for 20 min then transferred to a Teflon-li...
+2025-01-07 17:40:50,667 - 
+Paragraph: LEQVIN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: Synthesis and Characterization. (C5H18N3)[Fe3(HPO3)6]·3H2O has been synthesized using mild hydrothermal conditions and autogenous pressure. H3PO3 (12 mmol) and Fe(SO4)3·5H2O (0.16 mmol) were dissolved...
+2025-01-07 17:40:51,000 - 
+Paragraph: BOWSUC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 hours)
+Original text: Compound 2 was synthesized in the V2O5/H3PO3/DETA/NH4F/H2O reaction system with a molar ratio of 1/24/4/4/664. Typically, 0.046 g V2O5, 0.6 mL H3PO3, 0.11 mL DETA and 0.039 g NH4F were dissolved in 5 ...
+2025-01-07 17:40:51,001 - 
+Paragraph: DUXKEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 120h (120.0 h)
+Got: 240h (10.0 days)
+Original text:   The title compound was synthesized from a mixture of NaVO3 (0.58 mmol), Ni(NO3)·6H2O (0.58 mmol), and 4,4′-bipyridyl (0.58 mmol) dissolved in 30 mL of distilled water. The pH of the solution was adj...
+2025-01-07 17:40:51,001 - 
+Paragraph: SERCEZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 16h (16.0 h)
+Original text: An amount of 0.025 g (0.097 mmol) of 2-hydroxybiphenyl-4,4′-dicarboxylic acid (H2(BPDC–OH)), 0.023 g (0.097 mmol) of biphenyl-4,4′-dicarboxylic acid (H2BPDC), and 0.181 g (0.5 mmol) of Zn(NO3)2·6H2O w...
+2025-01-07 17:40:51,002 - 
+Paragraph: IWAHIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 days)
+Original text: [tmpip][Al6(PO4)6(HPO4)]·(H2O) (3) A mixture of Al(OH)3 (0.0796 g, 1 mmol), H3PO4 (0.33 mL, 5 mmol), 1-methylpiperazine (0.27 mL, 2.5 mmol), methanol (3.0 mL, 75 mmol) and H2O (2.0 mL, 111 mmol) was s...
+2025-01-07 17:40:51,002 - 
+Paragraph: PACZOK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 days)
+Original text: A mixture of V2O5 (0.3025 g), Zr(NO3)4·5H2O (0.7156 g), 1,6‐hexanediamine (0.7746 g), and H2O (9 mL) in molar ratio 1:1:4:100 was stirred for 2 h briefly in air, then was neutralized to pH = 4 with 50...
+2025-01-07 17:40:51,654 - 
+Paragraph: QAJKAO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (1440.0 minutes)
+Original text: To a solution of 0.070 g V2O5 in 8 mL H2O, was added 1.000 g H3PO3 with stirring, followed by the addtion of 0.777 g piperazine. The molar composition of the initial mixture was V2O5:H3PO3:piperazine:...
+2025-01-07 17:40:51,655 - 
+Paragraph: OREZUI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: Zn3(BDC)2(HBDC)2·2DMA (1): A mixture of Zn(OAc)2·2H2O (82 mg), 9‐AC (55 mg), H2BDC (42 mg), methanol (1 mL), and DMA (4 mL) was sealed in a 25 mL, Teflon®‐lined, stainless‐steel autoclave and heated a...
+2025-01-07 17:40:51,655 - 
+Paragraph: DEKPUF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: In a typical synthesis of 1, a reaction mixture of ZnO (0.36 g) and NiCl2·6H2O (0.79 g) were first dissolved in H2O (10 mL), and then DACH (1.00 mL) was added with stirring under ambient conditions. F...
+2025-01-07 17:40:51,978 - 
+Paragraph: VEHLAW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 days)
+Original text: Synthesis. A. [N(CH3)4]2Zn3(HPO3)4. A total of 0.3759 g of zinc carbonate, 2.1342 g of water, 2.0302 g of ethylene glycol, 0.7546 g of phosphorous acid, 0.0414 g of hydrogen fluoride−pyridine, and 4.0...
+2025-01-07 17:40:52,320 - 
+Paragraph: FEJDEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (4.0 days)
+Original text: Synthesis of [H3N(CH2)4NH3]·[Zn3(HPO3)4]·H2O, 1. In a typical synthesis for compound 1, a mixture of ZnO (0.113 g), H3PO3 (0.55 mL, 50 wt %), 1,4-diaminobutane (0.14 mL), and H2O (2.5 mL) in a molar r...
+2025-01-07 17:40:52,321 - 
+Paragraph: QUDGED_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 18h (18.0 h) (Which appears in text!)
+Original text: Synthesis of IRMOF‐1, IRMOF‐3, and MOF‐2: Both IRMOF‐1 and IRMOF‐3 were synthesized based on a modified procedure reported by Eddaoudi and co‐workers.13 For IRMOF‐1 synthesis, a solution comprised of ...
+2025-01-07 17:40:52,651 - 
+Paragraph: ICIVEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 hours)
+Original text: Synthesis and characterization: Typically, Zn(OAc)2⋅2 H2O (0.25 g) was first dissolved in H2O (10 mL), and then n‐butylamine (0.51 mL) was added while stirring. Finally, H3PO3 (0.280 g) was added to t...
+2025-01-07 17:40:52,651 - 
+Paragraph: VOXVEL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text:   A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.144 g, 85 wt%), 4,4′-bipyridine (0.078 g), H2O (1.0 mL), and n-butanol (4.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °...
+2025-01-07 17:40:52,652 - 
+Paragraph: ACALIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text:   Er(NO3)3·6H2O (44 mg, 0.1 mmol), H4TADIP (40 mg, 0.1 mmol), H2O (4 mL) and H2C2O4 (6 mg) were mixed in a vial and heated at 95 °C for 3 days and then cooled to room temperature. After filtration, th...
+2025-01-07 17:40:52,652 - 
+Paragraph: KEBDIG_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text: A mixture of Co(NO3)2·6H2O (0.07 g, 0.24 mmol), DBIBN (0.04 g, 0.12 mmol), and conc. HCl (0.1 mL) in EtOH/H2O (3 mL, 2:1 v/v) were placed in a Teflon lined stainless steel autoclave and heated at 180 ...
+2025-01-07 17:40:52,653 - 
+Paragraph: BOZFIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Cd3L(L1)3(H2O) (1): A mixture of Cd(NO3)2·4H2O (0.05 mmol, 0.016 g), L (0.0125 mmol, 0.05 g), H2L1 (0.0375 mmol, 0.012 g), and DMF (8 mL) was heated at 150 °C in a Teflon®‐lined autoclave for 3 days; ...
+2025-01-07 17:40:52,654 - 
+Paragraph: CEYPUT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (3.0 d) (Which appears in text!)
+Original text:   A mixture of Co(NO3)2·6H2O (58.2 mg, 0.2 mmol) and HIN (24.6 mg, 0.2 mmol) was treated in DMF (10 mL) and deionized H2O (two drops) under ultrasonic irradiation to produce a clear solution. The resu...
+2025-01-07 17:40:53,357 - 
+Paragraph: YOYBUL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 h)
+Original text: A mixture of Zn(NO3)2·6H2O (0.045 g, 0.15 mmol), bpydbH2 (0.032 g, 0.075 mmol), bpy (0.015 g, 0.1 mmol), DMA (2 mL), H2O (0.5 mL), and EtOH (0.5 mL) was mixed in a 5 mL glass bottle and then heated to...
+2025-01-07 17:40:53,357 - 
+Paragraph: JESDIV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (3.0 days)
+Original text: The compound 1 was synthesized hydrothermally by a typical solution mediated reaction: 0.05 g Ga2O3, 0.80 ml H3PO3, 0.50 g piperazine, 0.60 ml HF and 2 ml of water was stirred for 30 min at room tempe...
+2025-01-07 17:40:53,358 - 
+Paragraph: PENZIS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 240h (10.0 days)
+Original text: (4,4‘-(C5H4N)2(CH2)3)Zn3(HPO3)4, 1. Zinc acetate dihydrate (220 mg, 1.0 mmol), phosphorous acid (164 mg, 2.0 mmol), 4,4‘-(C5H4N)2(CH2)3 (300 mg, 1.5 mmol), and 6 mL of water were added to a heavy-wall...
+2025-01-07 17:40:53,358 - 
+Paragraph: XAJZOY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 60h (60.0 h)
+Original text: AlPO-ERI was synthesized under hydrothermal conditions in the presence of TMHDA as template. Aluminum isopropoxide Al(OiPr)3 (98+%, Aldrich) and phosphoric acid (85 wt.% in water, Prolabo) were used a...
+2025-01-07 17:40:53,359 - 
+Paragraph: DEKPEP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 288h (12.0 days)
+Original text: A sample of (C5H5NH)2[Ga4F2(O3PC2H4PO3)3] (II) was synthesized in a similar manner to compound I. Initially Ga2(SO4)3·18H2O (0.768 mmol) was dissolved in a solution of distilled water (111 mmol), pyri...
+2025-01-07 17:40:53,359 - 
+Paragraph: FECXES_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 1728h (72.0 days) - Wrong unit (hours)
+Original text:   A mixture of Cu(NO3)2·4H2O (0.024 g, 0.1 mmol) and H8L (0.0158 g, 0.02 mmol) in 4 mL of H2O, 2 mL of EtOH and three drops of HNO3 (2 mol L−1) was sealed in an autoclave equipped with a Teflon linear...
+2025-01-07 17:40:53,359 - 
+Paragraph: ECASAD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (120.0 h)
+Original text: All chemicals and solvents used in the syntheses were of reagent grade and used as purchased from Beijing without further purification. Compound 1 were prepared from a mixture of 5ZnO·2CO2·4H2O (0.567...
+2025-01-07 17:40:53,992 - 
+Paragraph: REKCUG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (120.0 h)
+Original text: The title compound was hydrothermally prepared from a mixture of ZnO, H3PO3, 3-dimethylamino-1-propylamine, and distilled water with a molar composition of 15:30:8:1110. Typically, 1.231 g H3PO3 was f...
+2025-01-07 17:40:53,993 - 
+Paragraph: PIHWOU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text:   A mixture of Zn(CH3COO)2·2H2O (0.34 g), H3PO4 (0.26 mL), 3-(aminomethyl)pyridine (0.41 mL), methanol (4 mL) and H2O (1 mL) in the molar ratio of 1:3:2.6:65:36 was sealed in a Teflon-lined autoclave ...
+2025-01-07 17:40:54,326 - 
+Paragraph: WARJAC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 1728h (72.0 days) - Wrong unit (hours)
+Original text: ‡ Ligand H3tzdc was prepared and purified according to the literature. Synthesis of complex 1: a mixture of NiSO4·6H2O (1.56 g, 6 mmol), H3tzdc (0.72 g, 4.6 mmol), NaOH (0.24 g, 6 mmol) and 90 mL wate...
+2025-01-07 17:40:54,664 - 
+Paragraph: BOWSOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 12h (12.0 hours)
+Original text: Compound 1 was prepared hydrothermally from a mixture of V2O5/H3PO3/Bipy/H2O with a molar ratio of 1/16/1/531. Typically, 0.023 g V2O5, 0.2 mL H3PO3 and 0.025 g Bipy were dissolved in 0.1 mL NH3 · H2O...
+2025-01-07 17:40:55,006 - 
+Paragraph: ORERAG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (2.0 days)
+Original text: First, 0.710 g P2O5 was dissolved in 10 ml water contained in a 23 ml teflon pot (this reaction is very vigorous). Then, 0.443 g BeSO4·4H2O and 0.186 g 1,3-diaminopropane were added sequentially (star...
+2025-01-07 17:40:55,006 - 
+Paragraph: KEWBUL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 728h (728.0 h)
+Original text:   A mixture of H2MFDA (0.1 mmol, 28.2 mg), Eu(NO3)3·6H2O (0.1 mmol, 44.7 mg), DMF (5 mL), CH3CH2OH (2 mL) and H2O (1 mL) was sealed in a 15 mL Teflon-lined bomb and heated at 80 °C for 3 days. The rea...
+2025-01-07 17:40:55,006 - 
+Paragraph: KIRTOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days) (Which appears in text!)
+Original text: A mixture of Al2O3·3H2O (0.156 g), H3PO3 (0.164 g), terephthalic acid (0.166 g) and N,N-dimethylformamide (5.0 ml) was sealed in a Teflon-lined steel autoclave and heated at 170 °C for 5 days. After c...
+2025-01-07 17:40:55,702 - 
+Paragraph: CIMTEZ_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (48.0 h)
+Original text: A mixture of NdCl3·6H2O (0.01 mmol), H3L (0.005 mmol), and K2CO3 (0.005 mmol) was placed in a small vial containing THF (1.0 mL), DMF (0.5 mL), and EtOH (0.5 mL). The vial was sealed, heated at 80 °C ...
+2025-01-07 17:40:55,703 - 
+Paragraph: GERWEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 1728h (72.0 days) - Wrong unit (hours)
+Original text: A mixture of Cu(NO3)2·4H2O (0.012 g, 0.05 mmol) and H8L (0.0138 g, 0.02 mmol) in 4 mL of H2O, 2 mL of DMF and a drop of HCl (6 mol/L) was sealed in an autoclave equipped with a Teflon linear (25 mL), ...
+2025-01-07 17:40:55,703 - 
+Paragraph: TEJLOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 720h (720.0 hours}
+
+Synthesis of [C)
+Original text: Synthesis of [Cd2(Ad)2(IN)2DMF]·DMF·H2O (1): The mixture of Cd(NO3)2·4H2O (0.5 mmol, 0.150 g), Adenine (Had, 0.5 mmol, 0.070 g), isonicotinic acid (HIN, 0.5 mmol, 0.06 g) and 3 ml N,N-dimethylformamid...
+2025-01-07 17:40:56,056 - 
+Paragraph: WOQYUW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: The cobalt phosphate-oxalate, was synthesized under mild hydrothermal conditions starting from a gel containing piperazine as the structure-directing agent. In a typical synthesis, 0.487 g of cobalt c...
+2025-01-07 17:40:56,056 - 
+Paragraph: VAMQIJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 48h (2.0 days)
+Original text: Synthesis. (CN3H6)2·(VO2)3(PO4)(HPO4) was prepared from a mixture of 0.875 g of guanidinium carbonate [(C(NH2)3)2CO3], 2.240 g of 85% H3PO4, 0.883 g of V2O5, 1.245 g of Mg(NO3)2, and 7 mL of deionized...
+2025-01-07 17:40:56,057 - 
+Paragraph: VOXTUZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 240h (10.0 days)
+Original text:   A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.115 g, 85 wt%), 4,4′-bipyridine (0.078 g), and methanol (4.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °C for 10 days. ...
+2025-01-07 17:40:56,057 - 
+Paragraph: TISKOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: A mixture of Zn(OAc)2·2H2O (0.22 g, 1.0 mmol), trz (0.11 g, 1.5 mmol), KSCN (0.049 g, 0.50 mmol), and H2O (10 mL) was heated at 180 °C for 5 days under autogenous pressure. The mixture was cooled to r...
+2025-01-07 17:40:56,057 - 
+Paragraph: YIZJEY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: Three drops of aqueous H3PO3 (50 %) were added to a mixture of Zn(NO3)2⋅6 H2O (0.12 g, 0.40 mmol) and HL (0.05 g, 0.60 mmol) in DMF (5 mL) with stirring. The mixture was heated at 85 °C for 72 h and t...
+2025-01-07 17:40:56,058 - 
+Paragraph: HIJMEU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text: The compound 1 was hydrothermally synthesized under autogenous pressure. A mixture of Mn(OAc)2 · 4H2O (0.1 g), Dy(OAc)3 · 10H2O (0.1 g), (NH4)6Mo7O24 · 4H2O (0.2 g), ethylenediamine (0. 3 ml), and wat...
+2025-01-07 17:40:56,058 - 
+Paragraph: AGIMOU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 96h (96.0 h)
+Original text: A mixture containing Mn(NO3)2 (53.7 mg, 0.3 mmol), Hatz (25.5 mg, 0.3 mmol) and H2ip (16.6 mg. 0.1 mmol) was dissolved in mixed water–ethanol solution (10.0 mL, v:v = 1:1), and the initial pH value of...
+2025-01-07 17:40:56,058 - 
+Paragraph: BASSOF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 120h (5.0 days)
+Original text:   A mixture of Ce(NO3)3·6H2O (0.2 mmol), AgNO3 (0.2 mmol), H3bidc (0.2 mmol), and water (10 mL) was sealed in a 23 mL Teflon reactor and was kept under autogenous pressure at 170 °C for 5 days, then c...
+2025-01-07 17:40:56,419 - 
+Paragraph: DINNIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 24h (24.0 h)
+Got: 6h (6.0 h)
+Original text: [Mn4(Adi)4(DMF)2]n (3). Adipic acid (1 mmol) and MnCl2·4H2O (0.5 mmol) were dissolved in 5 mL DMF and 5 mL ethanol solution, stirred for 5 min and transferred to 23 ml Teflon-lined autoclave and heate...
+2025-01-07 17:40:56,737 - 
+Paragraph: VOXVAH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 216h (9.0 days)
+Original text:   A mixture of BeSO4·4H2O (0.177 g), H3PO4 (0.230 g, 85 wt%), 4,4′-bipyridine (0.156 g), and ethanol (8.0 mL) was sealed in a Teflon-lined stainless steel autoclave and heated at 180 °C for 9 days. Th...
+2025-01-07 17:40:56,737 - 
+Paragraph: AQIQAU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 96h (96.0 h)
+Got: 24h (1440.0 min)
+Original text: Synthesis of [Cd(bpydb)(H2bpydb)(H2O)]n (1): A mixture of CdCO3 (0.05 mmol, 0.009 g), H2bpydb (0.05 mmol, 0.020 g) was dissolved in 5 mL distilled water. The resulting solution was stirred for about 6...
+2025-01-07 17:40:56,737 - 
+Paragraph: EXALIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text: A mixture of NiCl2·6H2O (0.12 g, 0.5 mmol), L1 (0.046 g, 0.2 mmol), H3PMo12O40·36H2O (0.2 g, 0.08 mmol), and H2O (10 mL) was stirred for 60 min in air, then transferred and sealed in a 23 mL Teflon re...
+2025-01-07 17:40:56,737 - 
+Paragraph: UBIPAY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 192h (8.0 days)
+Original text: Synthesis of [Mn2L2(H2O)2]⋅3 H2O (1): Ligand H2L (10 mg, 0.037 mmol) and MnCl2⋅4 H2O (20 mg, 0.10 mmol) were dissolved in a mixture of DMF (10 mL) and H2O (16 mL). After the resulting yellow solution ...
+2025-01-07 17:40:56,738 - 
+Paragraph: INIXOT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (3.0 days)
+Original text: Synthesis: The title compound was synthesized under mild hydrothermal conditions. MgCl2·6H2O (4.0662 g, 20 mmol) and B2O3 (2.7848 g, 40 mmol) were mixed in deionized water (40 mL) whilst stirring. H3P...
+2025-01-07 17:40:56,738 - 
+Paragraph: IRAYOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: V2O5 (0.09 g, 0.5 mmol) was added to deionized water (10 mL), resulting in a yellow turbid mixture. H3PO4 (1 mL) and ethanediamine (1.5 mL) were added to the mixture and it turned a light green color....
+2025-01-07 17:40:56,739 - 
+Paragraph: BOWRAH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 192h (8.0 days)
+Original text: (C3H12N2)FeIII 6(H2O)4[B4P8O32(OH)8] was prepared under mild hydrothermal conditions at 443 K. A mixture of 0.811 g FeCl3·6H2O (Alfa, 99.8%), 1.484 g H3BO3 (Alfa, 99.9%), 0.822 g C3H10N2 (1,3-diaminop...
+2025-01-07 17:40:57,069 - 
+Paragraph: FIVYEP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 168h (7.0 days)
+Original text: † Preparation of [K2Mg2{U2(C2O4)7}·2H2O];9H2O: K4U(C2O4)4 was synthesized in situ from U(C2O4)2·6H2O (0.2 g, 0.4 mmol) and K2(C2O4)·H2O (0.15 g, 0.8 mmol) in H2O (12 mL) at 80 °C. To the hot green sol...
+2025-01-07 17:40:57,406 - 
+Paragraph: WECBAJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 24h (24.0 h)
+Original text: ‡ The synthesis of 1. Compound 1 was synthesized by solvo(hydro)thermal reaction of Zn(NO3)2(1 mmol), H3PO4 (6 mmol), 4,4′-bipyridine (6.4 mmol) in ethylene glycol (2 ml) and water (6 ml) mixed solven...
+2025-01-07 17:40:58,062 - 
+Paragraph: GUJREK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 5h (5.0 h)
+Got: 59h (59.0 h}
+
+Document:
+
+Synthesis)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...
+2025-01-07 17:40:58,399 - 
+Paragraph: FIGFOR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 1728h (72.0 days)
+Original text: Hydrothermal reactions were carried out in home-made Teflon-lined stainless-steel autoclaves with 8 mL capacity. 1 was prepared from starting mixtures of approximate molar compositions ZnCl2:H3BO3:H3P...
+2025-01-07 17:40:58,400 - 
+Paragraph: AHAMAY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: [enH2]0.5Zn[(L)(H2O)]·H2O (1): A mixture of Zn(NO3)2·6H2O (0.30 g, 1.0 mmol), NaF (0.04g, 1.0 mmol), and H3L (0.5 mL, 2.0 mmol) in deionised water (10.0 mL), adjusted to pH ≈︁ 6 with ethylenediamine w...
+2025-01-07 17:40:59,132 - 
+Paragraph: OKIPUU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 1728h (72.0 days) - Wrong unit (hours)
+Original text: A mixture of Cd(NO3)2·4H2O (30.1 mg, 0.1 mmol), H2bdc (16.6 mg, 0.1 mmol), and BIDPE (30.2 mg, 0.1 mmol) was dissolved in 12 mL of DMF/H2O (3:1, v/v). The final mixture was placed in a Parr Teflon-lin...
+2025-01-07 17:40:59,491 - 
+Paragraph: EDOYOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 336h (14.0 days)
+Original text:   ZCP-THO was prepared by employing hydrothermal methods. Typically, ZnO (240 mg), 2CoCO3  ·3Co(OH)2·xH2O (600 mg), H3PO4 (85%, 0.6 ml) and 4 ml H2O were mixed together and stirred for about half an h...
+2025-01-07 17:40:59,810 - 
+Paragraph: REDROI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 24h (24.0 h)
+Got: 0h (1.0 month) - Wrong unit (days)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2025-01-07 17:40:59,811 - 
+Paragraph: WEVQOD01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 72h (72.0 h)
+Original text: [Co(H2O)6][CoGd(oda)3]2⋅3 H2O (2‐Co): A mixture of Co(CH3COO)2⋅6 H2O (0.18 g, 0.75 mmol), H2oda (0.012 g, 0.75 mmol), and Gd2O3 (0.09 g, 0.25 mmol) was added to 15 mL of deionized water and the mixtur...
+2025-01-07 17:40:59,811 - 
+Paragraph: QOCBUH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 144h (6.0 d)
+Original text: Hpy·Be3(OH)(HPO4)3 (2b): A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.144 g, 85 wt.‐%), pyridine (0.101 g), H2O (1.0 mL), and isopropyl alcohol (4.0 mL) was sealed in a 20 mL Teflon‐lined steel autocla...
+2025-01-07 17:41:00,488 - 
+Paragraph: GUGXOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 216h (9.0 days)
+Original text: Synthesis of [H2ampy][Be3(HPO4)4] (2): A mixture of BeSO4·4H2O (0.170g), H3PO4 (0.30 mL), 3‐(aminomethyl)pyridine (0.20 mL), methanol (4.40 mL), and H2O (0.60 mL) was sealed in a 25 mL Teflon‐lined au...
+2025-01-07 17:41:00,489 - 
+Paragraph: QIVZEC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text:   Compound 4 was synthesized under solvothermal conditions at 100 °C. Zn(NO3)2·6H2O (0.074 g, 0.25 mmol) was dissolved in 4 ml of deionized water to which an aqueous solution (2 ml) of H2muco (0.036 g...
+2025-01-07 17:41:00,490 - 
+Paragraph: QOBPEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 1h (None h)
+Got: 192h (8.0 days)
+Original text: Him·Be3(OH)(HPO4)3 (2a): A mixture of BeSO4·4H2O (0.089 g), H3PO4 (0.115 g, 85 wt.‐%), imidazole (0.034 g), water (0.9 mL), and ethylene glycol (4.0 mL) was sealed in a 20 mL Teflon‐lined steel autocl...

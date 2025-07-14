@@ -1,0 +1,6 @@
+2025-01-07 16:52:01,278 - 
+Paragraph: GOBTAT_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 110°C (110.0 C)
+Got: 25°C (25.0 °C)
+Original text: Co(NO3)2·6H2O (0.155 g, 0.53 mmol) and H2ndc (0.116 g, 0.54 mmol) were dissolved in 10.0 mL of DMF. After adding dabco (0.020 g, 0.18 mmol) and o-xylene (5 mL), the mixture was stirred for 2 h at room...

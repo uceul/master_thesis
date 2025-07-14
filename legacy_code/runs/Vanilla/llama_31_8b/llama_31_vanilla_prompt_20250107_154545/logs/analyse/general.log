@@ -1,0 +1,258 @@
+2025-01-07 16:10:37,392 INFO     analysing!
+2025-01-07 16:10:37,393 INFO     Loading dataset from CSV, path: mof_dataset_labeled_M.csv
+2025-01-07 16:10:37,393 INFO     [dataset]: Loading LabeledMofDataset from csv 'mof_dataset_labeled_M.csv'
+2025-01-07 16:10:37,423 INFO     [dataset]: Finished loading from csv. #Items: 905
+2025-01-07 16:10:39,515 ERROR    Missing required solvent data for paragraph HULTEN_clean
+2025-01-07 16:10:39,515 ERROR    Error processing evaluation for HULTEN_clean, LLaMa 3.1 8B Instruct: Paragraph HULTEN_clean is missing required solvent data
+2025-01-07 16:10:39,863 ERROR    Missing required solvent data for paragraph MATHEV_clean
+2025-01-07 16:10:39,863 ERROR    Error processing evaluation for MATHEV_clean, LLaMa 3.1 8B Instruct: Paragraph MATHEV_clean is missing required solvent data
+2025-01-07 16:10:40,205 ERROR    Missing required solvent data for paragraph KAHYEY_clean
+2025-01-07 16:10:40,205 ERROR    Error processing evaluation for KAHYEY_clean, LLaMa 3.1 8B Instruct: Paragraph KAHYEY_clean is missing required solvent data
+2025-01-07 16:10:40,945 ERROR    Missing required solvent data for paragraph TOVJAP_charged
+2025-01-07 16:10:40,945 ERROR    Error processing evaluation for TOVJAP_charged, LLaMa 3.1 8B Instruct: Paragraph TOVJAP_charged is missing required solvent data
+2025-01-07 16:10:40,946 ERROR    Missing required solvent data for paragraph AQEFOS_clean
+2025-01-07 16:10:40,946 ERROR    Error processing evaluation for AQEFOS_clean, LLaMa 3.1 8B Instruct: Paragraph AQEFOS_clean is missing required solvent data
+2025-01-07 16:10:41,662 ERROR    Missing required solvent data for paragraph TANFEV_clean
+2025-01-07 16:10:41,662 ERROR    Error processing evaluation for TANFEV_clean, LLaMa 3.1 8B Instruct: Paragraph TANFEV_clean is missing required solvent data
+2025-01-07 16:10:42,023 ERROR    Missing required solvent data for paragraph EBITAL_clean
+2025-01-07 16:10:42,023 ERROR    Error processing evaluation for EBITAL_clean, LLaMa 3.1 8B Instruct: Paragraph EBITAL_clean is missing required solvent data
+2025-01-07 16:10:42,710 ERROR    Missing required solvent data for paragraph AJOTEY_clean
+2025-01-07 16:10:42,710 ERROR    Error processing evaluation for AJOTEY_clean, LLaMa 3.1 8B Instruct: Paragraph AJOTEY_clean is missing required solvent data
+2025-01-07 16:10:42,710 ERROR    Missing required solvent data for paragraph FORXAM_clean
+2025-01-07 16:10:42,710 ERROR    Error processing evaluation for FORXAM_clean, LLaMa 3.1 8B Instruct: Paragraph FORXAM_clean is missing required solvent data
+2025-01-07 16:10:43,038 ERROR    Missing required solvent data for paragraph ATOGEV_clean
+2025-01-07 16:10:43,038 ERROR    Error processing evaluation for ATOGEV_clean, LLaMa 3.1 8B Instruct: Paragraph ATOGEV_clean is missing required solvent data
+2025-01-07 16:10:43,040 ERROR    Missing required solvent data for paragraph WOBHOM_clean
+2025-01-07 16:10:43,040 ERROR    Error processing evaluation for WOBHOM_clean, LLaMa 3.1 8B Instruct: Paragraph WOBHOM_clean is missing required solvent data
+2025-01-07 16:10:44,461 ERROR    Missing required solvent data for paragraph QOBWEJ01_clean
+2025-01-07 16:10:44,461 ERROR    Error processing evaluation for QOBWEJ01_clean, LLaMa 3.1 8B Instruct: Paragraph QOBWEJ01_clean is missing required solvent data
+2025-01-07 16:10:44,842 ERROR    Missing required solvent data for paragraph VEZQEX_clean
+2025-01-07 16:10:44,842 ERROR    Error processing evaluation for VEZQEX_clean, LLaMa 3.1 8B Instruct: Paragraph VEZQEX_clean is missing required solvent data
+2025-01-07 16:10:45,220 ERROR    Missing required solvent data for paragraph LAVMAY_clean
+2025-01-07 16:10:45,220 ERROR    Error processing evaluation for LAVMAY_clean, LLaMa 3.1 8B Instruct: Paragraph LAVMAY_clean is missing required solvent data
+2025-01-07 16:10:45,582 ERROR    Missing required solvent data for paragraph FIVQOR_clean
+2025-01-07 16:10:45,582 ERROR    Error processing evaluation for FIVQOR_clean, LLaMa 3.1 8B Instruct: Paragraph FIVQOR_clean is missing required solvent data
+2025-01-07 16:10:45,582 ERROR    Missing required solvent data for paragraph GUVBEF_clean
+2025-01-07 16:10:45,582 ERROR    Error processing evaluation for GUVBEF_clean, LLaMa 3.1 8B Instruct: Paragraph GUVBEF_clean is missing required solvent data
+2025-01-07 16:10:45,996 ERROR    Missing required solvent data for paragraph RIFQUT_clean
+2025-01-07 16:10:45,996 ERROR    Error processing evaluation for RIFQUT_clean, LLaMa 3.1 8B Instruct: Paragraph RIFQUT_clean is missing required solvent data
+2025-01-07 16:10:45,997 ERROR    Missing required solvent data for paragraph UCAJUF_clean
+2025-01-07 16:10:45,997 ERROR    Error processing evaluation for UCAJUF_clean, LLaMa 3.1 8B Instruct: Paragraph UCAJUF_clean is missing required solvent data
+2025-01-07 16:10:46,349 ERROR    Missing required solvent data for paragraph FEJDII_clean
+2025-01-07 16:10:46,349 ERROR    Error processing evaluation for FEJDII_clean, LLaMa 3.1 8B Instruct: Paragraph FEJDII_clean is missing required solvent data
+2025-01-07 16:10:47,057 ERROR    Missing required solvent data for paragraph CIXCOC_clean
+2025-01-07 16:10:47,057 ERROR    Error processing evaluation for CIXCOC_clean, LLaMa 3.1 8B Instruct: Paragraph CIXCOC_clean is missing required solvent data
+2025-01-07 16:10:47,057 ERROR    Missing required solvent data for paragraph LIXWEV_clean
+2025-01-07 16:10:47,057 ERROR    Error processing evaluation for LIXWEV_clean, LLaMa 3.1 8B Instruct: Paragraph LIXWEV_clean is missing required solvent data
+2025-01-07 16:10:47,058 ERROR    Missing required solvent data for paragraph NAVFUM_clean
+2025-01-07 16:10:47,058 ERROR    Error processing evaluation for NAVFUM_clean, LLaMa 3.1 8B Instruct: Paragraph NAVFUM_clean is missing required solvent data
+2025-01-07 16:10:47,058 ERROR    Missing required solvent data for paragraph WACKOB_clean
+2025-01-07 16:10:47,058 ERROR    Error processing evaluation for WACKOB_clean, LLaMa 3.1 8B Instruct: Paragraph WACKOB_clean is missing required solvent data
+2025-01-07 16:10:47,781 ERROR    Missing required solvent data for paragraph SASKIH_clean
+2025-01-07 16:10:47,781 ERROR    Error processing evaluation for SASKIH_clean, LLaMa 3.1 8B Instruct: Paragraph SASKIH_clean is missing required solvent data
+2025-01-07 16:10:48,536 ERROR    Missing required solvent data for paragraph IMIDZB10_clean
+2025-01-07 16:10:48,536 ERROR    Error processing evaluation for IMIDZB10_clean, LLaMa 3.1 8B Instruct: Paragraph IMIDZB10_clean is missing required solvent data
+2025-01-07 16:10:48,537 ERROR    Missing required solvent data for paragraph IWAHUK_clean
+2025-01-07 16:10:48,537 ERROR    Error processing evaluation for IWAHUK_clean, LLaMa 3.1 8B Instruct: Paragraph IWAHUK_clean is missing required solvent data
+2025-01-07 16:10:48,883 ERROR    Missing required solvent data for paragraph NEZBOK_clean
+2025-01-07 16:10:48,883 ERROR    Error processing evaluation for NEZBOK_clean, LLaMa 3.1 8B Instruct: Paragraph NEZBOK_clean is missing required solvent data
+2025-01-07 16:10:48,884 ERROR    Missing required solvent data for paragraph TAPXIT01_clean
+2025-01-07 16:10:48,884 ERROR    Error processing evaluation for TAPXIT01_clean, LLaMa 3.1 8B Instruct: Paragraph TAPXIT01_clean is missing required solvent data
+2025-01-07 16:10:49,228 ERROR    Missing required solvent data for paragraph YABWOP_clean
+2025-01-07 16:10:49,228 ERROR    Error processing evaluation for YABWOP_clean, LLaMa 3.1 8B Instruct: Paragraph YABWOP_clean is missing required solvent data
+2025-01-07 16:10:49,228 ERROR    Missing required solvent data for paragraph YONNAR_clean
+2025-01-07 16:10:49,228 ERROR    Error processing evaluation for YONNAR_clean, LLaMa 3.1 8B Instruct: Paragraph YONNAR_clean is missing required solvent data
+2025-01-07 16:10:49,229 ERROR    Missing required solvent data for paragraph VEHLEA_clean
+2025-01-07 16:10:49,229 ERROR    Error processing evaluation for VEHLEA_clean, LLaMa 3.1 8B Instruct: Paragraph VEHLEA_clean is missing required solvent data
+2025-01-07 16:10:49,230 ERROR    Missing required solvent data for paragraph IXEJOL_clean
+2025-01-07 16:10:49,230 ERROR    Error processing evaluation for IXEJOL_clean, LLaMa 3.1 8B Instruct: Paragraph IXEJOL_clean is missing required solvent data
+2025-01-07 16:10:49,230 ERROR    Missing required solvent data for paragraph SUXNIJ_clean
+2025-01-07 16:10:49,230 ERROR    Error processing evaluation for SUXNIJ_clean, LLaMa 3.1 8B Instruct: Paragraph SUXNIJ_clean is missing required solvent data
+2025-01-07 16:10:49,230 ERROR    Missing required solvent data for paragraph XEQGAC_clean
+2025-01-07 16:10:49,230 ERROR    Error processing evaluation for XEQGAC_clean, LLaMa 3.1 8B Instruct: Paragraph XEQGAC_clean is missing required solvent data
+2025-01-07 16:10:49,231 ERROR    Missing required solvent data for paragraph GUCJAQ_clean
+2025-01-07 16:10:49,231 ERROR    Error processing evaluation for GUCJAQ_clean, LLaMa 3.1 8B Instruct: Paragraph GUCJAQ_clean is missing required solvent data
+2025-01-07 16:10:49,231 ERROR    Missing required solvent data for paragraph YIJCEB_clean
+2025-01-07 16:10:49,231 ERROR    Error processing evaluation for YIJCEB_clean, LLaMa 3.1 8B Instruct: Paragraph YIJCEB_clean is missing required solvent data
+2025-01-07 16:10:49,915 ERROR    Missing required solvent data for paragraph OFIWIK_charged
+2025-01-07 16:10:49,915 ERROR    Error processing evaluation for OFIWIK_charged, LLaMa 3.1 8B Instruct: Paragraph OFIWIK_charged is missing required solvent data
+2025-01-07 16:10:50,643 ERROR    Missing required solvent data for paragraph XAWBEE_clean
+2025-01-07 16:10:50,643 ERROR    Error processing evaluation for XAWBEE_clean, LLaMa 3.1 8B Instruct: Paragraph XAWBEE_clean is missing required solvent data
+2025-01-07 16:10:50,972 ERROR    Missing required solvent data for paragraph AKEDIF_clean
+2025-01-07 16:10:50,972 ERROR    Error processing evaluation for AKEDIF_clean, LLaMa 3.1 8B Instruct: Paragraph AKEDIF_clean is missing required solvent data
+2025-01-07 16:10:51,302 ERROR    Missing required solvent data for paragraph FORXIU_clean
+2025-01-07 16:10:51,302 ERROR    Error processing evaluation for FORXIU_clean, LLaMa 3.1 8B Instruct: Paragraph FORXIU_clean is missing required solvent data
+2025-01-07 16:10:52,369 ERROR    Missing required solvent data for paragraph EKUPEG_clean
+2025-01-07 16:10:52,369 ERROR    Error processing evaluation for EKUPEG_clean, LLaMa 3.1 8B Instruct: Paragraph EKUPEG_clean is missing required solvent data
+2025-01-07 16:10:52,369 ERROR    Missing required solvent data for paragraph TEQVAO_manual
+2025-01-07 16:10:52,369 ERROR    Error processing evaluation for TEQVAO_manual, LLaMa 3.1 8B Instruct: Paragraph TEQVAO_manual is missing required solvent data
+2025-01-07 16:10:52,724 ERROR    Missing required solvent data for paragraph RORVAX_clean
+2025-01-07 16:10:52,724 ERROR    Error processing evaluation for RORVAX_clean, LLaMa 3.1 8B Instruct: Paragraph RORVAX_clean is missing required solvent data
+2025-01-07 16:10:52,725 ERROR    Missing required solvent data for paragraph TACFIN01_clean
+2025-01-07 16:10:52,725 ERROR    Error processing evaluation for TACFIN01_clean, LLaMa 3.1 8B Instruct: Paragraph TACFIN01_clean is missing required solvent data
+2025-01-07 16:10:52,725 ERROR    Missing required solvent data for paragraph WOWGUK_clean
+2025-01-07 16:10:52,725 ERROR    Error processing evaluation for WOWGUK_clean, LLaMa 3.1 8B Instruct: Paragraph WOWGUK_clean is missing required solvent data
+2025-01-07 16:10:53,046 ERROR    Missing required solvent data for paragraph ILENOC_clean
+2025-01-07 16:10:53,046 ERROR    Error processing evaluation for ILENOC_clean, LLaMa 3.1 8B Instruct: Paragraph ILENOC_clean is missing required solvent data
+2025-01-07 16:10:53,709 ERROR    Missing required solvent data for paragraph IPICOA_clean
+2025-01-07 16:10:53,709 ERROR    Error processing evaluation for IPICOA_clean, LLaMa 3.1 8B Instruct: Paragraph IPICOA_clean is missing required solvent data
+2025-01-07 16:10:53,709 ERROR    Missing required solvent data for paragraph OMAMEU_clean
+2025-01-07 16:10:53,709 ERROR    Error processing evaluation for OMAMEU_clean, LLaMa 3.1 8B Instruct: Paragraph OMAMEU_clean is missing required solvent data
+2025-01-07 16:10:54,436 ERROR    Missing required solvent data for paragraph MUVMOG_clean
+2025-01-07 16:10:54,436 ERROR    Error processing evaluation for MUVMOG_clean, LLaMa 3.1 8B Instruct: Paragraph MUVMOG_clean is missing required solvent data
+2025-01-07 16:10:55,115 ERROR    Missing required solvent data for paragraph XIQHIO_clean
+2025-01-07 16:10:55,115 ERROR    Error processing evaluation for XIQHIO_clean, LLaMa 3.1 8B Instruct: Paragraph XIQHIO_clean is missing required solvent data
+2025-01-07 16:10:55,115 ERROR    Missing required solvent data for paragraph ECODOQ_clean
+2025-01-07 16:10:55,115 ERROR    Error processing evaluation for ECODOQ_clean, LLaMa 3.1 8B Instruct: Paragraph ECODOQ_clean is missing required solvent data
+2025-01-07 16:10:55,116 ERROR    Missing required solvent data for paragraph NIMPOQ_clean
+2025-01-07 16:10:55,116 ERROR    Error processing evaluation for NIMPOQ_clean, LLaMa 3.1 8B Instruct: Paragraph NIMPOQ_clean is missing required solvent data
+2025-01-07 16:10:55,473 ERROR    Missing required solvent data for paragraph PETNOS_clean
+2025-01-07 16:10:55,473 ERROR    Error processing evaluation for PETNOS_clean, LLaMa 3.1 8B Instruct: Paragraph PETNOS_clean is missing required solvent data
+2025-01-07 16:10:56,157 ERROR    Missing required solvent data for paragraph ESIDOB_clean
+2025-01-07 16:10:56,157 ERROR    Error processing evaluation for ESIDOB_clean, LLaMa 3.1 8B Instruct: Paragraph ESIDOB_clean is missing required solvent data
+2025-01-07 16:10:56,158 ERROR    Missing required solvent data for paragraph POBJIB_clean
+2025-01-07 16:10:56,158 ERROR    Error processing evaluation for POBJIB_clean, LLaMa 3.1 8B Instruct: Paragraph POBJIB_clean is missing required solvent data
+2025-01-07 16:10:56,482 ERROR    Missing required solvent data for paragraph WONRUM02_clean
+2025-01-07 16:10:56,482 ERROR    Error processing evaluation for WONRUM02_clean, LLaMa 3.1 8B Instruct: Paragraph WONRUM02_clean is missing required solvent data
+2025-01-07 16:10:56,822 ERROR    Missing required solvent data for paragraph NAGCAB_clean
+2025-01-07 16:10:56,822 ERROR    Error processing evaluation for NAGCAB_clean, LLaMa 3.1 8B Instruct: Paragraph NAGCAB_clean is missing required solvent data
+2025-01-07 16:10:57,525 ERROR    Missing required solvent data for paragraph GARTUR_clean
+2025-01-07 16:10:57,526 ERROR    Error processing evaluation for GARTUR_clean, LLaMa 3.1 8B Instruct: Paragraph GARTUR_clean is missing required solvent data
+2025-01-07 16:10:57,526 ERROR    Missing required solvent data for paragraph YORRII_clean
+2025-01-07 16:10:57,526 ERROR    Error processing evaluation for YORRII_clean, LLaMa 3.1 8B Instruct: Paragraph YORRII_clean is missing required solvent data
+2025-01-07 16:10:57,526 ERROR    Missing required solvent data for paragraph KUDWAJ_clean
+2025-01-07 16:10:57,526 ERROR    Error processing evaluation for KUDWAJ_clean, LLaMa 3.1 8B Instruct: Paragraph KUDWAJ_clean is missing required solvent data
+2025-01-07 16:10:57,527 ERROR    Missing required solvent data for paragraph VEHLIE_clean
+2025-01-07 16:10:57,527 ERROR    Error processing evaluation for VEHLIE_clean, LLaMa 3.1 8B Instruct: Paragraph VEHLIE_clean is missing required solvent data
+2025-01-07 16:10:57,527 ERROR    Missing required solvent data for paragraph LEVBAQ_clean
+2025-01-07 16:10:57,527 ERROR    Error processing evaluation for LEVBAQ_clean, LLaMa 3.1 8B Instruct: Paragraph LEVBAQ_clean is missing required solvent data
+2025-01-07 16:10:57,528 ERROR    Missing required solvent data for paragraph PIJDIX_clean
+2025-01-07 16:10:57,528 ERROR    Error processing evaluation for PIJDIX_clean, LLaMa 3.1 8B Instruct: Paragraph PIJDIX_clean is missing required solvent data
+2025-01-07 16:10:57,528 ERROR    Missing required solvent data for paragraph QESRAI_clean
+2025-01-07 16:10:57,528 ERROR    Error processing evaluation for QESRAI_clean, LLaMa 3.1 8B Instruct: Paragraph QESRAI_clean is missing required solvent data
+2025-01-07 16:10:57,875 ERROR    Missing required solvent data for paragraph NIZNAN_clean
+2025-01-07 16:10:57,875 ERROR    Error processing evaluation for NIZNAN_clean, LLaMa 3.1 8B Instruct: Paragraph NIZNAN_clean is missing required solvent data
+2025-01-07 16:10:58,979 ERROR    Missing required solvent data for paragraph LADKIN_clean
+2025-01-07 16:10:58,980 ERROR    Error processing evaluation for LADKIN_clean, LLaMa 3.1 8B Instruct: Paragraph LADKIN_clean is missing required solvent data
+2025-01-07 16:10:58,980 ERROR    Missing required solvent data for paragraph OLAGIR_clean
+2025-01-07 16:10:58,980 ERROR    Error processing evaluation for OLAGIR_clean, LLaMa 3.1 8B Instruct: Paragraph OLAGIR_clean is missing required solvent data
+2025-01-07 16:10:58,981 ERROR    Missing required solvent data for paragraph MUHPOV_clean
+2025-01-07 16:10:58,981 ERROR    Error processing evaluation for MUHPOV_clean, LLaMa 3.1 8B Instruct: Paragraph MUHPOV_clean is missing required solvent data
+2025-01-07 16:10:58,981 ERROR    Missing required solvent data for paragraph UGOFED_clean
+2025-01-07 16:10:58,981 ERROR    Error processing evaluation for UGOFED_clean, LLaMa 3.1 8B Instruct: Paragraph UGOFED_clean is missing required solvent data
+2025-01-07 16:10:58,982 ERROR    Missing required solvent data for paragraph WAVREQ_clean
+2025-01-07 16:10:58,982 ERROR    Error processing evaluation for WAVREQ_clean, LLaMa 3.1 8B Instruct: Paragraph WAVREQ_clean is missing required solvent data
+2025-01-07 16:10:58,982 ERROR    Missing required solvent data for paragraph HEZNUW_clean
+2025-01-07 16:10:58,982 ERROR    Error processing evaluation for HEZNUW_clean, LLaMa 3.1 8B Instruct: Paragraph HEZNUW_clean is missing required solvent data
+2025-01-07 16:10:58,983 ERROR    Missing required solvent data for paragraph UVEXAV_clean
+2025-01-07 16:10:58,983 ERROR    Error processing evaluation for UVEXAV_clean, LLaMa 3.1 8B Instruct: Paragraph UVEXAV_clean is missing required solvent data
+2025-01-07 16:10:59,733 ERROR    Missing required solvent data for paragraph TEZKAM_clean
+2025-01-07 16:10:59,733 ERROR    Error processing evaluation for TEZKAM_clean, LLaMa 3.1 8B Instruct: Paragraph TEZKAM_clean is missing required solvent data
+2025-01-07 16:10:59,734 ERROR    Missing required solvent data for paragraph GULCAS_clean
+2025-01-07 16:10:59,734 ERROR    Error processing evaluation for GULCAS_clean, LLaMa 3.1 8B Instruct: Paragraph GULCAS_clean is missing required solvent data
+2025-01-07 16:10:59,734 ERROR    Missing required solvent data for paragraph RUYZUH_clean
+2025-01-07 16:10:59,734 ERROR    Error processing evaluation for RUYZUH_clean, LLaMa 3.1 8B Instruct: Paragraph RUYZUH_clean is missing required solvent data
+2025-01-07 16:10:59,735 ERROR    Missing required solvent data for paragraph PUPHUE_clean
+2025-01-07 16:10:59,735 ERROR    Error processing evaluation for PUPHUE_clean, LLaMa 3.1 8B Instruct: Paragraph PUPHUE_clean is missing required solvent data
+2025-01-07 16:10:59,735 ERROR    Missing required solvent data for paragraph NIMPEG01_clean
+2025-01-07 16:10:59,735 ERROR    Error processing evaluation for NIMPEG01_clean, LLaMa 3.1 8B Instruct: Paragraph NIMPEG01_clean is missing required solvent data
+2025-01-07 16:11:01,139 ERROR    Missing required solvent data for paragraph UXISUR_clean
+2025-01-07 16:11:01,139 ERROR    Error processing evaluation for UXISUR_clean, LLaMa 3.1 8B Instruct: Paragraph UXISUR_clean is missing required solvent data
+2025-01-07 16:11:01,139 ERROR    Missing required solvent data for paragraph LADWAR_clean
+2025-01-07 16:11:01,139 ERROR    Error processing evaluation for LADWAR_clean, LLaMa 3.1 8B Instruct: Paragraph LADWAR_clean is missing required solvent data
+2025-01-07 16:11:01,140 ERROR    Missing required solvent data for paragraph LEQVIN_clean
+2025-01-07 16:11:01,140 ERROR    Error processing evaluation for LEQVIN_clean, LLaMa 3.1 8B Instruct: Paragraph LEQVIN_clean is missing required solvent data
+2025-01-07 16:11:01,793 ERROR    Missing required solvent data for paragraph BOWSUC_clean
+2025-01-07 16:11:01,793 ERROR    Error processing evaluation for BOWSUC_clean, LLaMa 3.1 8B Instruct: Paragraph BOWSUC_clean is missing required solvent data
+2025-01-07 16:11:02,140 ERROR    Missing required solvent data for paragraph SERCEZ_clean
+2025-01-07 16:11:02,141 ERROR    Error processing evaluation for SERCEZ_clean, LLaMa 3.1 8B Instruct: Paragraph SERCEZ_clean is missing required solvent data
+2025-01-07 16:11:02,141 ERROR    Missing required solvent data for paragraph IWAHIZ_clean
+2025-01-07 16:11:02,141 ERROR    Error processing evaluation for IWAHIZ_clean, LLaMa 3.1 8B Instruct: Paragraph IWAHIZ_clean is missing required solvent data
+2025-01-07 16:11:02,141 ERROR    Missing required solvent data for paragraph PACZOK_clean
+2025-01-07 16:11:02,141 ERROR    Error processing evaluation for PACZOK_clean, LLaMa 3.1 8B Instruct: Paragraph PACZOK_clean is missing required solvent data
+2025-01-07 16:11:02,142 ERROR    Missing required solvent data for paragraph QAJKAO_clean
+2025-01-07 16:11:02,142 ERROR    Error processing evaluation for QAJKAO_clean, LLaMa 3.1 8B Instruct: Paragraph QAJKAO_clean is missing required solvent data
+2025-01-07 16:11:02,142 ERROR    Missing required solvent data for paragraph OREZUI_clean
+2025-01-07 16:11:02,142 ERROR    Error processing evaluation for OREZUI_clean, LLaMa 3.1 8B Instruct: Paragraph OREZUI_clean is missing required solvent data
+2025-01-07 16:11:02,142 ERROR    Missing required solvent data for paragraph DEKPUF_clean
+2025-01-07 16:11:02,142 ERROR    Error processing evaluation for DEKPUF_clean, LLaMa 3.1 8B Instruct: Paragraph DEKPUF_clean is missing required solvent data
+2025-01-07 16:11:02,531 ERROR    Missing required solvent data for paragraph VEHLAW_clean
+2025-01-07 16:11:02,532 ERROR    Error processing evaluation for VEHLAW_clean, LLaMa 3.1 8B Instruct: Paragraph VEHLAW_clean is missing required solvent data
+2025-01-07 16:11:02,866 ERROR    Missing required solvent data for paragraph FEJDEE_clean
+2025-01-07 16:11:02,866 ERROR    Error processing evaluation for FEJDEE_clean, LLaMa 3.1 8B Instruct: Paragraph FEJDEE_clean is missing required solvent data
+2025-01-07 16:11:02,866 ERROR    Missing required solvent data for paragraph QUDGED_clean
+2025-01-07 16:11:02,866 ERROR    Error processing evaluation for QUDGED_clean, LLaMa 3.1 8B Instruct: Paragraph QUDGED_clean is missing required solvent data
+2025-01-07 16:11:03,281 ERROR    Missing required solvent data for paragraph ICIVEW_clean
+2025-01-07 16:11:03,281 ERROR    Error processing evaluation for ICIVEW_clean, LLaMa 3.1 8B Instruct: Paragraph ICIVEW_clean is missing required solvent data
+2025-01-07 16:11:03,642 ERROR    Missing required solvent data for paragraph VOXVEL_clean
+2025-01-07 16:11:03,642 ERROR    Error processing evaluation for VOXVEL_clean, LLaMa 3.1 8B Instruct: Paragraph VOXVEL_clean is missing required solvent data
+2025-01-07 16:11:03,983 ERROR    Missing required solvent data for paragraph BOZFIH_clean
+2025-01-07 16:11:03,983 ERROR    Error processing evaluation for BOZFIH_clean, LLaMa 3.1 8B Instruct: Paragraph BOZFIH_clean is missing required solvent data
+2025-01-07 16:11:04,333 ERROR    Missing required solvent data for paragraph CEYPUT_clean
+2025-01-07 16:11:04,333 ERROR    Error processing evaluation for CEYPUT_clean, LLaMa 3.1 8B Instruct: Paragraph CEYPUT_clean is missing required solvent data
+2025-01-07 16:11:04,680 ERROR    Missing required solvent data for paragraph JESDIV_clean
+2025-01-07 16:11:04,680 ERROR    Error processing evaluation for JESDIV_clean, LLaMa 3.1 8B Instruct: Paragraph JESDIV_clean is missing required solvent data
+2025-01-07 16:11:04,680 ERROR    Missing required solvent data for paragraph PENZIS_clean
+2025-01-07 16:11:04,680 ERROR    Error processing evaluation for PENZIS_clean, LLaMa 3.1 8B Instruct: Paragraph PENZIS_clean is missing required solvent data
+2025-01-07 16:11:04,680 ERROR    Missing required solvent data for paragraph XAJZOY_clean
+2025-01-07 16:11:04,680 ERROR    Error processing evaluation for XAJZOY_clean, LLaMa 3.1 8B Instruct: Paragraph XAJZOY_clean is missing required solvent data
+2025-01-07 16:11:05,029 ERROR    Missing required solvent data for paragraph DEKPEP_clean
+2025-01-07 16:11:05,029 ERROR    Error processing evaluation for DEKPEP_clean, LLaMa 3.1 8B Instruct: Paragraph DEKPEP_clean is missing required solvent data
+2025-01-07 16:11:05,029 ERROR    Missing required solvent data for paragraph ECASAD_clean
+2025-01-07 16:11:05,029 ERROR    Error processing evaluation for ECASAD_clean, LLaMa 3.1 8B Instruct: Paragraph ECASAD_clean is missing required solvent data
+2025-01-07 16:11:05,434 ERROR    Missing required solvent data for paragraph REKCUG_clean
+2025-01-07 16:11:05,434 ERROR    Error processing evaluation for REKCUG_clean, LLaMa 3.1 8B Instruct: Paragraph REKCUG_clean is missing required solvent data
+2025-01-07 16:11:05,434 ERROR    Missing required solvent data for paragraph PIHWOU_clean
+2025-01-07 16:11:05,435 ERROR    Error processing evaluation for PIHWOU_clean, LLaMa 3.1 8B Instruct: Paragraph PIHWOU_clean is missing required solvent data
+2025-01-07 16:11:06,731 ERROR    Missing required solvent data for paragraph BOWSOW_clean
+2025-01-07 16:11:06,731 ERROR    Error processing evaluation for BOWSOW_clean, LLaMa 3.1 8B Instruct: Paragraph BOWSOW_clean is missing required solvent data
+2025-01-07 16:11:06,732 ERROR    Missing required solvent data for paragraph ORERAG_clean
+2025-01-07 16:11:06,732 ERROR    Error processing evaluation for ORERAG_clean, LLaMa 3.1 8B Instruct: Paragraph ORERAG_clean is missing required solvent data
+2025-01-07 16:11:06,732 ERROR    Missing required solvent data for paragraph KIRTOW_clean
+2025-01-07 16:11:06,732 ERROR    Error processing evaluation for KIRTOW_clean, LLaMa 3.1 8B Instruct: Paragraph KIRTOW_clean is missing required solvent data
+2025-01-07 16:11:06,733 ERROR    Missing required solvent data for paragraph CIMTEZ_charged
+2025-01-07 16:11:06,733 ERROR    Error processing evaluation for CIMTEZ_charged, LLaMa 3.1 8B Instruct: Paragraph CIMTEZ_charged is missing required solvent data
+2025-01-07 16:11:07,083 ERROR    Missing required solvent data for paragraph WOQYUW_clean
+2025-01-07 16:11:07,083 ERROR    Error processing evaluation for WOQYUW_clean, LLaMa 3.1 8B Instruct: Paragraph WOQYUW_clean is missing required solvent data
+2025-01-07 16:11:07,084 ERROR    Missing required solvent data for paragraph VAMQIJ_clean
+2025-01-07 16:11:07,084 ERROR    Error processing evaluation for VAMQIJ_clean, LLaMa 3.1 8B Instruct: Paragraph VAMQIJ_clean is missing required solvent data
+2025-01-07 16:11:07,084 ERROR    Missing required solvent data for paragraph VOXTUZ_clean
+2025-01-07 16:11:07,085 ERROR    Error processing evaluation for VOXTUZ_clean, LLaMa 3.1 8B Instruct: Paragraph VOXTUZ_clean is missing required solvent data
+2025-01-07 16:11:07,085 ERROR    Missing required solvent data for paragraph TISKOW_clean
+2025-01-07 16:11:07,085 ERROR    Error processing evaluation for TISKOW_clean, LLaMa 3.1 8B Instruct: Paragraph TISKOW_clean is missing required solvent data
+2025-01-07 16:11:07,085 ERROR    Missing required solvent data for paragraph YIZJEY_clean
+2025-01-07 16:11:07,085 ERROR    Error processing evaluation for YIZJEY_clean, LLaMa 3.1 8B Instruct: Paragraph YIZJEY_clean is missing required solvent data
+2025-01-07 16:11:07,425 ERROR    Missing required solvent data for paragraph HIJMEU_clean
+2025-01-07 16:11:07,425 ERROR    Error processing evaluation for HIJMEU_clean, LLaMa 3.1 8B Instruct: Paragraph HIJMEU_clean is missing required solvent data
+2025-01-07 16:11:07,425 ERROR    Missing required solvent data for paragraph AGIMOU_clean
+2025-01-07 16:11:07,425 ERROR    Error processing evaluation for AGIMOU_clean, LLaMa 3.1 8B Instruct: Paragraph AGIMOU_clean is missing required solvent data
+2025-01-07 16:11:07,426 ERROR    Missing required solvent data for paragraph BASSOF_clean
+2025-01-07 16:11:07,426 ERROR    Error processing evaluation for BASSOF_clean, LLaMa 3.1 8B Instruct: Paragraph BASSOF_clean is missing required solvent data
+2025-01-07 16:11:08,113 ERROR    Missing required solvent data for paragraph VOXVAH_clean
+2025-01-07 16:11:08,113 ERROR    Error processing evaluation for VOXVAH_clean, LLaMa 3.1 8B Instruct: Paragraph VOXVAH_clean is missing required solvent data
+2025-01-07 16:11:08,114 ERROR    Missing required solvent data for paragraph UBIPAY_clean
+2025-01-07 16:11:08,114 ERROR    Error processing evaluation for UBIPAY_clean, LLaMa 3.1 8B Instruct: Paragraph UBIPAY_clean is missing required solvent data
+2025-01-07 16:11:08,514 ERROR    Missing required solvent data for paragraph INIXOT_clean
+2025-01-07 16:11:08,515 ERROR    Error processing evaluation for INIXOT_clean, LLaMa 3.1 8B Instruct: Paragraph INIXOT_clean is missing required solvent data
+2025-01-07 16:11:08,515 ERROR    Missing required solvent data for paragraph IRAYOQ_clean
+2025-01-07 16:11:08,515 ERROR    Error processing evaluation for IRAYOQ_clean, LLaMa 3.1 8B Instruct: Paragraph IRAYOQ_clean is missing required solvent data
+2025-01-07 16:11:08,515 ERROR    Missing required solvent data for paragraph BOWRAH_clean
+2025-01-07 16:11:08,515 ERROR    Error processing evaluation for BOWRAH_clean, LLaMa 3.1 8B Instruct: Paragraph BOWRAH_clean is missing required solvent data
+2025-01-07 16:11:09,214 ERROR    Missing required solvent data for paragraph FIVYEP_clean
+2025-01-07 16:11:09,214 ERROR    Error processing evaluation for FIVYEP_clean, LLaMa 3.1 8B Instruct: Paragraph FIVYEP_clean is missing required solvent data
+2025-01-07 16:11:09,215 ERROR    Missing required solvent data for paragraph WECBAJ_clean
+2025-01-07 16:11:09,215 ERROR    Error processing evaluation for WECBAJ_clean, LLaMa 3.1 8B Instruct: Paragraph WECBAJ_clean is missing required solvent data
+2025-01-07 16:11:09,557 ERROR    Missing required solvent data for paragraph FIGFOR_clean
+2025-01-07 16:11:09,558 ERROR    Error processing evaluation for FIGFOR_clean, LLaMa 3.1 8B Instruct: Paragraph FIGFOR_clean is missing required solvent data
+2025-01-07 16:11:09,914 ERROR    Missing required solvent data for paragraph AHAMAY_clean
+2025-01-07 16:11:09,914 ERROR    Error processing evaluation for AHAMAY_clean, LLaMa 3.1 8B Instruct: Paragraph AHAMAY_clean is missing required solvent data
+2025-01-07 16:11:11,020 ERROR    Missing required solvent data for paragraph EDOYOL_clean
+2025-01-07 16:11:11,020 ERROR    Error processing evaluation for EDOYOL_clean, LLaMa 3.1 8B Instruct: Paragraph EDOYOL_clean is missing required solvent data
+2025-01-07 16:11:12,422 ERROR    Missing required solvent data for paragraph WEVQOD01_clean
+2025-01-07 16:11:12,422 ERROR    Error processing evaluation for WEVQOD01_clean, LLaMa 3.1 8B Instruct: Paragraph WEVQOD01_clean is missing required solvent data
+2025-01-07 16:11:12,422 ERROR    Missing required solvent data for paragraph QOCBUH_clean
+2025-01-07 16:11:12,422 ERROR    Error processing evaluation for QOCBUH_clean, LLaMa 3.1 8B Instruct: Paragraph QOCBUH_clean is missing required solvent data
+2025-01-07 16:11:12,790 ERROR    Missing required solvent data for paragraph GUGXOX_clean
+2025-01-07 16:11:12,790 ERROR    Error processing evaluation for GUGXOX_clean, LLaMa 3.1 8B Instruct: Paragraph GUGXOX_clean is missing required solvent data
+2025-01-07 16:11:13,179 ERROR    Missing required solvent data for paragraph QOBPEE_clean
+2025-01-07 16:11:13,179 ERROR    Error processing evaluation for QOBPEE_clean, LLaMa 3.1 8B Instruct: Paragraph QOBPEE_clean is missing required solvent data

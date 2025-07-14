@@ -1,0 +1,2 @@
+
+A mixture of In(NO3)3·4H2O (0.010 g, 0.03 mmol), 2,2′-bipyridine-5,5′-dicarboxylic acid (0.003 g, 0.01 mmol), 0.08 mL of HCOOH, 1 mL of DMF and 0.5 mL of DEF was sealed in a 20 mL vial and heated at 105 °C for 4 days. Eventually, the mixture was cooled to room temperature, after which yellow crystals were collected and dried in air (61% yield based on In(NO3)3·4H2O). Elemental analysis (wt%) for JLU-Liu9: calcd: C 36.79, H 4.712, N 9.032%. Found: C 36.88, H 4.911, N 9.194%. FT-IR (KBr, cm−1): 3057(w), 2932(w), 1640(s), 1342(s), 1151(w), 1034(m), 847(m), 776(s).

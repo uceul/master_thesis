@@ -1,0 +1,9 @@
+- answer:
+    additive: string
+    solvent: string
+    temperature: 0.0001
+    temperature_unit: string
+    time: 0.0001
+    time_unit: string
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LELROL_clean

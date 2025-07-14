@@ -1,0 +1,2040 @@
+2025-01-07 17:40:27,457 - 
+Paragraph: AVEQID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): aqueous HNO3 solution (2.0
+Original text:   A mixture of Zn(NO3)2·6H2O (15 mg, 0.05 mmol), H8TBCB (5 mg, 0.006 mmol), DMAc (3.5 mL), H2O (1 mL) and two drops of aqueous HNO3 solution (2.0 M) was sealed in a 20 mL capped vessel. The as-synthes...
+2025-01-07 17:40:28,185 - 
+Paragraph: VAQSEO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of L1 (21.0 mg, 0.10 mmol), Cd(NO3)2·4H2O (61.6 mg, 0.20 mmol), H3BTB (43.8 mg, 0.10 mmol) and NaOH (12.0 mg, 0.3 mmol) in DMF/H2O (1:3) solution (10 ml) was sealed in a Teflon-lined stainle...
+2025-01-07 17:40:28,185 - 
+Paragraph: UYOFIY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Et3N']
+Got unresolvable : None
+Original text: Synthesis of 1: A mixture of Tb(NO3)3⋅6H2O (45.3 mg, 0.10 mmol), H3IDC (15.6 mg, 0.10 mmol), Et3N (0.1 mL) and EtOH/H2O (1:1, 4 mL) was sealed in a 10 mL Teflon-lined stainless-steel reactor and then ...
+2025-01-07 17:40:28,547 - 
+Paragraph: IZEBEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaHCO3']
+Got unresolvable : None
+Original text: Synthesis of 1: A mixture of Cd(OAC)2·2H2O (0.5 mmol, 0.1333 g), H3L1 (0.2 mmol, 0.0632 g), NaHCO3 (0.5 mmol, 0.042 g) and H2O (12 ml) was sealed in a 23 ml Teflon–lined stainless steel reactor under ...
+2025-01-07 17:40:28,548 - 
+Paragraph: TEJBAN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1-[(4-methylphenyl
+Original text: Synthesis of {[Eu(Bci)2]Cl}n (1). Eu2O3 (0.044g, 0.125 mmol), 4-(chloromethyl)-benzoic acid (0.17g, 0.1 mmol) and 1-[(4-methylphenyl)sulfonyl]-1H-Imidazole (0.11g,0.5 mmol) were mixed in 8 mL H2O and ...
+2025-01-07 17:40:28,549 - 
+Paragraph: TAPHOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:     Zinc nitrate hexahydrate (55 mg, 0.185 mmol), bpmp (50 mg, 0.186 mmol), sodium 5-sulfoisophthalate (50 mg, 0.186 mmol), and 5 mL H2O were placed into a 15 mL glass vial, followed by 1 mL of 1.0 M ...
+2025-01-07 17:40:28,549 - 
+Paragraph: MATHEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Piperazine
+Original text: The cobalt phosphite–oxalate, [C4N2H12][Co4(HPO3)2(C2O4)3], I, was synthesized under hydrothermal conditions starting from cobalt (II) oxalate. In a typical synthesis, 0.285 g of CoC2O4 was dispersed ...
+2025-01-07 17:40:28,549 - 
+Paragraph: DUJRAD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2tdc
+Original text: A mixture of CuCl2·2H2O (0.1 mmol, 0.017 g), Ba(NO3)2 (0.1 mmol, 0.026 g), H2tdc (0.1 mmol, 0.017 g), and DMF (3 mL) was sealed in a small vial, which was kept at 100 °C for 60 h and finally cooled to...
+2025-01-07 17:40:28,549 - 
+Paragraph: LALFUB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   A mixture of 5-methylpyrazine-2-carboxylic acid (0.138 g, 1 mmol), Eu2O3 (0.176 g, 0.5 mmol), HNO3 (0.16 mL), and H2O (10 mL) was heated to 150 °C for 24 h in a 23 mL Teflon-lined stainless-steel au...
+2025-01-07 17:40:28,549 - 
+Paragraph: EBAVAH_auto
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: A mixture of H4btadpa (0.0025 g, 0.005 mmol), CuI (0.002 g, 0.001 mmol), HBF4 (100 μL), and DMF (1 mL) was sealed in a 20 mL vial and ultrasonically treated for 3 min at room temperature until it chan...
+2025-01-07 17:40:28,883 - 
+Paragraph: TIKMEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Lithium hydroxide monohydrate', '1310-66-3', 'lithium hydroxide hydrate', 'Lithium hydroxide, monohydrate', 'MFCD00149772', 'lithium;hydroxide;hydrate', 'Lithium hydroxide (Li(OH)), monohydrate', 'Lithium hydroxide [USP]', 'G51XLP968G', 'Lithium-6Li hydroxide monohydrate', 'LITHIUM-6 HYDROXIDE MONOHYDRATE', 'Lithium hydroxide (USP)', 'Lithium Hydroxide Hydrate;', 'LiOH-hydrate', 'LiOH.hydrate', 'LiOH water', 'water LiOH', 'lithiumhydroxid-hydrate', 'Lithium hydroxide H2O', 'lithium hydroxide water', 'lithium hydroxide.water', 'LiOH hydrate', 'Aquahydroxy-lithium', 'lithiumhydroxide hydrate', 'lithiumhydroxide-hydrate', 'LiOH H2O', 'LiOH-H2O', 'LiOH.H2O', 'Lithium hydroxide-hydrate', 'lithium hydroxide, hydrate', 'Lithiumhydroxid monohydrate', 'Lithiumhydroxid-monohydrate', 'lithiumhydroxide monohydrate', 'lithium hyroxide monohydrate', 'lithum hydroxide monohydrate', 'Lithium hydroxide-1-hydrate', 'lithium hydroxide-monohydrate', 'lithium hydroxide mono hydrate', 'lithium hydroxide-mono hydrate', 'Lithium hydroxide mono-hydrate', 'lithium(1+) hydrate oxidanidyl', 'DTXSID8051382', 'DTXSID101337013', 'BCP26601', 'AKOS015951420', 'Lithium hydroxide monohydrate, min. 98%', 'Lithium hydroxide, monohydrate ACS reagent', 'Lithium hydroxide monohydrate, LiOH 56.5%', 'Lithium hydroxide monohydrate, p.a., 95.0%', 'D04750', 'D78342', 'Lithium hydroxide monohydrate, purum, >=98.5%', 'A806193', 'J-005931', 'Lithium hydroxide monohydrate, ACS reagent, >=98.0%', 'Q12451415', 'Lithium hydroxide monohydrate, BioUltra, >=99.0% (T)', 'Lithium hydroxide monohydrate, 99.95% trace metals basis', 'Lithium hydroxide monohydrate, 99.995% trace metals basis', 'Lithium hydroxide monohydrate, SAJ first grade, >=97.0%', 'Lithium hydroxide monohydrate, puriss. p.a., >=99.0% (T)', 'Lithium hydroxide monohydrate, BioXtra, 98.5-101.5% (titration)', '55622-30-5']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2·4H2O (0.102 g, 0.33 mmol), H3BTB (0.062 g, 0.25 mmol), bpy (0.039 g, 0.25 mmol), LiOH·H2O (0.021 g, 0.50 mmol), 3 mL of water and 3 mL of glycol was put into a 25 mL Teflon-lined...
+2025-01-07 17:40:28,884 - 
+Paragraph: KAHYEY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: diethylenetriamine
+Original text: The title compound was synthesized hydrothermally from a starting mixture of MnCl2, H2O2, H2C2O4, H3PO4, H2N(CH2)2NH(CH2)2NH2 and H2O in a molar ratio of 1.0:3.0–9.0:1.0:10:1.0:400. In a typical synth...
+2025-01-07 17:40:29,221 - 
+Paragraph: MAYJOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HYDROFLUORIC ACID', 'Hydrogen fluoride', '7664-39-3', 'Fluorhydric acid', 'fluorane', 'Hydrofluoride', 'Rubigine', 'Antisal 2B', 'Hydrofluoricum acidum', 'Fluorowodor', 'Fluorwaterstof', 'Fluorwasserstoff', 'Caswell No. 484', 'Acido fluoridrico', 'Hydrogen-fluoride', 'Acido fluorhidrico', 'Acide fluorhydrique', 'UN 1052 (anhydrous)', 'RCRA waste number U134', 'HSDB 546', 'CHEBI:29228', 'UNII-RGL5YE86CZ', 'RGL5YE86CZ', 'EINECS 231-634-8', "Fluorure d'hydrogene anhydre", 'Hydrogen fluoride, anhydrous', 'Fluoruro de hidrogeno anhidro', 'EPA Pesticide Chemical Code 045601', 'NSC-750679', 'Fluohydric Acid', 'EC 231-634-8', 'NSC 750679', '32057-09-3', 'Fluorowodor [Polish]', 'Hydrogenfluorid', 'Fluorwaterstof [Dutch]', 'HYDROFLUORIC ACID (MART.)', 'HYDROFLUORIC ACID [MART.]', 'hydrogenfluoride', 'Hydrogen fluoride (HF)', 'Fluorwasserstoff [German]', 'Hydrofluoric acid, ACS reagent, 48%', 'Acid, Fluohydric', 'Acid, Fluorhydric', 'Acido fluoridrico [Italian]', 'Acid, Hydrofluoric', 'Acide fluorhydrique [French]', 'Acido fluorhidrico [Spanish]', 'UN1052', 'UN1790', 'RCRA waste no. U134', "Fluorure d'hydrogene anhydre [French]", 'fluoroorganics', 'fluorum', 'Fluoruro de hidrogeno anhidro [Spanish]', 'fluoridohydrogen', 'hyrofluoric acid', 'Acidum Fluoricum', 'hydrogen flouride', "fluorure d'hydrogene", 'MFCD00011346', 'fluoroorganic compound', 'organofluorine compound', 'Hydrofluoric acid 70% by weight or more HF', 'fluororganische Verbindungen', 'Hydrofluoric acid, 55%, CP', 'HYDROFLUORIC ACID [MI]', 'HYDROGEN FLUORIDE [MI]', '[HF]', 'CHEMBL1232767', 'DTXSID1049641', 'HYDROFLUORIC ACID [HSDB]', 'CHEBI:37143', 'DTXSID60872462', 'HYDROFLUORIC ACID [VANDF]', 'Hydrogen fluoride/Hydrofluoric acid (conc 50% or greater)', 'Hydrofluoric acid, AR, >=40%', 'YCKRFDGAMUMZLT-UHFFFAOYSA-N', 'HYDROFLUORIC ACID [WHO-DD]', 'Hydrofluoric acid, LR, 39-43%', 'Hydrofluoric acid, SAJ first grade', 'HYDROFLUORICUM ACIDUM [HPUS]', 'BDBM50499187', 'Hydrofluoric acid, 48% ACS reagent', 'Hydrofluoric acid, JIS special grade', 'NSC750679', 'AKOS024438092', 'DB11072', 'Hydrofluoric acid, technical, 40-45%', '37249-79-9', 'FLUORINE, ISOTOPE OFMASS 18, AT.', 'Hydrofluoric acid, technical grade, 68.0%', 'NS00076201', 'Q2468', 'Hydrofluoric acid, with more than 60% strength', 'Hydrofluoric acid, with not more than 60% strength', 'Hydrogen fluoride, anhydrous [UN1052]  [Corrosive]', 'Hydrofluoric acid, for ultratrace analysis, 47-51% (T)', 'Hydrofluoric acid, 48 wt. % in H2O, >=99.99% trace metals basis', 'Hydrofluoric acid, electronic grade,49wt. % in H2O,99.99998%metals basis', 'Hydrofluoric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., >=40%', 'Hydrofluoric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17601)', 'Hydrofluoric acid, with more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, with not more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 48.0-51.0%', 'Hydrofluoric acid, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=48%', 'Hydrofluoric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17928), 49.5-50.5%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17735), 40-41%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17736), 49.5-50.5%', '12381-92-9']
+Got (Which appears in text!): HF
+Original text: In a typical synthesis of 1, indium (0.114 g, 1 mmol), 1,4-benzene dicarboxylic acid (0.332 g, 2 mmol), HF (48%, Merck, 0.06 mL), and deionized water (10 mL) in the molar ratios of 1:2:1.5:560 were pl...
+2025-01-07 17:40:29,565 - 
+Paragraph: FIHHUB_SL
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): HNO3 in EtOH
+Original text:   The synthetic procedure was similar to that of MOF 1. A mixture of L (12 mg, 0.029 mmol), H2bdc (4.8 mg, 0.029 mmol), Cd(NO3)2·4H2O (16 mg, 0.054 mmol), DMF (2 mL) and an aliquot of HNO3 in EtOH (0....
+2025-01-07 17:40:29,565 - 
+Paragraph: ILEPEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: A mixture of Ba(NO3)2 (31.36 mg, 0.12 mmol), La(NO3)3·6H2O (8.6 mg, 0.02 mmol), and H3L (17.4 mg, 0.1 mmol) was vigorously stirred for half an hour in H2O (5 mL) and DMF (5 mL), and then HNO3 (30 μL, ...
+2025-01-07 17:40:29,566 - 
+Paragraph: VEGMIE01_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DEF
+Original text: The synthesis of the compound [Co3(C8H4O4)4]2−[C4H12N]+2·3C5H11NO (1) is a one-pot solvothermal reaction. A mixture of CoCl2·6H2O (0.294 g, 1 mmol) and DEF (2 mL) was added to a mixture of 1,4-benzene...
+2025-01-07 17:40:29,566 - 
+Paragraph: XULVAD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Synthesis of Gd2Mn3(C7HN2O6)4(H2O)12·5H2O: A mixture of GdCl3·6H2O (0.019 g, 0.05 mmol), Mn(Ac)2·4H2O (0.041 g, 0.17 mmol), NaAc·2H2O (0.007 g, 0.05 mmol), H3PZTC·2H2O (0.025 g, 0.1 mmol), NaOH (0.65 ...
+2025-01-07 17:40:29,566 - 
+Paragraph: AQEFOS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCl
+Original text: A mixture of Na2MoO4·2H2O (0.48 g, 1.98 mmol), H3PO4 (1 mL, 7.96 mmol), CuCl2·2H2O (0.23 g, 1.35 mmol), pz (0.07 g, 0.87 mmol) and H2O (10 mL) was stirred for an hour. The pH was adjusted to 2.6 with ...
+2025-01-07 17:40:29,566 - 
+Paragraph: PORVID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3', 'urea', 'UR', 'URE']
+Got unresolvable : None
+Original text: Single crystals of Cu4(H3N–(CH2)9–NH3)(OH)2[C6H2(COO)4]2·5H2O were synthesized in the presence of 1,9‐diaminononane. An aqueous solution of Cu(NO3)2 (5 ml, 0.1 M) was added to a solution of 1,9‐diamin...
+2025-01-07 17:40:29,909 - 
+Paragraph: VIXPUP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: H4BDPO (10.4 mg, 0.025 mmol), Cu(NO3)2·3H2O (25 mg, 0.1 mmol), DMF (2 mL), ethanol (1.6 mL), H2O (1.6 mL), and concentrated HNO3 (400 μL) were mixed and stirred for a few minutes in air and then the c...
+2025-01-07 17:40:29,909 - 
+Paragraph: ZUDQEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DBO
+Original text: A mixture of Cd(NO3)2·4H2O (0.1805 g, 0.6 mmol), H3BTC (0.0661 g, 0.3 mmol), d-Serine (0.0333 g, 0.3 mmol) and DBO (0.0347 g, 0.3 mmol) in 3 mL DMF and 2 mL H2O was placed in a vial. The sample was st...
+2025-01-07 17:40:29,910 - 
+Paragraph: TANFEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: en solution and 4 M HCl
+Original text:   A mixture of Na2MoO4·2H2O (0.121 g, 0.5 mmol), H3PO4 (0.28 mL, 4 mmol), CoCl2·6H2O (0.119 g, 0.5 mmol), bix (0.119 g, 0.5 mmol), and H2O (6 mL) was stirred for 0.5 h in air. The pH was then adjusted...
+2025-01-07 17:40:30,256 - 
+Paragraph: XOVVEK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of 1,3-H2bdc (0.042 g, 0.25 mmol), Zn(NO3)2·6H2O (0.074 g, 0.25 mmol), Htrz (0.035 g, 0.50 mmol), and water (6 mL) was placed in a Teflon-lined stainless steel vessel (23 mL), and then, the ...
+2025-01-07 17:40:30,601 - 
+Paragraph: EXECAN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: Zn(Ac)2·6H2O (0.100 g, 0.30 mmol), H4tptc (0.040 g, 0.10 mmol), apy (0.010 g, 0.10 mmol), DMA (5 mL), and H2O (1 mL) was stirred and added dropwise (10 drops) into a HNO3 solution (6 mol/L). White blo...
+2025-01-07 17:40:30,934 - 
+Paragraph: XOJWID_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TRIETHYLAMINE', '121-44-8', 'N,N-Diethylethanamine', '(Diethylamino)ethane', 'Ethanamine, N,N-diethyl-', 'triethyl amine', 'Triaethylamin', 'Triethylamin', 'Trietilamina', 'N,N,N-Triethylamine', 'NEt3', 'MFCD00009051', 'trietylamine', 'tri-ethyl amine', '(C2H5)3N', 'N,N-diethyl-ethanamine', 'VOU728O6AY', 'DTXSID3024366', 'CHEBI:35026', 'ethane, diethylamino-', 'Diethylaminoethane', 'Triethylamine, >=99.5%', 'Triaethylamin [German]', 'Trietilamina [Italian]', 'triethyl-amine', 'CCRIS 4881', 'HSDB 896', 'Et3N', 'TEN [Base]', 'EINECS 204-469-4', 'UN1296', 'UNII-VOU728O6AY', 'triehtylamine', 'triehylamine', 'trieihylamine', 'triethlyamine', 'triethyamine', 'triethylamme', 'triethylarnine', 'Thethylamine', 'Triethlamine', 'triethyIamine', 'Triethylannine', 'tri-ethylamine', 'triehyl amine', 'triethyl amin', 'triethylam ine', 'triethylami-ne', 'triethylamine-', 'trietyl amine', 'tri ethyl amine', 'triethyl- amine', 'AI3-15425', 'N, N-diethylethanamine', 'N,N,N-Triethylamine #', 'triethylamine, 99.5%', 'Triethylamine, >=99%', 'Triethylamine [UN1296] [Flammable liquid]', 'TRIETHYLAMINE [MI]', 'EC 204-469-4', 'N(Et)3', 'NCIOpen2_006503', 'TRIETHYLAMINE [FHFI]', 'TRIETHYLAMINE [HSDB]', 'BIDD:ER0331', 'Triethylamine, LR, >=99%', 'TRIETHYLAMINE [USP-RS]', '(CH3CH2)3N', 'CHEMBL284057', 'DTXCID204366', 'N(CH2CH3)3', 'FEMA NO. 4246', 'Triethylamine, HPLC, 99.6%', 'Triethylamine, p.a., 99.0%', 'Triethylamine, analytical standard', 'BCP07310', 'N(C2H5)3', 'Triethylamine, for synthesis, 99%', 'Tox21_200873', 'Triethylamine, 99.7%, extra pure', 'STL282722', 'AKOS000119998', 'Triethylamine, purum, >=99% (GC)', 'Triethylamine, ZerO2(TM), >=99%', 'UN 1296', 'NCGC00248857-01', 'NCGC00258427-01', 'CAS-121-44-8', 'Triethylamine, BioUltra, >=99.5% (GC)', 'Triethylamine, SAJ first grade, >=98.0%', 'NS00002646', 'T0424', 'Triethylamine 100 microg/mL in Acetonitrile', 'EN300-35419', 'Triethylamine [UN1296]  [Flammable liquid]', 'Triethylamine,  trace metals grade, 99.99%', 'Triethylamine, SAJ special grade, >=98.0%', 'Triethylamine (contains < 0.01% Diethylamine)', 'Triethylamine, puriss. p.a., >=99.5% (GC)', 'Q139199', 'J-004499', 'J-525077', 'F0001-0344', 'Triethylamine, for amino acid analysis, >=99.5% (GC)', 'InChI=1/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H', 'Triethylamine, for protein sequence analysis, ampule, >=99.5% (GC)', 'Triethylamine, United States Pharmacopeia (USP) Reference Standard']
+Got unresolvable : None
+Original text: A mixture of Zn(Ac)2·2H2O (0.112 g, 0.511 mmol), H3pbc (0.095 g, 0.480 mmol), and N,N-dimethylformamide (DMF) (5.0 mL) was stirred for dissolution and then heated at 170 °C for 48 h in a Telflon-lined...
+2025-01-07 17:40:30,934 - 
+Paragraph: SARMEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of H2O (5 ml), aqueous NaOH (0.44 ml, 0.29 mmol), EuCl3·6H2O (0.037 g, 0.1 mmol) and 1,4-naphthalenedicarboxylic acid (0.033 g, 0.15 mmol) was sealed in a 25 ml stainless reactor with a Te...
+2025-01-07 17:40:30,934 - 
+Paragraph: WEGKIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TETRAMETHYLAMMONIUM HYDROXIDE', '75-59-2', 'TMAH', 'TMAOH', 'NMW-W', 'Hydroxyde de tetramethylammonium', 'Ammonium, tetramethyl-, hydroxide', 'NMD 3', 'Tetramethyl ammonium hydroxide', 'Methanaminium, N,N,N-trimethyl-, hydroxide', 'tetramethylazanium;hydroxide', 'EINECS 200-882-9', 'UNII-5GKP7317Q2', 'DTXSID3029108', 'HSDB 8160', '5GKP7317Q2', 'MFCD00008280', 'DTXCID309108', 'N,N,N-Trimethylmethanaminium hydroxide (1:1)', 'EC 200-882-9', 'Methanaminium, N,N,N-trimethyl-, hydroxide (1:1)', 'Tetramethylammonium Hydroxide (25% w/w solution in Water)', 'UN1835', 'tetramethylammoniumhydroxide', 'tetramethylazanium hydroxide', 'N,N,N-trimethylmethanaminium hydroxide', 'Hydroxyde de tetramethylammonium [French]', 'tetramethylammonium oxide', 'MEGAPOSIT CD 14', 'tetramethylamonium hydroxide', 'TOKUSO SD 20', 'C4H13NO', 'OCG-OPD 262', 'CHEMBL3187523', 'OCG 945', 'OPD 262', 'Tox21_202572', 'AKOS015903652', 'Tetramethylammonium hydroxide, 25% aq', 'CAS-75-59-2', 'NCGC00260121-01', 'TETRAMETHYLAMMONIUM HYDROXIDE [MI]', 'DB-050413', 'NS00078439', 'T0138', 'T0676', 'T1201', 'T1404', 'T1460', 'TETRAMETHYLAMMONIUM HYDROXIDE, (LIQUID)', 'Tetramethylammonium hydroxide 25 wt% in Methanol', 'A838458', 'Q420868', 'J-524892', 'Tetramethylammonium hydroxide, 25% w/w in methanol', 'Tetramethylammonium hydroxide [UN1835]  [Corrosive]']
+Got unresolvable : None
+Original text: Synthesis of H4[(Cu4Cl)3(BTC)8]2[SiW12O40]·(C4H12N)6·3H2O (NENU-15): A mixture of CuCl2·2H2O (0.18 g, 1 mmol), H3BTC (0.21 g, 1 mmol) and K4SiW12O40·9H2O (0.32 g, 0.1 mmol) in distilled water (10 mL) ...
+2025-01-07 17:40:31,271 - 
+Paragraph: EHUTAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: H4LV (50 mg, 0.078 mmol) and Cu(NO3)2·2.5H2O (145 mg, 0.622 mmol) were dissolved in a mixture of DMF (7.0 mL) and H2O (1.0 mL) in a pressure tube (15 mL). Upon addition of 6 M HCl (20 μL), the tube wa...
+2025-01-07 17:40:31,272 - 
+Paragraph: LIJXEI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Synthesis of 1: A mixture of Cd(OAc)2 · 2H2O (0.4 mmol), H2pam (0.10 mmol), NaOH (0.20 mmol), 4,4′-bpy (0.1 mmol) and CH3CH2OH (10 mL) was stirred for 30 min in air, then sealed in a 25 mL Telfon-line...
+2025-01-07 17:40:31,272 - 
+Paragraph: BUXZAX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['benzoic acid']
+Got unresolvable : None
+Original text: For detailed experimental procedures including syntheses and characterization data, see the Supporting Information. Briefly, commercial HfOCl2·8H2O (123 mg, 0.3 mmol), benzoic acid (2.7 g, 22.1 mmol),...
+2025-01-07 17:40:31,272 - 
+Paragraph: FORXAM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: Zn(NO3)2·6H2O (0.290 g, 0.98 mmol) and H2(ip) (0.162 g, 0.98 mmol) were dissolved in dimethylformamide (DMF, 15 mL), and the resulting solution was heated to 110 °C for 14 h in a sealed vial. After fi...
+2025-01-07 17:40:31,273 - 
+Paragraph: TANLAX_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['SULFURIC ACID']
+Got unresolvable : None
+Original text: The block crystal of compound 2 was prepared in the same way. 0.1066 g Tb4O7 (0.14 mmol) was dissolved into 7.0905 g (96.96 mmol) DMF and 1.5641 g (15.34 mmol) sulfuric acid under constant stirring fo...
+2025-01-07 17:40:31,273 - 
+Paragraph: ANIDIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', 'ammonium hydroxid']
+Got unresolvable : None
+Original text: A mixture of Co(NO3)2·6H2O (41.6 mg, 0.14 mmol), isophthalic acid (20.1 mg, 0.12 mmol), 1,3-bis(4-pyridyl)propane (24.3 mg, 0.12 mmol), ammonium hydroxide (29.30 μL, 0.24 mmol) and DMF/ethanol (1/4, v...
+2025-01-07 17:40:32,254 - 
+Paragraph: OGUPIQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Co(NO3)2 6H2O (0.447 g, 1.5 mmol), NaOH (0.060 g, 1.5 mmol), 5-NH2-bdc (0.182 g, 1.0 mmol), and H2O (15.0 mL) was stirred for 20 min in air. Then the mixture was placed in a 23 mL Teflon-...
+2025-01-07 17:40:32,254 - 
+Paragraph: IKUTOZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Dy(NO3)3·6H
+Original text:   Compound 2 was obtained by solvothermal methods through the following procedure: 2 ml solution of DMF containing 0.0166 mmol of the ligand 9,10-anthracenedicarboxylic acid (4.5 mg) and 0.025 mmol of...
+2025-01-07 17:40:32,617 - 
+Paragraph: DUPJAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaClO4
+Original text: Terephthalic acid (0.1 mmol, l6.6 mg) was dissolved in DMF (5 mL) using ultrasound, and then, 1,2,4-triazole (0.1 mmol, 6.9 mg), Cd(NO3)2·4H2O (0.1 mmol, 29.8 mg), NaClO4 (5.0 mg) and 1.0 mL of distil...
+2025-01-07 17:40:32,618 - 
+Paragraph: JUTCIM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['glycol']
+Got unresolvable : None
+Original text: H2dnpdc (0.075 mmol, 0.025 g) and Cu(NO3)2 (0.1 mmol, 0.024 g) were dissolved in DMA (N,N′-dimethylacetamide)–EtOH–H2O (5 mL, v/v/v = 3/1/1) mixture with 0.2 mL ethyl glycol (EG) under stirring for 40...
+2025-01-07 17:40:32,618 - 
+Paragraph: JELPAS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1,2-DAP
+Original text: III(HAsO4)6(AsO4)2(C2O4)3], I, was synthesized under hydrothermal conditions using iron (II) oxalate dihydrate as the source of iron. In a typical synthesis, 0.297 g of iron (II) oxalate dihydrate was...
+2025-01-07 17:40:32,943 - 
+Paragraph: ORUKET_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Mg(NO3)2·6H2O (5.0 mg, 19.5 μmol) was dissolved in a mixed solvent of DMA (1.0 mL), ethanol (0.5 mL) and deionized water (0.5 mL) in a 20 mL vial. After...
+2025-01-07 17:40:32,943 - 
+Paragraph: LOMMIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: phen
+Original text: Single crystals of FPYEu were synthesized by mixing 0.0604 g (∼0.39 mmol) of H2fdc, 0.1140 g of YCl3·6H2O (∼0.38 mmol), 0.0129 g of EuCl3·6H2O (∼0.035 mmol) and 0.0755 g (∼0.38 mmol) of phen with ca. ...
+2025-01-07 17:40:32,943 - 
+Paragraph: ADASUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NMP
+Original text: rht‐MOF‐4 c: Co(NO3)2⋅6 H2O (24 mg), H6tL1 (37 mg), DMF (1 mL), and NMP (0.5 mL) added to 20 mL vial, heated to 85 °C/12 h, 105 °C/23 h to give a few red cube crystals. I4m, a=29.395 Å, c=41.638 Å. ...
+2025-01-07 17:40:32,943 - 
+Paragraph: MAQJEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: N2H4·H2O
+Original text: Blue columnar crystals of 1 were obtained from a hydrothermal self-assembly of Ni(CH3COO)2·4H2O (10 mg, 0.04 mmol), N2H4·H2O (0.1 mL) and H2C2O4 (3 mg, 0.02 mmol) in a 10 mL aqueous solution (pH = 4, ...
+2025-01-07 17:40:33,257 - 
+Paragraph: KUQWIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ethylenediamine', 'EN']
+Got unresolvable : None
+Original text: A mixture of CdCl2·2.5H2O (0.11 g, 0.5 mmol) and H3L (0.13 g, 0.5 mmol) was dissolved in 10 mL distilled water. The pH value was adjusted to 7.0 by adding ethylenediamine solution dropwise. The result...
+2025-01-07 17:40:33,257 - 
+Paragraph: WOXKOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of MnCl2·4H2O (0.015 mmol, 3.0 mg), H4qptc (0.005 mmol, 2.4 mg), 1,4-bib (0.01mmol, 2.1 mg), aqueous NaOH solution (0.02 mL, 0.5 mol L−1), and H2O/DMF (1 mL, v/v, 1/1) were heated at 130 °...
+2025-01-07 17:40:33,258 - 
+Paragraph: VUHGAH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:     Solvothermal treatment of HL (25.4 mg, 0.1 mmol), Co(ClO4)2·6H2O (33.3 mg, 0.1 mmol), NaOH (4.0 mg, 0.1 mmol), and H2O (2 ml), CH3CH2OH (8 ml) in a Teflon lined stainless steel container was perfo...
+2025-01-07 17:40:33,258 - 
+Paragraph: IYAKAW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text:   A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), Mg(OH)2 (7 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and heated at ...
+2025-01-07 17:40:33,258 - 
+Paragraph: YOPQEB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of H5bpbc (0.05 mmol, 18.7 mg), 4,4′-bipy (0.1 mmol, 15.6 mg), Co(NO3)2·6H2O (0.1 mmol, 29.1 mg), NaOH (0.1 mmol, 4.0 mg), and H2O/EtOH (8 mL, v:v 1:1) was placed in a 25 mL Teflon-lined sta...
+2025-01-07 17:40:33,258 - 
+Paragraph: VEZQEX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: TETA
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), Trithylenetetramin...
+2025-01-07 17:40:33,258 - 
+Paragraph: DUKMON_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Co(Ac)2·4H2O (0.0498 g, 0.1 mmol), L (0.0446 g, 0.1 mmol), pbib (0.0476 g, 0.1 mmol), NaOH (0.0160 g, 0.4 mmol), and H2O (8 mL) was placed in a 25 mL Teflon-lined stainless steel containe...
+2025-01-07 17:40:33,258 - 
+Paragraph: NUBPIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: ‡ Synthesis of [Cu2L(H2O)]·2Cl·2DMF·4H2O (1). CuCl2·2H2O (10 mg, 0.06 mmol), H2L (10 mg, 0.04 mmol) and 0.6 mL aqueous HCl (0.1 M) were dissolved in DMF (10 mL) at room temperature. The mixture was se...
+2025-01-07 17:40:33,259 - 
+Paragraph: PENXUC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HYDROFLUORIC ACID', 'Hydrogen fluoride', '7664-39-3', 'Fluorhydric acid', 'fluorane', 'Hydrofluoride', 'Rubigine', 'Antisal 2B', 'Hydrofluoricum acidum', 'Fluorowodor', 'Fluorwaterstof', 'Fluorwasserstoff', 'Caswell No. 484', 'Acido fluoridrico', 'Hydrogen-fluoride', 'Acido fluorhidrico', 'Acide fluorhydrique', 'UN 1052 (anhydrous)', 'RCRA waste number U134', 'HSDB 546', 'CHEBI:29228', 'UNII-RGL5YE86CZ', 'RGL5YE86CZ', 'EINECS 231-634-8', "Fluorure d'hydrogene anhydre", 'Hydrogen fluoride, anhydrous', 'Fluoruro de hidrogeno anhidro', 'EPA Pesticide Chemical Code 045601', 'NSC-750679', 'Fluohydric Acid', 'EC 231-634-8', 'NSC 750679', '32057-09-3', 'Fluorowodor [Polish]', 'Hydrogenfluorid', 'Fluorwaterstof [Dutch]', 'HYDROFLUORIC ACID (MART.)', 'HYDROFLUORIC ACID [MART.]', 'hydrogenfluoride', 'Hydrogen fluoride (HF)', 'Fluorwasserstoff [German]', 'Hydrofluoric acid, ACS reagent, 48%', 'Acid, Fluohydric', 'Acid, Fluorhydric', 'Acido fluoridrico [Italian]', 'Acid, Hydrofluoric', 'Acide fluorhydrique [French]', 'Acido fluorhidrico [Spanish]', 'UN1052', 'UN1790', 'RCRA waste no. U134', "Fluorure d'hydrogene anhydre [French]", 'fluoroorganics', 'fluorum', 'Fluoruro de hidrogeno anhidro [Spanish]', 'fluoridohydrogen', 'hyrofluoric acid', 'Acidum Fluoricum', 'hydrogen flouride', "fluorure d'hydrogene", 'MFCD00011346', 'fluoroorganic compound', 'organofluorine compound', 'Hydrofluoric acid 70% by weight or more HF', 'fluororganische Verbindungen', 'Hydrofluoric acid, 55%, CP', 'HYDROFLUORIC ACID [MI]', 'HYDROGEN FLUORIDE [MI]', '[HF]', 'CHEMBL1232767', 'DTXSID1049641', 'HYDROFLUORIC ACID [HSDB]', 'CHEBI:37143', 'DTXSID60872462', 'HYDROFLUORIC ACID [VANDF]', 'Hydrogen fluoride/Hydrofluoric acid (conc 50% or greater)', 'Hydrofluoric acid, AR, >=40%', 'YCKRFDGAMUMZLT-UHFFFAOYSA-N', 'HYDROFLUORIC ACID [WHO-DD]', 'Hydrofluoric acid, LR, 39-43%', 'Hydrofluoric acid, SAJ first grade', 'HYDROFLUORICUM ACIDUM [HPUS]', 'BDBM50499187', 'Hydrofluoric acid, 48% ACS reagent', 'Hydrofluoric acid, JIS special grade', 'NSC750679', 'AKOS024438092', 'DB11072', 'Hydrofluoric acid, technical, 40-45%', '37249-79-9', 'FLUORINE, ISOTOPE OFMASS 18, AT.', 'Hydrofluoric acid, technical grade, 68.0%', 'NS00076201', 'Q2468', 'Hydrofluoric acid, with more than 60% strength', 'Hydrofluoric acid, with not more than 60% strength', 'Hydrogen fluoride, anhydrous [UN1052]  [Corrosive]', 'Hydrofluoric acid, for ultratrace analysis, 47-51% (T)', 'Hydrofluoric acid, 48 wt. % in H2O, >=99.99% trace metals basis', 'Hydrofluoric acid, electronic grade,49wt. % in H2O,99.99998%metals basis', 'Hydrofluoric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., >=40%', 'Hydrofluoric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17601)', 'Hydrofluoric acid, with more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, with not more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 48.0-51.0%', 'Hydrofluoric acid, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=48%', 'Hydrofluoric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17928), 49.5-50.5%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17735), 40-41%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17736), 49.5-50.5%', '12381-92-9']
+Got (Which appears in text!): HF
+Original text: Synthesis of [H2N(CH2CH2)2NH2][V4O2F4(H2O)2{O3P(CH2)3PO3}2] (1). A mixture of NH4VO3 (0.219 g, 1.872 mmol), 1,3-propylenediphosphonic acid (0.192 g, 0.941 mmol), H2O (10.00 g, 556 mmol), piperazine (0...
+2025-01-07 17:40:33,259 - 
+Paragraph: OXAMIK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of ImhedpH4 (0.10 mmol, 0.0272 g) and CoSO4·7H2O (0.15 mmol, 0.0421 g) in 6 mL of H2O, adjusted to a pH of 4.00 with 1 M NaOH, was kept in a Teflon-lined autoclave at 180 °C for 5 days. Afte...
+2025-01-07 17:40:33,259 - 
+Paragraph: USOXEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['acetic acid', 'Acetic']
+Got unresolvable : None
+Original text: A mixture of Zn(OAc)2·2H2O (0.052 g, 0.24 mmol) and [Cu(HIm)4](NO3)2 (0.092 g, 0.20 mmol) was dissolved using a solvent mixture of DMF/water/MeOH (2/1/1, v/v). The pH of the solution mixture was adjus...
+2025-01-07 17:40:33,259 - 
+Paragraph: ONEJUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: [CuII(2,2′-bipy)2(H2O)]3[CuI6(pz)6(P2W18O62)2] (1). A mixture of K6P2W18O62·15H2O (0.30 g, 0.06 mmol), CuCl2·2H2O (0.17 g, 0.99 mmol), pz (0.07 g, 0.87 mmol), 2,2′-bipy (0.02 g, 0.13 mmol) and H2O (10...
+2025-01-07 17:40:33,259 - 
+Paragraph: LAVMAY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NH4OH
+Original text: Synthesis of single crystals of {Zn3(Atz)3(PO4)}⋅(H2O)3.5 (1⋅(H2O)3.5): Colorless crystals of 1⋅(H2O)3.5 in the shape of thick square plates were obtained from the reaction of a mixture containing ZnC...
+2025-01-07 17:40:33,893 - 
+Paragraph: GUVBEF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: en
+Original text: A solution of Na3PO4 (5 mmol), Na2WO4·2H2O (10 mmol), NiCl2·6H2O (2 mmol) and en (0.33 mL) in H2O (20 mL) acidified by diluted HCl solution (pH 1.0), was refluxed for 8 h. The resulting reaction mixtu...
+2025-01-07 17:40:34,249 - 
+Paragraph: BEXVEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): 12(N) HNO3
+Original text:   A mixture of Cu(NO3)2·2½H2O (11.6 mg, 0.05 mmol) and H4L (7.2 mg, 0.02 mmol) was dissolved in 8 ml of DMA–water (1:1). Then, 0.5 ml of 12(N) HNO3 was added. The mixture was heated for 48 h in a bath...
+2025-01-07 17:40:34,249 - 
+Paragraph: BOPHIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got unresolvable : None
+Original text: A mixture of CdBr2 (0.138 g, 0.4 mmol), H4tpta (0.041 g, 0.1 mmol), NH3·H2O (0.1 mL/5 M, 0.5 mmol), and DMF (3 mL) was stirred, then sealed in a 15 mL Teflon-lined stainless autoclave at 130 °C for 6 ...
+2025-01-07 17:40:34,249 - 
+Paragraph: WIPLOY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: conc. H2SO4
+Original text: H4ptptc (0.0406 g, 0.1 mmol), Eu2(SO4)3·8H2O (0.1472 g, 0.2 mmol) and conc. H2SO4 (18 M; 0.05 mL) were added to a 15-mL vial. A 1:3 (v/v) mixture of DMF and H2O (8 mL) was added to the solids. The con...
+2025-01-07 17:40:34,250 - 
+Paragraph: UCAJUF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCl
+Original text: [Zn4(μ3‐OH)2(H2O)2(ZnTCPEP‐H)2(DABCO)2]·2DMF·10.5H2O (Zn4·ZnTCPEP·DABCO): A mixture of Zn(NO3)·6H2O (157 mg, 0.526 mmol), ZnTCPEP‐H4 (100 mg, 0.105 mmol), and DABCO (24 mg, 0.210 mmol) was dissolved i...
+2025-01-07 17:40:34,250 - 
+Paragraph: ILOTOT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Co(NO3)2·3H2O (0.025 g, 0.11 mmol), 1,3-bis(4-carboxy-phenoxy)propane (H2bcp) (0.032 g, 0.1 mmol), CH3OH (2 mL), CH3CN (1 mL), and NaOH (0.5 M, 0.4 mL) and deionized water (8 mL) was stir...
+2025-01-07 17:40:34,624 - 
+Paragraph: TAGTUT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Hexafluoroacetylacetone', '1522-22-1', '1,1,1,5,5,5-Hexafluoropentane-2,4-dione', '1,1,1,5,5,5-Hexafluoroacetylacetone', '1,1,1,5,5,5-Hexafluoro-2,4-pentanedione', '2,4-Pentanedione, 1,1,1,5,5,5-hexafluoro-', 'Hexafluoro-2,4-pentanedione', 'MFCD00000426', 'MG8477QRV4', 'EINECS 216-191-0', 'DTXSID4061753', '1,3-Bis(trifluoromethyl)propane-1,3-dione', '1,1,1,5,5,5-hexafluoro-pentan-2,4-dione', '1,1,1,5,5,5-HEXAFLUORO-2,4-PENTANDIONE', 'NSC174351', 'HFAC', 'CF3COCH2COCF3', 'UNII-MG8477QRV4', 'Hexafluoroacetylacetone, 98%', 'SCHEMBL183178', 'DTXCID0034932', 'OQDYFZNZXKSIGV-UHFFFAOYSA-N', 'STL185660', 'AKOS005063442', 'CS-W015241', 'NSC-174351', 'CID 5386425', 's12332', '1,1,1,5,5,5Hexafluoropentane2,4dione', 'MS-20623', '2,4Pentanedione, 1,1,1,5,5,5hexafluoro', 'H0476', 'NS00045159', 'EN300-20458', '1,1,1,5,5,5-hexafluoro-pentane-2,4-dione', 'J-008904', 'Q5748732', 'Q63398865', 'F1908-0182']
+Got unresolvable (Which appears in text!): HFP
+Original text: In a 20 mL glass vial, 102.6 mg of Mg(NO3)2·6H2O and 43.2 mg of H2NDC were dissolved in a mixture of 4.0 g of DMA and 2.0 g of DMPU. After addition of 28 μL of HFP, the vial was sealed and placed in a...
+2025-01-07 17:40:34,625 - 
+Paragraph: DOZCEC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: A mixture of MnCl2·4H2O (0.03 g) and Mn(III)Cl-ttzpp (0.011 g) was dissolved in N,N′-diethylformamide (DEF, 2 mL) and methanol (2 mL) in a 20 mL screw-capped vial. After 6 M HCl (8 μL) had been added ...
+2025-01-07 17:40:34,625 - 
+Paragraph: PENYOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HF
+Original text: Synthesis of [H3O][V3F2(H2O)2{O3P(CH2)2PO3}2]·3.5H2O (5·3.5H2O). A mixture of VOSO4 (0.224 g, 1.37 mmol), 1,2-ethylenediphosphonic acid (0.174 g, 0.916 mmol), diethylene triamine (0.100 g, 0.969 mmol)...
+2025-01-07 17:40:34,958 - 
+Paragraph: UMIGAA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HBF4
+Original text: Synthesis of [Me2NH2][Zn2Co(μ3‐OH)(BTC)2(H2O)]·2H2O (FJI‐6): A mixture of Zn(ClO4)2·6H2O (0.10 mmol, 38 mg), Co(ClO4)2·6H2O (0.05 mmol, 19 mg), H3BTC (0.10 mmol, 20 mg) in DMA (5.0 mL) with additional...
+2025-01-07 17:40:34,958 - 
+Paragraph: CIXCOC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DETA
+Original text: CoHPO-CJ2 was synthesized by a solvothermal reaction of CoCl2·6H2O, H3PO3, diethylenetriamine (DETA), ethylene glycol (EG), and H2O in a molar ratio of 1.0:1.0:0.734:115:66. Typically, CoCl2·6H2O (0.2...
+2025-01-07 17:40:34,959 - 
+Paragraph: RUGKOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Hade
+Original text: A mixture of Zn(NO3)2·6H2O (48.0 mg, 0.160 mmol), 4-H2pca (14.0 mg, 0.120 mmol), and Hade (13.0 mg, 0.100 mmol) was dissolved in DMF/H2O (10 mL, 9:1, v/v) in a screw-capped vial and heated to 120 °C f...
+2025-01-07 17:40:34,959 - 
+Paragraph: LIXWEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Piperazine
+Original text: The iron phosphite, [C4N2H12][Fe4(H2O)3(HPO3)7]·(H2O)x x = 0.6 (1), was synthesized under hydrothermal conditions using ferric chloride hexahydrate as the source of iron. The FeCl3·6H2O (0.270 g, 1 mm...
+2025-01-07 17:40:34,959 - 
+Paragraph: NAVFUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO3
+Original text: Synthesis and Initial Characterization. The iron oxalatophosphite, [C4N2H12][FeII4(HPO3)2(C2O4)3], I, was synthesized under  hydrothermal conditions using iron(II) oxalate dihydrate as the source of i...
+2025-01-07 17:40:34,960 - 
+Paragraph: KIVSUF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TRIETHYLAMINE', 'Triethylamin']
+Got unresolvable : None
+Original text: Synthesis of {[Cu2(H2O)2(mtz)(μ3‐OH)(nip)]·H2O}n (1): CuSO4·5H2O (58.5 mg, 0.25 mmol), H2nip (42.0 mg, 0.2 mmol), and Hmtz (25.2 mg, 0.3 mmol) were dissolved in doubly deionized water (10.0 mL) and th...
+2025-01-07 17:40:34,960 - 
+Paragraph: WACKOB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: ethylenediamine
+Original text: The title compound 1 was hydrothermally synthesized under autogenous pressure. A mixture of CoCl2·6H2O (1.0 g), Na2MoO4·2H2O (1.8 g), H3PO4 (0.8 ml), and water (12 ml) was neutralized to pH 8.5 with e...
+2025-01-07 17:40:35,402 - 
+Paragraph: CAYQUQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 2 M HCl
+Original text: A mixture of L3-H8 (1 mg, 0.82 μmol) and Cu(ClO4)2·6H2O (1.21 mg, 3.26 μmol) was dissolved in a solvent mixture of DMF (0.1 mL), H2O (0.025 mL), and 2 M HCl (10 μL) in a screw-capped vial. The resulti...
+2025-01-07 17:40:35,721 - 
+Paragraph: OWETIU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable (Which appears in text!): NH4VO3
+Original text: A mixture of α-K6P2W18O62·15H2O (2 g, 0.4 mmol), AgNO3 (0.17 g, 1 mmol), bbi (0.4 g, 1 mmol), and NH4VO3 (0.12 g, 0.1 mmol) were dissolved in 10 mL of distilled water at room temperature. When the pH ...
+2025-01-07 17:40:35,721 - 
+Paragraph: IMIDZB10_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HNO3
+Original text: 350 mg of Zn(NO3)2·6H2O and 200 mg of 2-methylimidazole were placed in a 20 mL screw-top vial and dissolved in 15 mL of DMF. Three drops of HNO3 were added to a mixture with a Pasteur pipet, and compl...
+2025-01-07 17:40:35,722 - 
+Paragraph: TANMIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DEF
+Original text:   A mixture of Co(OAc)2·4H2O (25 mg, 0.1 mmol), L1 (32 mg, 0.1 mmol), DEF (4 mL) and deionized water (4 mL) was sealed in a 20 mL borosilicate screw vial and then heated to 80 °C for 24 h; red crystal...
+2025-01-07 17:40:35,722 - 
+Paragraph: ANUGIA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: Linker H43 (0.050 g, 0.10 mmol) was added to a solution of 0.005 M HCl in DMF/dioxane/H2O (4:1:1, 10 mL) in a 20-mL scintillation vial. To this mixture, Cu(NO3)2·2.5H2O (0.096 g, 0.41 mmol) was added,...
+2025-01-07 17:40:36,043 - 
+Paragraph: NEZBOK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: PIP
+Original text:   The manganese phosphite–oxalate [C4N2H12][MnII2(HPO3)2(C2O4)], I, was synthesized under hydrothermal conditions using manganese oxalate as the source of manganese. In a typical synthesis, 0.277 g of...
+2025-01-07 17:40:36,749 - 
+Paragraph: SUKKUG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of the organic linker H4L2 (5.0 mg, 10.93 μmol) and CuCl2·2H2O (10.0 mg, 58.66 μmol) was dissolved in a mixed solvent of DMF, acetonitrile and H2O (1.5 mL/0.5 mL/0.08 mL) in a screw-capped...
+2025-01-07 17:40:36,749 - 
+Paragraph: NAFGOR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: piperazine
+Original text: [Co(im)2·0.5DMA]∞ (7). Co(Ac)2·4H2O (1.245 g, 5.0 mmol), imidazole (0.68 g, 10 mmol), and piperazine (0.68 g, 8 mmol) were added to DMA (25 mL). The reaction mixture was stirred at room temperature fo...
+2025-01-07 17:40:37,091 - 
+Paragraph: VEHLEA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: hydrogen fluoride−pyridine
+Original text: B. [HN(CH3)3]2Zn3(HPO3)4. A total of 0.3750 g of zinc carbonate, 1.9388 g of water, 1.5198 g of ethylene glycol, 0.7569 g of phosphorous acid, 0.0611 g of hydrogen fluoride−pyridine, and 3.737 g of tr...
+2025-01-07 17:40:37,091 - 
+Paragraph: MALWUU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Bpy
+Original text:   A mixture of CdCO3 (0.217 g, 0.75 mmol), H4BTC (0.127 g, 0.5 mmol), Bpy (0.078 g, 0.5 mmol), and H2O (10 mL) was added into a 23 mL Teflon-lined autoclave and stirred for 2 h. The vessel was then se...
+2025-01-07 17:40:37,091 - 
+Paragraph: RIFGAQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3BTC
+Original text: Large crystals suitable for single‐crystal X‐ray determination were synthesized according to the procedure described in the literature.9 A mixture of Cu(NO3)2⋅3 H2O (0.24 g, 1 mmol) and H5PV2Mo10O40⋅3...
+2025-01-07 17:40:37,091 - 
+Paragraph: NEKMUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Et4NOH
+Original text: A mixture containing H3L2 (0.04 g, 0.13 mmol) and CoCl2·6H2O (0.15 g, 0.63 mmol) in 3 mL water and 0.2 mL of Et4NOH were sealed in a Teflon-lined autoclave and heated under autogenous pressure to 180 ...
+2025-01-07 17:40:37,092 - 
+Paragraph: XEQGAC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: hydrofluoric acid
+Original text: H2(PIP)[VIVO(H2O)VIII(OH)(O3PCH2CO2)2]·2.5H2O (2). A solution of VOSO4 (0.97 g, 0.6 mmol), triethyl phosphonoacetate (0.124 g, 0.54 mmol), piperazine (PIP) (0.115 g, 0.6 mmol), and H2O (7 mL) in the m...
+2025-01-07 17:40:37,093 - 
+Paragraph: QOKCID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['KOH']
+Got unresolvable : None
+Original text: A mixture of H4L2 (12 mg, 0.025 mmol), KOH (5 mg, 0.1 mmol), Zn(NO3)2·6H2O (12 mg, 0.05mmol), and H2O (7 mL) was sealed in a 15-mL PTFE-lined stainless-steel acid digestion bomb and heated at 160 °C f...
+2025-01-07 17:40:37,093 - 
+Paragraph: MUNDOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: A mixture of H2CPNA (0.008 g, 0.032 mmol), CuI (0.016 g, 0.084 mmol), HBF4 (50 μL), and DMF (1 mL) was sealed in a 20 mL vial and kept in an oven at 85 °C for 12 h, and then cooled to room temperature...
+2025-01-07 17:40:37,093 - 
+Paragraph: DUSHIK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text:   A mixture of FeCl2·4H2O (1.193 g, 6.0 mmol), H2bdc (0.996 g, 6.0 mmol), Hna (0.738 g, 6.0 mmol), HBF4 (50 wt% in H2O, 0.4 mL), and DMA (60.0 mL) was stirred for 30 min in air, then transferred into ...
+2025-01-07 17:40:37,470 - 
+Paragraph: SOTTUR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Sr(NO3)2 (0.6 mmol), H4L (0.4 mmol) and 2 ml EtOH in 10 ml distilled water, with its pH value adjusted to about 5.0 by the addition of 1 M NaOH solution, was put into a Parr Teflon-lined ...
+2025-01-07 17:40:37,470 - 
+Paragraph: TETZID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got unresolvable : None
+Original text:   A mixture of Cd(NO3)2·4H2O (0.05 mmol, 0.015 g), H22TDC (0.05 mmol, 0.009 g), L (0.05 mmol, 0.016 g) and water (8 mL) was adjusted to pH = 5.8 by NH3·H2O, and then heated at 120 °C in Teflon-lined a...
+2025-01-07 17:40:37,902 - 
+Paragraph: OVEDAW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got (Which appears in text!): DABCO
+Original text:   A mixture of CuI (18 mg 0.095 mmol), H2L (5 mg, 0.015 mmol), DMF (1 mL), DABCO (0.2 mL) and HNO3 (0.3 mL) (2.2 mL HNO3 in 10 mL DMF) was sealed into a 20 mL capped vial and kept for 6 hours at room ...
+2025-01-07 17:40:37,902 - 
+Paragraph: VEZWEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaN3
+Original text:   [H2bcpb]Br2 (0.046 g, 0.10 mmol) and NaN3 (0.039 g, 0.60 mmol) were dissolved in water (2 mL), then a methanol solution (4 mL) of Mn(ClO4)2·6H2O (0.15 g, 0.40 mmol) was added under stirring. The mix...
+2025-01-07 17:40:38,871 - 
+Paragraph: EBUREA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable (Which appears in text!): NaOH aqueous solution
+Original text:   A mixture of MnCl2·4H2O (0.0396 g, 0.2 mmol), H3ABTC (0.0157 g, 0.05 mmol), NaOH aqueous solution (0.5 mL, 1 M) and distilled water (10 mL) was sealed in a 20 mL Teflon-lined stainless steel vessel,...
+2025-01-07 17:40:39,237 - 
+Paragraph: IPIHIA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A solution of H4btec (0.10 mmol) in 5 mL H2O was adjusted to pH 6 with a dilute NaOH solution. Then Cd(NO3)2·4H2O (0.20 mmol) in 5 mL H2O and obtz (0.20 mmol) in 5 mL MeOH were added with stirred. T...
+2025-01-07 17:40:39,237 - 
+Paragraph: OFIWIK_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: phosphorous acid
+Original text: Typically, zinc acetate (0.22 g, 1 mmol), was first dissolved in the water (8 mL), and then cyclohexylamine (0.38–0.41 mL, 3.2–3.4 mmol) and phosphorous acid (0.205 g, 2.5 mmol, 85%) were added with s...
+2025-01-07 17:40:39,237 - 
+Paragraph: SARMOO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['SODIUM ACETATE TRIHYDRATE', '6131-90-4', 'Acetic acid, sodium salt, trihydrate', 'sodium;acetate;trihydrate', 'MFCD00071557', 'Acetic acid sodium salt trihydrate', '4550K0SC9B', 'Sodium acetate trihydrate; Sodium ethanoate trihydrate', 'Sodium acetate [USP:JAN]', 'Sodium acetate (TN)', 'sodium acetatetrihydrate', 'Sodium acetate (USP)', 'AcONa.3H2O', 'natriumacetate trihydrate', 'sodium acetate-trihydrate', 'sodium acetate. trihydrate', 'CH3CO2Na.3H2O', 'sodium acetate ion trihydrate', 'SODIUM ACETATE [FCC]', 'SODIUM ACETATE [VANDF]', 'sodium acetate--water (1/3)', 'DTXSID2073986', 'SODIUM ACETATE [USP-RS]', 'Sodium acetate hydrate (JP17)', 'SODIUM ACETATE, TRIHYDRATE', 'SODIUM ACETATE [ORANGE BOOK]', 'SODIUM ACETATE HYDRATE [JAN]', 'Sodium acetate trihydrate ACS reagent', 'AKOS015904397', 'SODIUM ACETATE TRIHYDRATE [MI]', 'SODIUM ACETATE TRIHYDRATE [USP-RS]', 'SODIUM ACETATE TRIHYDRATE [WHO-DD]', 'NS00134320', 'D01779', 'EN300-345872', 'SODIUM ACETATE TRIHYDRATE [EP MONOGRAPH]', 'Sodium acetate trihydrate ACS grade with ID tests', 'Q27114798']
+Got unresolvable : None
+Original text:   A mixture of H2O (2 ml), aqueous NaOH (0.44 ml, 0.29 mmol), EuCl3·6H2O (0.037 g, 0.1 mmol), 1,4-naphthalenedicarboxylic acid (0.033 g, 0.15 mmol), NaAc·3H2O (0.01 g, 0.07 mmol), and 4,4′-bpy·2H2O (0...
+2025-01-07 17:40:39,578 - 
+Paragraph: RIDCEN_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got (Which appears in text!): piperazine
+Original text: 17Preparation of 2: 3,3′,5,5′‐azobenzenetetracarboxylic acid[16] (16.0 mg, 0.044 mmol), In(NO3)3⋅2 H2O (22.0 mg, 0.065 mmol), DMF (1 mL), CH3CN (0.5 mL), piperazine (0.1 mL, 0.4 M in DMF), and HNO3 (0...
+2025-01-07 17:40:39,578 - 
+Paragraph: WURNOO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Pivalic acid', 'PIV']
+Got unresolvable : None
+Original text: ‡ Synthesis of [CuII4(μ4-O)L4][CuI6Br8] (1): a mixture of Gd2O3 (0.25 mmol, 0.091 g), CuBr (0.30 mmol, 0.043 g) and HL (0.50 mmol, 0.099 g) was added to a mixed solution of pivalic acid (0.202 g, 2.00...
+2025-01-07 17:40:39,899 - 
+Paragraph: XAWBEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DETA
+Original text: All reagents were of analytical grade. Compound 1 was hydrothermally prepared from a starting mixture containing indium trichloride (InCl3), phosphorous acid (H3PO3), diethylenetriamine (DETA) and hyd...
+2025-01-07 17:40:39,899 - 
+Paragraph: MEJQID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['1,3-DIMETHYLUREA', "N,N'-Dimethylurea", '96-31-1', 'sym-Dimethylurea', "Urea, N,N'-dimethyl-", 'Symmetric dimethylurea', 'Urea, 1,3-dimethyl-', "N,N'-Dimethylharnstoff", '1,3-Dimethyl urea', 'dimethyl urea', "N,N'-Dimethylharnstoff [German]", 'NSC 14910', 'CCRIS 2509', 'BRN 1740672', 'HSDB 3423', 'UNII-WAM6DR9I4X', 'WAM6DR9I4X', 'AI3-24386', 'EINECS 202-498-7', 'MFCD00008286', '1.3-Dimethylurea', 'N,N-Dimethyl-Urea', "1,1'-Dimethylurea", 'DTXSID5025156', 'CHEBI:80472', 'NSC-14910', 'UREA,1,3-DIMETHYL', '(CH3NH)2CO', "DIMETHYLUREA, N,N'-", 'DTXCID605156', '1,3-DIMETHYLUREA [HSDB]', 'EC 202-498-7', '4-04-00-00207 (Beilstein Handbook Reference)', 'Urea,3-dimethyl-', "Urea,N'-dimethyl-", '1,3-Dimethylurea, 98%', 'WLN: 1MVM1', "N,N'-DIMETHYLHARNSTOFF (GERMAN)", 'symDimethylurea', 'Dimethylharnstoff', "n,n'dimethylurea", '1,3 dimethyl urea', "N,N'-dimethyl urea", "N,N\\'-dimethylurea", 'Urea, 1,3dimethyl', "Urea, N,N'dimethyl", "N,N'Dimethylharnstoff", '1,3-Dimethylcarbamide', '3k3g', 'bmse000248', 'DIMETHYL UREA [INCI]', "N,N'-Dimethylurea, ~98%", 'CHEMBL1234380', 'NSC14910', 'NSC24823', 'Tox21_200794', 'BBL011513', 'NSC-24823', 'STL146629', 'AKOS000120912', 'CS-W013749', 'PB47928', 'CAS-96-31-1', 'NCGC00248834-01', 'NCGC00258348-01', 'SY004507', 'DB-225923', 'N,N inverted exclamation mark -Dimethylurea', 'N,N inverted exclamation marka-Dimethylurea', 'A4569', 'D0289', 'NS00005754', 'EN300-20740', 'P17517', 'ethyl 5-oxo-2,3-diphenyl-cyclopentanecarboxylate', "N,N'-Dimethylurea, (sym.), >=99% (from N)", 'Q419740', 'W-100145', "N,N'-Dimethylurea, PESTANAL(R), analytical standard", 'F0001-2292', "N,N'-Dimethylurea, (sym.), >=95.0% (HPLC), technical"]
+Got unresolvable : None
+Original text:   The mixture of Zn(NO3)2 (0.5 mmol, 0.150 g), adenine (0.5 mmol, 0.070 g), isonicotinic acid (0.5 mmol, 0.06 g), DMA (3 ml), dmurea (2 g) and MeOH (3 ml) was sealed in a 20 ml vial and heated to 120 ...
+2025-01-07 17:40:40,239 - 
+Paragraph: FORXIU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: A DMF solution (15.0 mL) containing Zn(NO3)2·6H2O (0.297 g, 1.0 mmol) and H2(2,7-ndc) (0.217 g, 1.0 mmol) was heated to 110 °C for 32 h in a sealed vial. Afterward, the reaction mixture was filtered t...
+2025-01-07 17:40:40,239 - 
+Paragraph: SAJDIT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['formic acid']
+Got unresolvable : None
+Original text:   A mixture of Tb(NO3)3·6H2O (22.7 mg, 0.05 mmol), H3TBOT (17.1 mg, 0.03 mmol), N,N-dimethylformamide (DMF) (6 mL), N-methyl-2-pyrrolidone (NMP) (1 mL), and formic acid (0.4 mL) was sealed in a Teflon...
+2025-01-07 17:40:40,239 - 
+Paragraph: IYAJOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH', 'KOH']
+Got unresolvable : None
+Original text:     A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), NaOH (3 mg), KOH (4 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and...
+2025-01-07 17:40:40,239 - 
+Paragraph: XACSIG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of MnCl2·4H2O (0.16 mmol, 32 mg), H3(bcbob) (0.08 mmol, 34 mg), bpp (0.08 mmol, 17 mg) and water (10 mL) (neutralized to pH = 6 by dilute NaOH) was heated to 150 °C in a Teflon-lined stain...
+2025-01-07 17:40:40,239 - 
+Paragraph: XUKNIC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID']
+Got unresolvable : None
+Original text: Synthesis of 1: A mixture of Zn(NO3)2·6H2O (0.2 mmol, 0.060 g), H3L (0.1 mmol, 0.026 g), concentrated nitric acid (2 drops) and H2O (5 ml) was sealed in a small vial, which was kept at 110 °C for 80 h...
+2025-01-07 17:40:40,239 - 
+Paragraph: BIDPOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   5,5′-(Naphthalene-1,4-diylbis(ethyne-2,1-diyl))diisophthalic acid, H4NDED (12.6 mg, 0.025 mmol) and Cu(NO3)2·3H2O (25 mg, 0.1 mmol) in 2 mL DMF (DMF = N,N′-dimethylformamide) with 15 μL concentrated...
+2025-01-07 17:40:40,240 - 
+Paragraph: HUNFIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: A mixture of NiCl2·6H2O (0.050 g, 0.2 mmol), NH4VO3 (0.047 g, 0.4 mmol) and bpp (0.030 g, 0.15 mmol) was dissolved in 8 mL of distilled water at room temperature. Then the pH value of the mixture was ...
+2025-01-07 17:40:40,240 - 
+Paragraph: OFODET_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 2 M HCl
+Original text: A mixture of MnCl2·(H2O)4 (40 mg, 0.2 mmol) and H4ABTC (11 mg, 0.03 mmol) was dissolved in DMF/glycol/H2O (8:2:1) at room temperature in a 25 mL beaker. Sufficient 2 M HCl was added until the mixture ...
+2025-01-07 17:40:40,565 - 
+Paragraph: KAKCEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: BTB
+Original text:   0.052 g (0.2 mmol) of barium nitrate [Ba(NO3)2] and 0.087 g (0.2 mmol) of BTB were weighed in a clean glass vial and dissolved in 10 mL of DMF. The mixture was sonicated and then kept in an oven at ...
+2025-01-07 17:40:40,565 - 
+Paragraph: NUCPIM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text:   A mixture of Zn(NO3)2·6H2O (0.1 mmol, 0.030 g), H5L (0.04 mmol, 0.018 g), DMA (1.5 mL) and water (1.0 mL) was placed in a screw-capped vial, then the vial was capped and placed in an oven at 105 °C ...
+2025-01-07 17:40:40,565 - 
+Paragraph: PUWXAH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of H3btc (0.84 g, 4 mmol) and NaOH (0.48 g, 12 mmol) in 10 ml distilled water was stirred for 1 h, followed by addition of a solution of MnCl2·H20 (0.25 g, 1.26 mmol) in 5 ml H2O. The resu...
+2025-01-07 17:40:40,565 - 
+Paragraph: VEHRIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), Na2MoO4·2H2O (0.2500 mmol, 60.40 mg), Na2SiO3·9H2O (0.2500 mmol, 71.00 mg) and Sm2O3 (0.1250 mmol, 43.60 mg), with a starting p...
+2025-01-07 17:40:40,888 - 
+Paragraph: HUNBIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: piperazine
+Original text: The iron arsenate oxalate I was synthesized hydrothermally starting from a mixture containing piperazine. In a typical synthesis, 0.099 g of iron oxalate was dissolved in 2 ml of water followed by the...
+2025-01-07 17:40:41,225 - 
+Paragraph: VIVLAP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID']
+Got unresolvable (Which appears in text!): concentrated nitric acid
+Original text: A mixture of Tb4O7 (0.060 g, 0.05 mmol) and H3tci (0.069 g, 0.20 mmol) was placed in a small via. Afterwards, DMF (2 mL), H2O (2 mL), and 2 drops concentrated nitric acid were added. The resulting mix...
+2025-01-07 17:40:41,564 - 
+Paragraph: PASNAA01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got (Which appears in text!): H6L
+Original text: Preparation of 1: A mixture of CoCl2·6H2O (357 mg, 1.50 mmol), NaOH (60 mg, 1.50 mmol), C6H6(COOH)6·H2O, H6L (92 mg, 0.25 mmol), and 6 mL of H2O was stirred in air for 0.5 h. The resulting solution wa...
+2025-01-07 17:40:41,564 - 
+Paragraph: REKZIR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Synthesis of [Cd6(MeCO2)4(bpy)2(H2bna)4]·3.5H2O (2). A mixture of Cd(MeCO2)2·2H2O (0.266 g, 1 mmol), H4bna (0.094 g, 0.25 mmol), bpy (0.040 g, 0.25 mmol), and NaOH (0.020 g, 0.50 mmol) in water−ethano...
+2025-01-07 17:40:42,349 - 
+Paragraph: VICSIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable (Which appears in text!): NaH2sip
+Original text:   A mixture of tmtz (0.3 mmol), CuCl2·2H2O (0.3 mmol) and NaH2sip (0.2 mmol) was dissolved in CH3OH (5 mL) and H2O (10 mL), and then the pH was adjusted to 6 by the addition of 1 mol L−1 NaOH. The res...
+2025-01-07 17:40:42,695 - 
+Paragraph: GOXMEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['SODIUM HYDROXIDE', 'sodium hydroxid']
+Got unresolvable (Which appears in text!): dilute sodium hydroxide
+Original text: A mixture of Co(NO3)2·6H2O (0.082 g, 0.28 mmol), BIIBN (0.04 g, 0.14 mmol), and dilute sodium hydroxide (0.1 mL) in H2O (6 mL) was placed in a Teflon lined stainless steel autoclave and heated at 180 ...
+2025-01-07 17:40:42,695 - 
+Paragraph: UCOCUM_neutral
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TETRAMETHYLAMMONIUM HYDROXIDE', '75-59-2', 'TMAH', 'TMAOH', 'NMW-W', 'Hydroxyde de tetramethylammonium', 'Ammonium, tetramethyl-, hydroxide', 'NMD 3', 'Tetramethyl ammonium hydroxide', 'Methanaminium, N,N,N-trimethyl-, hydroxide', 'tetramethylazanium;hydroxide', 'EINECS 200-882-9', 'UNII-5GKP7317Q2', 'DTXSID3029108', 'HSDB 8160', '5GKP7317Q2', 'MFCD00008280', 'DTXCID309108', 'N,N,N-Trimethylmethanaminium hydroxide (1:1)', 'EC 200-882-9', 'Methanaminium, N,N,N-trimethyl-, hydroxide (1:1)', 'Tetramethylammonium Hydroxide (25% w/w solution in Water)', 'UN1835', 'tetramethylammoniumhydroxide', 'tetramethylazanium hydroxide', 'N,N,N-trimethylmethanaminium hydroxide', 'Hydroxyde de tetramethylammonium [French]', 'tetramethylammonium oxide', 'MEGAPOSIT CD 14', 'tetramethylamonium hydroxide', 'TOKUSO SD 20', 'C4H13NO', 'OCG-OPD 262', 'CHEMBL3187523', 'OCG 945', 'OPD 262', 'Tox21_202572', 'AKOS015903652', 'Tetramethylammonium hydroxide, 25% aq', 'CAS-75-59-2', 'NCGC00260121-01', 'TETRAMETHYLAMMONIUM HYDROXIDE [MI]', 'DB-050413', 'NS00078439', 'T0138', 'T0676', 'T1201', 'T1404', 'T1460', 'TETRAMETHYLAMMONIUM HYDROXIDE, (LIQUID)', 'Tetramethylammonium hydroxide 25 wt% in Methanol', 'A838458', 'Q420868', 'J-524892', 'Tetramethylammonium hydroxide, 25% w/w in methanol', 'Tetramethylammonium hydroxide [UN1835]  [Corrosive]']
+Got unresolvable : None
+Original text: To 10 mL of distilled water was added Cu(NO3)2·2.5H2O (480 mg, 2.50 mmol) and K5CuPW11O39 (400 mg, 0.14 mmol), and the resulting blue solution was stirred for 10 min. Trimesic acid (420 mg, 2.0 mmol) ...
+2025-01-07 17:40:42,695 - 
+Paragraph: KAKBUW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: BTB
+Original text:   0.047 g (0.2 mmol) of calcium nitrate [Ca(NO3)2·4H2O] was weighed in a clean glass vial and dissolved in 5 mL of H2O, and 0.087 g (0.2 mmol) of BTB was dissolved in 5 mL of DMF and added to the inor...
+2025-01-07 17:40:42,695 - 
+Paragraph: RORVAX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Co(NO3)2
+Original text: In a scintillation vial, as-synthesized 1-Zn was washed with fresh DMF (3 × 5 mL) over 3 h and then washed with fresh MeOH (3 × 5 mL) over 3 h. The MeOH was decanted and a solution of Co(NO3)2 (30 mg,...
+2025-01-07 17:40:43,010 - 
+Paragraph: SUWQEI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got (Which appears in text!): bipy
+Original text:   CuCl2·2H2O (0.09 g, 0.54 mmol) and Na2WO4·2H2O (0.18 g, 0.54 mmol) were dissolved in 20 mL of distilled water under stirring at room temperature for 20 min. Then C6H5PO3H2 (0.10 g, 0.64 mmol) was ad...
+2025-01-07 17:40:43,011 - 
+Paragraph: DACSAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) and the organic ligand H4L1 (5.0 mg, 11.1 μmol) was dissolved in a mixed solvent consisting of N,N′-dimethylformamide (DMF, 1.5 mL), methanol (0.5 mL)...
+2025-01-07 17:40:43,011 - 
+Paragraph: WOWGUK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1,6-diaminohexane
+Original text:   First, 4.4761 g Zn(NO3)2  (BDH Analar, 98%) was added to 30 ml of 1 M H3PO4  (made up from 85% BDH Analar H3PO4 solution) in a glass beaker. Once the Zn(NO3)2 had dissolved, 37.277 g of ethylene gly...
+2025-01-07 17:40:43,011 - 
+Paragraph: ADASEF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF
+Original text: rht‐MOF‐3: Cu(NO3)2⋅2.5 H2O (39 mg), H3L3 (35 mg), and DMF (1 mL) added to 20 mL vial, heated to 75 °C/40 h to give blue polyhedral crystals. Fmm, a=54.389. ...
+2025-01-07 17:40:43,011 - 
+Paragraph: LISZOE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2Tart
+Original text:   [LiY(BDC)2(H2O)·2(H2O)] (1) was synthesized under hydrothermal conditions. 0.31 g (1 mmol) of YCl3·6H2O, 0.21 g (1 mmol) of L-tartaric acid (H2Tart), 0.08 g (0.5 mmol) of terephthalic acid (H2BDC), ...
+2025-01-07 17:40:43,405 - 
+Paragraph: TUBJAD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Cu(NO3)2·2.5H2O (88 mg, 0.38 mmol), isophthalic acid (63 mg, 0.38 mmol), 3-pmna (78 mg, 0.38 mmol) and 0.50 mL of a 1.0 M NaOH solution were placed into 10 mL distilled H2O in a Teflon-lined acid dige...
+2025-01-07 17:40:43,405 - 
+Paragraph: ZUDRAT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DBO
+Original text: A mixture of Mn(CH3COO)2·4H2O (0.1637 g, 0.6 mmol) and H3BTC (0.0597 g, 0.3 mmol), l-methionine (0.0599 g, 0.3 mmol) and DBO (0.0445 g, 0.3 mmol) in 3 mL DMF and 2 mL H2O was placed in a vial. The sam...
+2025-01-07 17:40:43,752 - 
+Paragraph: XAVKIR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 0.05 ml of concentrated H
+Original text:   A solution of Cu(NO3)2·3H2O (19.3 mg, 0.08 mmol), H4PANAD (9.98 mg, 0.012 mmol) and 0.05 ml of concentrated HCl was mixed in a solvent of DMF/H2O (v/v = 5/1) (2 ml). The mixture was sealed in a Pyre...
+2025-01-07 17:40:43,752 - 
+Paragraph: UXIQOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   A mixture of H4bptc (0.016 g, 0.05 mmol), Ni(CH3COO)2·4H2O (0.037 g, 0.15 mmol), LiOH·H2O (0.004 g, 0.1 mmol), HNO3 (100 μL, 1.6 mmol), 2.5 mL DMF and 1.5 mL water was placed into a 25 mL Teflon-lin...
+2025-01-07 17:40:43,752 - 
+Paragraph: ACUJOZ_manual
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of H4TSTC (0.0357 g, 0.1 mmol), CrCl2 (0.0123 g, 0.1 mmol), Cu(NO3)2·3H2O (0.0241 g, 0.1 mmol), NaOH (0.0160 g, 0.1 mmol), water (5 mL) and DMF (10 mL) was sealed in a 25 mL stainless steel ...
+2025-01-07 17:40:43,752 - 
+Paragraph: OVUVIL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DABCO
+Original text: Synthesis: A mixture of Zn(NO3)2·6H2O (0.2900 g, 1.0 mmol) and H2BDC‐OH (0.1840 g, 1.0 mmol) was dissolved in DMF (10 mL) solvent. Then DABCO (0.0584 g, 0.5 mmol) was added, and the mixture was transf...
+2025-01-07 17:40:43,753 - 
+Paragraph: EBATUZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: A mixture of H4bdfdpa (0.0024 g, 0.005 mmol), CuI (0.010 g, 0.05 mmol), HBF4 (100 μL), and DMF (1 mL) was sealed in a 20 mL vial and ultrasonically treated for 3 min at room temperature until it chang...
+2025-01-07 17:40:43,753 - 
+Paragraph: PELXIP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaN3
+Original text:   A mixture of CdCl2 (0.092 g, 0.5 mmol), 3-cyanobenzoic acid (0.074 g, 0.5 mmol), NaN3 (0.033 g, 0.5 mmol) and H2O (10 mL) was stirred for 30 min at room temperature and kept in a 23 mL Teflon-lined ...
+2025-01-07 17:40:43,753 - 
+Paragraph: ILENOC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DETA
+Original text:   The title compound was synthesized hydrothermally using pyridine–HF as the solvent in the presence of diethyelenetriamine (DETA). In a typical synthesis 0.335 g indium sulfate was dissolved in 1 ml ...
+2025-01-07 17:40:44,077 - 
+Paragraph: DOZKIO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): concentrated HNO3
+Original text: H8TIAPy (5 mg, 0.0058 mmol), Eu(NO3)3 (15 mg, 0.0444 mmol), DMF (5 mL), H2O (0.7 mL), and concentrated HNO3 (0.3 mL) were combined in a 20 mL glass vial, sealed, and heated at 85 °C for 24 h and then ...
+2025-01-07 17:40:44,078 - 
+Paragraph: QOZPEC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: The mixture of H2L (21 mg, 0.054 mmol), CdCl2·2.5H2O (30 mg, 0.13 mmol) and 40% HBF4 (20 drops) in the mixture of DMF (10 ml), H2O (1 ml) and MeOH (1 ml) were placed in a small vial and heated at 65 °...
+2025-01-07 17:40:44,078 - 
+Paragraph: APUPEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: N,N′-dimethylanil
+Original text:   Cu(NO3)2·3H2O (7.2 mg, 0.030 mmol) and (S)-1H2 (9.0 mg, 0.030 mmol) in a solvent mixture of DEF/MeOH (1.5/1.5 mL) were placed in a 4 mL vial. N,N′-dimethylaniline (1 mL) was placed in a 20 mL vial. ...
+2025-01-07 17:40:44,420 - 
+Paragraph: IPICOA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 2-hydroxypropylammine
+Original text: Synthesis of 1: a mixture of ZnO (1 mmol, 0.082 g), H3PO3 (4 mmol, 0.328 g), sec-butylammine (5 mmol, 0.505 ml), H2O (5 mL) and ethyleneglycol (5 mL) was heated at 160 °C in a Teflon-lined stainless s...
+2025-01-07 17:40:44,420 - 
+Paragraph: MEJQOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['1,3-DIMETHYLUREA']
+Got unresolvable (Which appears in text!): None
+Original text:   The mixture of Zn(NO3)2 (0.5 mmol, 0.150 g), adenine (0.5 mmol, 0.070 g), isonicotinic acid (0.5 mmol, 0.06 g), 1-methyl-2-pyrrolidinone (3 ml), 1,3-dimethylurea (2 g) and methanol (3 ml) was sealed...
+2025-01-07 17:40:44,779 - 
+Paragraph: QUHMOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCOOH
+Original text: Complex 3 was obtained by the following hydrothermal method: A mixture of Gd2(SO4)3·8H2O (4 mmol), HCOOH (4 mL), and DMSO (4 mL) was sealed in a Teflon-lined autoclave and heated to 140 °C over 6 h. A...
+2025-01-07 17:40:45,209 - 
+Paragraph: MUVMOG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: TMEDA
+Original text: In a typical synthesis, compound 1 was prepared under hydrothermal conditions. First, a mixture of GaOOH (0.1028 g) (prepared from direct reaction of metallic gallium with distilled water at 200 °C un...
+2025-01-07 17:40:45,582 - 
+Paragraph: GIKMOD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TRIETHYLAMINE', '121-44-8', 'N,N-Diethylethanamine', '(Diethylamino)ethane', 'Ethanamine, N,N-diethyl-', 'triethyl amine', 'Triaethylamin', 'Triethylamin', 'Trietilamina', 'N,N,N-Triethylamine', 'NEt3', 'MFCD00009051', 'trietylamine', 'tri-ethyl amine', '(C2H5)3N', 'N,N-diethyl-ethanamine', 'VOU728O6AY', 'DTXSID3024366', 'CHEBI:35026', 'ethane, diethylamino-', 'Diethylaminoethane', 'Triethylamine, >=99.5%', 'Triaethylamin [German]', 'Trietilamina [Italian]', 'triethyl-amine', 'CCRIS 4881', 'HSDB 896', 'Et3N', 'TEN [Base]', 'EINECS 204-469-4', 'UN1296', 'UNII-VOU728O6AY', 'triehtylamine', 'triehylamine', 'trieihylamine', 'triethlyamine', 'triethyamine', 'triethylamme', 'triethylarnine', 'Thethylamine', 'Triethlamine', 'triethyIamine', 'Triethylannine', 'tri-ethylamine', 'triehyl amine', 'triethyl amin', 'triethylam ine', 'triethylami-ne', 'triethylamine-', 'trietyl amine', 'tri ethyl amine', 'triethyl- amine', 'AI3-15425', 'N, N-diethylethanamine', 'N,N,N-Triethylamine #', 'triethylamine, 99.5%', 'Triethylamine, >=99%', 'Triethylamine [UN1296] [Flammable liquid]', 'TRIETHYLAMINE [MI]', 'EC 204-469-4', 'N(Et)3', 'NCIOpen2_006503', 'TRIETHYLAMINE [FHFI]', 'TRIETHYLAMINE [HSDB]', 'BIDD:ER0331', 'Triethylamine, LR, >=99%', 'TRIETHYLAMINE [USP-RS]', '(CH3CH2)3N', 'CHEMBL284057', 'DTXCID204366', 'N(CH2CH3)3', 'FEMA NO. 4246', 'Triethylamine, HPLC, 99.6%', 'Triethylamine, p.a., 99.0%', 'Triethylamine, analytical standard', 'BCP07310', 'N(C2H5)3', 'Triethylamine, for synthesis, 99%', 'Tox21_200873', 'Triethylamine, 99.7%, extra pure', 'STL282722', 'AKOS000119998', 'Triethylamine, purum, >=99% (GC)', 'Triethylamine, ZerO2(TM), >=99%', 'UN 1296', 'NCGC00248857-01', 'NCGC00258427-01', 'CAS-121-44-8', 'Triethylamine, BioUltra, >=99.5% (GC)', 'Triethylamine, SAJ first grade, >=98.0%', 'NS00002646', 'T0424', 'Triethylamine 100 microg/mL in Acetonitrile', 'EN300-35419', 'Triethylamine [UN1296]  [Flammable liquid]', 'Triethylamine,  trace metals grade, 99.99%', 'Triethylamine, SAJ special grade, >=98.0%', 'Triethylamine (contains < 0.01% Diethylamine)', 'Triethylamine, puriss. p.a., >=99.5% (GC)', 'Q139199', 'J-004499', 'J-525077', 'F0001-0344', 'Triethylamine, for amino acid analysis, >=99.5% (GC)', 'InChI=1/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H', 'Triethylamine, for protein sequence analysis, ampule, >=99.5% (GC)', 'Triethylamine, United States Pharmacopeia (USP) Reference Standard']
+Got (Which appears in text!): TEDA
+Original text: {[Cu4(OH)2(SIP)2(H2O)2](H2O)4}n (4). A mixture of CuCl2 (26.9 mg, 0.2 mmol), NaH2SIP (26.8 mg, 0.1 mmol), triethylenediamine (TEDA) (35 mg, 0.16 mmol), and water (15 mL) was heated at 160 °C for 4 day...
+2025-01-07 17:40:45,966 - 
+Paragraph: UQEGEE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): bpz
+Original text: A mixture of H3PMo12O40⋅x H2O (0.42 g, 0.23 mmol), NH4VO3 (0.44 g, 3.8 mmol), Na2SO3 (0.8 g, 6.4 mmol) was dissolved in 7 mL of distilled water at room temperature. The pH was acidified to 5.0 with di...
+2025-01-07 17:40:45,966 - 
+Paragraph: RUSSAA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaN3
+Original text: Synthesis of 1: Salt 3-cyanobenzoate, Na(3-cba), was prepared by the reaction of 3-Hcba and NaOH in an equivalent molar ratio in hot aqueous solution. A mixture of Na(3-cba) (0.085 g, 0.5 mmol), NaN3 ...
+2025-01-07 17:40:45,967 - 
+Paragraph: XUHCAG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Et3N', 'NH4F']
+Got unresolvable : None
+Original text: Synthesis of 1: The mixture of Ni(Ac)2·4H2O (0.5 mmol), H4dpstc (0.25 mmol), bim (0.5 mmol), NH4F (0.5 mmol), Et3N (0.35 mL) and distilled water (9 mL) was stirred at room temperature for 15 min, then...
+2025-01-07 17:40:45,967 - 
+Paragraph: CUXFUX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['oxalic acid', 'NaOH']
+Got unresolvable : None
+Original text:     Method A: A mixture of CoCl2·6H2O (0.238 g, 1.0 mmol), dchtpy·4H2O (0.248 g, 0.5 mmol), oxalic acid (0.090 g, 1.0 mmol), NaOH (0.08 g, 2.0 mmol) and H2O (16 mL) was charged in a Parr Teflon-lined,...
+2025-01-07 17:40:46,639 - 
+Paragraph: GABYUG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): conc. HCl
+Original text: CdCl2·H2O (24 mg, 0.12 mmol) and H2L (20 mg, 0.06 mmol) ligand were dissolved in a mixture of DMF (1.5 mL) and MeOH (1.5 mL) by sonication for 15 min. After that, two drops of conc. HCl were added to ...
+2025-01-07 17:40:46,639 - 
+Paragraph: WUPNIF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Na2CO3']
+Got unresolvable : None
+Original text: ‡ Synthesis of [Na2(H2O)10]n[CuZn4(μ3-OH)4(btec)2]n·2nH2O (1). A mixture of ZnCl2 (0.544 g, 4.0 mmol), Cu(NO3)2·3H2O (0.241 g, 1.0 mmol), H4btec (0.254, 1.0 mmol) and Na2CO3 (0.32 g, 3.0 mmol) in H2O ...
+2025-01-07 17:40:46,639 - 
+Paragraph: XUGROI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: 1 is constructed from 1,2,4,5-tetrakis(3-carboxyphenyl)-benzene (m-H4TCPB) (Scheme 1), which can be straightforwardly synthesized by the coupling and hydrolysis reaction, from its precursor. A mixture...
+2025-01-07 17:40:46,975 - 
+Paragraph: XIQHIO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HF
+Original text: The title compound was synthesized from a gel containing ethylenediamine (en) as the structure-directing agent. In a typical synthesis, 0.464 g of FeCl3–6H2O and 0.169 g of MnCl2–4H2O was dispersed an...
+2025-01-07 17:40:46,975 - 
+Paragraph: ECODOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DETA
+Original text: The title compound was synthesized hydrothermally by a typical solution-mediated reaction: 0.05 g Ga2O3, 0.80 g H3PO3, 0.10 ml DETA, 0.40 ml HF and 8 ml of water were stirred for 30 min at room temper...
+2025-01-07 17:40:46,975 - 
+Paragraph: NIMPOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HBF4
+Original text: 0.005 g (0.0065 mmol) H4pbtd-OEt and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-07 17:40:46,976 - 
+Paragraph: EKEMEO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: A mixture of H8L (5.0 mg, 5.65 μmol) and CuCl2·2H2O (5.0 mg, 29.32 μmol) was placed in a 20 mL scintillation vial, and a mixed solvent of N,N-dimethylformamide (DMF; 1.5 mL), ethanol (EtOH, 0.5 mL), a...
+2025-01-07 17:40:46,976 - 
+Paragraph: YIJYUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaHCO3']
+Got unresolvable : None
+Original text:   A mixture of cis,cis,cis-cyclopentanetetracarboxylic acid (H4CPTC, 122.2 mg, 0.5 mmol), trans-1,2-bis(4-pyridyl)-ethylene (TBPE, 91.6 mg, 0.5 mmol), NaHCO3 (40.9 mg, 0.5 mmol), and 6.0 mL distilled ...
+2025-01-07 17:40:47,314 - 
+Paragraph: WUCRUH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['KOH']
+Got (Which appears in text!): NaOH
+Original text: [FeII3(H2O)5(C9O6H3)2·3H2O] or MIL-65 was synthesized hydrothermally under autogenous pressure from a mixture of iron powder (Riedel-de-Haën, 99%+), VCl3 (Aldrich), 1,3,5-benzenetricarboxylate (Aldric...
+2025-01-07 17:40:47,314 - 
+Paragraph: NAHHOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of H4L3 (5.0 mg, 12.2 μmol), and Cu(NO3)2·3H2O (15.0 mg, 62.1 μmol) was dissolved in a mixed solvent of DMF (1.5 mL), CH3CN (0.5 mL), and H2O (0.08 mL) in a 20 mL glass vial. After the add...
+2025-01-07 17:40:47,314 - 
+Paragraph: YOJMAN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of K6[α-P2W18O62]·15H2O (0.496 g, 0.1 mmol), 1,2,4-triazole (0.114 g, 1.6 mmol) and CoCl2·6H2O (0.147 g, 0.6 mmol) was dissolved in 8.0 mL of distilled water. The pH value of the mixture w...
+2025-01-07 17:40:47,314 - 
+Paragraph: XOJWOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: triethylene tetramine
+Original text: A solution of Zn(Ac)2·2H2O (0.113 g, 0.516 mmol) in 2.5 mL water was carefully layered onto a solution of H3pbc (0.096 g, 0.485 mmol) and triethylene tetramine (0.139 g, 0.950 mmol) in 1,3-butanediol ...
+2025-01-07 17:40:47,314 - 
+Paragraph: EKEKIQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF
+Original text: A mixture of 2-propylimidazole (2-pim, 0.0150 g, 0.14 mmol), NH2–H3BTB (0.0150 g, 0.035 mmol), Zn(NO3)2·6H2O (0.0400 g, 0.14 mmol), tetramethylammonium bromide (0.0200 g, 0.13 mmol), and DMF/H2O (v/v ...
+2025-01-07 17:40:47,314 - 
+Paragraph: NEVJEF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   Cd(NO3)2·4H2O (1 mmol, 308 mg), bpy (0.4 mmol, 60 mg), and THF (5 mL) were added into a solution of H4adtp (0.2 mmol, 60 mg) in H2O (5 ml) which was adjusted to the pH value at ca. 8.0 with 1 mol L−...
+2025-01-07 17:40:47,314 - 
+Paragraph: ACAKUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2C2O4
+Original text:   La(NO3)3·6H2O (43 mg, 0.1 mmol), H4TADIP (40 mg, 0.1 mmol), H2O (4 mL) and H2C2O4 (6 mg) were mixed in a vial and heated at 95 °C for 3 days, and then cooled to room temperature. After filtration, t...
+2025-01-07 17:40:47,315 - 
+Paragraph: ETEMEX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of H2nip (0.1 mmol), Co(NO3)2·6H2O (0.1 mmol) in 7.5 mL v/v = 1:1 ethanol/H2O solution and btrb (0.05 mmol) in 0.5 mL DMF was adjusted to pH = 7 with dilute NaOH solution. The mixture was ...
+2025-01-07 17:40:47,315 - 
+Paragraph: ONODOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF/cyclohexanol/H
+Original text:   A mixture of Ni(NO3)2·6H2O (0.015 mmol, 5.3 mg), H4qptc (0.0050 mmol, 2.4 mg) and DMF/cyclohexanol/H2O (1.0 mL, v/v/v, 1/4/5) was added into a hard glass tube, pumped into a near-vacuum, and heated ...
+2025-01-07 17:40:47,316 - 
+Paragraph: HOZTOG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: timtz
+Original text: To a red solution of [Et4N]4[WS4Cu4I8] (1051 mg, 0.5 mmol) in MeCN (4 mL) was added a DMF (2 mL) solution containing timtz (558 mg, 2.0 mmol) ligand, and the final mixture was sealed in a 15 mL PTFEli...
+2025-01-07 17:40:47,316 - 
+Paragraph: ELOZIQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: tetraethylammonium bromide
+Original text: Isophthalic acid (H2ipa, 166 mg, 1 mmol), adenine (Had, 135 mg, 1 mmol), Cd(NO3)2·4H2O (462 mg, 1 mmol) and tetraethylammonium bromide (220 mg, 1 mmol) were added to 4 mL DMA (=N,N-dimethylacetamide) ...
+2025-01-07 17:40:47,316 - 
+Paragraph: BUPDOH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of the organic linker H4L (5.0 mg, 10.77 μmol) and Cu(NO3)2·3H2O (15.0 mg, 62.10 μmol) was dissolved into a mixed solvent of N,N-dimethylformamide (DMF), ethanol and H2O (1.5 mL/0.5 mL/0.0...
+2025-01-07 17:40:47,316 - 
+Paragraph: POBJIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dien
+Original text: The title compound was synthesized hydrothermally under autogenous pressure. In a typical synthesis, a mixture of BeSO4·4H2O (0.179 g), H3PO3 (0.327 g), diethylenetriamine (dien, 0.16 mL), ethylene gl...
+2025-01-07 17:40:47,317 - 
+Paragraph: WOZGUP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: [Co(BBPTZ)3][HPMo12O40]⋅24 H2O (1): H3PMo12O40⋅24 H2O (0.6 g, ca. 0.3 mmol), Co(OAc)2⋅4 H2O (0.087 g, 0.35 mmol), and BBPTZ (0.16 g, 0.5 mmol) were mixed in distilled water (10 mL) and stirred at room...
+2025-01-07 17:40:47,317 - 
+Paragraph: WODREO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: pyridine
+Original text: A mixture of Co(NO3)2·6H2O (0.0582 g, 0.2 mmol), H4L (0.0543 g, 0.1 mmol), 0.1 ml pyridine and DMF/DMSO (10 mL, v/v=1:1) was sealed in a Teflon-lined stainless steel vessel and heated at 120 °C for 3 ...
+2025-01-07 17:40:47,317 - 
+Paragraph: HUWLUI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID']
+Got unresolvable (Which appears in text!): concentrated nitric acid
+Original text:   Th(NO3)4·6H2O (58.8 mg, 0.1 mmol), H3TPO (43.9 mg, 0.1 mmol), DMF (5 mL), and 3 drops of concentrated nitric acid were placed in a 23 mL PTFE-lined autoclave and heated at 160 °C for 3 days before i...
+2025-01-07 17:40:47,654 - 
+Paragraph: LIKGUJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 0.1 M HCl
+Original text: Synthesis of [Cu3(L1)2(H2O)3]⋅2 DMF⋅5.5 H2O (ZJU‐35): H3L1 (20 mg, 0.085 mmol), Cu(NO3)2⋅3H2O (40 mg, 0.17 mmol), 0.1 M HCl (2.8 mL), DMF (20 mL), and H2O (12 mL) were mixed and heated at 65 °C for tw...
+2025-01-07 17:40:47,654 - 
+Paragraph: YUKVIK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Lithium hydroxide', '1310-65-2', 'Lithium hydrate', 'Lithium hydroxide anhydrous', 'Lithium hydroxide (Li(OH))', 'LiOH', 'Lithiumhydroxid', 'lithium;hydroxide', 'EINECS 215-183-4', 'UNII-903YL31JAS', '903YL31JAS', 'Lithium hydroxide flakes', 'MFCD00011095', 'Lithium hydroxide, anhydrous', 'CHEBI:33979', 'DTXSID70893845', 'EC 215-183-4', 'lithiumhydroxide', 'Lithium Hydroxide; Lithium Hydrate', 'Lithium hydoxide', 'UN2679', 'UN2680', 'lithium hydroxid', 'lithium hyroxide', 'litium hydroxide', 'lithium hydorxide', 'Lithium monoxide anion', 'Lithium Hydroxide, calcinated', 'LITHIUM HYDROXIDE [MI]', 'DTXCID801323885', 'DTXSID901337186', 'STL185539', 'AKOS015904130', 'AKOS025264482', 'AKOS037479138', 'DB14506', 'Lithium hydroxide powder, reagent grade', 'Lithium hydroxide, reagent grade, 98%', 'Lithium hydroxide, monohydrate or lithium hydroxide, solid [UN2680]  [Corrosive]', '54251-08-0', 'L0225', 'NS00074475', 'Lithium hydroxide, powder, reagent grade, >=98%', 'Q407613', 'Lithium hydroxide, monohydrate or lithium hydroxide, solid', 'Lithium hydroxide, monohydrate, Trace metals grade 99.8%', '64538-53-0']
+Got unresolvable : None
+Original text: Synthesis of 4 Ni: The compound could not be prepared in a crystalline form by means of conventional reactions at room temperature (see the Results and Discussion section), therefore a hydrothermal me...
+2025-01-07 17:40:47,655 - 
+Paragraph: NAGCAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO4
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g, 6.00 mmol), ZnSO4·H2O (0.516 g, 2.88 mmol), H3PO4 (2 mL, 30 mmol), and 1,3-bis (4-pyridyl) propane (0.382 g, 2.6...
+2025-01-07 17:40:47,655 - 
+Paragraph: TAYNEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2 · 4H2O (0.077g, 0.25 mmol), 5-hydroxyisophthalic acid (0.045 g, 0.25 mmol), 1,3-bis(4-pyridyl)propane (0.050 g, 0.25 mmol) and NaOH (0.020 g, 0.50 mmol) in distilled water (18 mL...
+2025-01-07 17:40:47,655 - 
+Paragraph: FASHAK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Na2CO3']
+Got unresolvable : None
+Original text: Synthesis of 1: A mixture of Pr(NO3)3·6H2O (0.1310 g, 0.3 mmol), Na2CO3 (0.05 g, 0.5 mmol), P-4mo-BDCME (0.0546 g, 0.3 mmol) and H2O (15 ml) was sealed in a 23 ml Teflon-lined stainless steel autoclav...
+2025-01-07 17:40:47,655 - 
+Paragraph: IZEFEZ_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HClO4']
+Got unresolvable : None
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 17:40:47,655 - 
+Paragraph: IYAJID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (9-anthracenecarboxylic acid, 55 mg), H2BDC (42 mg), NaOH (5 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless stee...
+2025-01-07 17:40:47,656 - 
+Paragraph: HEBNIN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: A mixture of Zn(UO2)(OAc)4·7H2O (40 mg, 0.04 mmol), H4L aqueous solution (118 mg, 0.29 mmol), bipy (10 mg, 0.064 mmol), 18 M HNO3 (2 drops), and deionized water (1.0 mL) was loaded into a 20-mL Teflon...
+2025-01-07 17:40:47,656 - 
+Paragraph: GARTUR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DADD
+Original text: Crystals of 1 and 2 were observed to form concurrently when a reaction mixture of zinc lactate (0.122 g, 0.5 mmol), Ga2O3 (0.047 g, 0.25 mmol), 5 m H3PO3 (0.6 mL, 3 mmol), DADD (0.4 g, 2 mmol), HF (40...
+2025-01-07 17:40:47,656 - 
+Paragraph: YORRII_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: pyridine
+Original text: In a typical synthesis, a mixture of BeSO4·4H2O (0.27 g), H3PO3 (0.42 g), pyridine (3.00 mL) and H2O (2.00 mL) was sealed in a 25 mL Teflon-lined autoclave and heated at 160 °C for 6 days. After cooli...
+2025-01-07 17:40:47,657 - 
+Paragraph: KUDWAJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: triethylamine
+Original text: An acetone solution (6 mL) containing Cu(NO3)2·6H2O (0.2 mmol) was layered upon an aqueous solution (4 mL) containing H3tci (0.1 mmol), 4,4′-bipy (0.1 mL) and triethylamine (60 μL) in a test tube; blu...
+2025-01-07 17:40:47,991 - 
+Paragraph: DEMLAJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaN3
+Original text: Preparation of Complex 1: A mixture of Cu(NO3)2·3H2O (0.241 g, 1.0 mmol), NaN3 (0.065 g, 1.0 mmol), 2, 2′‐bipyridine (0.156 g, 1.0 mmol), and acetonitrile (5.0 mL) was stirred for 10 min in air, and t...
+2025-01-07 17:40:47,991 - 
+Paragraph: VEHLIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: hydrogen fluoride−pyridine
+Original text: C. [H2N(CH3)2]2Zn3(HPO3)4. A total of 0.3748 g of zinc carbonate, 1.9383 g of water, 1.5193 g of ethylene glycol, 1.0351 g of phosphorous acid, 0.0610 g of hydrogen fluoride−pyridine, and 2.425 g of d...
+2025-01-07 17:40:47,991 - 
+Paragraph: TORXIJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adj...
+2025-01-07 17:40:47,991 - 
+Paragraph: LEVBAQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 4,4′-bipyridine
+Original text: The title compound was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3 · 4.5H2O, Shanghai Reagent Plant, 99.5%), phosphoric acid (Beijing Chemical Plant, 85 wt%), 4,4′-bipyridine (4...
+2025-01-07 17:40:47,992 - 
+Paragraph: PIJDIX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 2-methyl-piperazine
+Original text:   A mixture of Zn(CH3COO)2·2H2O (0.22 g), H3PO3 (0.45 g), 2-methyl-piperazine (0.36 g), methanol (3 mL) and H2O (2 mL) in the molar ratio of 1:5.5:3.5:111:74 was sealed in a Teflon-lined autoclave and...
+2025-01-07 17:40:47,992 - 
+Paragraph: QESRAI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: TEPA
+Original text: The zinc phosphate, [C8N5H28][Zn5(PO4)5].H2O, I, is synthesized under hydrothermal conditions in the presence of TEPA. In a typical synthesis, 0.3 g of ZnO was dispersed in a mixture of 6.634 ml of de...
+2025-01-07 17:40:48,327 - 
+Paragraph: TUGFAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: The polymer was synthesized by hydrothermal methods. A mixture of Ni(NO3)2·6 H2O (0.3 mmol), 1,4-H2NDC (0.1 mmol), 4,4′-dpdo (0.1 mmol), NaOH (0.2 mmol) and distilled water (15 mL) was stirred for 1 h...
+2025-01-07 17:40:48,327 - 
+Paragraph: INIRII_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1,2-diaminopropane
+Original text:   A mixture of H2E2Ge2O3 (0.084 g, 0.247 mmol), Tb(NO3)3·6H2O (0.206 g, 0.455 mmol) and 1,2-diaminopropane (0.019 g, 0.256 mmol) was stirred in H2O (10 mL, 556 mmol) for 30 min (pH 6), and then Hpza (...
+2025-01-07 17:40:48,327 - 
+Paragraph: WOSHET_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonia']
+Got unresolvable : None
+Original text:   A mixture of CuBr (29 mg, 0.2 mmol), H2bptp (35 mg, 0.1 mmol), 2 mL of ammonia and 8 mL of MeCN was placed in a Teflon reactor, which was heated at 150 °C for 3 days. Upon cooling to room temperatur...
+2025-01-07 17:40:48,666 - 
+Paragraph: BINROH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: A mixture of H3BTN (8.3 mg, 14.2 μmol) and Cu(NO3)2·2.5H2O (14.5 mg, 62.3 μmol, Aldrich) was dissolved in a mixed solvent of N,N′-diethylformamide (DEF; 1.0 mL) and H2O (0.1 mL) in a disposable scinti...
+2025-01-07 17:40:48,667 - 
+Paragraph: OJIDAN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID']
+Got unresolvable (Which appears in text!): concentrated nitric acid
+Original text: Synthesis of 2: Scandium trichloride hydrate (0.027 g, 0.135 mmol) and H3L (0.020 g, 0.045 mmol) were mixed and dispersed in a mixture of dimethylformamide (3.0 mL), tetrahydrofuran (4.0 mL), dichloro...
+2025-01-07 17:40:48,667 - 
+Paragraph: LADKIN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: piperazine
+Original text: Compound 1 was prepared from a starting mixture containing indium chloride tetrahydrate (InCl3·4H2O) (Aladdin, 98%), phosphorous acid (H3PO3) (Sinopharm Chemical Reagent Beijing Co., Ltd, 99%), oxalic...
+2025-01-07 17:40:49,029 - 
+Paragraph: RULXOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got (Which appears in text!): DMF
+Original text: A mixture of the H3TATB ligand (0.01 g, 2.26 × 10−5 mol) and FeCl2 (0.02 g, 1.58 × 10−4 mol) together with six drops of DMF and three drops of HBF4 (50% aqua solution) in 1.2 mL of DMSO was first put ...
+2025-01-07 17:40:49,029 - 
+Paragraph: BOPHEV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got unresolvable : None
+Original text: A mixture of CdBr2 (0.104 g, 0.3 mmol), H4tpta (0.041 g, 0.1 mmol), NH3·H2O (0.1 mL/5 M, 0.5 mmol), and DMF (3 mL) was stirred, then sealed in a 15 mL Teflon-lined stainless autoclave at 130 °C for 6 ...
+2025-01-07 17:40:49,029 - 
+Paragraph: OLAGIR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Me4NOH
+Original text: 1: Zn(OAc)2⋅2 H2O (0.5 g) was dissolved in H2O (10 mL) and then H3PO4 (0.46 mL, 85 wt % in water) and [Co(dien)2]Cl3 (0.58 g) were subsequently added while stirring. Finally, Me4NOH (6.0 mL, 10 wt % a...
+2025-01-07 17:40:49,029 - 
+Paragraph: JEBCOJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: iminodiacetic acid
+Original text: [{Sm2Cu3(Idad)6}·8H2O]n(1). A mixture of Sm2O3 (0.087 g, 0.25 mmol), CuO (0.040 g, 0.5 mmol), iminodiacetic acid (0.133 g, 1.0 mmol), and H2O (20 ml) in a mole ratio of about 1:2:4:300 was heated in a...
+2025-01-07 17:40:49,030 - 
+Paragraph: JUNBOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of H3btc (22 mg, 0.10 mmol), bmib (22 mg, 0.10 mmol), Cd(NO3)2·4H2O (185 mg, 0.60 mmol), and NaOH (0.25 mL, 1 mol·L–1) in deionized water (10 mL) was placed in a Teflon-lined stainless steel...
+2025-01-07 17:40:49,030 - 
+Paragraph: MUHPOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: Compound 1 was prepared hydrothermally from a mixture of indium nitrate (In(NO3)3·4H2O), oxalic acid (H2C2O4), hydrogen phosphite (H3PO3), 1,4-diazabicyclo[2.2.2]octane (dabco) and H2O with a molar ra...
+2025-01-07 17:40:49,030 - 
+Paragraph: QOJKAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3BO3
+Original text:   The analytical grade starting chemicals were obtained from Aldrich and used as received. 3.60 g [CN3H6]2CO3, 0.41 g ZnO and 25 ml deionized water were combined in a 30 ml plastic bottle, shaken well...
+2025-01-07 17:40:49,030 - 
+Paragraph: ILOJEZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   The mixture of Zn(NO3)2·6H2O (0.0297 g, 0.1 mmol), H4btec (0.0254 g, 0.1 mmol) and btmb (0.0316 g, 0.1 mmol) was dissolved in 12 mL of distilled water. The pH value was then adjusted to 6.0 with 1 M...
+2025-01-07 17:40:49,030 - 
+Paragraph: KUZZAI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: A mixture of bpydbH2 (0.040 g, 0.1 mmol), Zn(NO3)2·6H2O (0.060 g, 0.2 mmol), HATZ (0.017 g, 0.2 mmol), DMA (2 mL), NMF (2 mL), and HBF4 (0.5 mL, 37% aq) was sealed into a vial (5 mL) and heated at 120...
+2025-01-07 17:40:49,031 - 
+Paragraph: UGOFED_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Pyrazine
+Original text: H2TCPP (90 mg, 0.11 mmol) and FeCl3·6H2O (90 mg, 0.33 mmol) were dissolved in 10 mL of DMF in a 45 mL Teflon-lined reactor. Pyrazine was added to the reaction mixture (20 mg, 0.25 mmol), and the solut...
+2025-01-07 17:40:49,031 - 
+Paragraph: EHUSUX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: H4LIV (50 mg, 0.093 mmol) and Cu(NO3)2·2.5H2O (0.17 g, 0.72 mmol) were dissolved in a mixture of N,N′-dimethylformamide (DMF, 6.0 mL) and H2O (0.5 mL), and the solution was placed in a pressure tube (...
+2025-01-07 17:40:49,031 - 
+Paragraph: WAVREQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2C2O4·2H2
+Original text: We sought to synthesize I in pure form by employing another route starting with a cobalt(II) tris amine complex. The amine complex was prepared using the standard inorganic synthesis procedures16 star...
+2025-01-07 17:40:49,031 - 
+Paragraph: HEZNUW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1-(2-aminoethyl)pi
+Original text: The title compound was synthesized by hydrothermal method under autogenous pressure. In a typical synthesis, a mixture of ZnO (0.25 g), H3PO4 (0.43 ml, 85 wt.%), 1-(2-aminoethyl)piperazine (0.32 ml) a...
+2025-01-07 17:40:49,032 - 
+Paragraph: SOBZEQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text: A mixture of Cd(NO3)2·4H2O (0.060 g, 0.2 mmol), Ca(NO3)2·4H2O (0.048 g, 0.2 mmol), H4BPTC (0.032 g, 0.10 mmol), DMA (2 mL) and H2O (2 mL) was placed in a small vial. The resulting mixture was kept at ...
+2025-01-07 17:40:49,032 - 
+Paragraph: GOBTAT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: Co(NO3)2·6H2O (0.155 g, 0.53 mmol) and H2ndc (0.116 g, 0.54 mmol) were dissolved in 10.0 mL of DMF. After adding dabco (0.020 g, 0.18 mmol) and o-xylene (5 mL), the mixture was stirred for 2 h at room...
+2025-01-07 17:40:49,032 - 
+Paragraph: QAMHAQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: tetraethylammonium bromide
+Original text:   A mixture of 2-nitroimidazole (2-nim, 0.0156 g, 0.14 mmol), NH2-H3BTB (0.0156 g, 0.036 mmol), Zn(NO3)2·6H2O (0.0416 g, 0.14 mmol), tetraethylammonium bromide (0.075 mmol, 0.0156 g), which was used t...
+2025-01-07 17:40:49,032 - 
+Paragraph: WARXUL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   The organic linker 5-methoxyl-1,3-bis(3,5-dicarboxylphenyl)-benzene (H4MBDPB) (Scheme 1) was readily synthesized according to ref. 6. 1H NMR (500 MHz, DMSO-d6): 13.31 (bs, 4H), 8.40 (s, 2H), 8.36 (s...
+2025-01-07 17:40:49,033 - 
+Paragraph: KOQLUZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl', 'TETRAMETHYLAMMONIUM HYDROXIDE', '75-59-2', 'TMAH', 'TMAOH', 'NMW-W', 'Hydroxyde de tetramethylammonium', 'Ammonium, tetramethyl-, hydroxide', 'NMD 3', 'Tetramethyl ammonium hydroxide', 'Methanaminium, N,N,N-trimethyl-, hydroxide', 'tetramethylazanium;hydroxide', 'EINECS 200-882-9', 'UNII-5GKP7317Q2', 'DTXSID3029108', 'HSDB 8160', '5GKP7317Q2', 'MFCD00008280', 'DTXCID309108', 'N,N,N-Trimethylmethanaminium hydroxide (1:1)', 'EC 200-882-9', 'Methanaminium, N,N,N-trimethyl-, hydroxide (1:1)', 'Tetramethylammonium Hydroxide (25% w/w solution in Water)', 'UN1835', 'tetramethylammoniumhydroxide', 'tetramethylazanium hydroxide', 'N,N,N-trimethylmethanaminium hydroxide', 'Hydroxyde de tetramethylammonium [French]', 'tetramethylammonium oxide', 'MEGAPOSIT CD 14', 'tetramethylamonium hydroxide', 'TOKUSO SD 20', 'C4H13NO', 'OCG-OPD 262', 'CHEMBL3187523', 'OCG 945', 'OPD 262', 'Tox21_202572', 'AKOS015903652', 'Tetramethylammonium hydroxide, 25% aq', 'CAS-75-59-2', 'NCGC00260121-01', 'TETRAMETHYLAMMONIUM HYDROXIDE [MI]', 'DB-050413', 'NS00078439', 'T0138', 'T0676', 'T1201', 'T1404', 'T1460', 'TETRAMETHYLAMMONIUM HYDROXIDE, (LIQUID)', 'Tetramethylammonium hydroxide 25 wt% in Methanol', 'A838458', 'Q420868', 'J-524892', 'Tetramethylammonium hydroxide, 25% w/w in methanol', 'Tetramethylammonium hydroxide [UN1835]  [Corrosive]']
+Got unresolvable : None
+Original text:   A mixture of H4[SiW12O40] (300 mg), bib (80 mg), Cu(NO3)2 (160 mg) and (CH3)4NOH (4 mmol) was dissolved in 10 ml of distilled water at room temperature. The pH value was adjusted to about 2.8 with 2...
+2025-01-07 17:40:49,033 - 
+Paragraph: KUKPUD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Hcpt
+Original text:   A mixture of CuCl2·2H2O (0.034 g, 0.2 mmol), Hcpt (0.020 g, 0.1 mmol), H2O (4 mL) and CH3CN (2 mL) was added into a 25 mL Teflon-lined stainless steel reactor, and then heated at 120 °C for 3 days u...
+2025-01-07 17:40:49,033 - 
+Paragraph: LABJUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: bztpy
+Original text:   A mixture of CuI (95 mg), Cu(BF4)2·xH2O (122 mg), bztpy (6 mg) and MeCN (10 ml) in a 23 mL Teflon reactor was heated at 175 °C for three days and then cooled to room temperature at a rate of 5 K h−1...
+2025-01-07 17:40:49,033 - 
+Paragraph: VIPXUO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of Co(NO3)2·3H2O (0.1 mmol), TPB (0.05 mmol), H4PMA(0.1 mmol), NaOH (0.4 mmol) and H2O (6 mL) was heated at 120 °C for 3 d. After the mixture had been slowly cooled to room temperature, pi...
+2025-01-07 17:40:49,033 - 
+Paragraph: NOHQEI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: tetraethylammonium chloride
+Original text: Ligand H3TATB (0.6 mmol), In(NO3)3⋅x H2O (0.4 mmol) and tetraethylammonium chloride (0.4 mmol) were dissolved in DEF (6 mL). The mixture was placed in a 20 mL vial and heated at 120 °C for 3 days and ...
+2025-01-07 17:40:49,033 - 
+Paragraph: RIPWIY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Sodium acetate']
+Got unresolvable : None
+Original text: A mixture of K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O (0.207 g, 0.026 mmol), Sm(NO3)3⋅6 H2O (0.062 g, 0.14 mmol), Mn(ClO4)2⋅6 H2O (0.300 g, 0.83 mmol), and glycolic acid (0.100 g, 1.3 mmol) in sodium aceta...
+2025-01-07 17:40:49,359 - 
+Paragraph: GULCAS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HF
+Original text: The title compound was synthesized by using mild solvothermal conditions under autogenous pressure. Typically, 0.27 g (1 mmol) FeCl3·6H2O was dissolved in a mixture of 6 mL H2O and 3 mL ethanol with s...
+2025-01-07 17:40:49,360 - 
+Paragraph: KUHNIM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got unresolvable : None
+Original text:   A mixture of Zn(NO3)2·6H2O (0.5 mmol, 0.149 g), 1,2,4,5-benzene tetracarboxylic dianhydride (BTD) (0.5 mmol, 0.104 g), NH3·H2O (0.5 mL), and H2O (7.5 mL) was heated at 110 °C for 48 h in a 20 mL sea...
+2025-01-07 17:40:49,360 - 
+Paragraph: RUYZUH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: EDTA
+Original text: Compound 1 was prepared by the hydrothermal method: a mixture of Na2MoO4·2H2O (1.452 g), MnSO4·H2O (0.676 g), ethylenediamine tetraacetic acid (EDTA) (0.744 g), H3PO4 (2 mL), HF (1 mL), ethylenediamin...
+2025-01-07 17:40:49,361 - 
+Paragraph: NIMPEG01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HBF4
+Original text: 0.005 g (0.0068 mmol) H4pbtd-OMe and 0.015 g (0.064 mmol) Cu(NO3)2·2.5H2O dissolved in 1.5 mL N,N-dimethylacetamide (DMA) with 4 drops HBF4 (48% min w/w aqueous solution) were added to a 2 mL glass vi...
+2025-01-07 17:40:49,681 - 
+Paragraph: HUYXUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['formic acid']
+Got unresolvable (Which appears in text!): formic acid solution
+Original text: Single crystals of 2 suitable for X-ray analysis were obtained by a modified method of that described above for 1. A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg) and L (0.1 mmol, 29 mg) was suspended i...
+2025-01-07 17:40:49,998 - 
+Paragraph: MAYKOO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['hydrochloric acid']
+Got unresolvable : None
+Original text: A mixture of Cu(NO3)2·3H2O (72.4 mg, 3 mmol), H3L (72.5 mg, 2 mmol), DABCO (22.4 mg, 2 mmol), concentrated hydrochloric acid (150 μL), DMF (8 mL), dioxane (2 mL), and H2O (2 mL) was treated by ultraso...
+2025-01-07 17:40:50,322 - 
+Paragraph: OFOCUI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): 2 M HNO3
+Original text: A mixture of Cu(NO3)2·(H2O)2.5 (24 mg, 0.1 mmol) and H4ABTC (18 mg, 0.05 mmol) was dissolved in DMF/ethanol/H2O (5:3:1) at room temperature in a 25 mL beaker. Sufficient 2 M HNO3 was added until the m...
+2025-01-07 17:40:50,666 - 
+Paragraph: VAJQOP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: LiOH
+Original text: A mixture of 0.37 g Co(CH3COO)2·4H2O (1.2 mmol), 0.25 g (1.5 mmol) pyridine-3,4-dicarboxylic acid, 0.27 g 1,2-bis(4-pyridyl)ethylene (1.2 mmol), 0.035 g (1.5 mmol) LiOH and 35 mL of EtOH/H2O (1:1) was...
+2025-01-07 17:40:50,666 - 
+Paragraph: AJAKON_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text:   A mixture of H3TCA (0.05 mol), Cd(NO3)2·4H2O (0.25 mmol)) and HBF4 (40% aqueous, 2 drops) in the DMA/EtOH/H2O mixed solvent (DMA 2 mL; EtOH 1 mL; H2O 1 mL) was fully stirred at room temperature for ...
+2025-01-07 17:40:50,667 - 
+Paragraph: LEQVIN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: N-(2-aminoethyl)-1
+Original text: Synthesis and Characterization. (C5H18N3)[Fe3(HPO3)6]·3H2O has been synthesized using mild hydrothermal conditions and autogenous pressure. H3PO3 (12 mmol) and Fe(SO4)3·5H2O (0.16 mmol) were dissolved...
+2025-01-07 17:40:50,667 - 
+Paragraph: PEWKOT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Et3N']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2·4H2O (14.6 mg, 0.05 mmol), p-BrPhH3IDC (15.6 mg, 0.05 mmol), Et3N (0.056 mL, 0.4 mmol), 4,4′-bipy (7.8 mg, 0.05 mmol), and CH3CN/H2O (3/4, 7 mL) were sealed in 25 mL Teflon-lined...
+2025-01-07 17:40:51,000 - 
+Paragraph: SUKMAO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of the organic linker H4L3 (5.0 mg, 10.91 μmol) and Cu(NO3)2·3H2O (15.0 mg, 62.10 μmol) was dissolved in a mixed solvent of DMF, methanol and H2O (1.5 mL/0.5 mL/0.08 mL) in a screw-capped ...
+2025-01-07 17:40:51,000 - 
+Paragraph: CABDER_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Cd(NO3)2·4H2O (112 mg, 0.363 mmol), 4-pmina (79 mg, 0.37 mmol), 2,2-dimethylsuccinic acid (55 mg, 0.38 mmol), and 1 mL of a 1.0 M NaOH solution were mixed with 10 mL of distilled H2O in a 23 mL Teflon...
+2025-01-07 17:40:51,000 - 
+Paragraph: BOWSUC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DETA
+Original text: Compound 2 was synthesized in the V2O5/H3PO3/DETA/NH4F/H2O reaction system with a molar ratio of 1/24/4/4/664. Typically, 0.046 g V2O5, 0.6 mL H3PO3, 0.11 mL DETA and 0.039 g NH4F were dissolved in 5 ...
+2025-01-07 17:40:51,001 - 
+Paragraph: DUXKEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBO3']
+Got unresolvable : None
+Original text:   The title compound was synthesized from a mixture of NaVO3 (0.58 mmol), Ni(NO3)·6H2O (0.58 mmol), and 4,4′-bipyridyl (0.58 mmol) dissolved in 30 mL of distilled water. The pH of the solution was adj...
+2025-01-07 17:40:51,001 - 
+Paragraph: FURFIJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text: A mixture of Cd(NO3)·4H2O (0.06 g, 0.2 mmmol), H2tdc (0.034 g, 0.2 mmol), bpp (0.038 g, 0.2 mmol) and DMA (3 mL) was seal in a Teflon–lined stainless steel reactor under autogenous pressure at 120 °C ...
+2025-01-07 17:40:51,002 - 
+Paragraph: PUZTOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2pdc
+Original text: A mixture of Cd(NO3)2·4H2O (0.1 mmol, 0.03 g), Ca(NO3)2·4H2O (0.1 mmol, 0.023 g), H2pdc (0.1 mmol, 0.017 g), H2O (3 mL) and DMF (3 mL) was sealed in a 20 mL small vial, which was kept at 100 °C for 2 ...
+2025-01-07 17:40:51,002 - 
+Paragraph: TOJVIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: The polymer was synthesized by hydrothermal methods. A mixture of Co(NO3)2·6H2O (0.3 mmol), 1,4-naphthalenedicarboxylate acid (1,4-H2NDC) (0.1 mmol), 4,4′-bipyridine-N,N′-dioxide (4,4′-dpdo) hydrate (...
+2025-01-07 17:40:51,320 - 
+Paragraph: MIZKOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['CH3COOH']
+Got unresolvable (Which appears in text!): H2pdc
+Original text: Synthesis of 1,2: A mixture of La2(C2O4)3·9 H2O (0.298 g), CuCl2·2 H2O (0.034 g), H2pdc (0.167 g), H2O (10 ml), and CH3COOH (0.5 mmol) was sealed in a 30 ml Teflon-lined bomb at 170 °C for 7 d, then c...
+2025-01-07 17:40:51,654 - 
+Paragraph: QAJKAO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: piperazine
+Original text: To a solution of 0.070 g V2O5 in 8 mL H2O, was added 1.000 g H3PO3 with stirring, followed by the addtion of 0.777 g piperazine. The molar composition of the initial mixture was V2O5:H3PO3:piperazine:...
+2025-01-07 17:40:51,655 - 
+Paragraph: DEKPUF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO3
+Original text: In a typical synthesis of 1, a reaction mixture of ZnO (0.36 g) and NiCl2·6H2O (0.79 g) were first dissolved in H2O (10 mL), and then DACH (1.00 mL) was added with stirring under ambient conditions. F...
+2025-01-07 17:40:51,978 - 
+Paragraph: VEHLAW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: hydrogen fluoride−pyridine
+Original text: Synthesis. A. [N(CH3)4]2Zn3(HPO3)4. A total of 0.3759 g of zinc carbonate, 2.1342 g of water, 2.0302 g of ethylene glycol, 0.7546 g of phosphorous acid, 0.0414 g of hydrogen fluoride−pyridine, and 4.0...
+2025-01-07 17:40:52,320 - 
+Paragraph: ASUKEE01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['potassium iodide', '7681-11-0', 'Thyro-Block', 'Kali iodide', 'potassiumiodide', 'Thyroshield', 'Knollide', 'Kisol', 'Kalii iodidum', 'Pima', 'Asmofug E', 'Potassium diiodide', 'Potassium iodide (KI)', 'Dipotassium diiodide', 'Potassium monoiodide', 'Kaliumiodid', 'Thyrosafe', 'Joptone', 'Potide', 'Iosat', 'potassium;iodide', 'Iodure de potassium', 'Potassium iodide (K2I2)', 'Kalium iodatum', 'Caswell No. 694', 'Kali iodatum', 'Potassium iodide (K(I2))', 'K1-N', 'Potassium iodide (K3I3)', 'potassium-iodide', 'HSDB 5040', 'EINECS 231-659-4', 'UNII-1C4QK22F9J', 'MFCD00011405', 'NSC 77362', 'NSC-77362', 'EPA Pesticide Chemical Code 075701', '1C4QK22F9J', 'CCRIS 8168', 'CHEBI:8346', 'DTXSID7034836', 'AI3-52931', 'Potassium iodide [USP:JAN]', 'DTXCID5014836', 'EC 231-659-4', 'NSC77362', 'Potassium iodide (USP:JAN)', 'Tripotassium triiodide', 'POTASSIUM IODIDE (MART.)', 'POTASSIUM IODIDE [MART.]', 'POTASSIUM IODIDE (USP-RS)', 'POTASSIUM IODIDE [USP-RS]', 'Potassium iodide [JAN]', 'POTASSIUM IODIDE (EP MONOGRAPH)', 'POTASSIUM IODIDE [EP MONOGRAPH]', 'Iodide, Potassium', 'POTASSIUM IODIDE (USP MONOGRAPH)', 'POTASSIUM IODIDE [USP MONOGRAPH]', 'Thyroblock', 'Radiban', 'Thyrojod', 'potasium iodide', 'potassium iodid', 'Potasio ioduro', 'Potassium salt of hydriodic acid', 'Kali Iodatum.', 'Kali Iodatum 1X', 'Thyroblock (TN)', 'Gold etchant, standard', 'Iodine (as potassium)', 'Potassium Iodide,(S)', 'Potassium iodide ACS grade', 'WLN: KA I', 'Potassium iodide, ultra dry', 'Potassium iodide, 99.5%', 'CHEMBL1141', 'KALI IODATUM [HPUS]', 'Iodine (as potassium iodide)', 'POTASSIUM IODIDE [MI]', 'Potassium Iodide Oral Solution', 'Potassium iodide, ACS reagent', 'POTASSIUM IODIDE [FCC]', 'Potassium iodide (JP17/USP)', 'POTASSIUM IODIDE [HSDB]', 'POTASSIUM IODIDE [VANDF]', 'Potassium iodide, LR, >=99%', 'POTASSIUM IODIDE [WHO-DD]', 'POTASSIUM IODIDE [WHO-IP]', 'HMS3651G04', 'CS-B1801', 'K I (H2 O)2', 'Potassium iodide, AR, >=99.8%', 'Tox21_301293', 's1897', 'KALII IODIDUM [WHO-IP LATIN]', 'AKOS015833375', 'POTASSIUM IODIDE [ORANGE BOOK]', 'CCG-266323', 'DB06715', 'IODINE (AS POTASSIUM) [VANDF]', 'Potassium iodide, BioXtra, >=99.0%', 'NCGC00257542-01', 'Potassium iodide, ReagentPlus(R), 99%', 'USEPA/OPP Pesticide Code:  075701', 'CAS-7681-11-0', 'Potassium iodide, Vetec(TM) reagent grade', 'Potassium iodide, ACS reagent, >=99.0%', 'Potassium iodide, plant cell culture tested', 'NS00074349', 'P1721', 'SW219147-1', 'IODINE (AS POTASSIUM IODIDE) [VANDF]', 'Potassium iodide, BioUltra, >=99.5% (AT)', 'Potassium iodide, tested according to Ph.Eur.', 'Potassium iodide, Trace metals grade 99.99%', 'C08219', 'D01016', 'Potassium iodide, SAJ first grade, >=99.5%', 'AB01274864-01', 'AB01568251_01', 'Potassium iodide, >=99.99% trace metals basis', 'Potassium iodide, JIS special grade, >=99.5%', 'Potassium iodide, purum p.a., >=99.0% (AT)', 'Q121874', 'Z104473300', 'Potassium iodide, puriss. p.a., ACS reagent, >=99.0% (AT)', 'Potassium iodide, suitable for oxidant determination, >=99.5%', 'Potassium iodide, anhydrous, beads, -10 mesh, 99.998% trace metals basis', 'Potassium iodide, puriss. p.a., reag. ISO, reag. Ph. Eur., >=99.5%', 'Potassium iodide, United States Pharmacopeia (USP) Reference Standard', 'Potassium iodide, anhydrous, free-flowing, Redi-Dri(TM), ACS reagent, >=99%', 'Potassium iodide, anhydrous, free-flowing, Redi-Dri(TM), ReagentPlus(R), 99%', 'Potassium Iodide, Pharmaceutical Secondary Standard; Certified Reference Material']
+Got unresolvable (Which appears in text!): KI
+Original text: Synthesis of [Cu2(4,4′‐bpy)3](ClO4)2(H2O)2 (2): A mixture of Cu(ClO4)2·6H2O (0.186 g, 0.5 mmol), 4,4′‐bpy (0.096 g, 0.5 mmol), KI (0.083 g, 0.5 mmol), and water (18.0 mL) in the molar ratio of 1:1:1:1...
+2025-01-07 17:40:52,320 - 
+Paragraph: KUKQAK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: Hcpt
+Original text:   A mixture of CuCl2·2H2O (0.034 g, 0.2 mmol), Hcpt (0.020 g, 0.1 mmol), H2O (4 mL), MeOH (2 mL) and CH3CN (2 mL) was added into a 25 mL Teflon-lined stainless steel reactor, and then heated at 120 °C...
+2025-01-07 17:40:52,651 - 
+Paragraph: ICIVEW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO3
+Original text: Synthesis and characterization: Typically, Zn(OAc)2⋅2 H2O (0.25 g) was first dissolved in H2O (10 mL), and then n‐butylamine (0.51 mL) was added while stirring. Finally, H3PO3 (0.280 g) was added to t...
+2025-01-07 17:40:52,652 - 
+Paragraph: DICKEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: PDEB (11.33 mg, 0.025 mmol) and CuCl2·2H2O (17 mg, 0.1 mmol) in 2 mL of N,N-dimethylformamide (DMF) with 0.1 mL of water and 50 μL of HBF4 were stirred for a few minutes in air, and the clear solution...
+2025-01-07 17:40:52,652 - 
+Paragraph: XADDOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: LiOH
+Original text: [Co6(μ3‐OH)2(ipa)5(H2O)5]·8H2O (1): Solvothermal reaction of a mixture of Co(OAc)2·5H2O (0.060 g, 0.25 mmol), H2ipa (0.066 g, 0.40 mmol), and methanol (5 mL) in a 10 mL Teflon‐lined bomb at 160 °C for...
+2025-01-07 17:40:52,652 - 
+Paragraph: ACALIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H2C2O4
+Original text:   Er(NO3)3·6H2O (44 mg, 0.1 mmol), H4TADIP (40 mg, 0.1 mmol), H2O (4 mL) and H2C2O4 (6 mg) were mixed in a vial and heated at 95 °C for 3 days and then cooled to room temperature. After filtration, th...
+2025-01-07 17:40:52,652 - 
+Paragraph: ADATIK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2025-01-07 17:40:52,652 - 
+Paragraph: KEBDIG_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: A mixture of Co(NO3)2·6H2O (0.07 g, 0.24 mmol), DBIBN (0.04 g, 0.12 mmol), and conc. HCl (0.1 mL) in EtOH/H2O (3 mL, 2:1 v/v) were placed in a Teflon lined stainless steel autoclave and heated at 180 ...
+2025-01-07 17:40:52,653 - 
+Paragraph: IYAKIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text:   A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), Ca(OH)2 (5 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and heated at ...
+2025-01-07 17:40:52,653 - 
+Paragraph: KAKCAD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: BTB
+Original text:   0.042 g (0.2 mmol) of strontium nitrate [Sr(NO3)2] was weighed in a clean glass vial and dissolved in 5 mL of H2O, and 0.087 g (0.2 mmol) of BTB was dissolved in 5 mL of DMF and added to the reactio...
+2025-01-07 17:40:52,653 - 
+Paragraph: NUMPAO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['SODIUM HYDROXIDE', '1310-73-2', 'Caustic soda', 'Sodium hydrate', 'Aetznatron', 'Soda lye', 'White caustic', 'Ascarite', 'Soda, caustic', 'Natriumhydroxid', 'Rohrputz', 'Plung', 'Liquid-plumr', 'Sodium hydroxide (Na(OH))', 'Fuers Rohr', 'Rohrreiniger Rofix', 'NaOH', 'Hydroxyde de sodium', 'Natriumhydroxyde', 'Collo-Grillrein', 'Collo-Tapetta', 'Soda, hydrate', 'Sodium hydroxide dimer', 'Ascarite II', 'Natrium causticum', 'Soda, kaustische', 'Lewis-red devil lye', 'Sodio(idrossido di)', '81133-20-2', 'Stamperprep', 'Caustic soda, liquid', 'Sodium(hydroxyde de)', 'Caswell No. 773', 'sodium;hydroxide', 'Tosoh pearl', 'Sodium hydroxide (Na2(OH)2)', 'Sodium hydroxide, pellets', 'Natrium-hydroxid, reinstes', 'UN 1823 (solid)', 'Promoter 3308b', 'HSDB 229', 'soude caustique', 'Natrii hydroxydum', 'EINECS 215-185-5', 'LYE', 'MFCD00003548', 'EPA Pesticide Chemical Code 075603', 'NSC 135799', 'NSC-135799', 'UNII-55X04QC32I', 'CHEBI:32145', 'INS-524', '55X04QC32I', 'Sodium hydroxide, flake', 'Sodium hydroxide, solid', 'DTXSID0029634', 'E-524', 'EC 215-185-5', 'Sodium hydroxide; NaOH', 'Na (O H)', 'SODIUM HYDROXIDE (MART.)', 'SODIUM HYDROXIDE [MART.]', 'sodiumhydroxide', 'Natriumhydroxid [German]', 'Natriumhydroxyde [Dutch]', 'Hydroxide, Sodium', 'Hydroxyde de sodium [French]', 'Sodio(idrossido di) [Italian]', 'Sodium(hydroxyde de) [French]', 'Sodium Hydroxide (0.1M in water (0.1N))', 'Sodium hydroxide [NF]', 'UN1823', 'UN1824', 'sodiumhydroxid', 'hydroxyl sodium', 'sodio hidroxido', 'sodium hydoxide', 'sodium hydroxid', 'sodium hyroxide', 'Soda asbestos', 'hydroxide sodium', 'Natrii hydroxidum', 'Caustic soda, dry', 'Caustic soda, bead', 'Caustic soda, flake', 'Caustic soda, solid', 'Sodium(hydroxide de)', 'Sodium hydroxide, dry', 'Sodium hydroxide beads', 'Caustic soda, granular', 'Sodium hydroxide liquid', 'Sodium hydroxide pearls', 'Sodium hydroxide, bead', 'Sodium hydroxide 50%', 'Sodium hydroxide (TN)', 'Sodium hydroxide, pearl', 'Sodium hydroxide (flake)', 'Sodium hydroxide (NaOH)', 'Sodium hydroxide (liquid)', 'Sodium hydroxide, granular', 'WLN: NA Q', 'Sodium hydroxide, anhydrous', 'Caustic Soda, Dry (DOT)', 'Caustic Soda, Bead (DOT)', 'Caustic Soda, Flake (DOT)', 'Caustic Soda, Solid (DOT)', 'Sodium hydroxide pellets, EP', 'Sodium hydroxide, micropearls', 'SODIUM HYDROXIDE [II]', 'SODIUM HYDROXIDE [MI]', 'Sodium hydroxide (JP17/NF)', 'SODIUM HYDROXIDE [FCC]', 'SODIUM HYDROXIDE [JAN]', 'Sodium Hydroxide, Dry (DOT)', 'Caustic Soda, Granular (DOT)', 'DTXCID609634', 'Sodium Hydroxide, Bead (DOT)', 'SODIUM HYDROXIDE [HSDB]', 'CHEMBL2105794', 'SODIUM HYDROXIDE [VANDF]', 'Sodium Hydroxide, Flake (DOT)', 'Sodium Hydroxide, Solid (DOT)', 'Sodium hydroxide pellets USP-NF', 'SODIUM HYDROXIDE [WHO-DD]', 'SODIUM HYDROXIDE [WHO-IP]', 'Sodium Hydroxide, Granular (DOT)', 'BCP26108', 'NSC135799', 'Sodium hydroxide pellets ACS reagent', 'AKOS015913904', 'AKOS015951419', 'DB11151', 'SODIUM HYDROXIDE [EP MONOGRAPH]', 'USEPA/OPP Pesticide Code: 075603', 'NATRII HYDROXYDUM [WHO-IP LATIN]', 'Sodium hydroxide pellets Biochemical Grade', 'NS00076150', 'O0575', 'S0543', 'Sodium azidodifluoroacetate 0.25 M in water', 'Sodium hydroxide 10% aqueous solution (wt/v)', 'Sodium hydroxide, ROTI?Volum, 1N (Ampoule)', 'D01169', 'Sodium hydroxide, solid [UN1823]  [Corrosive]', 'Q102769', 'J-005935', 'Sodium hydroxide, pellets, Trace Metals Grade 99.99%', '1.25N NaOH Distillation Fluid, 50 x 10 mL, smart delivery PFA Tube']
+Got unresolvable : None
+Original text: Synthesis of {[Zn(bpe)0.5(Htbip)(tbip)0.5]·H2O}n (1). A mixture of Zn(NO3)2·6H2O (0.2 mmol), bpe (0.2 mmol), H2tbip (0.2 mmol) in deionized water (6 mL) was sealed in a 25 mL Teflon‐lined stainless st...
+2025-01-07 17:40:52,653 - 
+Paragraph: GUSCIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Gd(NO3)3·6H2O (0.3 mmol, 0.14 g), CoCl2·6H2O (0.3 mmol, 0.07 g), pyridine-2,5-dicarboxylic acid (0.2 mmol, 0.03 g), K2(C2O4)·H2O (0.1 mmol, 0.02 g), NaOH (0.2 mmol, 0.01 g) and 10 mL deio...
+2025-01-07 17:40:52,653 - 
+Paragraph: HOVQAM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of HL (0.021 g, 0.10 mmol), Co(ClO4)2·6H2O (0.036 g, 0.10 mmol), NaOH (0.004 g, 0.10 mmol), and H2O (10 mL) was kept in a 15 mL Teflon liner autoclave at 80 °C for 3 days. After the mixture ...
+2025-01-07 17:40:53,008 - 
+Paragraph: ODUNEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['DIISOPROPYLAMINE', '108-18-9', 'N,N-Diisopropylamine', 'N-(1-Methylethyl)-2-propanamine', '2-Propanamine, N-(1-methylethyl)-', 'N-propan-2-ylpropan-2-amine', 'N-isopropylpropan-2-amine', 'diisopropyl amine', 'N-Isopropyl-1-amino-2-methylethane', 'bis(isopropyl)amine', 'NSC 6758', 'CCRIS 6235', 'HSDB 931', 'Bis(Propan-2-Yl)Amine', 'UNII-BR9JLI40NO', 'BR9JLI40NO', 'EINECS 203-558-5', 'di-isopropylammonium', 'DTXSID9025085', 'AI3-15345', 'NSC-6758', 'MFCD00008862', '2-Propaneamine, N-(1-methylethyl)-', 'DTXCID905085', 'N-(propan-2-yl)propan-2-amine', 'EC 203-558-5', 'NCGC00091070-01', 'NCGC00091070-02', 'propane, 2-isopropylamino-', 'Diisopropylamin', 'CAS-108-18-9', 'UN1158', 'Diisoproylamine', 'diisoproplyamine', 'diisopropyiamine', 'diisopropylarnine', 'Diisoproyl amine', 'di-isopropylamine', 'diiso-propylamine', 'diisoproply amine', 'diisopropyl-amine', 'diisopropylamine-', 'di-i-propylamine', 'di(isopropyl)amine', 'di-iso-propylamine', 'di-isopropyl amine', 'Diiso propyl amine', 'di-iso-propyl amine', 'di-iso-propyl-amine', 'HNiPr2', 'iPr2NH', 'N,N-diisoproplyamine', 'i-Pr2NH', 'N, N-diisopropylamine', 'N,N-di-isopropylamine', 'N,N-diisopropyl amine', 'N,N-diisopropyl-amine', 'di(1-methylethyl)amine', 'Diisopropylamine, 99%', 'N,N,-di-isopropylamine', 'N,N-di-iso-propylamine', '(iPr)2NH', 'HN(iPr)2', 'N-isopropyl-isopropylamine', '(i-Pr)2NH', 'HN(i-Pr)2', 'NH(i-Pr)2', '(iso-C3H7)2NH', 'Diisopropylamine, >=99%', 'N-isopropylpropane-2-amine', 'SCHEMBL2020', 'DIISOPROPYLAMINE [MI]', 'Diisopropylamine, >=99.5%', 'DIISOPROPYLAMINE [HSDB]', 'CHEMBL1450356', 'Diisopropylamine sulfate (2:1)', 'N-(1-Methylethyl)-2-propamine', 'SCHEMBL11097419', 'DIISOPROPYLAMINE [WHO-DD]', 'NSC6758', 'WLN: 1Y1&MY1&1', 'N-(1-methylethyl)propan-2-amine', 'Diisopropylamine, redistilled grade', 'N-(1-methylethyl)--2-propanamine', 'STR01875', 'Diisopropylamine, analytical standard', 'Tox21_111075', 'Tox21_200216', 'STL264227', 'AKOS000120153', 'Tox21_111075_1', 'UN 1158', 'NCGC00091070-03', 'NCGC00257770-01', 'BP-31036', 'D0925', 'NS00077148', 'Diisopropylamine, SAJ first grade, >=98.0%', 'Diisopropylamine [UN1158]  [Flammable liquid]', 'Diisopropylamine, puriss. p.a., >=99.0% (GC)', 'Q420331', 'J-520332', 'Diisopropylamine, purified by redistillation, 99.95%', 'InChI=1/C6H15N/c1-5(2)7-6(3)4/h5-7H,1-4H']
+Got unresolvable (Which appears in text!): DIPA
+Original text: For a typical procedure to synthesize polymer 1, 0.03 g (0.10 mmol) of Zn(NO3)2·6H2O, 0.06 g (0.30 mmol) of bpdc and 15.0 mL of DMF were placed in a 25 mL vial to form a solution under stirring. After...
+2025-01-07 17:40:53,008 - 
+Paragraph: CIQQIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['benzoic acid']
+Got unresolvable : None
+Original text:   La(NO)3·6H2O (18 mg, 0.042 mmol), 1,3,5-tri(6-hydroxycarbonylnaphthalen-2-yl)benzene (H3BTN, 6 mg, 0.01 mmol) and benzoic acid (75 mg, 0.614 mmol) were mixed with 1.25 mL DMF in a glass container, t...
+2025-01-07 17:40:53,008 - 
+Paragraph: ETEMIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of H3btc (0.02 mmol), Co(NO3)2·6H2O (0.04 mmol) in 7.5 mL H2O and btrb (0.02 mmol) in 0.2 mL DMF was adjusted to pH = 7 with dilute NaOH solution. The mixture was added to a 25 mL Teflon-l...
+2025-01-07 17:40:53,008 - 
+Paragraph: TEQVOC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got unresolvable : None
+Original text:   A mixture of zinc acetylacetonate hydrate (1.0 mmol), NH3·H2O (4.0 mmol), barium hydroxide (2.0 mmol) and 5-tert-butylisophthalic acid (1.5 mmol) in 15 mL H2O is stirred for 10 min at room temperatu...
+2025-01-07 17:40:53,008 - 
+Paragraph: BIHMUC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture containing CoCl2·6H2O (0.0476 g, 0.2 mmol), L (0.0 32 g, 0.1 mmol) and H3BTC (0.032 g, 0.15 mmol) was dissolved in 8 mL of H2O. The pH value was adjusted to about 7 with 0.1 M NaOH solutio...
+2025-01-07 17:40:53,357 - 
+Paragraph: XOLGEM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['ammonia', 'TRIETHYLAMINE', 'Triethylamin']
+Got unresolvable (Which appears in text!): Ammonia solution
+Original text:   A mixture of Co(OAc)2·4H2O (0.0249 g, 0.1 mmol), KH2TDA (0.0312 g, 0.16 mmol) and HTZ (0.0070 g, 0.1 mmol) was dissolved in H2O (3 mL) and DMF (3 mL). Ammonia solution (25% to 28%, 1 drop) and triet...
+2025-01-07 17:40:53,358 - 
+Paragraph: JESDIV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HF
+Original text: The compound 1 was synthesized hydrothermally by a typical solution mediated reaction: 0.05 g Ga2O3, 0.80 ml H3PO3, 0.50 g piperazine, 0.60 ml HF and 2 ml of water was stirred for 30 min at room tempe...
+2025-01-07 17:40:53,358 - 
+Paragraph: XAJZOY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: diamine
+Original text: AlPO-ERI was synthesized under hydrothermal conditions in the presence of TMHDA as template. Aluminum isopropoxide Al(OiPr)3 (98+%, Aldrich) and phosphoric acid (85 wt.% in water, Prolabo) were used a...
+2025-01-07 17:40:53,358 - 
+Paragraph: GAJVEU_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Et3N']
+Got unresolvable : None
+Original text:   A mixture of Zn(NO3)2·6H2O (0.300 g, 1.00 mmol), H2bdc (0.220 g, 1.30 mmol), [NH2(CH3)2]Cl (0.051 g, 0.60 mmol) and Et3N (0.101 g, 1 mmol) was dissolved in DMF (25 ml) and heated in a Teflon bomb at...
+2025-01-07 17:40:53,359 - 
+Paragraph: PAFMUH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A solution of H2mip (0.2 mmol) in 6 mL H2O was adjusted to pH 6 with dilute NaOH solution. Then btpm (0.1 mmol) in 5 mL MeOH and Cd(NO3)2·4H2O (0.2 mmol) in 5 mL H2O were added with stirring. The mi...
+2025-01-07 17:40:53,359 - 
+Paragraph: XULDOZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of Co(NO3)2·6H2O (0.058 g, 0.2 mmol), H4pdpa (0.043 g, 0.1 mmol), NaOH (0.016 g, 0.4 mmol), a 1:2:8 CH3CN/CH3OH/H2O mixture (2 mL), and 1,4-dioxane (or THF) (8 mL) was placed in a 25 mL Tefl...
+2025-01-07 17:40:53,359 - 
+Paragraph: DEKPEP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HF
+Original text: A sample of (C5H5NH)2[Ga4F2(O3PC2H4PO3)3] (II) was synthesized in a similar manner to compound I. Initially Ga2(SO4)3·18H2O (0.768 mmol) was dissolved in a solution of distilled water (111 mmol), pyri...
+2025-01-07 17:40:53,991 - 
+Paragraph: RIPWEU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Sodium acetate']
+Got (Which appears in text!): iminodiacetic acid
+Original text: A mixture of K12.5Na1.5[Na(H2O)P5W30O110]⋅15 H2O (0.300 g, 0.037 mmol), Sm(NO3)3⋅6 H2O (0.070 g, 0.16 mmol), CuCl2⋅5 H2O (0.200 g, 0.88 mmol), and iminodiacetic acid (0.077 g, 0.58 mmol) in sodium ace...
+2025-01-07 17:40:53,992 - 
+Paragraph: ORUKOD_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text: A mixture of the ligand (5.0 mg, 5.2 μmol), and Ba(NO3)2 (5.0 mg, 19.1 μmol) was dissolved in a mixed solvent of DMF (1.0 mL), ethanol (0.5 mL) and water (0.5 mL) in a 20 mL vial. After 15 μL of 6 M H...
+2025-01-07 17:40:53,992 - 
+Paragraph: REKCUG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 3-dimethylamino-1-
+Original text: The title compound was hydrothermally prepared from a mixture of ZnO, H3PO3, 3-dimethylamino-1-propylamine, and distilled water with a molar composition of 15:30:8:1110. Typically, 1.231 g H3PO3 was f...
+2025-01-07 17:40:53,992 - 
+Paragraph: QATXIU_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NEt3']
+Got unresolvable : None
+Original text: Hydrothermal treatment of CdBr2⋅4H2O (0.2 mmol), H4bta (0.4 mmol), NEt3 (2 mL) and DMF (8 mL) in an autoclave at 160 °C for 4 days gave yellow crystals of 1 (yield: 25% based on CdBr2). Anal. Calcd (%...
+2025-01-07 17:40:53,992 - 
+Paragraph: GOBSUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: Co(NO3)2·6H2O (0.375 g, 1.29 mmol) and H2bdc (0.214 g, 1.29 mmol) were dissolved in 10.0 mL of DMF. After adding dabco (0.048 g, 0.43 mmol) and CH3CN (5 mL), the mixture was stirred for 2 h at room te...
+2025-01-07 17:40:53,992 - 
+Paragraph: OLEKUM_manual
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: H2(bdc-Cl2) (470 mg, 2.0 mmol), Zn(NO3)2·6H2O (595 mg, 2.0 mmol), and dabco (112 mg, 1.0 mmol) were mixed in DMF (30 mL) and homogenized by stirring for 5 min. The solution was heated to 120 °C in a T...
+2025-01-07 17:40:53,993 - 
+Paragraph: MATPUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text: A mixture of Tb(ClO4)3·6H2O (28.5 mg, 0.05 mmol), H2BPDC (24.4 mg, 0.1 mmol), CoCl2·6H2O (11.9 mg, 0.05 mmol), H2O (1 mL), and DMA (4 mL) were added to a 8 mL glass vial. The glass vessel was heated a...
+2025-01-07 17:40:54,326 - 
+Paragraph: WARJAC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: ‡ Ligand H3tzdc was prepared and purified according to the literature. Synthesis of complex 1: a mixture of NiSO4·6H2O (1.56 g, 6 mmol), H3tzdc (0.72 g, 4.6 mmol), NaOH (0.24 g, 6 mmol) and 90 mL wate...
+2025-01-07 17:40:54,326 - 
+Paragraph: HUNBEX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['acetic acid', 'Glacial acetic acid', 'Acetic', 'CH3COOH', 'HCl']
+Got (Which appears in text!): DABCO
+Original text: The zinc oxalate, K[C6N2H13][Zn2(C2O4)3]2.4H2O, was synthesized under hydrothermal conditions in the presence of diazabicyclo[2,2,2]octane (DABCO). In a typical synthesis, 0.25 g of ZnO was dispersed ...
+2025-01-07 17:40:54,664 - 
+Paragraph: XIFLUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['SODIUM HYDROXIDE', 'sodium hydroxid']
+Got unresolvable : None
+Original text:   A mixture of Cd(NO3)2·4H2O (0.1542 g, 0.5 mmol), H3EIMDC (0.0921 g, 0.5 mmol), ethanol (3 mL) and deionized water (3 mL) was adjusted to pH ca. 4 with 1 M sodium hydroxide and transferred into a 25 ...
+2025-01-07 17:40:55,005 - 
+Paragraph: KIJRUS_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['hydrochloric acid']
+Got unresolvable (Which appears in text!): Concentrated hydrochloric acid
+Original text: H4L was synthesized according to the reference procedure.(13) A mixture of H4L (5.00 mg, 0.0079 mmol) and CuCl2·2H2O (10.00 mg, 0.0587 mmol) was dissolved in DMF/H2O (2.4 mL, 5:1, v/v) in a screw-capp...
+2025-01-07 17:40:55,005 - 
+Paragraph: OHIHET_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of HL (0.042 g, 0.20 mmol), Zn(NO3)2·6H2O (0.030 g, 0.10 mmol), NaOH (0.008 g, 0.20 mmol), and H2O (10 mL) (pH = 8.5) was kept in a 15 mL Teflon liner autoclave at 100 °C for 3 d. After th...
+2025-01-07 17:40:55,006 - 
+Paragraph: UFASAW_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['KOH']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2·4H2O (0.308 g, 1.0 mmol), H3IDC (0.078 g, 0.50 mmol), bpy (0.078 g, 0.50 mmol), KOH (0.084 g, 1.5 mmol), and water (10 mL) was sealed in a 25 mL Teflon-lined stainless steel vess...
+2025-01-07 17:40:55,366 - 
+Paragraph: VOLPET_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: tetrabutylammonium bromide
+Original text: H2thb (52 mg, 0.3 mmol), Zn(NO3)2·6H2O (80 mg, 0.27 mmol), and tetrabutylammonium bromide (100 mg, 0.31 mmol) were dissolved in 5 mL of DMF/MeCN (4:1, v/v), which were placed in a small vial. The mixt...
+2025-01-07 17:40:55,702 - 
+Paragraph: CUKXAJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: The solid of Cd(NO3)2·4H2O (0.060 g, 0.19 mmol) was solved in the solution of H4BTC (0.024 g, 0.095 mmol) in 4 mL of DMF and 1 mL of H2O, to which two drops of 6 mol/L HCl were added. The mixture was ...
+2025-01-07 17:40:55,702 - 
+Paragraph: KADLOT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: CuI
+Original text: CuI (4.76 mg, 0.025 mmol) and H2-4,5-pmbc (10 mg, 0.05 mmol) were added to a 3 mL solution of DMF and 1 mL of CH3CN in a 20 mL scintillation vial heated to 85 °C for 48 h and cooled to room temperatur...
+2025-01-07 17:40:55,702 - 
+Paragraph: HIQKID_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['formic acid']
+Got unresolvable : None
+Original text: U6O4(OH)4(fum)5(form)2(H2O)2·3DMF (2): a mixture of 100 mg (0.26 mmol) of UCl4, 30 mg (0.27 mmol) of fumaric acid, 1.5 mL (39 mmol) of formic acid, 30 μL (1.67 mmol) of water and 4 mL (51 mmol) of N,N...
+2025-01-07 17:40:55,702 - 
+Paragraph: DUSHEG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text:   A mixture of Ni(NO3)2·6H2O (1.740 g, 6.0 mmol), H2bdc (0.996 g, 6.0 mmol), Hna (0.738 g, 6.0 mmol), HBF4 (1.2 mL), and DMA (60.0 mL) was stirred for 30 min in air, then transferred into a 100 mL via...
+2025-01-07 17:40:55,703 - 
+Paragraph: QOZPIG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HBF4']
+Got unresolvable : None
+Original text: The mixture of H2L (21 mg, 0.054 mmol), CdCl2·2.5H2O (30 mg, 0.13 mmol) and 40% HBF4 (4 drops) in DMF (11 ml) were placed in a small vial and heated at 65 °C for 48 h and then cooled to room temperatu...
+2025-01-07 17:40:55,703 - 
+Paragraph: DACSEI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of CuCl2·2H2O (15.0 mg, 88.0 μmol) and the organic linker H4L3 (5.0 mg, 9.8 μmol) was dispersed in a mixed solvent consisting of DMF (1.5 mL), methanol (0.5 mL) and water (0.08 mL) in a 20...
+2025-01-07 17:40:55,703 - 
+Paragraph: GERWEH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCl
+Original text: A mixture of Cu(NO3)2·4H2O (0.012 g, 0.05 mmol) and H8L (0.0138 g, 0.02 mmol) in 4 mL of H2O, 2 mL of DMF and a drop of HCl (6 mol/L) was sealed in an autoclave equipped with a Teflon linear (25 mL), ...
+2025-01-07 17:40:55,703 - 
+Paragraph: KETHEY02_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF
+Original text:   A mixture of Cd(NO3)2·6H2O (30.8 mg, 0.10 mmol), H2L(24.3 mg, 0.10 mmol), 5-amino-benzene-1,2,3-tricarboxylic acid (22.5 mg, 0.10 mmol), and DMF (3 mL) was sealed in a parr Teflon-lined stainless st...
+2025-01-07 17:40:55,703 - 
+Paragraph: ELOGUJ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: A mixture of Na2WO4·2H2O (0.33 g, 0.1 mmol), CoCl2·6H2O (0.12 g, 0.05 mmol), bimb (0.041 g, 0.02 mmol) NH4VO3 (0.035 g, 0.3 mmol) and H2O (15 mL) was stirred for 1 h. Then the solution was sealed in a...
+2025-01-07 17:40:55,704 - 
+Paragraph: ITIPAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: formic acid
+Original text: A mixture of 5 mL DMF, 0.23 mL formic acid, and 89.2 mg Zn(NO3)2·6H2O (0.3 mmol) were sealed in a 15 mL Teflon lined stainless steel container and heated at 160 °C for 4 days. After the mixture was co...
+2025-01-07 17:40:56,056 - 
+Paragraph: JUNBUR_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of H3cpip (30 mg, 0.10 mmol), bmib (22 mg, 0.10 mmol), Cd(NO3)2·4H2O (90 mg, 0.30 mmol), and NaOH (0.25 mL, 1 mol·L–1) in deionized water (15 mL) was placed in a Teflon-lined stainless steel...
+2025-01-07 17:40:56,057 - 
+Paragraph: YIZJEY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO3
+Original text: Three drops of aqueous H3PO3 (50 %) were added to a mixture of Zn(NO3)2⋅6 H2O (0.12 g, 0.40 mmol) and HL (0.05 g, 0.60 mmol) in DMF (5 mL) with stirring. The mixture was heated at 85 °C for 72 h and t...
+2025-01-07 17:40:56,058 - 
+Paragraph: LEVDIB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of the organic linker H4L (10.0 mg, 13.5 μmol) and Cu(NO3)2·2.5H2O (20.0 mg, 86.0 μmol, Aldrich) was dissolved into a mixed solvent (DMF–C2H5OH–H2O, 1.5/0.5/0.2 mL) in a screw-capped vial ...
+2025-01-07 17:40:56,059 - 
+Paragraph: IWELIG01_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: ‡ Experimental data for 1: a mixture of Co(OAC)2·4H2O (0.6 mmol), hypoxanthine (0.6 mmol), NaOH aqueous solution (0.6 mL, 1 M) and distilled water (10 mL) was placed in an 18 mL Teflon-lined stainless...
+2025-01-07 17:40:56,419 - 
+Paragraph: HAZGOF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['o-phenanthroline', 'Phenanthroline', 'phen', 'O-PHE']
+Got unresolvable (Which appears in text!): o-Phen
+Original text: Synthesis. The scandium terephthalate [Sc2(C8H4O4)3] was synthesized under hydrothermal conditions by the reaction of Sc3+ ions with a mixture of terephthalic acid and disodium terephthalate in a 2:2....
+2025-01-07 17:40:56,419 - 
+Paragraph: NAYZUK_SL
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Preparation of In(OH)(1,4-NDC) 2H2O (1). Compound 1 was obtained by solvothermal reaction of mixture of 1.4-NDC (0.08 g, 0.37 mmol), InCl3·4H2O (0.05 g, 0.17 mmol), NaOH (0.3 ml, 1 mol/l), H2O (3 ml),...
+2025-01-07 17:40:56,419 - 
+Paragraph: LIKDOA_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: Synthesis of [Cu3(L2)2(H2O)3]⋅5 DMF⋅6.5 H2O (ZJU‐36): H3L2 (20 mg, 0.076 mmol), Cu(NO3)2⋅3H2O (40 mg, 0.17 mmol), 0.1 M HCl (5.4 mL), DMF (20 mL), and H2O (4 mL) were mixed and heated at 65 °C for two...
+2025-01-07 17:40:56,419 - 
+Paragraph: IYAJUP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['KOH']
+Got (Which appears in text!): DMA
+Original text:   A mixture of Cd(OAc)2·2H2O (99 mg), 9-AC (55 mg), H2BDC (42 mg), KOH (7 mg), methanol (1 mL) and DMA (4 mL) were mixed and sealed in a 25 mL Teflon-lined stainless steel autoclave and heated at 150 ...
+2025-01-07 17:40:56,419 - 
+Paragraph: AXOHIE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOC2H5']
+Got unresolvable : None
+Original text: [{Cd4(bpa)4(bpy)6}·(bpy)0.5·7H2O]n (3): Similar to the synthesis of 1, the hydrothermal reaction of cadmium acetate dihydrate (1.5 mmol), H2bpa (1 mmol), bpy·2H2O (1 mmol), NaOC2H5 (4 mmol) and H2O (5...
+2025-01-07 17:40:56,737 - 
+Paragraph: AQEFUY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: A mixture of Na2WO4·2H2O (0.93 g, 2.82 mmol), H3BO3 (0.2 g, 3.23 mmol), AgNO3 (0.15 g, 0.88 mmol), pz (0.11 g, 1.37 mmol) and H2O (10 mL) was stirred for an hour. The pH was adjusted to 2.3−3.2 with 2...
+2025-01-07 17:40:56,737 - 
+Paragraph: EXALIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of NiCl2·6H2O (0.12 g, 0.5 mmol), L1 (0.046 g, 0.2 mmol), H3PMo12O40·36H2O (0.2 g, 0.08 mmol), and H2O (10 mL) was stirred for 60 min in air, then transferred and sealed in a 23 mL Teflon re...
+2025-01-07 17:40:56,738 - 
+Paragraph: INIXOT_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: pyridine
+Original text: Synthesis: The title compound was synthesized under mild hydrothermal conditions. MgCl2·6H2O (4.0662 g, 20 mmol) and B2O3 (2.7848 g, 40 mmol) were mixed in deionized water (40 mL) whilst stirring. H3P...
+2025-01-07 17:40:56,738 - 
+Paragraph: IRAYOQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3PO4
+Original text: V2O5 (0.09 g, 0.5 mmol) was added to deionized water (10 mL), resulting in a yellow turbid mixture. H3PO4 (1 mL) and ethanediamine (1.5 mL) were added to the mixture and it turned a light green color....
+2025-01-07 17:40:56,738 - 
+Paragraph: HIFGIO_SL
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture containing Zn(NO3)2·6H2O (40 mg, 0.13 mmol), H2L (20 mg, 0.06 mmol), 0.1 mL of 1 M NaOH in 2 mL N,N-dimethylformamide (DMF) and 1 mL of EtOH were sealed in a Teflon-lined stainless steel aut...
+2025-01-07 17:40:56,739 - 
+Paragraph: MATPOP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMA
+Original text: A mixture of Tb(ClO4)3·6H2O (28.5 mg, 0.05 mmol), H2BPDC (24.4 mg, 0.1 mmol), ZnCl2 (6.8 mg, 0.05 mmol), H2O (1 mL), and DMA (4 mL) were added into a 8 mL glass vial. The glass vessel was heated at 80...
+2025-01-07 17:40:56,739 - 
+Paragraph: BOWRAH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCl
+Original text: (C3H12N2)FeIII 6(H2O)4[B4P8O32(OH)8] was prepared under mild hydrothermal conditions at 443 K. A mixture of 0.811 g FeCl3·6H2O (Alfa, 99.8%), 1.484 g H3BO3 (Alfa, 99.9%), 0.822 g C3H10N2 (1,3-diaminop...
+2025-01-07 17:40:56,739 - 
+Paragraph: COPXOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture of 5-tert-butyl isophthalic acid (0.1 mmol, 23.1 mg), 1,2-di(4-pyridyl)ethylene (0.1 mmol, 18.1 mg), Co(OAc)2·4H2O (0.05 mmol, 12.0 mg), NaOH (0.2 mmol, 8.0 mg), and H2O (15 mL) was placed i...
+2025-01-07 17:40:56,739 - 
+Paragraph: NEFTUP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID', '7697-37-2', 'Azotic acid', 'Salpetersaeure', 'Aqua fortis', 'Hydrogen nitrate', 'Red fuming nitric acid', 'Nital', 'Acide nitrique', 'Acidum nitricum', 'Nitricum acidum', 'Nitrous fumes', 'Nitryl hydroxide', 'HNO3', 'Salpetersaure', 'RFNA', 'Acido nitrico', 'Azotowy kwas', 'Kyselina dusicne', 'Salpeterzuuroplossingen', 'Nitric acid, anhydrous', 'acide azotique', 'HONO2', 'HSDB 1665', 'Medullipin II', 'trioxonitric acid', 'Nitric acid (red fuming)', 'EINECS 231-714-2', 'UNII-411VRN1TV4', 'MFCD00011349', 'Nitric acid [NF]', '411VRN1TV4', 'CHEBI:48107', 'hydroxidodioxidonitrogen', '12033-49-7', '78989-43-2', 'NITRIC ACID 65%', 'CHEMBL1352', 'NITRIC ACID (15N)', 'DTXSID5029685', 'EC 231-714-2', 'Nitric acid (NF)', "4,4-Dioctyl-cyclopenta[2,1-b :3,4-b' ]dithiophene", 'Nitric Acid (65%)', 'Nitric Acid (70%)', "Engraver's acid", 'NITRIC ACID (II)', 'NITRIC ACID [II]', 'NITRIC ACID (MART.)', 'NITRIC ACID [MART.]', '122392-03-4', '309963-65-3', '(NO2(OH))', '[NO2(OH)]', 'Azotowy kwas [Polish]', 'Nitric acid, ACS reagent, 70%', 'Salpetersaure [German]', 'Nitrate radical', 'NITRIC ACID (EP MONOGRAPH)', 'NITRIC ACID [EP MONOGRAPH]', 'Engravers acid', 'Acide nitrique [French]', 'Acido nitrico [Italian]', 'Acido nitrico [Spanish]', 'Kyselina dusicne [Czech]', 'Nitric acid, ACS reagent, >=90.0%', 'Salpeterzuuroplossingen [Dutch]', 'Nitric acid (conc 80% or greater)', 'UN2031', 'UN2032', 'nitroalcohol', 'nitro-alcohol', 'Nitric acid (70% or less)', 'Nitro Alcohol', 'nitric -acid', 'Nitrosonitric acid', 'Nitric acid (greater than 70%)', 'Nitric Acid Blank', 'NO3 anion', 'Nitric acid, ACS', 'Nitric acid, 1 M', 'Nitric acid, 65%', 'Nitric acid, 68%', 'Nitricum acidum 30C', 'Nitricum acidum 200C', 'Nitric acid (38%)', 'Nitric acid (67%)', 'Nitric acid, red fuming', 'Nitric acid, 0.1 M', 'NITRIC ACID [MI]', 'hydrogen trioxonitrate(1-)', 'Nitric acid, 65-70%', 'NITRIC ACID [HSDB]', 'WLN: PR N-O3X3', 'Nitric acid, p.a., 65%', 'NITRIC ACID [WHO-DD]', 'Nitric acid (HNO3) 94.5% by weight or more HNO3', 'NITRICUM ACIDUM [HPUS]', 'DTXCID509685', 'Nitric acid, 90% ACS Grade', 'Nitric acid, fuming, 99.5%', 'Nitric acid, AR, 69-72%', 'Nitric acid, gallium salt ( )', 'Nitric acid, LR, 69-72%', 'DTXSID201316935', 'Nitric acid, puriss., 64-66%', 'Nitric acid, reagent grade, >90%', 'BDBM50152970', 'AKOS015833449', 'Nitric acid, technical grade, 50.0%', 'Nitric acid other than red fuming with >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, extra pure, 69.0-71.0%', 'Nitric acid, red, fuming, HNO3 >90 %', 'Nitric acid, reagent grade, fuming, >90%', 'Nitrogen hydroxideoxide (N(OH)2O) (9CI)', 'N0806', 'Nitric acid, puriss. p.a., >=65% (T)', 'NS00010065', 'C00244', 'D02313', 'Q83320', 'Nitric acid, 70%, purified by double-distillation', 'Nitric acid, p.a., ACS reagent, 68.0-70.0%', 'Nitric acid, red fuming [UN2032]  [Corrosive]', 'Q27110015', 'Nitric acid other than red fuming with >70% nitric acid', '2,3,9,10,16,17-Hexachlorinated boron subphthalocyanine', 'Nitric acid, SAJ first grade, 69-70%, density: 1.42', '3088A493-74F8-4D19-8ABC-E572420B5F29', 'Nitric acid other than red fuming with not >70% nitric acid', 'Nitric acid, JIS special grade, 60.0-61.0%, density: 1.38', 'Nitric acid, JIS special grade, 65.0-66.0%, density: 1.40', 'Nitric acid, JIS special grade, 69.0-70.0%, density: 1.42', 'Nitric acid, puriss. p.a., ACS reagent, fuming, >=99.5%', 'Nitric acid, puriss. p.a., ACS reagent, reag. ISO, >=69%', 'Nitric acid, SAJ first grade, 60.0-62.0%, density: 1.38', 'Nitric acid, SAJ first grade, 65.0-66.0%, density: 1.40', 'Nitric acid, 68-70%, Certified ACS Plus Grade Trace metal analyzed', 'Nitric acid, JIS special grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, SAJ first grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, 60.0-62.0%, SAJ super special grade, density: 1.38', 'Nitric acid, JIS special grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, puriss. p.a., 65% (Hg <=0.0000005%), >=65% (T)', 'Nitric acid, SAJ first grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17818), >=65%', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17952), >=69%', 'Nitric acid other than red fuming with not >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, 60.0-62.0%, suitable for determination of toxic metals, density: 1.38', 'Nitric acid, 70%, purified by redistillation, >=99.999% trace metals basis', 'Nitric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 68.5-69.5%', 'Nitric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17920), >=69%', 'Nitric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17512), 69-71%', 'Nitric acid, 70%, meets analytical specification of BP, Ph??Eur, Ph??Fran??, USP, FCC, E339', 'Nitric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., for determinations with dithizone, >=65%', 'Nitric acid, purum p.a., fuming, packed in coated, shock- and leak-protected glass bottle, >=99% (T)']
+Got unresolvable : None
+Original text: Synthesis of 1 (Solvothermal Method): A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg), NaN3 (0.2 mmol, 13 mg), and bib (0.1 mmol, 21 mg) was suspended in the solvent mixture (H2O/CH3OH = 3:4, 12 mL). Af...
+2025-01-07 17:40:57,069 - 
+Paragraph: YAVWUQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): 6 M HCl
+Original text:   A mixture of H4L (5.0 mg, 12.6 μmol) and Cu(NO3)2·2.5H2O (15.0 mg, 64.5 μmol) was dissolved in a mixed solvent of N,N-dimethylformamide (DMF, 1.5 mL) and 6 M HCl (0.02 mL), and then the mixture was ...
+2025-01-07 17:40:57,406 - 
+Paragraph: UQEGII_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): bpz
+Original text: A mixture of H3PMo12O40⋅x H2O (0.42 g, 0.23 mmol), NH4VO3 (0.44 g, 3.8 mmol), Na2SO3 (0.8 g, 6.4 mmol) was dissolved in 5 mL of distilled water at room temperature. The pH was acidified to 5.0 with di...
+2025-01-07 17:40:58,399 - 
+Paragraph: VEHROR_charged
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   An aqueous mixture (10.0 mL) containing H2pdc (0.2500 mmol, 41.75 mg), H3[PMo12O40]·nH2O (182.5 mg), LaCl3 (0.2500 mmol, 61.30 mg) and NaF (52.00 mg 0.1250 mmol), with a starting pH of 2.0 adjusted ...
+2025-01-07 17:40:58,399 - 
+Paragraph: ZUDQUM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DBO
+Original text: A mixture of Mn(CH3COO)2·4H2O (0.1421 g, 0.6 mmol) and H3BTC (0.0672 g, 0.3 mmol), l-(+)-malic acid (0.0432 g, 0.3 mmol) and DBO (0.0393 g, 0.3 mmol) was in 3 mL DMF and 2 mL H2O was placed in a vial....
+2025-01-07 17:40:58,399 - 
+Paragraph: QOZWAF_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: enMe
+Original text: Preparation of 1: Na9[A‐α‐PW9O34]⋅nH2O (PW9) was prepared by the literature method.17 Ni(CH3COO)2⋅4 H2O (0.300 g, 1.21 mmol) and PW9 (0.400 g, 0.16 mmol) were stirred in distilled water (15 mL, 833 mm...
+2025-01-07 17:40:58,400 - 
+Paragraph: PUWCEP_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaOH solution
+Original text: Cd(ATC)·[Cd(H2O)6](H2O)5, MOF-32. H4ATC (0.048 g, 0.15 mmol), Cd(NO3)2·4H2O (0.120 g, 0.39 mmol), and aqueous NaOH solution (3 mL, 6 × 10-4 mmol) were added respectively to a vessel, which was sealed ...
+2025-01-07 17:40:58,400 - 
+Paragraph: NEVJOP_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   Zn(NO3)2·6H2O (1 mmol, 297 mg), bpy (0.4 mmol, 60 mg), and THF (5 mL) were added into a solution of H4adtp (0.2 mmol, 60 mg) in H2O (5 mL) which was adjusted to the pH value at ca. 8.0 with 1 mol L−...
+2025-01-07 17:40:58,400 - 
+Paragraph: AHAMAY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: ethylenediamine
+Original text: [enH2]0.5Zn[(L)(H2O)]·H2O (1): A mixture of Zn(NO3)2·6H2O (0.30 g, 1.0 mmol), NaF (0.04g, 1.0 mmol), and H3L (0.5 mL, 2.0 mmol) in deionised water (10.0 mL), adjusted to pH ≈︁ 6 with ethylenediamine w...
+2025-01-07 17:40:58,400 - 
+Paragraph: HIHGEM_manual
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: HCl
+Original text:   A mixture of Er(NO3)3·6H2O (0.023 g, 0.05 mmol) and H4L (0.0255 g, 0.05 mmol) in 6 mL of DMF and a drop of HCl (6 mol L−1) was sealed in an autoclave equipped with a Teflon liner (25 mL), heated at ...
+2025-01-07 17:40:58,730 - 
+Paragraph: GAXKOH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3', 'KOH']
+Got unresolvable (Which appears in text!): 6N HNO3
+Original text:   HL1 (0.1 mmol, 19.9 mg), Cd(NO3)2·4H2O (0.1 mmol, 30.8 mg), and KOH (0.025–0.1 mmol, 14–56 mg) were dissolved in DMF (5 mL) and one drop of 6N HNO3 was added. The resulting reaction mixture was stir...
+2025-01-07 17:40:58,730 - 
+Paragraph: NIHVUX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dpdo
+Original text:   Step 1: the precursor Na16[Mn4(H2O)2(P2W15O56)2]·53H2O cluster was prepared via a conventional method that has been previously reported in the literature. Step 2: a mixture of Na16[Mn4(H2O)2(P2W15O5...
+2025-01-07 17:40:58,731 - 
+Paragraph: TAGTIH_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['Hexafluoropropene', 'Hexafluoropropylene', '116-15-4', 'Perfluoropropene', 'Perfluoropropylene', '1,1,2,3,3,3-hexafluoroprop-1-ene', 'Propene, hexafluoro-', '1-Propene, 1,1,2,3,3,3-hexafluoro-', 'Perfluoro-1-propene', 'Propylene, hexafluoro-', 'Esafluoropropene', '1,1,2,3,3,3-HEXAFLUORO-1-PROPENE', 'propylene hexafluoride', 'HSDB 5582', 'CF3CF=CF2', 'UNII-TRW23XOS20', 'EINECS 204-127-4', 'UN1858', 'HFC 1216', 'TRW23XOS20', 'DTXSID2026949', 'R1216', 'EC 204-127-4', '1,1,2,3,3,3-hexafluoropropene', 'HFC-1216', 'PFC-1216', 'UN 1858', 'Perfluoroprop-1-ene', 'Hexfluoropropylene', 'F-1216', 'R-1216', '1,1,2,3,3,3-HEXAFLUORO-1-PROPENE [HSDB]', 'hexafluoro-1-propene', '1,1,2,3,3,3-hexakis(fluoranyl)prop-1-ene', 'C3F6', 'Perfluoro1propene', 'hexafluoro-propene', 'Propene, hexafluoro', 'Fomblin?; Y', 'MFCD00000447', 'Propylene, hexafluoro', 'CF2=CFCF3', 'F 1216', 'R 1216', 'Hexafluoropropene, >=99%', 'DTXCID206949', 'CHEMBL4644489', 'REFRIGERANT GAS R-1216', '1,1,2,3,3,3-hexafluoropropylene', 'FD2019', 'Hexafluoropropene, purum, >=99.0%', '1Propene, 1,1,2,3,3,3hexafluoro', 'AKOS009157872', '1,1,2,3,3,3-hexafluoro-prop-1-ene', 'AS-48912', 'R1216 [UN1858]  [Nonflammable gas]', 'NS00011106', 'A803566', 'Q417982', 'Hexafluoropropylene compressed or Refrigerant gas R1216', 'Hexafluoropropylene compressed or Refrigerant gas R1216 [R1216]  [UN1858]  [Nonflammable gas]']
+Got unresolvable (Which appears in text!): HFP
+Original text: In a 20 mL glass vial, 102.6 mg of Mg(NO3)2·6H2O and 31.2 mg of H2FDC were dissolved in a mixture of 4.0 g of DMA and 2.0 g of DMPU. After addition of 28 μL of HFP, the vial was sealed and placed in a...
+2025-01-07 17:40:59,132 - 
+Paragraph: HAWGIX_charged
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: imidazole
+Original text: A mixture of Cd(CH3COO)2·3H2O (0.046 g, 0.20 mmol), H6L (0.144 g, 0.20 mmol), imidazole (0.013 g, 0.20 mmol), and methanol/water (V1:1, 10 mL) was placed in a Teflon reactor. The mixture was heated at...
+2025-01-07 17:40:59,490 - 
+Paragraph: GALCAZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['TRIETHYLAMINE', '121-44-8', 'N,N-Diethylethanamine', '(Diethylamino)ethane', 'Ethanamine, N,N-diethyl-', 'triethyl amine', 'Triaethylamin', 'Triethylamin', 'Trietilamina', 'N,N,N-Triethylamine', 'NEt3', 'MFCD00009051', 'trietylamine', 'tri-ethyl amine', '(C2H5)3N', 'N,N-diethyl-ethanamine', 'VOU728O6AY', 'DTXSID3024366', 'CHEBI:35026', 'ethane, diethylamino-', 'Diethylaminoethane', 'Triethylamine, >=99.5%', 'Triaethylamin [German]', 'Trietilamina [Italian]', 'triethyl-amine', 'CCRIS 4881', 'HSDB 896', 'Et3N', 'TEN [Base]', 'EINECS 204-469-4', 'UN1296', 'UNII-VOU728O6AY', 'triehtylamine', 'triehylamine', 'trieihylamine', 'triethlyamine', 'triethyamine', 'triethylamme', 'triethylarnine', 'Thethylamine', 'Triethlamine', 'triethyIamine', 'Triethylannine', 'tri-ethylamine', 'triehyl amine', 'triethyl amin', 'triethylam ine', 'triethylami-ne', 'triethylamine-', 'trietyl amine', 'tri ethyl amine', 'triethyl- amine', 'AI3-15425', 'N, N-diethylethanamine', 'N,N,N-Triethylamine #', 'triethylamine, 99.5%', 'Triethylamine, >=99%', 'Triethylamine [UN1296] [Flammable liquid]', 'TRIETHYLAMINE [MI]', 'EC 204-469-4', 'N(Et)3', 'NCIOpen2_006503', 'TRIETHYLAMINE [FHFI]', 'TRIETHYLAMINE [HSDB]', 'BIDD:ER0331', 'Triethylamine, LR, >=99%', 'TRIETHYLAMINE [USP-RS]', '(CH3CH2)3N', 'CHEMBL284057', 'DTXCID204366', 'N(CH2CH3)3', 'FEMA NO. 4246', 'Triethylamine, HPLC, 99.6%', 'Triethylamine, p.a., 99.0%', 'Triethylamine, analytical standard', 'BCP07310', 'N(C2H5)3', 'Triethylamine, for synthesis, 99%', 'Tox21_200873', 'Triethylamine, 99.7%, extra pure', 'STL282722', 'AKOS000119998', 'Triethylamine, purum, >=99% (GC)', 'Triethylamine, ZerO2(TM), >=99%', 'UN 1296', 'NCGC00248857-01', 'NCGC00258427-01', 'CAS-121-44-8', 'Triethylamine, BioUltra, >=99.5% (GC)', 'Triethylamine, SAJ first grade, >=98.0%', 'NS00002646', 'T0424', 'Triethylamine 100 microg/mL in Acetonitrile', 'EN300-35419', 'Triethylamine [UN1296]  [Flammable liquid]', 'Triethylamine,  trace metals grade, 99.99%', 'Triethylamine, SAJ special grade, >=98.0%', 'Triethylamine (contains < 0.01% Diethylamine)', 'Triethylamine, puriss. p.a., >=99.5% (GC)', 'Q139199', 'J-004499', 'J-525077', 'F0001-0344', 'Triethylamine, for amino acid analysis, >=99.5% (GC)', 'InChI=1/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H', 'Triethylamine, for protein sequence analysis, ampule, >=99.5% (GC)', 'Triethylamine, United States Pharmacopeia (USP) Reference Standard']
+Got unresolvable (Which appears in text!): TEA
+Original text:   A mixture of Zn(NO3)2·6H2O (0.0208 g, 0.07 mmol), Hpnta (0.0201 g, 0.1 mmol), TEA (0.045 ml), DMF (2 ml) and ethanol (1 ml) was stirred for 10 min and transferred to a Teflon reactor (20 ml) and hea...
+2025-01-07 17:40:59,491 - 
+Paragraph: EDOYOL_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: 1,3-propanediamine
+Original text:   ZCP-THO was prepared by employing hydrothermal methods. Typically, ZnO (240 mg), 2CoCO3  ·3Co(OH)2·xH2O (600 mg), H3PO4 (85%, 0.6 ml) and 4 ml H2O were mixed together and stirred for about half an h...
+2025-01-07 17:40:59,491 - 
+Paragraph: MAZSOX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['PYRAZINE', 'pyrazin']
+Got unresolvable : None
+Original text: Synthesis of Zn3(btz)2(bdc)2⋅x(DMA) (1): A mixture of Zn(NO3)2⋅6H2O (0.1600 g, 0.55 mmol), pyrazine (0.0150 g, 0.19 mmol), 1H‐benzotriazole (0.0800 g, 0.67 mmol), 1,4‐benzenedicarboxylic acid (0.1000 ...
+2025-01-07 17:40:59,491 - 
+Paragraph: HEBJAB_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: A mixture containing p-cbiaH3 (0.02 g, 0.06 mmol), Co(CH3COO)2·4H2O (0.07 g, 0.39 mmol), and bpmp (0.015 g, 0.06 mmol) in 3 mL of water and 0.1 mL of 1 M NaOH solution were sealed in a Teflon-lined au...
+2025-01-07 17:40:59,491 - 
+Paragraph: BEDYEQ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['benzoic acid']
+Got unresolvable : None
+Original text: Synthesis of PCN‐222: ZrCl4 (70 mg), FeTCPPCl (50 mg) and benzoic acid (2700 mg) in N,N‐diethylformamide (8 mL) were ultrasonically dissolved in a 20 mL Pyrex vial. The mixture was heated at 120 °C in...
+2025-01-07 17:40:59,810 - 
+Paragraph: UFASEA_ion_b
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['KOH']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2·4H2O (0.308 g, 1.0 mmol), H3IDC (0.039 g, 0.25 mmol), bpy (0.078 g, 0.50 mmol), KOH (0.042 g, 0.75 mmol), and water (10 mL) was sealed in a 25 mL Teflon-lined stainless steel ves...
+2025-01-07 17:40:59,810 - 
+Paragraph: REDROI_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['H2O2']
+Got unresolvable : None
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2025-01-07 17:40:59,810 - 
+Paragraph: NOMKUX_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Syntheses: a mixture of H4SiW12O40·20H2O (0.081 g, 0.025 mmol), AgNO3 (0.017 g, 0.1 mmol), pz (0.012 g, 0.15 mmol) and H2O (8 mL) was stirred for 0.5 h in air. The pH value of the mixture was adjusted...
+2025-01-07 17:40:59,811 - 
+Paragraph: NETYIV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HCl']
+Got unresolvable : None
+Original text: Synthesis of Compound 2: A mixture of (NH4)6Mo7O24·6H2O (0.1 mmol), CuCl2·2H2O (0.3 mmol), 4,4′‐bipy (0.3 mmol), and H2O (10 mL) was stirred for half an hour in air. The pH was then adjusted to 4.8 wi...
+2025-01-07 17:40:59,811 - 
+Paragraph: MUNDEG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text: A mixture of H2CPNA (0.004 g, 0.016 mmol), CuI (0.016 g, 0.084 mmol), Dabco (0.010 g, 0.089 mmol), HNO3 (275 μL, 2.7 M in DMF), 1,4-Dioxane (0.4 mL), and DMF (1 mL) was sealed in a 20 mL vial and kept...
+2025-01-07 17:40:59,812 - 
+Paragraph: SEFSOM_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text: Synthesis of [Cd3(SIP)2(bix)4·8H2O]n (3). A mixture of CdCl2·2H2O (0.1142 g, 0.5 mmol), SIP (0.1334 g, 0.5 mmol), bix (0.1241 g, 0.5 mmol), NaOH (0.0398 g, 1.0 mmol), and H2O (3.5 mL) was heated at 14...
+2025-01-07 17:40:59,812 - 
+Paragraph: EKEKOW_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: DMF/EtOH/H2O
+Original text: A mixture of 2-buthylimidazole (2-buim, 0.0150 g, 0.12 mmol), NH2–H3BTB (0.0180 g, 0.042 mmol), Zn(NO3)2·6H2O (0.0560 g, 0.2 mmol), tetramethylammonium bromide (0.0085 g, 0.055 mmol), and DMF/EtOH/H2O...
+2025-01-07 17:41:00,153 - 
+Paragraph: EXAXAE_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable (Which appears in text!): TATBr
+Original text: A mixture of H2PDC (5 mg, 0.03 mmol), CuI (16 mg, 0.084 mmol), tetrabutylammonium bromide (TATBr, 20 mg, 0.062 mmol), DMF (1 mL), and HNO3 (0.3 mL, 2.5 M in DMF) was sealed into a 20 mL capped vessel....
+2025-01-07 17:41:00,489 - 
+Paragraph: AGUWUV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: NaN3
+Original text: {[Ni3(H2O)4(ptz)2(btec)]·4H2O}n (1): NiCl2·6H2O (47.5 mg, 0.2 mmol), H4btec (25.4 mg, 0.1 mmol), 2‐cyanopyrazine (10.5 mg, 0.1 mmol), and NaN3 (13.0 mg, 0.2 mmol) were dissolved in water (10 mL) and s...
+2025-01-07 17:41:00,489 - 
+Paragraph: WUJPIC_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture of Co(NO3)2·6H2O (43.6 mg, 0.15 mmol), H2L (36.4 mg, 0.15 mmol), and NaOH (12 mg, 0.3 mmol) dissolved in DMA (10 mL) and MeOH (2.5 mL) was heated at 160 °C for 96 hours. After cooling the ...
+2025-01-07 17:41:00,489 - 
+Paragraph: KIKFIV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3']
+Got unresolvable : None
+Original text:   A solution of Eu(NO3)3·3H2O (0.030 g) in 1 mL of 2 mol L−1 HNO3 was mixed with ligand (H2L) (0.015 g ) in 10 mL of DMF/5 mL of H2O. The mixture was sealed in a Pyrex tube and heated to 85 °C for 4 d...
+2025-01-07 17:41:00,489 - 
+Paragraph: UKOLOV_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: H3TCA
+Original text: A mixture DMF/C2H5OH/H2O (1.00/0.25/0.25 mL) containing the acid form of TCA (H3TCA)17 (0.005 g, 1.32×10−5 mol) and Zn(NO3)2⋅6 H2O (0.017 g, 5.71×10−5 mol) was sealed under vacuum in a quartz tube (10...
+2025-01-07 17:41:00,489 - 
+Paragraph: VAGBEN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NITRIC ACID', '7697-37-2', 'Azotic acid', 'Salpetersaeure', 'Aqua fortis', 'Hydrogen nitrate', 'Red fuming nitric acid', 'Nital', 'Acide nitrique', 'Acidum nitricum', 'Nitricum acidum', 'Nitrous fumes', 'Nitryl hydroxide', 'HNO3', 'Salpetersaure', 'RFNA', 'Acido nitrico', 'Azotowy kwas', 'Kyselina dusicne', 'Salpeterzuuroplossingen', 'Nitric acid, anhydrous', 'acide azotique', 'HONO2', 'HSDB 1665', 'Medullipin II', 'trioxonitric acid', 'Nitric acid (red fuming)', 'EINECS 231-714-2', 'UNII-411VRN1TV4', 'MFCD00011349', 'Nitric acid [NF]', '411VRN1TV4', 'CHEBI:48107', 'hydroxidodioxidonitrogen', '12033-49-7', '78989-43-2', 'NITRIC ACID 65%', 'CHEMBL1352', 'NITRIC ACID (15N)', 'DTXSID5029685', 'EC 231-714-2', 'Nitric acid (NF)', "4,4-Dioctyl-cyclopenta[2,1-b :3,4-b' ]dithiophene", 'Nitric Acid (65%)', 'Nitric Acid (70%)', "Engraver's acid", 'NITRIC ACID (II)', 'NITRIC ACID [II]', 'NITRIC ACID (MART.)', 'NITRIC ACID [MART.]', '122392-03-4', '309963-65-3', '(NO2(OH))', '[NO2(OH)]', 'Azotowy kwas [Polish]', 'Nitric acid, ACS reagent, 70%', 'Salpetersaure [German]', 'Nitrate radical', 'NITRIC ACID (EP MONOGRAPH)', 'NITRIC ACID [EP MONOGRAPH]', 'Engravers acid', 'Acide nitrique [French]', 'Acido nitrico [Italian]', 'Acido nitrico [Spanish]', 'Kyselina dusicne [Czech]', 'Nitric acid, ACS reagent, >=90.0%', 'Salpeterzuuroplossingen [Dutch]', 'Nitric acid (conc 80% or greater)', 'UN2031', 'UN2032', 'nitroalcohol', 'nitro-alcohol', 'Nitric acid (70% or less)', 'Nitro Alcohol', 'nitric -acid', 'Nitrosonitric acid', 'Nitric acid (greater than 70%)', 'Nitric Acid Blank', 'NO3 anion', 'Nitric acid, ACS', 'Nitric acid, 1 M', 'Nitric acid, 65%', 'Nitric acid, 68%', 'Nitricum acidum 30C', 'Nitricum acidum 200C', 'Nitric acid (38%)', 'Nitric acid (67%)', 'Nitric acid, red fuming', 'Nitric acid, 0.1 M', 'NITRIC ACID [MI]', 'hydrogen trioxonitrate(1-)', 'Nitric acid, 65-70%', 'NITRIC ACID [HSDB]', 'WLN: PR N-O3X3', 'Nitric acid, p.a., 65%', 'NITRIC ACID [WHO-DD]', 'Nitric acid (HNO3) 94.5% by weight or more HNO3', 'NITRICUM ACIDUM [HPUS]', 'DTXCID509685', 'Nitric acid, 90% ACS Grade', 'Nitric acid, fuming, 99.5%', 'Nitric acid, AR, 69-72%', 'Nitric acid, gallium salt ( )', 'Nitric acid, LR, 69-72%', 'DTXSID201316935', 'Nitric acid, puriss., 64-66%', 'Nitric acid, reagent grade, >90%', 'BDBM50152970', 'AKOS015833449', 'Nitric acid, technical grade, 50.0%', 'Nitric acid other than red fuming with >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, extra pure, 69.0-71.0%', 'Nitric acid, red, fuming, HNO3 >90 %', 'Nitric acid, reagent grade, fuming, >90%', 'Nitrogen hydroxideoxide (N(OH)2O) (9CI)', 'N0806', 'Nitric acid, puriss. p.a., >=65% (T)', 'NS00010065', 'C00244', 'D02313', 'Q83320', 'Nitric acid, 70%, purified by double-distillation', 'Nitric acid, p.a., ACS reagent, 68.0-70.0%', 'Nitric acid, red fuming [UN2032]  [Corrosive]', 'Q27110015', 'Nitric acid other than red fuming with >70% nitric acid', '2,3,9,10,16,17-Hexachlorinated boron subphthalocyanine', 'Nitric acid, SAJ first grade, 69-70%, density: 1.42', '3088A493-74F8-4D19-8ABC-E572420B5F29', 'Nitric acid other than red fuming with not >70% nitric acid', 'Nitric acid, JIS special grade, 60.0-61.0%, density: 1.38', 'Nitric acid, JIS special grade, 65.0-66.0%, density: 1.40', 'Nitric acid, JIS special grade, 69.0-70.0%, density: 1.42', 'Nitric acid, puriss. p.a., ACS reagent, fuming, >=99.5%', 'Nitric acid, puriss. p.a., ACS reagent, reag. ISO, >=69%', 'Nitric acid, SAJ first grade, 60.0-62.0%, density: 1.38', 'Nitric acid, SAJ first grade, 65.0-66.0%, density: 1.40', 'Nitric acid, 68-70%, Certified ACS Plus Grade Trace metal analyzed', 'Nitric acid, JIS special grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, SAJ first grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, 60.0-62.0%, SAJ super special grade, density: 1.38', 'Nitric acid, JIS special grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, puriss. p.a., 65% (Hg <=0.0000005%), >=65% (T)', 'Nitric acid, SAJ first grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17818), >=65%', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17952), >=69%', 'Nitric acid other than red fuming with not >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, 60.0-62.0%, suitable for determination of toxic metals, density: 1.38', 'Nitric acid, 70%, purified by redistillation, >=99.999% trace metals basis', 'Nitric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 68.5-69.5%', 'Nitric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17920), >=69%', 'Nitric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17512), 69-71%', 'Nitric acid, 70%, meets analytical specification of BP, Ph??Eur, Ph??Fran??, USP, FCC, E339', 'Nitric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., for determinations with dithizone, >=65%', 'Nitric acid, purum p.a., fuming, packed in coated, shock- and leak-protected glass bottle, >=99% (T)']
+Got unresolvable : None
+Original text:   Gd(NO3)3 (0.045 g, 0.1 mmol), CuI (0.038 g, 0.2 mmol), NaI (0.030 g, 0.2 mmol) and nicotinic acid (0.049 g, 0.4 mmol) were placed in 5 mL of DMF/ethanol (v:v = 2:3) solution and stirred for a few ho...
+2025-01-07 17:41:00,490 - 
+Paragraph: IYOQIY_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3', 'NaOH']
+Got unresolvable : None
+Original text: A mixture of Cd(NO3)2·6H2O (0.06 mmol, 0.02 g), H3TZI (0.05 mmol, 0.012 g), and DMF/EtOH/H2O (4:2:1, 7 mL) was adjusted to pH about 4.0 with 2 M HNO3 and 0.5 M NaOH solution. It was then sealed in a 2...
+2025-01-07 17:41:00,490 - 
+Paragraph: PEJMUO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['HNO3', 'Ethanolamine', '2-aminoethanol', 'monoethanolamine', '141-43-5', '2-Hydroxyethylamine', 'colamine', 'Aminoethanol', '2-Aminoethan-1-ol', 'Olamine', 'Glycinol', 'Ethanol, 2-amino-', '2-Amino-1-ethanol', 'Ethylolamine', 'beta-Hydroxyethylamine', '2-Hydroxyethanamine', '1-Amino-2-hydroxyethane', '2-Aminoethyl alcohol', 'Aethanolamin', 'beta-Aminoethyl alcohol', '2-Ethanolamine', '2-amino-ethanol', 'beta-Aminoethanol', 'Thiofaco M-50', 'MEA (alcohol)', 'beta-ethanolamine', 'Kolamin', 'USAF EK-1597', 'Monoaethanolamin', 'Kolamin [Czech]', '2-Aminoaethanol', 'Caswell No. 426', '2-Amino ethanol', 'Etanolamina', 'Glycinol (monoethanolamine)', 'Aethanolamin [German]', 'Etanolamina [Italian]', '2-Aminoetanolo', 'CCRIS 6260', 'HSDB 531', 'Monoaethanolamin [German]', '2-Aminoaethanol [German]', '2-Aminoetanolo [Italian]', 'AI3-24219', 'UN2491', 'EPA Pesticide Chemical Code 011601', 'ethanol-amine', 'CHEBI:16000', 'EINECS 205-483-3', 'MFCD00008183', 'Olamine [INN]', 'UNII-5KV86114PT', 'Acid Orange  86', '12220-07-4', 'DTXSID6022000', 'ETHANOL AMINE', '5KV86114PT', 'C.I. Acid orange 108', 'Ethane, 1-amino-2-hydroxy-', 'CHEMBL104943', 'DTXCID202000', 'Envision Conditioner PDD 9020', 'EC 205-483-3', 'Ethanol-1,1,2,2-d4-amine', 'UN 2491', 'Monoethanolamine (NF)', 'Monoethanolamine [NF]', 'NCGC00090789-02', 'MONOETHANOLAMINE (II)', 'MONOETHANOLAMINE [II]', '12220-09-6', 'MONOETHANOLAMINE (USP-RS)', 'MONOETHANOLAMINE [USP-RS]', 'ETHANOLAMINE (EP MONOGRAPH)', 'ETHANOLAMINE [EP MONOGRAPH]', '2 Aminoethanol', 'Ethanolamine @ 1000 microg/mL in H2O', 'TROLAMINE IMPURITY A (EP IMPURITY)', 'TROLAMINE IMPURITY A [EP IMPURITY]', 'IFOSFAMIDE IMPURITY D (EP IMPURITY)', 'IFOSFAMIDE IMPURITY D [EP IMPURITY]', 'MEA-LCI', 'C2H7NO', 'ethanolamin', 'ethanolarnine', 'hydoxyethylamine', 'b-Aminoethanol', 'b-Ethanolamine', 'MEA 90', 'H-Glycinol', 'monoethanol amine', '2 -aminoethanol', 'b-Hydroxyethylamine', 'ethanol, 2-amino', '2-hydroxylethylamine', '.beta.-Aminoethanol', '.beta.-Ethanolamine', 'b-Aminoethyl alcohol', '2-hydroxy-ethylamine', '2-hydroxyethyl amine', '2-hydroxyethyl-amine', '2-N-ethyaminoethanol', '2-amino-ethan-1-ol', '2-hydroxy- ethylamine', '2-hydroxy-1-ethylamine', '.beta.-Hydroxyethylamine', 'Ethanolamine, >=98%', 'Ethanolamine, >=99%', '3-phenyl-5-p-tolyl-1H-[1,2,4]triazole', 'ETHANOLAMINE [MI]', 'NH2CH2CH2OH', '.beta.-Aminoethyl alcohol', 'Ethanolamine, AR, 99%', 'bmse000276', 'Epitope ID:120354', 'NH2C2H4OH', 'ETHANOLAMINE [HSDB]', '2-Aminoethanol, redistilled', '2-aminoethanol,hydrochloride', 'MEA-LCI; MEA 90', 'Ethanolamine: 2-aminoethanol', 'ETHANOLAMINE, SOLUTION', 'BIDD:ER0367', 'ETHANOLAMINE [WHO-DD]', 'Ethanolamine, LR, >=99%', '2-Aminoethanol (Ethanolamine)', 'BDBM7973', 'Ethanolamine, analytical standard', '|A-Aminoethyl alcohol Ethanolamine', 'Ethanol, 2-amino- (8CI,9CI)', 'STR00417', 'Tox21_400020', 'c0594', 'STL199164', 'Ethanolamine, for synthesis, 99.0%', 'AKOS000245055', 'DB03994', 'Ethanolamine, ACS reagent, >=99.0%', 'Ethanolamine, ReagentPlus(R), >=99%', 'Ethanolamine, USP, 98.0-100.5%', '2-AMINOETHANOL (MONOETHANOLAMINE)', 'beta-Aminoethyl alcohol beta-Ethanolamine', 'NCGC00090789-01', 'NCGC00090789-03', 'USEPA/OPP Pesticide Code:  011601', 'BP-21017', 'BP-24368', 'BP-31055', 'CAS-141-43-5', '1ST001357', 'Ethanolamine, SAJ first grade, >=99.0%', 'A0297', 'Ethanolamine, JIS special grade, >=99.0%', 'NS00001908', 'EN300-19392', 'C00189', 'D05074', 'P20022', 'InChI=1/C2H7NO/c3-1-2-4/h4H,1-3H', 'A902308', 'Q410387', 'Ethanolamine, purified by redistillation, >=99.5%', 'J-508043', '587CE5AA-008A-469C-AB39-82CC4D0CA779', 'ethanolamine; 2-aminoethanol; 2-aminoethyl alcohol; mea', 'F2190-0367', 'Z104473700', 'Ethanolamine, puriss. p.a., ACS reagent, >=99.0% (GC/NT)', 'Ethanolamine, liquid, BioReagent, suitable for cell culture, >=98%', 'Trolamine impurity A, European Pharmacopoeia (EP) Reference Standard', 'Monoethanolamine, United States Pharmacopeia (USP) Reference Standard', 'Monoethanolamine, Pharmaceutical Secondary Standard; Certified Reference Material']
+Got unresolvable : None
+Original text: H3tzdc (0.017 g, 0.108 mmol), Cu(NO3)2·3H2O (0.024 g, 0.100 mmol), H2O (1 mL), CH3CN (1 mL), ETA (0.050 mL), and HNO3 (0.275 mL, 0.33 M in H2O) were added, respectively, to a 20 mL vial, which was sea...
+2025-01-07 17:41:00,490 - 
+Paragraph: FUTTIZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: none
+Got: dabco
+Original text: To a solution containing Zn(NO3)2·6H2O (133.0 mg, 0.45 mmol), H2hbdc (81.4 mg, 0.45 mmol) and 1,4-diazabicyclo[2.2.2]octane (dabco) (16.6 mg, 0.15 mmol) in DMF (3.00 mL) were added, along with a small...
+2025-01-07 17:41:00,491 - 
+Paragraph: PAFNAO_clean
+Model: Phi 3 Mini 4k Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A solution of H2nip (0.2 mmol) in 6 mL H2O was adjusted to pH 6 with dilute NaOH solution. Then btpm (0.1 mmol) in 5 mL MeOH and Cd(NO3)2·4H2O (0.2 mmol) in 5 mL H2O were added with stirring. The mi...

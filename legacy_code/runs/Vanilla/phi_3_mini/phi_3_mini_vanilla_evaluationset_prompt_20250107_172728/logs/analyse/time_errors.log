@@ -1,0 +1,24 @@
+2025-01-07 17:29:05,827 - 
+Paragraph: CAHQAG_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   A mixture of Mn(OAc)2·4H2O (73.5 mg, 0.3 mmol), H4L1 (20.3 mg, 0.05 mmol), bpfp (29.6 mg, 0.1 mmol) and H2O (10 mL) was sealed in a 23 mL Teflon-lined autoclave and heated at 150 °C for 3 days. Afte...
+2025-01-07 17:29:06,166 - 
+Paragraph: NEKMUN_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 min)
+Original text: A mixture containing H3L2 (0.04 g, 0.13 mmol) and CoCl2·6H2O (0.15 g, 0.63 mmol) in 3 mL water and 0.2 mL of Et4NOH were sealed in a Teflon-lined autoclave and heated under autogenous pressure to 180 ...
+2025-01-07 17:29:07,834 - 
+Paragraph: HAFSOZ_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 72h (72.0 h)
+Got: 12h (720.0 minutes)
+Original text:   Zn(NO3)2·6H2O (30 mg, 0.1 mmol), HO-H3BTC (11 mg, 0.05 mmol), and 4,4′-bipyridine (7.8 mg, 0.05 mmol) were dissolved in 4 mL of mixed solvent of DMA and H2O (1:1, v/v) in a 10 mL glass vial. After t...
+2025-01-07 17:29:08,514 - 
+Paragraph: GUJREK_clean
+Model: Phi 3 Mini 4k Instruct
+Expected: 5h (5.0 h)
+Got: 59h (59.0 h)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...

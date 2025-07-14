@@ -1,0 +1,186 @@
+2025-01-07 15:49:28,037 INFO     analysing!
+2025-01-07 15:49:28,037 INFO     Loading dataset from CSV, path: mof_dataset_labeled_M.csv
+2025-01-07 15:49:28,037 INFO     [dataset]: Loading LabeledMofDataset from csv 'mof_dataset_labeled_M.csv'
+2025-01-07 15:49:28,075 INFO     [dataset]: Finished loading from csv. #Items: 905
+2025-01-07 15:49:28,792 WRONG_SOLVENT 
+Paragraph: NAWKII_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['DMF', 'Dimethylforamide', 'water', 'H2O']
+Got : dimethylformamid
+Original text: A typical synthesis involves a mixture of MgCl2·6H2O (0.2 mmol, 0.0406 g) and 2,6-naphthalenedicarboxylic acid (0.4 mmol, 0.0864g) dissolved in 10.0 mL of dimethylforamide and 2.0 mL of water and stir...
+2025-01-07 15:49:29,116 WRONG_ADDITIVE 
+Paragraph: KUQWIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethylenediamine', 'EN']
+Got : ETHYLAMmonium Hydroxide
+Original text: A mixture of CdCl2·2.5H2O (0.11 g, 0.5 mmol) and H3L (0.13 g, 0.5 mmol) was dissolved in 10 mL distilled water. The pH value was adjusted to 7.0 by adding ethylenediamine solution dropwise. The result...
+2025-01-07 15:49:29,513 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [HYDROFROURICRIC FLU]
+2025-01-07 15:49:29,513 WRONG_ADDITIVE 
+Paragraph: PENXUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HYDROFLUORIC ACID', 'Hydrogen fluoride', '7664-39-3', 'Fluorhydric acid', 'fluorane', 'Hydrofluoride', 'Rubigine', 'Antisal 2B', 'Hydrofluoricum acidum', 'Fluorowodor', 'Fluorwaterstof', 'Fluorwasserstoff', 'Caswell No. 484', 'Acido fluoridrico', 'Hydrogen-fluoride', 'Acido fluorhidrico', 'Acide fluorhydrique', 'UN 1052 (anhydrous)', 'RCRA waste number U134', 'HSDB 546', 'CHEBI:29228', 'UNII-RGL5YE86CZ', 'RGL5YE86CZ', 'EINECS 231-634-8', "Fluorure d'hydrogene anhydre", 'Hydrogen fluoride, anhydrous', 'Fluoruro de hidrogeno anhidro', 'EPA Pesticide Chemical Code 045601', 'NSC-750679', 'Fluohydric Acid', 'EC 231-634-8', 'NSC 750679', '32057-09-3', 'Fluorowodor [Polish]', 'Hydrogenfluorid', 'Fluorwaterstof [Dutch]', 'HYDROFLUORIC ACID (MART.)', 'HYDROFLUORIC ACID [MART.]', 'hydrogenfluoride', 'Hydrogen fluoride (HF)', 'Fluorwasserstoff [German]', 'Hydrofluoric acid, ACS reagent, 48%', 'Acid, Fluohydric', 'Acid, Fluorhydric', 'Acido fluoridrico [Italian]', 'Acid, Hydrofluoric', 'Acide fluorhydrique [French]', 'Acido fluorhidrico [Spanish]', 'UN1052', 'UN1790', 'RCRA waste no. U134', "Fluorure d'hydrogene anhydre [French]", 'fluoroorganics', 'fluorum', 'Fluoruro de hidrogeno anhidro [Spanish]', 'fluoridohydrogen', 'hyrofluoric acid', 'Acidum Fluoricum', 'hydrogen flouride', "fluorure d'hydrogene", 'MFCD00011346', 'fluoroorganic compound', 'organofluorine compound', 'Hydrofluoric acid 70% by weight or more HF', 'fluororganische Verbindungen', 'Hydrofluoric acid, 55%, CP', 'HYDROFLUORIC ACID [MI]', 'HYDROGEN FLUORIDE [MI]', '[HF]', 'CHEMBL1232767', 'DTXSID1049641', 'HYDROFLUORIC ACID [HSDB]', 'CHEBI:37143', 'DTXSID60872462', 'HYDROFLUORIC ACID [VANDF]', 'Hydrogen fluoride/Hydrofluoric acid (conc 50% or greater)', 'Hydrofluoric acid, AR, >=40%', 'YCKRFDGAMUMZLT-UHFFFAOYSA-N', 'HYDROFLUORIC ACID [WHO-DD]', 'Hydrofluoric acid, LR, 39-43%', 'Hydrofluoric acid, SAJ first grade', 'HYDROFLUORICUM ACIDUM [HPUS]', 'BDBM50499187', 'Hydrofluoric acid, 48% ACS reagent', 'Hydrofluoric acid, JIS special grade', 'NSC750679', 'AKOS024438092', 'DB11072', 'Hydrofluoric acid, technical, 40-45%', '37249-79-9', 'FLUORINE, ISOTOPE OFMASS 18, AT.', 'Hydrofluoric acid, technical grade, 68.0%', 'NS00076201', 'Q2468', 'Hydrofluoric acid, with more than 60% strength', 'Hydrofluoric acid, with not more than 60% strength', 'Hydrogen fluoride, anhydrous [UN1052]  [Corrosive]', 'Hydrofluoric acid, for ultratrace analysis, 47-51% (T)', 'Hydrofluoric acid, 48 wt. % in H2O, >=99.99% trace metals basis', 'Hydrofluoric acid, electronic grade,49wt. % in H2O,99.99998%metals basis', 'Hydrofluoric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., >=40%', 'Hydrofluoric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17601)', 'Hydrofluoric acid, with more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, with not more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 48.0-51.0%', 'Hydrofluoric acid, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=48%', 'Hydrofluoric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17928), 49.5-50.5%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17735), 40-41%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17736), 49.5-50.5%', '12381-92-9']
+Got unresolvable : HYDROFROURICRIC FLU
+Original text: Synthesis of [H2N(CH2CH2)2NH2][V4O2F4(H2O)2{O3P(CH2)3PO3}2] (1). A mixture of NH4VO3 (0.219 g, 1.872 mmol), 1,3-propylenediphosphonic acid (0.192 g, 0.941 mmol), H2O (10.00 g, 556 mmol), piperazine (0...
+2025-01-07 15:49:29,514 WRONG_ADDITIVE 
+Paragraph: NEKMUN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: none
+Got: Et4NOH
+Original text: A mixture containing H3L2 (0.04 g, 0.13 mmol) and CoCl2·6H2O (0.15 g, 0.63 mmol) in 3 mL water and 0.2 mL of Et4NOH were sealed in a Teflon-lined autoclave and heated under autogenous pressure to 180 ...
+2025-01-07 15:49:29,901 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [N,N-DIMHYLFORMAMIDE]
+2025-01-07 15:49:29,901 WRONG_SOLVENT 
+Paragraph: MAZSUD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Dimethylformamide', 'Dimethylformamid', 'DMF']
+Got unresolvable : N,N-DIMHYLFORMAMIDE
+Original text: Synthesis of Zn3(tz)2(bdc)2⋅x(DMF) (2): A mixture of Zn(NO3)2⋅6H2O (0.0800 g, 0.27 mmol), pyrazine(0.0150 g 0.19 mmol), 1,2,3–1H‐triazole (0.0400 g, 0.58 mmol), 1,4‐benzenedicarboxylic acid (0.0500 g ...
+2025-01-07 15:49:29,902 WRONG_ADDITIVE 
+Paragraph: PUWCOZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: none
+Got: NaOH
+Original text: Ni2(ATC)(H2O)4·(H2O)4, MOF-34. H4ATC (0.032 g, 0.10 mmol), Ni(NO3)2·6H2O (0.070 g, 0.24 mmol), H2O (1 mL), and aqueous NaOH solution (1 mL, 0.1 mmol) were added respectively to a vessel, which was sea...
+2025-01-07 15:49:30,253 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [HCl0A]
+2025-01-07 15:49:30,253 WRONG_ADDITIVE 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HClO4']
+Got unresolvable : HCl0A
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 15:49:30,609 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [None]
+2025-01-07 15:49:30,609 WRONG_ADDITIVE 
+Paragraph: TORXIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got unresolvable : None
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adj...
+2025-01-07 15:49:30,965 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [methanol–water]
+2025-01-07 15:49:30,965 WRONG_SOLVENT 
+Paragraph: TORXIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['methanol', 'water', 'H2O', 'Water solution']
+Got unresolvable (Which appears in text!): methanol–water
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adj...
+2025-01-07 15:49:30,965 WRONG_ADDITIVE 
+Paragraph: GOBTAT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: none
+Got: NaC03
+Original text: Co(NO3)2·6H2O (0.155 g, 0.53 mmol) and H2ndc (0.116 g, 0.54 mmol) were dissolved in 10.0 mL of DMF. After adding dabco (0.020 g, 0.18 mmol) and o-xylene (5 mL), the mixture was stirred for 2 h at room...
+2025-01-07 15:49:31,347 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [AQUEOUS HCl]
+2025-01-07 15:49:31,347 WRONG_ADDITIVE 
+Paragraph: QUTDAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got unresolvable (Which appears in text!): AQUEOUS HCl
+Original text:   A mixture of Cu(NO3)2·2H2O (0.022 g, 0.12 mmol), H4L (0.016 g, 0.04 mmol) in DMF/EtOH/H2O (2:1:1 v/v/v, 15 mL) was sealed in a 25 mL Teflon-lined stainless steel container. The resulting blue-green ...
+2025-01-07 15:49:31,725 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [NITRIC ACID SOLUTION]
+2025-01-07 15:49:31,725 WRONG_ADDITIVE 
+Paragraph: NEFTUP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NITRIC ACID', '7697-37-2', 'Azotic acid', 'Salpetersaeure', 'Aqua fortis', 'Hydrogen nitrate', 'Red fuming nitric acid', 'Nital', 'Acide nitrique', 'Acidum nitricum', 'Nitricum acidum', 'Nitrous fumes', 'Nitryl hydroxide', 'HNO3', 'Salpetersaure', 'RFNA', 'Acido nitrico', 'Azotowy kwas', 'Kyselina dusicne', 'Salpeterzuuroplossingen', 'Nitric acid, anhydrous', 'acide azotique', 'HONO2', 'HSDB 1665', 'Medullipin II', 'trioxonitric acid', 'Nitric acid (red fuming)', 'EINECS 231-714-2', 'UNII-411VRN1TV4', 'MFCD00011349', 'Nitric acid [NF]', '411VRN1TV4', 'CHEBI:48107', 'hydroxidodioxidonitrogen', '12033-49-7', '78989-43-2', 'NITRIC ACID 65%', 'CHEMBL1352', 'NITRIC ACID (15N)', 'DTXSID5029685', 'EC 231-714-2', 'Nitric acid (NF)', "4,4-Dioctyl-cyclopenta[2,1-b :3,4-b' ]dithiophene", 'Nitric Acid (65%)', 'Nitric Acid (70%)', "Engraver's acid", 'NITRIC ACID (II)', 'NITRIC ACID [II]', 'NITRIC ACID (MART.)', 'NITRIC ACID [MART.]', '122392-03-4', '309963-65-3', '(NO2(OH))', '[NO2(OH)]', 'Azotowy kwas [Polish]', 'Nitric acid, ACS reagent, 70%', 'Salpetersaure [German]', 'Nitrate radical', 'NITRIC ACID (EP MONOGRAPH)', 'NITRIC ACID [EP MONOGRAPH]', 'Engravers acid', 'Acide nitrique [French]', 'Acido nitrico [Italian]', 'Acido nitrico [Spanish]', 'Kyselina dusicne [Czech]', 'Nitric acid, ACS reagent, >=90.0%', 'Salpeterzuuroplossingen [Dutch]', 'Nitric acid (conc 80% or greater)', 'UN2031', 'UN2032', 'nitroalcohol', 'nitro-alcohol', 'Nitric acid (70% or less)', 'Nitro Alcohol', 'nitric -acid', 'Nitrosonitric acid', 'Nitric acid (greater than 70%)', 'Nitric Acid Blank', 'NO3 anion', 'Nitric acid, ACS', 'Nitric acid, 1 M', 'Nitric acid, 65%', 'Nitric acid, 68%', 'Nitricum acidum 30C', 'Nitricum acidum 200C', 'Nitric acid (38%)', 'Nitric acid (67%)', 'Nitric acid, red fuming', 'Nitric acid, 0.1 M', 'NITRIC ACID [MI]', 'hydrogen trioxonitrate(1-)', 'Nitric acid, 65-70%', 'NITRIC ACID [HSDB]', 'WLN: PR N-O3X3', 'Nitric acid, p.a., 65%', 'NITRIC ACID [WHO-DD]', 'Nitric acid (HNO3) 94.5% by weight or more HNO3', 'NITRICUM ACIDUM [HPUS]', 'DTXCID509685', 'Nitric acid, 90% ACS Grade', 'Nitric acid, fuming, 99.5%', 'Nitric acid, AR, 69-72%', 'Nitric acid, gallium salt ( )', 'Nitric acid, LR, 69-72%', 'DTXSID201316935', 'Nitric acid, puriss., 64-66%', 'Nitric acid, reagent grade, >90%', 'BDBM50152970', 'AKOS015833449', 'Nitric acid, technical grade, 50.0%', 'Nitric acid other than red fuming with >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, extra pure, 69.0-71.0%', 'Nitric acid, red, fuming, HNO3 >90 %', 'Nitric acid, reagent grade, fuming, >90%', 'Nitrogen hydroxideoxide (N(OH)2O) (9CI)', 'N0806', 'Nitric acid, puriss. p.a., >=65% (T)', 'NS00010065', 'C00244', 'D02313', 'Q83320', 'Nitric acid, 70%, purified by double-distillation', 'Nitric acid, p.a., ACS reagent, 68.0-70.0%', 'Nitric acid, red fuming [UN2032]  [Corrosive]', 'Q27110015', 'Nitric acid other than red fuming with >70% nitric acid', '2,3,9,10,16,17-Hexachlorinated boron subphthalocyanine', 'Nitric acid, SAJ first grade, 69-70%, density: 1.42', '3088A493-74F8-4D19-8ABC-E572420B5F29', 'Nitric acid other than red fuming with not >70% nitric acid', 'Nitric acid, JIS special grade, 60.0-61.0%, density: 1.38', 'Nitric acid, JIS special grade, 65.0-66.0%, density: 1.40', 'Nitric acid, JIS special grade, 69.0-70.0%, density: 1.42', 'Nitric acid, puriss. p.a., ACS reagent, fuming, >=99.5%', 'Nitric acid, puriss. p.a., ACS reagent, reag. ISO, >=69%', 'Nitric acid, SAJ first grade, 60.0-62.0%, density: 1.38', 'Nitric acid, SAJ first grade, 65.0-66.0%, density: 1.40', 'Nitric acid, 68-70%, Certified ACS Plus Grade Trace metal analyzed', 'Nitric acid, JIS special grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, SAJ first grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, 60.0-62.0%, SAJ super special grade, density: 1.38', 'Nitric acid, JIS special grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, puriss. p.a., 65% (Hg <=0.0000005%), >=65% (T)', 'Nitric acid, SAJ first grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17818), >=65%', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17952), >=69%', 'Nitric acid other than red fuming with not >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, 60.0-62.0%, suitable for determination of toxic metals, density: 1.38', 'Nitric acid, 70%, purified by redistillation, >=99.999% trace metals basis', 'Nitric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 68.5-69.5%', 'Nitric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17920), >=69%', 'Nitric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17512), 69-71%', 'Nitric acid, 70%, meets analytical specification of BP, Ph??Eur, Ph??Fran??, USP, FCC, E339', 'Nitric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., for determinations with dithizone, >=65%', 'Nitric acid, purum p.a., fuming, packed in coated, shock- and leak-protected glass bottle, >=99% (T)']
+Got unresolvable : NITRIC ACID SOLUTION
+Original text: Synthesis of 1 (Solvothermal Method): A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg), NaN3 (0.2 mmol, 13 mg), and bib (0.1 mmol, 21 mg) was suspended in the solvent mixture (H2O/CH3OH = 3:4, 12 mL). Af...
+2025-01-07 15:49:31,725 WRONG_TIME 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 0h (24.0 H) - Wrong unit (hours)
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-07 15:49:32,102 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [CLOSOVE]
+2025-01-07 15:49:32,102 WRONG_SOLVENT 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan', 'Cellosolve']
+Got unresolvable : CLOSOVE
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-07 15:49:32,471 UNRESOLVABLE_CHEMICAL pcp: Could not find `cid` for [DIIONIZED WATER]
+2025-01-07 15:49:32,471 WRONG_SOLVENT 
+Paragraph: IVARUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['water', 'Distilled water', 'Deionized water', 'H2O']
+Got unresolvable : DIIONIZED WATER
+Original text: CdCl2·6H2O (52 mg, 0.18 mmol), bpmp (99 mg, 0.37 mmol), 1,4-phenylenedipropionic acid (44 mg, 0.18 mmol), and 5 mL deionized water were placed into a 15 mL screw-cap vial. The vial was sealed and heat...
+{
+│   'Total': {
+│   │   'temperature': {'correct': 77},
+│   │   'time': {'correct': 76, 'wrong': 1, 'unit': 1},
+│   │   'additive': {
+│   │   │   'correct': 68,
+│   │   │   'wrong': 9,
+│   │   │   'resolve_answer': 5,
+│   │   │   'found_in_text_unresolvable': 1,
+│   │   │   'correct_no_additive': 39
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 72,
+│   │   │   'wrong': 5,
+│   │   │   'resolve_answer': 4,
+│   │   │   'found_in_text_unresolvable': 1
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 77},
+│   │   'time': {'correct': 76, 'wrong': 1, 'unit': 1},
+│   │   'additive': {
+│   │   │   'correct': 68,
+│   │   │   'wrong': 9,
+│   │   │   'resolve_answer': 5,
+│   │   │   'found_in_text_unresolvable': 1,
+│   │   │   'correct_no_additive': 39
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 72,
+│   │   │   'wrong': 5,
+│   │   │   'resolve_answer': 4,
+│   │   │   'found_in_text_unresolvable': 1
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 77}, 'time': {'correct': 76, 'wrong': 1, 'unit': 1}, 'additive': {'correct': 68, 'wrong': 9, 'resolve_answer': 5, 'found_in_text_unresolvable': 1, 'correct_no_additive': 39}, 'solvent': {'correct': 72, 'wrong': 5, 'resolve_answer': 4, 'found_in_text_unresolvable': 1}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 77}, 'time': {'correct': 76, 'wrong': 1, 'unit': 1}, 'additive': {'correct': 68, 'wrong': 9, 'resolve_answer': 5, 'found_in_text_unresolvable': 1, 'correct_no_additive': 39}, 'solvent': {'correct': 72, 'wrong': 5, 'resolve_answer': 4, 'found_in_text_unresolvable': 1}}}
+{
+│   'Total': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {
+│   │   │   'correct': 0.987012987012987,
+│   │   │   'wrong': 0.012987012987012988,
+│   │   │   'unit': 0.012987012987012988
+│   │   },
+│   │   'additive': {
+│   │   │   'correct': 0.8831168831168831,
+│   │   │   'wrong': 0.11688311688311688,
+│   │   │   'resolve_answer': 0.06493506493506493,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988,
+│   │   │   'correct_no_additive': 0.5064935064935064
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.935064935064935,
+│   │   │   'wrong': 0.06493506493506493,
+│   │   │   'resolve_answer': 0.05194805194805195,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988
+│   │   }
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 1.0},
+│   │   'time': {
+│   │   │   'correct': 0.987012987012987,
+│   │   │   'wrong': 0.012987012987012988,
+│   │   │   'unit': 0.012987012987012988
+│   │   },
+│   │   'additive': {
+│   │   │   'correct': 0.8831168831168831,
+│   │   │   'wrong': 0.11688311688311688,
+│   │   │   'resolve_answer': 0.06493506493506493,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988,
+│   │   │   'correct_no_additive': 0.5064935064935064
+│   │   },
+│   │   'solvent': {
+│   │   │   'correct': 0.935064935064935,
+│   │   │   'wrong': 0.06493506493506493,
+│   │   │   'resolve_answer': 0.05194805194805195,
+│   │   │   'found_in_text_unresolvable': 0.012987012987012988
+│   │   }
+│   }
+}
+{'Total': {'temperature': {'correct': 1.0}, 'time': {'correct': 0.987012987012987, 'wrong': 0.012987012987012988, 'unit': 0.012987012987012988}, 'additive': {'correct': 0.8831168831168831, 'wrong': 0.11688311688311688, 'resolve_answer': 0.06493506493506493, 'found_in_text_unresolvable': 0.012987012987012988, 'correct_no_additive': 0.5064935064935064}, 'solvent': {'correct': 0.935064935064935, 'wrong': 0.06493506493506493, 'resolve_answer': 0.05194805194805195, 'found_in_text_unresolvable': 0.012987012987012988}}, 'LLaMa 3.1 8B Instruct': {'temperature': {'correct': 1.0}, 'time': {'correct': 0.987012987012987, 'wrong': 0.012987012987012988, 'unit': 0.012987012987012988}, 'additive': {'correct': 0.8831168831168831, 'wrong': 0.11688311688311688, 'resolve_answer': 0.06493506493506493, 'found_in_text_unresolvable': 0.012987012987012988, 'correct_no_additive': 0.5064935064935064}, 'solvent': {'correct': 0.935064935064935, 'wrong': 0.06493506493506493, 'resolve_answer': 0.05194805194805195, 'found_in_text_unresolvable': 0.012987012987012988}}}
+Total no additives: 42

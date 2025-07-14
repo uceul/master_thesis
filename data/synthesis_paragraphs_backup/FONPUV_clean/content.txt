@@ -1,0 +1,2 @@
+
+A mixture of Zn(OAc)2·2H2O (6.58 mg, 0.03 mmol), H3L (5.72 mg, 0.02 mmol) and H2O (3 mL) was placed in a Teflon-lined stainless steel container, heated at 130 °C for 72 h and then cooled to room temperature at a rate of 5 °C h−1. Colorless crystals were obtained (yield: 49% based on H3L). Anal. calcd for C15H14Zn2O10: C, 37.14; H, 2.91%. Found: C, 37.20; H, 2.83%. IR (KBr, cm−1): 3425(m), 2027(w), 1593(m), 1542(s), 1410(s), 1295(w), 1186(w), 1103(w), 1017(w), 871(m), 773(m), 707(w), 610(w), 574(w), 500(w).

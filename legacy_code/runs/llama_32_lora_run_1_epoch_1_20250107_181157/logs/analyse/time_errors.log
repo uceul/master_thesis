@@ -1,0 +1,6 @@
+2025-01-07 18:13:46,988 - 
+Paragraph: LUMZEA_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 50h (50.0 h)
+Got: 1000h (1000.0 h)
+Original text:   A mixture of 1H-1,2,4-triazole (13.8 mg, 0.2 mmol), maleic acid (23.2 mg, 0.2 mmol) and Cu(OAc)2·H2O (60 mg, 0.3 mmol) was dissolved in 6 mL deionized water and stirred for 10 min at room temperatur...

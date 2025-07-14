@@ -1,0 +1,1572 @@
+First fixes applied to analyse code.
+Only using 778 labeled paragraphs. Still solvent/additive problems.
+
+/home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/datasets/synthesis_paragraphs/../results/SynMOF_A_out.csv
+/home/kit/iti/zn2950/ws/workspaces/llm_extraction_workspace/datasets/synthesis_paragraphs/../results/SynMOF_M_out.csv
+  0%|          | 0/905 [00:00<?, ?it/s, Configuring Dataset Labels]
+  0%|          | 1/905 [00:03<46:51,  3.11s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:05<40:14,  2.67s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:05<40:14,  2.67s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:05<40:14,  2.67s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:05<40:14,  2.67s/it, Configuring Dataset Labels]
+  0%|          | 2/905 [00:05<40:14,  2.67s/it, Configuring Dataset Labels]
+  1%|          | 7/905 [00:06<09:40,  1.55it/s, Configuring Dataset Labels]
+  1%|          | 7/905 [00:06<09:40,  1.55it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:07<08:18,  1.80it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:07<08:18,  1.80it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:07<08:18,  1.80it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:07<08:18,  1.80it/s, Configuring Dataset Labels]
+  1%|          | 9/905 [00:07<08:18,  1.80it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:09<07:47,  1.91it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:09<07:47,  1.91it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:09<07:47,  1.91it/s, Configuring Dataset Labels]
+  2%|▏         | 14/905 [00:09<07:47,  1.91it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  2%|▏         | 18/905 [00:10<05:59,  2.46it/s, Configuring Dataset Labels]
+  3%|▎         | 27/905 [00:11<04:01,  3.64it/s, Configuring Dataset Labels]
+  3%|▎         | 27/905 [00:11<04:01,  3.64it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  3%|▎         | 29/905 [00:12<04:12,  3.46it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  4%|▍         | 37/905 [00:13<02:51,  5.06it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:14<02:06,  6.78it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:14<02:06,  6.78it/s, Configuring Dataset Labels]
+  5%|▌         | 47/905 [00:14<02:06,  6.78it/s, Configuring Dataset Labels]
+  6%|▌         | 50/905 [00:15<02:57,  4.83it/s, Configuring Dataset Labels]
+  6%|▌         | 50/905 [00:15<02:57,  4.83it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  6%|▌         | 52/905 [00:16<03:20,  4.26it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  7%|▋         | 65/905 [00:16<01:31,  9.15it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  8%|▊         | 74/905 [00:18<01:43,  8.03it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:18<01:32,  8.92it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:18<01:32,  8.92it/s, Configuring Dataset Labels]
+  9%|▉         | 83/905 [00:19<01:32,  8.92it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|▉         | 86/905 [00:19<01:48,  7.54it/s, Configuring Dataset Labels]
+ 10%|█         | 94/905 [00:20<01:38,  8.23it/s, Configuring Dataset Labels]
+ 10%|█         | 94/905 [00:20<01:38,  8.23it/s, Configuring Dataset Labels]
+ 10%|█         | 94/905 [00:20<01:38,  8.23it/s, Configuring Dataset Labels]
+ 10%|█         | 94/905 [00:20<01:38,  8.23it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:21<01:46,  7.58it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:21<01:46,  7.58it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:21<01:46,  7.58it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:21<01:46,  7.58it/s, Configuring Dataset Labels]
+ 11%|█         | 98/905 [00:21<01:46,  7.58it/s, Configuring Dataset Labels]
+ 11%|█▏        | 103/905 [00:21<01:48,  7.37it/s, Configuring Dataset Labels]
+ 11%|█▏        | 103/905 [00:21<01:48,  7.37it/s, Configuring Dataset Labels]
+ 11%|█▏        | 103/905 [00:21<01:48,  7.37it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 12%|█▏        | 106/905 [00:22<02:03,  6.50it/s, Configuring Dataset Labels]
+ 13%|█▎        | 118/905 [00:23<01:30,  8.72it/s, Configuring Dataset Labels]
+ 13%|█▎        | 118/905 [00:24<01:30,  8.72it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 13%|█▎        | 120/905 [00:24<02:00,  6.53it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 15%|█▌        | 140/905 [00:24<00:48, 15.64it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:26<01:07, 11.12it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:26<01:07, 11.12it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:26<01:07, 11.12it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:26<01:07, 11.12it/s, Configuring Dataset Labels]
+ 17%|█▋        | 151/905 [00:26<01:07, 11.12it/s, Configuring Dataset Labels]
+ 17%|█▋        | 156/905 [00:26<00:58, 12.85it/s, Configuring Dataset Labels]
+ 17%|█▋        | 156/905 [00:26<00:58, 12.85it/s, Configuring Dataset Labels]
+ 17%|█▋        | 156/905 [00:26<00:58, 12.85it/s, Configuring Dataset Labels]
+ 17%|█▋        | 156/905 [00:26<00:58, 12.85it/s, Configuring Dataset Labels]
+ 17%|█▋        | 156/905 [00:26<00:58, 12.85it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 18%|█▊        | 161/905 [00:26<01:07, 11.10it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 19%|█▊        | 169/905 [00:27<01:07, 10.91it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:27<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:27<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:27<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:27<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:27<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:28<00:37, 19.41it/s, Configuring Dataset Labels]
+ 20%|██        | 185/905 [00:28<00:37, 19.41it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 21%|██        | 192/905 [00:28<00:54, 13.06it/s, Configuring Dataset Labels]
+ 22%|██▏       | 198/905 [00:29<00:45, 15.61it/s, Configuring Dataset Labels]
+ 22%|██▏       | 198/905 [00:29<00:45, 15.61it/s, Configuring Dataset Labels]
+ 22%|██▏       | 198/905 [00:29<00:45, 15.61it/s, Configuring Dataset Labels]
+ 22%|██▏       | 198/905 [00:29<00:45, 15.61it/s, Configuring Dataset Labels]
+ 22%|██▏       | 198/905 [00:29<00:45, 15.61it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:29<00:58, 12.08it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:29<00:58, 12.08it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:29<00:58, 12.08it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:29<00:58, 12.08it/s, Configuring Dataset Labels]
+ 22%|██▏       | 203/905 [00:29<00:58, 12.08it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 23%|██▎       | 208/905 [00:30<01:10,  9.93it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 24%|██▍       | 218/905 [00:31<01:05, 10.45it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▌       | 231/905 [00:31<00:40, 16.73it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 26%|██▋       | 238/905 [00:32<00:48, 13.75it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 28%|██▊       | 252/905 [00:32<00:30, 21.61it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:32<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:32<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 29%|██▉       | 265/905 [00:33<00:20, 30.57it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:33<00:34, 18.43it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:34<00:34, 18.43it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:34<00:34, 18.43it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:34<00:34, 18.43it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:34<00:34, 18.43it/s, Configuring Dataset Labels]
+ 30%|███       | 273/905 [00:34<00:34, 18.43it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 31%|███       | 279/905 [00:34<00:43, 14.38it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 32%|███▏      | 292/905 [00:34<00:28, 21.69it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 33%|███▎      | 302/905 [00:34<00:21, 28.27it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:34<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 36%|███▌      | 323/905 [00:35<00:12, 47.74it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 37%|███▋      | 335/905 [00:35<00:19, 29.52it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 38%|███▊      | 345/905 [00:35<00:15, 35.79it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 40%|████      | 362/905 [00:35<00:10, 50.39it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 42%|████▏     | 379/905 [00:35<00:07, 66.16it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:35<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:35<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:35<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:36<00:07, 71.10it/s, Configuring Dataset Labels]
+ 43%|████▎     | 392/905 [00:37<00:07, 71.10it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 45%|████▍     | 404/905 [00:37<00:23, 21.43it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 46%|████▌     | 417/905 [00:37<00:17, 27.91it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:38<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:38<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:38<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:38<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:38<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:39<00:20, 22.79it/s, Configuring Dataset Labels]
+ 47%|████▋     | 428/905 [00:39<00:20, 22.79it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 48%|████▊     | 435/905 [00:39<00:27, 17.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 50%|████▉     | 451/905 [00:39<00:17, 26.34it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 51%|█████     | 460/905 [00:39<00:14, 30.33it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:39<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:40<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:40<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:40<00:09, 46.51it/s, Configuring Dataset Labels]
+ 53%|█████▎    | 479/905 [00:40<00:09, 46.51it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 54%|█████▍    | 490/905 [00:40<00:16, 24.59it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 55%|█████▌    | 498/905 [00:40<00:14, 27.95it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:40<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:40<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 57%|█████▋    | 515/905 [00:41<00:09, 41.40it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 58%|█████▊    | 526/905 [00:41<00:14, 25.51it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 60%|██████    | 545/905 [00:42<00:14, 24.02it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 62%|██████▏   | 560/905 [00:42<00:10, 31.92it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 63%|██████▎   | 569/905 [00:43<00:14, 23.63it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 65%|██████▍   | 587/905 [00:44<00:13, 22.81it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:44<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 66%|██████▌   | 599/905 [00:45<00:10, 28.91it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 67%|██████▋   | 606/905 [00:45<00:14, 20.28it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 68%|██████▊   | 616/905 [00:46<00:16, 17.11it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 69%|██████▉   | 623/905 [00:47<00:20, 13.75it/s, Configuring Dataset Labels]
+ 70%|██████▉   | 630/905 [00:47<00:23, 11.73it/s, Configuring Dataset Labels]
+ 70%|██████▉   | 630/905 [00:47<00:23, 11.73it/s, Configuring Dataset Labels]
+ 70%|██████▉   | 630/905 [00:47<00:23, 11.73it/s, Configuring Dataset Labels]
+ 70%|██████▉   | 630/905 [00:47<00:23, 11.73it/s, Configuring Dataset Labels]
+ 70%|██████▉   | 630/905 [00:47<00:23, 11.73it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 70%|███████   | 635/905 [00:48<00:19, 13.63it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 71%|███████▏  | 647/905 [00:48<00:12, 20.96it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:48<00:17, 14.69it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:48<00:17, 14.69it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:48<00:17, 14.69it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:48<00:17, 14.69it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:48<00:17, 14.69it/s, Configuring Dataset Labels]
+ 72%|███████▏  | 653/905 [00:49<00:17, 14.69it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 73%|███████▎  | 659/905 [00:49<00:21, 11.67it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 75%|███████▍  | 675/905 [00:50<00:16, 13.75it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▌  | 685/905 [00:50<00:11, 18.52it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:50<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:50<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 76%|███████▋  | 692/905 [00:51<00:09, 21.91it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:52<00:18, 11.35it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:52<00:18, 11.35it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:53<00:18, 11.35it/s, Configuring Dataset Labels]
+ 77%|███████▋  | 700/905 [00:53<00:18, 11.35it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 78%|███████▊  | 704/905 [00:53<00:22,  9.07it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:53<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:53<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:53<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:53<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:54<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:54<00:11, 16.13it/s, Configuring Dataset Labels]
+ 79%|███████▉  | 719/905 [00:54<00:11, 16.13it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 80%|████████  | 726/905 [00:54<00:15, 11.75it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:54<00:11, 15.39it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:54<00:11, 15.39it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:54<00:11, 15.39it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:54<00:11, 15.39it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:55<00:11, 15.39it/s, Configuring Dataset Labels]
+ 81%|████████  | 734/905 [00:55<00:11, 15.39it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 82%|████████▏ | 740/905 [00:55<00:13, 12.44it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 83%|████████▎ | 748/905 [00:55<00:09, 16.74it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 84%|████████▎ | 757/905 [00:56<00:09, 15.16it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:56<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:56<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:57<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:58<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:58<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:59<00:05, 23.20it/s, Configuring Dataset Labels]
+ 85%|████████▌ | 770/905 [00:59<00:05, 23.20it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 86%|████████▌ | 777/905 [00:59<00:14,  8.55it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 785/905 [00:59<00:10, 11.38it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [00:59<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 87%|████████▋ | 791/905 [01:00<00:11,  9.94it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 89%|████████▊ | 802/905 [01:00<00:09, 10.59it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 90%|████████▉ | 814/905 [01:01<00:05, 15.93it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 92%|█████████▏| 829/905 [01:01<00:04, 16.52it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:01<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 93%|█████████▎| 842/905 [01:02<00:02, 23.17it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 95%|█████████▌| 864/905 [01:02<00:01, 38.36it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:02<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 97%|█████████▋| 876/905 [01:03<00:01, 25.73it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:03<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:03<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:03<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 98%|█████████▊| 888/905 [01:04<00:00, 31.55it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+ 99%|█████████▉| 897/905 [01:05<00:00, 11.35it/s, Configuring Dataset Labels]
+Error processing evaluation for DOKHOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ADARAA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZUDRAT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SONTIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REYPES_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUFZID_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUCPIM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UWELIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EJOQOL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QAMHAQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HAWGIX_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XICDUI_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YODRAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for COXQUB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AVESAW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UZIJUJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIPROY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OQETEK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ELOZIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UYAMOY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MOYYEF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EMIYEF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GAJVIY_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IBUBAL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AZAWAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CIFMIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAZJIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AQIXUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SARNOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IFUPAC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QUHMOX_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMSO'], 'solvent_cid': [679], 'temperature': 140, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Gd2(SO4)3·8', 'solvent': 'HCOOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'h'}
+duration [QUHMOX_clean] 6 != 48 | 6.0 h != 48 h
+Error processing evaluation for QUHMOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SOGXAP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZOZPUB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'H2O'], 'solvent_cid': [6228, 962], 'temperature': 120, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 60.0, 'time_unit': 'h'}
+duration [ZOZPUB_clean] 60 != 36 | 60.0 h != 36 h
+Error processing evaluation for ZOZPUB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VOVLAV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PEZCII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAWHUP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LUMZEA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JUKPEM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EGABAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SITFUY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: HAWREE_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'EtOH', 'S S'], 'solvent_cid': [6228, 702], 'temperature': 200, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(CH3COO)2·', 'solvent': 'DMF/EtOH', 'temperature': 473.15, 'temperature_unit': 'K', 'time': 72.096, 'time_unit': 'h'}
+duration [HAWREE_clean] 7296 != 72 | 72.096 h != 72 h
+Error processing evaluation for HAWREE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SOBZEQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: VOCCOH_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['H2O'], 'solvent_cid': [962], 'temperature': 160, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'H2O', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [VOCCOH_clean] 24 != 72 | 24.0 h != 72 h
+Error processing evaluation for UZAFIL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: REKZIR_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['water', 'H2O', '8O', 'ethanol', 'Thanol', 'S S'], 'solvent_cid': [962, 702], 'temperature': 160, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(MeCO2)2·2', 'solvent': 'water-ethanol (1:4)', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 100.0, 'time_unit': 'h'}
+duration [REKZIR_clean] 100 != 72 | 100.0 h != 72 h
+Error processing evaluation for PEKZIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FEYDET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LATPIG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EYULOA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EXOZIB_clean, LLaMa 2 7B
+Label: {'additive': ['CH3ONa'], 'additive_cid': [10942334], 'solvent': ['H2O', 'methanol'], 'solvent_cid': [962, 887], 'temperature': 25, 'time': 504, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3tci', 'solvent': 'methanol', 'temperature': 20.013, 'temperature_unit': '°C', 'time': 21.636, 'time_unit': 'days'}
+duration [EXOZIB_clean] 15264 != 504 | 21.636 days != 504 h
+Error processing evaluation for BAZGAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VAGBUD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BUCWAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DUPJAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VALVAI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ETAXIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUNZUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OMUSAS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IGINIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EXALAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOXSIY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LOMMIL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QOSXOM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CAGSAG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PARSEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KUNMUD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OQUCOU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OLEKUM_manual, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MOYYIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NAJQUN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XORHET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ADASIJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'H2O'], 'solvent_cid': [6228, 962], 'temperature': 115, 'time': 23, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASIJ_clean] 12 != 23 | 12.0 h != 23 h
+Error processing evaluation for ADASIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MUVROM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ALIXOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KUHNEI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUWDOA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VIDJID_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FAGQAI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LALFEL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VUQKAU01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUCFAO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GEZRAG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['MeOH'], 'solvent_cid': [887], 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(Ac)2⋅4H2O', 'solvent': 'MeOH', 'temperature': 393000.0, 'temperature_unit': 'K', 'time': 72000.0, 'time_unit': 'h'}
+duration [GEZRAG_clean] 72000 != 72 | 72000.0 h != 72 h
+Error processing evaluation for GEZRAG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WUSLED_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NIRDOI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SOGWIV_charged, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['C2H5OH', 'S S'], 'solvent_cid': [702], 'temperature': 165, 'time': 168, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cd(NO3)2', 'solvent': 'C2H5OH', 'temperature': 165.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [SOGWIV_charged] 30 != 168 | 30.0 h != 168 h
+Error processing evaluation for SOGWIV_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VIXTUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ADASUV_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'NMP'], 'solvent_cid': [6228, 13387], 'temperature': 105, 'time': 23, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Co(NO3)2⋅6 H2', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [ADASUV_clean] 12 != 23 | 12.0 h != 23 h
+Error processing evaluation for ADASUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUVHOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ITIPAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FIGQUJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KUKPOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IVARUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VAKREG_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UWUTIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BAFCAP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: CUXFUX_clean, LLaMa 2 7B
+Label: {'additive': ['oxalic acid', 'NaOH'], 'additive_cid': [971, 14798], 'solvent': ['H2O'], 'solvent_cid': [962], 'temperature': 180, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'Ethanol', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 48.0, 'time_unit': 'h'}
+duration [CUXFUX_clean] 48 != 72 | 48.0 h != 72 h
+Error processing evaluation for XAXQEU_SL, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TORPUN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OKIPOO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUPXII01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZUQMAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUNBIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DOKHIV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OBIBOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XOTSEG_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 90, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'DMF', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 800.0, 'time_unit': 's'}
+duration [XOTSEG_clean] 0 != 48 | 800.0 s != 48 h
+Error processing evaluation for XOTSEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AVAQIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HIHGEM_manual, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RIFGAQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FAHQIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TANMIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YILJAG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BINSAU_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 100, 'time': 168, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Mn(NO3)2·4H', 'solvent': 'DMF', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 1.0, 'time_unit': 'days'}
+duration [BINSAU_clean] 24 != 168 | 1.0 days != 168 h
+Error processing evaluation for BINSAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KAKCAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MOTVOI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KITCAT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FURFOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOYBUL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ILAGUY_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AROFAP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ECOLEP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EXOFIH_clean, LLaMa 2 7B
+Label: {'additive': ['HNO3', 'piperazine', 'Piperazin'], 'additive_cid': [944, 4837], 'solvent': ['Dimethyl acetamide', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'dma', 'C2H5OH'], 'solvent_cid': [31374, 702], 'temperature': 105, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4btec', 'solvent': 'DMA', 'temperature': 358.01, 'temperature_unit': 'K', 'time': 21.0, 'time_unit': 'h'}
+duration [EXOFIH_clean] 21 != 36 | 21.0 h != 36 h
+Error processing evaluation for KUKQAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AJAMEF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HEDTER_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NOBVOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CEJBEA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FECYUJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XADDOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FONPUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAWHOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EBUREA_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['water', 'Distilled water', 'H2O'], 'solvent_cid': [962], 'temperature': 65, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'MnCl2·4H2O', 'solvent': 'aq NaOH', 'temperature': 65.0, 'temperature_unit': '°C', 'time': 7.0, 'time_unit': 'h'}
+duration [EBUREA_clean] 7 != 48 | 7.0 h != 48 h
+Error processing evaluation for OPENUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NOQKUB_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['water', 'H2O', 'glycol'], 'solvent_cid': [962, 174], 'temperature': 180, 'time': 144, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2⋅6 H2O', 'solvent': 'H2O/glycol (14:', 'temperature': 180.0, 'temperature_unit': 'degree Celsius', 'time': 20.0, 'time_unit': 'hour'}
+duration [NOQKUB_clean] 20 != 144 | 20.0 hour != 144 h
+Error processing evaluation for NOQKUB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HELDOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ACAKUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HISGIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AROFET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YUMFUJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUWCIT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: CUTBIE_clean, LLaMa 2 7B
+Label: {'additive': ['HNO3'], 'additive_cid': [944], 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 105, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 85.0, 'temperature_unit': '°C', 'time': 36.0, 'time_unit': 'h'}
+duration [CUTBIE_clean] 36 != 24 | 36.0 h != 24 h
+Processing: SUKMAO_clean, LLaMa 2 7B
+Label: {'additive': ['HCl'], 'additive_cid': [313], 'solvent': ['DMF', 'methanol', 'MeOH', 'H2O'], 'solvent_cid': [6228, 887, 962], 'temperature': 90, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/methanol/water (', 'temperature': 363000.0, 'temperature_unit': 'K', 'time': 48000.0, 'time_unit': 'h'}
+duration [SUKMAO_clean] 48000 != 48 | 48000.0 h != 48 h
+Error processing evaluation for TEJBAN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ATIBOU02_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUFKIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOKKIU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XOJWOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WUDQIW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LUCKAX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VEGMIE01_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EXOTUH_SL, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EREGOY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BOWZUK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIBFUS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['water', 'H2O', 'ethanol', 'Thanol', 'S S'], 'solvent_cid': [962, 702], 'temperature': 160, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'timpt', 'solvent': 'water/ethanol (6:1,', 'temperature': 160.0, 'temperature_unit': '°C', 'time': 15.0, 'time_unit': 'minutes'}
+duration [FIBFUS_clean] 0 != 72 | 15.0 minutes != 72 h
+Error processing evaluation for FIBFUS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ILIMOH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PEWFII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FURFIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DEGPEL_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUWCEP_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for USORUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REYCOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GEVYEN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NAFGOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOZTOG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HAVZIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: EJOQUR_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'H2O'], 'solvent_cid': [6228, 962], 'temperature': 85, 'time': 16, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L2', 'solvent': 'DMF', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 72.0, 'time_unit': 'h'}
+duration [EJOQUR_clean] 72 != 16 | 72.0 h != 16 h
+Error processing evaluation for EJOQUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OWUWOU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ORUHAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WAGQAY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DOKHUH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DUFXOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XEYMAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EBAMUS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SAMXUC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GISZUF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HEBNOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LEVNOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JAJZAY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IKUTIT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for COWXOC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOFGOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEDSIG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WOGHEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: SUKKUG_clean, LLaMa 2 7B
+Label: {'additive': ['HCl'], 'additive_cid': [313], 'solvent': ['DMF', 'ACETONITRILE', 'Acetonitril', 'CH3CN', 'H2O'], 'solvent_cid': [6228, 6342, 962], 'temperature': 80, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L2', 'solvent': 'DMF/acetonitrile/H2', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 72000.0, 'time_unit': 'h'}
+duration [SUKKUG_clean] 72000 != 72 | 72000.0 h != 72 h
+Error processing evaluation for PUWDAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LEDCAA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HISGAT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: XUDYOM_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 130, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '1', 'solvent': 'DMF', 'temperature': 130.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [XUDYOM_clean] 24 != 48 | 24.0 h != 48 h
+Error processing evaluation for XUDYOM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VOVKUO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XOTSIK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEVHEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NAGQET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ECIWIW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUZLAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KADLOT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: DINNIZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'ethanol', 'Thanol'], 'solvent_cid': [6228, 702], 'temperature': 90, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Adipic acid', 'solvent': 'DMF and ethanol', 'temperature': 90.0, 'temperature_unit': '°C', 'time': 6.0, 'time_unit': 'h'}
+duration [DINNIZ_clean] 6 != 24 | 6.0 h != 24 h
+Error processing evaluation for DINNIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PELXIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OWUWUA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ACALIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZIKJOU_clean, LLaMa 2 7B
+Label: {'additive': ['HBF4'], 'additive_cid': [28118], 'solvent': ['DMF', 'CH3OH'], 'solvent_cid': [6228, 887], 'temperature': 75, 'time': 60, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2·3H', 'solvent': 'DMF/CH3OH', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'h'}
+duration [ZIKJOU_clean] 30 != 60 | 30.0 h != 60 h
+Error processing evaluation for SIVWUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UKOLOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HAJDII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VUQLEZ_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUQFOY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LIDSIC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZEZPAX01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FONKEA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WONBAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIKGII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QANSUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PIBGAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: WUCRUH_clean, LLaMa 2 7B
+Label: {'additive': ['KOH'], 'additive_cid': [14797], 'solvent': ['water', 'Distilled water', 'H2O'], 'solvent_cid': [962], 'temperature': 180, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'iron powder (Riedel-de', 'solvent': 'H2O', 'temperature': 453000.0, 'temperature_unit': 'K', 'time': 4.096, 'time_unit': 'min'}
+duration [WUCRUH_clean] 8 != 48 | 4.096 min != 48 h
+Error processing evaluation for VAGBOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIJXIY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ZOJWAY_clean, LLaMa 2 7B
+Label: {'additive': ['HBF4'], 'additive_cid': [28118], 'solvent': ['DMF', 'H2O'], 'solvent_cid': [6228, 962], 'temperature': 60, 'time': 4, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/H2O', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [ZOJWAY_clean] 24 != 4 | 24.0 h != 4 h
+Error processing evaluation for TEJLOL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GOBTAT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SAYKIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KIYMIP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUWCOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KUKPUD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TETZEZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZEBMEA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DEMLAJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAHVAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UXOHOG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NEKMUN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VAHQAY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for COJGEO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIJXEU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GUJTOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PERSEM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TIRRIW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOZFIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XIFHIF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MAZSUD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GIQZIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KUSQUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GOVWOF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LOXBEH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ENESOH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WISTID_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DARBUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KEWBUL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KOJZOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TILHAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MICDEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: PASNAA01_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['H2O'], 'solvent_cid': [962], 'temperature': 100, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CoCl2·6H2O', 'solvent': 'H6L', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [PASNAA01_clean] 24 != 48 | 24.0 h != 48 h
+Error processing evaluation for IYAKAW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MATPOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYCIM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIRMOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KEVVIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZEBMAW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MATPUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WEGDIX_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ADASAB_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CUYQIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DUNYOC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUJREK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['water', 'H2O', 'ACETONITRILE', 'Acetonitril', 'MeCN'], 'solvent_cid': [962, 6342], 'temperature': 140, 'time': 5, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H2(Me–trz–mba)', 'solvent': 'H2O/MeCN (1:1', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 5.5968, 'time_unit': 'h'}
+duration [GUJREK_clean] 5968 != 5 | 5.5968 h != 5 h
+Error processing evaluation for GUJREK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YICGOI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: DACSEI_clean, LLaMa 2 7B
+Label: {'additive': ['HCl'], 'additive_cid': [313], 'solvent': ['DMF', 'methanol', 'water', 'H2O'], 'solvent_cid': [6228, 887, 962], 'temperature': 80, 'time': 36, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'CuCl2·2H2O', 'solvent': 'DMF/methanol/water', 'temperature': 353.07, 'temperature_unit': 'K', 'time': 36.036, 'time_unit': 'h'}
+duration [DACSEI_clean] 3636 != 36 | 36.036 h != 36 h
+Error processing evaluation for CABQEB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MUZHUL_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VOQXIK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ROTQIC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUHVON_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUYXOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOVPEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUKHUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VEYVEC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PORLAL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: YOPQEB_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['H2O', 'EtOH', 'S S'], 'solvent_cid': [962, 702], 'temperature': 140, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H5bpbc', 'solvent': 'H2O/EtOH', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [YOPQEB_clean] 24 != 72 | 24.0 h != 72 h
+Error processing evaluation for EKEKIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TORXAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HAPGIR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VEZWEE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIVFIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OVUVIL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GAHWIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WODREO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AQIQAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DEJCIF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NOHQEI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MEJQEZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYCOS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LIVLUZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YIPDOR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LUPYAX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ADASEF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IBUBIT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VEMDAT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: KOQLUZ_clean, LLaMa 2 7B
+Label: {'additive': ['HCl', 'TETRAMETHYLAMMONIUM HYDROXIDE', '75-59-2', 'TMAH', 'TMAOH', 'NMW-W', 'Hydroxyde de tetramethylammonium', 'Ammonium, tetramethyl-, hydroxide', 'NMD 3', 'Tetramethyl ammonium hydroxide', 'Methanaminium, N,N,N-trimethyl-, hydroxide', 'tetramethylazanium;hydroxide', 'EINECS 200-882-9', 'UNII-5GKP7317Q2', 'DTXSID3029108', 'HSDB 8160', '5GKP7317Q2', 'MFCD00008280', 'DTXCID309108', 'N,N,N-Trimethylmethanaminium hydroxide (1:1)', 'EC 200-882-9', 'Methanaminium, N,N,N-trimethyl-, hydroxide (1:1)', 'Tetramethylammonium Hydroxide (25% w/w solution in Water)', 'UN1835', 'tetramethylammoniumhydroxide', 'tetramethylazanium hydroxide', 'N,N,N-trimethylmethanaminium hydroxide', 'Hydroxyde de tetramethylammonium [French]', 'tetramethylammonium oxide', 'MEGAPOSIT CD 14', 'tetramethylamonium hydroxide', 'TOKUSO SD 20', 'C4H13NO', 'OCG-OPD 262', 'CHEMBL3187523', 'OCG 945', 'OPD 262', 'Tox21_202572', 'AKOS015903652', 'Tetramethylammonium hydroxide, 25% aq', 'CAS-75-59-2', 'NCGC00260121-01', 'TETRAMETHYLAMMONIUM HYDROXIDE [MI]', 'DB-050413', 'NS00078439', 'T0138', 'T0676', 'T1201', 'T1404', 'T1460', 'TETRAMETHYLAMMONIUM HYDROXIDE, (LIQUID)', 'Tetramethylammonium hydroxide 25 wt% in Methanol', 'A838458', 'Q420868', 'J-524892', 'Tetramethylammonium hydroxide, 25% w/w in methanol', 'Tetramethylammonium hydroxide [UN1835]  [Corrosive]'], 'additive_cid': [313, 60966], 'solvent': ['water', 'Distilled water'], 'solvent_cid': [962], 'temperature': 170, 'time': 96, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4[SiW12O40', 'solvent': 'distilled water', 'temperature': 170.0, 'temperature_unit': '°C', 'time': 13.0, 'time_unit': 'h'}
+duration [KOQLUZ_clean] 13 != 96 | 13.0 h != 96 h
+Error processing evaluation for UMAROR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AZAVUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PIGXAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AGUWUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EHODOV_SL, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SONTOF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OYIVIC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NAWKII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for CAHQAG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DADXUE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EKEKOW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ILIMUN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for APUPEH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KAKBUW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LACJAC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: UCOCUM_neutral, LLaMa 2 7B
+Label: {'additive': ['TETRAMETHYLAMMONIUM HYDROXIDE', '75-59-2', 'TMAH', 'TMAOH', 'NMW-W', 'Hydroxyde de tetramethylammonium', 'Ammonium, tetramethyl-, hydroxide', 'NMD 3', 'Tetramethyl ammonium hydroxide', 'Methanaminium, N,N,N-trimethyl-, hydroxide', 'tetramethylazanium;hydroxide', 'EINECS 200-882-9', 'UNII-5GKP7317Q2', 'DTXSID3029108', 'HSDB 8160', '5GKP7317Q2', 'MFCD00008280', 'DTXCID309108', 'N,N,N-Trimethylmethanaminium hydroxide (1:1)', 'EC 200-882-9', 'Methanaminium, N,N,N-trimethyl-, hydroxide (1:1)', 'Tetramethylammonium Hydroxide (25% w/w solution in Water)', 'UN1835', 'tetramethylammoniumhydroxide', 'tetramethylazanium hydroxide', 'N,N,N-trimethylmethanaminium hydroxide', 'Hydroxyde de tetramethylammonium [French]', 'tetramethylammonium oxide', 'MEGAPOSIT CD 14', 'tetramethylamonium hydroxide', 'TOKUSO SD 20', 'C4H13NO', 'OCG-OPD 262', 'CHEMBL3187523', 'OCG 945', 'OPD 262', 'Tox21_202572', 'AKOS015903652', 'Tetramethylammonium hydroxide, 25% aq', 'CAS-75-59-2', 'NCGC00260121-01', 'TETRAMETHYLAMMONIUM HYDROXIDE [MI]', 'DB-050413', 'NS00078439', 'T0138', 'T0676', 'T1201', 'T1404', 'T1460', 'TETRAMETHYLAMMONIUM HYDROXIDE, (LIQUID)', 'Tetramethylammonium hydroxide 25 wt% in Methanol', 'A838458', 'Q420868', 'J-524892', 'Tetramethylammonium hydroxide, 25% w/w in methanol', 'Tetramethylammonium hydroxide [UN1835]  [Corrosive]'], 'additive_cid': [60966], 'solvent': ['water', 'Distilled water', 'H2O'], 'solvent_cid': [962], 'temperature': 200, 'time': 16, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2·2.', 'solvent': 'distilled water', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 26.0, 'time_unit': 'h'}
+duration [UCOCUM_neutral] 26 != 16 | 26.0 h != 16 h
+Error processing evaluation for OKIPUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NIHVUX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EXOTOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DOGZIJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REDYEG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEJBOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UWOWAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TIXCIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VIZQEC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MAQJEW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIPLOY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: GUVBOQ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['water', 'Distilled water', 'H2O'], 'solvent_cid': [962], 'temperature': 140, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3L', 'solvent': 'H2O', 'temperature': 140.0, 'temperature_unit': '°C', 'time': 12.0, 'time_unit': 'h'}
+duration [GUVBOQ_clean] 12 != 72 | 12.0 h != 72 h
+Error processing evaluation for GUVBOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IYEPUZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUNFON_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WOPHIU01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WOPHIU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: COPXOV_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['H2O'], 'solvent_cid': [962], 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': '3', 'solvent': 'H2O', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 24.0, 'time_unit': 'h'}
+duration [COPXOV_clean] 24 != 72 | 24.0 h != 72 h
+Error processing evaluation for UYAMIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NAGQOD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUQFIS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QEVKOS_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['CH3CN'], 'solvent_cid': [6342], 'temperature': 120, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'WS4Cu4(NCS)2', 'solvent': 'CH3CN', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [QEVKOS_clean] 48 != 24 | 2.0 days != 24 h
+Error processing evaluation for QEVKOS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYBUX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: KOMFUO_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['H2O'], 'solvent_cid': [962], 'temperature': 25, 'time': 252, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'btr', 'solvent': 'H2O', 'temperature': 200.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'h'}
+duration [KOMFUO_clean] 2 != 252 | 2.0 h != 252 h
+Error processing evaluation for KOMFUO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYCEI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FOJLOH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LASWIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LARPOL_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KOLWEO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GOBSUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LISZOE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QASTUC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GURTIX_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REYPIW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIHRIZ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['N,N-DIMETHYLACETAMIDE', 'Dimethylacetamide', 'Dimethylacetamid', 'n-dimethylacetamide', 'methanol'], 'solvent_cid': [31374, 887], 'temperature': 120, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Ni(NO3)2·6H', 'solvent': 'N,N-dimethylacetam', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'min'}
+duration [FIHRIZ_clean] 0 != 72 | 30.0 min != 72 h
+Error processing evaluation for FIHRIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ORIBAU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BAZFUF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TOHMIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ERULEK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUPDEL01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LENKIA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for APAZOI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WOPGOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FECYOD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOYYUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BAZGEQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KAKCEH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TAGVAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VAJQOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUSSAA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OYEBIE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LABJUV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NIYZIG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUTTIA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FAGREM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NATFAS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OBIBEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZUDQEW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOXSUK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EXEMUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DOQKAW_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: HUSJUC_clean, LLaMa 2 7B
+Label: {'additive': ['hydrochloric acid'], 'additive_cid': [313], 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 120, 'time': 24, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'La(NO3)3·6H2', 'solvent': 'DMF', 'temperature': 120.0, 'temperature_unit': '°C', 'time': 18.0, 'time_unit': 'h'}
+duration [HUSJUC_clean] 18 != 24 | 18.0 h != 24 h
+Error processing evaluation for DIVSUY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EVADIQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: FIHFAF_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'water', 'H2O'], 'solvent_cid': [6228, 962], 'temperature': 150, 'time': 60, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H3btc', 'solvent': 'DMF-H2O', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 8.0, 'time_unit': 'h'}
+duration [FIHFAF_clean] 8 != 60 | 8.0 h != 60 h
+Error processing evaluation for FIHFAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WIRKOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PENYOX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IKUTUF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUGWAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XARPAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ADATIK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF'], 'solvent_cid': [6228], 'temperature': 85, 'time': 12, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)2⋅2.', 'solvent': 'DMF', 'temperature': 75.0, 'temperature_unit': '°C', 'time': 20.0, 'time_unit': 'h'}
+duration [ADATIK_clean] 20 != 12 | 20.0 h != 12 h
+Error processing evaluation for ADATIK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: BUPDOH_clean, LLaMa 2 7B
+Label: {'additive': ['HCl'], 'additive_cid': [313], 'solvent': ['N,N-DIMETHYLFORMAMIDE', 'Dimethylformamide', 'Dimethylformamid', 'DMF', 'N,N-Dimethylformamid', 'n-dimethylformamide', 'ethanol', 'EtOH', 'Thanol', 'H2O'], 'solvent_cid': [6228, 702, 962], 'temperature': 80, 'time': 96, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L', 'solvent': 'DMF/EtOH/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 96000.0, 'time_unit': 'h'}
+duration [BUPDOH_clean] 96000 != 96 | 96000.0 h != 96 h
+Error processing evaluation for YOZQEK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OYIVEY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BUSRUE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOZFEJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUNWAZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ADASOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZUDQUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JUSBAC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: QIVZEC_clean, LLaMa 2 7B
+Label: {'additive': ['NaOH'], 'additive_cid': [14798], 'solvent': ['water', 'Deionized water', 'H2O', 'ethanol', 'Thanol', 'H C', 'S S'], 'solvent_cid': [962, 702], 'temperature': 100, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(NO3)2·6H', 'solvent': 'deionized water', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 30.0, 'time_unit': 'minutes'}
+duration [QIVZEC_clean] 0 != 72 | 30.0 minutes != 72 h
+Error processing evaluation for MITGIF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUVNAP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QOZWAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QUQHEQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DUJRAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for BADXAI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WODQUD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WEZCIO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VAXVEX_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUGKOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UZAFAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RESWUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: RUFZOJ_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['DMF', 'H2O', 'methanol', 'methyl alcohol', '67-56-1', 'wood alcohol', 'carbinol', 'Wood naphtha', 'Methylol', 'Methyl hydroxide', 'Methylalkohol', 'Monohydroxymethane', 'Alcohol, methyl', 'Alcool methylique', 'MeOH', 'Methyl hydrate', 'CH3OH', 'Metanolo', 'Alcool metilico', 'Metylowy alkohol', 'Freers Elm Arrester', 'Surflo-B17', 'Rcra waste number U154', 'Hydroxymethane', 'Wilbur-Ellis Smut-Guard', 'Metanol', 'Coat-B1400', 'Caswell No. 552', 'Metanol [Spanish]', 'Metanolo [Italian]', 'Alcohol,methyl', 'HSDB 93', 'Methylalkohol [German]', 'X-Cide 402 Industrial Bactericide', 'MetOH', 'NSC 85232', 'CCRIS 2301', 'Alcool metilico [Italian]', 'Metylowy alkohol [Polish]', 'Alcool methylique [French]', 'AI3-00409', 'Methyl alcohol [NF]', 'UN1230', 'CHEBI:17790', 'Pyro alcohol', 'Methanol cluster', 'RCRA waste no. U154', 'EINECS 200-659-6', 'UNII-Y4S76JWI15', 'NSC-85232', 'EPA Pesticide Chemical Code 053801', 'Y4S76JWI15', 'DTXSID2021731', 'MFCD00004595', '170082-17-4', 'DTXCID801731', 'METHYL ALCOHOL (METHANOL)', 'EC 200-659-6', 'Methanol, anhydrous', 'NSC85232', 'Methyl alcohol (NF)', 'NCGC00091172-01', 'Methanol; Methyl alcohol', 'METHYL ALCOHOL (MART.)', 'METHYL ALCOHOL [MART.]', 'CH4O', 'Methanol, for HPLC, >=99.9%', 'Methanol, ACS reagent, >=99.8%', 'Methanol, or methyl alcohol [UN1230]  [Flammable liquid, Poison]', 'Alcohol, Wood', 'CAS-67-56-1', 'ACETONE IMPURITY A (EP IMPURITY)', 'ACETONE IMPURITY A [EP IMPURITY]', 'MOH', 'Methylalcohol', 'methly alcohol', 'Primary alcohol', 'methanol-', 'Wood', 'Manhattan spirits', 'Secondary alcohol', 'secondary alcohols', 'a primary alcohol', 'Methanol LC-MS', 'a secondary alcohol', 'Methanol, for HPLC', 'Methanol-[17O]', 'Methanol, ACS Grade', 'Methanol, HPLC grade', 'Methanol, LCMS grade', 'METHANOL [MI]', 'methanol (methyl alcohol)', 'Methanol, Histology Grade', 'bmse000294', 'Epitope ID:116865', 'METHANOL [USP-RS]', 'METHANOL [WHO-DD]', "R-CHOH-R'", 'Methanol, or methyl alcohol', 'METHYL ALCOHOL [II]', 'Methanol, LR, >=99%', 'Methanol, SAJ special grade', 'Methanol, analytical standard', 'Methyl alcohol (DOT:OSHA)', 'METHYL ALCOHOL [FCC]', 'WLN: Q1', 'Methanol HPLC Gradient Grade', 'Methanol, Environmental Grade', 'CHEMBL14688', 'METHYL ALCOHOL [HSDB]', 'ALCOHOL,METHYL [VANDF]', 'Methanol, anhydrous, 99.8%', 'Methanol, p.a., 99.8%', 'Methanol, p.a., 99.9%', 'METHANOL [EP MONOGRAPH]', 'Methanol, AR, >=99.5%', 'METHYL ALCOHOL [USP-RS]', 'CHEBI:15734', 'CHEBI:35681', 'Methanol, NMR reference standard', 'Methanol, ultrapure, HPLC Grade', 'Methanol, 99.8%, ACS reagent', 'Methanol, anhydrous, >=99.5%', 'Methanol, low water for titration', 'Methanol, Absolute - Acetone free', 'Methanol, low benzene, HPLC grade', 'Methanol, HPLC gradient, 99.9%', 'Methanol, or methyl alcohol [UN1230] [Flammable liquid, Poison]', 'Methanol, for HPLC, >=99.8%', 'Methanol, PRA grade, >=99.9%', 'Tox21_111094', 'Tox21_202523', 'InChI=1/CH4O/c1-2/h2H,1H', 'Methanol, HPLC Plus, >=99.9%', 'AKOS000269045', 'Methanol, purification grade, 99.8%', '1ST6706', 'UN 1230', 'Methanol, UHPLC, for mass spectrometry', 'USEPA/OPP Pesticide Code: 053801', 'Methanol, >=99.8%, for chromatography', 'Methanol, SAJ first grade, >=99.5%', 'NCGC00260072-01', 'Methanol, JIS special grade, >=99.8%', 'Methanol, Laboratory Reagent, >=99.6%', 'Methanol, UV HPLC spectroscopic, 99.9%', 'Methanol, anhydrous, ZerO2(TM), 99.8%', 'Methanol, spectrophotometric grade, >=99%', 'M0097', 'M0628', 'Methanol, ultrapure, Spectrophotometric Grade', 'NS00001876', 'C00132', 'D02309', 'Methanol, for HPLC, gradient grade, 99.93%', 'Methanol, suitable for determination of dioxins', 'Q14982', 'Methanol solution 28.3% (w/w) aqueous solution', 'Methanol solution 87.7% (w/w) aqueous solution', 'Methanol, for HPLC, gradient grade, >=99.9%', 'Methanol, glass distilled HRGC/HPLC trace grade', 'Methanol, low benzene, ACS reagent, = 99.8%', 'Methanol, low benzene, ACS reagent, >=99.8%', 'Methanol, ACS spectrophotometric grade, >=99.9%', 'Methanol HPLC, UV-IR min. 99.9% isocratic grade', 'Methanol, BioReagent, suitable for protein sequencing', 'Methanol, for HPLC, gradient grade, >=99.8% (GC)', 'Q27115113', 'Methanol, Vetec(TM) reagent grade, anhydrous, >=99.8%', 'Moisture in methanol, 325 mg/kg, NIST(R) SRM(R) 8510', 'Moisture in methanol, 93 mg/kg, NIST(R) SRM(R) 8509', 'Methanol with 0.1% trifluoroacetic acid, tested for UHPLC-MS', 'Methanol, >=99.8%, suitable for absorption spectrum analysis', 'Methanol, semiconductor grade PURANAL(TM) (Honeywell 17824)', 'Methanol, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 99.9%', 'Methanol, puriss. p.a., absolute, ACS reagent, >=99.8% (GC)', 'Methanol, semiconductor grade VLSI PURANAL(TM) (Honeywell 17744)', 'Methanol, suitable for protein sequencing, BioReagent, >=99.93%', 'Methyl alcohol, United States Pharmacopeia (USP) Reference Standard', 'EPA Method 5035, High Level Amber Vial, P/T MeOH, Tared, 5 mL, 72/cs', 'Methanol, Pharmaceutical Secondary Standard; Certified Reference Material', 'Methanol, puriss., meets analytical specification of Ph Eur, >=99.7% (GC)', 'EPA Method 5035, High Level, P/T Methanol, 10 mL, smart delivery PFA Tube, 100/pk', 'EPA Method 5035, High Level, P/T Methanol, 5 mL, smart delivery PFA Tube, 100/pk', 'Methanol, for HPLC, gradient grade, suitable as ACS-grade LC reagent, >=99.9%', 'Methanol, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=99.8% (GC)', 'Residual Solvent Class 2 - Methanol, United States Pharmacopeia (USP) Reference Standard', 'JandaJel(TM)-OH, 100-200 mesh, extent of labeling: 1.0 mmol/g OH loading, 2 % cross-linked', 'JandaJel(TM)-OH, 200-400 mesh, extent of labeling: 1.0 mmol/g OH loading, 2 % cross-linked', 'JandaJel(TM)-OH, 50-100 mesh, extent of labeling: 1.0 mmol/g OH loading, 2 % cross-linked'], 'solvent_cid': [6228, 962, 887], 'temperature': 60, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Cu(NO3)6·3H', 'solvent': 'DMF', 'temperature': 50.0, 'temperature_unit': '°C', 'time': 2.0, 'time_unit': 'days'}
+duration [RUFZOJ_clean] 48 != 72 | 2.0 days != 72 h
+Error processing evaluation for RUFZOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for SOJTOC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUDVAV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TOFLAD_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REYBAA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: INOVEN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['ethanol', 'Thanol', 'S S', 'DMF'], 'solvent_cid': [702, 6228], 'temperature': 60, 'time': 168, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Gd(NO3)3·6H', 'solvent': 'ethanol', 'temperature': 60.0, 'temperature_unit': '°C', 'time': 1.0, 'time_unit': 'h'}
+duration [INOVEN_clean] 1 != 168 | 1.0 h != 168 h
+Error processing evaluation for INOVEN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QINSUD01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XIFLOP_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PARSAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUVBOB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIRWAR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GUSJOU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KETHEY02_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UXUYUI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HOFSUS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WUDJAI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IKUTOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JELPAS_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: IZEWAN_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['1,4-DIOXANE', 'Dioxane', 'Dioxan', '1,4-Dioxan', 'H2O'], 'solvent_cid': [31275, 962], 'temperature': 100, 'time': 48, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'Zn(OAc)2·2H', 'solvent': '1,4-dioxane/H', 'temperature': 100.0, 'temperature_unit': '°C', 'time': 10.0, 'time_unit': 'h'}
+duration [IZEWAN_clean] 10 != 48 | 10.0 h != 48 h
+Error processing evaluation for IZEWAN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for IYAKIE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: ALATAK_clean, LLaMa 2 7B
+Label: {'additive': None, 'solvent': ['water', 'H2O'], 'solvent_cid': [962], 'temperature': 60, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'calcium carbonate', 'solvent': 'water', 'temperature': 293.15, 'temperature_unit': 'Kelvin', 'time': 12.0, 'time_unit': 'hours'}
+duration [ALATAK_clean] 12 != 72 | 12.0 hours != 72 h
+Error processing evaluation for ALATAK_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DIMQIB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUGZAW_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XOPLUL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LELROL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for VOXQOQ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for MALWUU_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for YOZQAG_charged, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for PUZTOV_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QIYCAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for KAVNIH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ONODOM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HAFSOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HUVHIR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for HEKTUO01_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for DEJCEB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for GERWEH_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for QOJKAB_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RESWOC_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for XUBGUY_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NORJEL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAZHUR_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ZIDVAL_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for OBIBAF_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Processing: NAHHOW_clean, LLaMa 2 7B
+Label: {'additive': ['HCl'], 'additive_cid': [313], 'solvent': ['DMF', 'CH3CN', 'H2O'], 'solvent_cid': [6228, 6342, 962], 'temperature': 80, 'time': 72, 'temperature_unit': 'C', 'time_unit': 'h'}
+Answer: {'additive': 'H4L3', 'solvent': 'DMF/CH3CN/H2O', 'temperature': 353000.0, 'temperature_unit': 'K', 'time': 72000.0, 'time_unit': 'h'}
+duration [NAHHOW_clean] 72000 != 72 | 72000.0 h != 72 h
+Error processing evaluation for VOLPET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LAHTUM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FECYIX_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TAHYUZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for INIROO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for FUTTIZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for TEMPAE_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for EZIVAM_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for RUFDUT_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for INIRII_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ISUGIN_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UMIGAA_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for LARZEL_SL_part, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for REYMOZ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for AZAVOO_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for JEBCOJ_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for ANUGOG_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for UTULUR_SL_part, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for WUTCET_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+Error processing evaluation for NUCPEI_clean, LLaMa 2 7B: 'NoneType' object is not iterable
+{
+│   'Total': {
+│   │   'temperature': {'correct': 734, 'wrong': 44, 'unit': 7},
+│   │   'time': {'correct': 716, 'wrong': 62, 'unit': 15},
+│   │   'additive': {'correct': 1, 'wrong': 333, 'resolve_answer': 298},
+│   │   'solvent': {'correct': 200, 'wrong': 134, 'resolve_answer': 111}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 734, 'wrong': 44, 'unit': 7},
+│   │   'time': {'correct': 716, 'wrong': 62, 'unit': 15},
+│   │   'additive': {'correct': 1, 'wrong': 333, 'resolve_answer': 298},
+│   │   'solvent': {'correct': 200, 'wrong': 134, 'resolve_answer': 111}
+│   }
+}
+{'Total': {'temperature': {'correct': 734, 'wrong': 44, 'unit': 7}, 'time': {'correct': 716, 'wrong': 62, 'unit': 15}, 'additive': {'correct': 1, 'wrong': 333, 'resolve_answer': 298}, 'solvent': {'correct': 200, 'wrong': 134, 'resolve_answer': 111}}, 'LLaMa 2 7B': {'temperature': {'correct': 734, 'wrong': 44, 'unit': 7}, 'time': {'correct': 716, 'wrong': 62, 'unit': 15}, 'additive': {'correct': 1, 'wrong': 333, 'resolve_answer': 298}, 'solvent': {'correct': 200, 'wrong': 134, 'resolve_answer': 111}}}
+{
+│   'Total': {
+│   │   'temperature': {'correct': 0.9434447300771208, 'wrong': 0.056555269922879174, 'unit': 0.008997429305912597},
+│   │   'time': {'correct': 0.9203084832904884, 'wrong': 0.07969151670951156, 'unit': 0.019280205655526992},
+│   │   'additive': {'correct': 0.0029940119760479044, 'wrong': 0.9970059880239521, 'resolve_answer': 0.8922155688622755},
+│   │   'solvent': {'correct': 0.5988023952095808, 'wrong': 0.40119760479041916, 'resolve_answer': 0.3323353293413174}
+│   },
+│   'LLaMa 2 7B': {
+│   │   'temperature': {'correct': 0.9434447300771208, 'wrong': 0.056555269922879174, 'unit': 0.008997429305912597},
+│   │   'time': {'correct': 0.9203084832904884, 'wrong': 0.07969151670951156, 'unit': 0.019280205655526992},
+│   │   'additive': {'correct': 0.0029940119760479044, 'wrong': 0.9970059880239521, 'resolve_answer': 0.8922155688622755},
+│   │   'solvent': {'correct': 0.5988023952095808, 'wrong': 0.40119760479041916, 'resolve_answer': 0.3323353293413174}
+│   }
+}
+{'Total': {'temperature': {'correct': 0.9434447300771208, 'wrong': 0.056555269922879174, 'unit': 0.008997429305912597}, 'time': {'correct': 0.9203084832904884, 'wrong': 0.07969151670951156, 'unit': 0.019280205655526992}, 'additive': {'correct': 0.0029940119760479044, 'wrong': 0.9970059880239521, 'resolve_answer': 0.8922155688622755}, 'solvent': {'correct': 0.5988023952095808, 'wrong': 0.40119760479041916, 'resolve_answer': 0.3323353293413174}}, 'LLaMa 2 7B': {'temperature': {'correct': 0.9434447300771208, 'wrong': 0.056555269922879174, 'unit': 0.008997429305912597}, 'time': {'correct': 0.9203084832904884, 'wrong': 0.07969151670951156, 'unit': 0.019280205655526992}, 'additive': {'correct': 0.0029940119760479044, 'wrong': 0.9970059880239521, 'resolve_answer': 0.8922155688622755}, 'solvent': {'correct': 0.5988023952095808, 'wrong': 0.40119760479041916, 'resolve_answer': 0.3323353293413174}}}

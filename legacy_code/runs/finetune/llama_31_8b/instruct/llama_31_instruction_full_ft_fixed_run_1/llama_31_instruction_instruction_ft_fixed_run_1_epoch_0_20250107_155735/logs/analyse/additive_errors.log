@@ -1,0 +1,210 @@
+2025-01-07 16:00:05,039 - 
+Paragraph: IQECIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['Tetrafluoroboric acid', 'Fluoroboric acid', 'HBF4']
+Got empty answer
+Original text: CoSO4⋅7 H2O (0.029 g, 0.103 mmol), tpt (0.019 g, 0.061 mmol), and H3btb (0.021 g, 0.048 mmol) were added in the solvent mixture of N,N‐dimethylacetamide (DMA, 5 mL)/methanol (CH3OH, 5 mL)/1,4‐dioxane ...
+2025-01-07 16:00:05,040 - 
+Paragraph: IZEBEV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaHCO3']
+Got empty answer
+Original text: Synthesis of 1: A mixture of Cd(OAC)2·2H2O (0.5 mmol, 0.1333 g), H3L1 (0.2 mmol, 0.0632 g), NaHCO3 (0.5 mmol, 0.042 g) and H2O (12 ml) was sealed in a 23 ml Teflon–lined stainless steel reactor under ...
+2025-01-07 16:00:05,042 - 
+Paragraph: YEMJAC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HNO3', 'DIBUTYLAMINE']
+Got empty answer
+Original text: As a typical preparation procedure, a mixture of Dy(NO3)·nH2O (40 mg, 0.05 mmol) and H3BTC (10 mg, 0.05 mmol) was dissolved in DMF (10 mL) and ethanol (2 mL) at room temperature. Two drops of dibutyla...
+2025-01-07 16:00:05,042 - 
+Paragraph: EHUTAE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text: H4LV (50 mg, 0.078 mmol) and Cu(NO3)2·2.5H2O (145 mg, 0.622 mmol) were dissolved in a mixture of DMF (7.0 mL) and H2O (1.0 mL) in a pressure tube (15 mL). Upon addition of 6 M HCl (20 μL), the tube wa...
+2025-01-07 16:00:05,045 - 
+Paragraph: KUQWIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ethylenediamine', 'EN']
+Got empty answer
+Original text: A mixture of CdCl2·2.5H2O (0.11 g, 0.5 mmol) and H3L (0.13 g, 0.5 mmol) was dissolved in 10 mL distilled water. The pH value was adjusted to 7.0 by adding ethylenediamine solution dropwise. The result...
+2025-01-07 16:00:05,046 - 
+Paragraph: DUKMON_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text: A mixture of Co(Ac)2·4H2O (0.0498 g, 0.1 mmol), L (0.0446 g, 0.1 mmol), pbib (0.0476 g, 0.1 mmol), NaOH (0.0160 g, 0.4 mmol), and H2O (8 mL) was placed in a 25 mL Teflon-lined stainless steel containe...
+2025-01-07 16:00:05,046 - 
+Paragraph: PENXUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HYDROFLUORIC ACID', 'Hydrogen fluoride', '7664-39-3', 'Fluorhydric acid', 'fluorane', 'Hydrofluoride', 'Rubigine', 'Antisal 2B', 'Hydrofluoricum acidum', 'Fluorowodor', 'Fluorwaterstof', 'Fluorwasserstoff', 'Caswell No. 484', 'Acido fluoridrico', 'Hydrogen-fluoride', 'Acido fluorhidrico', 'Acide fluorhydrique', 'UN 1052 (anhydrous)', 'RCRA waste number U134', 'HSDB 546', 'CHEBI:29228', 'UNII-RGL5YE86CZ', 'RGL5YE86CZ', 'EINECS 231-634-8', "Fluorure d'hydrogene anhydre", 'Hydrogen fluoride, anhydrous', 'Fluoruro de hidrogeno anhidro', 'EPA Pesticide Chemical Code 045601', 'NSC-750679', 'Fluohydric Acid', 'EC 231-634-8', 'NSC 750679', '32057-09-3', 'Fluorowodor [Polish]', 'Hydrogenfluorid', 'Fluorwaterstof [Dutch]', 'HYDROFLUORIC ACID (MART.)', 'HYDROFLUORIC ACID [MART.]', 'hydrogenfluoride', 'Hydrogen fluoride (HF)', 'Fluorwasserstoff [German]', 'Hydrofluoric acid, ACS reagent, 48%', 'Acid, Fluohydric', 'Acid, Fluorhydric', 'Acido fluoridrico [Italian]', 'Acid, Hydrofluoric', 'Acide fluorhydrique [French]', 'Acido fluorhidrico [Spanish]', 'UN1052', 'UN1790', 'RCRA waste no. U134', "Fluorure d'hydrogene anhydre [French]", 'fluoroorganics', 'fluorum', 'Fluoruro de hidrogeno anhidro [Spanish]', 'fluoridohydrogen', 'hyrofluoric acid', 'Acidum Fluoricum', 'hydrogen flouride', "fluorure d'hydrogene", 'MFCD00011346', 'fluoroorganic compound', 'organofluorine compound', 'Hydrofluoric acid 70% by weight or more HF', 'fluororganische Verbindungen', 'Hydrofluoric acid, 55%, CP', 'HYDROFLUORIC ACID [MI]', 'HYDROGEN FLUORIDE [MI]', '[HF]', 'CHEMBL1232767', 'DTXSID1049641', 'HYDROFLUORIC ACID [HSDB]', 'CHEBI:37143', 'DTXSID60872462', 'HYDROFLUORIC ACID [VANDF]', 'Hydrogen fluoride/Hydrofluoric acid (conc 50% or greater)', 'Hydrofluoric acid, AR, >=40%', 'YCKRFDGAMUMZLT-UHFFFAOYSA-N', 'HYDROFLUORIC ACID [WHO-DD]', 'Hydrofluoric acid, LR, 39-43%', 'Hydrofluoric acid, SAJ first grade', 'HYDROFLUORICUM ACIDUM [HPUS]', 'BDBM50499187', 'Hydrofluoric acid, 48% ACS reagent', 'Hydrofluoric acid, JIS special grade', 'NSC750679', 'AKOS024438092', 'DB11072', 'Hydrofluoric acid, technical, 40-45%', '37249-79-9', 'FLUORINE, ISOTOPE OFMASS 18, AT.', 'Hydrofluoric acid, technical grade, 68.0%', 'NS00076201', 'Q2468', 'Hydrofluoric acid, with more than 60% strength', 'Hydrofluoric acid, with not more than 60% strength', 'Hydrogen fluoride, anhydrous [UN1052]  [Corrosive]', 'Hydrofluoric acid, for ultratrace analysis, 47-51% (T)', 'Hydrofluoric acid, 48 wt. % in H2O, >=99.99% trace metals basis', 'Hydrofluoric acid, electronic grade,49wt. % in H2O,99.99998%metals basis', 'Hydrofluoric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., >=40%', 'Hydrofluoric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17601)', 'Hydrofluoric acid, with more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, with not more than 60% strength [UN1790]  [Corrosive]', 'Hydrofluoric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 48.0-51.0%', 'Hydrofluoric acid, puriss. p.a., ACS reagent, reag. ISO, reag. Ph. Eur., >=48%', 'Hydrofluoric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17928), 49.5-50.5%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17735), 40-41%', 'Hydrofluoric acid, semiconductor grade PURANAL(TM) (Honeywell 17736), 49.5-50.5%', '12381-92-9']
+Got empty answer
+Original text: Synthesis of [H2N(CH2CH2)2NH2][V4O2F4(H2O)2{O3P(CH2)3PO3}2] (1). A mixture of NH4VO3 (0.219 g, 1.872 mmol), 1,3-propylenediphosphonic acid (0.192 g, 0.941 mmol), H2O (10.00 g, 556 mmol), piperazine (0...
+2025-01-07 16:00:05,047 - 
+Paragraph: BOPHIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['ammonium hydroxide', '1336-21-6', 'Ammonia aqueous', 'Ammonia water', 'Aquammonia', 'Aqua ammonia', 'Ammonia, aqua', 'Household ammonia', 'Ammonia, monohydrate', 'Ammonia water 29%', 'Ammoniumhydroxid', 'Caswell No. 044', 'Ammonium hydroxide ((NH4)(OH))', 'SX 1 (ammonia water)', 'ammoniaque', 'SX 1', 'NH4OH', 'HSDB 5125', 'agua de amoniaco', 'EINECS 215-647-6', 'hidroxido de amonio', "hydroxyde d'ammonium", 'EPA Pesticide Chemical Code 005301', 'DTXSID4020080', 'CHEBI:18219', 'EC 215-647-6', 'MFCD00066650', 'E527', 'ammoniumhydroxide', 'Ammonia, aqueous', 'Hydroxide, Ammonium', 'Ammonia water [JAN]', 'UN2672', 'UN3318', 'NH(4)OH', 'ammonia hydrate', 'water ammonia', 'ammonium hydoxide', 'ammonium hydroxid', 'ammonium hyroxide', 'amonium hydroxide', 'ammonium hydorxide', 'amrnonium hydroxide', 'NH3 water', 'water NH3', 'UN2073', 'Ammonia water (TN)', 'Ammonium aqueous (28% or less NH3)', 'AMINE HYDRATE', 'Ammonia solution 25%', 'Ammonium hydroxide (28% or less ammonia)', 'Ammonia water (JP18)', 'DTXCID8080', 'NH3 H2O', 'NH3-H2O', 'NH3.H2O', 'Ammonium hydroxide, 25% NH3', 'AMMONIUM HYDROXIDE (II)', 'Ammonia (ammonium hydroxide) 28% by weight or more NH3', 'VHUUQVKOLVNVRT-UHFFFAOYSA-N', 'AKOS015903971', 'AKOS030228272', 'NS00075653', 'C01358', 'D04594', 'J-006420', 'Ammonia Water; Ammonia, Aqua; Ammonia, Monohydrate; Aqua AmmoniaSX 1; SX 1 (Ammonia Water);']
+Got empty answer
+Original text: A mixture of CdBr2 (0.138 g, 0.4 mmol), H4tpta (0.041 g, 0.1 mmol), NH3·H2O (0.1 mL/5 M, 0.5 mmol), and DMF (3 mL) was stirred, then sealed in a 15 mL Teflon-lined stainless autoclave at 130 °C for 6 ...
+2025-01-07 16:00:05,048 - 
+Paragraph: ILOTOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text: A mixture of Co(NO3)2·3H2O (0.025 g, 0.11 mmol), 1,3-bis(4-carboxy-phenoxy)propane (H2bcp) (0.032 g, 0.1 mmol), CH3OH (2 mL), CH3CN (1 mL), and NaOH (0.5 M, 0.4 mL) and deionized water (8 mL) was stir...
+2025-01-07 16:00:05,048 - 
+Paragraph: KIVSUF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['TRIETHYLAMINE', 'Triethylamin']
+Got empty answer
+Original text: Synthesis of {[Cu2(H2O)2(mtz)(μ3‐OH)(nip)]·H2O}n (1): CuSO4·5H2O (58.5 mg, 0.25 mmol), H2nip (42.0 mg, 0.2 mmol), and Hmtz (25.2 mg, 0.3 mmol) were dissolved in doubly deionized water (10.0 mL) and th...
+2025-01-07 16:00:05,050 - 
+Paragraph: IPIHIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   A solution of H4btec (0.10 mmol) in 5 mL H2O was adjusted to pH 6 with a dilute NaOH solution. Then Cd(NO3)2·4H2O (0.20 mmol) in 5 mL H2O and obtz (0.20 mmol) in 5 mL MeOH were added with stirred. T...
+2025-01-07 16:00:05,051 - 
+Paragraph: XUKNIC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NITRIC ACID']
+Got empty answer
+Original text: Synthesis of 1: A mixture of Zn(NO3)2·6H2O (0.2 mmol, 0.060 g), H3L (0.1 mmol, 0.026 g), concentrated nitric acid (2 drops) and H2O (5 ml) was sealed in a small vial, which was kept at 110 °C for 80 h...
+2025-01-07 16:00:05,052 - 
+Paragraph: PUWXAH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   A mixture of H3btc (0.84 g, 4 mmol) and NaOH (0.48 g, 12 mmol) in 10 ml distilled water was stirred for 1 h, followed by addition of a solution of MnCl2·H20 (0.25 g, 1.26 mmol) in 5 ml H2O. The resu...
+2025-01-07 16:00:05,052 - 
+Paragraph: AVETEC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text:   A mixture of Cd(NO3)2·4H2O (0.02 mmol, 6.1 mg), H6L2 (0.01 mmol, 4.8 mg), HCl (0.15 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 90 °C for 7...
+2025-01-07 16:00:05,052 - 
+Paragraph: TUBJAD_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text: Cu(NO3)2·2.5H2O (88 mg, 0.38 mmol), isophthalic acid (63 mg, 0.38 mmol), 3-pmna (78 mg, 0.38 mmol) and 0.50 mL of a 1.0 M NaOH solution were placed into 10 mL distilled H2O in a Teflon-lined acid dige...
+2025-01-07 16:00:05,053 - 
+Paragraph: ACUJOZ_manual
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text: A mixture of H4TSTC (0.0357 g, 0.1 mmol), CrCl2 (0.0123 g, 0.1 mmol), Cu(NO3)2·3H2O (0.0241 g, 0.1 mmol), NaOH (0.0160 g, 0.1 mmol), water (5 mL) and DMF (10 mL) was sealed in a 25 mL stainless steel ...
+2025-01-07 16:00:05,054 - 
+Paragraph: QOZPEC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HBF4']
+Got empty answer
+Original text: The mixture of H2L (21 mg, 0.054 mmol), CdCl2·2.5H2O (30 mg, 0.13 mmol) and 40% HBF4 (20 drops) in the mixture of DMF (10 ml), H2O (1 ml) and MeOH (1 ml) were placed in a small vial and heated at 65 °...
+2025-01-07 16:00:05,055 - 
+Paragraph: XASPEP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HBF4']
+Got empty answer
+Original text: Synthesis of [Me2NH2][Zn3(μ3‐OH)(BTC)2DMF]·H2O (FJI‐5): H3BTC (0.10 mmol, 21 mg) and Zn(NO3)2·6H2O (0.1 mmol, 20 mg) were placed in a 23 mL glass vial with 5 mL DMF and an additional HBF4 (0.1 mL, HBF...
+2025-01-07 16:00:05,055 - 
+Paragraph: SODQOT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HNO3']
+Got empty answer
+Original text:   In a typical synthesis 45.0 mg (0.197 mmol) of 2-fluoro-1,3,5-benzenetricarboxylic acid were dissolved in 4 mL of DMA including 0.28 mL of HNO3 (20%). Afterwards 0.4 mL of a Cu(NO3)2·3H2O solution (...
+2025-01-07 16:00:05,056 - 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HClO4']
+Got empty answer
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 16:00:05,056 - 
+Paragraph: TORXIJ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   A mixture containing Htz (14.0 mg, 0.2 mmol) and CuCl2·2H2O (34.0 mg, 0.2 mmol) was dissolved in a mixed methanol–water solution (v:v = 4:1, 10.0 mL), and the initial pH value of the mixture was adj...
+2025-01-07 16:00:05,057 - 
+Paragraph: ODEZAB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text:   In a 20 ml glass vial, the organic linker H4DTPD (10 mg, 0.0194 mmol) was dissolved in 12.85 mL of N,N-dimethyl formamide (DMF). Then, Cu(NO3)2·2.5H2O (20 mg, 0.086 mmol) and 2.15 mL of H2O were add...
+2025-01-07 16:00:05,057 - 
+Paragraph: ILOJEZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   The mixture of Zn(NO3)2·6H2O (0.0297 g, 0.1 mmol), H4btec (0.0254 g, 0.1 mmol) and btmb (0.0316 g, 0.1 mmol) was dissolved in 12 mL of distilled water. The pH value was then adjusted to 6.0 with 1 M...
+2025-01-07 16:00:05,059 - 
+Paragraph: CAYQIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text: A mixture of L1-H8 (1 mg, 0.91 μmol) and Cu(ClO4)2·6H2O (1.35 mg, 3.65 μmol) was dissolved in a solvent mixture of DEF (0.3 mL), H2O (0.025 mL), and 1 M HCl (10 μL) in a screw-capped vial. The resulti...
+2025-01-07 16:00:05,059 - 
+Paragraph: RUVKAV_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HNO3']
+Got empty answer
+Original text: Cu(NO3)2·3H2O (10 mg, 0.040 mmol), H4BDDC (5 mg, 0.013 mmol), DMF (1 mL), EtOH (0.5 mL), H2O (0.5 mL), and HNO3 (0.2 mL, 2.7 M in DMF) were added to a 20 mL vial; then the solution was heated to 85 °C...
+2025-01-07 16:00:05,060 - 
+Paragraph: BIHMUC_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   A mixture containing CoCl2·6H2O (0.0476 g, 0.2 mmol), L (0.0 32 g, 0.1 mmol) and H3BTC (0.032 g, 0.15 mmol) was dissolved in 8 mL of H2O. The pH value was adjusted to about 7 with 0.1 M NaOH solutio...
+2025-01-07 16:00:05,062 - 
+Paragraph: OHIHET_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text:   A mixture of HL (0.042 g, 0.20 mmol), Zn(NO3)2·6H2O (0.030 g, 0.10 mmol), NaOH (0.008 g, 0.20 mmol), and H2O (10 mL) (pH = 8.5) was kept in a 15 mL Teflon liner autoclave at 100 °C for 3 d. After th...
+2025-01-07 16:00:05,062 - 
+Paragraph: YUGLES_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HNO3']
+Got empty answer
+Original text: ‡ Synthesis of MOF1: H4EBTC (5.0 mg, 0.014 mmol), Cu(NO3)2·3H2O (15 mg, 0.06 mmol), DMF (0.2 mL), DMSO (0.2 mL) and HNO3 (0.060 mL, 1.0 M in DMF) were placed in a 8 mL glass vial, which was sealed and...
+2025-01-07 16:00:05,063 - 
+Paragraph: QUTDAM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text:   A mixture of Cu(NO3)2·2H2O (0.022 g, 0.12 mmol), H4L (0.016 g, 0.04 mmol) in DMF/EtOH/H2O (2:1:1 v/v/v, 15 mL) was sealed in a 25 mL Teflon-lined stainless steel container. The resulting blue-green ...
+2025-01-07 16:00:05,063 - 
+Paragraph: NAYZUK_SL
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NaOH']
+Got empty answer
+Original text: Preparation of In(OH)(1,4-NDC) 2H2O (1). Compound 1 was obtained by solvothermal reaction of mixture of 1.4-NDC (0.08 g, 0.37 mmol), InCl3·4H2O (0.05 g, 0.17 mmol), NaOH (0.3 ml, 1 mol/l), H2O (3 ml),...
+2025-01-07 16:00:05,064 - 
+Paragraph: LIKDOA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text: Synthesis of [Cu3(L2)2(H2O)3]⋅5 DMF⋅6.5 H2O (ZJU‐36): H3L2 (20 mg, 0.076 mmol), Cu(NO3)2⋅3H2O (40 mg, 0.17 mmol), 0.1 M HCl (5.4 mL), DMF (20 mL), and H2O (4 mL) were mixed and heated at 65 °C for two...
+2025-01-07 16:00:05,064 - 
+Paragraph: NEFTUP_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['NITRIC ACID', '7697-37-2', 'Azotic acid', 'Salpetersaeure', 'Aqua fortis', 'Hydrogen nitrate', 'Red fuming nitric acid', 'Nital', 'Acide nitrique', 'Acidum nitricum', 'Nitricum acidum', 'Nitrous fumes', 'Nitryl hydroxide', 'HNO3', 'Salpetersaure', 'RFNA', 'Acido nitrico', 'Azotowy kwas', 'Kyselina dusicne', 'Salpeterzuuroplossingen', 'Nitric acid, anhydrous', 'acide azotique', 'HONO2', 'HSDB 1665', 'Medullipin II', 'trioxonitric acid', 'Nitric acid (red fuming)', 'EINECS 231-714-2', 'UNII-411VRN1TV4', 'MFCD00011349', 'Nitric acid [NF]', '411VRN1TV4', 'CHEBI:48107', 'hydroxidodioxidonitrogen', '12033-49-7', '78989-43-2', 'NITRIC ACID 65%', 'CHEMBL1352', 'NITRIC ACID (15N)', 'DTXSID5029685', 'EC 231-714-2', 'Nitric acid (NF)', "4,4-Dioctyl-cyclopenta[2,1-b :3,4-b' ]dithiophene", 'Nitric Acid (65%)', 'Nitric Acid (70%)', "Engraver's acid", 'NITRIC ACID (II)', 'NITRIC ACID [II]', 'NITRIC ACID (MART.)', 'NITRIC ACID [MART.]', '122392-03-4', '309963-65-3', '(NO2(OH))', '[NO2(OH)]', 'Azotowy kwas [Polish]', 'Nitric acid, ACS reagent, 70%', 'Salpetersaure [German]', 'Nitrate radical', 'NITRIC ACID (EP MONOGRAPH)', 'NITRIC ACID [EP MONOGRAPH]', 'Engravers acid', 'Acide nitrique [French]', 'Acido nitrico [Italian]', 'Acido nitrico [Spanish]', 'Kyselina dusicne [Czech]', 'Nitric acid, ACS reagent, >=90.0%', 'Salpeterzuuroplossingen [Dutch]', 'Nitric acid (conc 80% or greater)', 'UN2031', 'UN2032', 'nitroalcohol', 'nitro-alcohol', 'Nitric acid (70% or less)', 'Nitro Alcohol', 'nitric -acid', 'Nitrosonitric acid', 'Nitric acid (greater than 70%)', 'Nitric Acid Blank', 'NO3 anion', 'Nitric acid, ACS', 'Nitric acid, 1 M', 'Nitric acid, 65%', 'Nitric acid, 68%', 'Nitricum acidum 30C', 'Nitricum acidum 200C', 'Nitric acid (38%)', 'Nitric acid (67%)', 'Nitric acid, red fuming', 'Nitric acid, 0.1 M', 'NITRIC ACID [MI]', 'hydrogen trioxonitrate(1-)', 'Nitric acid, 65-70%', 'NITRIC ACID [HSDB]', 'WLN: PR N-O3X3', 'Nitric acid, p.a., 65%', 'NITRIC ACID [WHO-DD]', 'Nitric acid (HNO3) 94.5% by weight or more HNO3', 'NITRICUM ACIDUM [HPUS]', 'DTXCID509685', 'Nitric acid, 90% ACS Grade', 'Nitric acid, fuming, 99.5%', 'Nitric acid, AR, 69-72%', 'Nitric acid, gallium salt ( )', 'Nitric acid, LR, 69-72%', 'DTXSID201316935', 'Nitric acid, puriss., 64-66%', 'Nitric acid, reagent grade, >90%', 'BDBM50152970', 'AKOS015833449', 'Nitric acid, technical grade, 50.0%', 'Nitric acid other than red fuming with >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, extra pure, 69.0-71.0%', 'Nitric acid, red, fuming, HNO3 >90 %', 'Nitric acid, reagent grade, fuming, >90%', 'Nitrogen hydroxideoxide (N(OH)2O) (9CI)', 'N0806', 'Nitric acid, puriss. p.a., >=65% (T)', 'NS00010065', 'C00244', 'D02313', 'Q83320', 'Nitric acid, 70%, purified by double-distillation', 'Nitric acid, p.a., ACS reagent, 68.0-70.0%', 'Nitric acid, red fuming [UN2032]  [Corrosive]', 'Q27110015', 'Nitric acid other than red fuming with >70% nitric acid', '2,3,9,10,16,17-Hexachlorinated boron subphthalocyanine', 'Nitric acid, SAJ first grade, 69-70%, density: 1.42', '3088A493-74F8-4D19-8ABC-E572420B5F29', 'Nitric acid other than red fuming with not >70% nitric acid', 'Nitric acid, JIS special grade, 60.0-61.0%, density: 1.38', 'Nitric acid, JIS special grade, 65.0-66.0%, density: 1.40', 'Nitric acid, JIS special grade, 69.0-70.0%, density: 1.42', 'Nitric acid, puriss. p.a., ACS reagent, fuming, >=99.5%', 'Nitric acid, puriss. p.a., ACS reagent, reag. ISO, >=69%', 'Nitric acid, SAJ first grade, 60.0-62.0%, density: 1.38', 'Nitric acid, SAJ first grade, 65.0-66.0%, density: 1.40', 'Nitric acid, 68-70%, Certified ACS Plus Grade Trace metal analyzed', 'Nitric acid, JIS special grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, SAJ first grade, >=97.0%, fuming, density: 1.52', 'Nitric acid, 60.0-62.0%, SAJ super special grade, density: 1.38', 'Nitric acid, JIS special grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, puriss. p.a., 65% (Hg <=0.0000005%), >=65% (T)', 'Nitric acid, SAJ first grade, 90.0-94.0%, fuming, density: 1.50', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17818), >=65%', 'Nitric acid, semiconductor grade PURANAL(TM) (Honeywell 17952), >=69%', 'Nitric acid other than red fuming with not >70% nitric acid [UN2031]  [Corrosive]', 'Nitric acid, 60.0-62.0%, suitable for determination of toxic metals, density: 1.38', 'Nitric acid, 70%, purified by redistillation, >=99.999% trace metals basis', 'Nitric acid, p.a., ACS reagent, reag. ISO, reag. Ph. Eur., 68.5-69.5%', 'Nitric acid, semiconductor grade MOS PURANAL(TM) (Honeywell 17920), >=69%', 'Nitric acid, semiconductor grade VLSI PURANAL(TM) (Honeywell 17512), 69-71%', 'Nitric acid, 70%, meets analytical specification of BP, Ph??Eur, Ph??Fran??, USP, FCC, E339', 'Nitric acid, puriss. p.a., reag. ISO, reag. Ph. Eur., for determinations with dithizone, >=65%', 'Nitric acid, purum p.a., fuming, packed in coated, shock- and leak-protected glass bottle, >=99% (T)']
+Got empty answer
+Original text: Synthesis of 1 (Solvothermal Method): A mixture of Co(NO3)2·6H2O (0.12 mmol, 35 mg), NaN3 (0.2 mmol, 13 mg), and bib (0.1 mmol, 21 mg) was suspended in the solvent mixture (H2O/CH3OH = 3:4, 12 mL). Af...
+2025-01-07 16:00:05,066 - 
+Paragraph: WISVEB_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HNO3']
+Got empty answer
+Original text: Synthesis: A mixture of H4ABTC (8.95 mg, 0.025 mmol), Cd(NO3)2·4H2O (18.5 mg, 0.06 mmol), L‐glutamic acid (14.7 mg, 0.1 mmol), 0.5 mL H2O, a few drops of HNO3 (2.5 M), and 2 mL DMA was stirred for 20 ...
+2025-01-07 16:00:05,067 - 
+Paragraph: AVESOL_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text:   A mixture of Zn(NO3)2·6H2O (0.045 mmol, 13.4 mg), H5L1 (0.018 mmol, 8.1 mg), HCl (0.15 mL, 1 mol L−1) and DMF/H2O (6 mL, 5/1, v/v) was sealed in a 23 mL Teflon-lined autoclave and heated at 90 °C fo...
+2025-01-07 16:00:05,067 - 
+Paragraph: RAHPAT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected one of: ['HCl']
+Got empty answer
+Original text: Preparation of [Cu3(C36H13NO12)(H2O)3]⋅9 DMF⋅18 H2O (NOTT‐114): H6L (0.1 g, 0.15 mmol) and Cu(NO3)2⋅3 H2O (0.28 g, 1.2 mmol) were mixed and dispersed in DMF/H2O (60 mL, 5:1 v/v). HCl (2 M, 0.3 mL) was...

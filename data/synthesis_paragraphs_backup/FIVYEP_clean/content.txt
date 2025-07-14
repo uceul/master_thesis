@@ -1,0 +1,21 @@
+† Preparation of [K2Mg2{U2(C2O4)7}·2H2O];9H2O: K4U(C2O4)4 was synthesized in situ from U(C2O4)2·6H2O (0.2 g, 0.4 mmol) and K2(C2O4)·H2O (0.15 g, 0.8 mmol) in H2O (12 mL) at 80 °C. To the hot green solution, a solution of Mg(ClO4)2·6H2O (0.15 g, 0.4 mmol) in H2O (2 mL) was added. The reaction mixture was allowed to cool, and ethanol was added by vapor diffusion. After 7 days green crystals were obtained that were manually separated from precipitated white magnesium oxalate and light-green uranium oxalate. Anal. (%) Calcd. for C14H22O39K2Mg2U2: C, 11.87; H, 1.56; Mg, 3.43; U, 33.59. Found: C, 11.81; H, 1.36; Mg, 3.11; U, 34.01. IR (KBr, cm−1): 3397 (s), 1667 (s), 1633 (s), 1443 (m), 1372 (m), 1323 (m), 830 (m), 490 (m). Crystal data: C14H22O39K2Mg2U2, Mr
+= 1417.20 g mol−1, crystal dimension 0.34 × 0.30 × 0.20 mm3, monoclinic, space group C2/m, a
+= 20.437(3)
+Å, b
+= 12.841(4)
+Å, c
+= 14.614(5)
+Å, β
+= 94.52(6)°, V
+= 3823.4(1)
+Å3, Z
+= 4, ρcalcd.
+= 2.462 g cm−3, F(000)
+= 2656, μ(MoKα)
+= 8.838 mm−1, T
+= 298 K, 2θmax
+= 72.6°. A total of 22286 reflections were collected in the range of 4.1°
+≤
+θ
+≤ 36.3° of which 9529 were unique reflections and 6805 with (I > 4σ(I)) were collected for the analysis. The H atoms have been included in theoretical positions but not refined. The final indices were R1 = 0.052, Rw2 = 0.142 with S
+= 1.082. CCDC 246085. See http://www.rsc.org/suppdata/cc/b4/b414190c/ for crystallographic data in .cif or other electronic format. These data can be obtained online free of charge viahttp://www.ccdc.cam.ac.uk/conts/retrieving.html or from the Cambridge Crystallographic Data Centre, 12, Union Road, Cambridge CB2 1EZ, UK; fax: (+44) 1223-336-033; or deposit@ccdc.cam.ac.uk.

@@ -1,0 +1,42 @@
+2025-01-06 11:35:48,537 - 
+Paragraph: IPIHIA_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 160°C (160.0 C)
+Got: 20°C (20.0 C)
+Original text:   A solution of H4btec (0.10 mmol) in 5 mL H2O was adjusted to pH 6 with a dilute NaOH solution. Then Cd(NO3)2·4H2O (0.20 mmol) in 5 mL H2O and obtz (0.20 mmol) in 5 mL MeOH were added with stirred. T...
+2025-01-06 11:35:48,537 - 
+Paragraph: ILAGUY_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 25°C (25.0 C)
+Original text: Cd(ClO4)2·6H2O (75 mg, 0.18 mmol), 3-bpmp (99 mg, 0.37 mmol) and diphenic acid (44 mg, 0.18 mmol) were placed into 5 mL distilled H2O in a 15 mL screw-cap vial. The vial was sealed and heated in an oi...
+2025-01-06 11:35:49,548 - 
+Paragraph: PUWXAH_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 220°C (220.0 C)
+Got: 25°C (25.0 C)
+Original text:   A mixture of H3btc (0.84 g, 4 mmol) and NaOH (0.48 g, 12 mmol) in 10 ml distilled water was stirred for 1 h, followed by addition of a solution of MnCl2·H20 (0.25 g, 1.26 mmol) in 5 ml H2O. The resu...
+2025-01-06 11:35:51,925 - 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 90°C (90.0 C)
+Got: 5°C (5.0 C) (Which appears in text!)
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-06 11:35:52,584 - 
+Paragraph: HAFSOZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 95°C (95.0 C)
+Got: 25°C (25.0 C)
+Original text:   Zn(NO3)2·6H2O (30 mg, 0.1 mmol), HO-H3BTC (11 mg, 0.05 mmol), and 4,4′-bipyridine (7.8 mg, 0.05 mmol) were dissolved in 4 mL of mixed solvent of DMA and H2O (1:1, v/v) in a 10 mL glass vial. After t...
+2025-01-06 11:35:53,960 - 
+Paragraph: HOZFIN_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 24°C (24.0 C)
+Original text: A solution of LiOH·H2O (20 mg, 0.48 mmol) in 1.0 mL of cellosolve was added to a 1,2,4-benzenetricarboxylic acid (80 mg, 0.38 mmol) dissolved in 1.0 mL of 1,4-dioxane. The resultant solution was seale...
+2025-01-06 11:35:54,299 - 
+Paragraph: IVARUT_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 80°C (80.0 C)
+Got: 25°C (25.0 C)
+Original text: CdCl2·6H2O (52 mg, 0.18 mmol), bpmp (99 mg, 0.37 mmol), 1,4-phenylenedipropionic acid (44 mg, 0.18 mmol), and 5 mL deionized water were placed into a 15 mL screw-cap vial. The vial was sealed and heat...

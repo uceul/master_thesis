@@ -1,0 +1,18 @@
+2025-01-06 11:30:20,250 - 
+Paragraph: IQECIS_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 120h (120.0 h)
+Got: 180h (180.0 h)
+Original text: CoSO4⋅7 H2O (0.029 g, 0.103 mmol), tpt (0.019 g, 0.061 mmol), and H3btb (0.021 g, 0.048 mmol) were added in the solvent mixture of N,N‐dimethylacetamide (DMA, 5 mL)/methanol (CH3OH, 5 mL)/1,4‐dioxane ...
+2025-01-06 11:30:25,624 - 
+Paragraph: DEGPEL_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 120h (120.0 h)
+Got: 2880h (120.0 days) - Wrong unit (hours)
+Original text: (c) [Cu2(μ3-trz)(μ3-Cl)2] (3). A mixture of CuCl2·2H2O (0.34 g, 1.0 mmol) and 1,2,4-triazole (0.069 g, 2.0 mmol) in 10 mL of H2O was introduced into a Parr Teflon-lined stainless steel vessel (25 cm3)...
+2025-01-06 11:30:26,309 - 
+Paragraph: GUJREK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 5h (5.0 h)
+Got: 6h (6.0 h)
+Original text: The ∞3[Cu2ICu2II{H2O}2{(Me–trz–mba)2thio}2]Cl2 MOF samples were synthesized using solvothermal synthesis with H2O/MeCN (water/acetonitrile, volume ratio 1:1) as a solvent. A Teflon beaker was loaded w...

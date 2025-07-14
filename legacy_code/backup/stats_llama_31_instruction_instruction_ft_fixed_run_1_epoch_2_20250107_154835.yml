@@ -1,0 +1,702 @@
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 344.52
+    temperature_unit: ''
+    time: 120.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IQECIS_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 24228.0
+    temperature_unit: ''
+    time: 5496443.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: XUDVAV_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 160.0
+    temperature_unit: ''
+    time: 212341.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IZEBEV_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 803.0
+    temperature_unit: ''
+    time: 120.31224
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAGQET_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 22143.0
+    temperature_unit: ''
+    time: 85.315
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAWKII_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2483243.0
+    temperature_unit: ''
+    time: 344323.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TEVHEJ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 23.0
+    temperature_unit: ''
+    time: 20053833.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: YEMJAC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 545435.0
+    temperature_unit: ''
+    time: 323321.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: EHUTAE_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 237272853.0
+    temperature_unit: ''
+    time: 5313248.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: XOTSIK_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 100.384
+    temperature_unit: ''
+    time: 95.015
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: UZAFIL_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 34356.0
+    temperature_unit: ''
+    time: 143853.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LUMZEA_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2.4353
+    temperature_unit: ''
+    time: 2455224.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LOMMIL_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 13.42
+    temperature_unit: ''
+    time: 3224821.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: KUQWIE_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 145.48
+    temperature_unit: ''
+    time: 16033354.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NORJEL_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 43.0
+    temperature_unit: ''
+    time: 7251314.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: KUSQUM_clean
+- answer:
+    additive: ''
+    solvent: 'assistant
+
+
+      water'
+    temperature: 2433355.0
+    temperature_unit: ''
+    time: 3.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: DUKMON_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2344.0
+    temperature_unit: ''
+    time: 120434482.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: PENXUC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 24.3514
+    temperature_unit: ''
+    time: 235482.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: BOPHIZ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 1503.0
+    temperature_unit: ''
+    time: 8857231.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ILOTOT_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 8537.0
+    temperature_unit: ''
+    time: 150.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: KIVSUF_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 3223.4
+    temperature_unit: ''
+    time: 16835513.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: CAHQAG_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 12034533.0
+    temperature_unit: ''
+    time: 168.482
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAFGOR_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 8332.0
+    temperature_unit: ''
+    time: 96.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: YODRAM_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 232142.0
+    temperature_unit: ''
+    time: 83124.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NEKMUN_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 852233.0
+    temperature_unit: ''
+    time: 1505348385.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: MAZSUD_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 16033484.0
+    temperature_unit: ''
+    time: 120472334.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IPIHIA_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 4833313.0
+    temperature_unit: ''
+    time: 4321632.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ILAGUY_charged
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 343.32
+    temperature_unit: ''
+    time: 2483302.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: XUKNIC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 1103235.0
+    temperature_unit: ''
+    time: 12034523.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TETZEZ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 332345.0
+    temperature_unit: ''
+    time: 4848112.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: PUWXAH_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 232134.0
+    temperature_unit: ''
+    time: 204355.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: AVETEC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 4.38
+    temperature_unit: ''
+    time: 4428025.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TUBJAD_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 841.0
+    temperature_unit: ''
+    time: 2224596.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: SONTIZ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 4329634.0
+    temperature_unit: ''
+    time: 72441721.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: PUWCOZ_clean
+- answer:
+    additive: ''
+    solvent: 'assistant
+
+
+      DMA'
+    temperature: 432842.0
+    temperature_unit: ''
+    time: 727218.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ACUJOZ_manual
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 34.5272
+    temperature_unit: ''
+    time: 5216.13
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: QOZPEC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 3.2488
+    temperature_unit: ''
+    time: 8038322.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: BAZFUF_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 83243.0
+    temperature_unit: ''
+    time: 90396033.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LUCKAX_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2235720.0
+    temperature_unit: ''
+    time: 0.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: XASPEP_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 585.543
+    temperature_unit: ''
+    time: 85.016
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: SODQOT_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 154.2
+    temperature_unit: ''
+    time: 333.41
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ELOZIQ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 833.2102
+    temperature_unit: ''
+    time: 8023342.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IZEFEZ_charged
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 283234.0
+    temperature_unit: ''
+    time: 2722723.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TORXIJ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 34834854.0
+    temperature_unit: ''
+    time: 7243522.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ODEZAB_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 244.0
+    temperature_unit: ''
+    time: 835434.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HUVNAP_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 54.3483
+    temperature_unit: ''
+    time: 160.012
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LAHTUM_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 1425854.0
+    temperature_unit: ''
+    time: 10224533.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ILOJEZ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 33.433
+    temperature_unit: ''
+    time: 0.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: GOBTAT_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 851242.0
+    temperature_unit: ''
+    time: 8372312.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: GEVYEN_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 44852248.0
+    temperature_unit: ''
+    time: 21321501.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HAFSOZ_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 3.3296
+    temperature_unit: ''
+    time: 3218248.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: CAYQIE_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 202330.0
+    temperature_unit: ''
+    time: 1202802182.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: RUVKAV_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 431.34
+    temperature_unit: ''
+    time: 334815.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: RESWOC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 148130.0
+    temperature_unit: ''
+    time: 12.254
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: KUKQAK_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 834.53
+    temperature_unit: ''
+    time: 2382200.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: BIHMUC_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 95.833
+    temperature_unit: ''
+    time: 332483.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: VEMDAT_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 5322418.0
+    temperature_unit: ''
+    time: 2222725.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: WEZCIO_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 33325.0
+    temperature_unit: ''
+    time: 0.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: MATPUV_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 43312043.0
+    temperature_unit: ''
+    time: 10043533.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: DOKHOB_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 142332.0
+    temperature_unit: ''
+    time: 2527282.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: OHIHET_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 854032.0
+    temperature_unit: ''
+    time: 828222.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: YUGLES_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 96.216
+    temperature_unit: ''
+    time: 23726583.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: PUWDAM_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2243025.0
+    temperature_unit: ''
+    time: 8.8224
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: DEGPEL_charged
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 245242.0
+    temperature_unit: ''
+    time: 3185534.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: QUTDAM_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 3854314.0
+    temperature_unit: ''
+    time: 7224311212.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAYZUK_SL
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 134455.0
+    temperature_unit: ''
+    time: 233224.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LIKDOA_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 212031.0
+    temperature_unit: ''
+    time: 12034823.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NEFTUP_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 22.0
+    temperature_unit: ''
+    time: 85.432
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: GUJREK_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 3343.3
+    temperature_unit: ''
+    time: 120.012
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: WUDJAI_clean
+- answer:
+    additive: ''
+    solvent: 'assistant
+
+
+      H3O'
+    temperature: 18.0
+    temperature_unit: ''
+    time: 233853.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HOZFIN_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 313758.0
+    temperature_unit: ''
+    time: 7233413.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IVARUT_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 853262.0
+    temperature_unit: ''
+    time: 3135.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: WISVEB_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 2.53485
+    temperature_unit: ''
+    time: 224552.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HUVHIR_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 348480.0
+    temperature_unit: ''
+    time: 85.513
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: UKOLOV_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 0.0
+    temperature_unit: ''
+    time: 80296522.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: SAYKIO_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 22.28
+    temperature_unit: ''
+    time: 203323.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: AVESOL_clean
+- answer:
+    additive: ''
+    solvent: ''
+    temperature: 232487.0
+    temperature_unit: ''
+    time: 243235.0
+    time_unit: ''
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: RAHPAT_clean

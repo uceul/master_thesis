@@ -1,0 +1,9 @@
+- answer:
+    additive: HBF4
+    solvent: DMA/CH3OH/dioxane
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 120.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IQECIS_clean

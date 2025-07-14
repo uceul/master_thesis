@@ -1,0 +1,21 @@
+2025-01-06 14:50:49,955 INFO     Loading settings and stats
+2025-01-06 14:50:49,956 INFO     Using prompt: , temperature: 0.1
+2025-01-06 14:50:49,959 DEBUG    Settings loaded. CSV path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 14:50:49,959 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_FULL_DATA_epoch_0_20250106_145046.yml'
+2025-01-06 14:50:49,959 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_FULL_DATA_epoch_0_20250106_145046.yaml'
+2025-01-06 14:50:49,959 WARNING  Could not load 'stats_llama_31_instruction_full_ft_FULL_DATA_epoch_0_20250106_145046.yml', creating it (empty)
+2025-01-06 14:50:49,961 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 14:50:49,967 INFO     Found 778 paragraphs with labels
+2025-01-06 14:50:49,967 DEBUG    First few valid IDs: ['DACSAE_clean', 'FECYOD_clean', 'NAHHOW_clean', 'NEVJOP_clean', 'QOZPIG_clean']
+2025-01-06 14:50:49,967 DEBUG    Already evaluated: 0 items
+2025-01-06 14:50:49,967 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/synthesis_paragraphs
+2025-01-06 14:50:49,967 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/synthesis_paragraphs'
+2025-01-06 14:50:50,010 INFO     Dataset loaded with 905 items
+2025-01-06 14:50:50,010 INFO     Found 778 paragraphs that have labels in dataset
+2025-01-06 14:50:50,010 DEBUG    First few overlapping IDs: ['DACSAE_clean', 'FECYOD_clean', 'NAHHOW_clean', 'NEVJOP_clean', 'QOZPIG_clean']
+2025-01-06 14:50:50,010 INFO     Processing model: LLaMa 3.1 8B
+2025-01-06 14:50:50,010 INFO     Skipping model [LLaMa 3.1 8B]
+2025-01-06 14:50:50,011 INFO     Processing model: LLaMa 3.1 8B Instruct
+2025-01-06 14:50:50,012 INFO       0%|          | 0/905 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+2025-01-06 14:50:50,012 INFO     Loading Model [LLaMa 3.1 8B Instruct] from /home/iti/zn2950/home/haicore_ws/tunes/llama31_8b/instruction_full_ft/run_1_1736114112/epoch_0
+2025-01-06 14:50:50,665 INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).

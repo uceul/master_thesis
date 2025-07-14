@@ -1,8 +1,13 @@
 import os
+import pandas as pd
+import json
+import re
 import sys
 import typer
 import torch
 import logging
+from datetime import datetime
+from torch.utils.data import DataLoader, Subset
 from typing_extensions import Annotated
 from tqdm import tqdm
 from transformers import (
@@ -19,7 +24,6 @@ from pathlib import Path
 
 from mthesis.models import JsonformerModel
 from mthesis.utils import load_yaml, save_yaml, count_occurences
-from mthesis.conversion import ans2tempcelsius, ans2hours, txt2cid
 from mthesis.confusion import Confusion
 from mthesis.dataloader import (
     MOFDataset,
@@ -28,70 +32,236 @@ from mthesis.dataloader import (
     LabeledMOFDatasetTokens,
 )
 
+# Get log level from environment variable, default to INFO
+log_level = os.environ.get('LOG_LEVEL', 'INFO').upper()
+numeric_level = getattr(logging, log_level, None)
+if not isinstance(numeric_level, int):
+    raise ValueError(f'Invalid log level: {log_level}')
+
+# Configure logging with just basic settings - no handlers yet
 logging.basicConfig(
-    filename='error/error_more.log',
     format="%(asctime)s %(levelname)-8s %(message)s",
-    level=logging.WARNING,
+    level=numeric_level,
     datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.StreamHandler()  # Only console output in basicConfig
+    ]
 )
 
-log = logging.getLogger(__name__)
+# Create custom log levels
+WRONG_TEMP = 25 
+WRONG_TIME = 26
+WRONG_SOLVENT = 27
+WRONG_ADDITIVE = 28
+UNRESOLVABLE_CHEMICAL = 29
 
+# Create logs directory if it doesn't exist
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+log_dir = os.path.join("logs", timestamp)
+os.makedirs(log_dir, exist_ok=True)
+
+# Add level names
+for level_name, level_num in [
+    ('WRONG_TEMP', WRONG_TEMP),
+    ('WRONG_TIME', WRONG_TIME),
+    ('WRONG_SOLVENT', WRONG_SOLVENT),
+    ('WRONG_ADDITIVE', WRONG_ADDITIVE),
+    ('UNRESOLVABLE_CHEMICAL', UNRESOLVABLE_CHEMICAL)
+]:
+    logging.addLevelName(level_num, level_name)
+
+# Extend the logger class with custom methods
+class CustomLogger(logging.Logger):
+    def wrong_temperature(self, msg, *args, **kwargs):
+        if self.isEnabledFor(WRONG_TEMP):
+            self._log(WRONG_TEMP, msg, args, **kwargs)
+            
+    def wrong_solvent(self, msg, *args, **kwargs):
+        if self.isEnabledFor(WRONG_SOLVENT):
+            self._log(WRONG_SOLVENT, msg, args, **kwargs)
+            
+    def wrong_time(self, msg, *args, **kwargs):
+        if self.isEnabledFor(WRONG_TIME):
+            self._log(WRONG_TIME, msg, args, **kwargs)
+            
+    def wrong_additive(self, msg, *args, **kwargs):
+        if self.isEnabledFor(WRONG_ADDITIVE):
+            self._log(WRONG_ADDITIVE, msg, args, **kwargs)
+
+    def unresolvable_chemical(self, msg, *args, **kwargs):
+        if self.isEnabledFor(UNRESOLVABLE_CHEMICAL):
+            self._log(UNRESOLVABLE_CHEMICAL, msg, args, **kwargs)
+
+class GeneralFilter(logging.Filter):
+    def filter(self, record):
+        # Get the numeric level
+        level_num = record.levelno
+        
+        # Allow through all standard logging levels
+        if level_num in [logging.DEBUG, logging.INFO, logging.WARNING, 
+                        logging.ERROR, logging.CRITICAL]:
+            return True
+            
+        # Block our custom levels
+        return level_num not in [WRONG_TEMP, WRONG_TIME, WRONG_SOLVENT, 
+                               WRONG_ADDITIVE, UNRESOLVABLE_CHEMICAL]
+
+# Create filter classes for each custom level
+class WrongTempFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelname == 'WRONG_TEMP'
+
+class WrongTimeFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelname == 'WRONG_TIME'
+
+class WrongSolventFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelname == 'WRONG_SOLVENT'
+
+class WrongAdditiveFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelname == 'WRONG_ADDITIVE'
+
+class UnresolvableChemicalFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelname == 'UNRESOLVABLE_CHEMICAL'
+
+# Set the custom logger class
+logging.setLoggerClass(CustomLogger)
+# Create our module's logger
+log = logging.getLogger(__name__)
 app = typer.Typer()
 
+# late import because of logging setup
+from mthesis import conversion
+from mthesis.conversion import ans2tempcelsius, ans2hours, txt2cid
+
+conversion.setup_logger(log)
 
 @app.command()
 def evaluate(
     settings: Annotated[
         str,
-        typer.Option(
-            help="Path to `settings.yml` file, used to read most configuration"
-        ),
+        typer.Option(help="Path to `settings.yml` file, used to read most configuration"),
     ] = "settings.yml",
     stats_path: Annotated[
         str,
-        typer.Option(
-            help="Path to `stats.yml` file, used to save progress and results"
-        ),
+        typer.Option(help="Path to `stats.yml` file, used to save progress and results"),
     ] = "stats.yml",
     device: Annotated[
         str,
-        typer.Option(
-            help="Manually specify device if torch autodetection is not working."
-        ),
+        typer.Option(help="Manually specify device if torch autodetection is not working."),
     ] = None,
     only_model: Annotated[
         str,
-        typer.Option(
-            help="Specify only one specific model to evaluate, skip all others. Requires precise name."
-        ),
+        typer.Option(help="Specify only one specific model to evaluate, skip all others. Requires precise name."),
     ] = None,
+    prompt: Annotated[
+        str,
+        typer.Option(help="Prompt with general task information for the model."),
+    ] = "",
+    temperature: Annotated[
+        float,
+        typer.Option(help="Temperature used to query the model."),
+    ] = 0.1,
+    description: Annotated[
+        str,
+        typer.Option(help="Description of task to be saved in log folder for later reference."),
+    ] = "",
+    log_dir: Annotated[
+        str,
+        typer.Option(help="Custom directory name for logs. If not provided, timestamp will be used."),
+    ] = None,
+    model_path: Annotated[
+        str,
+        typer.Option(help="Can be used to override the model path given in the settings file"),
+    ] = None,
+    evaluation_set: Annotated[
+        bool,
+        typer.Option(help="Flag to evaluate only on paragraphs contained in the evaluation set."),
+    ] = False,
+    no_labels: Annotated[
+        bool,
+        typer.Option(help="If this flag is set, even paragraphs without labels will be evaluated."),
+    ] = False,
 ):
-    """Based on a provided file of SETTINGS, and a path to write STATS,
-    evaluate a list of LLMs on provided tasks, and record their results
-    in STATS.
-    """
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+    if log_dir is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_dir = os.path.join("logs", timestamp)
+    else:
+        log_dir = os.path.join("logs", log_dir)
+    os.makedirs(log_dir, exist_ok=True)
+
+    setup_handlers(log_dir)
+
+    # Save description to log folder
+    if description:
+        with open(os.path.join(log_dir, "description.txt"), "w") as f:
+            f.write(description)
+
     log.info("Loading settings and stats")
 
+    log.info(f"Using prompt: {prompt}, temperature: {temperature}")
+
     settings = load_yaml(settings)
-    stats = load_yaml(stats_path)
-    # run evaluation of models
+    log.debug(f"Settings loaded. CSV path: {settings.get('csv_path')}")
+    
+    try:
+        stats = load_yaml(stats_path)
+        if stats is None:
+            stats = []
+        elif isinstance(stats, dict):
+            stats = []  # Reset if it's an empty dict
+        # If it's already a list, keep it as is
+    except Exception as e:
+        log.error(f"Error loading stats from {stats_path}: {e}")
+        stats = []
+
+    # Load the CSV file containing labels
+    log.info(f"Loading labels from CSV file: {settings.get('csv_path')}")  # Debug print
+    try:
+        labels_df = pd.read_csv(settings['csv_path'], sep=';')  # Add sep=';' parameter
+        valid_paragraph_ids = set(labels_df['filename'].values)
+        log.info(f"Found {len(valid_paragraph_ids)} paragraphs with labels")  # Debug print
+        log.debug(f"First few valid IDs: {list(valid_paragraph_ids)[:5]}")  # Debug print
+    except Exception as e:
+        log.error(f"Error loading CSV file: {e}")
+        return
+
+    dataset_path = ""
+    # Load the evaluation set
+    if evaluation_set:
+        log.info(f"Loading evaluation set instead of regular dataset.")
+        dataset_path = settings.get("eval_dataset_path")
+    else:
+        dataset_path = settings.get("dataset_path")
 
     evaluated = frozenset(map(lambda s: (s["paragraph_id"], s["model_name"]), stats))
+    log.debug(f"Already evaluated: {len(evaluated)} items")  # Debug print
 
-    log.info(f"Loading Dataset")
-    dataset = MOFDataset(settings["dataset_path"])
+    log.info(f"Loading Dataset from {dataset_path}")  # Debug print
+    dataset = MOFDataset(dataset_path)
+    log.info(f"Dataset loaded with {len(dataset)} items")  # Debug print
+    
+    # Debug: Check overlap between dataset and valid IDs
+    dataset_ids = set(item["paragraph_id"] for item in dataset)
+    overlap = dataset_ids.intersection(valid_paragraph_ids)
+    log.info(f"Found {len(overlap)} paragraphs that have labels in dataset")  # Debug print
+    log.debug(f"First few overlapping IDs: {list(overlap)[:5]}")  # Debug print
 
     for model_settings in settings["models"]:
-        model_path = model_settings["model_path"]
+        if model_path and only_model:
+            # override model_path
+            model_settings["model_path"] = model_path
         model_name = model_settings["model_name"]
-        model = None
-
+        log.info(f"Processing model: {model_name}")  # Debug print
+        
         if only_model and only_model != model_name:
-            log.info(f"Skipping model [{model_name}]")
+            log.info(f"Skipping model [{model_name}]")  # Debug print
             continue
 
         progress_bar = tqdm(dataset, file=open(os.devnull, "w"))
@@ -101,10 +271,16 @@ def evaluate(
         first = True
         count = 0
 
-        for item in progress_bar:
+        for batch in progress_bar:
             log.info(str(progress_bar))
             print(str(progress_bar))
-            paragraph_id = item["paragraph_id"]
+            paragraph_id = batch["paragraph_id"]
+
+            if paragraph_id not in valid_paragraph_ids and not no_labels:
+                log.debug(f"Skipping {paragraph_id}, as it has no labels.")
+                progress_bar.update()
+                continue
+
             if (paragraph_id, model_name) in evaluated:
                 log.debug(f"Skipping {paragraph_id}, as it has been processed before.")
                 progress_bar.update()
@@ -113,8 +289,8 @@ def evaluate(
             if first:
                 progress_bar.update(diff)
                 first = False
-                log.info(f"Loading Model [{model_name}]")
-                model = JsonformerModel(**model_settings)
+                log.info(f"Loading Model [{model_name}] from {model_settings['model_path']}")
+                model = JsonformerModel(prompt=prompt, temperature=temperature, **model_settings)
                 model.eval()  # set model to eval mode
 
             count += 1
@@ -124,13 +300,16 @@ def evaluate(
                 "model_name": model_name,
             }
 
-            entry["answer"] = model(item["text"])  # forward the dataset text
+            entry["answer"] = model(batch["text"])  # forward the dataset text
             stats.append(entry)
             if count >= 20:
-                log.info(f"Saving progress to `{stats_path}`")
-                save_yaml(stats, stats_path)
-                save_yaml(stats, "backup/" + stats_path)
-                count = 0
+                try:
+                    log.info(f"Saving progress to `{stats_path}`")
+                    save_yaml(stats, stats_path)
+                    save_yaml(stats, "backup/" + stats_path)
+                    count = 0
+                except:
+                    log.warning("Failed to backup results. Continuing...")
         log.info(f"Saving progress to `{stats_path}`")
         save_yaml(stats, stats_path)
         save_yaml(stats, "backup/" + stats_path)
@@ -411,6 +590,20 @@ def analyse(
             help="Fully re-calculate the dataset cache intermediaries.",
         ),
     ] = False,
+    multiple_chemicals_in_answers: Annotated[
+        bool,
+        typer.Option(
+            help="Allow for solvent/additive answers to contains multiple chemicals.",
+        ),
+    ] = False,
+    description: Annotated[
+        str,
+        typer.Option(help="Description of task to be saved in log folder for later reference."),
+    ] = "",
+    log_dir: Annotated[
+        str,
+        typer.Option(help="Custom directory name for logs. If not provided, timestamp will be used."),
+    ] = None,
 ):
     """Analyse the results of previuos evaluation runs."""
     # TODO:
@@ -424,6 +617,20 @@ def analyse(
     settings = load_yaml(settings)
     stats = load_yaml(stats_path)  # :: [{str -> str}]
 
+    if log_dir is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_dir = os.path.join("logs", timestamp)
+    else:
+        log_dir = os.path.join("logs", log_dir)
+    os.makedirs(log_dir, exist_ok=True)
+
+    setup_handlers(log_dir)
+
+    # Save description to log folder
+    if description:
+        with open(os.path.join(log_dir, "description.txt"), "w") as f:
+            f.write(description)
+    log.info("analysing!")
     try:
         label_cols = {
             param: settings["extract_config"][param]["dataset_cols"][0]
@@ -469,67 +676,217 @@ def analyse(
     # build confusion 'matrix'
     confusion = Confusion()
 
+    no_additive_amount = 0
     for evaluation in stats:
-        pid = evaluation["paragraph_id"]
-        model_name = evaluation["model_name"]
         try:
-            item = ds[pid]
-        except KeyError:
+            pid = evaluation["paragraph_id"]
+            model_name = evaluation["model_name"]
+            try:
+                item = ds[pid]
+            except KeyError:
+                log.error(f"KeyError for pid: {pid}")
+                continue
+            text, label = item["text"], item["label"]
+            answer = evaluation["answer"]
+            
+            # time or temp: convert units, unify number type (float/int)
+            a_temp = ans2tempcelsius(a_full := f'{answer["temperature"]} {answer["temperature_unit"]}')
+            l_temp = ans2tempcelsius(l_full := f'{label["temperature"]} {label["temperature_unit"]}')
+            if a_temp != l_temp:
+                if ans2tempcelsius(f'{answer["temperature"]} C') == l_temp:
+                    confusion.wrong_unit(model_name, "temperature")
+                    log.wrong_temperature(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected: {l_temp}°C ({l_full})\n"
+                    f"Got: {a_temp}°C ({a_full}) - Wrong unit\n"
+                    f"Original text: {text[:200]}..."
+                    )
+                elif str(answer["temperature"]).lower().strip() in text.lower():
+                    confusion.found_in_text(model_name, "temperature")
+                    log.wrong_temperature(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_temp}°C ({l_full})\n"
+                        f"Got: {a_temp}°C ({a_full}) (Which appears in text!)\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                else:
+                    log.wrong_temperature(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_temp}°C ({l_full})\n"
+                        f"Got: {a_temp}°C ({a_full})\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                confusion.wrong(model_name, "temperature")
+            else:
+                confusion.correct(model_name, "temperature")
+
+            a_time = ans2hours(a_full := f'{answer["time"]} {answer["time_unit"]}')
+            l_time = ans2hours(l_full := f'{label["time"]} {label["time_unit"]}')
+            if a_time != l_time:
+                wrong_unit = False
+                unit_tests = [
+                    ('d', 'days'), 
+                    ('s', 'seconds'), 
+                    ('h', 'hours')
+                ]
+                
+                for unit_short, unit_name in unit_tests:
+                    if ans2hours(f'{answer["time"]} {unit_short}') == l_time:
+                        wrong_unit = True
+                        confusion.wrong_unit(model_name, "time")
+                        log.wrong_time(
+                            f"\nParagraph: {pid}\n"
+                            f"Model: {model_name}\n"
+                            f"Expected: {l_time}h ({l_full})\n"
+                            f"Got: {a_time}h ({a_full}) - Wrong unit ({unit_name})\n"
+                            f"Original text: {text[:200]}..."
+                        )
+                        break
+                if str(answer["time"]).lower().strip() in text.lower():
+                    confusion.found_in_text(model_name, "time")
+                    log.wrong_time(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_time}h ({l_full})\n"
+                        f"Got: {a_time}h ({a_full}) (Which appears in text!)\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                elif not wrong_unit:
+                    log.wrong_time(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: {l_time}h ({l_full})\n"
+                        f"Got: {a_time}h ({a_full})\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                confusion.wrong(model_name, "time")
+            else:
+                confusion.correct(model_name, "time")
+
+            # For additives
+            single_correct = False
+            raw_additive = answer["additive"].strip()
+            if "additive" not in label or not isinstance(label["additive"], list) or not label["additive"]:
+                no_additive_amount += 1
+                if raw_additive.lower() in ["none", "no additive", ""]:
+                    confusion.correct(model_name, "additive")
+                    confusion.correct_no_additive(model_name, "additive")  # Track correct prediction for no additive case
+                else:
+                    log.wrong_additive(
+                        f"\nParagraph: {pid}\n"
+                        f"Model: {model_name}\n"
+                        f"Expected: none\n"
+                        f"Got: {raw_additive}\n"
+                        f"Original text: {text[:200]}..."
+                    )
+                    confusion.wrong(model_name, "additive")
+            elif raw_additive.lower() in ["none", "no additive", ""]:
+                confusion.wrong(model_name, "additive")
+                confusion.wrong_no_additive(model_name, "additive")
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got empty answer\n"
+                    f"Original text: {text[:200]}..."
+                )
+            elif raw_additive.lower() in [syn.lower() for syn in label["additive"]]:
+                single_correct = True
+                confusion.correct(model_name, "additive")
+            elif txt2cid(raw_additive) == []:
+                confusion.resolve_answer(model_name, "additive")
+                confusion.wrong(model_name, "additive")
+                found_in_text_message = ""
+                if raw_additive.lower() in text.lower():
+                    confusion.found_in_text_unresolvable(model_name, "additive")
+                    found_in_text_message = "(Which appears in text!)"
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got unresolvable {found_in_text_message}: {raw_additive}\n"
+                    f"Original text: {text[:200]}..."
+                )
+            else:
+                confusion.wrong(model_name, "additive")
+                found_in_text_message = ""
+                if raw_additive.lower() in text.lower():
+                    confusion.found_in_text(model_name, "additive")
+                    found_in_text_message = "(Which appears in text!)"
+                log.wrong_additive(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['additive']}\n"
+                    f"Got {found_in_text_message}: {raw_additive}\n"
+                    f"Original text: {text[:200]}..."
+                )
+
+            # Now check multiple chemicals answer
+            parts = split_chemical_answer(raw_additive)
+            if not single_correct and parts and any(p.lower() in [syn.lower() for syn in label["additive"]] for p in parts):
+                single_correct = False
+                confusion.correct_multiple(model_name, "additive")                
+
+            # For solvents (similar logic)
+            if "solvent" not in label or not isinstance(label["solvent"], list) or not label["solvent"]:
+                log.error(f"Missing required solvent data for paragraph {pid}")
+                raise ValueError(f"Paragraph {pid} is missing required solvent data")
+
+            raw_solvent = answer["solvent"].strip()
+            if not raw_solvent:
+                confusion.wrong(model_name, "solvent")
+                log.wrong_solvent(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['solvent']}\n"
+                    f"Got empty answer\n"
+                    f"Original text: {text[:200]}..."
+                )
+
+            single_correct = False
+            # Check single chemical answer first
+            if raw_solvent.lower() in [syn.lower() for syn in label["solvent"]]:
+                confusion.correct(model_name, "solvent")
+                single_correct = True
+            elif txt2cid(raw_solvent) == []:
+                confusion.resolve_answer(model_name, "solvent")
+                confusion.wrong(model_name, "solvent")
+                found_in_text_message = ""
+                if raw_solvent.lower() in text.lower():
+                    confusion.found_in_text_unresolvable(model_name, "solvent")
+                    found_in_text_message = "(Which appears in text!)"
+                log.wrong_solvent(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['solvent']}\n"
+                    f"Got unresolvable {found_in_text_message}: {raw_solvent}\n"
+                    f"Original text: {text[:200]}..."
+                )
+            else:
+                confusion.wrong(model_name, "solvent")
+                found_in_text_message = ""
+                if raw_solvent.lower() in text.lower():
+                    confusion.found_in_text(model_name, "solvent")
+                    found_in_text_message = "(Which appears in text!)"
+                log.wrong_solvent(
+                    f"\nParagraph: {pid}\n"
+                    f"Model: {model_name}\n"
+                    f"Expected one of: {label['solvent']}\n"
+                    f"Got {found_in_text_message}: {raw_solvent}\n"
+                    f"Original text: {text[:200]}..."
+                )
+
+            # Now check multiple chemicals answer
+            parts = split_chemical_answer(raw_solvent)
+            if not single_correct and parts and any(p.lower() in [syn.lower() for syn in label["solvent"]] for p in parts):
+                confusion.correct_multiple(model_name, "solvent")
+                single_correct = False
+        except Exception as e:
+            log.error(f"Error processing evaluation for {evaluation['paragraph_id']}, {evaluation['model_name']}: {str(e)}")
             continue
-        text, label = item["text"], item["label"]
-        answer = evaluation["answer"]
-
-        # time or temp: convert units, unify number type (float/int)
-        a_temp = ans2tempcelsius(a_full := f'{answer["temperature"]} {answer["temperature_unit"]}')
-        l_temp = ans2tempcelsius(l_full := f'{label["temperature"]} {label["temperature_unit"]}')
-        if a_temp != l_temp:
-            if ans2tempcelsius(f'{answer["temperature"]} C') == l_temp:
-                confusion.wrong_unit(model_name, "temperature")
-            else:
-                log.debug(f"temperature [{pid}] {a_temp} != {l_temp} | {a_full} != {l_full}")
-            confusion.wrong(model_name, "temperature")
-        else:
-            confusion.correct(model_name, "temperature")
-
-        a_time = ans2hours(a_full := f'{answer["time"]} {answer["time_unit"]}')
-        l_time = ans2hours(l_full := f'{label["time"]} {label["time_unit"]}')
-        if a_time != l_time:
-            if ans2hours(f'{answer["time"]} d') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            elif ans2hours(f'{answer["time"]} s') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            elif ans2hours(f'{answer["time"]} h') == l_time:
-                confusion.wrong_unit(model_name, "time")
-            else:
-                log.debug(f"duration [{pid}] {a_time} != {l_time} | {a_full} != {l_full}")
-            confusion.wrong(model_name, "time")
-        else:
-            confusion.correct(model_name, "time")
-
-        # all models answered _something_, even if there was
-        # no additive. So when the label is empty,
-        # whatever the model says is just wrong.
-        if label["additive"] == "":
-            confusion.wrong(model_name, "additive")
-        elif txt2cid(answer["additive"]) == []:
-            confusion.resolve_answer(model_name, "additive")
-            confusion.wrong(model_name, "additive")
-        elif set(txt2cid(answer["additive"])).isdisjoint(set(label["additive_cid"])):
-            log.debug(f"adddiff [{pid}] {answer['additive']} != {label['additive']}")
-            confusion.wrong(model_name, "additive")
-        else:
-            confusion.correct(model_name, "additive")
-
-
-        if txt2cid(answer["solvent"]) == []:
-            confusion.resolve_answer(model_name, "solvent")
-            confusion.wrong(model_name, "solvent")
-        elif set(txt2cid(answer["solvent"])).isdisjoint(set(label["solvent_cid"])):
-            log.debug(f"soldiff [{pid}] {answer['solvent']} != {label['solvent']}")
-            confusion.wrong(model_name, "solvent")
-        else:
-            confusion.correct(model_name, "solvent")
-
     # log.info(f"{correct}/{uwrong}/{wrong}/{total}  correct/unit/wrong/total")
     # log.info(f"prop {correct / total:.2f}/{wrong / total:.2f} correct/wrong")
     # log.info(f"prop {uwrong / total:.2f} with unit wrong")
@@ -539,10 +896,62 @@ def analyse(
     # WONRUM02_clean, LLaMa 7B, True    , False  , True, 0          , False, 8
     confusion.print_stats()
     confusion.print_prop_stats()
+    print(f"Total no additives: {no_additive_amount}")
 
 def main():
     app()
 
+def setup_handlers(log_dir):
+    # Get the root logger
+    root_logger = logging.getLogger()
+
+    # Remove any existing handlers (including those from basicConfig)
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
+
+    general_handler = logging.FileHandler(os.path.join(log_dir, 'general.log'))
+    general_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
+    general_handler.addFilter(GeneralFilter())
+
+    temp_handler = logging.FileHandler(os.path.join(log_dir, 'temperature_errors.log'))
+    temp_handler.addFilter(WrongTempFilter())
+    temp_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    time_handler = logging.FileHandler(os.path.join(log_dir, 'time_errors.log'))
+    time_handler.addFilter(WrongTimeFilter())
+    time_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    solvent_handler = logging.FileHandler(os.path.join(log_dir, 'solvent_errors.log'))
+    solvent_handler.addFilter(WrongSolventFilter())
+    solvent_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    additive_handler = logging.FileHandler(os.path.join(log_dir, 'additive_errors.log'))
+    additive_handler.addFilter(WrongAdditiveFilter())
+    additive_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    chemical_handler = logging.FileHandler(os.path.join(log_dir, 'unresolvable_chemical_errors.log'))
+    chemical_handler.addFilter(UnresolvableChemicalFilter())
+    chemical_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+
+    # Add all handlers to root logger
+    root_logger.addHandler(console_handler)
+    root_logger.addHandler(general_handler)
+    root_logger.addHandler(temp_handler)
+    root_logger.addHandler(time_handler)
+    root_logger.addHandler(solvent_handler)
+    root_logger.addHandler(additive_handler)
+    root_logger.addHandler(chemical_handler)
+
+    return root_logger
+
+# Helper function to split chemical string into parts
+def split_chemical_answer(raw_answer: str) -> list[str]:
+    delimiters = [',', '/', ' and ', ':', ';', '&']
+    pattern = '|'.join(map(re.escape, delimiters))
+    return [p.strip() for p in re.split(pattern, raw_answer) if p.strip()]
 
 if __name__ == "__main__":
     main()

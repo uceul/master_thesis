@@ -1,0 +1,180 @@
+- answer:
+    additive: "CoSO4\u22C57 H2O"
+    solvent: "N,N\u2010dimethylacetam"
+    temperature: 120.0
+    temperature_unit: C
+    time: 5.0
+    time_unit: days
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: IQECIS_clean
+- answer:
+    additive: H3BPT
+    solvent: DMF and water
+    temperature: 100.0
+    temperature_unit: Celsius
+    time: 48.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: XUDVAV_clean
+- answer:
+    additive: H3L1
+    solvent: H2O
+    temperature: 160.0
+    temperature_unit: Celsius
+    time: 60.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: IZEBEV_clean
+- answer:
+    additive: Hdpt24
+    solvent: DMF
+    temperature: 130.0
+    temperature_unit: "\xB0C"
+    time: 24.0
+    time_unit: h
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: NAGQET_clean
+- answer:
+    additive: "MgCl2\xB76H2O"
+    solvent: dimethylformamide/water
+    temperature: 120.0
+    temperature_unit: Celsius
+    time: 72.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: NAWKII_clean
+- answer:
+    additive: na
+    solvent: DMF
+    temperature: 140.0
+    temperature_unit: Celsius
+    time: 48.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: TEVHEJ_clean
+- answer:
+    additive: dibutylamine
+    solvent: DMF and ethanol
+    temperature: 60.0
+    temperature_unit: Celsius
+    time: 7.0
+    time_unit: days
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: YEMJAC_clean
+- answer:
+    additive: H4LV
+    solvent: DMF and H2O
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: EHUTAE_clean
+- answer:
+    additive: H3LMe
+    solvent: DMF
+    temperature: 120.0
+    temperature_unit: Celsius
+    time: 48.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: XOTSIK_clean
+- answer:
+    additive: L
+    solvent: water
+    temperature: 170.0
+    temperature_unit: Celsius
+    time: 72.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: UZAFIL_clean
+- answer:
+    additive: "Cu(OAc)2\xB7H2"
+    solvent: deionized water
+    temperature: 120.0
+    temperature_unit: Celsius
+    time: 3000.0
+    time_unit: minutes
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: LUMZEA_clean
+- answer:
+    additive: phen
+    solvent: distilled water
+    temperature: 130.0
+    temperature_unit: Celsius
+    time: 3.0
+    time_unit: days
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: LOMMIL_clean
+- answer:
+    additive: H3L
+    solvent: distilled water
+    temperature: 160.0
+    temperature_unit: Celsius
+    time: 96.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: KUQWIE_clean
+- answer:
+    additive: "Cd(NO3)2\u22C54H"
+    solvent: DMF
+    temperature: 120.0
+    temperature_unit: Celsius
+    time: 72.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: NORJEL_clean
+- answer:
+    additive: "Cd(NO3)2\xB74H"
+    solvent: DMF
+    temperature: 120.0
+    temperature_unit: C
+    time: 24.0
+    time_unit: h
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: KUSQUM_clean
+- answer:
+    additive: "Co(Ac)2\xB74H2O"
+    solvent: H2O
+    temperature: 130.0
+    temperature_unit: Celsius
+    time: 72.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: DUKMON_clean
+- answer:
+    additive: NH4VO3
+    solvent: H2O
+    temperature: 200.0
+    temperature_unit: Celsius
+    time: 48.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: PENXUC_clean
+- answer:
+    additive: H4tpta
+    solvent: DMF
+    temperature: 130.0
+    temperature_unit: Celsius
+    time: 6.0
+    time_unit: days
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: BOPHIZ_clean
+- answer:
+    additive: NaOH
+    solvent: CH3OH
+    temperature: 150.0
+    temperature_unit: Celsius
+    time: 72.0
+    time_unit: hours
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: ILOTOT_clean
+- answer:
+    additive: H2nip
+    solvent: doubly deionized water
+    temperature: 150.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: Phi 3 Mini 4k Instruct
+  paragraph_id: KIVSUF_clean

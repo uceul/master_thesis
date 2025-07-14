@@ -1,0 +1,2 @@
+
+A mixture of H4L (5.0 mg, 12.6 μmol) and Cu(NO3)2·2.5H2O (15.0 mg, 64.5 μmol) was dissolved in a mixed solvent of N,N-dimethylformamide (DMF, 1.5 mL) and 6 M HCl (0.02 mL), and then the mixture was heated at 343 K for 4 days. The blue block-shaped crystals were collected, washed with DMF and dried in air. Anal. calcd. for C117H178Cu6N30O50 (%): C, 44.11; H, 5.63; N, 13.19; found: C, 43.72; H, 5.31; N, 13.40. Selected infrared (KBr, cm−1): 3420, 1665, 1548, 1425, 1340, 1103, 787, 752, 722, 681.

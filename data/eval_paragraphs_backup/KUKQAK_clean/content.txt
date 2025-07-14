@@ -1,0 +1,2 @@
+
+A mixture of CuCl2·2H2O (0.034 g, 0.2 mmol), Hcpt (0.020 g, 0.1 mmol), H2O (4 mL), MeOH (2 mL) and CH3CN (2 mL) was added into a 25 mL Teflon-lined stainless steel reactor, and then heated at 120 °C for 3 days under autogenous pressure. After cooling to room temperature, green schistose crystals were obtained by filtration and washed with H2O and MeOH in sequence, and dried in air. The yield was 65% for 3 (based on Hcpt). Elemental analysis calcd (%) for 3 (C43H52Cl6Cu8N14O19): C 28.85, H 2.93, N 10.95; found: C 28.51, H 2.69, N 11.08.

@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug main.py with specific args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/mthesis/main.py",
+            "args": [
+                "analyse",
+                "--settings",
+                "settings/settings_7b.yml",
+                "--stats-path",
+                "backup/stats_llama_2_7b_run_1.yml"
+            ],
+            "console": "integratedTerminal",
+            "python": "/home/kit/iti/zn2950/.conda/envs/llm-extraction/bin/python"
+        }
+    ]
+}

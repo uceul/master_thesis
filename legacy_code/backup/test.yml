@@ -1,0 +1,180 @@
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 70.0
+    temperature_unit: "\xB0C"
+    time: 8.0
+    time_unit: day
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LELROL_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 5.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IQECIS_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: AVEQID_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HOXSUK_clean
+- answer:
+    additive: H2BDC
+    solvent: H2O
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 5.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TAGVAB_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: VAQSEO_clean
+- answer:
+    additive: AcOH
+    solvent: DEF
+    temperature: 110.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: ZOFZOL_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 110.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: UYOFIY_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 85.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: VIXTUT_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 100.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: XUDVAV_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 160.0
+    temperature_unit: "\xB0C"
+    time: 60.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: IZEBEV_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 130.0
+    temperature_unit: "\xB0C"
+    time: 24.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: NAGQET_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 373.0
+    temperature_unit: K
+    time: 72.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HUCSEF_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 140.0
+    temperature_unit: C
+    time: 12.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: EZIVAM_clean
+- answer:
+    additive: H2pt
+    solvent: H2O
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 5.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: LACJAC_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 160.0
+    temperature_unit: "\xB0C"
+    time: 3.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: AVESAW_clean
+- answer:
+    additive: 4-(chloromethyl)-benzoic acid
+    solvent: H2O
+    temperature: 120.0
+    temperature_unit: "\xB0C"
+    time: 72.0
+    time_unit: hr
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TEJBAN_clean
+- answer:
+    additive: DMF/H2O/C2H5OH
+    solvent: DMF/H2O/C2H5OH
+    temperature: 140.0
+    temperature_unit: "\xB0C"
+    time: 4.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: HUYXOP_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 100.0
+    temperature_unit: "\xB0C"
+    time: 2.0
+    time_unit: days
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: GETXAG_clean
+- answer:
+    additive: H2O
+    solvent: H2O
+    temperature: 90.0
+    temperature_unit: "\xB0C"
+    time: 48.0
+    time_unit: h
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: TAPHOJ_clean

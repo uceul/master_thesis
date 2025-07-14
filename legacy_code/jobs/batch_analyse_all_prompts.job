@@ -1,0 +1,48 @@
+#!/bin/bash
+#SBATCH --job-name=prompt_analysis
+#SBATCH --output=results/prompt_analysis_%j.out
+#SBATCH --error=results/prompt_analysis_%j.err
+#SBATCH --partition=normal
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:full:1
+#SBATCH --time=90:00
+#SBATCH --nodes=1
+#SBATCH --mail-type=NONE
+#SBATCH --constraint=LSDF
+
+source ~/.bashrc
+module load devel/cuda/11.8
+conda info --envs
+conda activate llm-extraction
+
+echo "Run analysis on llama 3.1 8B Instruct runs with different prompts"
+echo "GPU:1"
+echo
+echo "NVDIA-SMI OUTPUT"
+nvidia-smi
+
+cd /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_code
+
+echo "No prompt version 1"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_no_prompt_241229.yml --description "Llama 3.1 8B analysis run on Haicore with no prompt version 1"
+echo
+echo "No prompt version 2"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_no_prompt_2_241229.yml --description "Llama 3.1 8B analysis run on Haicore with no prompt version 2"
+echo
+echo "Prompt version 1"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_prompt_1_241229.yml --description "Llama 3.1 8B analysis run on Haicore with prompt version 1"
+echo
+echo "Prompt version 2"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_prompt_2_241229.yml --description "Llama 3.1 8B analysis run on Haicore with prompt version 2"
+echo
+echo "No prompt version 1, multiple chemicals in answers"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_no_prompt_241229.yml --multiple-chemicals-in-answers --description "Llama 3.1 8B analysis run on Haicore with no prompt version 1 and multiple chemicals in answers"
+echo
+echo "No prompt version 2, multiple chemicals in answers"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_no_prompt_2_241229.yml --multiple-chemicals-in-answers --description "Llama 3.1 8B analysis run on Haicore with no prompt version 2 and multiple chemicals in answers"
+echo
+echo "Prompt version 1, multiple chemicals in answers"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_prompt_1_241229.yml --multiple-chemicals-in-answers --description "Llama 3.1 8B analysis run on Haicore with prompt version 1 and multiple chemicals in answers"
+echo
+echo "Prompt version 2, multiple chemicals in answers"
+poetry run main analyse --settings settings/settings_llama_31.yml --stats-path results/evaluate/llama_31/llama_31_8b_instruct_haicore_prompt_2_241229.yml --multiple-chemicals-in-answers --description "Llama 3.1 8B analysis run on Haicore with prompt version 2 and multiple chemicals in answers"

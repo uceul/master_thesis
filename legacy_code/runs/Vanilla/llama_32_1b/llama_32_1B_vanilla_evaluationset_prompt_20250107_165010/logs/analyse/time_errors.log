@@ -1,0 +1,24 @@
+2025-01-07 16:52:00,907 - 
+Paragraph: ELOZIQ_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 72h (72.0 h)
+Got: 1h (1.0 h)
+Original text: Isophthalic acid (H2ipa, 166 mg, 1 mmol), adenine (Had, 135 mg, 1 mmol), Cd(NO3)2·4H2O (462 mg, 1 mmol) and tetraethylammonium bromide (220 mg, 1 mmol) were added to 4 mL DMA (=N,N-dimethylacetamide) ...
+2025-01-07 16:52:00,908 - 
+Paragraph: IZEFEZ_charged
+Model: LLaMa 3.2 1B Instruct
+Expected: 24h (24.0 h)
+Got: 1h (1.0 h) - Wrong unit (days)
+Original text: To a 10 mL Pyrex glass tube was loaded Cd(NO3)2·4H2O (8 mg, 0.025 mmol), H4L (13 mg, 0.0125 mmol), 1.5 mL of DMF and 1.5 mL of EtOH, forming a red clear solution. After the pH value was adjusted to 5....
+2025-01-07 16:52:01,279 - 
+Paragraph: GOBTAT_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 36h (36.0 h)
+Got: 2h (2.0 h)
+Original text: Co(NO3)2·6H2O (0.155 g, 0.53 mmol) and H2ndc (0.116 g, 0.54 mmol) were dissolved in 10.0 mL of DMF. After adding dabco (0.020 g, 0.18 mmol) and o-xylene (5 mL), the mixture was stirred for 2 h at room...
+2025-01-07 16:52:01,280 - 
+Paragraph: QUTDAM_clean
+Model: LLaMa 3.2 1B Instruct
+Expected: 120h (120.0 h)
+Got: 5h (5.0 h) - Wrong unit (days)
+Original text:   A mixture of Cu(NO3)2·2H2O (0.022 g, 0.12 mmol), H4L (0.016 g, 0.04 mmol) in DMF/EtOH/H2O (2:1:1 v/v/v, 15 mL) was sealed in a 25 mL Teflon-lined stainless steel container. The resulting blue-green ...

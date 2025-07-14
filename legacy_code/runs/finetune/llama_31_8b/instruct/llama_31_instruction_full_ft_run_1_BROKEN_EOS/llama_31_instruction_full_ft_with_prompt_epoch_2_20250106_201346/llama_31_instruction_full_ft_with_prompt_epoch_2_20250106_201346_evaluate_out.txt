@@ -1,0 +1,275 @@
+2025-01-06 20:13:50,587 INFO     Loading settings and stats
+2025-01-06 20:13:50,587 INFO     Using prompt: Extract these synthesis conditions from the following Metal-Organic Framework (MOF) synthesis description: temperature (highest reaction temp, use 25°C if not specified), time (longest duration at highest temp), choose one main solvent (no mixtures or ratios), choose one chemical additive (write 'None' if no additive present). Never use JSON formatting like curly braces, escape characters, or newlines in your responses. Answers should be plain text values only., temperature: 0.0
+2025-01-06 20:13:50,590 DEBUG    Settings loaded. CSV path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 20:13:50,590 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201346.yml'
+2025-01-06 20:13:50,590 WARNING  [Errno 2] No such file or directory: 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201346.yaml'
+2025-01-06 20:13:50,590 WARNING  Could not load 'stats_llama_31_instruction_full_ft_with_prompt_epoch_2_20250106_201346.yml', creating it (empty)
+2025-01-06 20:13:50,592 INFO     Loading labels from CSV file: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+2025-01-06 20:13:50,597 INFO     Found 778 paragraphs with labels
+2025-01-06 20:13:50,597 DEBUG    First few valid IDs: ['HUYXOP_clean', 'DACSAE_clean', 'LELROL_clean', 'NOBVOR_clean', 'PEKZIP_clean']
+2025-01-06 20:13:50,597 INFO     Loading evaluation set instead of regular dataset.
+2025-01-06 20:13:50,598 DEBUG    Already evaluated: 0 items
+2025-01-06 20:13:50,598 INFO     Loading Dataset from /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs
+2025-01-06 20:13:50,598 INFO     Loading MOFDataset from '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs'
+2025-01-06 20:13:50,602 INFO     Dataset loaded with 77 items
+2025-01-06 20:13:50,602 INFO     Found 77 paragraphs that have labels in dataset
+2025-01-06 20:13:50,602 DEBUG    First few overlapping IDs: ['GUJREK_clean', 'ODEZAB_clean', 'AVETEC_clean', 'ACUJOZ_manual', 'TETZEZ_clean']
+2025-01-06 20:13:50,602 INFO     Processing model: LLaMa 3.1 8B
+2025-01-06 20:13:50,602 INFO     Skipping model [LLaMa 3.1 8B]
+2025-01-06 20:13:50,602 INFO     Processing model: LLaMa 3.1 8B Instruct
+2025-01-06 20:13:50,603 INFO       0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+2025-01-06 20:13:50,603 INFO     Loading Model [LLaMa 3.1 8B Instruct] from /home/iti/zn2950/home/haicore_ws/tunes/llama31_8b/instruction_full_ft/run_1_1736114112/epoch_2
+2025-01-06 20:13:51,277 INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+  0%|          | 0/77 [00:00<?, ?it/s, LLaMa 3.1 8B Instruct]
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][A
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.16s/it][A
+Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.12s/it][A
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.09s/it][A
+Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  2.89s/it][ALoading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.34s/it]
+╭───────────────── Traceback (most recent call last) ──────────────────╮
+│ /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_c │
+│ ode/src/mthesis/main.py:284 in evaluate                              │
+│                                                                      │
+│   281 │   │   │   │   progress_bar.update(diff)                      │
+│   282 │   │   │   │   first = False                                  │
+│   283 │   │   │   │   log.info(f"Loading Model [{model_name}] from { │
+│ ❱ 284 │   │   │   │   model = JsonformerModel(prompt=prompt, tempera │
+│   285 │   │   │   │   model.eval()  # set model to eval mode         │
+│   286 │   │   │                                                      │
+│   287 │   │   │   count += 1                                         │
+│                                                                      │
+│ ╭───────────────────────────── locals ─────────────────────────────╮ │
+│ │               batch = {                                          │ │
+│ │                       │   'paragraph_id': 'IQECIS_clean',        │ │
+│ │                       │   'text': 'CoSO4⋅7 H2O (0.029 g, 0.103   │ │
+│ │                       mmol), tpt (0.019 g, 0.061 mmol), and      │ │
+│ │                       H3btb (0.021 g'+621                        │ │
+│ │                       }                                          │ │
+│ │               count = 0                                          │ │
+│ │             dataset = <mthesis.dataloader.MOFDataset object at   │ │
+│ │                       0x15390aea36d0>                            │ │
+│ │         dataset_ids = {                                          │ │
+│ │                       │   'GUJREK_clean',                        │ │
+│ │                       │   'ODEZAB_clean',                        │ │
+│ │                       │   'AVETEC_clean',                        │ │
+│ │                       │   'ACUJOZ_manual',                       │ │
+│ │                       │   'TETZEZ_clean',                        │ │
+│ │                       │   'LAHTUM_clean',                        │ │
+│ │                       │   'VEMDAT_clean',                        │ │
+│ │                       │   'TEVHEJ_clean',                        │ │
+│ │                       │   'IPIHIA_clean',                        │ │
+│ │                       │   'DOKHOB_clean',                        │ │
+│ │                       │   ... +67                                │ │
+│ │                       }                                          │ │
+│ │        dataset_path = '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn29… │ │
+│ │         description = ''                                         │ │
+│ │              device = device(type='cuda')                        │ │
+│ │                diff = 0                                          │ │
+│ │           evaluated = frozenset()                                │ │
+│ │      evaluation_set = True                                       │ │
+│ │               first = False                                      │ │
+│ │           labels_df = │    Unnamed: 0      filename DISORDER     │ │
+│ │                       ... other6 other7  other8                  │ │
+│ │                       0             0  OFODET_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       1             1  XAVKIR_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       2             3  LATPIG_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       3             4  MOYYIJ_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       4             5  OFOCUI_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       ..          ...           ...      ...     │ │
+│ │                       ...    ...    ...     ...                  │ │
+│ │                       773         963  LEVDIB_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       774         964  LIKDOA_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       775         967  MUNDAC_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       776         968  MUNDOQ_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                       777         970  OYIVIC_clean      NaN     │ │
+│ │                       ...    NaN    NaN     NaN                  │ │
+│ │                                                                  │ │
+│ │                       [778 rows x 36 columns]                    │ │
+│ │             log_dir = 'logs/llama_31_instruction_full_ft_with_p… │ │
+│ │          model_name = 'LLaMa 3.1 8B Instruct'                    │ │
+│ │          model_path = '/home/iti/zn2950/home/haicore_ws/tunes/l… │ │
+│ │      model_settings = {                                          │ │
+│ │                       │   'model_name': 'LLaMa 3.1 8B Instruct', │ │
+│ │                       │   'model_path':                          │ │
+│ │                       '/home/iti/zn2950/home/haicore_ws/tunes/l… │ │
+│ │                       │   'model_type': 'text-generation'        │ │
+│ │                       }                                          │ │
+│ │          only_model = 'LLaMa 3.1 8B Instruct'                    │ │
+│ │             overlap = {                                          │ │
+│ │                       │   'GUJREK_clean',                        │ │
+│ │                       │   'ODEZAB_clean',                        │ │
+│ │                       │   'AVETEC_clean',                        │ │
+│ │                       │   'ACUJOZ_manual',                       │ │
+│ │                       │   'TETZEZ_clean',                        │ │
+│ │                       │   'LAHTUM_clean',                        │ │
+│ │                       │   'VEMDAT_clean',                        │ │
+│ │                       │   'TEVHEJ_clean',                        │ │
+│ │                       │   'IPIHIA_clean',                        │ │
+│ │                       │   'DOKHOB_clean',                        │ │
+│ │                       │   ... +67                                │ │
+│ │                       }                                          │ │
+│ │        paragraph_id = 'IQECIS_clean'                             │ │
+│ │        progress_bar = <tqdm.std.tqdm object at 0x15390aec1d90>   │ │
+│ │              prompt = 'Extract these synthesis conditions from   │ │
+│ │                       the following Metal-Organic Framework      │ │
+│ │                       (M'+385                                    │ │
+│ │            settings = {                                          │ │
+│ │                       │   'dataset_path':                        │ │
+│ │                       '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn29… │ │
+│ │                       │   'eval_dataset_path':                   │ │
+│ │                       '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn29… │ │
+│ │                       │   'csv_path':                            │ │
+│ │                       '/gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn29… │ │
+│ │                       │   'models': [                            │ │
+│ │                       │   │   {                                  │ │
+│ │                       │   │   │   'model_name': 'LLaMa 3.1 8B',  │ │
+│ │                       │   │   │   'model_path':                  │ │
+│ │                       '/home/iti/zn2950/home/haicore_ws/tunes/l… │ │
+│ │                       │   │   │   'model_type':                  │ │
+│ │                       'text-generation'                          │ │
+│ │                       │   │   },                                 │ │
+│ │                       │   │   {                                  │ │
+│ │                       │   │   │   'model_name': 'LLaMa 3.1 8B    │ │
+│ │                       Instruct',                                 │ │
+│ │                       │   │   │   'model_path':                  │ │
+│ │                       '/home/iti/zn2950/home/haicore_ws/tunes/l… │ │
+│ │                       │   │   │   'model_type':                  │ │
+│ │                       'text-generation'                          │ │
+│ │                       │   │   }                                  │ │
+│ │                       │   ],                                     │ │
+│ │                       │   'extract_config': {                    │ │
+│ │                       │   │   'additive': {                      │ │
+│ │                       │   │   │   'type': 'string',              │ │
+│ │                       │   │   │   'convert_funcs': ['ans2cid'],  │ │
+│ │                       │   │   │   'dataset_cols': [              │ │
+│ │                       │   │   │   │   'additive1'                │ │
+│ │                       │   │   │   ]                              │ │
+│ │                       │   │   },                                 │ │
+│ │                       │   │   'solvent': {                       │ │
+│ │                       │   │   │   'type': 'string',              │ │
+│ │                       │   │   │   'convert_funcs': ['ans2cid'],  │ │
+│ │                       │   │   │   'dataset_cols': ['solvent1']   │ │
+│ │                       │   │   },                                 │ │
+│ │                       │   │   'temperature': {                   │ │
+│ │                       │   │   │   'type': 'number',              │ │
+│ │                       │   │   │   'unit': 'C',                   │ │
+│ │                       │   │   │   'convert_funcs': [             │ │
+│ │                       │   │   │   │   'ans2temperature'          │ │
+│ │                       │   │   │   ],                             │ │
+│ │                       │   │   │   'dataset_cols': [              │ │
+│ │                       │   │   │   │   'temperature_Celsius'      │ │
+│ │                       │   │   │   ]                              │ │
+│ │                       │   │   },                                 │ │
+│ │                       │   │   'time': {                          │ │
+│ │                       │   │   │   'type': 'number',              │ │
+│ │                       │   │   │   'unit': 'h',                   │ │
+│ │                       │   │   │   'convert_funcs': [             │ │
+│ │                       │   │   │   │   'ans2time'                 │ │
+│ │                       │   │   │   ],                             │ │
+│ │                       │   │   │   'dataset_cols': ['time_h']     │ │
+│ │                       │   │   }                                  │ │
+│ │                       │   }                                      │ │
+│ │                       }                                          │ │
+│ │               stats = []                                         │ │
+│ │          stats_path = 'stats_llama_31_instruction_full_ft_with_… │ │
+│ │         temperature = 0.0                                        │ │
+│ │ valid_paragraph_ids = {                                          │ │
+│ │                       │   'HUYXOP_clean',                        │ │
+│ │                       │   'DACSAE_clean',                        │ │
+│ │                       │   'LELROL_clean',                        │ │
+│ │                       │   'NOBVOR_clean',                        │ │
+│ │                       │   'PEKZIP_clean',                        │ │
+│ │                       │   'TANLAX_charged',                      │ │
+│ │                       │   'WIVFIS_clean',                        │ │
+│ │                       │   'QARTEK_clean',                        │ │
+│ │                       │   'BAFCAP_clean',                        │ │
+│ │                       │   'SUKYIH_clean',                        │ │
+│ │                       │   ... +768                               │ │
+│ │                       }                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────╯ │
+│                                                                      │
+│ /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/master_thesis/legacy_c │
+│ ode/src/mthesis/models.py:64 in __init__                             │
+│                                                                      │
+│    61 │   │   │   )                                                  │
+│    62 │   │   │   print("EOS_TOKEN: " + str(self.tokenizer.eos_token │
+│    63 │   │   │   print("PAD_TOKEN: " + str(self.tokenizer.pad_token │
+│ ❱  64 │   │   │   print(tokenizer("Hello, my dog is cute").input_ids │
+│    65 │   │   │   if self.model_name == "Phi 3 Mini 4k Instruct":    │
+│    66 │   │   │   │   # We have to use the max vocab size of 32064 f │
+│    67 │   │   │   │   # For some reason only 32011 tokens are define │
+│                                                                      │
+│ ╭───────────────────────────── locals ─────────────────────────────╮ │
+│ │    load_params = True                                            │ │
+│ │   model_kwargs = {                                               │ │
+│ │                  │   'torch_dtype': torch.float16,               │ │
+│ │                  │   'load_in_8bit': False,                      │ │
+│ │                  │   'trust_remote_code': True,                  │ │
+│ │                  │   'device_map': 'auto',                       │ │
+│ │                  │   'do_sample': False                          │ │
+│ │                  }                                               │ │
+│ │     model_name = 'LLaMa 3.1 8B Instruct'                         │ │
+│ │     model_path = '/home/iti/zn2950/home/haicore_ws/tunes/llama3… │ │
+│ │     model_type = 'text-generation'                               │ │
+│ │         prompt = 'Extract these synthesis conditions from the    │ │
+│ │                  following Metal-Organic Framework (M'+385       │ │
+│ │           self = JsonformerModel(                                │ │
+│ │                    (model): LlamaForCausalLM(                    │ │
+│ │                  │   (model): LlamaModel(                        │ │
+│ │                  │     (embed_tokens): Embedding(128256, 4096)   │ │
+│ │                  │     (layers): ModuleList(                     │ │
+│ │                  │   │   (0-31): 32 x LlamaDecoderLayer(         │ │
+│ │                  │   │     (self_attn): LlamaSdpaAttention(      │ │
+│ │                  │   │   │   (q_proj): Linear(in_features=4096,  │ │
+│ │                  out_features=4096, bias=False)                  │ │
+│ │                  │   │   │   (k_proj): Linear(in_features=4096,  │ │
+│ │                  out_features=1024, bias=False)                  │ │
+│ │                  │   │   │   (v_proj): Linear(in_features=4096,  │ │
+│ │                  out_features=1024, bias=False)                  │ │
+│ │                  │   │   │   (o_proj): Linear(in_features=4096,  │ │
+│ │                  out_features=4096, bias=False)                  │ │
+│ │                  │   │   │   (rotary_emb):                       │ │
+│ │                  LlamaRotaryEmbedding()                          │ │
+│ │                  │   │     )                                     │ │
+│ │                  │   │     (mlp): LlamaMLP(                      │ │
+│ │                  │   │   │   (gate_proj):                        │ │
+│ │                  Linear(in_features=4096, out_features=14336,    │ │
+│ │                  bias=False)                                     │ │
+│ │                  │   │   │   (up_proj): Linear(in_features=4096, │ │
+│ │                  out_features=14336, bias=False)                 │ │
+│ │                  │   │   │   (down_proj):                        │ │
+│ │                  Linear(in_features=14336, out_features=4096,    │ │
+│ │                  bias=False)                                     │ │
+│ │                  │   │   │   (act_fn): SiLU()                    │ │
+│ │                  │   │     )                                     │ │
+│ │                  │   │     (input_layernorm):                    │ │
+│ │                  LlamaRMSNorm((4096,), eps=1e-05)                │ │
+│ │                  │   │     (post_attention_layernorm):           │ │
+│ │                  LlamaRMSNorm((4096,), eps=1e-05)                │ │
+│ │                  │   │   )                                       │ │
+│ │                  │     )                                         │ │
+│ │                  │     (norm): LlamaRMSNorm((4096,), eps=1e-05)  │ │
+│ │                  │     (rotary_emb): LlamaRotaryEmbedding()      │ │
+│ │                  │   )                                           │ │
+│ │                  │   (lm_head): Linear(in_features=4096,         │ │
+│ │                  out_features=128256, bias=False)                │ │
+│ │                    )                                             │ │
+│ │                  )                                               │ │
+│ │    temperature = 0.0                                             │ │
+│ │ tokenizer_path = None                                            │ │
+│ ╰──────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────╯
+NameError: name 'tokenizer' is not defined
+model kwargs: {'torch_dtype': torch.float16, 'load_in_8bit': False, 'trust_remote_code': True, 'device_map': 'auto', 'do_sample': False}
+EOS_TOKEN: 128009
+PAD_TOKEN: None

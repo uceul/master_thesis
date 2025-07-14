@@ -1,0 +1,2 @@
+
+A mixture of 3CdSO4·8H2O (23.08 mg, 0.03 mmol) and H3L (5.72 mg, 0.02 mmol) was dissolved in 4.5 mL of DMF/CH3OH/H2O (1:4:4, v/v/v). The final mixture was placed in a Teflon-lined stainless steel container, heated at 150 °C for 36 h and then cooled to room temperature over a period of 48 h. Colorless crystals were obtained (yield: 62% based on H3L). Anal. calcd for C15H12Cd1.5O8.5: C, 35.26; H, 2.43%. Found: C, 35.34; H, 2.50%. IR (KBr, cm−1): 3428(m), 2027(w), 1579(m), 1539(m), 1403(s), 1294(w), 1185(w), 1106(w), 1015(w), 854(m), 775(s), 709(m), 580(m), 518(w), 466(m).

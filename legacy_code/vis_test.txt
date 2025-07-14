@@ -1,0 +1,14 @@
+{
+│   'Total': {
+│   │   'temperature': {'correct': 768, 'wrong': 10},
+│   │   'time': {'correct': 767, 'wrong': 11},
+│   │   'additive': {'correct': 186, 'wrong': 592, 'resolve_answer': 113, 'correct_multiple': 187},
+│   │   'solvent': {'correct': 449, 'wrong': 329, 'resolve_answer': 282, 'correct_multiple': 703}
+│   },
+│   'LLaMa 3.1 8B Instruct': {
+│   │   'temperature': {'correct': 768, 'wrong': 10},
+│   │   'time': {'correct': 767, 'wrong': 11},
+│   │   'additive': {'correct': 186, 'wrong': 592, 'resolve_answer': 113, 'correct_multiple': 187},
+│   │   'solvent': {'correct': 449, 'wrong': 329, 'resolve_answer': 282, 'correct_multiple': 703, 'found_in_text': 25, 'found_in_text_unresolvable': 20}
+│   }
+}

@@ -1,0 +1,180 @@
+- answer:
+    additive: NaOH
+    solvent: H2O
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: min
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: I
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: H
+- answer:
+    additive: sodium chloride
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: V
+- answer:
+    additive: sodium chloride
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: X
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: I
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: H
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: L
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: P
+- answer:
+    additive: sodium chloride
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: E
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: S
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: Q
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: P
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: I
+- answer:
+    additive: NaOH
+    solvent: H2O
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: min
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: X
+- answer:
+    additive: sodium chloride
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: Q
+- answer:
+    additive: NaOH
+    solvent: H2O
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: min
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: P
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: V
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 30.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: Z
+- answer:
+    additive: sodium hydroxide
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: T
+- answer:
+    additive: sodium chloride
+    solvent: water
+    temperature: 25.0
+    temperature_unit: "\xB0C"
+    time: 10.0
+    time_unit: minutes
+  model_name: LLaMa 3.1 8B Instruct
+  paragraph_id: A

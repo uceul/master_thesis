@@ -1,0 +1,2 @@
+
+The H4NPA (4 mg, 0.0088 mmol) and Cu(NO3)2·2.5H2O (8.50 mg, 0.0352 mmol) were dissolved in DMF/H2O (3 mL, 4/1, v/v) in a screw-capped vial. After HNO3 (150 μL) was added to the mixture, the vial was capped and placed in an oven at 70 °C for 48 h. The resulting blue cuboid-shaped single crystals were washed with DMF several times to give ZJU-9 (6.8 mg, 75% yield base on H4NPA). Elemental analysis: calcd for [Cu2(C26H12O8)(H2O)2] (C3H7NO)5.5(H2O)0.5 (C42.5H55.5N5.5O16Cu2, %): C, 49.73; H, 5.45; N, 7.50; found: C, 49.71; H, 5.37; N, 7.57.

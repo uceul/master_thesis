@@ -1,0 +1,60 @@
+2025-01-04 03:02:52,415 - 
+Paragraph: ALATAK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 72h (72.0 h)
+Got: 12h (12.0 h)
+Original text: In a 20 mL glass vial equipped with a magnetic stirrer bar, calcium carbonate (150 mg, 1.50 mmol) was added to a vigorously stirred suspension of H2dhbq (210 mg, 1.50 mmol) in water (10 mL). The vial ...
+2025-01-04 03:02:56,246 - 
+Paragraph: CUTBIE_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 36h (36.0 hour)
+Original text:   La(NO3)3·6H2O (25 mg, 0.0577 mmol) and H3TAIP (10 mg, 0.0282 mmol) were dissolved in DMF (1 mL), and then HNO3 (125 μL, 2.7 M in DMF) was added. The solution was sealed in a 20 mL vial and heated at...
+2025-01-04 03:03:07,390 - 
+Paragraph: NEVJEF_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 96h (96.0 h)
+Got: 120h (120.0 hour)
+Original text:   Cd(NO3)2·4H2O (1 mmol, 308 mg), bpy (0.4 mmol, 60 mg), and THF (5 mL) were added into a solution of H4adtp (0.2 mmol, 60 mg) in H2O (5 ml) which was adjusted to the pH value at ca. 8.0 with 1 mol L−...
+2025-01-04 03:03:10,680 - 
+Paragraph: KAVGAQ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 96h (96.0 h)
+Got: 288h (288.0 hours)
+Original text: {[Co3(IDC)2(4,4‘-bipy)(H2O)4]·2H2O}n (1). A mixture of Co(NO3)2·6H2O (38 mg, 0.13 mmol), 4,5-dicarboxyimidazole (20 mg, 0.13 mmol), 4,4‘-bipy (20 mg, 0.13 mmol), and Et3N (0.036 mL, 0.26 mmol) in 15 m...
+2025-01-04 03:03:13,911 - 
+Paragraph: KUHNIM_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 48h (48.0 h)
+Got: 64h (64.0 hours)
+Original text:   A mixture of Zn(NO3)2·6H2O (0.5 mmol, 0.149 g), 1,2,4,5-benzene tetracarboxylic dianhydride (BTD) (0.5 mmol, 0.104 g), NH3·H2O (0.5 mL), and H2O (7.5 mL) was heated at 110 °C for 48 h in a 20 mL sea...
+2025-01-04 03:03:16,627 - 
+Paragraph: ADATIK_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 12h (12.0 h)
+Got: 20h (20.0 h)
+Original text: rht‐MOF‐8: Cu(NO3)2⋅2.5 H2O (39 mg), H3L4 (40 mg), DMF (1 mL) added to 20 mL vial, heated to 75 °C/20 h, 85 °C/12 h to give blue polyhedral crystals. I4m, a=41.557, c=59.003 Å. ...
+2025-01-04 03:03:18,318 - 
+Paragraph: ZIKJOU_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 30h (30.0 h)
+Got: 60h (60.0 h)
+Original text: A mixture of Cu(NO3)2·3H2O (0.030 g, 0.12 mmol), H4L·H2O (0.010 g, 0.02 mmol), DMF (1 mL), CH3OH (1 mL) and 3 drops HBF4 (40% in water) was sealed in a glass vial. The mixture was heated at 75 °C for ...
+2025-01-04 03:03:20,002 - 
+Paragraph: DINNIZ_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 6h (6.0 h)
+Original text: [Mn4(Adi)4(DMF)2]n (3). Adipic acid (1 mmol) and MnCl2·4H2O (0.5 mmol) were dissolved in 5 mL DMF and 5 mL ethanol solution, stirred for 5 min and transferred to 23 ml Teflon-lined autoclave and heate...
+2025-01-04 03:03:22,656 - 
+Paragraph: REDROI_clean
+Model: LLaMa 3.1 8B Instruct
+Expected: 24h (24.0 h)
+Got: 720h (30.0 days)
+Original text: Synthesis of Zn5(OH)4(BDC)3 · 2DMF (1): Zn(NO3)2 · 6H2O (0.445 g, 1.5 mmol) and H2BDC(0.083 g, 0.5 mmol) were dissolved in 10 mL DMF, into which 3 drops of 35% H2O2 was added. The colorless solution w...
+2025-01-04 03:03:24,002 - 
+Paragraph: SOGWIV_charged
+Model: LLaMa 3.1 8B Instruct
+Expected: 168h (168.0 h)
+Got: 30h (30.0 hour)
+Original text: All starting reagents were commercially available and used as received without further purification. Pyridine-2,4,6-tricarboxylic acid was synthesized by the oxidation of 2,4,6-trimethylpyridine by KM...

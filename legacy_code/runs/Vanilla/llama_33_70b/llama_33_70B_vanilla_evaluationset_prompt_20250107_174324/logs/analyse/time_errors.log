@@ -1,0 +1,12 @@
+2025-01-07 17:51:55,032 - 
+Paragraph: SODQOT_clean
+Model: LLaMa 3.3 70B Instruct
+Expected: 48h (48.0 h)
+Got: 20h (20.0 h)
+Original text:   In a typical synthesis 45.0 mg (0.197 mmol) of 2-fluoro-1,3,5-benzenetricarboxylic acid were dissolved in 4 mL of DMA including 0.28 mL of HNO3 (20%). Afterwards 0.4 mL of a Cu(NO3)2·3H2O solution (...
+2025-01-07 17:51:55,033 - 
+Paragraph: RESWOC_clean
+Model: LLaMa 3.3 70B Instruct
+Expected: 24h (24.0 h)
+Got: 12h (12.0 hours)
+Original text: Preparation of Er2(BDC)3(DMF)2(H2O)2·H2O (1). A mixture of Er(NO3)3·5H2O (0.0512 g, 0.115 mmol) and H2BDC (0.0290 g, 0.175 mmol) in a solution containing DMF (3 mL), C2H5OH (3 mL), and H2O (2 mL) in a...

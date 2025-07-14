@@ -1,0 +1,36 @@
+dataset_path: /home/iti/zn2950/home/ws/data/new_batch_202303
+eval_dataset_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/eval_paragraphs
+csv_path: /gfse/data/LSDF/lsdf01/lsdf/kit/iti/zn2950/ws/data/tobias/SynMOF_M_out.csv
+#checkpoint_path: /pfs/work7/workspace/scratch/lz5921-chkpt/
+models:
+- model_name: LLaMa 3.3 70B Instruct
+  model_path: /home/iti/zn2950/home/haicore_ws/base_models/Llama-3.3-70B-Instruct
+  model_type: text-generation
+
+extract_config:
+  additive:
+    type: string
+    convert_funcs:
+    - ans2cid
+    dataset_cols:
+    - additive1
+  solvent:
+    type: string
+    convert_funcs:
+    - ans2cid
+    dataset_cols:
+    - solvent1
+  temperature:
+    type: number
+    unit: C
+    convert_funcs:
+    - ans2temperature
+    dataset_cols:
+    - temperature_Celsius
+  time:
+    type: number
+    unit: h
+    convert_funcs:
+    - ans2time
+    dataset_cols:
+    - time_h
